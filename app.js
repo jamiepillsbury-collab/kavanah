@@ -43,11 +43,13 @@
     save();
   };
   // ---------- sound: recording if present, else the phone's Hebrew voice ----------
-  let heVoice = null;
+  let heVoice = null, allVoices = [];
   const pickVoice = () => {
     if (!("speechSynthesis" in window)) return;
     const vs = speechSynthesis.getVoices();
-    heVoice = vs.find((v) => /^(he|iw)\b/i.test(v.lang) && v.localService) || vs.find((v) => /^(he|iw)\b/i.test(v.lang)) || null;
+    allVoices = vs;
+    const isHe = (v) => /^(he|iw|heb)([-_]|$)/i.test(v.lang) || /hebrew|עברית/i.test(v.name);
+    heVoice = vs.find((v) => isHe(v) && v.localService) || vs.find(isHe) || null;
   };
   const canHear = (it) => !!(it && (it.audio || (heVoice && it.say)));
   const speak = (it, done) => {
@@ -550,7 +552,8 @@
       h("p", { class: "sub" }, "Hints are always one tap away. Revealing one never counts against you."),
       h("h2", {}, "Sound"),
       h("p", { class: "sub" }, heVoice ? `Hebrew voice: ${heVoice.name}. Your own recordings, once added, replace it item by item.`
-        : "No Hebrew voice found. On Android: Settings › System › Languages › Text-to-speech › Google › install Hebrew, then reopen the app."),
+        : "No Hebrew voice found. Samsung: Settings › General management › Text-to-speech › Preferred engine = Speech Recognition and Synthesis from Google, then its gear › Install voice data › Hebrew. Then Settings › Apps › Chrome › Force stop, and reopen this app."),
+      h("p", { class: "sub" }, `Voices this browser can see: ${allVoices.length}` + (allVoices.length ? ` (${[...new Set(allVoices.map((v) => v.lang))].slice(0, 12).join(", ")}${allVoices.length > 12 ? ", …" : ""})` : "")),
       h("div", { class: "row" }, h("label", { for: "rate" }, "Speaking speed"),
         h("select", { id: "rate", onchange: (e) => { state.settings.rate = +e.target.value; save(); } },
           [[0.6, "Slow"], [0.8, "Relaxed"], [1, "Normal"]].map(([v, t]) => h("option", { value: v, selected: (state.settings.rate || 0.8) === v }, t)))),
