@@ -596,5 +596,5 @@
     showTab("learn");
   }
   boot().catch((e) => { view.textContent = "Couldn't load lessons. " + e.message; });
-  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).catch(() => {});
 })();

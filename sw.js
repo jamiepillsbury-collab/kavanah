@@ -17,7 +17,8 @@ self.addEventListener("fetch", (e) => {
   const own = new URL(e.request.url).origin === location.origin;
   e.respondWith(caches.open(VERSION).then(async (c) => {
     const hit = await c.match(e.request, { ignoreSearch: true });
-    const net = () => fetch(e.request).then((r) => { if (r && (r.ok || r.type === "opaque")) c.put(e.request, r.clone()); return r; });
+    // no-cache: always ask GitHub whether the file changed (its HTTP cache otherwise serves old files for ~10 min)
+    const net = () => fetch(own ? new Request(e.request.url, { cache: "no-cache", credentials: "same-origin" }) : e.request).then((r) => { if (r && (r.ok || r.type === "opaque")) c.put(e.request, r.clone()); return r; });
     if (own) return net().catch(() => hit || Response.error());
     return hit || net().catch(() => Response.error());
   }));
