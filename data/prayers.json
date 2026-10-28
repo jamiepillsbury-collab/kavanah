@@ -1,0 +1,316 @@
+{
+ "generated_by": "tools/build_prayers.py",
+ "source_fetched": "2026-10-28T19:30:30Z",
+ "prayers": [
+  {
+   "id": "hamotzi",
+   "title": "HaMotzi",
+   "about": "Blessing over bread",
+   "order": 0,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Berachot, Birkat Hanehenin, Eating, Barachot Rishonot (Daat Siddur Ashkenaz, Public Domain)",
+   "check": [
+    "No Sefaria English found for this text."
+   ],
+   "lines": [
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם הַמּוֹצִיא לֶחֶם מִן הָאָרֶץ",
+     "tl": "Baruch atah Adonai Eloheinu melech ha-olam hamotzi lechem min ha-aretz",
+     "tlf": false,
+     "en": null,
+     "en_src": null,
+     "en_license": null,
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "candles",
+   "title": "Shabbat candles",
+   "about": "Blessing for lighting Shabbat candles",
+   "order": 1,
+   "audio": null,
+   "he_src": "Siddur Sefard, Shabbat Candle Lighting (Torat Emet 357, Public Domain)",
+   "check": [
+    "Mishkan T'filah wording: confirm 'l'hadlik ner shel Shabbat' matches your siddur."
+   ],
+   "lines": [
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ לְהַדְלִיק נֵר שֶׁל שַׁבָּת",
+     "tl": "Baruch atah Adonai Eloheinu melech ha-olam, asher kid'shanu b'mitzvotav v'tzivanu l'hadlik neir shel Shabbat",
+     "tlf": false,
+     "en": "Blessed are You, Adonai our God, King of the Universe, Who sanctified us with His commandments and commanded us to kindle the Shabbat light.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "shehecheyanu",
+   "title": "Shehecheyanu",
+   "about": "Blessing for new and special moments",
+   "order": 2,
+   "audio": null,
+   "he_src": "Siddur Sefard, Blessings, Shehecheyanu (Torat Emet 357, Public Domain)",
+   "check": [
+    "No Sefaria English found for this text."
+   ],
+   "lines": [
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם שֶׁהֶחֱיָנוּ וְקִיְּמָנוּ וְהִגִּיעָנוּ לַזְמַן הַזֶּה",
+     "tl": "Baruch atah Adonai Eloheinu melech ha-olam shehecheyanu v'kiy'manu v'higi-anu lazman hazeh",
+     "tlf": false,
+     "en": null,
+     "en_src": null,
+     "en_license": null,
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "barchu",
+   "title": "Barchu",
+   "about": "Call to prayer and response",
+   "order": 3,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Barchu (The Metsudah siddur, 1981, CC-BY)",
+   "check": [],
+   "lines": [
+    {
+     "he": "בָּרְכוּ אֶת יְיָ הַמְבֹרָךְ",
+     "tl": "Bar'chu et Adonai ham'vorach",
+     "tlf": false,
+     "en": "Bless Adonai who is blessed.",
+     "en_src": "Ha-Siddur Ha-Shalem (1949)",
+     "en_license": "unknown",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ יְיָ הַמְבֹרָךְ לְעוֹלָם וָעֶד",
+     "tl": "Baruch Adonai ham'vorach l'olam va-ed",
+     "tlf": false,
+     "en": "Blessed be Adonai who is blessed for all time.",
+     "en_src": "Ha-Siddur Ha-Shalem (1949)",
+     "en_license": "unknown",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "torah_before",
+   "title": "Torah blessing (before)",
+   "about": "Blessing before a Torah reading",
+   "order": 4,
+   "audio": null,
+   "he_src": "Siddur Sefard, Shabbat Morning Services, Blessings on Torah Reading (Torat Emet 357, Public Domain)",
+   "check": [
+    "Mishkan T'filah: 'mikol ha-amim' or 'im kol ha-amim'? (line 3)"
+   ],
+   "lines": [
+    {
+     "he": "בָּרְכוּ אֶת יְיָ הַמְבֹרָךְ",
+     "tl": "Bar'chu et Adonai ham'vorach",
+     "tlf": false,
+     "en": "Blessed Adonai, Who is blessed.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ יְיָ הַמְבֹרָךְ לְעוֹלָם וָעֶד",
+     "tl": "Baruch Adonai ham'vorach l'olam va-ed",
+     "tlf": false,
+     "en": "Blessed is Adonai, Who is blessed, forever and ever.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר בָּחַר בָּנוּ מִכָּל הָעַמִּים וְנָתַן לָנוּ אֶת תּוֹרָתוֹ",
+     "tl": "Baruch atah Adonai Eloheinu melech ha-olam asher bachar banu mikol ha-amim v'natan lanu et torato",
+     "tlf": false,
+     "en": "Blessed are You, Adonai our God, King of the Universe, Who chose us from among all the peoples and gave us His Torah.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ נוֹתֵן הַתּוֹרָה",
+     "tl": "Baruch atah Adonai notein haTorah",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Giver of the Torah.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "torah_after",
+   "title": "Torah blessing (after)",
+   "about": "Blessing after a Torah reading",
+   "order": 5,
+   "audio": null,
+   "he_src": "Siddur Sefard, Shabbat Morning Services, Blessings on Torah Reading (Torat Emet 357, Public Domain)",
+   "check": [],
+   "lines": [
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר נָתַן לָנוּ תּוֹרַת אֱמֶת וְחַיֵּי עוֹלָם נָטַע בְּתוֹכֵנוּ",
+     "tl": "Baruch atah Adonai Eloheinu melech ha-olam asher natan lanu torat emet v'chayei olam nata b'tocheinu",
+     "tlf": false,
+     "en": "Blessed are You, Adonai our God, King of the Universe Who gave us the Torah of truth, and implanted eternal life within us.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ נוֹתֵן הַתּוֹרָה",
+     "tl": "Baruch atah Adonai notein haTorah",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Giver of the Torah.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "kiddush",
+   "title": "Kiddush (Shabbat evening)",
+   "about": "Sanctifying Shabbat over wine",
+   "order": 6,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Shabbat Evening, Kiddush (The Metsudah siddur, 1981, CC-BY)",
+   "check": [
+    "Does Mishkan T'filah include 'Vay'hi erev vay'hi voker' and 'Savri maranan'?",
+    "Mishkan T'filah wording of 'ki vanu vacharta v'otanu kidashta mikol ha-amim'?",
+    "Line 1 English joins two Metsudah pieces; Genesis lines use Contemporary Torah."
+   ],
+   "lines": [
+    {
+     "he": "וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם הַשִּׁשִּׁי",
+     "tl": "Vay'hi erev vay'hi voker yom hashishi",
+     "tlf": false,
+     "en": "And evening came, then morning came: the sixth day.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל־צְבָאָם",
+     "tl": "Vay'chulu hashamayim v'ha-aretz v'chol tz'va-am",
+     "tlf": false,
+     "en": "The heaven and the earth were finished, and all their array.",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וַיְכַל אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מְלַאכְתּוֹ אֲשֶׁר עָשָׂה, וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי מִכָּל־מְלַאכְתּוֹ אֲשֶׁר עָשָׂה",
+     "tl": "Vay'chal Elohim bayom hash'vi-i m'lachto asher asah, vayishbot bayom hash'vi-i mikol m'lachto asher asah",
+     "tlf": false,
+     "en": "On the seventh day God finished the work that had been undertaken: [God] ceased on the seventh day from doing any of the work.",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וַיְבָרֶךְ אֱלֹהִים אֶת־יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ, כִּי בוֹ שָׁבַת מִכָּל מְלַאכְתּוֹ אֲשֶׁר־בָּרָא אֱלֹהִים לַעֲשׂוֹת",
+     "tl": "Vay'varech Elohim et yom hash'vi-i vay'kadeish oto, ki vo shavat mikol m'lachto asher bara Elohim la-asot",
+     "tlf": false,
+     "en": "And God blessed the seventh day and declared it holy—having ceased on it from all the work of creation that God had done.",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "סַבְרִי מָרָנָן וְרַבּוֹתַי",
+     "tl": "Savri maranan v'rabotai",
+     "tlf": false,
+     "en": "Attention! our masters and our teachers",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם בּוֹרֵא פְּרִי הַגָּפֶן",
+     "tl": "Baruch atah Adonai Eloheinu melech ha-olam borei p'ri hagafen",
+     "tlf": false,
+     "en": "Blessed are You, Adonai our God, King of the Universe, Creator of the fruit of the vine.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְרָצָה בָנוּ, וְשַׁבַּת קָדְשׁוֹ בְּאַהֲבָה וּבְרָצוֹן הִנְחִילָנוּ, זִכָּרוֹן לְמַעֲשֵׂה בְרֵאשִׁית, כִּי הוּא יוֹם תְּחִלָּה לְמִקְרָאֵי קֹדֶשׁ, זֵכֶר לִיצִיאַת מִצְרָיִם, כִּי בָנוּ בָחַרְתָּ וְאוֹתָנוּ קִדַּשְׁתָּ מִכָּל הָעַמִּים וְשַׁבַּת קָדְשְׁךָ בְּאַהֲבָה וּבְרָצוֹן הִנְחַלְתָּנוּ",
+     "tl": "Baruch atah Adonai Eloheinu melech ha-olam, asher kid'shanu b'mitzvotav v'ratzah vanu, v'Shabbat kodsho b'ahavah uv'ratzon hinchilanu, zikaron l'ma-asei v'reishit, ki hu yom t'chilah l'mikra-ei kodesh, zeicher litzi-at Mitzrayim, ki vanu vacharta v'otanu kidashta mikol ha-amim v'Shabbat kodsh'cha b'ahavah uv'ratzon hinchaltanu",
+     "tlf": false,
+     "en": "Blessed are You, Adonai our God, King of the Universe, Who sanctified us with His commandments and was pleased with us. And His holy Sabbath, with love and pleasure, He gave us for a heritage, a commemoration of the work of creation. For this day is the first of the days of holy convocations commemorating the exodus from Egypt. For us have You chosen and us have You sanctified from among all the peoples. And Your holy Sabbath with love and pleasure You gave us for a heritage.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ, מְקַדֵּשׁ הַשַּׁבָּת",
+     "tl": "Baruch atah Adonai, m'kadeish haShabbat",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Sanctifier of the Sabbath.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "haftarah_before",
+   "title": "Haftarah blessing (before)",
+   "about": "Blessing before the reading from the Prophets",
+   "order": 7,
+   "audio": null,
+   "he_src": "Siddur Sefard, Shabbat Morning Services, Haftarah Blessings (Torat Emet 357, Public Domain)",
+   "check": [],
+   "lines": [
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר בָּחַר בִּנְבִיאִים טוֹבִים, וְרָצָה בְדִבְרֵיהֶם הַנֶּאֱמָרִים בֶּאֱמֶת",
+     "tl": "Baruch atah Adonai Eloheinu melech ha-olam, asher bachar binvi-im tovim, v'ratzah v'divreihem hane-emarim be-emet",
+     "tlf": false,
+     "en": "Blessed are You, Adonai our God, King of the Universe, Who chose good prophets, and was pleased with their words which were spoken in truth.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ, הַבּוֹחֵר בַּתּוֹרָה וּבְמשֶׁה עַבְדּוֹ, וּבְיִשְׂרָאֵל עַמּוֹ, וּבִנְבִיאֵי הָאֱמֶת וָצֶדֶק",
+     "tl": "Baruch atah Adonai, habocheir baTorah uv'Moshe avdo, uv'Yisrael amo, uvinvi-ei ha-emet vatzedek",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Who chooses the Torah and Moses, His servant, and Israel, His people, and the prophets of truth and righteousness.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  }
+ ]
+}

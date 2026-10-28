@@ -24,6 +24,13 @@ EXCEPT = {"יְיָ": "Adonai", "יהוה": "Adonai", "יְהוָה": "Adonai", 
           "מִצְוֹתָיו": "mitzvotav", "מֹשֶׁה": "Moshe", "בְּחָכְמָה": "b'chochmah", "מִצְוֹת": "mitzvot", "בְּמִצְוֹתָיו": "b'mitzvotav", "קָדְשֵׁנוּ": "kid'shanu",
           "קִדְּשָׁנוּ": "kid'shanu", "אֱלֹהֵינוּ": "Eloheinu", "יְהֹוָה": "Adonai", "אֲדֹנָי": "Adonai"}
 
+# Added 2026-10-28 for blessings (Mishkan T'filah style; kamatz katan words resolved by hand)
+EXCEPT.update({"בָּרְכוּ": "Bar'chu", "הַמְבֹרָךְ": "ham'vorach", "קָדְשׁוֹ": "kodsho", "קָדְשְׁךָ": "kodsh'cha",
+    "וַיְהִי": "vay'hi", "וַיְכֻלּוּ": "vay'chulu", "וַיְכַל": "vay'chal", "וַיְבָרֶךְ": "vay'varech", "וַיְקַדֵּשׁ": "vay'kadeish",
+    "וּבְמשֶׁה": "uv'Moshe", "וּבְמֹשֶׁה": "uv'Moshe", "וּבְיִשְׂרָאֵל": "uv'Yisrael", "מִצְרָיִם": "Mitzrayim", "הַתּוֹרָה": "haTorah",
+    "בַּתּוֹרָה": "baTorah", "הַשַּׁבָּת": "haShabbat"})
+
+
 def _letters(word):
     """Split a word into [letter, set(points)]."""
     out = []
