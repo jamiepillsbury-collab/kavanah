@@ -516,7 +516,7 @@
       reset, msg,
       h("h2", {}, "About"),
       h("p", { class: "sub" }, `Version ${self.APP_VERSION || "?"}. If this doesn't match the latest, close and reopen the app.`),
-      h("p", { class: "sub" }, "Breathing, sleep and soundscapes live in ", h("a", { href: "https://neshamah-calm.netlify.app/", target: "_blank", rel: "noopener" }, "Neshamah"), "."));
+      h("p", { class: "sub" }, "Breathing, sleep and soundscapes live in ", h("a", { href: "https://neshamah.netlify.app/", target: "_blank", rel: "noopener" }, "Neshamah"), "."));
   }
 
   // ---------- boot ----------
