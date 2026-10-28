@@ -52,7 +52,7 @@ for n in range(0, len(ids), PER):
     lessons.append({"id": f"words-{n // PER + 1}", "title": f"Words {n // PER + 1}",
                     "subtitle": f"Toward {titles[first]}" if first else "", "items": chunk})
 out = {"version": 1, "generated_by": "tools/gen_words.py",
-       "units": [{"id": "u-words", "title": "Prayer words", "subtitle": "The words of the blessings, most common first", "lessons": lessons}],
+       "units": [{"id": "u-words", "title": "Prayer words", "subtitle": "The words of the blessings, most common first", "lessons": lessons, "tiles": False}],
        "items": items}
 json.dump(out, open(os.path.join(ROOT, "data/words.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(len(items), "words,", len(lessons), "lessons,", sum(1 for x in items.values() if x["gloss"]), "with gloss,",

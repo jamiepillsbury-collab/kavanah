@@ -2,7 +2,7 @@
 (() => {
   "use strict";
   const KEY = "kavanah.v1";
-  const DATA_FILES = ["data/alefbet.json"];
+  const DATA_FILES = ["data/alefbet.json", "data/words.json"];
   const $ = (s, el = document) => el.querySelector(s);
   const view = $("#view");
   const h = (tag, attrs = {}, ...kids) => {
@@ -20,6 +20,7 @@
 
   // ---------- state ----------
   let course = { units: [], items: {} };
+  let prayers = {}; // data/prayers.json by id
   let state = { items: {}, settings: { hints: "auto", rate: 0.8 } };
   const load = () => { try { const s = JSON.parse(localStorage.getItem(KEY)); if (s && s.items) state = { ...state, ...s, settings: { ...state.settings, ...s.settings } }; } catch (e) {} };
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} };
@@ -82,15 +83,18 @@
 
   // ---------- questions ----------
   const label = (it, mode) => {
-    if (it.kind === "syllable") return it.tr;
+    if (!it.name) return it.tr;
     return `${it.name} · ${it.sound}`;
   };
   const hintFor = (it, mode) => {
     if (it.kind === "syllable") return it.hint;
+    if (it.kind === "word") return mode === "hear" ? it.tr : glossText(it);
     if (it.kind === "letter" && mode === "find") return it.note;
-    if (mode === "hear") return it.kind === "syllable" ? it.tr : `${it.name} · ${it.sound}`;
+    if (mode === "hear") return it.name ? `${it.name} · ${it.sound}` : it.tr;
     return `${it.name} · ${it.sound}`;
   };
+  const glossText = (it) => (it.gloss ? `${it.gloss.def} (${it.gloss.root})` : "No dictionary entry yet");
+  const heWords = (s) => s.replace(/[,.;:]/g, "").split(/\s+/).filter(Boolean);
   // hint visibility: "show" | "faint" | "hidden"
   const hintLevel = (id) => {
     const s = state.settings.hints;
@@ -284,7 +288,7 @@
       h("p", { class: "prompt-label" }, it.kind === "letter" ? "Say the letter's name" : "Say it aloud"),
       h("div", { class: "big", lang: "he" }, it.he),
       speakBtn(it, true),
-      hintBlock(id, it.kind === "syllable" ? it.tr : `${it.name} · ${it.sound}`),
+      hintBlock(id, it.name ? `${it.name} · ${it.sound}` : it.tr),
       recBtn, status, h("div", { class: "say-row" }, mineBtn, bothBtn)), bar);
     bar.append(cont);
     speak(it);
@@ -293,6 +297,7 @@
   // ---------- lesson runner ----------
   let run = null;
   function buildLesson(lesson) {
+    if (lesson.prayer) return buildPrayerLesson(lesson);
     const steps = [], second = [];
     const syls = lesson.items.filter((id) => course.items[id].kind === "syllable");
     for (const id of lesson.items) {
@@ -305,11 +310,12 @@
       steps.push({ id, mode: "read" });
       if ((!rec(id) || mastery(id) === 0) && it.kind !== "letter" && canRecord() && canHear(it)) steps.push({ id, mode: "say" });
       const hear = canHear(it) && Math.random() < 0.5;
-      second.push({ id, mode: hear ? "hear" : it.kind === "letter" ? "find" : "read" });
+      second.push({ id, mode: hear ? "hear" : it.kind === "letter" || it.kind === "word" ? "find" : "read" });
     }
     shuffle(syls).slice(0, 5).forEach((id, n) => second.push({ id, mode: n % 2 && canHear(course.items[id]) ? "hear" : "find" }));
     const sayable = syls.filter((x) => canHear(course.items[x]));
     if (canRecord() && sayable.length) second.push({ id: shuffle(sayable)[0], mode: "say" });
+    shuffle(lesson.items.filter((x) => course.items[x].kind === "word")).slice(0, 2).forEach((id) => second.push({ id, mode: "type" }));
     // write from memory (no stencil) for up to 2 letters of this lesson
     shuffle(lesson.items.filter((x) => course.items[x].kind === "letter" && canTrace(course.items[x]))).slice(0, 2).forEach((id) => second.push({ id, mode: "write" }));
     return steps.concat(shuffle(second));
@@ -319,10 +325,12 @@
     const pick = seen.sort((a, b) => isDue(b) - isDue(a) || mastery(a) - mastery(b) || rec(a).last - rec(b).last).slice(0, n);
     const out = shuffle(pick).map((id) => {
       const it = course.items[id], r = Math.random();
+      if (it.kind === "line") return { id, mode: r < 0.5 ? "order" : "fill" };
+      if (it.kind === "word" && r > 0.85) return { id, mode: "type" };
       if (canHear(it) && r < 0.3) return { id, mode: "hear" };
       return { id, mode: it.kind === "vowel" || r < 0.65 ? "read" : "find" };
     });
-    const sayId = pick.find((id) => course.items[id].kind !== "letter" && canHear(course.items[id]));
+    const sayId = pick.find((id) => !["letter", "line"].includes(course.items[id].kind) && canHear(course.items[id]));
     if (canRecord() && sayId && out.length > 4) out.splice(1 + Math.floor(Math.random() * (out.length - 1)), 0, { id: sayId, mode: "say" });
     shuffle(pick.filter((id) => course.items[id].kind === "letter" && canTrace(course.items[id]))).slice(0, 2)
       .forEach((id) => out.splice(Math.floor(Math.random() * (out.length + 1)), 0, { id, mode: "write" }));
@@ -342,15 +350,15 @@
     showTab(currentTab);
   }
 
-  function hintBlock(id, text, quiz) {
+  function hintBlock(id, text, quiz, btnLabel = "Show hint") {
     const lvl = quiz ? (state.settings.hints === "always" ? "show" : "hidden") : hintLevel(id);
     const box = h("div", { class: "hint" + (lvl === "faint" ? " faint" : "") });
     const reveal = () => { box.textContent = text; box.classList.remove("faint"); };
-    if (lvl === "hidden") box.append(h("button", { onclick: reveal }, "Show hint"));
+    if (lvl === "hidden") box.append(h("button", { onclick: reveal }, btnLabel));
     else box.textContent = text;
     return box;
   }
-  const ansText = (it) => (it.kind === "syllable" ? it.tr : `${it.name} · ${it.sound}`);
+  const ansText = (it) => (it.name ? `${it.name} · ${it.sound}` : it.tr);
 
   function renderStep() {
     const { steps, i } = run;
@@ -362,6 +370,12 @@
     const btn = (text, onclick, disabled) => h("button", { class: "primary", onclick, disabled }, text);
     view.replaceChildren(h("div", { class: "progress" }, h("i", { style: `width:${(i / steps.length) * 100}%` })));
 
+    if (step.mode === "intro" && it.kind === "word") { view.append(wordCard(it, step.id), bar); bar.append(btn("Continue", next)); speak(it); return; }
+    if (step.mode === "about") return renderAbout(it, bar, next);
+    if (step.mode === "line") return renderLine(it, bar, next, step.id);
+    if (step.mode === "order") return renderOrder(it, bar, next, step);
+    if (step.mode === "fill") return renderFill(it, bar, next, step);
+    if (step.mode === "type") return renderType(it, bar, next, step);
     if (step.mode === "intro") {
       view.append(h("div", { class: "card" },
         h("p", { class: "prompt-label" }, it.kind === "letter" ? (rec(step.id) ? "Refresher" : "New letter") : (rec(step.id) ? "Refresher" : "New vowel")),
@@ -403,6 +417,7 @@
         h("div", { class: "fb-row" }, h("b", {}, ok ? "Yes." : "Not quite."), speakBtn(it)),
         h("div", { class: "fb-ans" }, ok ? "" : "Answer: ", h("span", { class: "he-in", lang: "he" }, it.he), " ", ansText(it)),
         ...(!ok && it.kind === "letter" && it.note ? [h("div", { class: "note" }, it.note)] : []),
+        ...(it.kind === "word" && it.gloss ? [h("div", { class: "note" }, glossText(it))] : []),
         btn("Continue", next));
       bar.querySelector(".primary").focus();
     };
@@ -414,11 +429,11 @@
       q = it.kind === "letter" ? "Which letter is this?" : "Which one did you hear?";
       promptMain = h("button", { class: "speaker xl", "aria-label": "Play again", onclick: () => speak(it) }, "🔊");
     } else if (step.mode === "find") {
-      q = it.kind === "syllable" ? "Which reads like this?" : "Which letter is this?";
-      promptMain = h("div", { class: "big mid" }, it.kind === "syllable" ? it.tr : `${it.name} (${it.sound})`);
+      q = it.kind === "syllable" || it.kind === "word" ? "Which reads like this?" : "Which letter is this?";
+      promptMain = h("div", { class: "big mid" }, !it.name ? it.tr : `${it.name} (${it.sound})`);
     } else {
-      q = it.kind === "syllable" ? "What sound does this make?" : it.kind === "vowel" ? "What sound is this vowel?" : "Which letter is this?";
-      promptMain = h("div", { class: "big", lang: "he" }, it.he);
+      q = it.kind === "syllable" || it.kind === "word" ? "What sound does this make?" : it.kind === "vowel" ? "What sound is this vowel?" : "Which letter is this?";
+      promptMain = h("div", { class: "big" + (it.kind === "word" ? " word" : ""), lang: "he" }, it.he);
     }
     view.append(
       h("div", { class: "card" },
@@ -437,6 +452,137 @@
       })),
       bar);
     if (step.mode === "hear") speak(it);
+  }
+
+  // ---------- words & blessings ----------
+  function addPrayers(pd) {
+    const lessons = pd.prayers.slice().sort((a, b) => a.order - b.order).map((p) => {
+      prayers[p.id] = p;
+      const items = p.lines.map((l, n) => {
+        const id = `p-${p.id}-${n}`;
+        course.items[id] = { kind: "line", he: l.he, tr: l.tl, tlf: l.tlf, en: l.en, en_src: l.en_src, en_license: l.en_license,
+          prayer: p.id, n, say: l.he.replace(/יְיָ/g, "אֲדֹנָי"), audio: null };
+        return id;
+      });
+      return { id: `pr-${p.id}`, title: p.title, subtitle: p.about, prayer: p.id, items };
+    });
+    course.units.push({ id: "u-blessings", title: "Blessings", subtitle: "Line by line, then word order and missing words", tiles: false, lessons });
+  }
+  function buildPrayerLesson(lesson) {
+    const steps = [{ id: lesson.items[0], mode: "about" }], second = [];
+    for (const id of lesson.items) {
+      steps.push({ id, mode: "line" });
+      const n = heWords(course.items[id].he).length;
+      if (n >= 3) second.push({ id, mode: "order" });
+      if (n >= 2) second.push({ id, mode: "fill" });
+    }
+    return steps.concat(shuffle(second));
+  }
+  const flagNote = (it) => (it.tlf ? h("div", { class: "flag" }, "Transliteration to check with your cantor.") : null);
+  function wordCard(it, id) {
+    return h("div", { class: "card" },
+      h("p", { class: "prompt-label" }, rec(id) ? "Refresher" : "New word"),
+      h("div", { class: "big word", lang: "he" }, it.he),
+      h("div", { class: "name" }, it.tr),
+      it.gloss ? h("div", { class: "note" }, "Dictionary: ", h("span", { lang: "he" }, it.gloss.root), " ", it.gloss.def, h("small", { class: "src" }, " · BDB via Sefaria")) : null,
+      it.note ? h("div", { class: "note" }, it.note) : null,
+      it.prayers && it.prayers.length ? h("small", { class: "src" }, "In: " + it.prayers.map((p) => (prayers[p] ? prayers[p].title : p)).join(", ")) : null,
+      flagNote(it), speakBtn(it, true));
+  }
+  function renderAbout(it, bar, next) {
+    const p = prayers[it.prayer];
+    view.append(h("div", { class: "card" },
+      h("p", { class: "prompt-label" }, "Blessing"),
+      h("div", { class: "name" }, p.title), h("div", { class: "note" }, p.about),
+      p.audio ? h("button", { class: "secondary", onclick: () => new Audio(p.audio).play().catch(() => toast("Couldn't play the recording.")) }, "▶ Hear it chanted")
+        : h("small", { class: "src" }, "Chanting recording: not added yet."),
+      h("small", { class: "src" }, "Hebrew: " + p.he_src),
+      p.check && p.check.length ? h("div", { class: "flag" }, "To check against your siddur:", h("ul", {}, p.check.map((c) => h("li", {}, c)))) : null), bar);
+    bar.append(h("button", { class: "primary", onclick: next }, "Start"));
+  }
+  function renderLine(it, bar, next, id) {
+    const p = prayers[it.prayer];
+    view.append(h("div", { class: "card" },
+      h("p", { class: "prompt-label" }, `${p.title} · line ${it.n + 1} of ${p.lines.length}`),
+      h("div", { class: "line-he", lang: "he", dir: "rtl" }, it.he),
+      speakBtn(it, true),
+      hintBlock(id, it.tr, false, "Show transliteration"),
+      hintBlock(id, it.en || "No Sefaria translation for this line yet.", false, "Show translation"),
+      it.en_src ? h("small", { class: "src" }, `English: ${it.en_src} (${it.en_license})`) : null,
+      flagNote(it)), bar);
+    bar.append(h("button", { class: "primary", onclick: next }, "Continue"));
+  }
+  function quizBar(step, ok, it, bar, next, extra) {
+    if (!run.touched.has(run.i)) {
+      run.touched.add(run.i); mark(step.id, ok); ok ? run.right++ : run.wrong++;
+      if (!ok && (step.retries || 0) < 2) run.steps.push({ ...step, retries: (step.retries || 0) + 1 });
+    }
+    bar.className = "checkbar " + (ok ? "good" : "bad");
+    bar.replaceChildren(h("div", { class: "fb-row" }, h("b", {}, ok ? "Yes." : "Not quite."), speakBtn(it)),
+      ...extra.filter(Boolean), h("button", { class: "primary", onclick: next }, "Continue"));
+    bar.querySelector(".primary").focus();
+  }
+  function renderOrder(it, bar, next, step) {
+    const all = heWords(it.he);
+    let a = 0, b = all.length;
+    if (all.length > 7) { a = step.a != null ? step.a : Math.floor(Math.random() * (all.length - 5)); b = Math.min(all.length, a + 6); step.a = a; }
+    const target = all.slice(a, b), bank = shuffle(target.map((w, k) => ({ w, k }))), placed = [];
+    const ansBox = h("div", { class: "chips answer", lang: "he", dir: "rtl" }), bankBox = h("div", { class: "chips", lang: "he", dir: "rtl" });
+    const check = h("button", { class: "primary", disabled: true, onclick: () => {
+      const ok = placed.map((x) => x.w).join(" ") === target.join(" ");
+      for (const c of view.querySelectorAll(".chip")) c.disabled = true;
+      quizBar(step, ok, it, bar, next, [h("div", { class: "fb-ans" }, ok ? "" : "In order: ", h("span", { class: "he-in", lang: "he" }, target.join(" "))), h("div", { class: "note" }, it.tr)]);
+    } }, "Check");
+    const draw = () => {
+      ansBox.replaceChildren(...placed.map((x) => h("button", { class: "chip", onclick: () => { placed.splice(placed.indexOf(x), 1); draw(); } }, x.w)));
+      bankBox.replaceChildren(...bank.filter((x) => !placed.includes(x)).map((x) => h("button", { class: "chip", onclick: () => { placed.push(x); draw(); } }, x.w)));
+      check.disabled = placed.length !== target.length;
+    };
+    draw();
+    const part = a > 0 || b < all.length;
+    view.append(h("div", { class: "card" },
+      h("p", { class: "prompt-label" }, part ? "Put this part in order" : "Put the words in order"),
+      part ? h("div", { class: "line-he ctx", lang: "he", dir: "rtl" }, [...all.slice(0, a), "[ … ]", ...all.slice(b)].join(" ")) : null,
+      ansBox, hintBlock(step.id, it.tr, true, "Show transliteration")), bankBox, bar);
+    bar.append(check);
+  }
+  function renderFill(it, bar, next, step) {
+    const all = heWords(it.he);
+    const k = step.k != null ? step.k : Math.floor(Math.random() * all.length); step.k = k;
+    const ans = all[k];
+    const pool = [...new Set(Object.values(course.items).filter((x) => x.kind === "word").map((x) => x.he))].filter((w) => w !== ans && !all.includes(w));
+    const opts = shuffle([ans, ...shuffle(pool).slice(0, 3)]);
+    let picked = null;
+    const check = h("button", { class: "primary", disabled: true, onclick: () => {
+      const ok = picked === ans;
+      for (const o of view.querySelectorAll(".opt")) { o.disabled = true; if (o.dataset.key === ans) o.classList.add("right"); else if (o.classList.contains("sel")) o.classList.add("wrong"); }
+      quizBar(step, ok, it, bar, next, [h("div", { class: "fb-ans" }, h("span", { class: "he-in", lang: "he" }, it.he)), h("div", { class: "note" }, it.tr)]);
+    } }, "Check");
+    view.append(h("div", { class: "card" },
+      h("p", { class: "prompt-label" }, "Which word is missing?"),
+      h("div", { class: "line-he", lang: "he", dir: "rtl" }, ...all.flatMap((w, j) => [j === k ? h("span", { class: "blank" }, "＿＿＿") : w, " "])),
+      hintBlock(step.id, it.tr, true, "Show transliteration")),
+      h("div", { class: "opts" }, opts.map((w) => {
+        const b = h("button", { class: "opt he", lang: "he", "data-key": w }, w);
+        b.addEventListener("click", () => { picked = w; for (const o of view.querySelectorAll(".opt")) o.classList.toggle("sel", o === b); check.disabled = false; });
+        return b;
+      })), bar);
+    bar.append(check);
+  }
+  // lenient (sh'va ' may be typed as e): case, accents, apostrophes, hyphens, spaces, kh/ch, ts/tz, ei/e, doubled letters, final h
+  const normTr = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/kh/g, "ch").replace(/x/g, "ch")
+    .replace(/ts/g, "tz").replace(/ei/g, "e").replace(/[^a-z]/g, "").replace(/(.)\1+/g, "$1").replace(/h$/, "");
+  function renderType(it, bar, next, step) {
+    const inp = h("input", { class: "type-in", type: "text", autocomplete: "off", autocapitalize: "off", spellcheck: "false", placeholder: "Type how it sounds", "aria-label": "How it sounds" });
+    const check = h("button", { class: "primary", disabled: true, onclick: () => {
+      const v = normTr(inp.value), ok = v === normTr(it.tr) || v === normTr(it.tr.replace(/'/g, "e")); inp.disabled = true;
+      quizBar(step, ok, it, bar, next, [h("div", { class: "fb-ans" }, ok ? `${it.tr}` : `Answer: ${it.tr}`), it.gloss ? h("div", { class: "note" }, glossText(it)) : null]);
+    } }, "Check");
+    inp.addEventListener("input", () => { check.disabled = !inp.value.trim(); });
+    inp.addEventListener("keydown", (e) => { if (e.key === "Enter" && !check.disabled) check.click(); });
+    view.append(h("div", { class: "card" }, h("p", { class: "prompt-label" }, "Type the sound"),
+      h("div", { class: "big word", lang: "he" }, it.he), speakBtn(it), hintBlock(step.id, glossText(it), true, "Show meaning"), inp), bar);
+    bar.append(check); inp.focus();
   }
 
   function renderDone() {
@@ -505,16 +651,16 @@
           h("p", { class: "sub" }, "Without it, letters can't be heard and speaking practice is skipped. Adding it takes about 2 minutes."),
           h("button", { class: "secondary", onclick: () => showTab("settings") }, "Show me how")) : null;
     view.replaceChildren(reviewCard() || "", go || "", ...course.units.map((u) => h("section", {},
-      h("h2", {}, u.title), h("p", { class: "sub" }, u.subtitle + " · tap a tile to hear it or practice it. Gray = not learned yet."),
-      tileGrid(u),
+      h("h2", {}, u.title), h("p", { class: "sub" }, u.subtitle + (u.tiles === false ? "" : " · tap a tile to hear it or practice it. Gray = not learned yet.")),
+      u.tiles === false ? "" : tileGrid(u),
       h("details", { class: "lessons", open: next && u.lessons.includes(next) },
         h("summary", {}, `Lessons (${u.lessons.length})`),
         u.lessons.map((l) => {
           const pct = lessonPct(l);
-          const preview = l.items.filter((id) => course.items[id].kind !== "syllable").slice(0, 3).map((id) => course.items[id].he.replace("◌", "")).join(" ");
+          const preview = l.prayer ? heWords(course.items[l.items[0]].he).slice(0, 2).join(" ") : l.items.filter((id) => course.items[id].kind !== "syllable").slice(0, 3).map((id) => course.items[id].he.replace("◌", "")).join(" ");
           return h("button", { class: "lesson" + (l === next ? " next" : ""), onclick: () => startRun(l.title, buildLesson(l), l.items) },
             h("span", { class: "he", lang: "he" }, preview),
-            h("span", { class: "meta" }, l.title, h("small", {}, pct >= 0.99 ? "Mastered · tap to replay" : l === next ? "Up next" : l.items.some(isDue) ? "Fading · tap to refresh" : pct > 0 ? "Tap to replay" : `${l.items.length} items`),
+            h("span", { class: "meta" }, l.subtitle ? `${l.title} · ${l.subtitle}` : l.title, h("small", {}, pct >= 0.99 ? "Mastered · tap to replay" : l === next ? "Up next" : l.items.some(isDue) ? "Fading · tap to refresh" : pct > 0 ? "Tap to replay" : `${l.items.length} items`),
               h("div", { class: "bar" }, h("i", { style: `width:${Math.round(pct * 100)}%` }))));
         })))), noVoice || "");
   }
@@ -592,6 +738,7 @@
       course.units.push(...d.units);
       Object.assign(course.items, d.items);
     }
+    try { addPrayers(await (await fetch("data/prayers.json")).json()); } catch (e) { console.warn("prayers", e); }
     try { strokes = await (await fetch("data/strokes.json")).json(); } catch (e) { strokes = null; }
     showTab("learn");
   }

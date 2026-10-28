@@ -1,18 +1,28 @@
 # PROGRESS
 
-## START HERE (next session, written 10/28)
-Read this block + BRIEF.md + project doc claude/hebrew-app-lessons-from-neshamah.md. Don't re-audit anything below.
-State: v10 live at https://jamiepillsbury-collab.github.io/kavanah/, voice works on Jamie's S25. This folder IS the git repo: commit with
-`git -c safe.directory='*' -c user.name=jamiepillsbury-collab -c user.email=jamiepillsbury-collab@users.noreply.github.com commit -qam "..."`,
-then Jamie clicks Push origin. Git needs delete permission on this folder (request it once) or it leaves .lock files. Bump version.js on every app change.
-Goal of the session (Jamie approved 10/28): "Prayer words" unit (replaces generic step 5) + first blessing lessons.
-1. Fetch texts: open https://jamiepillsbury-collab.github.io/kavanah/tools/sefaria-fetch.html in the desktop app's browser (same origin as the app, CORS ok). Find exact siddur refs with Sefaria's /api/name/ or search first. Texts: Torah blessings (before/after), Haftarah blessing (first line only for now), candles, Kiddush (Shabbat evening), HaMotzi, Shehecheyanu, Barchu. Save the JSON to data/src/sefaria-texts.json (keep raw source in the repo).
-2. tools/build_prayers.py: raw JSON -> data/prayers.json. Per line: he, tl (translit.py), tlf (flag), en, en_src+license, reform (list of marked changes vs traditional, from a dict IN the script), verify:true. Flag for Jamie: Torah blessing wording in Mishkan T'filah (mikol ha-amim vs im kol ha-amim?), candle blessing wording.
-3. tools/gen_words.py: most frequent words across prayers.json -> data/words.json unit "Prayer words" (lessons of ~6 words, starting baruch, atah, Adonai, Eloheinu, melech, ha-olam, asher, kid'shanu, b'mitzvotav, v'tzivanu). Item kind "word": he, tr, say, gloss (Sefaria lexicon /api/words/ only; blank if none; never Claude-written). Question modes: read, find, hear, type-the-sound (lenient: ch/kh, tz/ts, apostrophes, hyphens, doubled letters).
-4. Engine: add "word" kind (label = tr), DATA_FILES += words.json, prayers.json. Then a prayer lesson type: line by line, Hebrew + fading tl/en (tap to show, no penalty), then word-order and fill-the-word quizzes generated from the line. Audio slot per prayer (Cantor Childs links later).
-5. Test headless, commit, tell Jamie to Push. Checkpoint here; update this block.
-Rules: no sub-agents unless a bulk job with a fixed schema appears; code generates all quiz items. Text <= short, no em dashes. Any button that can't work yet shows a toast() saying why.
-Leftover: _to_delete/ folder can be deleted (needs delete permission).
+## START HERE (next session, written 10/28 evening)
+Read this block + BRIEF.md. Don't re-audit anything below.
+State: v11 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
+`git -c safe.directory='*' -c user.name=jamiepillsbury-collab -c user.email=jamiepillsbury-collab@users.noreply.github.com commit -qam "..."` (request delete permission once per session first, or git leaves .lock files). Bump version.js on every app change.
+Sefaria is blocked from both shells; fetch it with JS in the desktop app's browser pane on tools/sefaria-fetch.html (same origin, CORS ok). Find siddur refs by walking /api/v2/raw/index/Siddur_Ashkenaz or Siddur_Sefard schema. English lives under content.senses[0].definition in /api/words/.
+
+DONE 10/28 (v11): "Prayer words" unit + "Blessings" unit.
+- data/src/sefaria-texts.json (raw), data/src/lexicon-bdb.tsv (raw BDB glosses).
+- tools/build_prayers.py -> data/prayers.json: 8 blessings (HaMotzi, candles, Shehecheyanu, Barchu, Torah before/after, Kiddush, Haftarah before). Line specs + CHECK notes in the script; REFORM dict empty (no change asserted yet). Name shown as יְיָ.
+- tools/gen_words.py -> data/words.json: 113 words, 19 lessons of 6, 71 with BDB gloss (REJECT set blanks wrong matches).
+- translit.py: EXCEPT additions (Bar'chu, ham'vorach, kodsho, vay'hi...). The Neshamah regression file is gone (neshmah-site folder empty), so test_translit.py couldn't run.
+- app.js: kind "word" (intro card with gloss + source, read/find/hear, type-the-sound with lenient match), Blessings lessons (about card with source + checks, line cards with fading translit/English, word order with 6-word window for long lines, fill-the-missing-word). Practice mixes lines (order/fill). Tested headless, no errors.
+
+FOR JAMIE TO CHECK (shown in-app on each blessing's first card):
+- Mishkan T'filah wording: Torah blessing "mikol ha-amim"; candle blessing; Kiddush (vay'hi erev, savri maranan, "ki vanu vacharta... mikol ha-amim").
+- No Sefaria English for HaMotzi and Shehecheyanu (left blank).
+- English sources: Metsudah (CC-BY) for most, Birnbaum for Barchu, Contemporary Torah for the Genesis lines of Kiddush.
+
+NEXT (in order):
+1. Jamie: push, try Words 1 + HaMotzi on the phone, answer the checks above. Record REFORM changes in build_prayers.py once confirmed.
+2. Prayer lesson polish from her feedback; audio slot per prayer exists (prayers.json "audio": null; Cantor Childs links later).
+3. Then Sh'ma / V'ahavta, or letters-together step 5.
+Rules: no sub-agents unless a bulk job with a fixed schema appears; code generates all quiz items. Short text, no em dashes. Any button that can't work yet shows a toast() saying why.
 
 ## Proposed phases
 1. App shell: PWA (manifest, service worker, offline), lesson engine, reveal-on-tap translit/translation with fade, local progress save, data schema (JSON). Content: Alef-Bet letters + vowels (generated by script).
@@ -61,3 +71,4 @@ Deploy to GitHub Pages at end of phase 1.
 
 ## Open questions
 - Is a CBB Mashiv HaRuach PDF available?
+- Mishkan T'filah wording checks listed in START HERE.

@@ -152,3 +152,16 @@ button.small { padding: 6px 14px; font-size: .9rem; }
 .w-ink { fill: none; stroke: var(--ink); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
 .w-answer { opacity: .35; }
 .row-btns { display: flex; gap: 8px; justify-content: center; }
+
+/* words & blessings (v11) */
+.big.word { font-size: 2.6rem; line-height: 1.5; }
+.line-he { font-size: 1.6rem; line-height: 1.9; text-align: right; margin: 10px 0; }
+.line-he.ctx { font-size: 1.1rem; opacity: .6; }
+.blank { display: inline-block; min-width: 3em; border-bottom: 2px solid currentColor; color: transparent; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-start; margin: 10px 0; min-height: 52px; }
+.chips.answer { border-bottom: 2px dashed rgba(127,127,127,.4); padding-bottom: 8px; }
+.chip { font-size: 1.35rem; padding: 6px 12px; border-radius: 10px; border: 1px solid rgba(127,127,127,.4); background: transparent; color: inherit; }
+.chip:disabled { opacity: .7; }
+.src { display: block; opacity: .65; margin-top: 6px; }
+.type-in { width: 100%; box-sizing: border-box; font-size: 1.2rem; padding: 10px 12px; margin-top: 12px; border-radius: 10px; border: 1px solid rgba(127,127,127,.5); background: transparent; color: inherit; }
+.flag ul { margin: 6px 0 0; padding-left: 1.2em; }
