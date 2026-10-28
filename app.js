@@ -1,0 +1,543 @@
+/* Kavanah — lesson engine. Plain JS, no build step. Data in data/*.json, progress in localStorage. */
+(() => {
+  "use strict";
+  const KEY = "kavanah.v1";
+  const DATA_FILES = ["data/alefbet.json"];
+  const $ = (s, el = document) => el.querySelector(s);
+  const view = $("#view");
+  const h = (tag, attrs = {}, ...kids) => {
+    const el = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (v == null || v === false) continue;
+      if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+      else if (k === "html") el.innerHTML = v;
+      else el.setAttribute(k, v === true ? "" : v);
+    }
+    for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid);
+    return el;
+  };
+  const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+  // ---------- state ----------
+  let course = { units: [], items: {} };
+  let state = { items: {}, settings: { hints: "auto", rate: 0.8 } };
+  const load = () => { try { const s = JSON.parse(localStorage.getItem(KEY)); if (s && s.items) state = { ...state, ...s, settings: { ...state.settings, ...s.settings } }; } catch (e) {} };
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} };
+  const rec = (id) => state.items[id] || null;
+  // Memory fades: an item at level m holds for 2^(m-1) days, then drops one level per further interval.
+  const DAY = 864e5;
+  const mastery = (id) => {
+    const r = rec(id);
+    if (!r) return 0;
+    let m = r.m, t = (Date.now() - r.last) / DAY;
+    while (m > 0 && t >= 2 ** (m - 1)) { t -= 2 ** (m - 1); m--; }
+    return m;
+  };
+  const isDue = (id) => rec(id) && mastery(id) < rec(id).m;
+  const mark = (id, ok) => {
+    const cur = mastery(id);
+    const r = state.items[id] || (state.items[id] = { m: 0, right: 0, wrong: 0, last: 0 });
+    r.m = ok ? Math.min(5, cur + 1) : Math.max(0, cur - 1);
+    ok ? r.right++ : r.wrong++;
+    r.last = state.lastActive = Date.now();
+    save();
+  };
+  // ---------- sound: recording if present, else the phone's Hebrew voice ----------
+  let heVoice = null;
+  const pickVoice = () => {
+    if (!("speechSynthesis" in window)) return;
+    const vs = speechSynthesis.getVoices();
+    heVoice = vs.find((v) => /^(he|iw)\b/i.test(v.lang) && v.localService) || vs.find((v) => /^(he|iw)\b/i.test(v.lang)) || null;
+  };
+  const canHear = (it) => !!(it && (it.audio || (heVoice && it.say)));
+  const speak = (it, done) => {
+    const fin = () => { if (done) { const d = done; done = null; d(); } };
+    if (!it) return fin();
+    if (it.audio) { const a = new Audio(it.audio); a.onended = a.onerror = fin; a.play().catch(fin); return; }
+    if (!heVoice || !it.say) return fin();
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(it.say);
+    u.voice = heVoice; u.lang = heVoice.lang; u.rate = state.settings.rate || 0.8;
+    u.onend = u.onerror = fin;
+    speechSynthesis.speak(u);
+  };
+  const speakBtn = (it, big) => canHear(it)
+    ? h("button", { class: "speaker" + (big ? " lg" : ""), "aria-label": "Play sound", onclick: (e) => { e.stopPropagation(); speak(it); } }, "🔊")
+    : null;
+  // what an item sounds like, for keeping same-sounding choices apart (בַ/וַ, patach/kamatz)
+  const soundKey = (x) => { const t = course.items[x]; return t.kind === "letter" ? t.name : t.kind === "vowel" ? t.sound : t.tr; };
+
+  const lessonPct = (l) => l.items.reduce((s, id) => s + Math.min(mastery(id), 3) / 3, 0) / l.items.length;
+  const allLessons = () => course.units.flatMap((u) => u.lessons);
+
+  // ---------- questions ----------
+  const label = (it, mode) => {
+    if (it.kind === "syllable") return it.tr;
+    return `${it.name} · ${it.sound}`;
+  };
+  const hintFor = (it, mode) => {
+    if (it.kind === "syllable") return it.hint;
+    if (it.kind === "letter" && mode === "find") return it.note;
+    if (mode === "hear") return it.kind === "syllable" ? it.tr : `${it.name} · ${it.sound}`;
+    return `${it.name} · ${it.sound}`;
+  };
+  // hint visibility: "show" | "faint" | "hidden"
+  const hintLevel = (id) => {
+    const s = state.settings.hints;
+    if (s === "always") return "show";
+    if (s === "never") return "hidden";
+    const m = mastery(id);
+    return m < 1 ? "show" : m < 2 ? "faint" : "hidden";
+  };
+  const distractors = (id, mode, lessonIds) => {
+    const it = course.items[id];
+    const same = (x) => course.items[x].kind === it.kind;
+    const key = (x) => (mode === "read" ? label(course.items[x], mode) : course.items[x].he);
+    const pools = [
+      it.group ? Object.keys(course.items).filter((x) => same(x) && course.items[x].group === it.group) : [],
+      lessonIds.filter(same),
+      Object.keys(course.items).filter(same),
+    ];
+    // in find/hear, also never offer a second choice that sounds the same as another
+    const seen = new Set([key(id)]), heard = new Set([soundKey(id)]), out = [];
+    for (const pool of pools) for (const x of shuffle(pool)) {
+      if (out.length >= 3) break;
+      const k = key(x), sk = soundKey(x);
+      if (seen.has(k) || (mode !== "read" && heard.has(sk))) continue;
+      seen.add(k); heard.add(sk); out.push(x);
+    }
+    return out;
+  };
+
+  // ---------- tracing (print letters, stroke by stroke; never graded) ----------
+  let strokes = null; // data/strokes.json, loaded at boot
+  const SHAPE = { "א": "alef", "ב": "bet", "ג": "gimel", "ד": "dalet", "ה": "he", "ו": "vav", "ז": "zayin", "ח": "chet", "ט": "tet", "י": "yod",
+    "כ": "kaf", "ך": "kaf_sofit", "ל": "lamed", "מ": "mem", "ם": "mem_sofit", "נ": "nun", "ן": "nun_sofit", "ס": "samekh", "ע": "ayin",
+    "פ": "pe", "ף": "pe_sofit", "צ": "tzadi", "ץ": "tzadi_sofit", "ק": "kuf", "ר": "resh", "ש": "shin", "ת": "tav" };
+  const traceStrokes = (it) => {
+    const key = strokes && it.kind === "letter" && SHAPE[it.he[0]];
+    if (!key || !strokes.letters[key]) return null;
+    const out = strokes.letters[key].map((s) => ({ d: s.d }));
+    const dot = (x, y) => out.push({ d: `M${x} ${y} L${x + 0.5} ${y + 0.5}`, dot: true });
+    if (it.he.includes("ּ")) dot(52, 55);  // dagesh
+    if (it.he.includes("ׁ")) dot(76, 9);   // shin dot (right)
+    if (it.he.includes("ׂ")) dot(26, 9);   // sin dot (left)
+    return out;
+  };
+  const canTrace = (it) => !!traceStrokes(it);
+  const SVGNS = "http://www.w3.org/2000/svg";
+  const s = (tag, attrs = {}) => { const el = document.createElementNS(SVGNS, tag); for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v); return el; };
+
+  function renderTrace(it, bar, next) {
+    const list = traceStrokes(it);
+    const svg = s("svg", { viewBox: "0 0 100 100", class: "trace", "aria-label": `Trace ${it.name}` });
+    const defs = s("defs");
+    const mk = s("marker", { id: "arw", viewBox: "0 0 10 10", refX: "5", refY: "5", markerWidth: "4", markerHeight: "4", orient: "auto-start-reverse" });
+    mk.append(s("path", { d: "M0 0 L10 5 L0 10 z", class: "t-arrow" }));
+    defs.append(mk); svg.append(defs);
+    svg.append(s("line", { x1: 50, y1: 2, x2: 50, y2: 98, class: "t-cross" }), s("line", { x1: 2, y1: 50, x2: 98, y2: 50, class: "t-cross" }),
+      s("line", { x1: 8, y1: 80, x2: 92, y2: 80, class: "t-base" }));
+    for (const st of list) svg.append(s("path", { d: st.d, class: "t-ghost" + (st.dot ? " dot" : "") }));
+    const layer = s("g"); svg.append(layer);
+    const status = h("p", { class: "sub t-status" }, "Start at the dot and follow the dashes.");
+    let k = 0, guide, ink, startDot, pts, len, prog, active;
+    const TOL = 13, LOST = 24;
+    const setup = () => {
+      layer.querySelectorAll(".t-guide,.t-start,.t-ink").forEach((e) => e.remove());
+      if (k >= list.length) return finish();
+      const st = list[k];
+      guide = s("path", { d: st.d, class: "t-guide", "marker-end": st.dot ? "" : "url(#arw)" });
+      ink = s("path", { d: st.d, class: "t-ink" + (st.dot ? " dot" : "") });
+      layer.append(guide, ink);
+      len = guide.getTotalLength();
+      pts = []; for (let d = 0; d <= len; d += 2) pts.push(guide.getPointAtLength(d)); pts.push(guide.getPointAtLength(len));
+      const p0 = pts[0];
+      startDot = s("circle", { cx: p0.x, cy: p0.y, r: st.dot ? 5 : 4.5, class: "t-start" }); layer.append(startDot);
+      prog = 0; active = false; paint();
+      status.textContent = st.dot ? "Tap the dot." : k ? `Stroke ${k + 1} of ${list.length}.` : "Start at the dot and follow the dashes.";
+    };
+    const paint = () => { ink.style.strokeDasharray = `${(prog / (pts.length - 1)) * len} ${len + 10}`; };
+    const at = (e) => { const p = svg.createSVGPoint(); p.x = e.clientX; p.y = e.clientY; return p.matrixTransform(svg.getScreenCTM().inverse()); };
+    const dist = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
+    const strokeDone = () => { prog = pts.length - 1; paint(); ink.classList.add("done"); guide.remove(); startDot.remove();
+      layer.parentNode.insertBefore(s("path", { d: list[k].d, class: "t-solid" + (list[k].dot ? " dot" : "") }), layer); k++; setTimeout(setup, 120); };
+    svg.addEventListener("pointerdown", (e) => {
+      if (k >= list.length) return;
+      const p = at(e);
+      if (dist(p, pts[0]) > TOL + 4) { status.textContent = "Begin at the dot."; return; }
+      if (list[k].dot) return strokeDone();
+      svg.setPointerCapture(e.pointerId); active = true; e.preventDefault();
+    });
+    svg.addEventListener("pointermove", (e) => {
+      if (!active) return;
+      const p = at(e);
+      // advance along the path while the finger stays close; allow small skips ahead
+      let best = -1;
+      for (let j = prog; j < Math.min(pts.length, prog + 8); j++) if (dist(p, pts[j]) < TOL) best = j;
+      if (best > prog) { prog = best; paint(); }
+      else if (dist(p, pts[prog]) > LOST && dist(p, pts[Math.min(prog + 4, pts.length - 1)]) > LOST) {
+        active = false; prog = 0; paint(); status.textContent = "Off the path — start again from the dot.";
+      }
+      if (prog >= pts.length - 2) { active = false; strokeDone(); }
+    });
+    const up = () => { if (!active) return; active = false; if (prog >= (pts.length - 1) * 0.88) strokeDone(); else { prog = 0; paint(); status.textContent = "Keep going to the arrow. Start again from the dot."; } };
+    svg.addEventListener("pointerup", up); svg.addEventListener("pointercancel", up);
+    const showMe = h("button", { class: "secondary small", onclick: () => {
+      if (k >= list.length || list[k].dot) return;
+      const demo = s("path", { d: list[k].d, class: "t-demo" }); layer.append(demo);
+      demo.style.strokeDasharray = demo.style.strokeDashoffset = len;
+      requestAnimationFrame(() => { demo.style.transition = `stroke-dashoffset ${0.4 + len / 120}s linear`; demo.style.strokeDashoffset = 0; });
+      setTimeout(() => demo.remove(), 900 + len * 9);
+    } }, "Show me");
+    const finish = () => {
+      svg.classList.add("complete"); status.textContent = "";
+      bar.className = "checkbar good";
+      bar.replaceChildren(h("div", { class: "fb-row" }, h("b", {}, "Nicely written."), speakBtn(it)), h("button", { class: "primary", onclick: next }, "Continue"));
+      speak(it);
+    };
+    view.append(h("div", { class: "card trace-card" },
+      h("div", { class: "t-head" }, h("span", { class: "he-in", lang: "he" }, it.he), h("span", {}, `${it.name} · ${it.sound}`), speakBtn(it)),
+      h("p", { class: "prompt-label" }, "Trace the letter"), svg, status, showMe), bar);
+    bar.append(h("button", { class: "secondary", onclick: next }, "Skip"));
+    setup();
+  }
+
+  // ---------- speaking: record yourself, compare by ear with the model (never graded) ----------
+  const canRecord = () => state.settings.speak !== false && !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder);
+  let mine = null; // object URL of the latest take; kept in memory only, never saved
+  const dropTake = () => { if (mine) URL.revokeObjectURL(mine); mine = null; };
+  function renderSay(it, bar, next, id) {
+    dropTake();
+    let recorder = null, timer = null;
+    const status = h("p", { class: "sub" }, canHear(it) ? "Listen, then record yourself saying it. Compare by ear; nothing is scored." : "Record yourself saying it, then play it back. (No model sound for this one yet.)");
+    const playMine = (done) => { if (!mine) return done && done(); const a = new Audio(mine); a.onended = a.onerror = () => done && done(); a.play().catch(() => done && done()); };
+    const mineBtn = h("button", { class: "secondary small", disabled: true, onclick: () => playMine() }, "▶ Mine");
+    const bothBtn = h("button", { class: "secondary small", disabled: true, hidden: !canHear(it), onclick: () => speak(it, () => setTimeout(() => playMine(), 350)) }, "▶ Both");
+    const recBtn = h("button", { class: "rec", "aria-label": "Record" }, h("span", { class: "rec-dot" }), h("span", { class: "rec-txt" }, "Record"));
+    const stop = () => { clearTimeout(timer); if (recorder && recorder.state === "recording") recorder.stop(); };
+    recBtn.addEventListener("click", async () => {
+      if (recorder && recorder.state === "recording") return stop();
+      speechSynthesis && speechSynthesis.cancel && speechSynthesis.cancel();
+      let stream;
+      try { stream = await navigator.mediaDevices.getUserMedia({ audio: true }); }
+      catch (e) { status.textContent = "The microphone isn't available (permission may be off). You can still say it aloud and compare with the model."; return; }
+      const chunks = [];
+      recorder = new MediaRecorder(stream);
+      recorder.ondataavailable = (e) => e.data.size && chunks.push(e.data);
+      recorder.onstop = () => {
+        stream.getTracks().forEach((t) => t.stop());
+        recBtn.classList.remove("on"); recBtn.querySelector(".rec-txt").textContent = "Record again";
+        dropTake(); mine = URL.createObjectURL(new Blob(chunks, { type: recorder.mimeType || "audio/webm" }));
+        mineBtn.disabled = bothBtn.disabled = false;
+        status.textContent = canHear(it) ? "Play them side by side. Record again as often as you like." : "Play it back. Record again as often as you like.";
+        cont.textContent = "Continue";
+        canHear(it) ? speak(it, () => setTimeout(() => playMine(), 350)) : playMine();
+      };
+      recorder.start();
+      recBtn.classList.add("on"); recBtn.querySelector(".rec-txt").textContent = "Stop";
+      status.textContent = "Recording… tap Stop when done.";
+      timer = setTimeout(stop, 5000);
+    });
+    const cont = h("button", { class: "primary", onclick: () => { stop(); dropTake(); next(); } }, "Skip");
+    view.append(h("div", { class: "card say-card" },
+      h("p", { class: "prompt-label" }, it.kind === "letter" ? "Say the letter's name" : "Say it aloud"),
+      h("div", { class: "big", lang: "he" }, it.he),
+      speakBtn(it, true),
+      hintBlock(id, it.kind === "syllable" ? it.tr : `${it.name} · ${it.sound}`),
+      recBtn, status, h("div", { class: "say-row" }, mineBtn, bothBtn)), bar);
+    bar.append(cont);
+    speak(it);
+  }
+
+  // ---------- lesson runner ----------
+  let run = null;
+  function buildLesson(lesson) {
+    const steps = [], second = [];
+    const syls = lesson.items.filter((id) => course.items[id].kind === "syllable");
+    for (const id of lesson.items) {
+      const it = course.items[id];
+      if (it.kind === "syllable") { steps.push({ id, mode: "read" }); continue; }
+      if (!rec(id) || mastery(id) === 0) { // re-teach forgotten items, then trace new/forgotten letters
+        steps.push({ id, mode: "intro" });
+        if (canTrace(it)) steps.push({ id, mode: "trace" });
+      }
+      steps.push({ id, mode: "read" });
+      if (!rec(id) || mastery(id) === 0) if (canRecord()) steps.push({ id, mode: "say" });
+      const hear = canHear(it) && Math.random() < 0.5;
+      second.push({ id, mode: hear ? "hear" : it.kind === "letter" ? "find" : "read" });
+    }
+    shuffle(syls).slice(0, 5).forEach((id, n) => second.push({ id, mode: n % 2 && canHear(course.items[id]) ? "hear" : "find" }));
+    if (canRecord() && syls.length) second.push({ id: shuffle(syls)[0], mode: "say" });
+    return steps.concat(shuffle(second));
+  }
+  function buildPractice(n = 12) {
+    const seen = Object.keys(state.items).filter((id) => course.items[id]);
+    const pick = seen.sort((a, b) => isDue(b) - isDue(a) || mastery(a) - mastery(b) || rec(a).last - rec(b).last).slice(0, n);
+    const out = shuffle(pick).map((id) => {
+      const it = course.items[id], r = Math.random();
+      if (canHear(it) && r < 0.3) return { id, mode: "hear" };
+      return { id, mode: it.kind === "vowel" || r < 0.65 ? "read" : "find" };
+    });
+    if (canRecord() && out.length > 4) out.splice(1 + Math.floor(Math.random() * (out.length - 1)), 0, { id: out[0].id, mode: "say" });
+    return out;
+  }
+  function startRun(title, steps, lessonIds) {
+    run = { title, steps, i: 0, lessonIds, right: 0, wrong: 0, touched: new Set() };
+    document.body.classList.add("in-lesson");
+    $("#back").hidden = false; $("#back").textContent = "✕"; $("#back").setAttribute("aria-label", "Quit lesson");
+    history.pushState({ lesson: true }, "");
+    renderStep();
+  }
+  function endRun() {
+    run = null; dropTake();
+    document.body.classList.remove("in-lesson");
+    $("#back").hidden = true;
+    showTab(currentTab);
+  }
+
+  function hintBlock(id, text) {
+    const lvl = hintLevel(id);
+    const box = h("div", { class: "hint" + (lvl === "faint" ? " faint" : "") });
+    const reveal = () => { box.textContent = text; box.classList.remove("faint"); };
+    if (lvl === "hidden") box.append(h("button", { onclick: reveal }, "Show hint"));
+    else box.textContent = text;
+    return box;
+  }
+  const ansText = (it) => (it.kind === "syllable" ? it.tr : `${it.name} · ${it.sound}`);
+
+  function renderStep() {
+    const { steps, i } = run;
+    $("#title").textContent = run.title;
+    if (i >= steps.length) return renderDone();
+    const step = steps[i], it = course.items[step.id];
+    const bar = h("div", { class: "checkbar" });
+    const next = () => { run.i++; renderStep(); };
+    const btn = (text, onclick, disabled) => h("button", { class: "primary", onclick, disabled }, text);
+    view.replaceChildren(h("div", { class: "progress" }, h("i", { style: `width:${(i / steps.length) * 100}%` })));
+
+    if (step.mode === "intro") {
+      view.append(h("div", { class: "card" },
+        h("p", { class: "prompt-label" }, it.kind === "letter" ? (rec(step.id) ? "Refresher" : "New letter") : (rec(step.id) ? "Refresher" : "New vowel")),
+        h("div", { class: "big", lang: "he" }, it.he),
+        h("div", { class: "name" }, it.name),
+        h("div", {}, "Sound: ", h("b", {}, it.sound)),
+        h("div", { class: "note" }, it.note),
+        it.flag ? h("div", { class: "flag" }, "Note: " + it.flag) : null,
+        speakBtn(it, true)), bar);
+      bar.append(btn("Continue", next));
+      speak(it);
+      return;
+    }
+
+    if (step.mode === "trace") return renderTrace(it, bar, next);
+    if (step.mode === "say") return renderSay(it, bar, next, step.id);
+
+    const heChoices = step.mode !== "read"; // find & hear: choose the Hebrew
+    const keyOf = (x) => (heChoices ? course.items[x].he : label(course.items[x], step.mode));
+    const answerKey = keyOf(step.id);
+    const opts = shuffle([step.id, ...distractors(step.id, step.mode, run.lessonIds)]);
+    let picked = null;
+    const grade = () => {
+      const ok = keyOf(picked) === answerKey;
+      for (const b of view.querySelectorAll(".opt")) {
+        b.disabled = true;
+        if (b.dataset.key === answerKey) b.classList.add("right");
+        else if (b.classList.contains("sel")) b.classList.add("wrong");
+      }
+      if (!run.touched.has(i)) {
+        run.touched.add(i);
+        mark(step.id, ok);
+        ok ? run.right++ : run.wrong++;
+        if (!ok && (step.retries || 0) < 2) steps.push({ ...step, retries: (step.retries || 0) + 1 });
+      }
+      bar.className = "checkbar " + (ok ? "good" : "bad");
+      bar.replaceChildren(
+        h("div", { class: "fb-row" }, h("b", {}, ok ? "Yes." : "Not quite."), speakBtn(it)),
+        h("div", { class: "fb-ans" }, ok ? "" : "Answer: ", h("span", { class: "he-in", lang: "he" }, it.he), " ", ansText(it)),
+        ...(!ok && it.kind === "letter" && it.note ? [h("div", { class: "note" }, it.note)] : []),
+        btn("Continue", next));
+      bar.querySelector(".primary").focus();
+    };
+    const check = btn("Check", grade, true);
+    bar.append(check);
+
+    let q, promptMain;
+    if (step.mode === "hear") {
+      q = it.kind === "letter" ? "Which letter is this?" : "Which one did you hear?";
+      promptMain = h("button", { class: "speaker xl", "aria-label": "Play again", onclick: () => speak(it) }, "🔊");
+    } else if (step.mode === "find") {
+      q = it.kind === "syllable" ? "Which reads like this?" : "Which letter is this?";
+      promptMain = h("div", { class: "big mid" }, it.kind === "syllable" ? it.tr : `${it.name} (${it.sound})`);
+    } else {
+      q = it.kind === "syllable" ? "What sound does this make?" : it.kind === "vowel" ? "What sound is this vowel?" : "Which letter is this?";
+      promptMain = h("div", { class: "big", lang: "he" }, it.he);
+    }
+    view.append(
+      h("div", { class: "card" },
+        h("p", { class: "prompt-label" }, q), promptMain,
+        step.mode === "read" ? speakBtn(it) : null,
+        hintBlock(step.id, hintFor(it, step.mode))),
+      h("div", { class: "opts" }, opts.map((x) => {
+        const key = keyOf(x);
+        const b = h("button", { class: "opt" + (heChoices ? " he" : ""), lang: heChoices ? "he" : null, "data-key": key }, key);
+        b.addEventListener("click", () => {
+          picked = x;
+          for (const o of view.querySelectorAll(".opt")) o.classList.toggle("sel", o === b);
+          check.disabled = false;
+        });
+        return b;
+      })),
+      bar);
+    if (step.mode === "hear") speak(it);
+  }
+
+  function renderDone() {
+    const total = run.right + run.wrong;
+    view.replaceChildren(
+      h("div", { class: "progress" }, h("i", { style: "width:100%" })),
+      h("div", { class: "card" },
+        h("p", { class: "prompt-label" }, "Session complete"),
+        h("div", { class: "big mid" }, `${run.right} / ${total}`),
+        h("div", { class: "note" }, run.wrong ? "Missed items were repeated and will come back in Practice." : "Every answer on the first try.")),
+      h("button", { class: "primary", onclick: () => history.back() }, "Done"));
+  }
+
+  // ---------- tabs ----------
+  let currentTab = "learn";
+  function showTab(tab) {
+    currentTab = tab;
+    for (const b of document.querySelectorAll(".tabs button")) b.classList.toggle("on", b.dataset.tab === tab);
+    $("#title").textContent = { learn: "Kavanah", practice: "Practice", settings: "Settings" }[tab];
+    ({ learn: renderLearn, practice: renderPractice, settings: renderSettings })[tab]();
+    window.scrollTo(0, 0);
+  }
+
+  let gapDays = 0; // days since last session, measured at launch
+  function reviewCard() {
+    const seen = Object.keys(state.items).filter((id) => course.items[id]);
+    const due = seen.filter(isDue).length;
+    if (!seen.length) return null;
+    if (gapDays >= 5) return h("div", { class: "card welcome" },
+      h("div", { class: "name" }, "Welcome back"),
+      h("p", { class: "note" }, `It's been ${Math.round(gapDays)} days. A short refresher will show what's still there and bring back what faded. Anything forgotten gets re-taught, not marked down.`),
+      h("button", { class: "primary", onclick: () => { gapDays = 0; startRun("Refresher", buildPractice(15), seen); } }, "Start refresher"),
+      h("button", { class: "secondary", onclick: () => { gapDays = 0; renderLearn(); } }, "Not now"));
+    if (due) return h("button", { class: "lesson next", onclick: () => startRun("Review", buildPractice(Math.min(15, Math.max(8, due))), seen) },
+      h("span", { class: "he" }, "↺"),
+      h("span", { class: "meta" }, "Review", h("small", {}, `${due} item${due > 1 ? "s" : ""} fading — a quick pass keeps them`)));
+    return null;
+  }
+  function tileGrid(u) {
+    const ids = u.lessons.flatMap((l) => l.items).filter((id) => course.items[id].kind !== "syllable");
+    return h("div", { class: "tiles" }, ids.map((id) => {
+      const it = course.items[id], pct = Math.min(mastery(id), 3) / 3;
+      const t = h("button", { class: "tile" + (isDue(id) ? " fading" : ""), "aria-label": `${it.name}, ${it.sound}` },
+        h("span", { class: "he", lang: "he" }, it.he),
+        h("small", {}, it.kind === "letter" ? (it.tr || "silent") : it.tr === "'" ? "sh'va" : it.tr),
+        h("div", { class: "bar" }, h("i", { style: `width:${Math.round(pct * 100)}%` })));
+      t.addEventListener("click", () => { speak(it); t.classList.remove("ping"); void t.offsetWidth; t.classList.add("ping"); });
+      return t;
+    }));
+  }
+  function renderLearn() {
+    const next = allLessons().find((l) => lessonPct(l) < 0.67);
+    const started = Object.keys(state.items).length > 0;
+    const go = next
+      ? h("button", { class: "primary cta", onclick: () => startRun(next.title, buildLesson(next), next.items) },
+          started ? `Continue: ${next.title}` : "Learn the letters")
+      : null;
+    const noVoice = !heVoice && !Object.values(course.items).some((x) => x.audio)
+      ? h("p", { class: "sub" }, "No Hebrew voice found on this phone, so tiles are silent. See Settings › Sound.") : null;
+    view.replaceChildren(reviewCard() || "", go || "", ...course.units.map((u) => h("section", {},
+      h("h2", {}, u.title), h("p", { class: "sub" }, u.subtitle + " · tap a tile to hear it"),
+      tileGrid(u),
+      h("details", { class: "lessons", open: next && u.lessons.includes(next) },
+        h("summary", {}, `Lessons (${u.lessons.length})`),
+        u.lessons.map((l) => {
+          const pct = lessonPct(l);
+          const preview = l.items.filter((id) => course.items[id].kind !== "syllable").slice(0, 3).map((id) => course.items[id].he.replace("◌", "")).join(" ");
+          return h("button", { class: "lesson" + (l === next ? " next" : ""), onclick: () => startRun(l.title, buildLesson(l), l.items) },
+            h("span", { class: "he", lang: "he" }, preview),
+            h("span", { class: "meta" }, l.title, h("small", {}, pct >= 0.99 ? "Mastered · tap to replay" : l === next ? "Up next" : l.items.some(isDue) ? "Fading · tap to refresh" : pct > 0 ? "Tap to replay" : `${l.items.length} items`),
+              h("div", { class: "bar" }, h("i", { style: `width:${Math.round(pct * 100)}%` }))));
+        })))), noVoice || "");
+  }
+
+  function renderPractice() {
+    const ids = Object.keys(course.items).filter((id) => course.items[id].kind !== "syllable");
+    const seen = Object.keys(state.items).filter((id) => course.items[id]);
+    const strong = seen.filter((id) => mastery(id) >= 3).length;
+    const due = seen.filter(isDue).length;
+    view.replaceChildren(
+      h("div", { class: "stats" },
+        h("div", { class: "stat" }, h("b", {}, seen.length), h("small", {}, "practiced")),
+        h("div", { class: "stat" }, h("b", {}, strong), h("small", {}, "solid")),
+        h("div", { class: "stat" }, h("b", {}, due), h("small", {}, "fading"))),
+      seen.length
+        ? h("button", { class: "primary", onclick: () => startRun("Practice", buildPractice(), seen) }, due ? "Practice (fading items first)" : "Practice weakest items")
+        : h("p", { class: "sub" }, "Practice opens once you've started a lesson."));
+  }
+
+  function renderSettings() {
+    const sel = h("select", { id: "hints", onchange: (e) => { state.settings.hints = e.target.value; save(); } },
+      [["auto", "Fade as I learn"], ["always", "Always show"], ["never", "Hidden (tap to show)"]].map(([v, t]) =>
+        h("option", { value: v, selected: state.settings.hints === v }, t)));
+    const file = h("input", { type: "file", accept: "application/json", hidden: true, onchange: async (e) => {
+      try { const s = JSON.parse(await e.target.files[0].text()); if (s.items) { state = s; save(); showTab("settings"); } } catch (err) { msg.textContent = "That file couldn't be read."; }
+    } });
+    const msg = h("p", { class: "sub" });
+    let armed = false;
+    const reset = h("button", { class: "secondary", onclick: () => {
+      if (!armed) { armed = true; reset.textContent = "Tap again to erase all progress"; return; }
+      state = { items: {}, settings: state.settings }; save(); showTab("settings");
+    } }, "Reset progress");
+    view.replaceChildren(
+      h("div", { class: "row" }, h("label", { for: "hints" }, "Transliteration hints"), sel),
+      h("p", { class: "sub" }, "Hints are always one tap away. Revealing one never counts against you."),
+      h("h2", {}, "Sound"),
+      h("p", { class: "sub" }, heVoice ? `Hebrew voice: ${heVoice.name}. Your own recordings, once added, replace it item by item.`
+        : "No Hebrew voice found. On Android: Settings › System › Languages › Text-to-speech › Google › install Hebrew, then reopen the app."),
+      h("div", { class: "row" }, h("label", { for: "rate" }, "Speaking speed"),
+        h("select", { id: "rate", onchange: (e) => { state.settings.rate = +e.target.value; save(); } },
+          [[0.6, "Slow"], [0.8, "Relaxed"], [1, "Normal"]].map(([v, t]) => h("option", { value: v, selected: (state.settings.rate || 0.8) === v }, t)))),
+      h("button", { class: "secondary", onclick: () => speak({ say: "שָׁלוֹם" }) }, "Test voice (shalom)"),
+      h("div", { class: "row" }, h("label", { for: "speak" }, "Speaking practice"),
+        h("select", { id: "speak", onchange: (e) => { state.settings.speak = e.target.value === "on"; save(); } },
+          [["on", "On"], ["off", "Off"]].map(([v, t]) => h("option", { value: v, selected: (state.settings.speak !== false) === (v === "on") }, t)))),
+      h("p", { class: "sub" }, "Record yourself and compare with the model by ear. Nothing is scored, and recordings are never saved."),
+      h("h2", {}, "Your progress"),
+      h("p", { class: "sub" }, "Saved on this device. Export a backup before clearing browser data or switching phones."),
+      h("button", { class: "secondary", onclick: () => {
+        const url = URL.createObjectURL(new Blob([JSON.stringify(state)], { type: "application/json" }));
+        h("a", { href: url, download: `kavanah-progress-${new Date().toISOString().slice(0, 10)}.json` }).click();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+      } }, "Export backup"),
+      h("button", { class: "secondary", onclick: () => file.click() }, "Import backup"), file,
+      reset, msg,
+      h("h2", {}, "About"),
+      h("p", { class: "sub" }, `Version ${self.APP_VERSION || "?"}. If this doesn't match the latest, close and reopen the app.`),
+      h("p", { class: "sub" }, "Breathing, sleep and soundscapes live in ", h("a", { href: "https://neshamah-calm.netlify.app/", target: "_blank", rel: "noopener" }, "Neshamah"), "."));
+  }
+
+  // ---------- boot ----------
+  $("#tabs").addEventListener("click", (e) => { const t = e.target.closest("button"); if (t) showTab(t.dataset.tab); });
+  $("#back").addEventListener("click", () => history.back());
+  window.addEventListener("popstate", () => { if (run) endRun(); });
+
+  async function boot() {
+    load();
+    try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch (e) {}
+    pickVoice();
+    if ("speechSynthesis" in window) speechSynthesis.addEventListener("voiceschanged", () => { const had = heVoice; pickVoice(); if (!had && heVoice && !run) showTab(currentTab); });
+    if (state.lastActive) gapDays = (Date.now() - state.lastActive) / DAY;
+    for (const f of DATA_FILES) {
+      const d = await (await fetch(f)).json();
+      course.units.push(...d.units);
+      Object.assign(course.items, d.items);
+    }
+    try { strokes = await (await fetch("data/strokes.json")).json(); } catch (e) { strokes = null; }
+    showTab("learn");
+  }
+  boot().catch((e) => { view.textContent = "Couldn't load lessons. " + e.message; });
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+})();

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sefaria fetch</title>
+<style>body{font:15px system-ui;margin:16px;max-width:720px}textarea{width:100%;height:9em}pre{white-space:pre-wrap;background:#f4f4f4;padding:8px;max-height:40vh;overflow:auto}button{margin:4px 4px 4px 0;padding:8px 12px}</style></head>
+<body>
+<h1>Sefaria fetch</h1>
+<p>One line per text: <code>id | Sefaria ref</code>. Example: <code>shma | Deuteronomy 6:4</code>. Saves Hebrew (nikkud kept, cantillation removed) plus the first English version found, in Jamie's order.</p>
+<textarea id="refs">priestly | Numbers 6:24-26
+shma | Deuteronomy 6:4</textarea>
+<p><button id="go">Fetch</button><button id="dl" disabled>Download JSON</button><button id="cp" disabled>Copy JSON</button></p>
+<pre id="log"></pre>
+<script>
+// English preference (Jamie): Sim Shalom > Community > Birnbaum > Metsudah; Torah = Contemporary Torah; Psalms = JPS gender-sensitive.
+const EN_PREF = [/contemporary torah/i, /gender.?sensitive/i, /sim shalom/i, /community translation/i, /birnbaum/i, /metsudah/i];
+const log = (t) => (document.getElementById("log").textContent += t + "\n");
+const strip = (s) => s.replace(/<[^>]+>/g, "").replace(/[֑-ֽ֯׀]/g, "").replace(/&[a-z]+;/g, " ").replace(/\{[ספ]\}/g, "").replace(/\u05C3/g, "").replace(/\s+/g, " ").trim();
+const flat = (t) => (Array.isArray(t) ? t.flat(Infinity) : [t]).map(strip).filter(Boolean);
+const api = (ref, v) => fetch(`https://www.sefaria.org/api/v3/texts/${encodeURIComponent(ref)}?version=${encodeURIComponent(v)}&return_format=text_only`).then((r) => r.json());
+let out = {};
+document.getElementById("go").onclick = async () => {
+  out = { _fetched: new Date().toISOString(), _source: "sefaria.org API v3", texts: {} };
+  document.getElementById("log").textContent = "";
+  for (const line of document.getElementById("refs").value.split("\n")) {
+    const [id, ref] = line.split("|").map((s) => s && s.trim());
+    if (!id || !ref) continue;
+    try {
+      const he = (await api(ref, "hebrew")).versions?.[0];
+      const all = await (await fetch(`https://www.sefaria.org/api/texts/versions/${encodeURIComponent(ref.split(/\s\d/)[0])}`)).json().catch(() => []);
+      const ens = (Array.isArray(all) ? all : []).filter((v) => v.language === "en").map((v) => v.versionTitle);
+      let enTitle = null;
+      for (const re of EN_PREF) { enTitle = ens.find((t) => re.test(t)); if (enTitle) break; }
+      const en = (await api(ref, enTitle ? `english|${enTitle}` : "english")).versions?.[0];
+      const heLines = flat(he?.text || []);
+      out.texts[id] = { ref, he: heLines, he_version: he?.versionTitle, en: flat(en?.text || []).map((t) => t.replace(/יהוה/g, "Adonai")), en_version: en?.versionTitle, en_license: en?.license || null };
+      const bare = heLines.join(" ").replace(/[^א-תְ-ׇ ]/g, "");
+      const unpointed = bare.split(" ").filter((w) => w && !/[ְ-ׇֻ]/.test(w)).length;
+      log(`${id}: ${heLines.length} he lines (${he?.versionTitle}), en: ${en?.versionTitle || "none"}${unpointed ? `  ⚑ ${unpointed} words without nikkud` : ""}`);
+    } catch (e) { log(`${id}: FAILED ${e.message}`); }
+  }
+  document.getElementById("dl").disabled = document.getElementById("cp").disabled = false;
+};
+const json = () => JSON.stringify(out, null, 1);
+document.getElementById("dl").onclick = () => { const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([json()], { type: "application/json" })); a.download = "sefaria-texts.json"; a.click(); };
+document.getElementById("cp").onclick = () => navigator.clipboard.writeText(json()).then(() => log("Copied."));
+</script></body></html>

@@ -1,0 +1,1111 @@
+{
+ "version": 1,
+ "generated_by": "tools/gen_alefbet.py",
+ "units": [
+  {
+   "id": "u-letters",
+   "title": "The Alef-Bet",
+   "subtitle": "Letters, final forms, and dot-pairs",
+   "lessons": [
+    {
+     "id": "letters-1",
+     "title": "Letters 1",
+     "items": [
+      "l-alef",
+      "l-bet",
+      "l-vet",
+      "l-gimel",
+      "l-dalet"
+     ]
+    },
+    {
+     "id": "letters-2",
+     "title": "Letters 2",
+     "items": [
+      "l-he",
+      "l-vav",
+      "l-zayin",
+      "l-chet",
+      "l-tet"
+     ]
+    },
+    {
+     "id": "letters-3",
+     "title": "Letters 3",
+     "items": [
+      "l-yod",
+      "l-kaf",
+      "l-khaf",
+      "l-khaf-sofit",
+      "l-lamed"
+     ]
+    },
+    {
+     "id": "letters-4",
+     "title": "Letters 4",
+     "items": [
+      "l-mem",
+      "l-mem-sofit",
+      "l-nun",
+      "l-nun-sofit",
+      "l-samekh"
+     ]
+    },
+    {
+     "id": "letters-5",
+     "title": "Letters 5",
+     "items": [
+      "l-ayin",
+      "l-pe",
+      "l-fe",
+      "l-fe-sofit",
+      "l-tzadi",
+      "l-tzadi-sofit"
+     ]
+    },
+    {
+     "id": "letters-6",
+     "title": "Letters 6",
+     "items": [
+      "l-kuf",
+      "l-resh",
+      "l-shin",
+      "l-sin",
+      "l-tav"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u-vowels",
+   "title": "Vowels (Nikkud)",
+   "subtitle": "Reading letters with vowels",
+   "lessons": [
+    {
+     "id": "vowels-1",
+     "title": "Vowels: a",
+     "items": [
+      "v-patach",
+      "v-kamatz",
+      "s-patach-he",
+      "s-patach-gimel",
+      "s-patach-kuf",
+      "s-patach-mem",
+      "s-kamatz-yod",
+      "s-kamatz-zayin",
+      "s-kamatz-vav",
+      "s-kamatz-nun"
+     ]
+    },
+    {
+     "id": "vowels-2",
+     "title": "Vowels: e",
+     "items": [
+      "v-segol",
+      "v-tzere",
+      "s-segol-tzadi",
+      "s-segol-nun",
+      "s-segol-he",
+      "s-segol-tet",
+      "s-tzere-mem",
+      "s-tzere-chet",
+      "s-tzere-vav",
+      "s-tzere-resh"
+     ]
+    },
+    {
+     "id": "vowels-3",
+     "title": "Vowels: i",
+     "items": [
+      "v-hiriq",
+      "v-hiriq-yod",
+      "s-hiriq-gimel",
+      "s-hiriq-yod",
+      "s-hiriq-samekh",
+      "s-hiriq-kuf",
+      "s-hiriq-yod-sin",
+      "s-hiriq-yod-tav",
+      "s-hiriq-yod-he",
+      "s-hiriq-yod-zayin"
+     ]
+    },
+    {
+     "id": "vowels-4",
+     "title": "Vowels: o",
+     "items": [
+      "v-holam",
+      "v-holam-vav",
+      "s-holam-he",
+      "s-holam-zayin",
+      "s-holam-vav-kaf",
+      "s-holam-vav-pe",
+      "s-holam-vav-samekh"
+     ]
+    },
+    {
+     "id": "vowels-5",
+     "title": "Vowels: u",
+     "items": [
+      "v-kubutz",
+      "v-shuruk",
+      "s-kubutz-tav",
+      "s-kubutz-kuf",
+      "s-kubutz-sin",
+      "s-kubutz-nun",
+      "s-shuruk-vav",
+      "s-shuruk-resh",
+      "s-shuruk-tet",
+      "s-shuruk-chet"
+     ]
+    },
+    {
+     "id": "vowels-6",
+     "title": "Sh'va & short vowels",
+     "items": [
+      "v-sheva",
+      "v-hataf-patach",
+      "v-hataf-segol",
+      "v-hataf-kamatz",
+      "s-sheva-bet",
+      "s-sheva-lamed",
+      "s-sheva-nun",
+      "s-sheva-yod",
+      "s-hataf-patach-ayin",
+      "s-hataf-patach-chet",
+      "s-hataf-patach-he",
+      "s-hataf-patach-alef",
+      "s-hataf-segol-chet",
+      "s-hataf-segol-ayin",
+      "s-hataf-segol-he",
+      "s-hataf-segol-alef",
+      "s-hataf-kamatz-chet",
+      "s-hataf-kamatz-he",
+      "s-hataf-kamatz-alef",
+      "s-hataf-kamatz-ayin"
+     ]
+    }
+   ]
+  }
+ ],
+ "items": {
+  "l-alef": {
+   "kind": "letter",
+   "he": "א",
+   "name": "Alef",
+   "sound": "silent",
+   "tr": "",
+   "note": "Carries a vowel; makes no sound itself.",
+   "group": null,
+   "say": "אָלֶף",
+   "audio": null
+  },
+  "l-bet": {
+   "kind": "letter",
+   "he": "בּ",
+   "name": "Bet",
+   "sound": "b",
+   "tr": "b",
+   "note": "Dot inside (dagesh) = b.",
+   "group": "bk",
+   "say": "בֵּית",
+   "audio": null
+  },
+  "l-vet": {
+   "kind": "letter",
+   "he": "ב",
+   "name": "Vet",
+   "sound": "v",
+   "tr": "v",
+   "note": "No dot = v.",
+   "group": "bk",
+   "say": "וֵית",
+   "audio": null
+  },
+  "l-gimel": {
+   "kind": "letter",
+   "he": "ג",
+   "name": "Gimel",
+   "sound": "g",
+   "tr": "g",
+   "note": "Hard g, as in 'go'.",
+   "group": "gn",
+   "say": "גִּימֶל",
+   "audio": null
+  },
+  "l-dalet": {
+   "kind": "letter",
+   "he": "ד",
+   "name": "Dalet",
+   "sound": "d",
+   "tr": "d",
+   "note": "Corner sticks out at top right.",
+   "group": "dr",
+   "say": "דָּלֶת",
+   "audio": null
+  },
+  "l-he": {
+   "kind": "letter",
+   "he": "ה",
+   "name": "Hei",
+   "sound": "h",
+   "tr": "h",
+   "note": "Gap at top left; often silent at word end.",
+   "group": "hct",
+   "say": "הֵא",
+   "audio": null
+  },
+  "l-vav": {
+   "kind": "letter",
+   "he": "ו",
+   "name": "Vav",
+   "sound": "v",
+   "tr": "v",
+   "note": "Also a vowel carrier (o, u).",
+   "group": "vzn",
+   "say": "וָו",
+   "audio": null
+  },
+  "l-zayin": {
+   "kind": "letter",
+   "he": "ז",
+   "name": "Zayin",
+   "sound": "z",
+   "tr": "z",
+   "note": "Head sticks out both sides.",
+   "group": "vzn",
+   "say": "זַיִן",
+   "audio": null
+  },
+  "l-chet": {
+   "kind": "letter",
+   "he": "ח",
+   "name": "Chet",
+   "sound": "ch",
+   "tr": "ch",
+   "note": "Throaty ch, as in 'Bach'. No gap at top.",
+   "group": "hct",
+   "say": "חֵית",
+   "audio": null
+  },
+  "l-tet": {
+   "kind": "letter",
+   "he": "ט",
+   "name": "Tet",
+   "sound": "t",
+   "tr": "t",
+   "note": "Curls in at top left.",
+   "group": "tm",
+   "say": "טֵית",
+   "audio": null
+  },
+  "l-yod": {
+   "kind": "letter",
+   "he": "י",
+   "name": "Yod",
+   "sound": "y",
+   "tr": "y",
+   "note": "Smallest letter; floats high.",
+   "group": null,
+   "say": "יוֹד",
+   "audio": null
+  },
+  "l-kaf": {
+   "kind": "letter",
+   "he": "כּ",
+   "name": "Kaf",
+   "sound": "k",
+   "tr": "k",
+   "note": "Dot inside = k.",
+   "group": "bk",
+   "say": "כַּף",
+   "audio": null
+  },
+  "l-khaf": {
+   "kind": "letter",
+   "he": "כ",
+   "name": "Chaf",
+   "sound": "ch",
+   "tr": "ch",
+   "note": "No dot = ch. Rounded back.",
+   "group": "bk",
+   "say": "חָף",
+   "audio": null
+  },
+  "l-khaf-sofit": {
+   "kind": "letter",
+   "he": "ך",
+   "name": "Chaf sofit",
+   "sound": "ch",
+   "tr": "ch",
+   "note": "Final form: only at word end.",
+   "group": "vzn",
+   "say": "חָף סוֹפִית",
+   "audio": null
+  },
+  "l-lamed": {
+   "kind": "letter",
+   "he": "ל",
+   "name": "Lamed",
+   "sound": "l",
+   "tr": "l",
+   "note": "Only letter that rises above the line.",
+   "group": null,
+   "say": "לָמֶד",
+   "audio": null
+  },
+  "l-mem": {
+   "kind": "letter",
+   "he": "מ",
+   "name": "Mem",
+   "sound": "m",
+   "tr": "m",
+   "note": "Small gap at bottom left.",
+   "group": "tm",
+   "say": "מֵם",
+   "audio": null
+  },
+  "l-mem-sofit": {
+   "kind": "letter",
+   "he": "ם",
+   "name": "Mem sofit",
+   "sound": "m",
+   "tr": "m",
+   "note": "Final form: closed box.",
+   "group": "sm",
+   "say": "מֵם סוֹפִית",
+   "audio": null
+  },
+  "l-nun": {
+   "kind": "letter",
+   "he": "נ",
+   "name": "Nun",
+   "sound": "n",
+   "tr": "n",
+   "note": "Narrow, with a flat base.",
+   "group": "gn",
+   "say": "נוּן",
+   "audio": null
+  },
+  "l-nun-sofit": {
+   "kind": "letter",
+   "he": "ן",
+   "name": "Nun sofit",
+   "sound": "n",
+   "tr": "n",
+   "note": "Final form: long, drops below the line.",
+   "group": "vzn",
+   "say": "נוּן סוֹפִית",
+   "audio": null
+  },
+  "l-samekh": {
+   "kind": "letter",
+   "he": "ס",
+   "name": "Samech",
+   "sound": "s",
+   "tr": "s",
+   "note": "Round, closed.",
+   "group": "sm",
+   "say": "סָמֶךְ",
+   "audio": null
+  },
+  "l-ayin": {
+   "kind": "letter",
+   "he": "ע",
+   "name": "Ayin",
+   "sound": "silent",
+   "tr": "",
+   "note": "Carries a vowel; silent in most Reform pronunciation.",
+   "group": "at",
+   "say": "עַיִן",
+   "audio": null
+  },
+  "l-pe": {
+   "kind": "letter",
+   "he": "פּ",
+   "name": "Pei",
+   "sound": "p",
+   "tr": "p",
+   "note": "Dot inside = p.",
+   "group": "pf",
+   "say": "פֵּא",
+   "audio": null
+  },
+  "l-fe": {
+   "kind": "letter",
+   "he": "פ",
+   "name": "Fei",
+   "sound": "f",
+   "tr": "f",
+   "note": "No dot = f.",
+   "group": "pf",
+   "say": "פֵא",
+   "audio": null
+  },
+  "l-fe-sofit": {
+   "kind": "letter",
+   "he": "ף",
+   "name": "Fei sofit",
+   "sound": "f",
+   "tr": "f",
+   "note": "Final form: drops below the line.",
+   "group": "pf",
+   "say": "פֵא סוֹפִית",
+   "audio": null
+  },
+  "l-tzadi": {
+   "kind": "letter",
+   "he": "צ",
+   "name": "Tzadi",
+   "sound": "tz",
+   "tr": "tz",
+   "note": "tz, as in 'cats'.",
+   "group": "at",
+   "say": "צָדִי",
+   "audio": null
+  },
+  "l-tzadi-sofit": {
+   "kind": "letter",
+   "he": "ץ",
+   "name": "Tzadi sofit",
+   "sound": "tz",
+   "tr": "tz",
+   "note": "Final form: drops below the line.",
+   "group": "at",
+   "say": "צָדִי סוֹפִית",
+   "audio": null
+  },
+  "l-kuf": {
+   "kind": "letter",
+   "he": "ק",
+   "name": "Kuf",
+   "sound": "k",
+   "tr": "k",
+   "note": "Leg drops below the line.",
+   "group": null,
+   "say": "קוֹף",
+   "audio": null
+  },
+  "l-resh": {
+   "kind": "letter",
+   "he": "ר",
+   "name": "Resh",
+   "sound": "r",
+   "tr": "r",
+   "note": "Rounded corner (compare Dalet).",
+   "group": "dr",
+   "say": "רֵישׁ",
+   "audio": null
+  },
+  "l-shin": {
+   "kind": "letter",
+   "he": "שׁ",
+   "name": "Shin",
+   "sound": "sh",
+   "tr": "sh",
+   "note": "Dot on the right = sh.",
+   "group": "ss",
+   "say": "שִׁין",
+   "audio": null
+  },
+  "l-sin": {
+   "kind": "letter",
+   "he": "שׂ",
+   "name": "Sin",
+   "sound": "s",
+   "tr": "s",
+   "note": "Dot on the left = s.",
+   "group": "ss",
+   "say": "שִׂין",
+   "audio": null
+  },
+  "l-tav": {
+   "kind": "letter",
+   "he": "ת",
+   "name": "Tav",
+   "sound": "t",
+   "tr": "t",
+   "note": "Foot at bottom left.",
+   "group": "hct",
+   "say": "תָּו",
+   "audio": null
+  },
+  "v-patach": {
+   "kind": "vowel",
+   "he": "◌ַ",
+   "name": "Patach",
+   "sound": "a (father)",
+   "tr": "a",
+   "note": "Line under the letter.",
+   "flag": null,
+   "say": "אַ",
+   "audio": null
+  },
+  "v-kamatz": {
+   "kind": "vowel",
+   "he": "◌ָ",
+   "name": "Kamatz",
+   "sound": "a (father)",
+   "tr": "a",
+   "note": "T-shape under the letter.",
+   "flag": "Sometimes read 'o' (kamatz katan); flagged per word later.",
+   "say": "אָ",
+   "audio": null
+  },
+  "v-segol": {
+   "kind": "vowel",
+   "he": "◌ֶ",
+   "name": "Segol",
+   "sound": "e (bed)",
+   "tr": "e",
+   "note": "Three dots in a triangle.",
+   "flag": null,
+   "say": "אֶ",
+   "audio": null
+  },
+  "v-tzere": {
+   "kind": "vowel",
+   "he": "◌ֵ",
+   "name": "Tzere",
+   "sound": "e (they)",
+   "tr": "e",
+   "note": "Two dots side by side.",
+   "flag": "Before yod, Mishkan T'filah transliterates as 'ei' (e.g. Eloheinu).",
+   "say": "אֵ",
+   "audio": null
+  },
+  "v-hiriq": {
+   "kind": "vowel",
+   "he": "◌ִ",
+   "name": "Chirik",
+   "sound": "i (ski)",
+   "tr": "i",
+   "note": "One dot below.",
+   "flag": null,
+   "say": "אִ",
+   "audio": null
+  },
+  "v-hiriq-yod": {
+   "kind": "vowel",
+   "he": "◌ִי",
+   "name": "Chirik yod",
+   "sound": "i (ski)",
+   "tr": "i",
+   "note": "Dot below, then yod.",
+   "flag": null,
+   "say": "אִי",
+   "audio": null
+  },
+  "v-holam": {
+   "kind": "vowel",
+   "he": "◌ֹ",
+   "name": "Cholam",
+   "sound": "o (go)",
+   "tr": "o",
+   "note": "Dot above, top left.",
+   "flag": null,
+   "say": "אֹ",
+   "audio": null
+  },
+  "v-holam-vav": {
+   "kind": "vowel",
+   "he": "◌וֹ",
+   "name": "Cholam vav",
+   "sound": "o (go)",
+   "tr": "o",
+   "note": "Vav with a dot on top.",
+   "flag": null,
+   "say": "אוֹ",
+   "audio": null
+  },
+  "v-kubutz": {
+   "kind": "vowel",
+   "he": "◌ֻ",
+   "name": "Kubutz",
+   "sound": "u (flute)",
+   "tr": "u",
+   "note": "Three diagonal dots below.",
+   "flag": null,
+   "say": "אֻ",
+   "audio": null
+  },
+  "v-shuruk": {
+   "kind": "vowel",
+   "he": "◌וּ",
+   "name": "Shuruk",
+   "sound": "u (flute)",
+   "tr": "u",
+   "note": "Vav with a dot in its middle.",
+   "flag": null,
+   "say": "אוּ",
+   "audio": null
+  },
+  "v-sheva": {
+   "kind": "vowel",
+   "he": "◌ְ",
+   "name": "Sh'va",
+   "sound": "silent or quick e",
+   "tr": "'",
+   "note": "Two dots stacked.",
+   "flag": "Vocal vs. silent sh'va varies; Mishkan T'filah marks vocal with an apostrophe.",
+   "say": null,
+   "audio": null
+  },
+  "v-hataf-patach": {
+   "kind": "vowel",
+   "he": "◌ֲ",
+   "name": "Chataf patach",
+   "sound": "short a",
+   "tr": "a",
+   "note": "Sh'va + patach.",
+   "flag": null,
+   "say": "אֲ",
+   "audio": null
+  },
+  "v-hataf-segol": {
+   "kind": "vowel",
+   "he": "◌ֱ",
+   "name": "Chataf segol",
+   "sound": "short e",
+   "tr": "e",
+   "note": "Sh'va + segol.",
+   "flag": null,
+   "say": "אֱ",
+   "audio": null
+  },
+  "v-hataf-kamatz": {
+   "kind": "vowel",
+   "he": "◌ֳ",
+   "name": "Chataf kamatz",
+   "sound": "short o",
+   "tr": "o",
+   "note": "Sh'va + kamatz.",
+   "flag": null,
+   "say": "אֳ",
+   "audio": null
+  },
+  "s-patach-he": {
+   "kind": "syllable",
+   "he": "הַ",
+   "tr": "ha",
+   "hint": "ה Hei (h) + Patach (a)",
+   "say": "הַ",
+   "audio": null
+  },
+  "s-patach-gimel": {
+   "kind": "syllable",
+   "he": "גַ",
+   "tr": "ga",
+   "hint": "ג Gimel (g) + Patach (a)",
+   "say": "גַ",
+   "audio": null
+  },
+  "s-patach-kuf": {
+   "kind": "syllable",
+   "he": "קַ",
+   "tr": "ka",
+   "hint": "ק Kuf (k) + Patach (a)",
+   "say": "קַ",
+   "audio": null
+  },
+  "s-patach-mem": {
+   "kind": "syllable",
+   "he": "מַ",
+   "tr": "ma",
+   "hint": "מ Mem (m) + Patach (a)",
+   "say": "מַ",
+   "audio": null
+  },
+  "s-kamatz-yod": {
+   "kind": "syllable",
+   "he": "יָ",
+   "tr": "ya",
+   "hint": "י Yod (y) + Kamatz (a)",
+   "say": "יָ",
+   "audio": null
+  },
+  "s-kamatz-zayin": {
+   "kind": "syllable",
+   "he": "זָ",
+   "tr": "za",
+   "hint": "ז Zayin (z) + Kamatz (a)",
+   "say": "זָ",
+   "audio": null
+  },
+  "s-kamatz-vav": {
+   "kind": "syllable",
+   "he": "וָ",
+   "tr": "va",
+   "hint": "ו Vav (v) + Kamatz (a)",
+   "say": "וָ",
+   "audio": null
+  },
+  "s-kamatz-nun": {
+   "kind": "syllable",
+   "he": "נָ",
+   "tr": "na",
+   "hint": "נ Nun (n) + Kamatz (a)",
+   "say": "נָ",
+   "audio": null
+  },
+  "s-segol-tzadi": {
+   "kind": "syllable",
+   "he": "צֶ",
+   "tr": "tze",
+   "hint": "צ Tzadi (tz) + Segol (e)",
+   "say": "צֶ",
+   "audio": null
+  },
+  "s-segol-nun": {
+   "kind": "syllable",
+   "he": "נֶ",
+   "tr": "ne",
+   "hint": "נ Nun (n) + Segol (e)",
+   "say": "נֶ",
+   "audio": null
+  },
+  "s-segol-he": {
+   "kind": "syllable",
+   "he": "הֶ",
+   "tr": "he",
+   "hint": "ה Hei (h) + Segol (e)",
+   "say": "הֶ",
+   "audio": null
+  },
+  "s-segol-tet": {
+   "kind": "syllable",
+   "he": "טֶ",
+   "tr": "te",
+   "hint": "ט Tet (t) + Segol (e)",
+   "say": "טֶ",
+   "audio": null
+  },
+  "s-tzere-mem": {
+   "kind": "syllable",
+   "he": "מֵ",
+   "tr": "me",
+   "hint": "מ Mem (m) + Tzere (e)",
+   "say": "מֵ",
+   "audio": null
+  },
+  "s-tzere-chet": {
+   "kind": "syllable",
+   "he": "חֵ",
+   "tr": "che",
+   "hint": "ח Chet (ch) + Tzere (e)",
+   "say": "חֵ",
+   "audio": null
+  },
+  "s-tzere-vav": {
+   "kind": "syllable",
+   "he": "וֵ",
+   "tr": "ve",
+   "hint": "ו Vav (v) + Tzere (e)",
+   "say": "וֵ",
+   "audio": null
+  },
+  "s-tzere-resh": {
+   "kind": "syllable",
+   "he": "רֵ",
+   "tr": "re",
+   "hint": "ר Resh (r) + Tzere (e)",
+   "say": "רֵ",
+   "audio": null
+  },
+  "s-hiriq-gimel": {
+   "kind": "syllable",
+   "he": "גִ",
+   "tr": "gi",
+   "hint": "ג Gimel (g) + Chirik (i)",
+   "say": "גִ",
+   "audio": null
+  },
+  "s-hiriq-yod": {
+   "kind": "syllable",
+   "he": "יִ",
+   "tr": "yi",
+   "hint": "י Yod (y) + Chirik (i)",
+   "say": "יִ",
+   "audio": null
+  },
+  "s-hiriq-samekh": {
+   "kind": "syllable",
+   "he": "סִ",
+   "tr": "si",
+   "hint": "ס Samech (s) + Chirik (i)",
+   "say": "סִ",
+   "audio": null
+  },
+  "s-hiriq-kuf": {
+   "kind": "syllable",
+   "he": "קִ",
+   "tr": "ki",
+   "hint": "ק Kuf (k) + Chirik (i)",
+   "say": "קִ",
+   "audio": null
+  },
+  "s-hiriq-yod-sin": {
+   "kind": "syllable",
+   "he": "שִׂי",
+   "tr": "si",
+   "hint": "שׂ Sin (s) + Chirik yod (i)",
+   "say": "שִׂי",
+   "audio": null
+  },
+  "s-hiriq-yod-tav": {
+   "kind": "syllable",
+   "he": "תִי",
+   "tr": "ti",
+   "hint": "ת Tav (t) + Chirik yod (i)",
+   "say": "תִי",
+   "audio": null
+  },
+  "s-hiriq-yod-he": {
+   "kind": "syllable",
+   "he": "הִי",
+   "tr": "hi",
+   "hint": "ה Hei (h) + Chirik yod (i)",
+   "say": "הִי",
+   "audio": null
+  },
+  "s-hiriq-yod-zayin": {
+   "kind": "syllable",
+   "he": "זִי",
+   "tr": "zi",
+   "hint": "ז Zayin (z) + Chirik yod (i)",
+   "say": "זִי",
+   "audio": null
+  },
+  "s-holam-he": {
+   "kind": "syllable",
+   "he": "הֹ",
+   "tr": "ho",
+   "hint": "ה Hei (h) + Cholam (o)",
+   "say": "הֹ",
+   "audio": null
+  },
+  "s-holam-zayin": {
+   "kind": "syllable",
+   "he": "זֹ",
+   "tr": "zo",
+   "hint": "ז Zayin (z) + Cholam (o)",
+   "say": "זֹ",
+   "audio": null
+  },
+  "s-holam-vav-kaf": {
+   "kind": "syllable",
+   "he": "כּוֹ",
+   "tr": "ko",
+   "hint": "כּ Kaf (k) + Cholam vav (o)",
+   "say": "כּוֹ",
+   "audio": null
+  },
+  "s-holam-vav-pe": {
+   "kind": "syllable",
+   "he": "פּוֹ",
+   "tr": "po",
+   "hint": "פּ Pei (p) + Cholam vav (o)",
+   "say": "פּוֹ",
+   "audio": null
+  },
+  "s-holam-vav-samekh": {
+   "kind": "syllable",
+   "he": "סוֹ",
+   "tr": "so",
+   "hint": "ס Samech (s) + Cholam vav (o)",
+   "say": "סוֹ",
+   "audio": null
+  },
+  "s-kubutz-tav": {
+   "kind": "syllable",
+   "he": "תֻ",
+   "tr": "tu",
+   "hint": "ת Tav (t) + Kubutz (u)",
+   "say": "תֻ",
+   "audio": null
+  },
+  "s-kubutz-kuf": {
+   "kind": "syllable",
+   "he": "קֻ",
+   "tr": "ku",
+   "hint": "ק Kuf (k) + Kubutz (u)",
+   "say": "קֻ",
+   "audio": null
+  },
+  "s-kubutz-sin": {
+   "kind": "syllable",
+   "he": "שֻׂ",
+   "tr": "su",
+   "hint": "שׂ Sin (s) + Kubutz (u)",
+   "say": "שֻׂ",
+   "audio": null
+  },
+  "s-kubutz-nun": {
+   "kind": "syllable",
+   "he": "נֻ",
+   "tr": "nu",
+   "hint": "נ Nun (n) + Kubutz (u)",
+   "say": "נֻ",
+   "audio": null
+  },
+  "s-shuruk-vav": {
+   "kind": "syllable",
+   "he": "ווּ",
+   "tr": "vu",
+   "hint": "ו Vav (v) + Shuruk (u)",
+   "say": "ווּ",
+   "audio": null
+  },
+  "s-shuruk-resh": {
+   "kind": "syllable",
+   "he": "רוּ",
+   "tr": "ru",
+   "hint": "ר Resh (r) + Shuruk (u)",
+   "say": "רוּ",
+   "audio": null
+  },
+  "s-shuruk-tet": {
+   "kind": "syllable",
+   "he": "טוּ",
+   "tr": "tu",
+   "hint": "ט Tet (t) + Shuruk (u)",
+   "say": "טוּ",
+   "audio": null
+  },
+  "s-shuruk-chet": {
+   "kind": "syllable",
+   "he": "חוּ",
+   "tr": "chu",
+   "hint": "ח Chet (ch) + Shuruk (u)",
+   "say": "חוּ",
+   "audio": null
+  },
+  "s-sheva-bet": {
+   "kind": "syllable",
+   "he": "בְּ",
+   "tr": "b'",
+   "hint": "בּ Bet (b) + Sh'va (')",
+   "say": null,
+   "audio": null
+  },
+  "s-sheva-lamed": {
+   "kind": "syllable",
+   "he": "לְ",
+   "tr": "l'",
+   "hint": "ל Lamed (l) + Sh'va (')",
+   "say": null,
+   "audio": null
+  },
+  "s-sheva-nun": {
+   "kind": "syllable",
+   "he": "נְ",
+   "tr": "n'",
+   "hint": "נ Nun (n) + Sh'va (')",
+   "say": null,
+   "audio": null
+  },
+  "s-sheva-yod": {
+   "kind": "syllable",
+   "he": "יְ",
+   "tr": "y'",
+   "hint": "י Yod (y) + Sh'va (')",
+   "say": null,
+   "audio": null
+  },
+  "s-hataf-patach-ayin": {
+   "kind": "syllable",
+   "he": "עֲ",
+   "tr": "a",
+   "hint": "ע Ayin (silent) + Chataf patach (a)",
+   "say": "עֲ",
+   "audio": null
+  },
+  "s-hataf-patach-chet": {
+   "kind": "syllable",
+   "he": "חֲ",
+   "tr": "cha",
+   "hint": "ח Chet (ch) + Chataf patach (a)",
+   "say": "חֲ",
+   "audio": null
+  },
+  "s-hataf-patach-he": {
+   "kind": "syllable",
+   "he": "הֲ",
+   "tr": "ha",
+   "hint": "ה Hei (h) + Chataf patach (a)",
+   "say": "הֲ",
+   "audio": null
+  },
+  "s-hataf-patach-alef": {
+   "kind": "syllable",
+   "he": "אֲ",
+   "tr": "a",
+   "hint": "א Alef (silent) + Chataf patach (a)",
+   "say": "אֲ",
+   "audio": null
+  },
+  "s-hataf-segol-chet": {
+   "kind": "syllable",
+   "he": "חֱ",
+   "tr": "che",
+   "hint": "ח Chet (ch) + Chataf segol (e)",
+   "say": "חֱ",
+   "audio": null
+  },
+  "s-hataf-segol-ayin": {
+   "kind": "syllable",
+   "he": "עֱ",
+   "tr": "e",
+   "hint": "ע Ayin (silent) + Chataf segol (e)",
+   "say": "עֱ",
+   "audio": null
+  },
+  "s-hataf-segol-he": {
+   "kind": "syllable",
+   "he": "הֱ",
+   "tr": "he",
+   "hint": "ה Hei (h) + Chataf segol (e)",
+   "say": "הֱ",
+   "audio": null
+  },
+  "s-hataf-segol-alef": {
+   "kind": "syllable",
+   "he": "אֱ",
+   "tr": "e",
+   "hint": "א Alef (silent) + Chataf segol (e)",
+   "say": "אֱ",
+   "audio": null
+  },
+  "s-hataf-kamatz-chet": {
+   "kind": "syllable",
+   "he": "חֳ",
+   "tr": "cho",
+   "hint": "ח Chet (ch) + Chataf kamatz (o)",
+   "say": "חֳ",
+   "audio": null
+  },
+  "s-hataf-kamatz-he": {
+   "kind": "syllable",
+   "he": "הֳ",
+   "tr": "ho",
+   "hint": "ה Hei (h) + Chataf kamatz (o)",
+   "say": "הֳ",
+   "audio": null
+  },
+  "s-hataf-kamatz-alef": {
+   "kind": "syllable",
+   "he": "אֳ",
+   "tr": "o",
+   "hint": "א Alef (silent) + Chataf kamatz (o)",
+   "say": "אֳ",
+   "audio": null
+  },
+  "s-hataf-kamatz-ayin": {
+   "kind": "syllable",
+   "he": "עֳ",
+   "tr": "o",
+   "hint": "ע Ayin (silent) + Chataf kamatz (o)",
+   "say": "עֳ",
+   "audio": null
+  }
+ }
+}
