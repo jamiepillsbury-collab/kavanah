@@ -67,6 +67,14 @@
   // what an item sounds like, for keeping same-sounding choices apart (בַ/וַ, patach/kamatz)
   const soundKey = (x) => { const t = course.items[x]; return t.kind === "letter" ? t.name : t.kind === "vowel" ? t.sound : t.tr; };
 
+  // banner that explains anything that can't happen yet; actions = [{label, fn}]
+  const toast = (msg, actions = []) => {
+    document.querySelector(".toast")?.remove(); clearTimeout(toast.t);
+    const t = h("div", { class: "toast", role: "status" }, h("span", {}, msg),
+      ...actions.filter(Boolean).map((a) => h("button", { onclick: () => { t.remove(); a.fn(); } }, a.label)),
+      h("button", { class: "x", "aria-label": "Close", onclick: () => t.remove() }, "✕"));
+    document.body.append(t); toast.t = setTimeout(() => t.remove(), 9000);
+  };
   const lessonPct = (l) => l.items.reduce((s, id) => s + Math.min(mastery(id), 3) / 3, 0) / l.items.length;
   const allLessons = () => course.units.flatMap((u) => u.lessons);
 
@@ -202,6 +210,37 @@
     setup();
   }
 
+  // ---------- write from memory: blank pad, reveal the letter any time, compare at the end (never graded) ----------
+  function renderWrite(it, bar, next) {
+    const list = traceStrokes(it);
+    const svg = s("svg", { viewBox: "0 0 100 100", class: "trace", "aria-label": `Write ${it.name}` });
+    svg.append(s("line", { x1: 50, y1: 2, x2: 50, y2: 98, class: "t-cross" }), s("line", { x1: 2, y1: 50, x2: 98, y2: 50, class: "t-cross" }),
+      s("line", { x1: 8, y1: 80, x2: 92, y2: 80, class: "t-base" }));
+    const answer = s("g", { class: "w-answer" }); answer.style.display = "none";
+    for (const st of list) answer.append(s("path", { d: st.d, class: "t-solid" + (st.dot ? " dot" : "") }));
+    const inkG = s("g"); svg.append(answer, inkG);
+    const status = h("p", { class: "sub t-status" }, "Write it from memory. Stuck? Tap Show the letter.");
+    let cur = null;
+    const at = (e) => { const p = svg.createSVGPoint(); p.x = e.clientX; p.y = e.clientY; return p.matrixTransform(svg.getScreenCTM().inverse()); };
+    svg.addEventListener("pointerdown", (e) => { const p = at(e); cur = s("path", { d: `M${p.x.toFixed(1)} ${p.y.toFixed(1)} l0.1 0.1`, class: "w-ink" }); inkG.append(cur); svg.setPointerCapture(e.pointerId); e.preventDefault(); });
+    svg.addEventListener("pointermove", (e) => { if (!cur) return; const p = at(e); cur.setAttribute("d", cur.getAttribute("d") + ` L${p.x.toFixed(1)} ${p.y.toFixed(1)}`); });
+    const up = () => { if (cur) { cur = null; done.disabled = false; } };
+    svg.addEventListener("pointerup", up); svg.addEventListener("pointercancel", up);
+    const peek = h("button", { class: "secondary small", onclick: () => { answer.style.display = ""; status.textContent = "Here it is. Write over it, or Clear and try again."; } }, "Show the letter");
+    const clear = h("button", { class: "secondary small", onclick: () => { inkG.replaceChildren(); done.disabled = true; } }, "Clear");
+    const done = h("button", { class: "primary", disabled: true, onclick: () => {
+      answer.style.display = ""; status.textContent = "";
+      bar.className = "checkbar good";
+      bar.replaceChildren(h("div", { class: "fb-row" }, h("b", {}, "Compare yours with the print form."), speakBtn(it)),
+        h("div", { class: "fb-ans" }, "Not graded. Close is good."), h("button", { class: "primary", onclick: next }, "Continue"));
+      speak(it);
+    } }, "Done");
+    view.append(h("div", { class: "card trace-card" },
+      h("div", { class: "t-head" }, h("span", {}, `Write ${it.name} (${it.sound || "silent"})`), speakBtn(it)),
+      h("p", { class: "prompt-label" }, "From memory"), svg, status, h("div", { class: "row-btns" }, peek, clear)), bar);
+    bar.append(h("button", { class: "secondary", onclick: next }, "Skip"), done);
+  }
+
   // ---------- speaking: record yourself, compare by ear with the model (never graded) ----------
   const canRecord = () => state.settings.speak !== false && !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder);
   let mine = null; // object URL of the latest take; kept in memory only, never saved
@@ -262,12 +301,15 @@
         if (canTrace(it)) steps.push({ id, mode: "trace" });
       }
       steps.push({ id, mode: "read" });
-      if (!rec(id) || mastery(id) === 0) if (canRecord()) steps.push({ id, mode: "say" });
+      if ((!rec(id) || mastery(id) === 0) && it.kind !== "letter" && canRecord() && canHear(it)) steps.push({ id, mode: "say" });
       const hear = canHear(it) && Math.random() < 0.5;
       second.push({ id, mode: hear ? "hear" : it.kind === "letter" ? "find" : "read" });
     }
     shuffle(syls).slice(0, 5).forEach((id, n) => second.push({ id, mode: n % 2 && canHear(course.items[id]) ? "hear" : "find" }));
-    if (canRecord() && syls.length) second.push({ id: shuffle(syls)[0], mode: "say" });
+    const sayable = syls.filter((x) => canHear(course.items[x]));
+    if (canRecord() && sayable.length) second.push({ id: shuffle(sayable)[0], mode: "say" });
+    // write from memory (no stencil) for up to 2 letters of this lesson
+    shuffle(lesson.items.filter((x) => course.items[x].kind === "letter" && canTrace(course.items[x]))).slice(0, 2).forEach((id) => second.push({ id, mode: "write" }));
     return steps.concat(shuffle(second));
   }
   function buildPractice(n = 12) {
@@ -278,7 +320,10 @@
       if (canHear(it) && r < 0.3) return { id, mode: "hear" };
       return { id, mode: it.kind === "vowel" || r < 0.65 ? "read" : "find" };
     });
-    if (canRecord() && out.length > 4) out.splice(1 + Math.floor(Math.random() * (out.length - 1)), 0, { id: out[0].id, mode: "say" });
+    const sayId = pick.find((id) => course.items[id].kind !== "letter" && canHear(course.items[id]));
+    if (canRecord() && sayId && out.length > 4) out.splice(1 + Math.floor(Math.random() * (out.length - 1)), 0, { id: sayId, mode: "say" });
+    shuffle(pick.filter((id) => course.items[id].kind === "letter" && canTrace(course.items[id]))).slice(0, 2)
+      .forEach((id) => out.splice(Math.floor(Math.random() * (out.length + 1)), 0, { id, mode: "write" }));
     return out;
   }
   function startRun(title, steps, lessonIds) {
@@ -295,8 +340,8 @@
     showTab(currentTab);
   }
 
-  function hintBlock(id, text) {
-    const lvl = hintLevel(id);
+  function hintBlock(id, text, quiz) {
+    const lvl = quiz ? (state.settings.hints === "always" ? "show" : "hidden") : hintLevel(id);
     const box = h("div", { class: "hint" + (lvl === "faint" ? " faint" : "") });
     const reveal = () => { box.textContent = text; box.classList.remove("faint"); };
     if (lvl === "hidden") box.append(h("button", { onclick: reveal }, "Show hint"));
@@ -331,6 +376,7 @@
 
     if (step.mode === "trace") return renderTrace(it, bar, next);
     if (step.mode === "say") return renderSay(it, bar, next, step.id);
+    if (step.mode === "write") return renderWrite(it, bar, next);
 
     const heChoices = step.mode !== "read"; // find & hear: choose the Hebrew
     const keyOf = (x) => (heChoices ? course.items[x].he : label(course.items[x], step.mode));
@@ -376,7 +422,7 @@
       h("div", { class: "card" },
         h("p", { class: "prompt-label" }, q), promptMain,
         step.mode === "read" ? speakBtn(it) : null,
-        hintBlock(step.id, hintFor(it, step.mode))),
+        hintBlock(step.id, hintFor(it, step.mode), true)),
       h("div", { class: "opts" }, opts.map((x) => {
         const key = keyOf(x);
         const b = h("button", { class: "opt" + (heChoices ? " he" : ""), lang: heChoices ? "he" : null, "data-key": key }, key);
@@ -431,11 +477,17 @@
     const ids = u.lessons.flatMap((l) => l.items).filter((id) => course.items[id].kind !== "syllable");
     return h("div", { class: "tiles" }, ids.map((id) => {
       const it = course.items[id], pct = Math.min(mastery(id), 3) / 3;
-      const t = h("button", { class: "tile" + (isDue(id) ? " fading" : ""), "aria-label": `${it.name}, ${it.sound}` },
+      const t = h("button", { class: "tile" + (isDue(id) ? " fading" : "") + (rec(id) ? "" : " new"), "aria-label": `${it.name}, ${it.sound}` },
         h("span", { class: "he", lang: "he" }, it.he),
         h("small", {}, it.kind === "letter" ? (it.tr || "silent") : it.tr === "'" ? "sh'va" : it.tr),
         h("div", { class: "bar" }, h("i", { style: `width:${Math.round(pct * 100)}%` })));
-      t.addEventListener("click", () => { speak(it); t.classList.remove("ping"); void t.offsetWidth; t.classList.add("ping"); });
+      t.addEventListener("click", () => {
+        t.classList.remove("ping"); void t.offsetWidth; t.classList.add("ping");
+        const les = allLessons().find((l) => l.items.includes(id));
+        const practice = les ? { label: rec(id) ? "Practice this" : "Learn this", fn: () => startRun(les.title, buildLesson(les), les.items) } : null;
+        if (canHear(it)) { speak(it); toast(`${it.name}${it.kind === "letter" ? " · " + (it.sound || "silent") : ""}`, [practice]); }
+        else toast("No sound: this phone has no Hebrew voice installed yet. It takes about 2 minutes to add.", [{ label: "Show me how", fn: () => showTab("settings") }, practice]);
+      });
       return t;
     }));
   }
@@ -447,9 +499,11 @@
           started ? `Continue: ${next.title}` : "Learn the letters")
       : null;
     const noVoice = !heVoice && !Object.values(course.items).some((x) => x.audio)
-      ? h("p", { class: "sub" }, "No Hebrew voice found on this phone, so tiles are silent. See Settings › Sound.") : null;
+      ? h("div", { class: "card notice" }, h("b", {}, "Sound is off: no Hebrew voice on this phone."),
+          h("p", { class: "sub" }, "Without it, letters can't be heard and speaking practice is skipped. Adding it takes about 2 minutes."),
+          h("button", { class: "secondary", onclick: () => showTab("settings") }, "Show me how")) : null;
     view.replaceChildren(reviewCard() || "", go || "", ...course.units.map((u) => h("section", {},
-      h("h2", {}, u.title), h("p", { class: "sub" }, u.subtitle + " · tap a tile to hear it"),
+      h("h2", {}, u.title), h("p", { class: "sub" }, u.subtitle + " · tap a tile to hear it or practice it. Gray = not learned yet."),
       tileGrid(u),
       h("details", { class: "lessons", open: next && u.lessons.includes(next) },
         h("summary", {}, `Lessons (${u.lessons.length})`),
