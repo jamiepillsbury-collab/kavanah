@@ -1,7 +1,7 @@
 {
 "fetched": "2026-10-29T06:50:00Z",
 "api": "https://www.sefaria.org/api/v3/texts",
-"note": "Raw Sefaria text, cantillation stripped. SHA-256 verified against browser fetch.",
+"note": "Raw Sefaria text, cantillation stripped. SHA-256 verified against browser fetch. Maariv blessings added 2026-10-29.",
 "sources": [
 {
 "ref": "Deuteronomy 6:4-9",
@@ -67,6 +67,44 @@
 "license": "CC-BY",
 "text": [
 "Blessed [is His] Name, Whose glorious kingdom is forever and ever."
+]
+},
+{
+"ref": "Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing before Shema",
+"lang": "he",
+"version": "The Metsudah siddur, 1981",
+"license": "CC-BY",
+"text": [
+"אַהֲבַת עוֹלָם בֵּית יִשְׂרָאֵל עַמְּךָ אָהָבְתָּ תּוֹרָה וּמִצְוֹת חֻקִּים וּמִשְׁפָּטִים אוֹתָנוּ לִמַּדְתָּ: עַל כֵּן יְהֹוָה אֱלֹהֵינוּ בְּשָׁכְבֵנוּ וּבְקוּמֵנוּ נָשִׂיחַ בְּחֻקֶּיךָ וְנִשְׂמַח בְּדִבְרֵי תוֹרָתֶךָ וּבְמִצְוֹתֶיךָ לְעוֹלָם וָעֶד: כִּי הֵם חַיֵּינוּ וְאֹרֶךְ יָמֵינוּ וּבָהֶם נֶהְגֶּה יוֹמָם וָלָיְלָה: וְאַהֲבָתְךָ אַל תָּסִיר מִמֶּנּוּ לְעוֹלָמִים: בָּרוּךְ אַתָּה יְהֹוָה אוֹהֵב עַמּוֹ יִשְׂרָאֵל:"
+]
+},
+{
+"ref": "Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing before Shema",
+"lang": "en",
+"version": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+"license": "CC-BY",
+"text": [
+"[With] An everlasting love You loved the House of Israel, Your people. You taught us Torah and commandments, statutes and laws. Therefore, Adonoy, our God, when we lie down and when we rise, we will discuss Your statutes, and rejoice in the words of Your Torah and in Your commandments forever. For they are our life and they lengthen our days, and on them we will meditate day and night. [May] Your love never be removed from us. Blessed are You, Adonoy, Who loves His people Israel."
+]
+},
+{
+"ref": "Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing after Shema (segs 1-2)",
+"lang": "he",
+"version": "The Metsudah siddur, 1981",
+"license": "CC-BY",
+"text": [
+"מִי כָמֹכָה בָּאֵלִם יְהֹוָה מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא: מַלְכוּתְךָ רָאוּ בָנֶיךָ בּוֹקֵעַ יָם לִפְנֵי משֶׁה זֶה אֵלִי עָנוּ וְאָמְרוּ:",
+"יְהֹוָה יִמְלֹךְ לְעֹלָם וָעֶד: וְנֶאֱמַר כִּי־פָדָה יְהֹוָה אֶת יַעֲקֹב וּגְאָלוֹ מִיַּד חָזָק מִמֶּנּוּ. בָּרוּךְ אַתָּה יְהֹוָה גָּאַל יִשְׂרָאֵל:"
+]
+},
+{
+"ref": "Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing after Shema (segs 1-2)",
+"lang": "en",
+"version": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+"license": "CC-BY",
+"text": [
+"“Who is like You among the mighty, Adonoy! Who is like You? [You are] adorned in holiness, awesome in praise, performing wonders” Your children beheld Your sovereignty when You divided the sea before Moses. “This is my God,” they exclaimed, and declared,",
+"“Adonoy will reign forever and ever.” And it is said, “For Adonoy has liberated Jacob and redeemed him from a hand, mightier than his.” Blessed are You, Adonoy Who has redeemed Israel."
 ]
 }
 ]

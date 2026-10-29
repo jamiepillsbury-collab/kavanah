@@ -315,7 +315,7 @@
     shuffle(syls).slice(0, 5).forEach((id, n) => second.push({ id, mode: n % 2 && canHear(course.items[id]) ? "hear" : "find" }));
     const sayable = syls.filter((x) => canHear(course.items[x]));
     if (canRecord() && sayable.length) second.push({ id: shuffle(sayable)[0], mode: "say" });
-    shuffle(lesson.items.filter((x) => course.items[x].kind === "word")).slice(0, 2).forEach((id) => second.push({ id, mode: "type" }));
+    shuffle(lesson.items.filter((x) => course.items[x].kind === "word")).slice(0, lesson.drill ? 4 : 2).forEach((id) => second.push({ id, mode: "type" }));
     // write from memory (no stencil) for up to 2 letters of this lesson
     shuffle(lesson.items.filter((x) => course.items[x].kind === "letter" && canTrace(course.items[x]))).slice(0, 2).forEach((id) => second.push({ id, mode: "write" }));
     return steps.concat(shuffle(second));
@@ -456,7 +456,7 @@
 
   // ---------- words & blessings ----------
   function addPrayers(pd) {
-    const lessons = pd.prayers.slice().sort((a, b) => a.order - b.order).map((p) => {
+    const lessons = pd.prayers.slice().sort((a, b) => (a.seq ?? a.order) - (b.seq ?? b.order)).map((p) => {
       prayers[p.id] = p;
       const items = p.lines.map((l, n) => {
         const id = `p-${p.id}-${n}`;

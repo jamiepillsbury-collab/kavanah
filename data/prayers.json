@@ -10,6 +10,7 @@
    "audio": null,
    "he_src": "Siddur Ashkenaz, Berachot, Birkat Hanehenin, Eating, Barachot Rishonot (Daat Siddur Ashkenaz, Public Domain)",
    "unit": "blessings",
+   "seq": 0,
    "check": [
     "No Sefaria English found for this text."
    ],
@@ -34,6 +35,7 @@
    "audio": null,
    "he_src": "Siddur Sefard, Shabbat Candle Lighting (Torat Emet 357, Public Domain)",
    "unit": "blessings",
+   "seq": 1,
    "check": [
     "Mishkan T'filah wording: confirm 'l'hadlik ner shel Shabbat' matches your siddur."
    ],
@@ -58,6 +60,7 @@
    "audio": null,
    "he_src": "Siddur Sefard, Blessings, Shehecheyanu (Torat Emet 357, Public Domain)",
    "unit": "blessings",
+   "seq": 2,
    "check": [
     "No Sefaria English found for this text."
    ],
@@ -82,6 +85,7 @@
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Barchu (The Metsudah siddur, 1981, CC-BY)",
    "unit": "blessings",
+   "seq": 3,
    "check": [],
    "lines": [
     {
@@ -114,6 +118,7 @@
    "audio": null,
    "he_src": "Siddur Sefard, Shabbat Morning Services, Blessings on Torah Reading (Torat Emet 357, Public Domain)",
    "unit": "blessings",
+   "seq": 4,
    "check": [
     "Mishkan T'filah: 'mikol ha-amim' or 'im kol ha-amim'? (line 3)"
    ],
@@ -168,6 +173,7 @@
    "audio": null,
    "he_src": "Siddur Sefard, Shabbat Morning Services, Blessings on Torah Reading (Torat Emet 357, Public Domain)",
    "unit": "blessings",
+   "seq": 5,
    "check": [],
    "lines": [
     {
@@ -200,6 +206,7 @@
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Shabbat Evening, Kiddush (The Metsudah siddur, 1981, CC-BY)",
    "unit": "blessings",
+   "seq": 6,
    "check": [
     "Does Mishkan T'filah include 'Vay'hi erev vay'hi voker' and 'Savri maranan'?",
     "Mishkan T'filah wording of 'ki vanu vacharta v'otanu kidashta mikol ha-amim'?",
@@ -296,6 +303,7 @@
    "audio": null,
    "he_src": "Siddur Sefard, Shabbat Morning Services, Haftarah Blessings (Torat Emet 357, Public Domain)",
    "unit": "blessings",
+   "seq": 7,
    "check": [],
    "lines": [
     {
@@ -328,6 +336,7 @@
    "audio": null,
    "he_src": "Deuteronomy 6:4-9 (Miqra according to the Masorah, CC-BY-SA)",
    "unit": "shma",
+   "seq": 8,
    "check": [
     "Hebrew line 1: Deuteronomy 6:4 (Miqra according to the Masorah, CC-BY-SA). Line 2 from the Metsudah siddur.",
     "Baruch shem: does CBB say it aloud or quietly? (Mishkan T'filah prints it in smaller type.)"
@@ -363,6 +372,7 @@
    "audio": null,
    "he_src": "Deuteronomy 6:4-9 (Miqra according to the Masorah, CC-BY-SA)",
    "unit": "shma",
+   "seq": 9,
    "check": [
     "Mishkan T'filah goes from Deut 6:9 straight to 'L'ma'an tizk'ru' (Num 15:40-41), skipping Deut 11:13-21 and Num 15:37-39. Confirm, then mark as a Reform change.",
     "Hebrew is the Torah text: kamatz katan printed as its own sign in b'chol (it reads 'o'). English: Contemporary Torah (CC-BY-NC)."
@@ -435,6 +445,138 @@
      "en": "I Adonai am your God, who brought you out of the land of Egypt to be your God: I, your God Adonai.",
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "ahavat_olam",
+   "title": "Ahavat Olam",
+   "about": "Eternal love: the blessing before the Sh'ma (evening)",
+   "order": 10,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing before Shema (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "shma",
+   "seq": 7.5,
+   "check": [
+    "Evening (Ma'ariv) text, Metsudah siddur. Confirm Mishkan T'filah wording, esp. 'v'ahavat'cha al tasir mimenu l'olamim'.",
+    "Line 1 English joins two Metsudah sentences."
+   ],
+   "lines": [
+    {
+     "he": "אַהֲבַת עוֹלָם בֵּית יִשְׂרָאֵל עַמְּךָ אָהָבְתָּ תּוֹרָה וּמִצְוֹת חֻקִּים וּמִשְׁפָּטִים אוֹתָנוּ לִמַּדְתָּ",
+     "tl": "Ahavat olam beit Yisrael am'cha ahavta Torah umitzvot chukim umishpatim otanu limadta",
+     "tlf": true,
+     "en": "[With] An everlasting love You loved the House of Israel, Your people. You taught us Torah and commandments, statutes and laws.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "עַל כֵּן יְיָ אֱלֹהֵינוּ בְּשָׁכְבֵנוּ וּבְקוּמֵנוּ נָשִׂיחַ בְּחֻקֶּיךָ וְנִשְׂמַח בְּדִבְרֵי תוֹרָתֶךָ וּבְמִצְוֹתֶיךָ לְעוֹלָם וָעֶד",
+     "tl": "Al kein Adonai Eloheinu b'shachveinu uv'kumeinu nasiach b'chukecha v'nismach b'divrei toratecha uv'mitzvotecha l'olam va-ed",
+     "tlf": true,
+     "en": "Therefore, Adonai, our God, when we lie down and when we rise, we will discuss Your statutes, and rejoice in the words of Your Torah and in Your commandments forever.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "כִּי הֵם חַיֵּינוּ וְאֹרֶךְ יָמֵינוּ וּבָהֶם נֶהְגֶּה יוֹמָם וָלָיְלָה",
+     "tl": "Ki heim chayeinu v'orech yameinu uvahem nehgeh yomam valaylah",
+     "tlf": true,
+     "en": "For they are our life and they lengthen our days, and on them we will meditate day and night.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְאַהֲבָתְךָ אַל תָּסִיר מִמֶּנּוּ לְעוֹלָמִים",
+     "tl": "V'ahavatcha al tasir mimenu l'olamim",
+     "tlf": true,
+     "en": "[May] Your love never be removed from us.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ אוֹהֵב עַמּוֹ יִשְׂרָאֵל",
+     "tl": "Baruch atah Adonai oheiv amo Yisrael",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Who loves His people Israel.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "mi_chamocha",
+   "title": "Mi Chamocha",
+   "about": "Who is like You: from the blessing after the Sh'ma (evening)",
+   "order": 11,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing after Shema (segs 1-2) (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "shma",
+   "seq": 11,
+   "check": [
+    "Starts at 'Mi chamocha'; the Emet ve-emunah lines before it are not included yet (Mishkan T'filah shortens them).",
+    "Confirm Mishkan T'filah has 'V'ne-emar: ki fadah...' before the closing blessing."
+   ],
+   "lines": [
+    {
+     "he": "מִי כָמֹכָה בָּאֵלִם יְיָ מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא",
+     "tl": "Mi chamochah ba-eilim Adonai mi kamochah nedar bakodesh nora t'hilot osei fele",
+     "tlf": false,
+     "en": "“Who is like You among the mighty, Adonai! Who is like You? [You are] adorned in holiness, awesome in praise, performing wonders”",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "מַלְכוּתְךָ רָאוּ בָנֶיךָ בּוֹקֵעַ יָם לִפְנֵי משֶׁה זֶה אֵלִי עָנוּ וְאָמְרוּ",
+     "tl": "Malchutcha ra-u vanecha bokei-a yam lifnei Moshe zeh eili anu v'amru",
+     "tlf": true,
+     "en": "Your children beheld Your sovereignty when You divided the sea before Moses.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "יְיָ יִמְלֹךְ לְעֹלָם וָעֶד",
+     "tl": "Adonai yimloch l'olam va-ed",
+     "tlf": false,
+     "en": "“Adonai will reign forever and ever.”",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְנֶאֱמַר כִּי־פָדָה יְיָ אֶת יַעֲקֹב וּגְאָלוֹ מִיַּד חָזָק מִמֶּנּוּ",
+     "tl": "V'ne-emar ki fadah Adonai et Yaakov ug'alo miyad chazak mimenu",
+     "tlf": false,
+     "en": "And it is said, “For Adonai has liberated Jacob and redeemed him from a hand, mightier than his.”",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ גָּאַל יִשְׂרָאֵל",
+     "tl": "Baruch atah Adonai ga-al Yisrael",
+     "tlf": false,
+     "en": "Blessed are You, Adonai Who has redeemed Israel.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
      "reform": [],
      "verify": true
     }

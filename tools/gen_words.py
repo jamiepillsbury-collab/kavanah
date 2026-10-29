@@ -18,7 +18,7 @@ for ln in open(os.path.join(ROOT, "data/src/lexicon-bdb.tsv"), encoding="utf-8")
     LEX[w] = (root, ", ".join(seen[:3]))
 SEED = "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ".split()
 # Lexicon hits that matched the wrong word (homograph or wrong root): no gloss rather than a wrong one.
-REJECT = {"נֵר", "בָּנוּ", "בָנוּ", "בוֹ", "כִּי", "הוּא", "בָּרָא", "וְקִיְּמָנוּ", "וְכָל", "צְבָאָם", "הָאָרֶץ", "עַל", "מִצְרַיִם", "אֶתְכֶם"}
+REJECT = {"נֵר", "בָּנוּ", "בָנוּ", "בוֹ", "כִּי", "הוּא", "בָּרָא", "וְקִיְּמָנוּ", "וְכָל", "צְבָאָם", "הָאָרֶץ", "עַל", "מִצְרַיִם", "אֶתְכֶם", "וּמִצְוֹת", "הֵם", "אוֹתָנוּ"}
 USELESS = re.compile(r"^(n f|n m|adj|prep|\(.*\))$")
 SAY = {"יְיָ": "אֲדֹנָי"}  # what the phone voice reads
 NOTE = {"יְיָ": "Written יְיָ, read Adonai."}
@@ -57,8 +57,17 @@ for n in range(0, len(ids), PER):
     first = max(firsts, key=porder.get) if firsts else None  # the prayer this lesson completes
     lessons.append({"id": f"words-{n // PER + 1}", "title": f"Words {n // PER + 1}",
                     "subtitle": f"Toward {titles[first]}" if first else "", "items": chunk})
+# "Letters together": short real prayer words for decoding practice (same item ids, so progress is shared).
+def nletters(w): return len(re.findall(r"[א-ת]", w))
+cand = [i for i in ids if 2 <= nletters(items[i]["he"]) <= 4 and not items[i]["tlf"] and items[i]["he"] != "יְיָ"]
+cand.sort(key=lambda i: (nletters(items[i]["he"]), -items[i]["freq"]))
+cand = cand[:36]
+together = [{"id": f"together-{n // PER + 1}", "title": f"Together {n // PER + 1}", "drill": True,
+             "subtitle": f"{nletters(items[cand[n]]['he'])}-{nletters(items[cand[min(n + PER, len(cand)) - 1]]['he'])} letter words".replace("2-2", "2").replace("3-3", "3").replace("4-4", "4"),
+             "items": cand[n:n + PER]} for n in range(0, len(cand), PER)]
 out = {"version": 1, "generated_by": "tools/gen_words.py",
-       "units": [{"id": "u-words", "title": "Prayer words", "subtitle": "The words of the blessings, most common first", "lessons": lessons, "tiles": False}],
+       "units": [{"id": "u-together", "title": "Letters together", "subtitle": "Short real words: pick the word, type the sound", "lessons": together, "tiles": False},
+                 {"id": "u-words", "title": "Prayer words", "subtitle": "The words of the blessings, most common first", "lessons": lessons, "tiles": False}],
        "items": items}
 json.dump(out, open(os.path.join(ROOT, "data/words.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(len(items), "words,", len(lessons), "lessons,", sum(1 for x in items.values() if x["gloss"]), "with gloss,",

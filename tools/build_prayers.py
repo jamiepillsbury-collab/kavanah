@@ -27,6 +27,8 @@ S = {
  "deut_he": key("Deuteronomy 6:4-9", "he"), "deut_en": key("Deuteronomy 6:4-9", "en"),
  "num_he": key("Numbers 15:40-41", "he"), "num_en": key("Numbers 15:40-41", "en"),
  "bs_he": key("Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)", "he"),
+ "ao_he": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing before Shema", "he"), "ao_en": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing before Shema", "en"),
+ "mc_he": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing after Shema (segs 1-2)", "he"), "mc_en": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing after Shema (segs 1-2)", "en"),
  "bs_en": key("Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)", "en"),
 }
 NAME = "יְיָ"  # Mishkan T'filah prints the Name as yod-yod (display convention, not a wording change)
@@ -45,12 +47,14 @@ def clean_en(t):
     return t[:1].upper() + t[1:]
 def he_parts(t): return [p for p in re.split(r":\s*|[.]\s*(?=בָּרוּךְ)", t) if re.search(r"[ְ-ׇ]", p)]
 def en_parts(t): return [p for p in re.split(r"(?<=\.)\s+(?=Blessed)", t) if p.strip()]
+def sents(t): return [x for x in re.split(r"(?<=[.”])\s+(?=[“A-Z\[])", t) if x.strip()]
 def get(spec, lang):
     if spec is None: return None
     if isinstance(spec, list): return " ".join(get(s, lang) for s in spec)
     src, seg, part = spec
     t = S[src]["text"][seg]
     if part == "s0": return clean_en(t.split(". ")[0]) + "."
+    if isinstance(part, tuple): return clean_en(" ".join(sents(t)[part[0]:part[1] + 1]))  # English sentences i..j
     if lang == "he": t = clean_he(t); return clean_he(he_parts(t)[part]) if part is not None else t
     t = clean_en(t); return clean_en(en_parts(t)[part]) if part is not None else t
 
@@ -75,10 +79,16 @@ PRAYERS = [
  ("vahavta", "V'ahavta", "You shall love: Deuteronomy 6:5-9 and Numbers 15:40-41", [
    *[(("deut_he", i, None), ("deut_en", i, None)) for i in range(1, 6)],
    (("num_he", 0, None), ("num_en", 0, None)), (("num_he", 1, None), ("num_en", 1, None))]),
+ ("ahavat_olam", "Ahavat Olam", "Eternal love: the blessing before the Sh'ma (evening)", [
+   (("ao_he", 0, i), ("ao_en", 0, se)) for i, se in enumerate([(0, 1), (2, 2), (3, 3), (4, 4), (5, 5)])]),
+ ("mi_chamocha", "Mi Chamocha", "Who is like You: from the blessing after the Sh'ma (evening)", [
+   (("mc_he", 0, 0), ("mc_en", 0, (0, 0))), (("mc_he", 0, 1), ("mc_en", 0, (1, 1))),
+   (("mc_he", 1, 0), ("mc_en", 1, (0, 0))), (("mc_he", 1, 1), ("mc_en", 1, (1, 1))), (("mc_he", 1, 2), ("mc_en", 1, (2, 2)))]),
 ]
 # Marked Reform changes vs the traditional base (Mishkan T'filah). Add {"line": i, "change": "..."} here once confirmed.
 REFORM = {}
-UNIT = {"shma": "shma", "vahavta": "shma"}  # app groups lessons into units by this
+UNIT = {"shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
+SEQ = {"ahavat_olam": 7.5}  # display order (Mishkan T'filah); "order" stays append-only so words.json ids stay stable  # app groups lessons into units by this
 CHECK = {
  "candles": ["Mishkan T'filah wording: confirm 'l'hadlik ner shel Shabbat' matches your siddur."],
  "torah_before": ["Mishkan T'filah: 'mikol ha-amim' or 'im kol ha-amim'? (line 3)"],
@@ -89,6 +99,10 @@ CHECK = {
           "Baruch shem: does CBB say it aloud or quietly? (Mishkan T'filah prints it in smaller type.)"],
  "vahavta": ["Mishkan T'filah goes from Deut 6:9 straight to 'L'ma'an tizk'ru' (Num 15:40-41), skipping Deut 11:13-21 and Num 15:37-39. Confirm, then mark as a Reform change.",
              "Hebrew is the Torah text: kamatz katan printed as its own sign in b'chol (it reads 'o'). English: Contemporary Torah (CC-BY-NC)."],
+ "ahavat_olam": ["Evening (Ma'ariv) text, Metsudah siddur. Confirm Mishkan T'filah wording, esp. 'v'ahavat'cha al tasir mimenu l'olamim'.",
+                 "Line 1 English joins two Metsudah sentences."],
+ "mi_chamocha": ["Starts at 'Mi chamocha'; the Emet ve-emunah lines before it are not included yet (Mishkan T'filah shortens them).",
+                 "Confirm Mishkan T'filah has 'V'ne-emar: ki fadah...' before the closing blessing."],
  "hamotzi": ["No Sefaria English found for this text."],
  "shehecheyanu": ["No Sefaria English found for this text."],
 }
@@ -105,7 +119,7 @@ for order, (pid, title, about, lines) in enumerate(PRAYERS):
     hs0 = lines[0][0] if isinstance(lines[0][0], tuple) else lines[0][0][0]
     out["prayers"].append({"id": pid, "title": title, "about": about, "order": order, "audio": None,
         "he_src": f'{S[hs0[0]]["ref"]} ({S[hs0[0]]["version"]}, {S[hs0[0]]["license"]})',
-        "unit": UNIT.get(pid, "blessings"), "check": CHECK.get(pid, []), "lines": pl})
+        "unit": UNIT.get(pid, "blessings"), "seq": SEQ.get(pid, order), "check": CHECK.get(pid, []), "lines": pl})
 json.dump(out, open(os.path.join(ROOT, "data/prayers.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 for p in out["prayers"]:
     print(p["id"])
