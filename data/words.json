@@ -244,13 +244,142 @@
     {
      "id": "words-19",
      "title": "Words 19",
-     "subtitle": "Toward Haftarah blessing (before)",
+     "subtitle": "Toward Sh'ma",
      "items": [
       "w-109",
       "w-110",
       "w-111",
       "w-112",
-      "w-113"
+      "w-113",
+      "w-114"
+     ]
+    },
+    {
+     "id": "words-20",
+     "title": "Words 20",
+     "subtitle": "Toward V'ahavta",
+     "items": [
+      "w-115",
+      "w-116",
+      "w-117",
+      "w-118",
+      "w-119",
+      "w-120"
+     ]
+    },
+    {
+     "id": "words-21",
+     "title": "Words 21",
+     "subtitle": "Toward V'ahavta",
+     "items": [
+      "w-121",
+      "w-122",
+      "w-123",
+      "w-124",
+      "w-125",
+      "w-126"
+     ]
+    },
+    {
+     "id": "words-22",
+     "title": "Words 22",
+     "subtitle": "Toward V'ahavta",
+     "items": [
+      "w-127",
+      "w-128",
+      "w-129",
+      "w-130",
+      "w-131",
+      "w-132"
+     ]
+    },
+    {
+     "id": "words-23",
+     "title": "Words 23",
+     "subtitle": "Toward V'ahavta",
+     "items": [
+      "w-133",
+      "w-134",
+      "w-135",
+      "w-136",
+      "w-137",
+      "w-138"
+     ]
+    },
+    {
+     "id": "words-24",
+     "title": "Words 24",
+     "subtitle": "Toward V'ahavta",
+     "items": [
+      "w-139",
+      "w-140",
+      "w-141",
+      "w-142",
+      "w-143",
+      "w-144"
+     ]
+    },
+    {
+     "id": "words-25",
+     "title": "Words 25",
+     "subtitle": "Toward V'ahavta",
+     "items": [
+      "w-145",
+      "w-146",
+      "w-147",
+      "w-148",
+      "w-149",
+      "w-150"
+     ]
+    },
+    {
+     "id": "words-26",
+     "title": "Words 26",
+     "subtitle": "Toward V'ahavta",
+     "items": [
+      "w-151",
+      "w-152",
+      "w-153",
+      "w-154",
+      "w-155",
+      "w-156"
+     ]
+    },
+    {
+     "id": "words-27",
+     "title": "Words 27",
+     "subtitle": "Toward V'ahavta",
+     "items": [
+      "w-157",
+      "w-158",
+      "w-159",
+      "w-160",
+      "w-161",
+      "w-162"
+     ]
+    },
+    {
+     "id": "words-28",
+     "title": "Words 28",
+     "subtitle": "Toward V'ahavta",
+     "items": [
+      "w-163",
+      "w-164",
+      "w-165",
+      "w-166",
+      "w-167",
+      "w-168"
+     ]
+    },
+    {
+     "id": "words-29",
+     "title": "Words 29",
+     "subtitle": "Toward V'ahavta",
+     "items": [
+      "w-169",
+      "w-170",
+      "w-171",
+      "w-172"
      ]
     }
    ],
@@ -270,7 +399,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 14,
+   "freq": 15,
    "prayers": [
     "hamotzi",
     "candles",
@@ -279,7 +408,8 @@
     "torah_before",
     "torah_after",
     "kiddush",
-    "haftarah_before"
+    "haftarah_before",
+    "shma"
    ],
    "audio": null
   },
@@ -315,7 +445,7 @@
    "say": "אֲדֹנָי",
    "gloss": null,
    "note": "Written יְיָ, read Adonai.",
-   "freq": 16,
+   "freq": 21,
    "prayers": [
     "hamotzi",
     "candles",
@@ -324,7 +454,9 @@
     "torah_before",
     "torah_after",
     "kiddush",
-    "haftarah_before"
+    "haftarah_before",
+    "shma",
+    "vahavta"
    ],
    "audio": null
   },
@@ -336,7 +468,7 @@
    "say": "אֱלֹהֵינוּ",
    "gloss": null,
    "note": null,
-   "freq": 8,
+   "freq": 9,
    "prayers": [
     "hamotzi",
     "candles",
@@ -344,7 +476,8 @@
     "torah_before",
     "torah_after",
     "kiddush",
-    "haftarah_before"
+    "haftarah_before",
+    "shma"
    ],
    "audio": null
   },
@@ -404,13 +537,14 @@
    "say": "אֲשֶׁר",
    "gloss": null,
    "note": null,
-   "freq": 8,
+   "freq": 10,
    "prayers": [
     "candles",
     "torah_before",
     "torah_after",
     "kiddush",
-    "haftarah_before"
+    "haftarah_before",
+    "vahavta"
    ],
    "audio": null
   },
@@ -703,11 +837,12 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 4,
+   "freq": 5,
    "prayers": [
     "barchu",
     "torah_before",
-    "kiddush"
+    "kiddush",
+    "vahavta"
    ],
    "audio": null
   },
@@ -738,10 +873,11 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
     "barchu",
-    "torah_before"
+    "torah_before",
+    "shma"
    ],
    "audio": null
   },
@@ -757,10 +893,11 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
     "barchu",
-    "torah_before"
+    "torah_before",
+    "shma"
    ],
    "audio": null
   },
@@ -2178,6 +2315,1044 @@
    "freq": 1,
    "prayers": [
     "haftarah_before"
+   ],
+   "audio": null
+  },
+  "w-114": {
+   "kind": "word",
+   "he": "שְׁמַע",
+   "tr": "sh'ma",
+   "tlf": false,
+   "say": "שְׁמַע",
+   "gloss": {
+    "root": "שָׁמַע",
+    "def": "to hear, listen to, obey",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "shma"
+   ],
+   "audio": null
+  },
+  "w-115": {
+   "kind": "word",
+   "he": "יִשְׂרָאֵל",
+   "tr": "Yisrael",
+   "tlf": false,
+   "say": "יִשְׂרָאֵל",
+   "gloss": {
+    "root": "יִשְׂרָאֵל",
+    "def": "Israel = \"God prevails\"",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "shma"
+   ],
+   "audio": null
+  },
+  "w-116": {
+   "kind": "word",
+   "he": "אֶחָד",
+   "tr": "echad",
+   "tlf": false,
+   "say": "אֶחָד",
+   "gloss": {
+    "root": "אֶחָד",
+    "def": "one (number), each, every",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "shma"
+   ],
+   "audio": null
+  },
+  "w-117": {
+   "kind": "word",
+   "he": "שֵׁם",
+   "tr": "sheim",
+   "tlf": false,
+   "say": "שֵׁם",
+   "gloss": {
+    "root": "שֵׁם",
+    "def": "name, reputation, fame",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "shma"
+   ],
+   "audio": null
+  },
+  "w-118": {
+   "kind": "word",
+   "he": "כְּבוֹד",
+   "tr": "k'vod",
+   "tlf": false,
+   "say": "כְּבוֹד",
+   "gloss": {
+    "root": "כָּבוֹד",
+    "def": "glory, honour, glorious",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "shma"
+   ],
+   "audio": null
+  },
+  "w-119": {
+   "kind": "word",
+   "he": "מַלְכוּתוֹ",
+   "tr": "malchuto",
+   "tlf": false,
+   "say": "מַלְכוּתוֹ",
+   "gloss": {
+    "root": "מַלְכוּת",
+    "def": "royalty, royal power, reign",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "shma"
+   ],
+   "audio": null
+  },
+  "w-120": {
+   "kind": "word",
+   "he": "וְאָהַבְתָּ",
+   "tr": "v'ahavta",
+   "tlf": false,
+   "say": "וְאָהַבְתָּ",
+   "gloss": {
+    "root": "אָהַב",
+    "def": "to love, human love for another, includes family",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-121": {
+   "kind": "word",
+   "he": "אֵת",
+   "tr": "eit",
+   "tlf": false,
+   "say": "אֵת",
+   "gloss": {
+    "root": "אֵת",
+    "def": "sign of the definite direct object",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-122": {
+   "kind": "word",
+   "he": "אֱלֹהֶיךָ",
+   "tr": "Elohecha",
+   "tlf": false,
+   "say": "אֱלֹהֶיךָ",
+   "gloss": {
+    "root": "אֱלֹהִים",
+    "def": "(plural intensive-singular meaning), God, godlike one",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-123": {
+   "kind": "word",
+   "he": "בְּכׇל",
+   "tr": "b'chol",
+   "tlf": false,
+   "say": "בְּכׇל",
+   "gloss": {
+    "root": "כֹּל",
+    "def": "all, the whole, the whole of",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-124": {
+   "kind": "word",
+   "he": "לְבָבְךָ",
+   "tr": "l'vavcha",
+   "tlf": true,
+   "say": "לְבָבְךָ",
+   "gloss": {
+    "root": "לֵבָב",
+    "def": "inner man, mind, will",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-125": {
+   "kind": "word",
+   "he": "וּבְכׇל",
+   "tr": "uv'chol",
+   "tlf": false,
+   "say": "וּבְכׇל",
+   "gloss": {
+    "root": "כֹּל",
+    "def": "all, the whole, the whole of",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-126": {
+   "kind": "word",
+   "he": "נַפְשְׁךָ",
+   "tr": "nafsh'cha",
+   "tlf": false,
+   "say": "נַפְשְׁךָ",
+   "gloss": {
+    "root": "נֶפֶשׁ",
+    "def": "soul, self, life",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-127": {
+   "kind": "word",
+   "he": "מְאֹדֶךָ",
+   "tr": "m'odecha",
+   "tlf": false,
+   "say": "מְאֹדֶךָ",
+   "gloss": {
+    "root": "מְאֹד",
+    "def": "exceedingly, much",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-128": {
+   "kind": "word",
+   "he": "וְהָיוּ",
+   "tr": "v'hayu",
+   "tlf": false,
+   "say": "וְהָיוּ",
+   "gloss": {
+    "root": "הָיָה",
+    "def": "to be, become, come to pass",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-129": {
+   "kind": "word",
+   "he": "הַדְּבָרִים",
+   "tr": "had'varim",
+   "tlf": false,
+   "say": "הַדְּבָרִים",
+   "gloss": {
+    "root": "דָּבָר",
+    "def": "speech, word, speaking",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-130": {
+   "kind": "word",
+   "he": "הָאֵלֶּה",
+   "tr": "ha-eileh",
+   "tlf": false,
+   "say": "הָאֵלֶּה",
+   "gloss": {
+    "root": "אֵלֶּה",
+    "def": "these, used before antecedent, used following antecedent",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-131": {
+   "kind": "word",
+   "he": "אָנֹכִי",
+   "tr": "anochi",
+   "tlf": false,
+   "say": "אָנֹכִי",
+   "gloss": {
+    "root": "אָנֹכִי",
+    "def": "I (first pers. sing.)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-132": {
+   "kind": "word",
+   "he": "מְצַוְּךָ",
+   "tr": "m'tzav'cha",
+   "tlf": false,
+   "say": "מְצַוְּךָ",
+   "gloss": {
+    "root": "צָוָה",
+    "def": "to command, charge, give orders",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-133": {
+   "kind": "word",
+   "he": "הַיּוֹם",
+   "tr": "hayom",
+   "tlf": false,
+   "say": "הַיּוֹם",
+   "gloss": {
+    "root": "יוֹם",
+    "def": "day, time, year",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-134": {
+   "kind": "word",
+   "he": "עַל",
+   "tr": "al",
+   "tlf": false,
+   "say": "עַל",
+   "gloss": null,
+   "note": null,
+   "freq": 3,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-135": {
+   "kind": "word",
+   "he": "לְבָבֶךָ",
+   "tr": "l'vavecha",
+   "tlf": false,
+   "say": "לְבָבֶךָ",
+   "gloss": {
+    "root": "לֵבָב",
+    "def": "inner man, mind, will",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-136": {
+   "kind": "word",
+   "he": "וְשִׁנַּנְתָּם",
+   "tr": "v'shinantam",
+   "tlf": false,
+   "say": "וְשִׁנַּנְתָּם",
+   "gloss": {
+    "root": "שָׁנַן",
+    "def": "to sharpen, whet, to whet",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-137": {
+   "kind": "word",
+   "he": "לְבָנֶיךָ",
+   "tr": "l'vanecha",
+   "tlf": false,
+   "say": "לְבָנֶיךָ",
+   "gloss": {
+    "root": "בֵּן",
+    "def": "son, grandson, child",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-138": {
+   "kind": "word",
+   "he": "וְדִבַּרְתָּ",
+   "tr": "v'dibarta",
+   "tlf": false,
+   "say": "וְדִבַּרְתָּ",
+   "gloss": {
+    "root": "דָבַר",
+    "def": "to speak, declare, converse",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-139": {
+   "kind": "word",
+   "he": "בָּם",
+   "tr": "bam",
+   "tlf": false,
+   "say": "בָּם",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-140": {
+   "kind": "word",
+   "he": "בְּשִׁבְתְּךָ",
+   "tr": "b'shivt'cha",
+   "tlf": false,
+   "say": "בְּשִׁבְתְּךָ",
+   "gloss": {
+    "root": "יָשַׁב",
+    "def": "to dwell, remain, sit",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-141": {
+   "kind": "word",
+   "he": "בְּבֵיתֶךָ",
+   "tr": "b'veitecha",
+   "tlf": false,
+   "say": "בְּבֵיתֶךָ",
+   "gloss": {
+    "root": "בַּיִת",
+    "def": "house, dwelling habitation",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-142": {
+   "kind": "word",
+   "he": "וּבְלֶכְתְּךָ",
+   "tr": "uv'lecht'cha",
+   "tlf": false,
+   "say": "וּבְלֶכְתְּךָ",
+   "gloss": {
+    "root": "יָלַךְ",
+    "def": "to go, walk, come",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-143": {
+   "kind": "word",
+   "he": "בַדֶּרֶךְ",
+   "tr": "vaderech",
+   "tlf": false,
+   "say": "בַדֶּרֶךְ",
+   "gloss": {
+    "root": "דֶּרֶךְ",
+    "def": "way, road, distance",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-144": {
+   "kind": "word",
+   "he": "וּבְשׇׁכְבְּךָ",
+   "tr": "uv'shochb'cha",
+   "tlf": false,
+   "say": "וּבְשׇׁכְבְּךָ",
+   "gloss": {
+    "root": "שָׁכַב",
+    "def": "to lie down, to lie, lie down",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-145": {
+   "kind": "word",
+   "he": "וּבְקוּמֶךָ",
+   "tr": "uv'kumecha",
+   "tlf": false,
+   "say": "וּבְקוּמֶךָ",
+   "gloss": {
+    "root": "קוּם",
+    "def": "to rise, arise, stand",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-146": {
+   "kind": "word",
+   "he": "וּקְשַׁרְתָּם",
+   "tr": "uk'shartam",
+   "tlf": false,
+   "say": "וּקְשַׁרְתָּם",
+   "gloss": {
+    "root": "קָשַׁר",
+    "def": "to bind, tie, bind together",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-147": {
+   "kind": "word",
+   "he": "לְאוֹת",
+   "tr": "l'ot",
+   "tlf": false,
+   "say": "לְאוֹת",
+   "gloss": {
+    "root": "אוֹת",
+    "def": "sign, signal, a distinguishing mark",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-148": {
+   "kind": "word",
+   "he": "יָדֶךָ",
+   "tr": "yadecha",
+   "tlf": false,
+   "say": "יָדֶךָ",
+   "gloss": {
+    "root": "יָד",
+    "def": "hand, hand (of man), strength",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-149": {
+   "kind": "word",
+   "he": "לְטֹטָפֹת",
+   "tr": "l'totafot",
+   "tlf": false,
+   "say": "לְטֹטָפֹת",
+   "gloss": {
+    "root": "טוֹפָפָה",
+    "def": "bands, phylacteries, frontlets",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-150": {
+   "kind": "word",
+   "he": "בֵּין",
+   "tr": "bein",
+   "tlf": false,
+   "say": "בֵּין",
+   "gloss": {
+    "root": "בֵּין",
+    "def": "between, among, in the midst of (with other preps)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-151": {
+   "kind": "word",
+   "he": "עֵינֶיךָ",
+   "tr": "einecha",
+   "tlf": false,
+   "say": "עֵינֶיךָ",
+   "gloss": {
+    "root": "עַיִן",
+    "def": "eye, of physical eye",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-152": {
+   "kind": "word",
+   "he": "וּכְתַבְתָּם",
+   "tr": "uch'tavtam",
+   "tlf": false,
+   "say": "וּכְתַבְתָּם",
+   "gloss": {
+    "root": "כָּתַב",
+    "def": "to write, record, enrol",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-153": {
+   "kind": "word",
+   "he": "מְזֻזוֹת",
+   "tr": "m'zuzot",
+   "tlf": false,
+   "say": "מְזֻזוֹת",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-154": {
+   "kind": "word",
+   "he": "בֵּיתֶךָ",
+   "tr": "beitecha",
+   "tlf": false,
+   "say": "בֵּיתֶךָ",
+   "gloss": {
+    "root": "בַּיִת",
+    "def": "house, dwelling habitation",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-155": {
+   "kind": "word",
+   "he": "וּבִשְׁעָרֶיךָ",
+   "tr": "uvish'arecha",
+   "tlf": false,
+   "say": "וּבִשְׁעָרֶיךָ",
+   "gloss": {
+    "root": "שַׁעַר",
+    "def": "gate, gate (of entrance), gate (of space inside gate",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-156": {
+   "kind": "word",
+   "he": "לְמַעַן",
+   "tr": "l'ma-an",
+   "tlf": false,
+   "say": "לְמַעַן",
+   "gloss": {
+    "root": "מַעַן",
+    "def": "purpose, intent prep, for the sake of",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-157": {
+   "kind": "word",
+   "he": "תִּזְכְּרוּ",
+   "tr": "tizk'ru",
+   "tlf": false,
+   "say": "תִּזְכְּרוּ",
+   "gloss": {
+    "root": "זָכַר",
+    "def": "to remember, recall, call to mind",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-158": {
+   "kind": "word",
+   "he": "וַעֲשִׂיתֶם",
+   "tr": "va-asitem",
+   "tlf": false,
+   "say": "וַעֲשִׂיתֶם",
+   "gloss": {
+    "root": "עָשָׂה",
+    "def": "to do, fashion, accomplish",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-159": {
+   "kind": "word",
+   "he": "כׇּל",
+   "tr": "kol",
+   "tlf": false,
+   "say": "כׇּל",
+   "gloss": {
+    "root": "כֹּל",
+    "def": "all, the whole, the whole of",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-160": {
+   "kind": "word",
+   "he": "מִצְוֺתָי",
+   "tr": "mitzvotai",
+   "tlf": false,
+   "say": "מִצְוֺתָי",
+   "gloss": {
+    "root": "מִצְוָה",
+    "def": "commandment, commandment (of man), the commandment (of God)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-161": {
+   "kind": "word",
+   "he": "וִהְיִיתֶם",
+   "tr": "vihyitem",
+   "tlf": false,
+   "say": "וִהְיִיתֶם",
+   "gloss": {
+    "root": "הָיָה",
+    "def": "to be, become, come to pass",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-162": {
+   "kind": "word",
+   "he": "קְדֹשִׁים",
+   "tr": "k'doshim",
+   "tlf": false,
+   "say": "קְדֹשִׁים",
+   "gloss": {
+    "root": "קָדוֹשׁ",
+    "def": "sacred, holy, Holy One",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-163": {
+   "kind": "word",
+   "he": "לֵאלֹהֵיכֶם",
+   "tr": "leiloheichem",
+   "tlf": false,
+   "say": "לֵאלֹהֵיכֶם",
+   "gloss": {
+    "root": "אֱלֹהִים",
+    "def": "(plural intensive-singular meaning), God, godlike one",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-164": {
+   "kind": "word",
+   "he": "אֲנִי",
+   "tr": "ani",
+   "tlf": false,
+   "say": "אֲנִי",
+   "gloss": {
+    "root": "אֲנִי",
+    "def": "I (first pers. sing. -usually used for emphasis)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-165": {
+   "kind": "word",
+   "he": "אֱלֹהֵיכֶם",
+   "tr": "Eloheichem",
+   "tlf": false,
+   "say": "אֱלֹהֵיכֶם",
+   "gloss": {
+    "root": "אֱלֹהִים",
+    "def": "(plural intensive-singular meaning), God, godlike one",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-166": {
+   "kind": "word",
+   "he": "הוֹצֵאתִי",
+   "tr": "hotzeiti",
+   "tlf": false,
+   "say": "הוֹצֵאתִי",
+   "gloss": {
+    "root": "יָצָא",
+    "def": "to go out, come out, exit",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-167": {
+   "kind": "word",
+   "he": "אֶתְכֶם",
+   "tr": "etchem",
+   "tlf": false,
+   "say": "אֶתְכֶם",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-168": {
+   "kind": "word",
+   "he": "מֵאֶרֶץ",
+   "tr": "mei-eretz",
+   "tlf": false,
+   "say": "מֵאֶרֶץ",
+   "gloss": {
+    "root": "אֶרֶץ",
+    "def": "land, earth, whole earth (as opposed to a part)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-169": {
+   "kind": "word",
+   "he": "מִצְרַיִם",
+   "tr": "mitzrayim",
+   "tlf": false,
+   "say": "מִצְרַיִם",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-170": {
+   "kind": "word",
+   "he": "לִהְיוֹת",
+   "tr": "lihyot",
+   "tlf": false,
+   "say": "לִהְיוֹת",
+   "gloss": {
+    "root": "הָיָה",
+    "def": "to be, become, come to pass",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-171": {
+   "kind": "word",
+   "he": "לָכֶם",
+   "tr": "lachem",
+   "tlf": false,
+   "say": "לָכֶם",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
+   ],
+   "audio": null
+  },
+  "w-172": {
+   "kind": "word",
+   "he": "לֵאלֹהִים",
+   "tr": "leilohim",
+   "tlf": false,
+   "say": "לֵאלֹהִים",
+   "gloss": {
+    "root": "אֱלֹהִים",
+    "def": "(plural intensive-singular meaning), God, godlike one",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vahavta"
    ],
    "audio": null
   }

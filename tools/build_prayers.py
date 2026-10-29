@@ -8,8 +8,9 @@ from translit import tl
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 raw = json.load(open(os.path.join(ROOT, "data/src/sefaria-texts.json"), encoding="utf-8"))
+raw2 = json.load(open(os.path.join(ROOT, "data/src/sefaria-shma.json"), encoding="utf-8"))
 SRC = {}
-for s in raw["sources"]:
+for s in raw["sources"] + raw2["sources"]:
     SRC[("BARCHU_HE" if "Maariv, Barchu" in s["ref"] else None) or f'{s["ref"]}|{s["lang"]}'] = s
 def key(ref, lang): return SRC.get(f"{ref}|{lang}")
 S = {
@@ -23,6 +24,10 @@ S = {
  "kid_en": key("Siddur Sefard, Shabbat Evening Meal, Shabbat Eve Kiddush", "en"), "gen_en": key("Genesis 2:1-3", "en"),
  "motzi_he": key("Siddur Ashkenaz, Berachot, Birkat Hanehenin, Eating, Barachot Rishonot", "he"),
  "sheh_he": key("Siddur Sefard, Blessings, Shehecheyanu", "he"),
+ "deut_he": key("Deuteronomy 6:4-9", "he"), "deut_en": key("Deuteronomy 6:4-9", "en"),
+ "num_he": key("Numbers 15:40-41", "he"), "num_en": key("Numbers 15:40-41", "en"),
+ "bs_he": key("Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)", "he"),
+ "bs_en": key("Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)", "en"),
 }
 NAME = "יְיָ"  # Mishkan T'filah prints the Name as yod-yod (display convention, not a wording change)
 
@@ -35,8 +40,9 @@ def clean_he(t):
 def clean_en(t):
     t = re.sub(r"^(The [^:]{0,60}(says|repeats|responds)[^:]*|Recite (quietly|aloud)|\(When reciting Kiddush on wine\))\s*:?\s*", "", t)
     t = re.sub(r"\s*Recite aloud:\s*$", "", t)
-    for a, b in (("Adonoy", "Adonai"), ("the Lord", "Adonai"), ("Shabbos", "Shabbat")): t = t.replace(a, b)
-    return re.sub(r"\s+", " ", t.replace("(", "").replace(")", "")).strip()
+    for a, b in (("יהוה", "Adonai"), ("Adonoy", "Adonai"), ("the Lord", "Adonai"), ("Shabbos", "Shabbat")): t = t.replace(a, b)
+    t = re.sub(r"\s+", " ", t.replace("(", "").replace(")", "")).strip()
+    return t[:1].upper() + t[1:]
 def he_parts(t): return [p for p in re.split(r":\s*|[.]\s*(?=בָּרוּךְ)", t) if re.search(r"[ְ-ׇ]", p)]
 def en_parts(t): return [p for p in re.split(r"(?<=\.)\s+(?=Blessed)", t) if p.strip()]
 def get(spec, lang):
@@ -64,15 +70,25 @@ PRAYERS = [
    (("kid_he", 4, None), ("kid_en", 5, None)), (("kid_he", 5, None), ("kid_en", 6, None)),
    (("kid_he", 6, 0), ("kid_en", 7, 0)), (("kid_he", 6, 1), ("kid_en", 7, 1))]),
  ("haftarah_before", "Haftarah blessing (before)", "Blessing before the reading from the Prophets", [(("haft_he", 1, 0), ("haft_en", 1, 0)), (("haft_he", 1, 1), ("haft_en", 1, 1))]),
+ ("shma", "Sh'ma", "Hear, O Israel: the declaration of faith", [
+   (("deut_he", 0, None), ("deut_en", 0, None)), (("bs_he", 0, None), ("bs_en", 0, None))]),
+ ("vahavta", "V'ahavta", "You shall love: Deuteronomy 6:5-9 and Numbers 15:40-41", [
+   *[(("deut_he", i, None), ("deut_en", i, None)) for i in range(1, 6)],
+   (("num_he", 0, None), ("num_en", 0, None)), (("num_he", 1, None), ("num_en", 1, None))]),
 ]
 # Marked Reform changes vs the traditional base (Mishkan T'filah). Add {"line": i, "change": "..."} here once confirmed.
 REFORM = {}
+UNIT = {"shma": "shma", "vahavta": "shma"}  # app groups lessons into units by this
 CHECK = {
  "candles": ["Mishkan T'filah wording: confirm 'l'hadlik ner shel Shabbat' matches your siddur."],
  "torah_before": ["Mishkan T'filah: 'mikol ha-amim' or 'im kol ha-amim'? (line 3)"],
  "kiddush": ["Does Mishkan T'filah include 'Vay'hi erev vay'hi voker' and 'Savri maranan'?",
              "Mishkan T'filah wording of 'ki vanu vacharta v'otanu kidashta mikol ha-amim'?",
              "Line 1 English joins two Metsudah pieces; Genesis lines use Contemporary Torah."],
+ "shma": ["Hebrew line 1: Deuteronomy 6:4 (Miqra according to the Masorah, CC-BY-SA). Line 2 from the Metsudah siddur.",
+          "Baruch shem: does CBB say it aloud or quietly? (Mishkan T'filah prints it in smaller type.)"],
+ "vahavta": ["Mishkan T'filah goes from Deut 6:9 straight to 'L'ma'an tizk'ru' (Num 15:40-41), skipping Deut 11:13-21 and Num 15:37-39. Confirm, then mark as a Reform change.",
+             "Hebrew is the Torah text: kamatz katan printed as its own sign in b'chol (it reads 'o'). English: Contemporary Torah (CC-BY-NC)."],
  "hamotzi": ["No Sefaria English found for this text."],
  "shehecheyanu": ["No Sefaria English found for this text."],
 }
@@ -89,7 +105,7 @@ for order, (pid, title, about, lines) in enumerate(PRAYERS):
     hs0 = lines[0][0] if isinstance(lines[0][0], tuple) else lines[0][0][0]
     out["prayers"].append({"id": pid, "title": title, "about": about, "order": order, "audio": None,
         "he_src": f'{S[hs0[0]]["ref"]} ({S[hs0[0]]["version"]}, {S[hs0[0]]["license"]})',
-        "check": CHECK.get(pid, []), "lines": pl})
+        "unit": UNIT.get(pid, "blessings"), "check": CHECK.get(pid, []), "lines": pl})
 json.dump(out, open(os.path.join(ROOT, "data/prayers.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 for p in out["prayers"]:
     print(p["id"])

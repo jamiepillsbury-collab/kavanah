@@ -9,6 +9,7 @@
    "order": 0,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Berachot, Birkat Hanehenin, Eating, Barachot Rishonot (Daat Siddur Ashkenaz, Public Domain)",
+   "unit": "blessings",
    "check": [
     "No Sefaria English found for this text."
    ],
@@ -32,6 +33,7 @@
    "order": 1,
    "audio": null,
    "he_src": "Siddur Sefard, Shabbat Candle Lighting (Torat Emet 357, Public Domain)",
+   "unit": "blessings",
    "check": [
     "Mishkan T'filah wording: confirm 'l'hadlik ner shel Shabbat' matches your siddur."
    ],
@@ -55,6 +57,7 @@
    "order": 2,
    "audio": null,
    "he_src": "Siddur Sefard, Blessings, Shehecheyanu (Torat Emet 357, Public Domain)",
+   "unit": "blessings",
    "check": [
     "No Sefaria English found for this text."
    ],
@@ -78,6 +81,7 @@
    "order": 3,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Barchu (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "blessings",
    "check": [],
    "lines": [
     {
@@ -109,6 +113,7 @@
    "order": 4,
    "audio": null,
    "he_src": "Siddur Sefard, Shabbat Morning Services, Blessings on Torah Reading (Torat Emet 357, Public Domain)",
+   "unit": "blessings",
    "check": [
     "Mishkan T'filah: 'mikol ha-amim' or 'im kol ha-amim'? (line 3)"
    ],
@@ -162,6 +167,7 @@
    "order": 5,
    "audio": null,
    "he_src": "Siddur Sefard, Shabbat Morning Services, Blessings on Torah Reading (Torat Emet 357, Public Domain)",
+   "unit": "blessings",
    "check": [],
    "lines": [
     {
@@ -193,6 +199,7 @@
    "order": 6,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Shabbat Evening, Kiddush (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "blessings",
    "check": [
     "Does Mishkan T'filah include 'Vay'hi erev vay'hi voker' and 'Savri maranan'?",
     "Mishkan T'filah wording of 'ki vanu vacharta v'otanu kidashta mikol ha-amim'?",
@@ -203,7 +210,7 @@
      "he": "וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם הַשִּׁשִּׁי",
      "tl": "Vay'hi erev vay'hi voker yom hashishi",
      "tlf": false,
-     "en": "And evening came, then morning came: the sixth day.",
+     "en": "And evening came, then morning came: The sixth day.",
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
@@ -288,6 +295,7 @@
    "order": 7,
    "audio": null,
    "he_src": "Siddur Sefard, Shabbat Morning Services, Haftarah Blessings (Torat Emet 357, Public Domain)",
+   "unit": "blessings",
    "check": [],
    "lines": [
     {
@@ -307,6 +315,126 @@
      "en": "Blessed are You, Adonai, Who chooses the Torah and Moses, His servant, and Israel, His people, and the prophets of truth and righteousness.",
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "shma",
+   "title": "Sh'ma",
+   "about": "Hear, O Israel: the declaration of faith",
+   "order": 8,
+   "audio": null,
+   "he_src": "Deuteronomy 6:4-9 (Miqra according to the Masorah, CC-BY-SA)",
+   "unit": "shma",
+   "check": [
+    "Hebrew line 1: Deuteronomy 6:4 (Miqra according to the Masorah, CC-BY-SA). Line 2 from the Metsudah siddur.",
+    "Baruch shem: does CBB say it aloud or quietly? (Mishkan T'filah prints it in smaller type.)"
+   ],
+   "lines": [
+    {
+     "he": "שְׁמַע יִשְׂרָאֵל יְיָ אֱלֹהֵינוּ יְיָ אֶחָד",
+     "tl": "Sh'ma Yisrael Adonai Eloheinu Adonai echad",
+     "tlf": false,
+     "en": "Hear, O Israel! Adonai is our God, Adonai alone.",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד",
+     "tl": "Baruch sheim k'vod malchuto l'olam va-ed",
+     "tlf": false,
+     "en": "Blessed [is His] Name, Whose glorious kingdom is forever and ever.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "vahavta",
+   "title": "V'ahavta",
+   "about": "You shall love: Deuteronomy 6:5-9 and Numbers 15:40-41",
+   "order": 9,
+   "audio": null,
+   "he_src": "Deuteronomy 6:4-9 (Miqra according to the Masorah, CC-BY-SA)",
+   "unit": "shma",
+   "check": [
+    "Mishkan T'filah goes from Deut 6:9 straight to 'L'ma'an tizk'ru' (Num 15:40-41), skipping Deut 11:13-21 and Num 15:37-39. Confirm, then mark as a Reform change.",
+    "Hebrew is the Torah text: kamatz katan printed as its own sign in b'chol (it reads 'o'). English: Contemporary Torah (CC-BY-NC)."
+   ],
+   "lines": [
+    {
+     "he": "וְאָהַבְתָּ אֵת יְיָ אֱלֹהֶיךָ בְּכׇל־לְבָבְךָ וּבְכׇל־נַפְשְׁךָ וּבְכׇל־מְאֹדֶךָ",
+     "tl": "V'ahavta eit Adonai Elohecha b'chol l'vavcha uv'chol nafsh'cha uv'chol m'odecha",
+     "tlf": true,
+     "en": "You shall love your God Adonai with all your heart and with all your soul and with all your might.",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל־לְבָבֶךָ",
+     "tl": "V'hayu had'varim ha-eileh asher anochi m'tzav'cha hayom al l'vavecha",
+     "tlf": false,
+     "en": "Take to heart these instructions with which I charge you this day.",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשׇׁכְבְּךָ וּבְקוּמֶךָ",
+     "tl": "V'shinantam l'vanecha v'dibarta bam b'shivt'cha b'veitecha uv'lecht'cha vaderech uv'shochb'cha uv'kumecha",
+     "tlf": false,
+     "en": "Impress them upon your children. Recite them when you stay at home and when you are away, when you lie down and when you get up.",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וּקְשַׁרְתָּם לְאוֹת עַל־יָדֶךָ וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ",
+     "tl": "Uk'shartam l'ot al yadecha v'hayu l'totafot bein einecha",
+     "tlf": false,
+     "en": "Bind them as a sign on your hand and let them serve as a symbol on your forehead;",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וּכְתַבְתָּם עַל־מְזֻזוֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ",
+     "tl": "Uch'tavtam al m'zuzot beitecha uvish'arecha",
+     "tlf": false,
+     "en": "Inscribe them on the doorposts of your house and on your gates.",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "לְמַעַן תִּזְכְּרוּ וַעֲשִׂיתֶם אֶת־כׇּל־מִצְוֺתָי וִהְיִיתֶם קְדֹשִׁים לֵאלֹהֵיכֶם",
+     "tl": "L'ma-an tizk'ru va-asitem et kol mitzvotai vihyitem k'doshim leiloheichem",
+     "tlf": false,
+     "en": "Thus you shall be reminded to observe all My commandments and to be holy to your God.",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "אֲנִי יְיָ אֱלֹהֵיכֶם אֲשֶׁר הוֹצֵאתִי אֶתְכֶם מֵאֶרֶץ מִצְרַיִם לִהְיוֹת לָכֶם לֵאלֹהִים אֲנִי יְיָ אֱלֹהֵיכֶם",
+     "tl": "Ani Adonai Eloheichem asher hotzeiti etchem mei-eretz mitzrayim lihyot lachem leilohim ani Adonai Eloheichem",
+     "tlf": false,
+     "en": "I Adonai am your God, who brought you out of the land of Egypt to be your God: I, your God Adonai.",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
      "reform": [],
      "verify": true
     }

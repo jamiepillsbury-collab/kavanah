@@ -1,0 +1,73 @@
+{
+"fetched": "2026-10-29T06:50:00Z",
+"api": "https://www.sefaria.org/api/v3/texts",
+"note": "Raw Sefaria text, cantillation stripped. SHA-256 verified against browser fetch.",
+"sources": [
+{
+"ref": "Deuteronomy 6:4-9",
+"lang": "he",
+"version": "Miqra according to the Masorah",
+"license": "CC-BY-SA",
+"text": [
+"שְׁמַע יִשְׂרָאֵל יְהֹוָה אֱלֹהֵינוּ יְהֹוָה אֶחָד",
+"וְאָהַבְתָּ אֵת יְהֹוָה אֱלֹהֶיךָ בְּכׇל־לְבָבְךָ וּבְכׇל־נַפְשְׁךָ וּבְכׇל־מְאֹדֶךָ",
+"וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל־לְבָבֶךָ",
+"וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשׇׁכְבְּךָ וּבְקוּמֶךָ",
+"וּקְשַׁרְתָּם לְאוֹת עַל־יָדֶךָ וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ",
+"וּכְתַבְתָּם עַל־מְזֻזוֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ"
+]
+},
+{
+"ref": "Deuteronomy 6:4-9",
+"lang": "en",
+"version": "The Contemporary Torah, Jewish Publication Society, 2006",
+"license": "CC-BY-NC",
+"text": [
+"Hear, O Israel! יהוה is our God, יהוה alone.",
+"You shall love your God יהוה with all your heart and with all your soul and with all your might.",
+"Take to heart these instructions with which I charge you this day.",
+"Impress them upon your children. Recite them when you stay at home and when you are away, when you lie down and when you get up.",
+"Bind them as a sign on your hand and let them serve as a symbol on your forehead;",
+"inscribe them on the doorposts of your house and on your gates."
+]
+},
+{
+"ref": "Numbers 15:40-41",
+"lang": "he",
+"version": "Miqra according to the Masorah",
+"license": "CC-BY-SA",
+"text": [
+"לְמַעַן תִּזְכְּרוּ וַעֲשִׂיתֶם אֶת־כׇּל־מִצְוֺתָי וִהְיִיתֶם קְדֹשִׁים לֵאלֹהֵיכֶם",
+"אֲנִי יְהֹוָה אֱלֹהֵיכֶם אֲשֶׁר הוֹצֵאתִי אֶתְכֶם מֵאֶרֶץ מִצְרַיִם לִהְיוֹת לָכֶם לֵאלֹהִים אֲנִי יְהֹוָה אֱלֹהֵיכֶם"
+]
+},
+{
+"ref": "Numbers 15:40-41",
+"lang": "en",
+"version": "The Contemporary Torah, Jewish Publication Society, 2006",
+"license": "CC-BY-NC",
+"text": [
+"Thus you shall be reminded to observe all My commandments and to be holy to your God.",
+"I יהוה am your God, who brought you out of the land of Egypt to be your God: I, your God יהוה."
+]
+},
+{
+"ref": "Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)",
+"lang": "he",
+"version": "The Metsudah siddur, 1981",
+"license": "CC-BY",
+"text": [
+"בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד:"
+]
+},
+{
+"ref": "Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)",
+"lang": "en",
+"version": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+"license": "CC-BY",
+"text": [
+"Blessed [is His] Name, Whose glorious kingdom is forever and ever."
+]
+}
+]
+}

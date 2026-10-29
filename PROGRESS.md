@@ -1,12 +1,19 @@
 # PROGRESS
 
-## START HERE (next session, written 10/28 evening)
+## START HERE (next session, written 10/29 early)
 Read this block + BRIEF.md. Don't re-audit anything below.
-State: v11 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
+State: v12 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
 `git -c safe.directory='*' -c user.name=jamiepillsbury-collab -c user.email=jamiepillsbury-collab@users.noreply.github.com commit -qam "..."` (request delete permission once per session first, or git leaves .lock files). Bump version.js on every app change.
-Sefaria is blocked from both shells; fetch it with JS in the desktop app's browser pane on tools/sefaria-fetch.html (same origin, CORS ok). Find siddur refs by walking /api/v2/raw/index/Siddur_Ashkenaz or Siddur_Sefard schema. English lives under content.senses[0].definition in /api/words/.
+Sefaria: shells blocked. Use the desktop browser pane on https://www.sefaria.org (same origin) + javascript_tool. Cantillation strip regex MUST be [\u0591-\u05AF\u05BD\u05C0\u05C3] (a literal range typed as ֑-ֽ also eats the vowels). Copy results into files, then verify per-line SHA-256 of NFC text in JS vs Python before using.
 
-DONE 10/28 (v11): "Prayer words" unit + "Blessings" unit.
+DONE 10/29 (v12): Sh'ma unit.
+- data/src/sefaria-shma.json: Deut 6:4-9 + Num 15:40-41 (Miqra according to the Masorah, CC-BY-SA; English Contemporary Torah, CC-BY-NC), Baruch shem (Metsudah, CC-BY). NFC.
+- build_prayers.py: prayers "shma" (2 lines) and "vahavta" (7 lines), placed last so words.json ids stay stable; prayer "unit" field; English capitalized, יהוה -> Adonai.
+- lexicon-bdb.tsv: 59 new words appended; gen_words.py now keeps 3 distinct senses, drops POS tags; REJECT += עַל, מִצְרַיִם, אֶתְכֶם. words.json: 172 words, 29 lessons, 124 glossed.
+- app.js: units grouped by prayer.unit ("Blessings", "Sh'ma"); about card says "Prayer" for Sh'ma. Tested headless, no JS errors.
+- New CHECKs (in-app): Mishkan T'filah skips Deut 11:13-21 and Num 15:37-39 (confirm, then mark REFORM); Baruch shem aloud or quietly at CBB; kamatz katan sign in b'chol.
+
+EARLIER: DONE 10/28 (v11): "Prayer words" unit + "Blessings" unit.
 - data/src/sefaria-texts.json (raw), data/src/lexicon-bdb.tsv (raw BDB glosses).
 - tools/build_prayers.py -> data/prayers.json: 8 blessings (HaMotzi, candles, Shehecheyanu, Barchu, Torah before/after, Kiddush, Haftarah before). Line specs + CHECK notes in the script; REFORM dict empty (no change asserted yet). Name shown as יְיָ.
 - tools/gen_words.py -> data/words.json: 113 words, 19 lessons of 6, 71 with BDB gloss (REJECT set blanks wrong matches).
@@ -21,7 +28,7 @@ FOR JAMIE TO CHECK (shown in-app on each blessing's first card):
 NEXT (in order):
 1. Jamie: push, try Words 1 + HaMotzi on the phone, answer the checks above. Record REFORM changes in build_prayers.py once confirmed.
 2. Prayer lesson polish from her feedback; audio slot per prayer exists (prayers.json "audio": null; Cantor Childs links later).
-3. Then Sh'ma / V'ahavta, or letters-together step 5.
+3. Next: letters-together step 5, or the blessings around the Sh'ma (Ahavat Olam / Ahavah Rabbah, Mi Chamocha) if Jamie prefers.
 Rules: no sub-agents unless a bulk job with a fixed schema appears; code generates all quiz items. Short text, no em dashes. Any button that can't work yet shows a toast() saying why.
 
 ## Proposed phases

@@ -9,10 +9,16 @@ P = json.load(open(os.path.join(ROOT, "data/prayers.json"), encoding="utf-8"))
 LEX = {}
 for ln in open(os.path.join(ROOT, "data/src/lexicon-bdb.tsv"), encoding="utf-8"):
     if ln.startswith("#") or not ln.strip(): continue
-    w, root, d = ln.rstrip("\n").split("\t"); LEX[w] = (root, d)
+    w, root, d = ln.rstrip("\n").split("\t")
+    seen = []  # first 3 distinct senses, no part-of-speech tags, no cut-off last item
+    parts = [x.strip() for x in d.split(", ")]
+    if len(d) >= 80: parts = parts[:-1]
+    for x in parts:
+        if x and x not in seen and not re.match(r"^(v|nm|nf|adv|subst|——-)$", x): seen.append(x)
+    LEX[w] = (root, ", ".join(seen[:3]))
 SEED = "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ".split()
 # Lexicon hits that matched the wrong word (homograph or wrong root): no gloss rather than a wrong one.
-REJECT = {"נֵר", "בָּנוּ", "בָנוּ", "בוֹ", "כִּי", "הוּא", "בָּרָא", "וְקִיְּמָנוּ", "וְכָל", "צְבָאָם", "הָאָרֶץ"}
+REJECT = {"נֵר", "בָּנוּ", "בָנוּ", "בוֹ", "כִּי", "הוּא", "בָּרָא", "וְקִיְּמָנוּ", "וְכָל", "צְבָאָם", "הָאָרֶץ", "עַל", "מִצְרַיִם", "אֶתְכֶם"}
 USELESS = re.compile(r"^(n f|n m|adj|prep|\(.*\))$")
 SAY = {"יְיָ": "אֲדֹנָי"}  # what the phone voice reads
 NOTE = {"יְיָ": "Written יְיָ, read Adonai."}

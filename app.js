@@ -464,9 +464,14 @@
           prayer: p.id, n, say: l.he.replace(/יְיָ/g, "אֲדֹנָי"), audio: null };
         return id;
       });
-      return { id: `pr-${p.id}`, title: p.title, subtitle: p.about, prayer: p.id, items };
+      return { id: `pr-${p.id}`, title: p.title, subtitle: p.about, prayer: p.id, unit: p.unit || "blessings", items };
     });
-    course.units.push({ id: "u-blessings", title: "Blessings", subtitle: "Line by line, then word order and missing words", tiles: false, lessons });
+    const UNITS = [["blessings", "Blessings", "Line by line, then word order and missing words"],
+                   ["shma", "Sh'ma", "Sh'ma and V'ahavta, line by line"]];
+    for (const [u, title, subtitle] of UNITS) {
+      const ls = lessons.filter((l) => l.unit === u);
+      if (ls.length) course.units.push({ id: u === "blessings" ? "u-blessings" : `u-${u}`, title, subtitle, tiles: false, lessons: ls });
+    }
   }
   function buildPrayerLesson(lesson) {
     const steps = [{ id: lesson.items[0], mode: "about" }], second = [];
@@ -492,7 +497,7 @@
   function renderAbout(it, bar, next) {
     const p = prayers[it.prayer];
     view.append(h("div", { class: "card" },
-      h("p", { class: "prompt-label" }, "Blessing"),
+      h("p", { class: "prompt-label" }, p.unit === "shma" ? "Prayer" : "Blessing"),
       h("div", { class: "name" }, p.title), h("div", { class: "note" }, p.about),
       p.audio ? h("button", { class: "secondary", onclick: () => new Audio(p.audio).play().catch(() => toast("Couldn't play the recording.")) }, "▶ Hear it chanted")
         : h("small", { class: "src" }, "Chanting recording: not added yet."),
