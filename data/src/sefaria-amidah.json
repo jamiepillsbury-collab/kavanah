@@ -1,0 +1,119 @@
+{
+ "fetched": "2026-10-29T17:45:00Z",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text, cantillation stripped. SHA-256 verified against browser fetch. Shabbat Ma'ariv Amidah (Metsudah he/en, CC-BY).",
+ "sources": [
+  {
+   "ref": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Patriarchs",
+   "lang": "he",
+   "version": "The Metsudah siddur, 1981",
+   "license": "CC-BY",
+   "text": [
+    "אֲדֹנָי שְׂפָתַי תִּפְתָּח וּפִי יַגִּיד תְּהִלָּתֶךָ:",
+    "בָּרוּךְ אַתָּה יְהֹוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ אֱלֹהֵי אַבְרָהָם אֱלֹהֵי יִצְחָק וֵאלֹהֵי יַעֲקֹב הָאֵל הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא אֵל עֶלְיוֹן גּוֹמֵל חֲסָדִים טוֹבִים וְקוֹנֵה הַכֹּל וְזוֹכֵר חַסְדֵי אָבוֹת וּמֵבִיא גוֹאֵל לִבְנֵי בְנֵיהֶם לְמַעַן שְׁמוֹ בְּאַהֲבָה:",
+    "בעשי\"ת: זָכְרֵנוּ לְחַיִּים מֶלֶךְ חָפֵץ בַּחַיִּים וְכָתְבֵנוּ בְּסֵפֶר הַחַיִּים לְמַעַנְךָ אֱלֹהִים חַיִּים:",
+    "מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן: בָּרוּךְ אַתָּה יְהֹוָה מָגֵן אַבְרָהָם:"
+   ]
+  },
+  {
+   "ref": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Patriarchs",
+   "lang": "en",
+   "version": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+   "license": "CC-BY",
+   "text": [
+    "My Master, open my lips, and my mouth will declare Your praise.",
+    "Blessed are You, Adonoy, our God, and God of our fathers, God of Abraham, God of Isaac, and God of Jacob, the Almighty, the Great, the Powerful, the Awesome, most high Almighty, Who bestows beneficent kindness, Who possesses everything, Who remembers the piety of the Patriarchs, and Who brings a redeemer to their children’s children, for the sake of His Name, with love.",
+    "(During the Ten Days of Penitence add: Remember us for life King, Who desires life; and inscribe us in the Book of Life, for Your sake, Living God.)",
+    "King, Helper, and Deliverer and Shield. Blessed are You, Adonoy, Shield of Abraham."
+   ]
+  },
+  {
+   "ref": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Divine Might",
+   "lang": "he",
+   "version": "The Metsudah siddur, 1981",
+   "license": "CC-BY",
+   "text": [
+    "אַתָּה גִבּוֹר לְעוֹלָם אֲדֹנָי מְחַיֶּה מֵתִים אַתָּה רַב לְהוֹשִׁיעַ:",
+    "בחורף: מַשִּׁיב הָרוּחַ וּמוֹרִיד הַגֶּשֶׁם: בקיץ: מוֹרִיד הַטָּל",
+    "מְכַלְכֵּל חַיִּים בְּחֶסֶד מְחַיֵּה מֵתִים בְּרַחֲמִים רַבִּים סוֹמֵךְ נוֹפְלִים וְרוֹפֵא חוֹלִים וּמַתִּיר אֲסוּרִים וּמְקַיֵּם אֱמוּנָתוֹ לִישֵׁנֵי עָפָר, מִי כָמוֹךָ בַּעַל גְּבוּרוֹת וּמִי דּוֹמֶה לָּךְ מֶלֶךְ מֵמִית וּמְחַיֶּה וּמַצְמִיחַ יְשׁוּעָה:",
+    "בעשי\"ת: מִי כָמוֹךָ אַב הָרַחֲמִים זוֹכֵר יְצוּרָיו לְחַיִּים בְּרַחֲמִים:",
+    "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת מֵתִים: בָּרוּךְ אַתָּה יְהֹוָה מְחַיֵּה הַמֵּתִים:"
+   ]
+  },
+  {
+   "ref": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Divine Might",
+   "lang": "en",
+   "version": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+   "license": "CC-BY",
+   "text": [
+    "You are mighty forever, my Master; You are the Resurrector of the dead the Powerful One to deliver us.",
+    "From the Musaf of Shemini Atzeres until the Musaf of the first day of Pesach you should say: Causer of the wind to blow and of the rain to fall. From the Musaf of the first day of Pesach until the Musaf of Shemini Atzeres one should say: He causes the dew to descend.",
+    "Sustainer of the living with kindliness, Resurrector of the dead with great mercy, Supporter of the fallen, and Healer of the sick, and Releaser of the imprisoned, and Fulfiller of His faithfulness to those who sleep in the dust. Who is like You, Master of mighty deeds, and who can be compared to You? King Who causes death and restores life, and causes deliverance to sprout forth.",
+    "(During the Ten Days of Penitence add: Who is like You merciful Father, Who remembers His creatures for life, in His mercy.)",
+    "And You are faithful to restore the dead to life. Blessed are You, Adonoy, Resurrector of the dead."
+   ]
+  },
+  {
+   "ref": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Holines of God's Name",
+   "lang": "he",
+   "version": "The Metsudah siddur, 1981",
+   "license": "CC-BY",
+   "text": [
+    "אַתָּה קָדוֹשׁ וְשִׁמְךָ קָדוֹשׁ וּקְדוֹשִׁים בְּכָל־יוֹם יְהַלְלוּךָ סֶּלָה. בָּרוּךְ אַתָּה יְהֹוָה הָאֵל הַקָּדוֹשׁ: בעשי\"ת מסיים: בָּרוּךְ אַתָּה יְהֹוָה הַמֶּלֶךְ הַקָּדוֹשׁ:"
+   ]
+  },
+  {
+   "ref": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Holines of God's Name",
+   "lang": "en",
+   "version": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+   "license": "CC-BY",
+   "text": [
+    "You are holy and Your Name is holy and holy beings praise You every day, forever. Blessed are You, Adonoy, the Almighty, the Holy One. During the Ten Days of Penitence: Blessed are You, Adonoy, the King, the Holy One."
+   ]
+  },
+  {
+   "ref": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Sanctity of the Day",
+   "lang": "he",
+   "version": "The Metsudah siddur, 1981",
+   "license": "CC-BY",
+   "text": [
+    "אַתָּה קִדַּשְׁתָּ אֶת יוֹם הַשְּׁבִיעִי לִשְׁמֶךָ. תַּכְלִית מַעֲשֵׂה שָׁמַיִם וָאָרֶץ. וּבֵרַכְתּוֹ מִכָּל הַיָּמִים. וְקִדַּשְׁתּוֹ מִכָּל הַזְּמַנִּים וְכֵן כָּתוּב בְּתוֹרָתֶךָ:",
+    "וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל־צְבָאָם: וַיְכַל אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מְלַאכְתּוֹ אֲשֶׁר עָשָׂה. וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי מִכָּל־מְלַאכְתּוֹ אֲשֶׁר עָשָׂה: וַיְבָרֶךְ אֱלֹהִים אֶת־יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ. כִּי בוֹ שָׁבַת מִכָּל־מְלַאכְתּוֹ אֲשֶׁר־בָּרָא אֱלֹהִים לַעֲשׂוֹת:",
+    "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ רְצֵה בִמְנוּחָתֵנוּ. קַדְּשֵׁנוּ בְּמִצְוֹתֶיךָ וְתֵן חֶלְקֵנוּ בְּתוֹרָתֶךָ שַׂבְּעֵנוּ מִטּוּבֶךָ. וְשַׂמְּחֵנוּ בִּישׁוּעָתֶךָ. וְטַהֵר לִבֵּנוּ לְעָבְדְּךָ בֶּאֱמֶת. וְהַנְחִילֵנוּ יְהֹוָה אֱלֹהֵינוּ בְּאַהֲבָה וּבְרָצוֹן שַׁבַּת קָדְשֶׁךָ. וְיָנוּחוּ בָהּ יִשְׂרָאֵל מְקַדְּשֵׁי שְׁמֶךָ. בָּרוּךְ אַתָּה יְהֹוָה מְקַדֵּשׁ הַשַּׁבָּת:"
+   ]
+  },
+  {
+   "ref": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Sanctity of the Day",
+   "lang": "en",
+   "version": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+   "license": "CC-BY",
+   "text": [
+    "You have sanctified the seventh day to Your Name, [it was] the purpose of making heaven and earth; and You blessed it above all days and You sanctified it above all seasons. And so it is written in Your Torah:",
+    "And the heavens and the earth were completed and [so were] all their hosts. And God completed by the seventh day His work which He had done, and He abstained on the seventh day, from all His work which He had done. And God blessed the seventh day and sanctified it for on it He abstained from all His work which God had created to do.",
+    "Our God, and God of our fathers, be pleased with our rest, sanctify us with Your commandments and give us our share in Your Torah; satisfy us from Your goodness and gladden us with Your deliverance, and purify our hearts to serve You in truth. And give us as our inheritance, Adonoy our God, in love and in pleasure Your holy Shabbos; and may Israel rest thereon— the sanctifiers of Your Name. Blessed are You Adonoy, Sanctifier of Shabbos."
+   ]
+  },
+  {
+   "ref": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Peace",
+   "lang": "he",
+   "version": "The Metsudah siddur, 1981",
+   "license": "CC-BY",
+   "text": [
+    "שָׁלוֹם רָב עַל יִשְׂרָאֵל עַמְּךָ תָּשִׂים לְעוֹלָם כִּי אַתָּה הוּא מֶלֶךְ אָדוֹן לְכָל־הַשָּׁלוֹם וְטוֹב בְּעֵינֶיךָ לְבָרֵךְ אֶת־עַמְּךָ יִשְׂרָאֵל בְּכָל־עֵת וּבְכָל־שָׁעָה בִּשְׁלוֹמֶךָ.",
+    "בעשי\"ת: בְּסֵפֶר חַיִּים בְּרָכָה וְשָׁלוֹם וּפַרְנָסָה טוֹבָה נִזָּכֵר וְנִכָּתֵב לְפָנֶיךָ אֲנַחְנוּ וְכָל עַמְּךָ בֵּית יִשְׂרָאֵל לְחַיִּים טוֹבִים וּלְשָׁלוֹם: (בָּרוּךְ אַתָּה יְהֹוָה עֹשֶׂה הַשָּׁלוֹם:)",
+    "בָּרוּךְ אַתָּה יְהֹוָה הַמְבָרֵךְ אֶת־עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם:"
+   ]
+  },
+  {
+   "ref": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Peace",
+   "lang": "en",
+   "version": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+   "license": "CC-BY",
+   "text": [
+    "Bestow abundant peace upon Israel, Your people, forever. For You are King, the Master of all peace. And may it be good in Your sight to bless us and to bless Your people Israel, at all times and at every moment with Your peace.",
+    "During the Ten Days of Penitence continue here: May we be remembered and inscribed before You in the book of life, blessing, peace and abundant maintenance; we and all Your people, the House of Israel, for a good life and peace.",
+    "Blessed are You, Adonoy, Who blesses His people Israel with peace."
+   ]
+  }
+ ]
+}

@@ -9,8 +9,9 @@ from translit import tl
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 raw = json.load(open(os.path.join(ROOT, "data/src/sefaria-texts.json"), encoding="utf-8"))
 raw2 = json.load(open(os.path.join(ROOT, "data/src/sefaria-shma.json"), encoding="utf-8"))
+raw3 = json.load(open(os.path.join(ROOT, "data/src/sefaria-amidah.json"), encoding="utf-8"))
 SRC = {}
-for s in raw["sources"] + raw2["sources"]:
+for s in raw["sources"] + raw2["sources"] + raw3["sources"]:
     SRC[("BARCHU_HE" if "Maariv, Barchu" in s["ref"] else None) or f'{s["ref"]}|{s["lang"]}'] = s
 def key(ref, lang): return SRC.get(f"{ref}|{lang}")
 S = {
@@ -32,6 +33,8 @@ S = {
  "ma_he": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing before Shema", "he"), "ma_en": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing before Shema", "en"),
  "hk_he": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing after Shema", "he"), "hk_en": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing after Shema", "en"),
  "ex_he": key("Exodus 31:16-17", "he"), "ex_en": key("Exodus 31:16-17", "en"),
+ **{f"{k}_{l}": key(f"Siddur Ashkenaz, Shabbat, Maariv, Amidah, {n}", l) for k, n in
+    (("av", "Patriarchs"), ("gv", "Divine Might"), ("kh", "Holines of God's Name"), ("ky", "Sanctity of the Day"), ("sr", "Peace")) for l in ("he", "en")},
  "bs_en": key("Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)", "en"),
 }
 NAME = "יְיָ"  # Mishkan T'filah prints the Name as yod-yod (display convention, not a wording change)
@@ -58,7 +61,7 @@ def get(spec, lang):
     t = S[src]["text"][seg]
     if part == "s0": return clean_en(t.split(". ")[0]) + "."
     if isinstance(part, tuple) and part[0] == "w":  # Hebrew: colon-part k, words a..b
-        return " ".join(he_parts(clean_he(t))[part[1]].split()[part[2]:part[3] + 1])
+        return " ".join(he_parts(clean_he(t))[part[1]].split()[part[2]:part[3] + 1]).strip(" ,")
     if isinstance(part, tuple) and part[0] == "cut":  # English: from start text to end text (inclusive)
         a = t.index(part[1]); b = t.index(part[2], a) + len(part[2]); return clean_en(t[a:b]).rstrip(";,")
     if isinstance(part, tuple): return clean_en(" ".join(sents(t)[part[0]:part[1] + 1]))  # English sentences i..j
@@ -109,10 +112,56 @@ PRAYERS = [
    (("hk_he", 0, ("w", 2, 0, 12)), ("hk_en", 0, ("cut", "Blessed are You", "Jerusalem.")))]),
  ("vshamru", "V'shamru", "Keeping Shabbat: Exodus 31:16-17", [
    (("ex_he", 0, None), ("ex_en", 0, None)), (("ex_he", 1, None), ("ex_en", 1, None))]),
+ ("avot", "Avot v'Imahot", "Our ancestors: the first blessing of the Amidah", [
+   (("av_he", 0, None), ("av_en", 0, None)),
+   (("av_he", 1, ("w", 0, 0, 5)), ("av_en", 1, ("cut", "Blessed are You", "God of our fathers"))),
+   (("av_he", 1, ("w", 0, 6, 11)), ("av_en", 1, ("cut", "God of Abraham", "God of Jacob"))),
+   (("av_he", 1, ("w", 0, 12, 22)), ("av_en", 1, ("cut", "the Almighty, the Great", "possesses everything"))),
+   (("av_he", 1, ("w", 0, 23, 32)), ("av_en", 1, ("cut", "Who remembers", "with love."))),
+   (("av_he", 3, 0), ("av_en", 3, ("cut", "King, Helper", "Shield."))),
+   (("av_he", 3, 1), ("av_en", 3, ("cut", "Blessed are You", "Abraham.")))]),
+ ("gvurot", "G'vurot", "God's power: the second blessing of the Amidah", [
+   (("gv_he", 0, None), ("gv_en", 0, None)),
+   (("gv_he", 1, 0), ("gv_en", 1, ("cut", "Causer of the wind", "to fall."))),
+   (("gv_he", 1, 1), ("gv_en", 1, ("cut", "He causes the dew", "descend."))),
+   (("gv_he", 2, ("w", 0, 0, 6)), ("gv_en", 2, ("cut", "Sustainer", "great mercy"))),
+   (("gv_he", 2, ("w", 0, 7, 16)), ("gv_en", 2, ("cut", "Supporter", "the dust."))),
+   (("gv_he", 2, ("w", 0, 17, 28)), ("gv_en", 2, ("cut", "Who is like You", "sprout forth."))),
+   (("gv_he", 4, 0), ("gv_en", 4, ("cut", "And You are faithful", "to life."))),
+   (("gv_he", 4, 1), ("gv_en", 4, ("cut", "Blessed are You", "the dead.")))]),
+ ("kdushat_hashem", "K'dushat HaShem", "God's holiness: the third blessing of the Amidah (evening)", [
+   (("kh_he", 0, 0), ("kh_en", 0, ("cut", "You are holy", "forever."))),
+   (("kh_he", 0, 1), ("kh_en", 0, ("cut", "Blessed are You", "the Holy One.")))]),
+ ("kdushat_hayom", "K'dushat HaYom", "The holiness of Shabbat: R'tzei vimnuchateinu (evening)", [
+   (("ky_he", 2, ("w", 0, 0, 4)), ("ky_en", 2, ("cut", "Our God", "with our rest"))),
+   (("ky_he", 2, ("w", 0, 5, 11)), ("ky_en", 2, ("cut", "sanctify us", "Your goodness"))),
+   (("ky_he", 2, ("w", 0, 12, 17)), ("ky_en", 2, ("cut", "and gladden us", "in truth."))),
+   (("ky_he", 2, ("w", 0, 18, 24)), ("ky_en", 2, ("cut", "And give us", "holy Shabbos"))),
+   (("ky_he", 2, ("w", 0, 25, 29)), ("ky_en", 2, ("cut", "and may Israel", "Your Name."))),
+   (("ky_he", 2, 1), ("ky_en", 2, ("cut", "Blessed are You Adonoy, Sanctifier", "Shabbos.")))]),
+ ("shalom_rav", "Shalom Rav", "Abundant peace: the last blessing of the Amidah (evening)", [
+   (("sr_he", 0, ("w", 0, 0, 6)), ("sr_en", 0, ("cut", "Bestow", "forever."))),
+   (("sr_he", 0, ("w", 0, 7, 12)), ("sr_en", 0, ("cut", "For You are King", "all peace."))),
+   (("sr_he", 0, ("w", 0, 13, 20)), ("sr_en", 0, ("cut", "And may it be good", "Your peace."))),
+   (("sr_he", 2, None), ("sr_en", 2, None))]),
 ]
-# Marked Reform changes vs the traditional base (Mishkan T'filah). Add {"line": i, "change": "..."} here once confirmed.
-REFORM = {}
-UNIT = {"maariv_aravim": "shma", "hashkiveinu": "shma", "vshamru": "shma", "shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
+# Marked Reform changes vs the traditional base (Mishkan T'filah wording). "sub" = (traditional Hebrew, Reform Hebrew) applied to that line.
+# Added words: names from Genesis (Sefaria, Miqra al pi ha-Masorah), g'ulah Lev 25:24, ezrat Judg 5:23, hakol from this blessing. Not sourced: imoteinu, imahot.
+# English stays the traditional Metsudah translation (no Claude-written English), so it lacks these additions.
+IMOT = ("וֵאלֹהֵי אֲבוֹתֵינוּ", "וֵאלֹהֵי אֲבוֹתֵינוּ וְאִמּוֹתֵינוּ")
+REFORM = {
+ "avot": [{"line": 1, "change": "Adds v'imoteinu (and our mothers).", "sub": IMOT},
+          {"line": 2, "change": "Adds Elohei Sarah, Elohei Rivkah, Elohei Rachel v'Elohei Leah.", "sub": ("וֵאלֹהֵי יַעֲקֹב", "וֵאלֹהֵי יַעֲקֹב אֱלֹהֵי שָׂרָה אֱלֹהֵי רִבְקָה אֱלֹהֵי רָחֵל וֵאלֹהֵי לֵאָה")},
+          {"line": 4, "change": "Adds v'imahot (and mothers).", "sub": ("חַסְדֵי אָבוֹת", "חַסְדֵי אָבוֹת וְאִמָּהוֹת")},
+          {"line": 4, "change": "G'ulah (redemption) instead of go'el (a redeemer).", "sub": ("גוֹאֵל", "גְאֻלָּה")},
+          {"line": 6, "change": "Adds v'ezrat Sarah (and Sarah's help).", "sub": ("מָגֵן אַבְרָהָם", "מָגֵן אַבְרָהָם וְעֶזְרַת שָׂרָה")}],
+ "gvurot": [{"line": 0, "change": "M'chayeih hakol (gives life to all) instead of m'chayeh meitim (revives the dead).", "sub": ("מְחַיֶּה מֵתִים", "מְחַיֵּה הַכֹּל")},
+            {"line": 3, "change": "M'chayeih hakol instead of m'chayeih meitim.", "sub": ("מְחַיֵּה מֵתִים", "מְחַיֵּה הַכֹּל")},
+            {"line": 6, "change": "L'hachayot hakol instead of l'hachayot meitim.", "sub": ("לְהַחֲיוֹת מֵתִים", "לְהַחֲיוֹת הַכֹּל")},
+            {"line": 7, "change": "M'chayeih hakol instead of m'chayeih hameitim.", "sub": ("מְחַיֵּה הַמֵּתִים", "מְחַיֵּה הַכֹּל")}],
+ "kdushat_hayom": [{"line": 0, "change": "Adds v'imoteinu (and our mothers).", "sub": IMOT}],
+}
+UNIT = {**{k: "amidah" for k in ("avot", "gvurot", "kdushat_hashem", "kdushat_hayom", "shalom_rav")}, "maariv_aravim": "shma", "hashkiveinu": "shma", "vshamru": "shma", "shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
 SEQ = {"maariv_aravim": 7.2, "ahavat_olam": 7.5}  # display order (Mishkan T'filah); "order" stays append-only so words.json ids stay stable  # app groups lessons into units by this
 CHECK = {
  "candles": ["Mishkan T'filah wording: confirm 'l'hadlik ner shel Shabbat' matches your siddur."],
@@ -132,6 +181,16 @@ CHECK = {
  "hashkiveinu": ["Shabbat evening form (ends 'haporeis sukat shalom'). Does Mishkan T'filah keep 'v'haseir mei-aleinu oyeiv, dever v'cherev v'ra-av v'yagon' and 'v'haseir satan'?",
                  "Line 1 English: Metsudah has no period after 'to life'."],
  "vshamru": ["Torah text (Exodus 31:16-17). English: Contemporary Torah (CC-BY-NC)."],
+ "avot": ["Hebrew base: Metsudah siddur (traditional). Reform wording added from Mishkan T'filah as I know it; please check each marked line, and the vowels of v'imoteinu and v'imahot (no Sefaria source for those two words).",
+          "English is the traditional Metsudah translation, so it doesn't mention the matriarchs. Add your own if you like.",
+          "The Ten Days of Repentance insert (Zochreinu) is left out."],
+ "gvurot": ["Mishkan T'filah prints m'chayeih hakol with m'chayeih meitim as an option. Which does CBB say?",
+            "Lines 2-3 are seasonal: mashiv haruach (winter) or morid hatal (summer). Does CBB say morid hatal year-round, or switch?",
+            "English is Metsudah's 'Resurrector of the dead'; it doesn't match hakol."],
+ "kdushat_hashem": ["Evening form (no K'dushah). Ten Days ending (hamelech hakadosh) left out."],
+ "kdushat_hayom": ["Only R'tzei vimnuchateinu is here. Does Mishkan T'filah's Shabbat evening K'dushat HaYom also have Atah kidashta, Vay'chulu, or Yism'chu?"],
+ "shalom_rav": ["Does Mishkan T'filah's Shalom Rav add 'v'al kol yoshvei teiveil' (and all who live on earth)?",
+                "Ten Days insert (B'sefer chayim) left out. Ending: ham'vareich et amo Yisrael bashalom."],
  "hamotzi": ["No Sefaria English found for this text."],
  "shehecheyanu": ["No Sefaria English found for this text."],
 }
@@ -140,15 +199,18 @@ out = {"generated_by": "tools/build_prayers.py", "source_fetched": raw["fetched"
 for order, (pid, title, about, lines) in enumerate(PRAYERS):
     pl = []
     for i, (hs, es) in enumerate(lines):
-        he = get(hs, "he"); t, f = tl(he)
+        he = get(hs, "he"); rf = [r for r in REFORM.get(pid, []) if r["line"] == i]
+        for r in rf:
+            assert he.count(r["sub"][0]) == 1, (pid, i, r["sub"][0]); he = he.replace(*r["sub"])
+        t, f = tl(he)
         src = None if es is None else (es[0] if isinstance(es, tuple) else es[0][0])
         pl.append({"he": he, "tl": t, "tlf": f, "en": get(es, "en"),
                    "en_src": S[src]["version"] if src else None, "en_license": S[src]["license"] if src else None,
-                   "reform": [r["change"] for r in REFORM.get(pid, []) if r["line"] == i], "verify": True})
+                   "reform": [r["change"] for r in rf], "verify": True})
     hs0 = lines[0][0] if isinstance(lines[0][0], tuple) else lines[0][0][0]
     out["prayers"].append({"id": pid, "title": title, "about": about, "order": order, "audio": None,
         "he_src": f'{S[hs0[0]]["ref"]} ({S[hs0[0]]["version"]}, {S[hs0[0]]["license"]})',
-        "unit": UNIT.get(pid, "blessings"), "seq": SEQ.get(pid, order), "check": CHECK.get(pid, []), "lines": pl})
+        "unit": UNIT.get(pid, "blessings"), "seq": SEQ.get(pid, order), "check": CHECK.get(pid, []) + [f'Line {r["line"] + 1}, Reform change: {r["change"]} Confirm against Mishkan T\'filah.' for r in REFORM.get(pid, [])], "lines": pl})
 json.dump(out, open(os.path.join(ROOT, "data/prayers.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 for p in out["prayers"]:
     print(p["id"])

@@ -31,6 +31,10 @@ EXCEPT.update({"בָּרְכוּ": "Bar'chu", "הַמְבֹרָךְ": "ham'vorac
     "בַּתּוֹרָה": "baTorah", "הַשַּׁבָּת": "haShabbat"})
 
 
+# Amidah (10/29 v15): names and kamatz katan
+EXCEPT.update({"אַבְרָהָם": "Avraham", "יִצְחָק": "Yitzchak", "שָׂרָה": "Sarah", "רִבְקָה": "Rivkah", "רָחֵל": "Rachel", "לֵאָה": "Leah",
+    "וֵאלֹהֵי": "v'Elohei", "קָדְשֶׁךָ": "kodshecha", "הַמְבָרֵךְ": "ham'vareich", "מְחַיֵּה": "m'chayeih", "מְחַיֶּה": "m'chayeh"})
+
 def _letters(word):
     """Split a word into [letter, set(points)]."""
     out = []

@@ -2,9 +2,15 @@
 
 ## START HERE (next session, written 10/29 early)
 Read this block + BRIEF.md. Don't re-audit anything below.
-State: v14 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
+State: v15 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
 `git -c safe.directory='*' -c user.name=jamiepillsbury-collab -c user.email=jamiepillsbury-collab@users.noreply.github.com commit -qam "..."` (request delete permission once per session first, or git leaves .lock files). Bump version.js on every app change.
 Sefaria: shells blocked. Use the desktop browser pane on https://www.sefaria.org (same origin) + javascript_tool. Cantillation strip regex MUST be [\u0591-\u05AF\u05BD\u05C0\u05C3] (a literal range typed as ֑-ֽ also eats the vowels). Copy results into files, then verify per-line SHA-256 of NFC text in JS vs Python before using.
+
+DONE 10/29 (v15): Shabbat evening Amidah unit ("Amidah", unit id amidah).
+- data/src/sefaria-amidah.json: Siddur Ashkenaz Shabbat Ma'ariv Amidah, Metsudah he/en (CC-BY), hash-verified. Prayers: avot (7 lines), gvurot (8), kdushat_hashem (2), kdushat_hayom (R'tzei only, 6), shalom_rav (4). Ten Days inserts left out.
+- First real REFORM edits: build_prayers.py REFORM entries now have "sub" (traditional, Reform Hebrew), applied per line, asserted to match once; shown on line cards ("Reform wording ... to confirm") and auto-added to CHECK/questions. Imahot, g'ulah, v'ezrat Sarah, m'chayeih hakol. Names/g'ulah/ezrat spelled as in Sefaria Tanakh; v'imoteinu, v'imahot unsourced (flagged). English stays Metsudah (traditional).
+- translit EXCEPT += Avraham, Yitzchak, Sarah, Rivkah, Rachel, Leah, v'Elohei, kodshecha, ham'vareich, m'chayeih. Lexicon += 94; REJECT += 9 wrong matches. words.json 442 words (318 glossed), old ids unchanged. questions.html 39 questions.
+- Lexicon fetch tip: fire all /api/words fetches in parallel into a window var, read it in a second call (sequential loop times out at 45s).
 
 DONE 10/29 (v14): rest of Shabbat evening Sh'ma section + rabbi list.
 - Ma'ariv Aravim (6 lines), Hashkiveinu (8, Shabbat form), V'shamru (Exodus 31:16-17, Contemporary Torah). Unit renamed "Sh'ma and its blessings".
@@ -41,7 +47,7 @@ FOR JAMIE TO CHECK (shown in-app on each blessing's first card):
 NEXT (in order):
 1. Jamie: push, try Words 1 + HaMotzi on the phone, answer the checks above. Record REFORM changes in build_prayers.py once confirmed.
 2. Prayer lesson polish from her feedback; audio slot per prayer exists (prayers.json "audio": null; Cantor Childs links later).
-3. Next: Shabbat evening Amidah (Avot v'Imahot, G'vurot, K'dushat HaYom, Shalom Rav), or reading without vowels. Amidah is long: split with the w/cut specs.
+3. Next: Amidah open questions (K'dushat HaYom contents: Atah kidashta / Vay'chulu / Yism'chu? Shalom Rav 'yoshvei teiveil'?), then Vay'chulu/Magen Avot/Aleinu, or reading without vowels.
 Rules: no sub-agents unless a bulk job with a fixed schema appears; code generates all quiz items. Short text, no em dashes. Any button that can't work yet shows a toast() saying why.
 
 ## Proposed phases

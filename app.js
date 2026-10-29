@@ -460,14 +460,15 @@
       prayers[p.id] = p;
       const items = p.lines.map((l, n) => {
         const id = `p-${p.id}-${n}`;
-        course.items[id] = { kind: "line", he: l.he, tr: l.tl, tlf: l.tlf, en: l.en, en_src: l.en_src, en_license: l.en_license,
+        course.items[id] = { kind: "line", he: l.he, tr: l.tl, tlf: l.tlf, en: l.en, en_src: l.en_src, en_license: l.en_license, reform: l.reform || [],
           prayer: p.id, n, say: l.he.replace(/יְיָ/g, "אֲדֹנָי"), audio: null };
         return id;
       });
       return { id: `pr-${p.id}`, title: p.title, subtitle: p.about, prayer: p.id, unit: p.unit || "blessings", items };
     });
     const UNITS = [["blessings", "Blessings", "Line by line, then word order and missing words"],
-                   ["shma", "Sh'ma and its blessings", "Shabbat evening, Ma'ariv Aravim to V'shamru"]];
+                   ["shma", "Sh'ma and its blessings", "Shabbat evening, Ma'ariv Aravim to V'shamru"],
+                   ["amidah", "Amidah", "Shabbat evening, Avot v'Imahot to Shalom Rav"]];
     for (const [u, title, subtitle] of UNITS) {
       const ls = lessons.filter((l) => l.unit === u);
       if (ls.length) course.units.push({ id: u === "blessings" ? "u-blessings" : `u-${u}`, title, subtitle, tiles: false, lessons: ls });
@@ -497,7 +498,7 @@
   function renderAbout(it, bar, next) {
     const p = prayers[it.prayer];
     view.append(h("div", { class: "card" },
-      h("p", { class: "prompt-label" }, p.unit === "shma" ? "Prayer" : "Blessing"),
+      h("p", { class: "prompt-label" }, p.unit === "blessings" ? "Blessing" : "Prayer"),
       h("div", { class: "name" }, p.title), h("div", { class: "note" }, p.about),
       p.audio ? h("button", { class: "secondary", onclick: () => new Audio(p.audio).play().catch(() => toast("Couldn't play the recording.")) }, "▶ Hear it chanted")
         : h("small", { class: "src" }, "Chanting recording: not added yet."),
@@ -514,6 +515,7 @@
       hintBlock(id, it.tr, false, "Show transliteration"),
       hintBlock(id, it.en || "No Sefaria translation for this line yet.", false, "Show translation"),
       it.en_src ? h("small", { class: "src" }, `English: ${it.en_src} (${it.en_license})`) : null,
+      it.reform && it.reform.length ? h("div", { class: "flag" }, "Reform wording (Mishkan T'filah), to confirm: " + it.reform.join(" ")) : null,
       flagNote(it)), bar);
     bar.append(h("button", { class: "primary", onclick: next }, "Continue"));
   }

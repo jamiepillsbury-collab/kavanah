@@ -787,6 +787,385 @@
      "verify": true
     }
    ]
+  },
+  {
+   "id": "avot",
+   "title": "Avot v'Imahot",
+   "about": "Our ancestors: the first blessing of the Amidah",
+   "order": 15,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Patriarchs (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "amidah",
+   "seq": 15,
+   "check": [
+    "Hebrew base: Metsudah siddur (traditional). Reform wording added from Mishkan T'filah as I know it; please check each marked line, and the vowels of v'imoteinu and v'imahot (no Sefaria source for those two words).",
+    "English is the traditional Metsudah translation, so it doesn't mention the matriarchs. Add your own if you like.",
+    "The Ten Days of Repentance insert (Zochreinu) is left out.",
+    "Line 2, Reform change: Adds v'imoteinu (and our mothers). Confirm against Mishkan T'filah.",
+    "Line 3, Reform change: Adds Elohei Sarah, Elohei Rivkah, Elohei Rachel v'Elohei Leah. Confirm against Mishkan T'filah.",
+    "Line 5, Reform change: Adds v'imahot (and mothers). Confirm against Mishkan T'filah.",
+    "Line 5, Reform change: G'ulah (redemption) instead of go'el (a redeemer). Confirm against Mishkan T'filah.",
+    "Line 7, Reform change: Adds v'ezrat Sarah (and Sarah's help). Confirm against Mishkan T'filah."
+   ],
+   "lines": [
+    {
+     "he": "אֲדֹנָי שְׂפָתַי תִּפְתָּח וּפִי יַגִּיד תְּהִלָּתֶךָ",
+     "tl": "Adonai s'fatai tiftach ufi yagid t'hilatecha",
+     "tlf": false,
+     "en": "My Master, open my lips, and my mouth will declare Your praise.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְאִמּוֹתֵינוּ",
+     "tl": "Baruch atah Adonai Eloheinu v'Elohei avoteinu v'imoteinu",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, our God, and God of our fathers",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [
+      "Adds v'imoteinu (and our mothers)."
+     ],
+     "verify": true
+    },
+    {
+     "he": "אֱלֹהֵי אַבְרָהָם אֱלֹהֵי יִצְחָק וֵאלֹהֵי יַעֲקֹב אֱלֹהֵי שָׂרָה אֱלֹהֵי רִבְקָה אֱלֹהֵי רָחֵל וֵאלֹהֵי לֵאָה",
+     "tl": "Elohei Avraham Elohei Yitzchak v'Elohei Yaakov Elohei Sarah Elohei Rivkah Elohei Rachel v'Elohei Leah",
+     "tlf": false,
+     "en": "God of Abraham, God of Isaac, and God of Jacob",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [
+      "Adds Elohei Sarah, Elohei Rivkah, Elohei Rachel v'Elohei Leah."
+     ],
+     "verify": true
+    },
+    {
+     "he": "הָאֵל הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא אֵל עֶלְיוֹן גּוֹמֵל חֲסָדִים טוֹבִים וְקוֹנֵה הַכֹּל",
+     "tl": "Ha-eil hagadol hagibor v'hanora eil elyon gomeil chasadim tovim v'konei hakol",
+     "tlf": false,
+     "en": "The Almighty, the Great, the Powerful, the Awesome, most high Almighty, Who bestows beneficent kindness, Who possesses everything",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְזוֹכֵר חַסְדֵי אָבוֹת וְאִמָּהוֹת וּמֵבִיא גְאֻלָּה לִבְנֵי בְנֵיהֶם לְמַעַן שְׁמוֹ בְּאַהֲבָה",
+     "tl": "V'zocheir chasdei avot v'imahot umeivi g'ulah livnei v'neihem l'ma-an sh'mo b'ahavah",
+     "tlf": false,
+     "en": "Who remembers the piety of the Patriarchs, and Who brings a redeemer to their children’s children, for the sake of His Name, with love.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [
+      "Adds v'imahot (and mothers).",
+      "G'ulah (redemption) instead of go'el (a redeemer)."
+     ],
+     "verify": true
+    },
+    {
+     "he": "מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן",
+     "tl": "Melech ozeir umoshia umagein",
+     "tlf": false,
+     "en": "King, Helper, and Deliverer and Shield.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ מָגֵן אַבְרָהָם וְעֶזְרַת שָׂרָה",
+     "tl": "Baruch atah Adonai magein Avraham v'ezrat Sarah",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Shield of Abraham.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [
+      "Adds v'ezrat Sarah (and Sarah's help)."
+     ],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "gvurot",
+   "title": "G'vurot",
+   "about": "God's power: the second blessing of the Amidah",
+   "order": 16,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Divine Might (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "amidah",
+   "seq": 16,
+   "check": [
+    "Mishkan T'filah prints m'chayeih hakol with m'chayeih meitim as an option. Which does CBB say?",
+    "Lines 2-3 are seasonal: mashiv haruach (winter) or morid hatal (summer). Does CBB say morid hatal year-round, or switch?",
+    "English is Metsudah's 'Resurrector of the dead'; it doesn't match hakol.",
+    "Line 1, Reform change: M'chayeih hakol (gives life to all) instead of m'chayeh meitim (revives the dead). Confirm against Mishkan T'filah.",
+    "Line 4, Reform change: M'chayeih hakol instead of m'chayeih meitim. Confirm against Mishkan T'filah.",
+    "Line 7, Reform change: L'hachayot hakol instead of l'hachayot meitim. Confirm against Mishkan T'filah.",
+    "Line 8, Reform change: M'chayeih hakol instead of m'chayeih hameitim. Confirm against Mishkan T'filah."
+   ],
+   "lines": [
+    {
+     "he": "אַתָּה גִבּוֹר לְעוֹלָם אֲדֹנָי מְחַיֵּה הַכֹּל אַתָּה רַב לְהוֹשִׁיעַ",
+     "tl": "Atah gibor l'olam Adonai m'chayeih hakol atah rav l'hoshia",
+     "tlf": false,
+     "en": "You are mighty forever, my Master; You are the Resurrector of the dead the Powerful One to deliver us.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [
+      "M'chayeih hakol (gives life to all) instead of m'chayeh meitim (revives the dead)."
+     ],
+     "verify": true
+    },
+    {
+     "he": "מַשִּׁיב הָרוּחַ וּמוֹרִיד הַגֶּשֶׁם",
+     "tl": "Mashiv haruach umorid hageshem",
+     "tlf": false,
+     "en": "Causer of the wind to blow and of the rain to fall.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "מוֹרִיד הַטָּל",
+     "tl": "Morid hatal",
+     "tlf": false,
+     "en": "He causes the dew to descend.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "מְכַלְכֵּל חַיִּים בְּחֶסֶד מְחַיֵּה הַכֹּל בְּרַחֲמִים רַבִּים",
+     "tl": "M'chalkeil chayim b'chesed m'chayeih hakol b'rachamim rabim",
+     "tlf": false,
+     "en": "Sustainer of the living with kindliness, Resurrector of the dead with great mercy",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [
+      "M'chayeih hakol instead of m'chayeih meitim."
+     ],
+     "verify": true
+    },
+    {
+     "he": "סוֹמֵךְ נוֹפְלִים וְרוֹפֵא חוֹלִים וּמַתִּיר אֲסוּרִים וּמְקַיֵּם אֱמוּנָתוֹ לִישֵׁנֵי עָפָר",
+     "tl": "Someich noflim v'rofei cholim umatir asurim um'kayeim emunato lisheinei afar",
+     "tlf": true,
+     "en": "Supporter of the fallen, and Healer of the sick, and Releaser of the imprisoned, and Fulfiller of His faithfulness to those who sleep in the dust.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "מִי כָמוֹךָ בַּעַל גְּבוּרוֹת וּמִי דּוֹמֶה לָּךְ מֶלֶךְ מֵמִית וּמְחַיֶּה וּמַצְמִיחַ יְשׁוּעָה",
+     "tl": "Mi chamocha ba-al g'vurot umi domeh lach melech meimit um'chayeh umatzmiach y'shu-ah",
+     "tlf": false,
+     "en": "Who is like You, Master of mighty deeds, and who can be compared to You? King Who causes death and restores life, and causes deliverance to sprout forth.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת הַכֹּל",
+     "tl": "V'ne-eman atah l'hachayot hakol",
+     "tlf": false,
+     "en": "And You are faithful to restore the dead to life.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [
+      "L'hachayot hakol instead of l'hachayot meitim."
+     ],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ מְחַיֵּה הַכֹּל",
+     "tl": "Baruch atah Adonai m'chayeih hakol",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Resurrector of the dead.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [
+      "M'chayeih hakol instead of m'chayeih hameitim."
+     ],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "kdushat_hashem",
+   "title": "K'dushat HaShem",
+   "about": "God's holiness: the third blessing of the Amidah (evening)",
+   "order": 17,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Holines of God's Name (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "amidah",
+   "seq": 17,
+   "check": [
+    "Evening form (no K'dushah). Ten Days ending (hamelech hakadosh) left out."
+   ],
+   "lines": [
+    {
+     "he": "אַתָּה קָדוֹשׁ וְשִׁמְךָ קָדוֹשׁ וּקְדוֹשִׁים בְּכָל־יוֹם יְהַלְלוּךָ סֶּלָה",
+     "tl": "Atah kadosh v'shimcha kadosh uk'doshim b'chol yom y'hal'lucha selah",
+     "tlf": false,
+     "en": "You are holy and Your Name is holy and holy beings praise You every day, forever.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ הָאֵל הַקָּדוֹשׁ",
+     "tl": "Baruch atah Adonai ha-eil hakadosh",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, the Almighty, the Holy One.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "kdushat_hayom",
+   "title": "K'dushat HaYom",
+   "about": "The holiness of Shabbat: R'tzei vimnuchateinu (evening)",
+   "order": 18,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Sanctity of the Day (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "amidah",
+   "seq": 18,
+   "check": [
+    "Only R'tzei vimnuchateinu is here. Does Mishkan T'filah's Shabbat evening K'dushat HaYom also have Atah kidashta, Vay'chulu, or Yism'chu?",
+    "Line 1, Reform change: Adds v'imoteinu (and our mothers). Confirm against Mishkan T'filah."
+   ],
+   "lines": [
+    {
+     "he": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְאִמּוֹתֵינוּ רְצֵה בִמְנוּחָתֵנוּ",
+     "tl": "Eloheinu v'Elohei avoteinu v'imoteinu r'tzei vimnuchateinu",
+     "tlf": false,
+     "en": "Our God, and God of our fathers, be pleased with our rest",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [
+      "Adds v'imoteinu (and our mothers)."
+     ],
+     "verify": true
+    },
+    {
+     "he": "קַדְּשֵׁנוּ בְּמִצְוֹתֶיךָ וְתֵן חֶלְקֵנוּ בְּתוֹרָתֶךָ שַׂבְּעֵנוּ מִטּוּבֶךָ",
+     "tl": "Kad'sheinu b'mitzvotecha v'tein chelkeinu b'toratecha sab'einu mituvecha",
+     "tlf": false,
+     "en": "Sanctify us with Your commandments and give us our share in Your Torah; satisfy us from Your goodness",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְשַׂמְּחֵנוּ בִּישׁוּעָתֶךָ, וְטַהֵר לִבֵּנוּ לְעָבְדְּךָ בֶּאֱמֶת",
+     "tl": "V'sam'cheinu bishu-atecha, v'taheir libeinu l'avd'cha be-emet",
+     "tlf": true,
+     "en": "And gladden us with Your deliverance, and purify our hearts to serve You in truth.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְהַנְחִילֵנוּ יְיָ אֱלֹהֵינוּ בְּאַהֲבָה וּבְרָצוֹן שַׁבַּת קָדְשֶׁךָ",
+     "tl": "V'hanchileinu Adonai Eloheinu b'ahavah uv'ratzon Shabbat kodshecha",
+     "tlf": false,
+     "en": "And give us as our inheritance, Adonai our God, in love and in pleasure Your holy Shabbat",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְיָנוּחוּ בָהּ יִשְׂרָאֵל מְקַדְּשֵׁי שְׁמֶךָ",
+     "tl": "V'yanuchu vah Yisrael m'kad'shei sh'mecha",
+     "tlf": false,
+     "en": "And may Israel rest thereon— the sanctifiers of Your Name.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ מְקַדֵּשׁ הַשַּׁבָּת",
+     "tl": "Baruch atah Adonai m'kadeish haShabbat",
+     "tlf": false,
+     "en": "Blessed are You Adonai, Sanctifier of Shabbat.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "shalom_rav",
+   "title": "Shalom Rav",
+   "about": "Abundant peace: the last blessing of the Amidah (evening)",
+   "order": 19,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Amidah, Peace (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "amidah",
+   "seq": 19,
+   "check": [
+    "Does Mishkan T'filah's Shalom Rav add 'v'al kol yoshvei teiveil' (and all who live on earth)?",
+    "Ten Days insert (B'sefer chayim) left out. Ending: ham'vareich et amo Yisrael bashalom."
+   ],
+   "lines": [
+    {
+     "he": "שָׁלוֹם רָב עַל יִשְׂרָאֵל עַמְּךָ תָּשִׂים לְעוֹלָם",
+     "tl": "Shalom rav al Yisrael am'cha tasim l'olam",
+     "tlf": false,
+     "en": "Bestow abundant peace upon Israel, Your people, forever.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "כִּי אַתָּה הוּא מֶלֶךְ אָדוֹן לְכָל־הַשָּׁלוֹם",
+     "tl": "Ki atah hu melech adon l'chol hashalom",
+     "tlf": false,
+     "en": "For You are King, the Master of all peace.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְטוֹב בְּעֵינֶיךָ לְבָרֵךְ אֶת־עַמְּךָ יִשְׂרָאֵל בְּכָל־עֵת וּבְכָל־שָׁעָה בִּשְׁלוֹמֶךָ",
+     "tl": "V'tov b'einecha l'vareich et am'cha Yisrael b'chol eit uv'chol sha-ah bishlomecha",
+     "tlf": false,
+     "en": "And may it be good in Your sight to bless us and to bless Your people Israel, at all times and at every moment with Your peace.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ הַמְבָרֵךְ אֶת־עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם",
+     "tl": "Baruch atah Adonai ham'vareich et amo Yisrael bashalom",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Who blesses His people Israel with peace.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
   }
  ]
 }

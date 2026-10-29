@@ -2,7 +2,7 @@
 import json, os, html
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = json.load(open(os.path.join(ROOT, "data/prayers.json"), encoding="utf-8"))
-UNIT = {"blessings": "Blessings", "shma": "Shabbat evening: the Sh'ma and its blessings"}
+UNIT = {"blessings": "Blessings", "shma": "Shabbat evening: the Sh'ma and its blessings", "amidah": "Shabbat evening: the Amidah"}
 rows, n = [], 0
 for u in UNIT:
     ps = [p for p in sorted(P["prayers"], key=lambda p: p["seq"]) if p["unit"] == u and p["check"]]
