@@ -467,7 +467,7 @@
       return { id: `pr-${p.id}`, title: p.title, subtitle: p.about, prayer: p.id, unit: p.unit || "blessings", items };
     });
     const UNITS = [["blessings", "Blessings", "Line by line, then word order and missing words"],
-                   ["shma", "Sh'ma", "Sh'ma and V'ahavta, line by line"]];
+                   ["shma", "Sh'ma and its blessings", "Shabbat evening, Ma'ariv Aravim to V'shamru"]];
     for (const [u, title, subtitle] of UNITS) {
       const ls = lessons.filter((l) => l.unit === u);
       if (ls.length) course.units.push({ id: u === "blessings" ? "u-blessings" : `u-${u}`, title, subtitle, tiles: false, lessons: ls });
@@ -724,7 +724,8 @@
       reset, msg,
       h("h2", {}, "About"),
       h("p", { class: "sub" }, `Version ${self.APP_VERSION || "?"}. If this doesn't match the latest, close and reopen the app.`),
-      h("p", { class: "sub" }, "Breathing, sleep and soundscapes live in ", h("a", { href: "https://neshamah.netlify.app/", target: "_blank", rel: "noopener" }, "Neshamah"), "."));
+      h("p", { class: "sub" }, "Breathing, sleep and soundscapes live in ", h("a", { href: "https://neshamah.netlify.app/", target: "_blank", rel: "noopener" }, "Neshamah"), "."),
+      h("p", { class: "sub" }, "Open wording questions for your rabbi or cantor: ", h("a", { href: "questions.html", target: "_blank", rel: "noopener" }, "printable list"), "."));
   }
 
   // ---------- boot ----------

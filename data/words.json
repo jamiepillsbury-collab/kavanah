@@ -16,9 +16,9 @@
       "w-025",
       "w-065",
       "w-134",
+      "w-264",
       "w-206",
-      "w-013",
-      "w-016"
+      "w-013"
      ]
     },
     {
@@ -27,40 +27,40 @@
      "drill": true,
      "subtitle": "2 letter words",
      "items": [
+      "w-016",
       "w-017",
       "w-066",
       "w-117",
       "w-121",
-      "w-139",
-      "w-159"
+      "w-139"
      ]
     },
     {
      "id": "together-3",
      "title": "Together 3",
      "drill": true,
-     "subtitle": "2-3 letter words",
+     "subtitle": "2 letter words",
      "items": [
+      "w-159",
       "w-183",
       "w-192",
       "w-201",
       "w-220",
-      "w-223",
-      "w-002"
+      "w-223"
      ]
     },
     {
      "id": "together-4",
      "title": "Together 4",
      "drill": true,
-     "subtitle": "3 letter words",
+     "subtitle": "2-3 letter words",
      "items": [
+      "w-265",
+      "w-313",
+      "w-002",
       "w-007",
       "w-005",
-      "w-028",
-      "w-031",
-      "w-048",
-      "w-029"
+      "w-028"
      ]
     },
     {
@@ -69,12 +69,12 @@
      "drill": true,
      "subtitle": "3 letter words",
      "items": [
-      "w-034",
+      "w-048",
+      "w-031",
       "w-060",
-      "w-077",
       "w-110",
-      "w-164",
-      "w-012"
+      "w-276",
+      "w-029"
      ]
     },
     {
@@ -83,12 +83,12 @@
      "drill": true,
      "subtitle": "3 letter words",
      "items": [
-      "w-018",
-      "w-023",
-      "w-030",
-      "w-038",
-      "w-040",
-      "w-043"
+      "w-034",
+      "w-067",
+      "w-077",
+      "w-150",
+      "w-164",
+      "w-253"
      ]
     }
    ],
@@ -609,9 +609,206 @@
     {
      "id": "words-40",
      "title": "Words 40",
-     "subtitle": "Toward Mi Chamocha",
+     "subtitle": "Toward Ma'ariv Aravim",
      "items": [
-      "w-235"
+      "w-235",
+      "w-236",
+      "w-237",
+      "w-238",
+      "w-239",
+      "w-240"
+     ]
+    },
+    {
+     "id": "words-41",
+     "title": "Words 41",
+     "subtitle": "Toward Ma'ariv Aravim",
+     "items": [
+      "w-241",
+      "w-242",
+      "w-243",
+      "w-244",
+      "w-245",
+      "w-246"
+     ]
+    },
+    {
+     "id": "words-42",
+     "title": "Words 42",
+     "subtitle": "Toward Ma'ariv Aravim",
+     "items": [
+      "w-247",
+      "w-248",
+      "w-249",
+      "w-250",
+      "w-251",
+      "w-252"
+     ]
+    },
+    {
+     "id": "words-43",
+     "title": "Words 43",
+     "subtitle": "Toward Ma'ariv Aravim",
+     "items": [
+      "w-253",
+      "w-254",
+      "w-255",
+      "w-256",
+      "w-257",
+      "w-258"
+     ]
+    },
+    {
+     "id": "words-44",
+     "title": "Words 44",
+     "subtitle": "Toward Ma'ariv Aravim",
+     "items": [
+      "w-259",
+      "w-260",
+      "w-261",
+      "w-262",
+      "w-263",
+      "w-264"
+     ]
+    },
+    {
+     "id": "words-45",
+     "title": "Words 45",
+     "subtitle": "Toward Hashkiveinu",
+     "items": [
+      "w-265",
+      "w-266",
+      "w-267",
+      "w-268",
+      "w-269",
+      "w-270"
+     ]
+    },
+    {
+     "id": "words-46",
+     "title": "Words 46",
+     "subtitle": "Toward Hashkiveinu",
+     "items": [
+      "w-271",
+      "w-272",
+      "w-273",
+      "w-274",
+      "w-275",
+      "w-276"
+     ]
+    },
+    {
+     "id": "words-47",
+     "title": "Words 47",
+     "subtitle": "Toward Hashkiveinu",
+     "items": [
+      "w-277",
+      "w-278",
+      "w-279",
+      "w-280",
+      "w-281",
+      "w-282"
+     ]
+    },
+    {
+     "id": "words-48",
+     "title": "Words 48",
+     "subtitle": "Toward Hashkiveinu",
+     "items": [
+      "w-283",
+      "w-284",
+      "w-285",
+      "w-286",
+      "w-287",
+      "w-288"
+     ]
+    },
+    {
+     "id": "words-49",
+     "title": "Words 49",
+     "subtitle": "Toward Hashkiveinu",
+     "items": [
+      "w-289",
+      "w-290",
+      "w-291",
+      "w-292",
+      "w-293",
+      "w-294"
+     ]
+    },
+    {
+     "id": "words-50",
+     "title": "Words 50",
+     "subtitle": "Toward Hashkiveinu",
+     "items": [
+      "w-295",
+      "w-296",
+      "w-297",
+      "w-298",
+      "w-299",
+      "w-300"
+     ]
+    },
+    {
+     "id": "words-51",
+     "title": "Words 51",
+     "subtitle": "Toward Hashkiveinu",
+     "items": [
+      "w-301",
+      "w-302",
+      "w-303",
+      "w-304",
+      "w-305",
+      "w-306"
+     ]
+    },
+    {
+     "id": "words-52",
+     "title": "Words 52",
+     "subtitle": "Toward Hashkiveinu",
+     "items": [
+      "w-307",
+      "w-308",
+      "w-309",
+      "w-310",
+      "w-311",
+      "w-312"
+     ]
+    },
+    {
+     "id": "words-53",
+     "title": "Words 53",
+     "subtitle": "Toward V'shamru",
+     "items": [
+      "w-313",
+      "w-314",
+      "w-315",
+      "w-316",
+      "w-317",
+      "w-318"
+     ]
+    },
+    {
+     "id": "words-54",
+     "title": "Words 54",
+     "subtitle": "Toward V'shamru",
+     "items": [
+      "w-319",
+      "w-320",
+      "w-321",
+      "w-322",
+      "w-323",
+      "w-324"
+     ]
+    },
+    {
+     "id": "words-55",
+     "title": "Words 55",
+     "subtitle": "Toward V'shamru",
+     "items": [
+      "w-325",
+      "w-326",
+      "w-327"
      ]
     }
    ],
@@ -631,7 +828,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 17,
+   "freq": 20,
    "prayers": [
     "hamotzi",
     "candles",
@@ -643,7 +840,9 @@
     "haftarah_before",
     "shma",
     "ahavat_olam",
-    "mi_chamocha"
+    "mi_chamocha",
+    "maariv_aravim",
+    "hashkiveinu"
    ],
    "audio": null
   },
@@ -659,7 +858,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 14,
+   "freq": 17,
    "prayers": [
     "hamotzi",
     "candles",
@@ -669,7 +868,9 @@
     "kiddush",
     "haftarah_before",
     "ahavat_olam",
-    "mi_chamocha"
+    "mi_chamocha",
+    "maariv_aravim",
+    "hashkiveinu"
    ],
    "audio": null
   },
@@ -681,7 +882,7 @@
    "say": "אֲדֹנָי",
    "gloss": null,
    "note": "Written יְיָ, read Adonai.",
-   "freq": 27,
+   "freq": 33,
    "prayers": [
     "hamotzi",
     "candles",
@@ -694,7 +895,10 @@
     "shma",
     "vahavta",
     "ahavat_olam",
-    "mi_chamocha"
+    "mi_chamocha",
+    "maariv_aravim",
+    "hashkiveinu",
+    "vshamru"
    ],
    "audio": null
   },
@@ -706,7 +910,7 @@
    "say": "אֱלֹהֵינוּ",
    "gloss": null,
    "note": null,
-   "freq": 10,
+   "freq": 12,
    "prayers": [
     "hamotzi",
     "candles",
@@ -716,7 +920,9 @@
     "kiddush",
     "haftarah_before",
     "shma",
-    "ahavat_olam"
+    "ahavat_olam",
+    "maariv_aravim",
+    "hashkiveinu"
    ],
    "audio": null
   },
@@ -732,7 +938,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 8,
+   "freq": 10,
    "prayers": [
     "hamotzi",
     "candles",
@@ -740,7 +946,9 @@
     "torah_before",
     "torah_after",
     "kiddush",
-    "haftarah_before"
+    "haftarah_before",
+    "maariv_aravim",
+    "hashkiveinu"
    ],
    "audio": null
   },
@@ -756,7 +964,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 8,
+   "freq": 9,
    "prayers": [
     "hamotzi",
     "candles",
@@ -764,7 +972,8 @@
     "torah_before",
     "torah_after",
     "kiddush",
-    "haftarah_before"
+    "haftarah_before",
+    "maariv_aravim"
    ],
    "audio": null
   },
@@ -776,14 +985,15 @@
    "say": "אֲשֶׁר",
    "gloss": null,
    "note": null,
-   "freq": 10,
+   "freq": 11,
    "prayers": [
     "candles",
     "torah_before",
     "torah_after",
     "kiddush",
     "haftarah_before",
-    "vahavta"
+    "vahavta",
+    "maariv_aravim"
    ],
    "audio": null
   },
@@ -901,9 +1111,10 @@
    "say": "הָאָרֶץ",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "hamotzi"
+    "hamotzi",
+    "vshamru"
    ],
    "audio": null
   },
@@ -1076,13 +1287,15 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 6,
+   "freq": 11,
    "prayers": [
     "barchu",
     "torah_before",
     "kiddush",
     "vahavta",
-    "mi_chamocha"
+    "mi_chamocha",
+    "maariv_aravim",
+    "vshamru"
    ],
    "audio": null
   },
@@ -1113,12 +1326,13 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 4,
+   "freq": 5,
    "prayers": [
     "barchu",
     "torah_before",
     "shma",
-    "ahavat_olam"
+    "ahavat_olam",
+    "maariv_aravim"
    ],
    "audio": null
   },
@@ -1134,13 +1348,14 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 5,
+   "freq": 6,
    "prayers": [
     "barchu",
     "torah_before",
     "shma",
     "ahavat_olam",
-    "mi_chamocha"
+    "mi_chamocha",
+    "maariv_aravim"
    ],
    "audio": null
   },
@@ -1380,10 +1595,12 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 4,
    "prayers": [
     "torah_after",
-    "ahavat_olam"
+    "ahavat_olam",
+    "hashkiveinu",
+    "vshamru"
    ],
    "audio": null
   },
@@ -1489,9 +1706,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 3,
+   "freq": 6,
    "prayers": [
-    "kiddush"
+    "kiddush",
+    "maariv_aravim"
    ],
    "audio": null
   },
@@ -1543,9 +1761,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "kiddush"
+    "kiddush",
+    "vshamru"
    ],
    "audio": null
   },
@@ -1657,9 +1876,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 3,
+   "freq": 4,
    "prayers": [
-    "kiddush"
+    "kiddush",
+    "vshamru"
    ],
    "audio": null
   },
@@ -1693,9 +1913,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
-    "kiddush"
+    "kiddush",
+    "vshamru"
    ],
    "audio": null
   },
@@ -1779,11 +2000,13 @@
    "say": "כִּי",
    "gloss": null,
    "note": null,
-   "freq": 5,
+   "freq": 8,
    "prayers": [
     "kiddush",
     "ahavat_olam",
-    "mi_chamocha"
+    "mi_chamocha",
+    "hashkiveinu",
+    "vshamru"
    ],
    "audio": null
   },
@@ -1813,9 +2036,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "kiddush"
+    "kiddush",
+    "vshamru"
    ],
    "audio": null
   },
@@ -1845,9 +2069,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "kiddush"
+    "kiddush",
+    "vshamru"
    ],
    "audio": null
   },
@@ -1905,9 +2130,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "kiddush"
+    "kiddush",
+    "maariv_aravim"
    ],
    "audio": null
   },
@@ -2330,9 +2556,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 3,
    "prayers": [
-    "kiddush"
+    "kiddush",
+    "vshamru"
    ],
    "audio": null
   },
@@ -2508,10 +2735,11 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
     "haftarah_before",
-    "ahavat_olam"
+    "ahavat_olam",
+    "hashkiveinu"
    ],
    "audio": null
   },
@@ -2595,11 +2823,13 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 4,
+   "freq": 7,
    "prayers": [
     "shma",
     "ahavat_olam",
-    "mi_chamocha"
+    "mi_chamocha",
+    "hashkiveinu",
+    "vshamru"
    ],
    "audio": null
   },
@@ -3220,9 +3450,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "vahavta"
+    "vahavta",
+    "maariv_aravim"
    ],
    "audio": null
   },
@@ -3324,9 +3555,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "vahavta"
+    "vahavta",
+    "hashkiveinu"
    ],
    "audio": null
   },
@@ -4050,9 +4282,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "ahavat_olam"
+    "ahavat_olam",
+    "maariv_aravim"
    ],
    "audio": null
   },
@@ -4543,9 +4776,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "mi_chamocha"
+    "mi_chamocha",
+    "maariv_aravim"
    ],
    "audio": null
   },
@@ -4561,9 +4795,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "mi_chamocha"
+    "mi_chamocha",
+    "vshamru"
    ],
    "audio": null
   },
@@ -4690,6 +4925,1529 @@
    "freq": 1,
    "prayers": [
     "mi_chamocha"
+   ],
+   "audio": null
+  },
+  "w-236": {
+   "kind": "word",
+   "he": "בִּדְבָרוֹ",
+   "tr": "bidvaro",
+   "tlf": false,
+   "say": "בִּדְבָרוֹ",
+   "gloss": {
+    "root": "דָּבָר",
+    "def": "speech, word, speaking",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-237": {
+   "kind": "word",
+   "he": "מַעֲרִיב",
+   "tr": "ma-ariv",
+   "tlf": false,
+   "say": "מַעֲרִיב",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-238": {
+   "kind": "word",
+   "he": "עֲרָבִים",
+   "tr": "aravim",
+   "tlf": false,
+   "say": "עֲרָבִים",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-239": {
+   "kind": "word",
+   "he": "בְּחָכְמָה",
+   "tr": "b'chochmah",
+   "tlf": false,
+   "say": "בְּחָכְמָה",
+   "gloss": {
+    "root": "חׇכְמָה",
+    "def": "wisdom, skill (in war), wisdom (in administration)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-240": {
+   "kind": "word",
+   "he": "פּוֹתֵחַ",
+   "tr": "poteiach",
+   "tlf": false,
+   "say": "פּוֹתֵחַ",
+   "gloss": {
+    "root": "פָּתַח",
+    "def": "to open, to be opened, be let loose",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-241": {
+   "kind": "word",
+   "he": "שְׁעָרִים",
+   "tr": "sh'arim",
+   "tlf": false,
+   "say": "שְׁעָרִים",
+   "gloss": {
+    "root": "שַׁעַר",
+    "def": "gate, gate (of entrance), gate (of space inside gate",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-242": {
+   "kind": "word",
+   "he": "וּבִתְבוּנָה",
+   "tr": "uvitvunah",
+   "tlf": false,
+   "say": "וּבִתְבוּנָה",
+   "gloss": {
+    "root": "תָּבוּן",
+    "def": "understanding, intelligence, the act of understanding",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-243": {
+   "kind": "word",
+   "he": "מְשַׁנֶּה",
+   "tr": "m'shaneh",
+   "tlf": false,
+   "say": "מְשַׁנֶּה",
+   "gloss": {
+    "root": "שָׁנָה",
+    "def": "to repeat, do again, change",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-244": {
+   "kind": "word",
+   "he": "עִתִּים",
+   "tr": "itim",
+   "tlf": false,
+   "say": "עִתִּים",
+   "gloss": {
+    "root": "עֵת",
+    "def": "time, time (of an event), time (usual)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-245": {
+   "kind": "word",
+   "he": "וּמַחֲלִיף",
+   "tr": "umachalif",
+   "tlf": false,
+   "say": "וּמַחֲלִיף",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-246": {
+   "kind": "word",
+   "he": "הַזְּמַנִּים",
+   "tr": "haz'manim",
+   "tlf": false,
+   "say": "הַזְּמַנִּים",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-247": {
+   "kind": "word",
+   "he": "וּמְסַדֵּר",
+   "tr": "um'sadeir",
+   "tlf": false,
+   "say": "וּמְסַדֵּר",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-248": {
+   "kind": "word",
+   "he": "הַכּוֹכָבִים",
+   "tr": "hakochavim",
+   "tlf": false,
+   "say": "הַכּוֹכָבִים",
+   "gloss": {
+    "root": "כּוֹכָב",
+    "def": "star, of Messiah, brothers",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-249": {
+   "kind": "word",
+   "he": "בְּמִשְׁמְרוֹתֵיהֶם",
+   "tr": "b'mishm'roteihem",
+   "tlf": false,
+   "say": "בְּמִשְׁמְרוֹתֵיהֶם",
+   "gloss": {
+    "root": "מִשְׁמֶרֶת",
+    "def": "guard, charge, function",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-250": {
+   "kind": "word",
+   "he": "בָּרָקִיעַ",
+   "tr": "barakia",
+   "tlf": false,
+   "say": "בָּרָקִיעַ",
+   "gloss": {
+    "root": "רָקִיעַ",
+    "def": "extended surface (solid), expanse, firmament",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-251": {
+   "kind": "word",
+   "he": "כִּרְצוֹנוֹ",
+   "tr": "kirtzono",
+   "tlf": false,
+   "say": "כִּרְצוֹנוֹ",
+   "gloss": {
+    "root": "רָצוֹן",
+    "def": "pleasure, delight, favour",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-252": {
+   "kind": "word",
+   "he": "גּוֹלֵל",
+   "tr": "goleil",
+   "tlf": false,
+   "say": "גּוֹלֵל",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-253": {
+   "kind": "word",
+   "he": "אוֹר",
+   "tr": "or",
+   "tlf": false,
+   "say": "אוֹר",
+   "gloss": {
+    "root": "אוֹר",
+    "def": "to be or become light, shine, to become light (day)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-254": {
+   "kind": "word",
+   "he": "מִפְּנֵי",
+   "tr": "mip'nei",
+   "tlf": false,
+   "say": "מִפְּנֵי",
+   "gloss": {
+    "root": "פָּנִים",
+    "def": "face, faces, presence",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-255": {
+   "kind": "word",
+   "he": "חשֶׁךְ",
+   "tr": "choshech",
+   "tlf": false,
+   "say": "חשֶׁךְ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-256": {
+   "kind": "word",
+   "he": "וְחשֶׁךְ",
+   "tr": "v'choshech",
+   "tlf": false,
+   "say": "וְחשֶׁךְ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-257": {
+   "kind": "word",
+   "he": "וּמַעֲבִיר",
+   "tr": "uma-avir",
+   "tlf": false,
+   "say": "וּמַעֲבִיר",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-258": {
+   "kind": "word",
+   "he": "וּמֵבִיא",
+   "tr": "umeivi",
+   "tlf": false,
+   "say": "וּמֵבִיא",
+   "gloss": {
+    "root": "בּוֹא",
+    "def": "to go in, enter, come",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-259": {
+   "kind": "word",
+   "he": "לָיְלָה",
+   "tr": "laylah",
+   "tlf": true,
+   "say": "לָיְלָה",
+   "gloss": {
+    "root": "לַיִל",
+    "def": "night, night (as opposed to day), of gloom",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-260": {
+   "kind": "word",
+   "he": "וּמַבְדִּיל",
+   "tr": "umavdil",
+   "tlf": false,
+   "say": "וּמַבְדִּיל",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-261": {
+   "kind": "word",
+   "he": "וּבֵין",
+   "tr": "uvein",
+   "tlf": false,
+   "say": "וּבֵין",
+   "gloss": {
+    "root": "בֵּין",
+    "def": "between, among, in the midst of (with other preps)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "maariv_aravim",
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-262": {
+   "kind": "word",
+   "he": "צְבָאוֹת",
+   "tr": "tz'va-ot",
+   "tlf": false,
+   "say": "צְבָאוֹת",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-263": {
+   "kind": "word",
+   "he": "שְׁמוֹ",
+   "tr": "sh'mo",
+   "tlf": false,
+   "say": "שְׁמוֹ",
+   "gloss": {
+    "root": "שֵׁם",
+    "def": "name, reputation, fame",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-264": {
+   "kind": "word",
+   "he": "אֵל",
+   "tr": "eil",
+   "tlf": false,
+   "say": "אֵל",
+   "gloss": null,
+   "note": null,
+   "freq": 3,
+   "prayers": [
+    "maariv_aravim",
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-265": {
+   "kind": "word",
+   "he": "חַי",
+   "tr": "chai",
+   "tlf": false,
+   "say": "חַי",
+   "gloss": {
+    "root": "חַי",
+    "def": "living, alive, green (of vegetation)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-266": {
+   "kind": "word",
+   "he": "וְקַיָּם",
+   "tr": "v'kayam",
+   "tlf": false,
+   "say": "וְקַיָּם",
+   "gloss": {
+    "root": "קַיָּם",
+    "def": "secure, enduring",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-267": {
+   "kind": "word",
+   "he": "תָּמִיד",
+   "tr": "tamid",
+   "tlf": false,
+   "say": "תָּמִיד",
+   "gloss": {
+    "root": "תָּמִיד",
+    "def": "continuity, perpetuity, to stretch",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-268": {
+   "kind": "word",
+   "he": "עָלֵינוּ",
+   "tr": "aleinu",
+   "tlf": false,
+   "say": "עָלֵינוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 4,
+   "prayers": [
+    "maariv_aravim",
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-269": {
+   "kind": "word",
+   "he": "הַמַּעֲרִיב",
+   "tr": "hama-ariv",
+   "tlf": false,
+   "say": "הַמַּעֲרִיב",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "maariv_aravim"
+   ],
+   "audio": null
+  },
+  "w-270": {
+   "kind": "word",
+   "he": "הַשְׁכִּיבֵנוּ",
+   "tr": "hashkiveinu",
+   "tlf": false,
+   "say": "הַשְׁכִּיבֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-271": {
+   "kind": "word",
+   "he": "לְשָׁלוֹם",
+   "tr": "l'shalom",
+   "tlf": false,
+   "say": "לְשָׁלוֹם",
+   "gloss": {
+    "root": "שָׁלוֹם",
+    "def": "completeness, soundness, welfare",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-272": {
+   "kind": "word",
+   "he": "וְהַעֲמִידֵנוּ",
+   "tr": "v'ha-amideinu",
+   "tlf": false,
+   "say": "וְהַעֲמִידֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-273": {
+   "kind": "word",
+   "he": "מַלְכֵּנוּ",
+   "tr": "malkeinu",
+   "tlf": false,
+   "say": "מַלְכֵּנוּ",
+   "gloss": {
+    "root": "מֶלֶךְ",
+    "def": "king",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-274": {
+   "kind": "word",
+   "he": "לְחַיִּים",
+   "tr": "l'chayim",
+   "tlf": false,
+   "say": "לְחַיִּים",
+   "gloss": {
+    "root": "חַי",
+    "def": "living, alive, green (of vegetation)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-275": {
+   "kind": "word",
+   "he": "וּפְרוֹשׂ",
+   "tr": "uf'ros",
+   "tlf": false,
+   "say": "וּפְרוֹשׂ",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-276": {
+   "kind": "word",
+   "he": "סֻכַּת",
+   "tr": "sukat",
+   "tlf": false,
+   "say": "סֻכַּת",
+   "gloss": {
+    "root": "סֻכָּה",
+    "def": "thicket, covert, booth",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 3,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-277": {
+   "kind": "word",
+   "he": "שְׁלוֹמֶךָ",
+   "tr": "sh'lomecha",
+   "tlf": false,
+   "say": "שְׁלוֹמֶךָ",
+   "gloss": {
+    "root": "שָׁלוֹם",
+    "def": "completeness, soundness, welfare",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-278": {
+   "kind": "word",
+   "he": "וְתַקְּנֵנוּ",
+   "tr": "v'tak'neinu",
+   "tlf": false,
+   "say": "וְתַקְּנֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-279": {
+   "kind": "word",
+   "he": "בְּעֵצָה",
+   "tr": "b'eitzah",
+   "tlf": false,
+   "say": "בְּעֵצָה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-280": {
+   "kind": "word",
+   "he": "טוֹבָה",
+   "tr": "tovah",
+   "tlf": false,
+   "say": "טוֹבָה",
+   "gloss": {
+    "root": "טוֹב",
+    "def": "to be good, be pleasing, be joyful",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-281": {
+   "kind": "word",
+   "he": "מִלְּפָנֶיךָ",
+   "tr": "mil'fanecha",
+   "tlf": false,
+   "say": "מִלְּפָנֶיךָ",
+   "gloss": {
+    "root": "פָּנִים",
+    "def": "face, faces, presence",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-282": {
+   "kind": "word",
+   "he": "וְהוֹשִׁיעֵנוּ",
+   "tr": "v'hoshi-einu",
+   "tlf": false,
+   "say": "וְהוֹשִׁיעֵנוּ",
+   "gloss": {
+    "root": "יָשַׁע",
+    "def": "to save, be saved, be delivered",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-283": {
+   "kind": "word",
+   "he": "שְׁמֶךָ",
+   "tr": "sh'mecha",
+   "tlf": false,
+   "say": "שְׁמֶךָ",
+   "gloss": {
+    "root": "שֵׁם",
+    "def": "name, reputation, fame",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-284": {
+   "kind": "word",
+   "he": "וְהָגֵן",
+   "tr": "v'hagein",
+   "tlf": false,
+   "say": "וְהָגֵן",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-285": {
+   "kind": "word",
+   "he": "בַּעֲדֵנוּ",
+   "tr": "ba-adeinu",
+   "tlf": false,
+   "say": "בַּעֲדֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-286": {
+   "kind": "word",
+   "he": "וְהָסֵר",
+   "tr": "v'haseir",
+   "tlf": false,
+   "say": "וְהָסֵר",
+   "gloss": {
+    "root": "סוּר",
+    "def": "to turn aside, depart, turn in unto",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-287": {
+   "kind": "word",
+   "he": "מֵעָלֵינוּ",
+   "tr": "mei-aleinu",
+   "tlf": false,
+   "say": "מֵעָלֵינוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-288": {
+   "kind": "word",
+   "he": "אוֹיֵב",
+   "tr": "oyeiv",
+   "tlf": false,
+   "say": "אוֹיֵב",
+   "gloss": {
+    "root": "אֹיֵב",
+    "def": "enemy, personal, national",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-289": {
+   "kind": "word",
+   "he": "דֶּבֶר",
+   "tr": "dever",
+   "tlf": false,
+   "say": "דֶּבֶר",
+   "gloss": {
+    "root": "דֶּבֶר",
+    "def": "pestilence, plague, murrain",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-290": {
+   "kind": "word",
+   "he": "וְחֶרֶב",
+   "tr": "v'cherev",
+   "tlf": false,
+   "say": "וְחֶרֶב",
+   "gloss": {
+    "root": "חֶרֶב",
+    "def": "sword, knife, tools for cutting stone",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-291": {
+   "kind": "word",
+   "he": "וְרָעָב",
+   "tr": "v'ra-av",
+   "tlf": false,
+   "say": "וְרָעָב",
+   "gloss": {
+    "root": "רָעָב",
+    "def": "famine, hunger, famine (in land",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-292": {
+   "kind": "word",
+   "he": "וְיָגוֹן",
+   "tr": "v'yagon",
+   "tlf": false,
+   "say": "וְיָגוֹן",
+   "gloss": {
+    "root": "יָגוֹן",
+    "def": "grief, sorrow, anguish",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-293": {
+   "kind": "word",
+   "he": "שָׂטָן",
+   "tr": "satan",
+   "tlf": false,
+   "say": "שָׂטָן",
+   "gloss": {
+    "root": "שָׂטָן",
+    "def": "adversary, one who withstands, adversary (in general-personal or national)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-294": {
+   "kind": "word",
+   "he": "מִלְּפָנֵינוּ",
+   "tr": "mil'faneinu",
+   "tlf": false,
+   "say": "מִלְּפָנֵינוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-295": {
+   "kind": "word",
+   "he": "וּמֵאַחֲרֵינוּ",
+   "tr": "umei-achareinu",
+   "tlf": false,
+   "say": "וּמֵאַחֲרֵינוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-296": {
+   "kind": "word",
+   "he": "וּבְצֵל",
+   "tr": "uv'tzeil",
+   "tlf": false,
+   "say": "וּבְצֵל",
+   "gloss": {
+    "root": "צֵל",
+    "def": "shadow, shade, shadow (on dial)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-297": {
+   "kind": "word",
+   "he": "כְּנָפֶיךָ",
+   "tr": "k'nafecha",
+   "tlf": false,
+   "say": "כְּנָפֶיךָ",
+   "gloss": {
+    "root": "כָּנָף",
+    "def": "wing, extremity, edge",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-298": {
+   "kind": "word",
+   "he": "תַּסְתִּירֵנוּ",
+   "tr": "tastireinu",
+   "tlf": false,
+   "say": "תַּסְתִּירֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-299": {
+   "kind": "word",
+   "he": "שׁוֹמְרֵנוּ",
+   "tr": "shomreinu",
+   "tlf": true,
+   "say": "שׁוֹמְרֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-300": {
+   "kind": "word",
+   "he": "וּמַצִּילֵנוּ",
+   "tr": "umatzileinu",
+   "tlf": false,
+   "say": "וּמַצִּילֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-301": {
+   "kind": "word",
+   "he": "אָתָּה",
+   "tr": "atah",
+   "tlf": false,
+   "say": "אָתָּה",
+   "gloss": {
+    "root": "אַתָּה",
+    "def": "you (second pers. sing. masc.)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-302": {
+   "kind": "word",
+   "he": "חַנּוּן",
+   "tr": "chanun",
+   "tlf": false,
+   "say": "חַנּוּן",
+   "gloss": {
+    "root": "חַנּוּן",
+    "def": "gracious",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-303": {
+   "kind": "word",
+   "he": "וְרַחוּם",
+   "tr": "v'rachum",
+   "tlf": false,
+   "say": "וְרַחוּם",
+   "gloss": {
+    "root": "רַחוּם",
+    "def": "compassionate, always of God with one possible exception",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-304": {
+   "kind": "word",
+   "he": "וּשְׁמוֹר",
+   "tr": "ush'mor",
+   "tlf": false,
+   "say": "וּשְׁמוֹר",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-305": {
+   "kind": "word",
+   "he": "צֵאתֵנוּ",
+   "tr": "tzeiteinu",
+   "tlf": false,
+   "say": "צֵאתֵנוּ",
+   "gloss": {
+    "root": "יָצָא",
+    "def": "to go out, come out, exit",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-306": {
+   "kind": "word",
+   "he": "וּבוֹאֵנוּ",
+   "tr": "uvo-einu",
+   "tlf": false,
+   "say": "וּבוֹאֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-307": {
+   "kind": "word",
+   "he": "וּלְשָׁלוֹם",
+   "tr": "ul'shalom",
+   "tlf": false,
+   "say": "וּלְשָׁלוֹם",
+   "gloss": {
+    "root": "שָׁלוֹם",
+    "def": "completeness, soundness, welfare",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-308": {
+   "kind": "word",
+   "he": "מֵעַתָּה",
+   "tr": "mei-atah",
+   "tlf": false,
+   "say": "מֵעַתָּה",
+   "gloss": {
+    "root": "עַתָּה",
+    "def": "now, in phrases",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-309": {
+   "kind": "word",
+   "he": "וְעַד",
+   "tr": "v'ad",
+   "tlf": false,
+   "say": "וְעַד",
+   "gloss": {
+    "root": "עַד",
+    "def": "perpetuity, for ever, continuing future",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-310": {
+   "kind": "word",
+   "he": "הַפּוֹרֵשׂ",
+   "tr": "haporeis",
+   "tlf": false,
+   "say": "הַפּוֹרֵשׂ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-311": {
+   "kind": "word",
+   "he": "שָׁלוֹם",
+   "tr": "shalom",
+   "tlf": false,
+   "say": "שָׁלוֹם",
+   "gloss": {
+    "root": "שָׁלוֹם",
+    "def": "completeness, soundness, welfare",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-312": {
+   "kind": "word",
+   "he": "וְעַל",
+   "tr": "v'al",
+   "tlf": false,
+   "say": "וְעַל",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-313": {
+   "kind": "word",
+   "he": "כָּל",
+   "tr": "kol",
+   "tlf": false,
+   "say": "כָּל",
+   "gloss": {
+    "root": "כֹּל",
+    "def": "all, the whole, the whole of",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-314": {
+   "kind": "word",
+   "he": "יְרוּשָׁלָיִם",
+   "tr": "Y'rushalayim",
+   "tlf": false,
+   "say": "יְרוּשָׁלָיִם",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "hashkiveinu"
+   ],
+   "audio": null
+  },
+  "w-315": {
+   "kind": "word",
+   "he": "וְשָׁמְרוּ",
+   "tr": "v'shamru",
+   "tlf": true,
+   "say": "וְשָׁמְרוּ",
+   "gloss": {
+    "root": "שָׁמַר",
+    "def": "to keep, guard, observe",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-316": {
+   "kind": "word",
+   "he": "בְנֵי",
+   "tr": "v'nei",
+   "tlf": false,
+   "say": "בְנֵי",
+   "gloss": {
+    "root": "בֵּן",
+    "def": "son, grandson, child",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-317": {
+   "kind": "word",
+   "he": "לְדֹרֹתָם",
+   "tr": "l'dorotam",
+   "tlf": false,
+   "say": "לְדֹרֹתָם",
+   "gloss": {
+    "root": "דּוֹר",
+    "def": "period, generation, habitation",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-318": {
+   "kind": "word",
+   "he": "בְּרִית",
+   "tr": "b'rit",
+   "tlf": false,
+   "say": "בְּרִית",
+   "gloss": {
+    "root": "בְּרִית",
+    "def": "covenant, alliance, pledge",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-319": {
+   "kind": "word",
+   "he": "בֵּינִי",
+   "tr": "beini",
+   "tlf": false,
+   "say": "בֵּינִי",
+   "gloss": {
+    "root": "בֵּין",
+    "def": "between, among, in the midst of (with other preps)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-320": {
+   "kind": "word",
+   "he": "בְּנֵי",
+   "tr": "b'nei",
+   "tlf": false,
+   "say": "בְּנֵי",
+   "gloss": {
+    "root": "בֵּן",
+    "def": "son, grandson, child",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-321": {
+   "kind": "word",
+   "he": "אוֹת",
+   "tr": "ot",
+   "tlf": false,
+   "say": "אוֹת",
+   "gloss": {
+    "root": "אוֹת",
+    "def": "sign, signal, a distinguishing mark",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-322": {
+   "kind": "word",
+   "he": "הִוא",
+   "tr": "hi",
+   "tlf": false,
+   "say": "הִוא",
+   "gloss": {
+    "root": "הוּא",
+    "def": "pron 3p s, he, she",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-323": {
+   "kind": "word",
+   "he": "שֵׁשֶׁת",
+   "tr": "sheishet",
+   "tlf": false,
+   "say": "שֵׁשֶׁת",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-324": {
+   "kind": "word",
+   "he": "יָמִים",
+   "tr": "yamim",
+   "tlf": false,
+   "say": "יָמִים",
+   "gloss": {
+    "root": "יוֹם",
+    "def": "day, time, year",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-325": {
+   "kind": "word",
+   "he": "וְאֶת",
+   "tr": "v'et",
+   "tlf": false,
+   "say": "וְאֶת",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-326": {
+   "kind": "word",
+   "he": "וּבַיּוֹם",
+   "tr": "uvayom",
+   "tlf": false,
+   "say": "וּבַיּוֹם",
+   "gloss": {
+    "root": "יוֹם",
+    "def": "day, time, year",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
+   ],
+   "audio": null
+  },
+  "w-327": {
+   "kind": "word",
+   "he": "וַיִּנָּפַשׁ",
+   "tr": "vayinafash",
+   "tlf": false,
+   "say": "וַיִּנָּפַשׁ",
+   "gloss": {
+    "root": "נָפַשׁ",
+    "def": "to take breath, refresh oneself",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "vshamru"
    ],
    "audio": null
   }

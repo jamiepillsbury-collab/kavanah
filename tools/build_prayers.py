@@ -29,6 +29,9 @@ S = {
  "bs_he": key("Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)", "he"),
  "ao_he": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing before Shema", "he"), "ao_en": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing before Shema", "en"),
  "mc_he": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing after Shema (segs 1-2)", "he"), "mc_en": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing after Shema (segs 1-2)", "en"),
+ "ma_he": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing before Shema", "he"), "ma_en": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing before Shema", "en"),
+ "hk_he": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing after Shema", "he"), "hk_en": key("Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing after Shema", "en"),
+ "ex_he": key("Exodus 31:16-17", "he"), "ex_en": key("Exodus 31:16-17", "en"),
  "bs_en": key("Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)", "en"),
 }
 NAME = "יְיָ"  # Mishkan T'filah prints the Name as yod-yod (display convention, not a wording change)
@@ -54,6 +57,10 @@ def get(spec, lang):
     src, seg, part = spec
     t = S[src]["text"][seg]
     if part == "s0": return clean_en(t.split(". ")[0]) + "."
+    if isinstance(part, tuple) and part[0] == "w":  # Hebrew: colon-part k, words a..b
+        return " ".join(he_parts(clean_he(t))[part[1]].split()[part[2]:part[3] + 1])
+    if isinstance(part, tuple) and part[0] == "cut":  # English: from start text to end text (inclusive)
+        a = t.index(part[1]); b = t.index(part[2], a) + len(part[2]); return clean_en(t[a:b]).rstrip(";,")
     if isinstance(part, tuple): return clean_en(" ".join(sents(t)[part[0]:part[1] + 1]))  # English sentences i..j
     if lang == "he": t = clean_he(t); return clean_he(he_parts(t)[part]) if part is not None else t
     t = clean_en(t); return clean_en(en_parts(t)[part]) if part is not None else t
@@ -84,11 +91,29 @@ PRAYERS = [
  ("mi_chamocha", "Mi Chamocha", "Who is like You: from the blessing after the Sh'ma (evening)", [
    (("mc_he", 0, 0), ("mc_en", 0, (0, 0))), (("mc_he", 0, 1), ("mc_en", 0, (1, 1))),
    (("mc_he", 1, 0), ("mc_en", 1, (0, 0))), (("mc_he", 1, 1), ("mc_en", 1, (1, 1))), (("mc_he", 1, 2), ("mc_en", 1, (2, 2)))]),
+ ("maariv_aravim", "Ma'ariv Aravim", "Who brings on evening: the first blessing before the Sh'ma", [
+   (("ma_he", 0, ("w", 0, 0, 12)), ("ma_en", 0, ("cut", "Blessed are You", "gates (of heaven)"))),
+   (("ma_he", 0, ("w", 0, 13, 22)), ("ma_en", 0, ("cut", "and with understanding", "to His will."))),
+   (("ma_he", 0, ("w", 1, 0, 9)), ("ma_en", 0, ("cut", "He creates day", "from before light"))),
+   (("ma_he", 0, ("w", 1, 10, 21)), ("ma_en", 0, ("cut", "He causes day", "is His Name."))),
+   (("ma_he", 0, ("w", 2, 0, 7)), ("ma_en", 0, ("cut", "The Almighty", "ever and ever."))),
+   (("ma_he", 0, ("w", 3, 0, 4)), ("ma_en", 0, ("cut", "Blessed are You, Adonoy, Who", "evening.")))]),
+ ("hashkiveinu", "Hashkiveinu", "Lay us down in peace: the evening prayer for protection", [
+   (("hk_he", 0, ("w", 0, 0, 6)), ("hk_en", 0, ("cut", "Adonoy our God", "again to life"))),
+   (("hk_he", 0, ("w", 0, 7, 17)), ("hk_en", 0, ("cut", "Spread over us", "Name’s sake."))),
+   (("hk_he", 0, ("w", 0, 18, 26)), ("hk_en", 0, ("cut", "Shield us", "sorrow."))),
+   (("hk_he", 0, ("w", 0, 27, 33)), ("hk_en", 0, ("cut", "Remove the adversary", "Your wings."))),
+   (("hk_he", 0, ("w", 0, 34, 44)), ("hk_en", 0, ("cut", "For, Almighty, You", "merciful King."))),
+   (("hk_he", 0, ("w", 0, 45, 52)), ("hk_en", 0, ("cut", "Guard our going", "now forever."))),
+   (("hk_he", 0, ("w", 1, 0, 3)), ("hk_en", 0, ("cut", "And spread over us", "Your peace."))),
+   (("hk_he", 0, ("w", 2, 0, 12)), ("hk_en", 0, ("cut", "Blessed are You", "Jerusalem.")))]),
+ ("vshamru", "V'shamru", "Keeping Shabbat: Exodus 31:16-17", [
+   (("ex_he", 0, None), ("ex_en", 0, None)), (("ex_he", 1, None), ("ex_en", 1, None))]),
 ]
 # Marked Reform changes vs the traditional base (Mishkan T'filah). Add {"line": i, "change": "..."} here once confirmed.
 REFORM = {}
-UNIT = {"shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
-SEQ = {"ahavat_olam": 7.5}  # display order (Mishkan T'filah); "order" stays append-only so words.json ids stay stable  # app groups lessons into units by this
+UNIT = {"maariv_aravim": "shma", "hashkiveinu": "shma", "vshamru": "shma", "shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
+SEQ = {"maariv_aravim": 7.2, "ahavat_olam": 7.5}  # display order (Mishkan T'filah); "order" stays append-only so words.json ids stay stable  # app groups lessons into units by this
 CHECK = {
  "candles": ["Mishkan T'filah wording: confirm 'l'hadlik ner shel Shabbat' matches your siddur."],
  "torah_before": ["Mishkan T'filah: 'mikol ha-amim' or 'im kol ha-amim'? (line 3)"],
@@ -103,6 +128,10 @@ CHECK = {
                  "Line 1 English joins two Metsudah sentences."],
  "mi_chamocha": ["Starts at 'Mi chamocha'; the Emet ve-emunah lines before it are not included yet (Mishkan T'filah shortens them).",
                  "Confirm Mishkan T'filah has 'V'ne-emar: ki fadah...' before the closing blessing."],
+ "maariv_aravim": ["Evening text, Metsudah siddur. Confirm Mishkan T'filah wording."],
+ "hashkiveinu": ["Shabbat evening form (ends 'haporeis sukat shalom'). Does Mishkan T'filah keep 'v'haseir mei-aleinu oyeiv, dever v'cherev v'ra-av v'yagon' and 'v'haseir satan'?",
+                 "Line 1 English: Metsudah has no period after 'to life'."],
+ "vshamru": ["Torah text (Exodus 31:16-17). English: Contemporary Torah (CC-BY-NC)."],
  "hamotzi": ["No Sefaria English found for this text."],
  "shehecheyanu": ["No Sefaria English found for this text."],
 }

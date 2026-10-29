@@ -581,6 +581,212 @@
      "verify": true
     }
    ]
+  },
+  {
+   "id": "maariv_aravim",
+   "title": "Ma'ariv Aravim",
+   "about": "Who brings on evening: the first blessing before the Sh'ma",
+   "order": 12,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, First Blessing before Shema (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "shma",
+   "seq": 7.2,
+   "check": [
+    "Evening text, Metsudah siddur. Confirm Mishkan T'filah wording."
+   ],
+   "lines": [
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר בִּדְבָרוֹ מַעֲרִיב עֲרָבִים בְּחָכְמָה פּוֹתֵחַ שְׁעָרִים",
+     "tl": "Baruch atah Adonai Eloheinu melech ha-olam asher bidvaro ma-ariv aravim b'chochmah poteiach sh'arim",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, our God, King of the Universe, With His word He brings on evenings, with wisdom He opens the gates of heaven",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וּבִתְבוּנָה מְשַׁנֶּה עִתִּים וּמַחֲלִיף אֶת־הַזְּמַנִּים וּמְסַדֵּר אֶת־הַכּוֹכָבִים בְּמִשְׁמְרוֹתֵיהֶם בָּרָקִיעַ כִּרְצוֹנוֹ",
+     "tl": "Uvitvunah m'shaneh itim umachalif et haz'manim um'sadeir et hakochavim b'mishm'roteihem barakia kirtzono",
+     "tlf": false,
+     "en": "And with understanding changes the times and alternates the seasons, and arranges the stars in their watches, in the sky, according to His will.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בּוֹרֵא יוֹם וָלָיְלָה גּוֹלֵל אוֹר מִפְּנֵי חשֶׁךְ וְחשֶׁךְ מִפְּנֵי אוֹר",
+     "tl": "Borei yom valaylah goleil or mip'nei choshech v'choshech mip'nei or",
+     "tlf": true,
+     "en": "He creates day and night, He rolls the light away from before darkness, and darkness from before light",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וּמַעֲבִיר יוֹם וּמֵבִיא לָיְלָה וּמַבְדִּיל בֵּין יוֹם וּבֵין לָיְלָה יְיָ צְבָאוֹת שְׁמוֹ",
+     "tl": "Uma-avir yom umeivi laylah umavdil bein yom uvein laylah Adonai tz'va-ot sh'mo",
+     "tlf": true,
+     "en": "He causes day to pass and brings night, and separates between day and night; Adonai of Hosts is His Name.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "אֵל חַי וְקַיָּם תָּמִיד יִמְלֹךְ עָלֵינוּ לְעוֹלָם וָעֶד",
+     "tl": "Eil chai v'kayam tamid yimloch aleinu l'olam va-ed",
+     "tlf": false,
+     "en": "The Almighty, [Who is] living and enduring will always reign over us forever and ever.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ הַמַּעֲרִיב עֲרָבִים",
+     "tl": "Baruch atah Adonai hama-ariv aravim",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Who brings on evening.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "hashkiveinu",
+   "title": "Hashkiveinu",
+   "about": "Lay us down in peace: the evening prayer for protection",
+   "order": 13,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Blessings of the Shema, Second Blessing after Shema (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "shma",
+   "seq": 13,
+   "check": [
+    "Shabbat evening form (ends 'haporeis sukat shalom'). Does Mishkan T'filah keep 'v'haseir mei-aleinu oyeiv, dever v'cherev v'ra-av v'yagon' and 'v'haseir satan'?",
+    "Line 1 English: Metsudah has no period after 'to life'."
+   ],
+   "lines": [
+    {
+     "he": "הַשְׁכִּיבֵנוּ יְיָ אֱלֹהֵינוּ לְשָׁלוֹם וְהַעֲמִידֵנוּ מַלְכֵּנוּ לְחַיִּים",
+     "tl": "Hashkiveinu Adonai Eloheinu l'shalom v'ha-amideinu malkeinu l'chayim",
+     "tlf": false,
+     "en": "Adonai our God; make us lie down in peace, our King, raise us again to life",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ וְתַקְּנֵנוּ בְּעֵצָה טוֹבָה מִלְּפָנֶיךָ וְהוֹשִׁיעֵנוּ לְמַעַן שְׁמֶךָ",
+     "tl": "Uf'ros aleinu sukat sh'lomecha v'tak'neinu b'eitzah tovah mil'fanecha v'hoshi-einu l'ma-an sh'mecha",
+     "tlf": false,
+     "en": "Spread over us the shelter of Your peace, and direct us to better ourselves through Your good counsel; and deliver us for Your Name’s sake.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְהָגֵן בַּעֲדֵנוּ וְהָסֵר מֵעָלֵינוּ אוֹיֵב דֶּבֶר וְחֶרֶב וְרָעָב וְיָגוֹן",
+     "tl": "V'hagein ba-adeinu v'haseir mei-aleinu oyeiv dever v'cherev v'ra-av v'yagon",
+     "tlf": false,
+     "en": "Shield us, and remove from us enemies, pestilence, sword, famine and sorrow.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְהָסֵר שָׂטָן מִלְּפָנֵינוּ וּמֵאַחֲרֵינוּ וּבְצֵל כְּנָפֶיךָ תַּסְתִּירֵנוּ",
+     "tl": "V'haseir satan mil'faneinu umei-achareinu uv'tzeil k'nafecha tastireinu",
+     "tlf": false,
+     "en": "Remove the adversary from before us and from behind us, and shelter us in the shadow of Your wings.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "כִּי אֵל שׁוֹמְרֵנוּ וּמַצִּילֵנוּ אָתָּה כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה",
+     "tl": "Ki eil shomreinu umatzileinu atah ki eil melech chanun v'rachum atah",
+     "tlf": true,
+     "en": "For, Almighty, You are our Protector and Rescuer, For, Almighty You are a gracious and merciful King.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וּשְׁמוֹר צֵאתֵנוּ וּבוֹאֵנוּ לְחַיִּים וּלְשָׁלוֹם מֵעַתָּה וְעַד עוֹלָם",
+     "tl": "Ush'mor tzeiteinu uvo-einu l'chayim ul'shalom mei-atah v'ad olam",
+     "tlf": false,
+     "en": "Guard our going out and our coming in for life and peace for now forever.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ",
+     "tl": "Uf'ros aleinu sukat sh'lomecha",
+     "tlf": false,
+     "en": "And spread over us the shelter of Your peace.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ הַפּוֹרֵשׂ סֻכַּת שָׁלוֹם עָלֵינוּ וְעַל כָּל עַמּוֹ יִשְׂרָאֵל וְעַל יְרוּשָׁלָיִם",
+     "tl": "Baruch atah Adonai haporeis sukat shalom aleinu v'al kol amo Yisrael v'al Y'rushalayim",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Who spreads the shelter of peace over us and over all His people, Israel and over Jerusalem.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "vshamru",
+   "title": "V'shamru",
+   "about": "Keeping Shabbat: Exodus 31:16-17",
+   "order": 14,
+   "audio": null,
+   "he_src": "Exodus 31:16-17 (Miqra according to the Masorah, CC-BY-SA)",
+   "unit": "shma",
+   "seq": 14,
+   "check": [
+    "Torah text (Exodus 31:16-17). English: Contemporary Torah (CC-BY-NC)."
+   ],
+   "lines": [
+    {
+     "he": "וְשָׁמְרוּ בְנֵי־יִשְׂרָאֵל אֶת־הַשַּׁבָּת לַעֲשׂוֹת אֶת־הַשַּׁבָּת לְדֹרֹתָם בְּרִית עוֹלָם",
+     "tl": "V'shamru v'nei Yisrael et haShabbat la-asot et haShabbat l'dorotam b'rit olam",
+     "tlf": true,
+     "en": "The Israelite people shall keep the sabbath, observing the sabbath throughout the ages as a covenant for all time:",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בֵּינִי וּבֵין בְּנֵי יִשְׂרָאֵל אוֹת הִוא לְעֹלָם כִּי־שֵׁשֶׁת יָמִים עָשָׂה יְיָ אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ וּבַיּוֹם הַשְּׁבִיעִי שָׁבַת וַיִּנָּפַשׁ",
+     "tl": "Beini uvein b'nei Yisrael ot hi l'olam ki sheishet yamim asah Adonai et hashamayim v'et ha-aretz uvayom hash'vi-i shavat vayinafash",
+     "tlf": false,
+     "en": "It shall be a sign for all time between Me and the people of Israel. For in six days Adonai made heaven and earth, and on the seventh day [God] ceased from work and was refreshed.",
+     "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+     "en_license": "CC-BY-NC",
+     "reform": [],
+     "verify": true
+    }
+   ]
   }
  ]
 }

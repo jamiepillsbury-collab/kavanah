@@ -2,9 +2,15 @@
 
 ## START HERE (next session, written 10/29 early)
 Read this block + BRIEF.md. Don't re-audit anything below.
-State: v13 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
+State: v14 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
 `git -c safe.directory='*' -c user.name=jamiepillsbury-collab -c user.email=jamiepillsbury-collab@users.noreply.github.com commit -qam "..."` (request delete permission once per session first, or git leaves .lock files). Bump version.js on every app change.
 Sefaria: shells blocked. Use the desktop browser pane on https://www.sefaria.org (same origin) + javascript_tool. Cantillation strip regex MUST be [\u0591-\u05AF\u05BD\u05C0\u05C3] (a literal range typed as ֑-ֽ also eats the vowels). Copy results into files, then verify per-line SHA-256 of NFC text in JS vs Python before using.
+
+DONE 10/29 (v14): rest of Shabbat evening Sh'ma section + rabbi list.
+- Ma'ariv Aravim (6 lines), Hashkiveinu (8, Shabbat form), V'shamru (Exodus 31:16-17, Contemporary Torah). Unit renamed "Sh'ma and its blessings".
+- build_prayers.py part specs: he ("w", k, a, b) = words a..b of colon-part k; en ("cut", start, end) = substring. Use these to split long prayers.
+- translit: final "-" stripped (rakia), EXCEPT += choshech, hi (הִוא), Y'rushalayim. Lexicon += 69 (pre-cleaned in browser); 11 wrong matches in REJECT. words.json 327 words, 233 glossed, ids stable.
+- tools/questions.py -> questions.html (all CHECKs, printable, linked from Settings). Re-run after any CHECK change. Jamie is taking these to her rabbi; keep building meanwhile.
 
 DONE 10/29 (v13): Ahavat Olam, Mi Chamocha, Letters together.
 - sefaria-shma.json += Shabbat Ma'ariv Ahavat Olam + Mi Chamocha segs (Metsudah he/en, CC-BY), hash-verified.
@@ -35,7 +41,7 @@ FOR JAMIE TO CHECK (shown in-app on each blessing's first card):
 NEXT (in order):
 1. Jamie: push, try Words 1 + HaMotzi on the phone, answer the checks above. Record REFORM changes in build_prayers.py once confirmed.
 2. Prayer lesson polish from her feedback; audio slot per prayer exists (prayers.json "audio": null; Cantor Childs links later).
-3. Next: rest of Shabbat evening in Mishkan T'filah order (Ma'ariv Aravim, Hashkiveinu, V'shamru), or reading without vowels.
+3. Next: Shabbat evening Amidah (Avot v'Imahot, G'vurot, K'dushat HaYom, Shalom Rav), or reading without vowels. Amidah is long: split with the w/cut specs.
 Rules: no sub-agents unless a bulk job with a fixed schema appears; code generates all quiz items. Short text, no em dashes. Any button that can't work yet shows a toast() saying why.
 
 ## Proposed phases

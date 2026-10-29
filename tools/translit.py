@@ -18,7 +18,7 @@ CONS = {"א": "", "ב": "v", "ג": "g", "ד": "d", "ה": "h", "ו": "v", "ז": "
 FIN = {"ך": "כ", "ם": "מ", "ן": "נ", "ף": "פ", "ץ": "צ"}
 HARD = {"ב": "b", "כ": "k", "ך": "k", "פ": "p", "ף": "p"}
 # Whole-word exceptions (pointed form without cantillation -> transliteration). Add as needed.
-EXCEPT = {"משֶׁה": "Moshe", "בּוֹקֵעַ": "bokei-a", "יַעֲקֹב": "Yaakov", "תּוֹרָה": "Torah", "יְיָ": "Adonai", "יהוה": "Adonai", "יְהוָה": "Adonai", "יִשְׂרָאֵל": "Yisrael", "כָּל": "kol", "כׇּל": "kol",
+EXCEPT = {"חשֶׁךְ": "choshech", "וְחשֶׁךְ": "v'choshech", "הִוא": "hi", "יְרוּשָׁלָיִם": "Y'rushalayim", "משֶׁה": "Moshe", "בּוֹקֵעַ": "bokei-a", "יַעֲקֹב": "Yaakov", "תּוֹרָה": "Torah", "יְיָ": "Adonai", "יהוה": "Adonai", "יְהוָה": "Adonai", "יִשְׂרָאֵל": "Yisrael", "כָּל": "kol", "כׇּל": "kol",
           "וְכָל": "v'chol", "בְּכָל": "b'chol", "לְכָל": "l'chol", "כָל": "chol", "יְרוּשָׁלַיִם": "Y'rushalayim",
           "צָהֳרַיִם": "tzohorayim", "חׇכְמָה": "chochmah", "חָכְמָה": "chochmah", "שָׁלוֹם": "shalom",
           "מִצְוֹתָיו": "mitzvotav", "מֹשֶׁה": "Moshe", "בְּחָכְמָה": "b'chochmah", "מִצְוֹת": "mitzvot", "בְּמִצְוֹתָיו": "b'mitzvotav", "קָדְשֵׁנוּ": "kid'shanu",
@@ -116,7 +116,7 @@ def word_tl(word):
         i += 1
     s = "".join(out)
     s = re.sub(r"'+", "'", s).replace("''", "'")
-    if s.endswith("'"): s = s[:-1]
+    if s.endswith("'") or s.endswith("-"): s = s[:-1]  # final patach genuvah (rakia) leaves a stray "-"
     return s, flag
 
 def tl(text):
