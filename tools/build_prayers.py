@@ -1,4 +1,4 @@
-"""data/src/sefaria-texts.json -> data/prayers.json.  Run: python tools/build_prayers.py
+"""data/src/sefaria-*.json -> data/prayers.json.  Run: python tools/build_prayers.py
 Hebrew + English come only from Sefaria (raw file). tl = translit.py. Nothing here is Claude-written text.
 Line specs: (src, seg, part). he parts split on ':' and before a closing 'baruch'; en parts split before 'Blessed'.
 REFORM holds marked Reform changes (none asserted yet) and CHECK holds questions for Jamie / cantor."""
@@ -10,8 +10,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 raw = json.load(open(os.path.join(ROOT, "data/src/sefaria-texts.json"), encoding="utf-8"))
 raw2 = json.load(open(os.path.join(ROOT, "data/src/sefaria-shma.json"), encoding="utf-8"))
 raw3 = json.load(open(os.path.join(ROOT, "data/src/sefaria-amidah.json"), encoding="utf-8"))
+raw4 = json.load(open(os.path.join(ROOT, "data/src/sefaria-after-amidah.json"), encoding="utf-8"))
 SRC = {}
-for s in raw["sources"] + raw2["sources"] + raw3["sources"]:
+for s in raw["sources"] + raw2["sources"] + raw3["sources"] + raw4["sources"]:
     SRC[("BARCHU_HE" if "Maariv, Barchu" in s["ref"] else None) or f'{s["ref"]}|{s["lang"]}'] = s
 def key(ref, lang): return SRC.get(f"{ref}|{lang}")
 S = {
@@ -35,6 +36,8 @@ S = {
  "ex_he": key("Exodus 31:16-17", "he"), "ex_en": key("Exodus 31:16-17", "en"),
  **{f"{k}_{l}": key(f"Siddur Ashkenaz, Shabbat, Maariv, Amidah, {n}", l) for k, n in
     (("av", "Patriarchs"), ("gv", "Divine Might"), ("kh", "Holines of God's Name"), ("ky", "Sanctity of the Day"), ("sr", "Peace")) for l in ("he", "en")},
+ **{f"{k}_{l}": key(f"Siddur Ashkenaz, Shabbat, Maariv, {n}", l) for k, n in
+    (("vc", "Vay'chulu"), ("me", "Me'ein Sheva"), ("al", "Aleinu")) for l in ("he", "en")},
  "bs_en": key("Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)", "en"),
 }
 NAME = "יְיָ"  # Mishkan T'filah prints the Name as yod-yod (display convention, not a wording change)
@@ -43,6 +46,7 @@ def clean_he(t):
     t = re.sub(r"^[^ְ-ׇ]*?:\s*(?=\S*[ְ-ׇ])", "", t)  # unpointed instruction prefix
     t = t.replace("‑", "").replace("יְהֹוָה", NAME).replace("יְהוָה", NAME).replace("יְיָ", NAME).replace("אֱלֹהֵינוּ", "אֱלֹהֵינוּ")
     t = t.replace("(", "").replace(")", "")
+    t = re.sub(r"([א-ת])([֑-ׇ]*?)\u05BA", lambda m: m[0] if m[1] == "ו" else m[1] + m[2] + "\u05B9", t)  # holam haser (Metsudah) -> holam, except on vav
     t = re.sub(r"\.\s+(?=\S)(?!בָּרוּךְ)", ", ", t)  # mid-line periods read as commas
     return re.sub(r"\s+", " ", t).strip(" :.,")
 def clean_en(t):
@@ -144,6 +148,25 @@ PRAYERS = [
    (("sr_he", 0, ("w", 0, 7, 12)), ("sr_en", 0, ("cut", "For You are King", "all peace."))),
    (("sr_he", 0, ("w", 0, 13, 20)), ("sr_en", 0, ("cut", "And may it be good", "Your peace."))),
    (("sr_he", 2, None), ("sr_en", 2, None))]),
+ ("vaychulu", "Vay'chulu", "Genesis 2:1-3: heaven and earth completed, and the seventh day", [
+   (("vc_he", 1, 0), ("vc_en", 1, ("cut", "And the heavens", "all their hosts."))),
+   (("vc_he", 1, 1), ("vc_en", 1, ("cut", "And God completed", "He had done."))),
+   (("vc_he", 1, 2), ("vc_en", 1, ("cut", "And God blessed", "created to do.")))]),
+ ("magen_avot", "Magen Avot", "The Amidah in brief, said together after it (from Me'ein Sheva)", [
+   (("me_he", 3, ("w", 0, 0, 5)), ("me_en", 3, ("cut", "Shield of", "His utterance"))),
+   ([("me_he", 3, ("w", 0, 6, 7)), ("me_he", 3, ("w", 0, 10, 21))],
+    [("me_en", 3, ("cut", "the Almighty, the Holy One", "the Holy One")), ("me_en", 3, ("cut", "Who has no peer", "grant them rest."))]),
+   (("me_he", 3, ("w", 0, 22, 32)), ("me_en", 3, ("cut", "Before Him", "the blessings."))),
+   (("me_he", 3, 1), ("me_en", 3, ("cut", "Almighty of thanksgiving", "creation.")))]),
+ ("aleinu", "Aleinu", "Our duty to praise: the closing prayer", [
+   (("al_he", 0, ("w", 0, 0, 7)), ("al_en", 0, ("cut", "It is our obligation", "beginning"))),
+   (("al_he", 0, ("w", 0, 8, 15)), ("al_en", 0, ("cut", "that He has not made us", "families of the earth"))),
+   (("al_he", 0, ("w", 0, 16, 22)), ("al_en", 0, ("cut", "that He has not assigned", "multitudes."))),
+   (("al_he", 0, ("w", 1, 0, 19)), ("al_en", 0, ("cut", "But we bow", "blessed is He"))),
+   (("al_he", 0, ("w", 1, 20, 32)), ("al_en", 0, ("cut", "Who spreads", "loftiest heights."))),
+   (("al_he", 0, ("w", 1, 33, 42)), ("al_en", 0, ("cut", "He is our God", "His Torah"))),
+   (("al_he", 0, ("w", 1, 43, 58)), ("al_en", 0, ("cut", "And You shall know", "nothing else."))),
+   (("al_he", 1, 2), ("al_en", 1, ("cut", "And it is said", "His Name One.")))]),
 ]
 # Marked Reform changes vs the traditional base (Mishkan T'filah wording). "sub" = (traditional Hebrew, Reform Hebrew) applied to that line.
 # Added words: names from Genesis (Sefaria, Miqra al pi ha-Masorah), g'ulah Lev 25:24, ezrat Judg 5:23, hakol from this blessing. Not sourced: imoteinu, imahot.
@@ -160,8 +183,12 @@ REFORM = {
             {"line": 6, "change": "L'hachayot hakol instead of l'hachayot meitim.", "sub": ("לְהַחֲיוֹת מֵתִים", "לְהַחֲיוֹת הַכֹּל")},
             {"line": 7, "change": "M'chayeih hakol instead of m'chayeih hameitim.", "sub": ("מְחַיֵּה הַמֵּתִים", "מְחַיֵּה הַכֹּל")}],
  "kdushat_hayom": [{"line": 0, "change": "Adds v'imoteinu (and our mothers).", "sub": IMOT}],
+ "magen_avot": [{"line": 0, "change": "Adds v'imahot: Magen avot v'imahot (shield of fathers and mothers).", "sub": ("מָגֵן אָבוֹת", "מָגֵן אָבוֹת וְאִמָּהוֹת")},
+                {"line": 0, "change": "M'chayeih hakol instead of m'chayeih meitim.", "sub": ("מְחַיֵּה מֵתִים", "מְחַיֵּה הַכֹּל")}],
+ "aleinu": [{"line": 3, "change": "Leaves out 'shehem mishtachavim lahevel varik umitpal'lim el el lo yoshia' (many traditional Ashkenazi siddurim also omit it).",
+             "sub": ("שֶׁהֵם מִשְׁתַּחֲוִים לָהֶבֶל וָרִיק וּמִתְפַּלְּלִים אֶל אֵל לֹא יוֹשִׁיעַ, ", "")}],
 }
-UNIT = {**{k: "amidah" for k in ("avot", "gvurot", "kdushat_hashem", "kdushat_hayom", "shalom_rav")}, "maariv_aravim": "shma", "hashkiveinu": "shma", "vshamru": "shma", "shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
+UNIT = {"vaychulu": "concluding", "magen_avot": "concluding", "aleinu": "concluding", **{k: "amidah" for k in ("avot", "gvurot", "kdushat_hashem", "kdushat_hayom", "shalom_rav")}, "maariv_aravim": "shma", "hashkiveinu": "shma", "vshamru": "shma", "shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
 SEQ = {"maariv_aravim": 7.2, "ahavat_olam": 7.5}  # display order (Mishkan T'filah); "order" stays append-only so words.json ids stay stable  # app groups lessons into units by this
 CHECK = {
  "candles": ["Mishkan T'filah wording: confirm 'l'hadlik ner shel Shabbat' matches your siddur."],
@@ -191,6 +218,14 @@ CHECK = {
  "kdushat_hayom": ["Only R'tzei vimnuchateinu is here. Does Mishkan T'filah's Shabbat evening K'dushat HaYom also have Atah kidashta, Vay'chulu, or Yism'chu?"],
  "shalom_rav": ["Does Mishkan T'filah's Shalom Rav add 'v'al kol yoshvei teiveil' (and all who live on earth)?",
                 "Ten Days insert (B'sefer chayim) left out. Ending: ham'vareich et amo Yisrael bashalom."],
+ "vaychulu": ["Torah text (Genesis 2:1-3), as printed in the Metsudah siddur. Mishkan T'filah also has it in the Kiddush; same wording?",
+              "Does CBB say Vay'chulu after the Amidah, or only in Kiddush?"],
+ "magen_avot": ["Only the Magen Avot paragraph of Me'ein Sheva is here (not the opening 'Baruch atah... koneih shamayim va-aretz' or the closing R'tzei). Does Mishkan T'filah print more?",
+                "Ten Days word (hamelech hakadosh) left out.",
+                "English is Metsudah's 'Resurrector of the dead' and 'fathers'; it doesn't match hakol or v'imahot."],
+ "aleinu": ["Does Mishkan T'filah offer the alternative first paragraph ('shenatan lanu torat emet, v'chayei olam nata b'tocheinu') in place of 'shelo asanu k'goyei ha-aratzot...'? Which does CBB sing?",
+            "The second paragraph (Al kein n'kaveh) is left out; only its closing V'ne-emar line is here. Does Mishkan T'filah or CBB include Al kein?",
+            "'Hu Eloheinu ein od... v'yadata hayom' (lines 6-7) kept from the traditional text. Confirm Mishkan T'filah prints them."],
  "hamotzi": ["No Sefaria English found for this text."],
  "shehecheyanu": ["No Sefaria English found for this text."],
 }

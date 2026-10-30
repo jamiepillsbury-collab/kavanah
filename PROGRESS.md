@@ -1,10 +1,17 @@
 # PROGRESS
 
-## START HERE (next session, written 10/29 early)
+## START HERE (next session, written 10/30)
 Read this block + BRIEF.md. Don't re-audit anything below.
-State: v15 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
+State: v16 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
 `git -c safe.directory='*' -c user.name=jamiepillsbury-collab -c user.email=jamiepillsbury-collab@users.noreply.github.com commit -qam "..."` (request delete permission once per session first, or git leaves .lock files). Bump version.js on every app change.
-Sefaria: shells blocked. Use the desktop browser pane on https://www.sefaria.org (same origin) + javascript_tool. Cantillation strip regex MUST be [\u0591-\u05AF\u05BD\u05C0\u05C3] (a literal range typed as ֑-ֽ also eats the vowels). Copy results into files, then verify per-line SHA-256 of NFC text in JS vs Python before using.
+Sefaria: shells blocked. Use the desktop browser pane on https://www.sefaria.org (same origin) + javascript_tool. Cantillation strip regex MUST be [\u0591-\u05AF\u05BD\u05C0\u05C3]. Strip English footnotes with DOMParser (remove .footnote, .footnote-marker). Copy results into files, then verify per-line SHA-256 of NFC text in JS vs Python before using.
+Headless test (cloud): stage app files, python http.server, Playwright; abort googleapis routes and use waitUntil domcontentloaded or it hangs; open lessons via button.lesson after opening all <details>.
+
+DONE 10/30 (v16): "After the Amidah" unit (unit id concluding): Vay'chulu (3 lines), Magen Avot (4, from Me'ein Sheva seg 3), Aleinu (8).
+- data/src/sefaria-after-amidah.json: Siddur Ashkenaz Shabbat Ma'ariv Vay'chulu, Me'ein Sheva, Aleinu, Metsudah he/en (CC-BY), 18 segs hash-verified.
+- build_prayers.py: clean_he turns holam haser (U+05BA) into holam except on vav. Hebrew line spec may be a list (pieces joined), used to skip the Ten Days "hamelech hakadosh" in Magen Avot.
+- REFORM (flagged): Magen Avot v'imahot + m'chayeih hakol; Aleinu leaves out "shehem mishtachavim lahevel...". CHECKs: Aleinu alternative "shenatan lanu torat emet", Al kein left out (only V'ne-emar line), Magen Avot opening/closing not included, Vay'chulu at CBB.
+- translit EXCEPT += kor'im, b'govhei. Lexicon += 58 (23 words had no BDB entry); REJECT += lahem, mima'al, od, el, y'karo. words.json 523 words (371 glossed), ids stable. questions.html 50 questions.
 
 DONE 10/29 (v15): Shabbat evening Amidah unit ("Amidah", unit id amidah).
 - data/src/sefaria-amidah.json: Siddur Ashkenaz Shabbat Ma'ariv Amidah, Metsudah he/en (CC-BY), hash-verified. Prayers: avot (7 lines), gvurot (8), kdushat_hashem (2), kdushat_hayom (R'tzei only, 6), shalom_rav (4). Ten Days inserts left out.
@@ -47,7 +54,7 @@ FOR JAMIE TO CHECK (shown in-app on each blessing's first card):
 NEXT (in order):
 1. Jamie: push, try Words 1 + HaMotzi on the phone, answer the checks above. Record REFORM changes in build_prayers.py once confirmed.
 2. Prayer lesson polish from her feedback; audio slot per prayer exists (prayers.json "audio": null; Cantor Childs links later).
-3. Next: Amidah open questions (K'dushat HaYom contents: Atah kidashta / Vay'chulu / Yism'chu? Shalom Rav 'yoshvei teiveil'?), then Vay'chulu/Magen Avot/Aleinu, or reading without vowels.
+3. Next: Kaddish (Mourner's Kaddish, Aramaic: check translit), Al kein if CBB says it, then Torah service or reading without vowels. Amidah open questions still with the rabbi.
 Rules: no sub-agents unless a bulk job with a fixed schema appears; code generates all quiz items. Short text, no em dashes. Any button that can't work yet shows a toast() saying why.
 
 ## Proposed phases

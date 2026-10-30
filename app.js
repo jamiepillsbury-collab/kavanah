@@ -468,7 +468,8 @@
     });
     const UNITS = [["blessings", "Blessings", "Line by line, then word order and missing words"],
                    ["shma", "Sh'ma and its blessings", "Shabbat evening, Ma'ariv Aravim to V'shamru"],
-                   ["amidah", "Amidah", "Shabbat evening, Avot v'Imahot to Shalom Rav"]];
+                   ["amidah", "Amidah", "Shabbat evening, Avot v'Imahot to Shalom Rav"],
+                   ["concluding", "After the Amidah", "Shabbat evening: Vay'chulu, Magen Avot, Aleinu"]];
     for (const [u, title, subtitle] of UNITS) {
       const ls = lessons.filter((l) => l.unit === u);
       if (ls.length) course.units.push({ id: u === "blessings" ? "u-blessings" : `u-${u}`, title, subtitle, tiles: false, lessons: ls });

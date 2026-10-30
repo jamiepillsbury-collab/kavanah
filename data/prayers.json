@@ -1166,6 +1166,214 @@
      "verify": true
     }
    ]
+  },
+  {
+   "id": "vaychulu",
+   "title": "Vay'chulu",
+   "about": "Genesis 2:1-3: heaven and earth completed, and the seventh day",
+   "order": 20,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Vay'chulu (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "concluding",
+   "seq": 20,
+   "check": [
+    "Torah text (Genesis 2:1-3), as printed in the Metsudah siddur. Mishkan T'filah also has it in the Kiddush; same wording?",
+    "Does CBB say Vay'chulu after the Amidah, or only in Kiddush?"
+   ],
+   "lines": [
+    {
+     "he": "וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל־צְבָאָם",
+     "tl": "Vay'chulu hashamayim v'ha-aretz v'chol tz'va-am",
+     "tlf": false,
+     "en": "And the heavens and the earth were completed and [so were] all their hosts.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וַיְכַל אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מְלַאכְתּוֹ אֲשֶׁר עָשָׂה, וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי מִכָּל־מְלַאכְתּוֹ אֲשֶׁר עָשָׂה",
+     "tl": "Vay'chal Elohim bayom hash'vi-i m'lachto asher asah, vayishbot bayom hash'vi-i mikol m'lachto asher asah",
+     "tlf": false,
+     "en": "And God completed by the seventh day His work which He had done, and He abstained on the seventh day, from all His work which He had done.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וַיְבָרֶךְ אֱלֹהִים אֶת־יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ, כִּי בוֹ שָׁבַת מִכָּל־מְלַאכְתּוֹ אֲשֶׁר־בָּרָא אֱלֹהִים לַעֲשׂוֹת",
+     "tl": "Vay'varech Elohim et yom hash'vi-i vay'kadeish oto, ki vo shavat mikol m'lachto asher bara Elohim la-asot",
+     "tlf": false,
+     "en": "And God blessed the seventh day and sanctified it for on it He abstained from all His work which God had created to do.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "magen_avot",
+   "title": "Magen Avot",
+   "about": "The Amidah in brief, said together after it (from Me'ein Sheva)",
+   "order": 21,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Me'ein Sheva (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "concluding",
+   "seq": 21,
+   "check": [
+    "Only the Magen Avot paragraph of Me'ein Sheva is here (not the opening 'Baruch atah... koneih shamayim va-aretz' or the closing R'tzei). Does Mishkan T'filah print more?",
+    "Ten Days word (hamelech hakadosh) left out.",
+    "English is Metsudah's 'Resurrector of the dead' and 'fathers'; it doesn't match hakol or v'imahot.",
+    "Line 1, Reform change: Adds v'imahot: Magen avot v'imahot (shield of fathers and mothers). Confirm against Mishkan T'filah.",
+    "Line 1, Reform change: M'chayeih hakol instead of m'chayeih meitim. Confirm against Mishkan T'filah."
+   ],
+   "lines": [
+    {
+     "he": "מָגֵן אָבוֹת וְאִמָּהוֹת בִּדְבָרוֹ, מְחַיֵּה הַכֹּל בְּמַאֲמָרוֹ",
+     "tl": "Magein avot v'imahot bidvaro, m'chayeih hakol b'ma-amaro",
+     "tlf": false,
+     "en": "Shield of [our] fathers with His word, Resurrector of the dead with His utterance",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [
+      "Adds v'imahot: Magen avot v'imahot (shield of fathers and mothers).",
+      "M'chayeih hakol instead of m'chayeih meitim."
+     ],
+     "verify": true
+    },
+    {
+     "he": "הָאֵל הַקָּדוֹשׁ שֶׁאֵין כָּמוֹהוּ, הַמֵּנִיחַ לְעַמּוֹ בְּיוֹם שַׁבַּת קָדְשׁוֹ, כִּי בָם רָצָה לְהָנִיחַ לָהֶם",
+     "tl": "Ha-eil hakadosh she-ein kamohu, hameiniach l'amo b'yom Shabbat kodsho, ki vam ratzah l'haniach lahem",
+     "tlf": false,
+     "en": "The Almighty, the Holy One Who has no peer. He gives rest to His people on the day of His holy Shabbat for with them He was pleased to grant them rest.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "לְפָנָיו נַעֲבוֹד בְּיִרְאָה וָפַחַד, וְנוֹדֶה לִשְׁמוֹ בְּכָל יוֹם תָּמִיד מֵעֵין הַבְּרָכוֹת",
+     "tl": "L'fanav na-avod b'yir'ah vafachad, v'nodeh lishmo b'chol yom tamid mei-ein hab'rachot",
+     "tlf": false,
+     "en": "Before Him we will serve with fear and trepidation, and give thanks to His Name every day continuously, from the essence of the blessings.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "אֵל הַהוֹדָאוֹת, אֲדוֹן הַשָּׁלוֹם, מְקַדֵּשׁ הַשַּׁבָּת וּמְבָרֵךְ שְׁבִיעִי, וּמֵנִיחַ בִּקְדֻשָּׁה לְעַם מְדֻשְּׁנֵי עֹנֶג זֵכֶר לְמַעֲשֵׂה בְרֵאשִׁית",
+     "tl": "Eil hahoda-ot, adon hashalom, m'kadeish haShabbat um'vareich sh'vi-i, umeiniach bikdushah l'am m'dush'nei oneg zeicher l'ma-asei v'reishit",
+     "tlf": false,
+     "en": "Almighty of thanksgiving, Master of peace, Sanctifier of the Shabbat, Who blesses the seventh day and grants rest in sanctity to a people sated with delight— in commemoration of the work of creation.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "aleinu",
+   "title": "Aleinu",
+   "about": "Our duty to praise: the closing prayer",
+   "order": 22,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Aleinu (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "concluding",
+   "seq": 22,
+   "check": [
+    "Does Mishkan T'filah offer the alternative first paragraph ('shenatan lanu torat emet, v'chayei olam nata b'tocheinu') in place of 'shelo asanu k'goyei ha-aratzot...'? Which does CBB sing?",
+    "The second paragraph (Al kein n'kaveh) is left out; only its closing V'ne-emar line is here. Does Mishkan T'filah or CBB include Al kein?",
+    "'Hu Eloheinu ein od... v'yadata hayom' (lines 6-7) kept from the traditional text. Confirm Mishkan T'filah prints them.",
+    "Line 4, Reform change: Leaves out 'shehem mishtachavim lahevel varik umitpal'lim el el lo yoshia' (many traditional Ashkenazi siddurim also omit it). Confirm against Mishkan T'filah."
+   ],
+   "lines": [
+    {
+     "he": "עָלֵינוּ לְשַׁבֵּחַ לַאֲדוֹן הַכֹּל לָתֵת גְּדֻלָּה לְיוֹצֵר בְּרֵאשִׁית",
+     "tl": "Aleinu l'shabeiach la-adon hakol lateit g'dulah l'yotzeir b'reishit",
+     "tlf": false,
+     "en": "It is our obligation to praise the Master of all, to ascribe greatness to the Creator of the [world in the] beginning",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "שֶׁלֹּא עָשָׂנוּ כְּגוֹיֵי הָאֲרָצוֹת וְלֹא שָׂמָנוּ כְּמִשְׁפְּחוֹת הָאֲדָמָה",
+     "tl": "Shelo asanu k'goyei ha-aratzot v'lo samanu k'mishp'chot ha-adamah",
+     "tlf": false,
+     "en": "That He has not made us like the nations of the lands, and has not positioned us like the families of the earth",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "שֶׁלֹּא שָׂם חֶלְקֵנוּ כָּהֶם וְגוֹרָלֵנוּ כְּכָל הֲמוֹנָם",
+     "tl": "Shelo sam chelkeinu kahem v'goraleinu k'chol hamonam",
+     "tlf": false,
+     "en": "That He has not assigned our portion like theirs, nor our lot like that of all their multitudes.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וַאֲנַחְנוּ כּוֹרְעִים וּמִשְׁתַּחֲוִים וּמוֹדִים לִפְנֵי מֶלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא",
+     "tl": "Va-anachnu kor'im umishtachavim umodim lifnei melech malchei ham'lachim hakadosh baruch hu",
+     "tlf": false,
+     "en": "But we bow, prostrate ourselves, and offer thanks before the Supreme King of Kings, the Holy One blessed is He",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [
+      "Leaves out 'shehem mishtachavim lahevel varik umitpal'lim el el lo yoshia' (many traditional Ashkenazi siddurim also omit it)."
+     ],
+     "verify": true
+    },
+    {
+     "he": "שֶׁהוּא נוֹטֶה שָׁמַיִם וְיוֹסֵד אָרֶץ, וּמוֹשַׁב יְקָרוֹ בַּשָּׁמַיִם מִמַּעַל, וּשְׁכִינַת עֻזּוֹ בְּגָבְהֵי מְרוֹמִים",
+     "tl": "Shehu noteh shamayim v'yoseid aretz, umoshav y'karo bashamayim mima-al, ush'chinat uzo b'govhei m'romim",
+     "tlf": false,
+     "en": "Who spreads the heavens, and establishes the earth, and the seat of His glory is in heaven above, and the abode of His invincible might is in the loftiest heights.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "הוּא אֱלֹהֵינוּ אֵין עוֹד, אֱמֶת מַלְכֵּנוּ אֶפֶס זוּלָתוֹ כַּכָּתוּב בְּתוֹרָתוֹ",
+     "tl": "Hu Eloheinu ein od, emet malkeinu efes zulato kakatuv b'torato",
+     "tlf": false,
+     "en": "He is our God, there is nothing else. Our King is true, all else is insignificant, as it is written in His Torah",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְיָדַעְתָּ הַיּוֹם וַהֲשֵׁבֹתָ אֶל לְבָבֶךָ כִּי יְיָ הוּא הָאֱלֹהִים בַּשָּׁמַיִם מִמַּעַל וְעַל הָאָרֶץ מִתָּחַת אֵין עוֹד",
+     "tl": "V'yadata hayom vahasheivota el l'vavecha ki Adonai hu ha-Elohim bashamayim mima-al v'al ha-aretz mitachat ein od",
+     "tlf": false,
+     "en": "And You shall know this day and take into Your heart that Adonai is God in the heavens above and upon the earth below; there is nothing else.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְנֶאֱמַר וְהָיָה יְיָ לְמֶלֶךְ עַל כָּל הָאָרֶץ בַּיּוֹם הַהוּא יִהְיֶה יְיָ אֶחָד וּשְׁמוֹ אֶחָד",
+     "tl": "V'ne-emar v'hayah Adonai l'melech al kol ha-aretz bayom hahu yihyeh Adonai echad ush'mo echad",
+     "tlf": false,
+     "en": "And it is said: And Adonai will be King over the whole earth; on that day Adonai will be One and His Name One.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
   }
  ]
 }
