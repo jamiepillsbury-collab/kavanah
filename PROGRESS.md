@@ -2,10 +2,16 @@
 
 ## START HERE (next session, written 10/30)
 Read this block + BRIEF.md. Don't re-audit anything below.
-State: v16 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
+State: v17 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
 `git -c safe.directory='*' -c user.name=jamiepillsbury-collab -c user.email=jamiepillsbury-collab@users.noreply.github.com commit -qam "..."` (request delete permission once per session first, or git leaves .lock files). Bump version.js on every app change.
 Sefaria: shells blocked. Use the desktop browser pane on https://www.sefaria.org (same origin) + javascript_tool. Cantillation strip regex MUST be [\u0591-\u05AF\u05BD\u05C0\u05C3]. Strip English footnotes with DOMParser (remove .footnote, .footnote-marker). Copy results into files, then verify per-line SHA-256 of NFC text in JS vs Python before using.
 Headless test (cloud): stage app files, python http.server, Playwright; abort googleapis routes and use waitUntil domcontentloaded or it hangs; open lessons via button.lesson after opening all <details>.
+
+DONE 10/30 (v17): Mourner's Kaddish (8 lines) added to "After the Amidah" (after Aleinu).
+- data/src/sefaria-kaddish.json (Metsudah he/en, CC-BY), 14 segs hash-verified. Ten Days inserts and the congregation's first amein skipped via list specs.
+- REFORM (flagged): Oseh shalom adds v'al kol yoshvei teiveil (spelling from Aleinu). CHECKs: who says it at CBB, v'chayim vs v'chayim tovim.
+- build_prayers.py: list specs keep the source's case on later English pieces and join "־ "; clean_en turns ", —" into " — ".
+- translit EXCEPT += b'alma, ul'almei, almaya, yoshvei. Lexicon += 23 (25 Aramaic words have no BDB entry); REJECT += b'ra (matched "son"), almaya (matched "conceal"). words.json 571 (392 glossed), ids stable. questions.html 55.
 
 DONE 10/30 (v16): "After the Amidah" unit (unit id concluding): Vay'chulu (3 lines), Magen Avot (4, from Me'ein Sheva seg 3), Aleinu (8).
 - data/src/sefaria-after-amidah.json: Siddur Ashkenaz Shabbat Ma'ariv Vay'chulu, Me'ein Sheva, Aleinu, Metsudah he/en (CC-BY), 18 segs hash-verified.
@@ -54,7 +60,7 @@ FOR JAMIE TO CHECK (shown in-app on each blessing's first card):
 NEXT (in order):
 1. Jamie: push, try Words 1 + HaMotzi on the phone, answer the checks above. Record REFORM changes in build_prayers.py once confirmed.
 2. Prayer lesson polish from her feedback; audio slot per prayer exists (prayers.json "audio": null; Cantor Childs links later).
-3. Next: Kaddish (Mourner's Kaddish, Aramaic: check translit), Al kein if CBB says it, then Torah service or reading without vowels. Amidah open questions still with the rabbi.
+3. Next: Kabbalat Shabbat (L'cha Dodi, Psalms 92-93) or Torah service, or reading without vowels; Al kein if CBB says it. Aramaic glosses: maybe Jastrow via /api/words (messy; ask first). Amidah open questions still with the rabbi.
 Rules: no sub-agents unless a bulk job with a fixed schema appears; code generates all quiz items. Short text, no em dashes. Any button that can't work yet shows a toast() saying why.
 
 ## Proposed phases

@@ -16,9 +16,9 @@
       "w-025",
       "w-065",
       "w-134",
+      "w-313",
       "w-264",
-      "w-206",
-      "w-066"
+      "w-013"
      ]
     },
     {
@@ -27,8 +27,8 @@
      "drill": true,
      "subtitle": "2 letter words",
      "items": [
-      "w-313",
-      "w-013",
+      "w-206",
+      "w-066",
       "w-016",
       "w-017",
       "w-117",
@@ -73,8 +73,8 @@
       "w-449",
       "w-484",
       "w-516",
-      "w-002",
-      "w-005"
+      "w-529",
+      "w-002"
      ]
     },
     {
@@ -83,12 +83,12 @@
      "drill": true,
      "subtitle": "3 letter words",
      "items": [
+      "w-005",
       "w-007",
       "w-048",
+      "w-086",
       "w-352",
-      "w-028",
-      "w-031",
-      "w-060"
+      "w-028"
      ]
     }
    ],
@@ -1233,9 +1233,113 @@
     {
      "id": "words-88",
      "title": "Words 88",
-     "subtitle": "Toward Aleinu",
+     "subtitle": "Toward Mourner's Kaddish",
      "items": [
-      "w-523"
+      "w-523",
+      "w-524",
+      "w-525",
+      "w-526",
+      "w-527",
+      "w-528"
+     ]
+    },
+    {
+     "id": "words-89",
+     "title": "Words 89",
+     "subtitle": "Toward Mourner's Kaddish",
+     "items": [
+      "w-529",
+      "w-530",
+      "w-531",
+      "w-532",
+      "w-533",
+      "w-534"
+     ]
+    },
+    {
+     "id": "words-90",
+     "title": "Words 90",
+     "subtitle": "Toward Mourner's Kaddish",
+     "items": [
+      "w-535",
+      "w-536",
+      "w-537",
+      "w-538",
+      "w-539",
+      "w-540"
+     ]
+    },
+    {
+     "id": "words-91",
+     "title": "Words 91",
+     "subtitle": "Toward Mourner's Kaddish",
+     "items": [
+      "w-541",
+      "w-542",
+      "w-543",
+      "w-544",
+      "w-545",
+      "w-546"
+     ]
+    },
+    {
+     "id": "words-92",
+     "title": "Words 92",
+     "subtitle": "Toward Mourner's Kaddish",
+     "items": [
+      "w-547",
+      "w-548",
+      "w-549",
+      "w-550",
+      "w-551",
+      "w-552"
+     ]
+    },
+    {
+     "id": "words-93",
+     "title": "Words 93",
+     "subtitle": "Toward Mourner's Kaddish",
+     "items": [
+      "w-553",
+      "w-554",
+      "w-555",
+      "w-556",
+      "w-557",
+      "w-558"
+     ]
+    },
+    {
+     "id": "words-94",
+     "title": "Words 94",
+     "subtitle": "Toward Mourner's Kaddish",
+     "items": [
+      "w-559",
+      "w-560",
+      "w-561",
+      "w-562",
+      "w-563",
+      "w-564"
+     ]
+    },
+    {
+     "id": "words-95",
+     "title": "Words 95",
+     "subtitle": "Toward Mourner's Kaddish",
+     "items": [
+      "w-565",
+      "w-566",
+      "w-567",
+      "w-568",
+      "w-569",
+      "w-570"
+     ]
+    },
+    {
+     "id": "words-96",
+     "title": "Words 96",
+     "subtitle": "Toward Mourner's Kaddish",
+     "items": [
+      "w-571"
      ]
     }
    ],
@@ -1549,9 +1653,10 @@
    "say": "מִן",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 3,
    "prayers": [
-    "hamotzi"
+    "hamotzi",
+    "kaddish"
    ],
    "audio": null
   },
@@ -2838,11 +2943,12 @@
    "say": "הוּא",
    "gloss": null,
    "note": null,
-   "freq": 5,
+   "freq": 7,
    "prayers": [
     "kiddush",
     "shalom_rav",
-    "aleinu"
+    "aleinu",
+    "kaddish"
    ],
    "audio": null
   },
@@ -3325,7 +3431,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 11,
+   "freq": 14,
    "prayers": [
     "shma",
     "ahavat_olam",
@@ -3333,7 +3439,8 @@
     "hashkiveinu",
     "vshamru",
     "kdushat_hayom",
-    "shalom_rav"
+    "shalom_rav",
+    "kaddish"
    ],
    "audio": null
   },
@@ -4378,9 +4485,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "ahavat_olam"
+    "ahavat_olam",
+    "kaddish"
    ],
    "audio": null
   },
@@ -5987,11 +6095,12 @@
    "say": "עָלֵינוּ",
    "gloss": null,
    "note": null,
-   "freq": 5,
+   "freq": 7,
    "prayers": [
     "maariv_aravim",
     "hashkiveinu",
-    "aleinu"
+    "aleinu",
+    "kaddish"
    ],
    "audio": null
   },
@@ -6697,10 +6806,11 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 4,
    "prayers": [
     "hashkiveinu",
-    "shalom_rav"
+    "shalom_rav",
+    "kaddish"
    ],
    "audio": null
   },
@@ -6712,10 +6822,11 @@
    "say": "וְעַל",
    "gloss": null,
    "note": null,
-   "freq": 3,
+   "freq": 6,
    "prayers": [
     "hashkiveinu",
-    "aleinu"
+    "aleinu",
+    "kaddish"
    ],
    "audio": null
   },
@@ -6731,10 +6842,11 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 6,
    "prayers": [
     "hashkiveinu",
-    "aleinu"
+    "aleinu",
+    "kaddish"
    ],
    "audio": null
   },
@@ -10291,6 +10403,762 @@
    "freq": 1,
    "prayers": [
     "aleinu"
+   ],
+   "audio": null
+  },
+  "w-524": {
+   "kind": "word",
+   "he": "יִתְגַּדַּל",
+   "tr": "yitgadal",
+   "tlf": false,
+   "say": "יִתְגַּדַּל",
+   "gloss": {
+    "root": "גָּדַל",
+    "def": "to grow, become great or important, promote",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-525": {
+   "kind": "word",
+   "he": "וְיִתְקַדַּשׁ",
+   "tr": "v'yitkadash",
+   "tlf": false,
+   "say": "וְיִתְקַדַּשׁ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-526": {
+   "kind": "word",
+   "he": "שְׁמֵהּ",
+   "tr": "sh'meih",
+   "tlf": false,
+   "say": "שְׁמֵהּ",
+   "gloss": {
+    "root": "שֻׁם",
+    "def": "name",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 3,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-527": {
+   "kind": "word",
+   "he": "רַבָּא",
+   "tr": "raba",
+   "tlf": false,
+   "say": "רַבָּא",
+   "gloss": {
+    "root": "רַב",
+    "def": "adj, much, many",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 3,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-528": {
+   "kind": "word",
+   "he": "בְּעָלְמָא",
+   "tr": "b'alma",
+   "tlf": false,
+   "say": "בְּעָלְמָא",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-529": {
+   "kind": "word",
+   "he": "דִּי",
+   "tr": "di",
+   "tlf": false,
+   "say": "דִּי",
+   "gloss": {
+    "root": "דִּי",
+    "def": "part of relation, who, which",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-530": {
+   "kind": "word",
+   "he": "בְרָא",
+   "tr": "v'ra",
+   "tlf": false,
+   "say": "בְרָא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-531": {
+   "kind": "word",
+   "he": "כִרְעוּתֵהּ",
+   "tr": "chir'uteih",
+   "tlf": false,
+   "say": "כִרְעוּתֵהּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-532": {
+   "kind": "word",
+   "he": "וְיַמְלִיךְ",
+   "tr": "v'yamlich",
+   "tlf": false,
+   "say": "וְיַמְלִיךְ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-533": {
+   "kind": "word",
+   "he": "מַלְכוּתֵהּ",
+   "tr": "malchuteih",
+   "tlf": false,
+   "say": "מַלְכוּתֵהּ",
+   "gloss": {
+    "root": "מַלְכוּ",
+    "def": "royalty, reign, kingdom",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-534": {
+   "kind": "word",
+   "he": "בְּחַיֵּיכוֹן",
+   "tr": "b'chayeichon",
+   "tlf": false,
+   "say": "בְּחַיֵּיכוֹן",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-535": {
+   "kind": "word",
+   "he": "וּבְיוֹמֵיכוֹן",
+   "tr": "uv'yomeichon",
+   "tlf": false,
+   "say": "וּבְיוֹמֵיכוֹן",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-536": {
+   "kind": "word",
+   "he": "וּבְחַיֵּי",
+   "tr": "uv'chayei",
+   "tlf": false,
+   "say": "וּבְחַיֵּי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-537": {
+   "kind": "word",
+   "he": "דְכָל",
+   "tr": "d'chol",
+   "tlf": false,
+   "say": "דְכָל",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-538": {
+   "kind": "word",
+   "he": "בַּעֲגָלָא",
+   "tr": "ba-agala",
+   "tlf": false,
+   "say": "בַּעֲגָלָא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-539": {
+   "kind": "word",
+   "he": "וּבִזְמַן",
+   "tr": "uvizman",
+   "tlf": false,
+   "say": "וּבִזְמַן",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-540": {
+   "kind": "word",
+   "he": "קָרִיב",
+   "tr": "kariv",
+   "tlf": false,
+   "say": "קָרִיב",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-541": {
+   "kind": "word",
+   "he": "וְאִמְרוּ",
+   "tr": "v'imru",
+   "tlf": false,
+   "say": "וְאִמְרוּ",
+   "gloss": {
+    "root": "אָמַר",
+    "def": "to say, speak, utter",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 4,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-542": {
+   "kind": "word",
+   "he": "אָמֵן",
+   "tr": "amein",
+   "tlf": false,
+   "say": "אָמֵן",
+   "gloss": {
+    "root": "אָמֵן",
+    "def": "verily, truly, amen",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 4,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-543": {
+   "kind": "word",
+   "he": "יְהֵא",
+   "tr": "y'hei",
+   "tlf": false,
+   "say": "יְהֵא",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-544": {
+   "kind": "word",
+   "he": "מְבָרַךְ",
+   "tr": "m'varach",
+   "tlf": false,
+   "say": "מְבָרַךְ",
+   "gloss": {
+    "root": "בְּרַךְ",
+    "def": "to bless, kneel, kneeling (participle)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-545": {
+   "kind": "word",
+   "he": "לְעָלַם",
+   "tr": "l'alam",
+   "tlf": false,
+   "say": "לְעָלַם",
+   "gloss": {
+    "root": "עוֹלָם",
+    "def": "long duration, antiquity, futurity",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-546": {
+   "kind": "word",
+   "he": "וּלְעָלְמֵי",
+   "tr": "ul'almei",
+   "tlf": false,
+   "say": "וּלְעָלְמֵי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-547": {
+   "kind": "word",
+   "he": "עָלְמַיָּא",
+   "tr": "almaya",
+   "tlf": false,
+   "say": "עָלְמַיָּא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-548": {
+   "kind": "word",
+   "he": "יִתְבָּרַךְ",
+   "tr": "yitbarach",
+   "tlf": false,
+   "say": "יִתְבָּרַךְ",
+   "gloss": {
+    "root": "בָרַךְ",
+    "def": "to bless, kneel, to kneel",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-549": {
+   "kind": "word",
+   "he": "וְיִשְׁתַּבַּח",
+   "tr": "v'yishtabach",
+   "tlf": false,
+   "say": "וְיִשְׁתַּבַּח",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-550": {
+   "kind": "word",
+   "he": "וְיִתְפָּאַר",
+   "tr": "v'yitpa-ar",
+   "tlf": false,
+   "say": "וְיִתְפָּאַר",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-551": {
+   "kind": "word",
+   "he": "וְיִתְרוֹמַם",
+   "tr": "v'yitromam",
+   "tlf": false,
+   "say": "וְיִתְרוֹמַם",
+   "gloss": {
+    "root": "רוּם",
+    "def": "to rise, rise up, be high",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-552": {
+   "kind": "word",
+   "he": "וְיִתְנַשֵּׂא",
+   "tr": "v'yitnasei",
+   "tlf": false,
+   "say": "וְיִתְנַשֵּׂא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-553": {
+   "kind": "word",
+   "he": "וְיִתְהַדָּר",
+   "tr": "v'yithadar",
+   "tlf": false,
+   "say": "וְיִתְהַדָּר",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-554": {
+   "kind": "word",
+   "he": "וְיִתְעַלֶּה",
+   "tr": "v'yit'aleh",
+   "tlf": false,
+   "say": "וְיִתְעַלֶּה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-555": {
+   "kind": "word",
+   "he": "וְיִתְהַלָּל",
+   "tr": "v'yithalal",
+   "tlf": false,
+   "say": "וְיִתְהַלָּל",
+   "gloss": {
+    "root": "הָלַל",
+    "def": "to shine, to shine (fig. of God's favour), to flash forth light",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-556": {
+   "kind": "word",
+   "he": "דְקוּדְשָׁא",
+   "tr": "d'kudsha",
+   "tlf": false,
+   "say": "דְקוּדְשָׁא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-557": {
+   "kind": "word",
+   "he": "בְּרִיךְ",
+   "tr": "b'rich",
+   "tlf": false,
+   "say": "בְּרִיךְ",
+   "gloss": {
+    "root": "בְּרַךְ",
+    "def": "to bless, kneel, kneeling (participle)",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-558": {
+   "kind": "word",
+   "he": "לְעֵלָּא",
+   "tr": "l'eila",
+   "tlf": false,
+   "say": "לְעֵלָּא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-559": {
+   "kind": "word",
+   "he": "בִּרְכָתָא",
+   "tr": "birchata",
+   "tlf": false,
+   "say": "בִּרְכָתָא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-560": {
+   "kind": "word",
+   "he": "וְשִׁירָתָא",
+   "tr": "v'shirata",
+   "tlf": false,
+   "say": "וְשִׁירָתָא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-561": {
+   "kind": "word",
+   "he": "תֻּשְׁבְּחָתָא",
+   "tr": "tushb'chata",
+   "tlf": false,
+   "say": "תֻּשְׁבְּחָתָא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-562": {
+   "kind": "word",
+   "he": "וְנֶחָמָתָא",
+   "tr": "v'nechamata",
+   "tlf": false,
+   "say": "וְנֶחָמָתָא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-563": {
+   "kind": "word",
+   "he": "דַּאֲמִירָן",
+   "tr": "da-amiran",
+   "tlf": false,
+   "say": "דַּאֲמִירָן",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-564": {
+   "kind": "word",
+   "he": "שְׁלָמָא",
+   "tr": "sh'lama",
+   "tlf": false,
+   "say": "שְׁלָמָא",
+   "gloss": {
+    "root": "שְׁלָם",
+    "def": "welfare, prosperity, peace",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-565": {
+   "kind": "word",
+   "he": "שְׁמַיָּא",
+   "tr": "sh'maya",
+   "tlf": false,
+   "say": "שְׁמַיָּא",
+   "gloss": {
+    "root": "שָׁמַיִן",
+    "def": "heaven, heavens, sky",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-566": {
+   "kind": "word",
+   "he": "וְחַיִּים",
+   "tr": "v'chayim",
+   "tlf": false,
+   "say": "וְחַיִּים",
+   "gloss": {
+    "root": "חַי",
+    "def": "adj, living, alive",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-567": {
+   "kind": "word",
+   "he": "עוֹשֶׂה",
+   "tr": "oseh",
+   "tlf": false,
+   "say": "עוֹשֶׂה",
+   "gloss": {
+    "root": "עָשָׂה",
+    "def": "to do, fashion, accomplish",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-568": {
+   "kind": "word",
+   "he": "בִּמְרוֹמָיו",
+   "tr": "bimromav",
+   "tlf": false,
+   "say": "בִּמְרוֹמָיו",
+   "gloss": {
+    "root": "מָרוֹם",
+    "def": "height, elevation, elevated place",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-569": {
+   "kind": "word",
+   "he": "יַעֲשֶׂה",
+   "tr": "ya-aseh",
+   "tlf": false,
+   "say": "יַעֲשֶׂה",
+   "gloss": {
+    "root": "עָשָׂה",
+    "def": "to do, fashion, accomplish",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-570": {
+   "kind": "word",
+   "he": "יוֹשְׁבֵי",
+   "tr": "yoshvei",
+   "tlf": false,
+   "say": "יוֹשְׁבֵי",
+   "gloss": {
+    "root": "יָשַׁב",
+    "def": "to dwell, remain, sit",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
+   ],
+   "audio": null
+  },
+  "w-571": {
+   "kind": "word",
+   "he": "תֵבֵל",
+   "tr": "teiveil",
+   "tlf": false,
+   "say": "תֵבֵל",
+   "gloss": {
+    "root": "תֵּבֵל",
+    "def": "world",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "kaddish"
    ],
    "audio": null
   }

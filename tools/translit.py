@@ -139,3 +139,5 @@ def tl(text):
 
 if __name__ == "__main__":
     for a in sys.argv[1:]: print(*tl(a))
+EXCEPT.update({"בְּעָלְמָא": "b'alma", "וּלְעָלְמֵי": "ul'almei", "עָלְמַיָּא": "almaya"})  # 10/30 Kaddish (Aramaic): kamatz gadol before sh'va
+EXCEPT.update({"יוֹשְׁבֵי": "yoshvei"})
