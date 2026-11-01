@@ -1,0 +1,19 @@
+{
+ "tracks": [
+  {
+   "id": "stories",
+   "title": "Torah stories",
+   "units": []
+  },
+  {
+   "id": "history",
+   "title": "Jewish history",
+   "units": []
+  },
+  {
+   "id": "kabbalah",
+   "title": "Kabbalah",
+   "units": []
+  }
+ ]
+}

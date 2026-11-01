@@ -610,8 +610,8 @@
   function showTab(tab) {
     currentTab = tab;
     for (const b of document.querySelectorAll(".tabs button")) b.classList.toggle("on", b.dataset.tab === tab);
-    $("#title").textContent = { learn: "Kavanah", practice: "Practice", settings: "Settings" }[tab];
-    ({ learn: renderLearn, practice: renderPractice, settings: renderSettings })[tab]();
+    $("#title").textContent = { learn: "Kavanah", explore: "Explore", practice: "Practice", settings: "Settings" }[tab];
+    ({ learn: renderLearn, explore: () => X.render(), practice: renderPractice, settings: renderSettings })[tab]();
     window.scrollTo(0, 0);
   }
 
@@ -686,7 +686,8 @@
         h("div", { class: "stat" }, h("b", {}, due), h("small", {}, "fading"))),
       seen.length
         ? h("button", { class: "primary", onclick: () => startRun("Practice", buildPractice(), seen) }, due ? "Practice (fading items first)" : "Practice weakest items")
-        : h("p", { class: "sub" }, "Practice opens once you've started a lesson."));
+        : h("p", { class: "sub" }, "Practice opens once you've started a lesson."),
+      X.practiceBlock() || "");
   }
 
   function renderSettings() {
@@ -700,7 +701,7 @@
     let armed = false;
     const reset = h("button", { class: "secondary", onclick: () => {
       if (!armed) { armed = true; reset.textContent = "Tap again to erase all progress"; return; }
-      state = { items: {}, settings: state.settings }; save(); showTab("settings");
+      state = { items: {}, settings: state.settings, flags: state.flags }; save(); showTab("settings");
     } }, "Reset progress");
     view.replaceChildren(
       h("div", { class: "row" }, h("label", { for: "hints" }, "Transliteration hints"), sel),
@@ -726,16 +727,23 @@
       } }, "Export backup"),
       h("button", { class: "secondary", onclick: () => file.click() }, "Import backup"), file,
       reset, msg,
+      X.settingsBlock(),
       h("h2", {}, "About"),
       h("p", { class: "sub" }, `Version ${self.APP_VERSION || "?"}. If this doesn't match the latest, close and reopen the app.`),
       h("p", { class: "sub" }, "Breathing, sleep and soundscapes live in ", h("a", { href: "https://neshamah.netlify.app/", target: "_blank", rel: "noopener" }, "Neshamah"), "."),
       h("p", { class: "sub" }, "Open wording questions for your rabbi or cantor: ", h("a", { href: "questions.html", target: "_blank", rel: "noopener" }, "printable list"), "."));
   }
 
+  // ---------- Explore (explore.js) ----------
+  const X = self.KavanahExplore({ h, $, view, toast, shuffle, mark, mastery, isDue, rec, save, DAY,
+    state: () => state, showTab: (t) => showTab(t), currentTab: () => currentTab,
+    prayerTitle: (id) => prayers[id] && prayers[id].title,
+    openPrayer: (id) => { const l = allLessons().find((x) => x.prayer === id); if (l) startRun(l.title, buildLesson(l), l.items); } });
+
   // ---------- boot ----------
   $("#tabs").addEventListener("click", (e) => { const t = e.target.closest("button"); if (t) showTab(t.dataset.tab); });
   $("#back").addEventListener("click", () => history.back());
-  window.addEventListener("popstate", () => { if (run) endRun(); });
+  window.addEventListener("popstate", () => { if (run) endRun(); else if (X.active()) X.end(); });
 
   async function boot() {
     load();
@@ -750,6 +758,7 @@
     }
     try { addPrayers(await (await fetch("data/prayers.json")).json()); } catch (e) { console.warn("prayers", e); }
     try { strokes = await (await fetch("data/strokes.json")).json(); } catch (e) { strokes = null; }
+    await X.load();
     showTab("learn");
   }
   boot().catch((e) => { view.textContent = "Couldn't load lessons. " + e.message; });

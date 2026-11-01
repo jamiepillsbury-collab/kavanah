@@ -7,6 +7,12 @@ State: v18 committed locally (Jamie: click Push origin in GitHub Desktop). Live 
 Sefaria: shells blocked. Use the desktop browser pane on https://www.sefaria.org (same origin) + javascript_tool. Cantillation strip regex MUST be [\u0591-\u05AF\u05BD\u05C0\u05C3]. Strip English footnotes with DOMParser (remove .footnote, .footnote-marker). Copy results into files, then verify per-line SHA-256 of NFC text in JS vs Python before using.
 Headless test (cloud): stage app files, python http.server, Playwright; abort googleapis routes and use waitUntil domcontentloaded or it hangs; open lessons via button.lesson after opening all <details>.
 
+DONE 11/01 (v19): Explore tab + card engine (PLAN-imprint.md build step 1). No lesson content yet; Explore shows "Coming next: Genesis".
+- explore.js (plugs into app.js via self.KavanahExplore(api)): hook/concept/term/text/timeline/diagram/relevance/reflect/recap cards, swipe or Next/Back; checks pick/why/tf/order, pretest guess (revealed on recap), "I'm sure" toggle, "I don't know"; wrong = your answer + why it's tempting + answer + why + Look again; missed idea re-asked in another form before recap; To revisit list (leaves after right on 2 different days, sure-errors first); source chip -> ref + Sefaria link; Flag card (list in Settings, kept on Reset); reflection notes; Mark reviewed. Progress per idea in state.items "x:<lesson>:<idea>" (fades like letters); Practice tab has Ideas block.
+- tools/build_explore.py: data/src/x-<track>.json -> data/explore.json, validates (src types, wrong_why per choice, look_again, last card recap), fills tl, warns if a lesson id vanishes. tools/test_explore_fixture.json = placeholder lesson for headless tests (build with --src fixture --out <test copy>).
+- Headless: fixture lesson run through, no JS errors.
+NEXT: step 2 weekly parashah table (Hebcal via browser pane), then the Creation pilot (ask Jamie first).
+
 DONE 11/01 (v18): "Kabbalat Shabbat" unit (id kabbalat), shown before Sh'ma. 5 lessons: L'cha Dodi (1) refrain + stanzas 1-4 (9 lines), L'cha Dodi (2) stanzas 5-9 (10), Mizmor Shir (1)/(2) Psalm 92 one verse per line (8+8), Adonai Malach Psalm 93 (6).
 - data/src/sefaria-kabbalat.json: Siddur Ashkenaz Shabbat Kabbalat Shabbat Lekha Dodi, Psalm 92, 93, Metsudah he/en (CC-BY), 24 segs hash-verified. L'cha Dodi repeated refrains dropped ("segs" = original numbers).
 - build_prayers.py: new he spec ("h", a, b) = comma pieces a..b (poem half-lines). clean_he maps לַיהֹוָה to לַייָ (translit "ladonai").
@@ -68,7 +74,7 @@ NEXT (in order):
 1. Jamie: push, try Words 1 + HaMotzi on the phone, answer the checks above. Record REFORM changes in build_prayers.py once confirmed.
 2. Prayer lesson polish from her feedback; audio slot per prayer exists (prayers.json "audio": null; Cantor Childs links later).
 3. Next: Torah service, or reading without vowels; Al kein if CBB says it. Aramaic glosses: maybe Jastrow via /api/words (messy; ask first). Amidah open questions still with the rabbi.
-4. New (11/01, see BRIEF Scope expansion): Imprint-style Torah stories, Jewish history and Kabbalah tracks; trope for bar/bat mitzvah. Not started; plan before building.
+4. New (11/01, see BRIEF Scope expansion): Imprint-style Torah stories, Jewish history and Kabbalah tracks; trope for bar/bat mitzvah. Not started; plan before building. Plan: PLAN-imprint.md (decisions 11/01 in it; next = build step 1, engine; ask before writing content).
 Rules: no sub-agents unless a bulk job with a fixed schema appears; code generates all quiz items. Short text, no em dashes. Any button that can't work yet shows a toast() saying why.
 
 ## Proposed phases

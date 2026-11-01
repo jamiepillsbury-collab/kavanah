@@ -1,0 +1,18 @@
+{"track": "stories", "units": [{"id": "x-test", "title": "Test unit", "subtitle": "Engine fixture, placeholder text only", "lessons": [{
+ "id": "x-test-01", "title": "Test lesson", "parashah": ["Bereshit"], "status": "draft",
+ "cards": [
+  {"kind": "hook", "title": "Hook title", "body": "Placeholder opening scene.", "src": {"type": "torah", "ref": "Genesis 1:1"}},
+  {"kind": "check", "id": "pre", "pretest": true, "type": "pick", "q": "Placeholder guess?", "choices": ["A", "B", "C"], "answer": 1, "why": "Because B.", "src": {"type": "torah", "ref": "Genesis 1"}},
+  {"kind": "concept", "title": "Concept", "body": "Placeholder concept with **signal** words.", "src": {"type": "scholarly", "note": "Placeholder citation"}},
+  {"kind": "term", "he": "שַׁבָּת", "tl": null, "gloss": "placeholder gloss", "src": {"type": "torah", "ref": "Genesis 2:2"}},
+  {"kind": "check", "id": "q1", "idea": "one", "type": "pick", "q": "Placeholder question one?", "choices": ["Right", "Wrong 1", "Wrong 2"], "answer": 0, "why": "Right is right.", "wrong_why": [null, "Tempting because 1.", "Tempting because 2."], "look_again": 2, "src": {"type": "torah", "ref": "Genesis 1:3"}},
+  {"kind": "text", "ref": "Genesis 1:1", "he": "בְּרֵאשִׁית בָּרָא אֱלֹהִים", "en": "Placeholder English", "en_src": "Placeholder version", "license": "CC-BY", "src": {"type": "torah", "ref": "Genesis 1:1"}},
+  {"kind": "timeline", "when": "Day 1", "body": "Placeholder event", "src": {"type": "torah", "ref": "Genesis 1:3-5"}},
+  {"kind": "timeline", "when": "Day 2", "body": "Placeholder event two", "src": {"type": "torah", "ref": "Genesis 1:6-8"}},
+  {"kind": "check", "id": "q2", "idea": "two", "type": "order", "q": "Put these in order", "items": ["First", "Second", "Third"], "why": "That's the order.", "look_again": 6, "src": {"type": "torah", "ref": "Genesis 1"}},
+  {"kind": "check", "id": "q1b", "idea": "one", "type": "tf", "q": "Alternate form of idea one: true?", "answer": true, "why": "Yes, true.", "wrong_why": [null, "Tempting because false."], "src": {"type": "torah", "ref": "Genesis 1:3"}},
+  {"kind": "check", "id": "q3", "idea": "three", "type": "why", "q": "Why placeholder?", "choices": ["Reason A", "Reason B"], "answer": 1, "why": "B explains it.", "wrong_why": ["A only describes it.", null], "src": {"type": "reform"}},
+  {"kind": "relevance", "body": "Placeholder: you meet this in Kiddush.", "links": ["prayer:kiddush"]},
+  {"kind": "reflect", "prompt": "Placeholder reflection prompt?"},
+  {"kind": "recap", "points": ["Point one", "Point two"]}
+ ]}]}]}

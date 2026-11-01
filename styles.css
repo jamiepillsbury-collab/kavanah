@@ -165,3 +165,42 @@ button.small { padding: 6px 14px; font-size: .9rem; }
 .src { display: block; opacity: .65; margin-top: 6px; }
 .type-in { width: 100%; box-sizing: border-box; font-size: 1.2rem; padding: 10px 12px; margin-top: 12px; border-radius: 10px; border: 1px solid rgba(127,127,127,.5); background: transparent; color: inherit; }
 .flag ul { margin: 6px 0 0; padding-left: 1.2em; }
+/* ---------- Explore (card lessons) ---------- */
+.seg { display: flex; gap: 6px; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 4px; margin: 4px 0 14px; }
+.seg button { flex: 1; border: 0; background: none; border-radius: 999px; padding: 8px 0; color: var(--muted); font-weight: 600; }
+.seg button.on { background: var(--accent); color: var(--accent-ink); }
+.xcard { text-align: left; touch-action: pan-y; }
+.xcard .big, .xcard .line-he { text-align: center; }
+.kicker { color: var(--muted); font-size: .8rem; margin: 0 0 8px; letter-spacing: .02em; }
+.xbody { font-size: 1.12rem; line-height: 1.55; margin: 8px 0; }
+.xq { font-size: 1.15rem; font-weight: 600; line-height: 1.4; margin: 6px 0 12px; }
+.xopts { display: grid; gap: 10px; }
+.xopt { text-align: left; padding: 14px; min-height: 0; font-size: 1rem; color: inherit; }
+.xorder { justify-content: flex-start; }
+.xorder .chip { font-size: 1rem; }
+.chip.sure.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.linkbtn { background: none; border: 0; color: var(--muted); text-decoration: underline; font-size: .9rem; }
+.row-btns > .primary, .row-btns > .secondary { flex: 1; }
+.xfoot { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-top: 16px; border-top: 1px dashed var(--line); padding-top: 10px; }
+.srcwrap { flex: 1; }
+.srcchip { border: 1px solid var(--line); background: none; color: var(--muted); border-radius: 999px; padding: 3px 10px; font-size: .8rem; text-align: left; }
+.srcchip.t-scholarly { border-color: #7a8fb3; } .srcchip.t-tradition, .srcchip.t-rabbinic { border-color: var(--hint); }
+.srcchip.t-reform { border-color: var(--good); } .srcchip.t-kabbalah { border-color: #9b7ab3; }
+.src-more { font-size: .85rem; color: var(--muted); margin-top: 6px; }
+.src-more a { color: var(--accent); }
+.flagbtn { background: none; border: 0; color: var(--muted); font-size: .8rem; padding: 3px 0; white-space: nowrap; }
+.flagpanel textarea, .xcard textarea { width: 100%; box-sizing: border-box; margin-top: 8px; font: inherit; padding: 8px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
+.secondary.sm { width: auto; padding: 6px 12px; font-size: .85rem; margin-top: 6px; }
+.tl-strip { list-style: none; padding: 0 0 0 14px; margin: 6px 0; border-left: 2px solid var(--line); }
+.tl-strip li { padding: 6px 0 6px 10px; color: var(--muted); position: relative; }
+.tl-strip li::before { content: ""; position: absolute; left: -21px; top: 13px; width: 10px; height: 10px; border-radius: 50%; background: var(--line); }
+.tl-strip li.on { color: var(--ink); font-size: 1.08rem; } .tl-strip li.on::before { background: var(--accent); }
+.tl-strip b { display: block; font-size: .85rem; }
+.diagram svg { width: 100%; height: auto; }
+.xlist { padding-left: 1.2em; line-height: 1.5; }
+.note.pre { border-left: 3px solid var(--accent); padding-left: 10px; margin: 10px 0; }
+.lesson .num { font-family: var(--ui); font-size: 1.1rem; color: var(--muted); }
+.revisit { text-align: left; margin-top: 12px; }
+.overlay { position: fixed; inset: 0; background: var(--bg); z-index: 50; overflow: auto; padding: 16px; padding-bottom: 40px; }
+.overlay > * { max-width: 528px; margin-left: auto; margin-right: auto; }
+.row-btns > .primary, .row-btns > .secondary { margin-top: 10px; }
