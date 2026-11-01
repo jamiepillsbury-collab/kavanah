@@ -1,7 +1,7 @@
 /* Offline cache. Version comes from version.js (bump it there, nowhere else). */
 importScripts("version.js");
 const VERSION = self.APP_VERSION;
-const CORE = ["./", "index.html", "styles.css", "app.js", "version.js", "explore.js", "manifest.webmanifest", "data/explore.json",
+const CORE = ["./", "index.html", "styles.css", "app.js", "version.js", "explore.js", "manifest.webmanifest", "data/explore.json", "data/parashah.json",
   "data/alefbet.json", "data/strokes.json", "icons/icon-192.png", "icons/icon-512.png"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));

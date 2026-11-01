@@ -134,7 +134,7 @@ Placement: Learn keeps letters -> words -> prayers; Trope units come after the T
 
 Suggested build order (one session each, clean checkpoints):
 1. DONE 11/01 (v19). Engine: Explore tab, card renderer (swipe, chips, checks, error flow, To revisit, flags, notes), schema, build_explore.py, progress wiring. Test with one pilot lesson.
-2. Weekly parashah table + "This week" card (the Genesis portions are being read now).
+2. DONE 11/01 (v20). Weekly parashah table + "This week" card (the Genesis portions are being read now).
 3. Pilot: one Genesis lesson; Jamie reviews tone, length and the error flow before more.
 4. Rest of Genesis, then Exodus (most tied to prayers). Hanukkah lesson before Dec 4.
 5. Kabbalah units 1 to 4 (ties to Kabbalat Shabbat already built).

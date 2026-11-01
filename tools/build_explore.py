@@ -66,6 +66,7 @@ def check_card(c, n, cards, where):
 
 def build(srcs, out):
     tracks = {tid: {"id": tid, "title": title, "units": []} for tid, title in TRACKS}
+    pnames = set(json.load(open(os.path.join(ROOT, "data", "parashah.json"), encoding="utf-8"))["names"])
     lesson_ids = set()
     for path in srcs:
         d = json.load(open(path, encoding="utf-8"))
@@ -80,6 +81,8 @@ def build(srcs, out):
                 lesson_ids.add(l["id"])
                 l.setdefault("status", "draft"); l.setdefault("related", []); l.setdefault("parashah", []); l.setdefault("season", None)
                 if l["status"] not in ("draft", "reviewed"): err(w, "status must be draft or reviewed")
+                for p in l["parashah"]:
+                    if p not in pnames: err(w, f"unknown parashah {p!r} (use the names in data/parashah.json)")
                 cards = l.get("cards") or []
                 if not cards or cards[-1].get("kind") != "recap": err(w, "last card must be a recap")
                 ids = [c.get("id") for c in cards if c.get("kind") == "check"]

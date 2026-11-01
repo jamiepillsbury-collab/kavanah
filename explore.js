@@ -7,7 +7,7 @@ self.KavanahExplore = (api) => {
   const { h, $, view, toast, shuffle, mark, mastery, isDue, rec, save, DAY } = api;
   const S = () => api.state();
   const bag = (k) => S()[k] || (S()[k] = {});
-  let data = { tracks: [] }, track = "stories", xr = null;
+  let data = { tracks: [] }, track = "stories", xr = null, cal = null;
   const lessons = {}, ideaChecks = {}; // lesson id -> lesson; idea key -> [{l, c}]
   const SRC = { torah: "Torah", tanakh: "Tanakh", rabbinic: "Rabbinic", apocrypha: "Apocrypha", liturgy: "Liturgy",
     kabbalah: "Kabbalah", scholarly: "Scholars", tradition: "Tradition", reform: "Reform" };
@@ -22,6 +22,7 @@ self.KavanahExplore = (api) => {
 
   async function load() {
     try { data = await (await fetch("data/explore.json")).json(); } catch (e) { data = { tracks: [] }; }
+    try { cal = await (await fetch("data/parashah.json")).json(); } catch (e) { cal = null; }
     for (const t of data.tracks) for (const u of t.units) for (const l of u.lessons) {
       l.track = t.id; l.unit = u.title; lessons[l.id] = l;
       l.cards.forEach((c, n) => { c.n = n; if (c.kind === "check" && !c.pretest) (ideaChecks[key(l.id, c.idea)] ||= []).push({ l, c }); });
@@ -241,6 +242,28 @@ self.KavanahExplore = (api) => {
     if (!silent) api.showTab("explore");
   }
 
+  // ---------- this week's Torah portion (data/parashah.json, offline) ----------
+  function thisWeek() {
+    if (!cal) return null;
+    const d = new Date(), iso = new Date(d.getTime() - d.getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+    const row = cal.weeks.find((w) => w.d >= iso);
+    if (!row) return null;
+    const idx = S().settings.israelReadings ? row.isr : row.dia;
+    return { row, names: idx ? idx.map((i) => cal.names[i]) : [], book: idx ? cal.books[idx[0]] : null };
+  }
+  function weekCard() {
+    const w = thisWeek();
+    if (!w) return null;
+    const day = new Date(w.row.d + "T12:00").toLocaleDateString(undefined, { month: "short", day: "numeric" });
+    const ls = Object.values(lessons).filter((l) => l.parashah.some((p) => w.names.includes(p)));
+    return h("div", { class: "card week" },
+      h("p", { class: "prompt-label" }, `This Shabbat · ${day}`),
+      w.names.length ? h("div", { class: "name" }, "Parashat " + w.names.join("–")) : h("div", { class: "name" }, `${w.row.hol || "Holiday"} reading`),
+      w.book ? h("p", { class: "note" }, w.book) : h("p", { class: "note" }, "A holiday Torah reading replaces the weekly portion."),
+      ...ls.map((l) => h("button", { class: "secondary", onclick: () => start(l) }, `Story: ${l.title}`)),
+      w.names.length && !ls.length ? h("p", { class: "sub" }, "No lesson for this portion yet.") : null);
+  }
+
   // ---------- tab views ----------
   const allKeys = () => Object.keys(ideaChecks);
   const dueKeys = () => allKeys().filter((k) => rec(k) && isDue(k));
@@ -259,7 +282,7 @@ self.KavanahExplore = (api) => {
     const reviewed = bag("reviewed"), seen = bag("xseen");
     const seg = h("div", { class: "seg" }, data.tracks.map((x) => h("button", { class: x.id === track ? "on" : "", onclick: () => { track = x.id; render(); } }, ({ stories: "Stories", history: "History", kabbalah: "Kabbalah" })[x.id] || x.title)));
     const empty = { stories: "Coming next: Genesis, starting with Creation.", history: "Not written yet. Planned after the Torah stories.", kabbalah: "Not written yet. Planned after Genesis and Exodus." }[track];
-    view.replaceChildren(seg, reviewBlock() || "",
+    view.replaceChildren(weekCard() || "", seg, reviewBlock() || "",
       ...(t.units.length ? t.units.map((u) => h("section", {}, h("h2", {}, u.title), u.subtitle ? h("p", { class: "sub" }, u.subtitle) : null,
         u.lessons.map((l, n) => {
           const p = pct(l), fading = ideasOf(l).some((i) => isDue(key(l.id, i)));
@@ -292,10 +315,15 @@ self.KavanahExplore = (api) => {
   }
   function settingsBlock() {
     const flags = bag("flags"), ks = Object.keys(flags);
-    return h("section", {}, h("h2", {}, "Flagged cards"),
+    const sched = h("select", { id: "sched", onchange: (e) => { S().settings.israelReadings = e.target.value === "isr"; save(); } },
+      [["dia", "Outside Israel (Diaspora)"], ["isr", "Israel (one festival day)"]].map(([v, t]) => h("option", { value: v, selected: !!S().settings.israelReadings === (v === "isr") }, t)));
+    return h("section", {}, h("h2", {}, "Weekly Torah portion"),
+      h("div", { class: "row" }, h("label", { for: "sched" }, "Reading schedule"), sched),
+      h("p", { class: "sub" }, "The two differ for a few weeks in some years, when a second festival day falls on Shabbat. Some Reform congregations follow Israel's. Ask CBB which it uses."),
+      h("h2", {}, "Flagged cards"),
       h("p", { class: "sub" }, ks.length ? "Cards you marked as doubtful. Bring these to your next session with Claude or your rabbi." : "None yet. Use ⚑ Flag on any Explore card you doubt."),
       ks.map((k) => h("div", { class: "row" }, h("label", {}, `${flags[k].lesson}: ${flags[k].card}`, flags[k].note ? h("small", { class: "src" }, flags[k].note) : null),
         h("button", { class: "secondary sm", onclick: () => { delete flags[k]; save(); api.showTab("settings"); } }, "Remove"))));
   }
-  return { load, render, active: () => !!xr, end, practiceBlock, settingsBlock };
+  return { load, render, active: () => !!xr, end, practiceBlock, settingsBlock, weekCard };
 };

@@ -659,7 +659,7 @@
       ? h("div", { class: "card notice" }, h("b", {}, "Sound is off: no Hebrew voice on this phone."),
           h("p", { class: "sub" }, "Without it, letters can't be heard and speaking practice is skipped. Adding it takes about 2 minutes."),
           h("button", { class: "secondary", onclick: () => showTab("settings") }, "Show me how")) : null;
-    view.replaceChildren(reviewCard() || "", go || "", ...course.units.map((u) => h("section", {},
+    view.replaceChildren(X.weekCard() || "", reviewCard() || "", go || "", ...course.units.map((u) => h("section", {},
       h("h2", {}, u.title), h("p", { class: "sub" }, u.subtitle + (u.tiles === false ? "" : " · tap a tile to hear it or practice it. Gray = not learned yet.")),
       u.tiles === false ? "" : tileGrid(u),
       h("details", { class: "lessons", open: next && u.lessons.includes(next) },
