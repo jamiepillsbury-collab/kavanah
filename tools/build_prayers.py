@@ -12,8 +12,9 @@ raw2 = json.load(open(os.path.join(ROOT, "data/src/sefaria-shma.json"), encoding
 raw3 = json.load(open(os.path.join(ROOT, "data/src/sefaria-amidah.json"), encoding="utf-8"))
 raw5 = json.load(open(os.path.join(ROOT, "data/src/sefaria-kaddish.json"), encoding="utf-8"))
 raw4 = json.load(open(os.path.join(ROOT, "data/src/sefaria-after-amidah.json"), encoding="utf-8"))
+raw6 = json.load(open(os.path.join(ROOT, "data/src/sefaria-kabbalat.json"), encoding="utf-8"))
 SRC = {}
-for s in raw["sources"] + raw2["sources"] + raw3["sources"] + raw4["sources"] + raw5["sources"]:
+for s in raw["sources"] + raw2["sources"] + raw3["sources"] + raw4["sources"] + raw5["sources"] + raw6["sources"]:
     SRC[("BARCHU_HE" if "Maariv, Barchu" in s["ref"] else None) or f'{s["ref"]}|{s["lang"]}'] = s
 def key(ref, lang): return SRC.get(f"{ref}|{lang}")
 S = {
@@ -39,13 +40,15 @@ S = {
     (("av", "Patriarchs"), ("gv", "Divine Might"), ("kh", "Holines of God's Name"), ("ky", "Sanctity of the Day"), ("sr", "Peace")) for l in ("he", "en")},
  **{f"{k}_{l}": key(f"Siddur Ashkenaz, Shabbat, Maariv, {n}", l) for k, n in
     (("vc", "Vay'chulu"), ("me", "Me'ein Sheva"), ("al", "Aleinu"), ("kd", "Mourner's Kaddish")) for l in ("he", "en")},
+ **{f"{k}_{l}": key(f"Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, {n}", l) for k, n in
+    (("ld", "Lekha Dodi"), ("p92", "Psalm 92"), ("p93", "Psalm 93")) for l in ("he", "en")},
  "bs_en": key("Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)", "en"),
 }
 NAME = "יְיָ"  # Mishkan T'filah prints the Name as yod-yod (display convention, not a wording change)
 
 def clean_he(t):
     t = re.sub(r"^[^ְ-ׇ]*?:\s*(?=\S*[ְ-ׇ])", "", t)  # unpointed instruction prefix
-    t = t.replace("‑", "").replace("יְהֹוָה", NAME).replace("יְהוָה", NAME).replace("יְיָ", NAME).replace("אֱלֹהֵינוּ", "אֱלֹהֵינוּ")
+    t = t.replace("‑", "").replace("לַיהֹוָה", "לַייָ").replace("יְהֹוָה", NAME).replace("יְהוָה", NAME).replace("יְיָ", NAME).replace("אֱלֹהֵינוּ", "אֱלֹהֵינוּ")
     t = t.replace("(", "").replace(")", "")
     t = re.sub(r"([א-ת])([֑-ׇ]*?)\u05BA", lambda m: m[0] if m[1] == "ו" else m[1] + m[2] + "\u05B9", t)  # holam haser (Metsudah) -> holam, except on vav
     t = re.sub(r"\.\s+(?=\S)(?!בָּרוּךְ)", ", ", t)  # mid-line periods read as commas
@@ -71,6 +74,8 @@ def get(spec, lang):
     if part == "s0": return clean_en(t.split(". ")[0]) + "."
     if isinstance(part, tuple) and part[0] == "w":  # Hebrew: colon-part k, words a..b
         return " ".join(he_parts(clean_he(t))[part[1]].split()[part[2]:part[3] + 1]).strip(" ,")
+    if isinstance(part, tuple) and part[0] == "h":  # Hebrew: comma pieces a..b (poem half-lines)
+        return ", ".join(clean_he(t).split(", ")[part[1]:part[2] + 1])
     if isinstance(part, tuple) and part[0] == "cut":  # English: from start text to end text (inclusive)
         a = t.index(part[1]); b = t.index(part[2], a) + len(part[2]); return clean_en(t[a:b]).rstrip(";,")
     if isinstance(part, tuple): return clean_en(" ".join(sents(t)[part[0]:part[1] + 1]))  # English sentences i..j
@@ -183,6 +188,52 @@ PRAYERS = [
    (("kd_he", 5, None), ("kd_en", 5, None)),
    ([("kd_he", 6, ("w", 0, 0, 1)), ("kd_he", 6, ("w", 0, 4, 13))],
     [("kd_en", 6, ("cut", "He Who makes peace", "makes peace")), ("kd_en", 6, ("cut", "in His high heavens", "say Amein."))])]),
+ ("lcha_dodi_1", "L'cha Dodi (1)", "Come, my beloved, to greet the bride: refrain and stanzas 1-4", [
+   (("ld_he", 0, None), ("ld_en", 0, ("cut", "Come my Beloved", "welcome the Sabbath."))),
+   (("ld_he", 1, ("h", 0, 1)), ("ld_en", 1, ("cut", "“Preserve”", "caused us to hear"))),
+   (("ld_he", 1, ("h", 2, 3)), ("ld_en", 1, ("cut", "Adonoy is One", "for praise."))),
+   (("ld_he", 2, ("h", 0, 1)), ("ld_en", 2, ("cut", "To greet the Sabbath", "source of blessing"))),
+   (("ld_he", 2, ("h", 2, 3)), ("ld_en", 2, ("cut", "from the very beginning", "thought."))),
+   (("ld_he", 3, ("h", 0, 1)), ("ld_en", 3, ("cut", "Sanctuary", "the upheaval"))),
+   (("ld_he", 3, ("h", 2, 3)), ("ld_en", 3, ("cut", "too long", "abundant pity."))),
+   (("ld_he", 4, ("h", 0, 1)), ("ld_en", 4, ("cut", "Shake the dust", "my people"))),
+   (("ld_he", 4, ("h", 2, 3)), ("ld_en", 4, ("cut", "through the son", "redeem it.")))]),
+ ("lcha_dodi_2", "L'cha Dodi (2)", "Stanzas 5-9, ending Bo'i v'shalom", [
+   (("ld_he", 5, ("h", 0, 2)), ("ld_en", 5, ("cut", "Wake up!", "arise and shine."))),
+   (("ld_he", 5, ("h", 3, 4)), ("ld_en", 5, ("cut", "Awaken!", "upon you."))),
+   (("ld_he", 6, ("h", 0, 1)), ("ld_en", 6, ("cut", "Feel not", "why do you moan?"))),
+   (("ld_he", 6, ("h", 2, 3)), ("ld_en", 6, ("cut", "In you will", "ancient site."))),
+   (("ld_he", 7, ("h", 0, 1)), ("ld_en", 7, ("cut", "They will be ravaged", "devour you."))),
+   (("ld_he", 7, ("h", 2, 3)), ("ld_en", 7, ("cut", "Your God", "his bride."))),
+   (("ld_he", 8, ("h", 0, 1)), ("ld_en", 8, ("cut", "Right and left", "you will praise"))),
+   (("ld_he", 8, ("h", 2, 3)), ("ld_en", 8, ("cut", "through the man", "exult."))),
+   (("ld_he", 9, ("h", 0, 1)), ("ld_en", 9, ("cut", "Come in peace", "treasured people."))),
+   (("ld_he", 9, ("h", 2, 3)), ("ld_en", 9, ("cut", "Come Bride", "Queen!")))]),
+ ("ps92_1", "Mizmor Shir (1)", "Psalm 92, verses 1-8: a song for the Shabbat day", [
+   (("p92_he", 0, 0), ("p92_en", 0, ("cut", "A Psalm", "Shabbos day."))),
+   (("p92_he", 0, 1), ("p92_en", 0, ("cut", "It is good", "Most High."))),
+   (("p92_he", 0, 2), ("p92_en", 0, ("cut", "To relate", "in the nights."))),
+   (("p92_he", 0, 3), ("p92_en", 0, ("cut", "Upon a ten", "upon the harp."))),
+   (("p92_he", 0, 4), ("p92_en", 0, ("cut", "For You have given", "sing joyously."))),
+   (("p92_he", 0, 5), ("p92_en", 0, ("cut", "How great", "Your thoughts."))),
+   (("p92_he", 0, 6), ("p92_en", 0, ("cut", "An empty-headed", "understand this"))),
+   (("p92_he", 0, 7), ("p92_en", 0, ("cut", "When the wicked", "destroyed forever.")))]),
+ ("ps92_2", "Mizmor Shir (2)", "Psalm 92, verses 9-16: the righteous flourish like a palm", [
+   (("p92_he", 0, 8), ("p92_en", 0, ("cut", "But You will remain", "forever Adonoy."))),
+   (("p92_he", 0, 9), ("p92_en", 0, ("cut", "For behold", "all evildoers."))),
+   (("p92_he", 0, 10), ("p92_en", 0, ("cut", "You uplifted", "fresh oil."))),
+   (("p92_he", 0, 11), ("p92_en", 0, ("cut", "My eye", "doomed]."))),
+   (("p92_he", 0, 12), ("p92_en", 0, ("cut", "The righteous", "grow tall."))),
+   (("p92_he", 0, 13), ("p92_en", 0, ("cut", "Planted", "will blossom."))),
+   (("p92_he", 0, 14), ("p92_en", 0, ("cut", "They will still", "freshness."))),
+   (("p92_he", 0, 15), ("p92_en", 0, ("cut", "To declare", "injustice.")))]),
+ ("ps93", "Adonai Malach (Psalm 93)", "God reigns, robed in majesty", [
+   (("p93_he", 0, ("w", 0, 0, 7)), ("p93_en", 0, ("cut", "Adonoy had begun", "with strength."))),
+   (("p93_he", 0, ("w", 0, 8, 10)), ("p93_en", 0, ("cut", "He has firmly", "cannot be moved."))),
+   (("p93_he", 0, 1), ("p93_en", 0, ("cut", "Your throne", "from eternity."))),
+   (("p93_he", 0, 2), ("p93_en", 0, ("cut", "The rivers", "raging waves."))),
+   (("p93_he", 0, 3), ("p93_en", 0, ("cut", "More than", "are You, Adonoy."))),
+   (("p93_he", 0, 4), ("p93_en", 0, ("cut", "Your testimonies", "length of days.")))]),
 ]
 # Marked Reform changes vs the traditional base (Mishkan T'filah wording). "sub" = (traditional Hebrew, Reform Hebrew) applied to that line.
 # Added words: names from Genesis (Sefaria, Miqra al pi ha-Masorah), g'ulah Lev 25:24, ezrat Judg 5:23, hakol from this blessing. Not sourced: imoteinu, imahot.
@@ -205,7 +256,7 @@ REFORM = {
  "aleinu": [{"line": 3, "change": "Leaves out 'shehem mishtachavim lahevel varik umitpal'lim el el lo yoshia' (many traditional Ashkenazi siddurim also omit it).",
              "sub": ("שֶׁהֵם מִשְׁתַּחֲוִים לָהֶבֶל וָרִיק וּמִתְפַּלְּלִים אֶל אֵל לֹא יוֹשִׁיעַ, ", "")}],
 }
-UNIT = {"kaddish": "concluding", "vaychulu": "concluding", "magen_avot": "concluding", "aleinu": "concluding", **{k: "amidah" for k in ("avot", "gvurot", "kdushat_hashem", "kdushat_hayom", "shalom_rav")}, "maariv_aravim": "shma", "hashkiveinu": "shma", "vshamru": "shma", "shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
+UNIT = {**{k: "kabbalat" for k in ("lcha_dodi_1", "lcha_dodi_2", "ps92_1", "ps92_2", "ps93")}, "kaddish": "concluding", "vaychulu": "concluding", "magen_avot": "concluding", "aleinu": "concluding", **{k: "amidah" for k in ("avot", "gvurot", "kdushat_hashem", "kdushat_hayom", "shalom_rav")}, "maariv_aravim": "shma", "hashkiveinu": "shma", "vshamru": "shma", "shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
 SEQ = {"maariv_aravim": 7.2, "ahavat_olam": 7.5}  # display order (Mishkan T'filah); "order" stays append-only so words.json ids stay stable  # app groups lessons into units by this
 CHECK = {
  "candles": ["Mishkan T'filah wording: confirm 'l'hadlik ner shel Shabbat' matches your siddur."],
@@ -247,6 +298,15 @@ CHECK = {
              "Line 4 (Y'hei sh'meih raba) is said together by everyone. At CBB, does the whole congregation say the full Kaddish, or only mourners?",
              "Hebrew says v'chayim (life); Metsudah's English says 'a good life'. Does Mishkan T'filah have v'chayim or v'chayim tovim?",
              "Line 8 English is Metsudah's ('in His mercy'), so it lacks 'all who dwell on earth'. The added words are spelled as in Aleinu (Metsudah)."],
+ "lcha_dodi_1": ["Hebrew and English: Metsudah siddur (traditional). No Reform wording change is marked; I don't know of one in Mishkan T'filah's L'cha Dodi. Please compare each line.",
+                 "Which of the nine stanzas does Mishkan T'filah print, and which does CBB sing?",
+                 "The refrain is shown once (line 1); it is sung after every stanza.",
+                 "Stanza 4 (ben Yishai, redemption): does Mishkan T'filah keep it as printed here?"],
+ "lcha_dodi_2": ["Stanzas 6-8 (rebuilding the city, the man from Peretz): does Mishkan T'filah print them?",
+                 "Last line ends 'Bo'i chalah' three times with 'Shabbat malk'ta', as in the Metsudah siddur. Mishkan T'filah wording and CBB custom?"],
+ "ps92_1": ["Psalm 92 (Metsudah siddur), one verse per line. Does Mishkan T'filah print the whole psalm, or only some verses? Which does CBB sing?"],
+ "ps92_2": ["Line 4 English has the translator's bracketed words.", "CBB often sings Tzadik katamar (line 5)? Confirm the verses sung."],
+ "ps93": ["Psalm 93 (Metsudah siddur). Confirm Mishkan T'filah prints it here and with the same wording."],
  "hamotzi": ["No Sefaria English found for this text."],
  "shehecheyanu": ["No Sefaria English found for this text."],
 }

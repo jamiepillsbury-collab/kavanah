@@ -1475,6 +1475,496 @@
      "verify": true
     }
    ]
+  },
+  {
+   "id": "lcha_dodi_1",
+   "title": "L'cha Dodi (1)",
+   "about": "Come, my beloved, to greet the bride: refrain and stanzas 1-4",
+   "order": 24,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Lekha Dodi (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "kabbalat",
+   "seq": 24,
+   "check": [
+    "Hebrew and English: Metsudah siddur (traditional). No Reform wording change is marked; I don't know of one in Mishkan T'filah's L'cha Dodi. Please compare each line.",
+    "Which of the nine stanzas does Mishkan T'filah print, and which does CBB sing?",
+    "The refrain is shown once (line 1); it is sung after every stanza.",
+    "Stanza 4 (ben Yishai, redemption): does Mishkan T'filah keep it as printed here?"
+   ],
+   "lines": [
+    {
+     "he": "לְכָה דוֹדִי לִקְרַאת כַּלָּה, פְּנֵי שַׁבָּת נְקַבְּלָה",
+     "tl": "L'chah dodi likrat kalah, p'nei Shabbat n'kab'lah",
+     "tlf": false,
+     "en": "Come my Beloved Friend to greet the bride, let us welcome the Sabbath.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "שָׁמוֹר וְזָכוֹר בְּדִבּוּר אֶחָד, הִשְׁמִיעָנוּ אֵל הַמְיוּחָד",
+     "tl": "Shamor v'zachor b'dibur echad, hishmi-anu eil ham'yuchad",
+     "tlf": false,
+     "en": "“Preserve” and “Remember” in a single utterance the One Almighty caused us to hear",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "יְיָ אֶחָד וּשְׁמוֹ אֶחָד, לְשֵׁם וּלְתִפְאֶרֶת וְלִתְהִלָּה",
+     "tl": "Adonai echad ush'mo echad, l'sheim ul'tif'eret v'lit'hilah",
+     "tlf": false,
+     "en": "Adonai is One, and His Name is One; for fame, for glory, and for praise.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "לִקְרַאת שַׁבָּת לְכוּ וְנֵלְכָה, כִּי הִיא מְקוֹר הַבְּרָכָה",
+     "tl": "Likrat Shabbat l'chu v'neilchah, ki hi m'kor hab'rachah",
+     "tlf": false,
+     "en": "To greet the Sabbath, come let us go for it is the source of blessing",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "מֵרֹאשׁ מִקֶּדֶם נְסוּכָה, סוֹף מַעֲשֶׂה בְּמַחֲשָׁבָה תְּחִלָּה",
+     "tl": "Meirosh mikedem n'suchah, sof ma-aseh b'machashavah t'chilah",
+     "tlf": false,
+     "en": "From the very beginning, of old, it was appointed; last in creation, first in [God's] thought.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "מִקְדַּשׁ מֶלֶךְ עִיר מְלוּכָה, קוּמִי צְאִי מִתּוֹךְ הַהֲפֵכָה",
+     "tl": "Mikdash melech ir m'luchah, kumi tz'i mitoch hahafeichah",
+     "tlf": false,
+     "en": "Sanctuary of the King, royal city, arise, come forth from the upheaval",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "רַב לָךְ שֶׁבֶת בְּעֵמֶק הַבָּכָא, וְהוּא יַחְמוֹל עָלַיִךְ חֶמְלָה",
+     "tl": "Rav lach shevet b'eimek habacha, v'hu yachmol alayich chemlah",
+     "tlf": false,
+     "en": "Too long have you dwelt in the valley of weeping; He will show you abundant pity.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "הִתְנַעֲרִי מֵעָפָר קוּמִי, לִבְשִׁי בִּגְדֵי תִפְאַרְתֵּךְ עַמִּי",
+     "tl": "Hitna-ari mei-afar kumi, livshi bigdei tif'arteich ami",
+     "tlf": false,
+     "en": "Shake the dust off yourself, arise, dress up in your garments of glory, my people",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "עַל יַד בֶּן יִשַּׁי בֵּית הַלַּחְמִי, קָרְבָה אֶל נַפְשִׁי גְּאָלָהּ",
+     "tl": "Al yad ben Yishai beit halachmi, korvah el nafshi g'alah",
+     "tlf": false,
+     "en": "Through the son of Yishai the Bethlehemite, draw near to my soul and redeem it.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "lcha_dodi_2",
+   "title": "L'cha Dodi (2)",
+   "about": "Stanzas 5-9, ending Bo'i v'shalom",
+   "order": 25,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Lekha Dodi (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "kabbalat",
+   "seq": 25,
+   "check": [
+    "Stanzas 6-8 (rebuilding the city, the man from Peretz): does Mishkan T'filah print them?",
+    "Last line ends 'Bo'i chalah' three times with 'Shabbat malk'ta', as in the Metsudah siddur. Mishkan T'filah wording and CBB custom?"
+   ],
+   "lines": [
+    {
+     "he": "הִתְעוֹרְרִי, הִתְעוֹרְרִי, כִּי בָא אוֹרֵךְ קוּמִי אוֹרִי",
+     "tl": "Hit'or'ri, hit'or'ri, ki va oreich kumi ori",
+     "tlf": false,
+     "en": "Wake up! wake up! for your light has come, arise and shine.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "עוּרִי עוּרִי שִׁיר דַּבֵּרִי, כְּבוֹד יְיָ עָלַיִךְ נִגְלָה",
+     "tl": "Uri uri shir dabeiri, k'vod Adonai alayich niglah",
+     "tlf": false,
+     "en": "Awaken! awaken! utter a song, The glory of Adonai is revealed upon you.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "לֹא תֵבוֹשִׁי וְלֹא תִכָּלְמִי, מַה תִּשְׁתּוֹחֲחִי וּמַה תֶּהֱמִי",
+     "tl": "Lo teivoshi v'lo tikalmi, ma tishtochachi uma tehemi",
+     "tlf": false,
+     "en": "Feel not ashamed or humiliated why are you bowed down, why do you moan?",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בָּךְ יֶחֱסוּ עֲנִיֵּי עַמִּי, וְנִבְנְתָה עִיר עַל תִּלָּהּ",
+     "tl": "Bach yechesu aniyei ami, v'nivn'tah ir al tilah",
+     "tlf": false,
+     "en": "In you will take refuge the poor of my people; and the city will be rebuilt on its ancient site.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וְהָיוּ לִמְשִׁסָּה שֹׁסָיִךְ, וְרָחֲקוּ כָּל מְבַלְּעָיִךְ",
+     "tl": "V'hayu limshisah shosayich, v'rachaku kol m'val'ayich",
+     "tlf": false,
+     "en": "They will be ravaged, those who ravaged you, and they will be cast far off, all who devour you.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "יָשִׂישׂ עָלַיִךְ אֱלֹהָיִךְ, כִּמְשׂוֹשׂ חָתָן עַל כַּלָּה",
+     "tl": "Yasis alayich Elohayich, kimsos chatan al kalah",
+     "tlf": false,
+     "en": "Your God will rejoice over you as a bridegroom rejoices over his bride.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "יָמִין וּשְׂמֹאל תִּפְרוֹצִי, וְאֶת יְיָ תַּעֲרִיצִי",
+     "tl": "Yamin us'mol tifrotzi, v'et Adonai ta-aritzi",
+     "tlf": false,
+     "en": "Right and left you will spread out. and Adonai, you will praise",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "עַל יַד אִישׁ בֶּן פַּרְצִי, וְנִשְׂמְחָה וְנָגִילָה",
+     "tl": "Al yad ish ben Partzi, v'nism'chah v'nagilah",
+     "tlf": false,
+     "en": "Through the man descended from Peretz we will rejoice and exult.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בּוֹאִי בְשָׁלוֹם עֲטֶרֶת בַּעְלָהּ, גַּם בְּשִׂמְחָה וּבְצָהֳלָה",
+     "tl": "Bo-i v'shalom ateret ba'lah, gam b'simchah uv'tzaholah",
+     "tlf": false,
+     "en": "Come in peace, crown of her husband, come rejoicing and with good cheer; amidst the faithful of the treasured people.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "תּוֹךְ אֱמוּנֵי עַם סְגֻלָּה, בֹּאִי כַלָּה בֹּאִי כַלָּה בֹּאִי כַלָּה שַׁבָּת מַלְכְּתָא",
+     "tl": "Toch emunei am s'gulah, bo-i chalah bo-i chalah bo-i chalah Shabbat malk'ta",
+     "tlf": false,
+     "en": "Come Bride, come Bride, come Bride, Shabbat Queen!",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "ps92_1",
+   "title": "Mizmor Shir (1)",
+   "about": "Psalm 92, verses 1-8: a song for the Shabbat day",
+   "order": 26,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 92 (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "kabbalat",
+   "seq": 26,
+   "check": [
+    "Psalm 92 (Metsudah siddur), one verse per line. Does Mishkan T'filah print the whole psalm, or only some verses? Which does CBB sing?"
+   ],
+   "lines": [
+    {
+     "he": "מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת",
+     "tl": "Mizmor shir l'yom haShabbat",
+     "tlf": false,
+     "en": "A Psalm, a song for the Shabbat day.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "טוֹב לְהֹדוֹת לַייָ וּלְזַמֵּר לְשִׁמְךָ עֶלְיוֹן",
+     "tl": "Tov l'hodot ladonai ul'zameir l'shimcha elyon",
+     "tlf": false,
+     "en": "It is good to thank Adonai, and sing praise to Your Name, Most High.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "לְהַגִּיד בַּבֹּקֶר חַסְדֶּךָ וֶאֱמוּנָתְךָ בַּלֵּילוֹת",
+     "tl": "L'hagid baboker chasdecha ve-emunat'cha baleilot",
+     "tlf": false,
+     "en": "To relate Your kindliness in the morning, and Your faithfulness in the nights.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "עֲלֵי־עָשׂוֹר וַעֲלֵי־נָבֶל עֲלֵי הִגָּיוֹן בְּכִנּוֹר",
+     "tl": "Alei asor va-alei navel alei higayon b'chinor",
+     "tlf": false,
+     "en": "Upon a ten-stringed instrument and lute, in meditation upon the harp.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "כִּי שִׂמַּחְתַּנִי יְיָ בְּפָעֳלֶךָ בְּמַעֲשֵׂי יָדֶיךָ אֲרַנֵּן",
+     "tl": "Ki simachtani Adonai b'fa-olecha b'ma-asei yadecha aranein",
+     "tlf": false,
+     "en": "For You have given me joy, Adonai, with Your deeds, at the work of Your hands I sing joyously.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "מַה־גָּדְלוּ מַעֲשֶׂיךָ יְיָ מְאֹד עָמְקוּ מַחְשְׁבֹתֶיךָ",
+     "tl": "Ma gadlu ma-asecha Adonai m'od amku machsh'votecha",
+     "tlf": false,
+     "en": "How great are Your works, Adonai; how infinitely profound are Your thoughts.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "אִישׁ־בַּעַר לֹא יֵדָע וּכְסִיל לֹא־יָבִין אֶת־זֹאת",
+     "tl": "Ish ba-ar lo yeida uch'sil lo yavin et zot",
+     "tlf": false,
+     "en": "An empty-headed man cannot know, nor does a fool understand this",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "בִּפְרֹחַ רְשָׁעִים כְּמוֹ עֵשֶׂב וַיָּצִיצוּ כָּל־פֹּעֲלֵי אָוֶן לְהִשָּׁמְדָם עֲדֵי־עַד",
+     "tl": "Bifroach r'sha-im k'mo eisev vayatzitzu kol po-alei aven l'hishamdam adei ad",
+     "tlf": false,
+     "en": "When the wicked bloom like grass, and all the evildoers blossom— it is so that they may be destroyed forever.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "ps92_2",
+   "title": "Mizmor Shir (2)",
+   "about": "Psalm 92, verses 9-16: the righteous flourish like a palm",
+   "order": 27,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 92 (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "kabbalat",
+   "seq": 27,
+   "check": [
+    "Line 4 English has the translator's bracketed words.",
+    "CBB often sings Tzadik katamar (line 5)? Confirm the verses sung."
+   ],
+   "lines": [
+    {
+     "he": "וְאַתָּה מָרוֹם לְעֹלָם יְיָ",
+     "tl": "V'atah marom l'olam Adonai",
+     "tlf": false,
+     "en": "But You will remain on high forever Adonai.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "כִּי הִנֵּה אֹיְבֶיךָ יְיָ כִּי־הִנֵּה אֹיְבֶיךָ יֹאבֵדוּ יִתְפָּרְדוּ כָּל־פֹּעֲלֵי אָוֶן",
+     "tl": "Ki hinei oyvecha Adonai ki hinei oyvecha yoveidu yitpardu kol po-alei aven",
+     "tlf": false,
+     "en": "For behold, Your enemies, Adonai; For behold, Your enemies shall perish; dispersed shall be all evildoers.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וַתָּרֶם כִּרְאֵים קַרְנִי בַּלֹּתִי בְּשֶׁמֶן רַעֲנָן",
+     "tl": "Vatarem kir'eim karni baloti b'shemen ra-anan",
+     "tlf": false,
+     "en": "You uplifted my horn like that of a unicorn; I am saturated with fresh oil.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "וַתַּבֵּט עֵינִי בְּשׁוּרָי בַּקָּמִים עָלַי מְרֵעִים תִּשְׁמַעְנָה אָזְנָי",
+     "tl": "Vatabeit eini b'shurai bakamim alai m'rei-im tishmanah oznai",
+     "tlf": false,
+     "en": "My eye has seen [the defeat of] those who spy on me; of the wicked who rise against me, my ears have heard [that they are doomed].",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "צַדִּיק כַּתָּמָר יִפְרָח כְּאֶרֶז בַּלְּבָנוֹן יִשְׂגֶּה",
+     "tl": "Tzadik katamar yifrach k'erez bal'vanon yisgeh",
+     "tlf": false,
+     "en": "The righteous will blossom like a date palm, like a cedar in Lebanon, he will grow tall.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "שְׁתוּלִים בְּבֵית יְיָ בְּחַצְרוֹת אֱלֹהֵינוּ יַפְרִיחוּ",
+     "tl": "Sh'tulim b'veit Adonai b'chatzrot Eloheinu yafrichu",
+     "tlf": false,
+     "en": "Planted in the House of Adonai, in the courtyards of our God they will blossom.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "עוֹד יְנוּבוּן בְּשֵׂיבָה דְּשֵׁנִים וְרַעֲנַנִּים יִהְיוּ",
+     "tl": "Od y'nuvun b'seivah d'sheinim v'ra-ananim yihyu",
+     "tlf": false,
+     "en": "They will still be fruitful in old age; they will be full of sap and freshness.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "לְהַגִּיד כִּי־יָשָׁר יְיָ צוּרִי וְלֹא־עַוְלָתָה בּוֹ",
+     "tl": "L'hagid ki yashar Adonai tzuri v'lo avlatah bo",
+     "tlf": false,
+     "en": "To declare that Adonai is upright; He is my Stronghold; in Whom there is no injustice.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "ps93",
+   "title": "Adonai Malach (Psalm 93)",
+   "about": "God reigns, robed in majesty",
+   "order": 28,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 93 (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "kabbalat",
+   "seq": 28,
+   "check": [
+    "Psalm 93 (Metsudah siddur). Confirm Mishkan T'filah prints it here and with the same wording."
+   ],
+   "lines": [
+    {
+     "he": "יְיָ מָלָךְ גֵּאוּת לָבֵשׁ לָבֵשׁ יְיָ עֹז הִתְאַזָּר",
+     "tl": "Adonai malach gei-ut laveish laveish Adonai oz hit'azar",
+     "tlf": false,
+     "en": "Adonai had begun His reign He has clothed Himself with majesty; Adonai has clothed Himself, He has girded Himself with strength.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "אַף־תִּכּוֹן תֵּבֵל בַּל־תִּמּוֹט",
+     "tl": "Af tikon teiveil bal timot",
+     "tlf": false,
+     "en": "He has firmly established the world so that it cannot be moved.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "נָכוֹן כִּסְאֲךָ מֵאָז מֵעוֹלָם אָתָּה",
+     "tl": "Nachon kis'acha mei-az mei-olam atah",
+     "tlf": false,
+     "en": "Your throne stands firm from of old, You are from eternity.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "נָשְׂאוּ נְהָרוֹת יְיָ נָשְׂאוּ נְהָרוֹת קוֹלָם יִשְׂאוּ נְהָרוֹת דָּכְיָם",
+     "tl": "Nas'u n'harot Adonai nas'u n'harot kolam yis'u n'harot dochyam",
+     "tlf": false,
+     "en": "The rivers have raised—Adonai— the rivers have raised their voice, the rivers raise their raging waves.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "מִקֹּלוֹת מַיִם רַבִּים אַדִּירִים מִשְׁבְּרֵי־יָם אַדִּיר בַּמָּרוֹם יְיָ",
+     "tl": "Mikolot mayim rabim adirim mishb'rei yam adir bamarom Adonai",
+     "tlf": false,
+     "en": "More than the sound of many waters, mightier than the breakers of the sea Mighty on high, are You, Adonai.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    },
+    {
+     "he": "עֵדֹתֶיךָ נֶאֶמְנוּ מְאֹד לְבֵיתְךָ נָאֲוָה־קֹּדֶשׁ יְיָ לְאֹרֶךְ יָמִים",
+     "tl": "Eidotecha ne-emnu m'od l'veit'cha na-avah kodesh Adonai l'orech yamim",
+     "tlf": false,
+     "en": "Your testimonies are extremely faithful, holiness is becoming to Your House, Adonai—for the length of days.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "verify": true
+    }
+   ]
   }
  ]
 }

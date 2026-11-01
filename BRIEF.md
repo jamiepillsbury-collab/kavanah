@@ -35,3 +35,10 @@ Fix what failed: after a long break she forgot most of it and Duolingo had no wa
 - **Hard exercise: type the sound**: vowelled word (e.g. פְּזוֹרָה), free-text translit box, Check. Needs lenient matching (ch/kh, tz/ts, apostrophes, doubled letters).
 - Pattern: select then Check; feedback bar at bottom; progress bar at top; X to quit.
 - Skip for prayer focus: geresh letters (ג׳ j, ז׳ zh, צ׳ ch), modern-only sounds.
+
+## Scope expansion (Jamie, 2026-11-01)
+Goal: everything a young Jew learns for bar/bat mitzvah, Duolingo-style. Plus two new tracks in the style of the Imprint app (short visual explainer cards, illustrated concepts, swipe-through lessons, quick check questions):
+- **Jewish history**: biblical and ancient history through to modern.
+- **Torah stories**: the Five Books, plus the other stories central to tradition and holidays: Ruth (Shavuot), Esther (Purim), Jonah (Yom Kippur), Hannah (Rosh Hashanah haftarah), prophets, and post-biblical ones like Hanukkah (Books of Maccabees, Talmud). Label each story's source.
+- **Kabbalah**: core ideas (Ein Sof, sefirot, tzimtzum, tikkun olam, etc.), framed for a Reform learner.
+Open: bar/bat mitzvah prep traditionally includes Torah/haftarah trope (cantillation), which the app currently strips; decide if/when to add it. History/Kabbalah explanations are original writing; cite sources and mark scholarly vs traditional accounts.

@@ -467,6 +467,7 @@
       return { id: `pr-${p.id}`, title: p.title, subtitle: p.about, prayer: p.id, unit: p.unit || "blessings", items };
     });
     const UNITS = [["blessings", "Blessings", "Line by line, then word order and missing words"],
+                   ["kabbalat", "Kabbalat Shabbat", "Welcoming Shabbat: L'cha Dodi, Psalms 92 and 93"],
                    ["shma", "Sh'ma and its blessings", "Shabbat evening, Ma'ariv Aravim to V'shamru"],
                    ["amidah", "Amidah", "Shabbat evening, Avot v'Imahot to Shalom Rav"],
                    ["concluding", "After the Amidah", "Shabbat evening: Vay'chulu, Magen Avot, Aleinu, Mourner's Kaddish"]];

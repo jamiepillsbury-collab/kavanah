@@ -34,7 +34,11 @@ EXCEPT.update({"בָּרְכוּ": "Bar'chu", "הַמְבֹרָךְ": "ham'vorac
 # Amidah (10/29 v15): names and kamatz katan
 EXCEPT.update({"אַבְרָהָם": "Avraham", "יִצְחָק": "Yitzchak", "שָׂרָה": "Sarah", "רִבְקָה": "Rivkah", "רָחֵל": "Rachel", "לֵאָה": "Leah",
     "וֵאלֹהֵי": "v'Elohei", "קָדְשֶׁךָ": "kodshecha", "הַמְבָרֵךְ": "ham'vareich", "מְחַיֵּה": "m'chayeih", "מְחַיֶּה": "m'chayeh"})
-EXCEPT.update({"כּוֹרְעִים": "kor'im", "בְּגָבְהֵי": "b'govhei"})  # 10/30 Aleinu: sh'va after holam is vocal; kamatz katan
+EXCEPT.update({"כּוֹרְעִים": "kor'im", "בְּגָבְהֵי": "b'govhei"})
+EXCEPT.update({"קָרְבָה": "korvah", "אָזְנָי": "oznai", "דָּכְיָם": "dochyam", "לַייָ": "ladonai", "בַּעְלָהּ": "ba'lah", "יִשַּׁי": "Yishai", "פַּרְצִי": "Partzi",
+               "וְלִתְהִלָּה": "v'lit'hilah", "הַמְיוּחָד": "ham'yuchad", "וְנֵלְכָה": "v'neilchah", "הִתְעוֹרְרִי": "hit'or'ri", "תִכָּלְמִי": "tikalmi",
+               "וֶאֱמוּנָתְךָ": "ve-emunat'cha", "עָמְקוּ": "amku", "לְהִשָּׁמְדָם": "l'hishamdam", "אֹיְבֶיךָ": "oyvecha", "יִתְפָּרְדוּ": "yitpardu",
+               "מָלָךְ": "malach", "נָשְׂאוּ": "nas'u", "לְבֵיתְךָ": "l'veit'cha", "גָּדְלוּ": "gadlu"})  # 11/01 Kabbalat Shabbat: kamatz katan in korvah, oznai, dochyam  # 10/30 Aleinu: sh'va after holam is vocal; kamatz katan
 
 def _letters(word):
     """Split a word into [letter, set(points)]."""
