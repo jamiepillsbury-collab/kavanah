@@ -13,6 +13,8 @@ DONE 11/01 (v21): Creation pilot, 2 Explore lessons (status draft, Jamie to revi
 - Translit flag on Gen 1:2 (haytah). Lessons run 14-15 cards, longer than the plan's 6-10; ask Jamie if that feels right.
 - To add a Torah text: fetch in browser pane (sefaria.org tab, /api/v3/texts, versions "hebrew|Miqra according to the Masorah" + "english|The Contemporary Torah, Jewish Publication Society, 2006"), strip regex + footnotes, add to a sefaria-*.json with sha, verify in Python.
 NEXT: Jamie tries both lessons (tone, length, error flow), then rest of Genesis (Garden of Eden next; ask first).
+11/01 eve: Eden outline shown in chat (2 lessons x 14 cards: Eden (1) Gen 2:8-25 adam/adamah, l'ovdah ul'shomrah + Kohelet Rabbah 7:13, ezer k'negdo + Rashi 2:18, BR 8:1, Tu BiShvat; Eden (2) Gen 3, fruit not named, Ayekah + Shneur Zalman/Buber, no original sin/yetzer hara, Etz chayim hi). Not yet approved; Creation feedback not yet given. Verses to fetch: Gen 2:8-9, 2:15, 2:18, 2:21-23, 3:4-6, 3:8-9, 3:22-24 -> sefaria-eden.json.
+CBB website https://cbbsb.org/ = resource for CBB practice (Kiddush/Vay'chulu, schedule, melodies). Check with WebFetch before asking Jamie; cite page.
 
 DONE 11/01 (v20): weekly Torah portion (PLAN step 2). tools/gen_parashah.py (pyluach, run in cloud: pip install pyluach) -> data/parashah.json, Shabbatot 2026-10 to 2031, Diaspora + Israel schedules (18 weeks differ), holiday Shabbatot named. "This Shabbat" card on Learn and Explore: portion, book, matching story lessons (lesson "parashah" names must match data/parashah.json; build_explore.py checks). Settings > Reading schedule (Diaspora default). Headless-tested 3 dates. Open: which schedule CBB follows.
 
