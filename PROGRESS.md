@@ -7,13 +7,20 @@ State: v18 committed locally (Jamie: click Push origin in GitHub Desktop). Live 
 Sefaria: shells blocked. Use the desktop browser pane on https://www.sefaria.org (same origin) + javascript_tool. Cantillation strip regex MUST be [\u0591-\u05AF\u05BD\u05C0\u05C3]. Strip English footnotes with DOMParser (remove .footnote, .footnote-marker). Copy results into files, then verify per-line SHA-256 of NFC text in JS vs Python before using.
 Headless test (cloud): stage app files, python http.server, Playwright; abort googleapis routes and use waitUntil domcontentloaded or it hangs; open lessons via button.lesson after opening all <details>.
 
+DONE 11/01 (v21): Creation pilot, 2 Explore lessons (status draft, Jamie to review): x-st-gen-01 "Creation (1): In the beginning" (14 cards), x-st-gen-02 "Creation (2): God's image and the seventh day" (15 cards). Unit x-st-gen "Genesis", parashah Bereshit.
+- data/src/x-stories.json = authored lessons. Text cards use {"kind":"text","sefaria":"<ref>"}; build fills he/en/licence from data/src/sefaria-creation.json (Gen 1:1-3, 1:26-27, 1:31, 2:1-3, 2:7; Masorah he CC-BY-SA, Contemporary Torah en CC-BY-NC; 20 lines hash-verified). build cleans {פ}, יְהֹוָה -> יְיָ, ",X" spacing.
+- Sources named per card: Rashi on Gen 1:1 and 1:26, Bereshit Rabbah 12:15, Mishnah Sanhedrin 4:5 (manuscript note), Pittsburgh Platform 1885, Heschel The Sabbath, source hypothesis. All summaries are mine; Jamie checks (check_note on each lesson).
+- Translit flag on Gen 1:2 (haytah). Lessons run 14-15 cards, longer than the plan's 6-10; ask Jamie if that feels right.
+- To add a Torah text: fetch in browser pane (sefaria.org tab, /api/v3/texts, versions "hebrew|Miqra according to the Masorah" + "english|The Contemporary Torah, Jewish Publication Society, 2006"), strip regex + footnotes, add to a sefaria-*.json with sha, verify in Python.
+NEXT: Jamie tries both lessons (tone, length, error flow), then rest of Genesis (Garden of Eden next; ask first).
+
 DONE 11/01 (v20): weekly Torah portion (PLAN step 2). tools/gen_parashah.py (pyluach, run in cloud: pip install pyluach) -> data/parashah.json, Shabbatot 2026-10 to 2031, Diaspora + Israel schedules (18 weeks differ), holiday Shabbatot named. "This Shabbat" card on Learn and Explore: portion, book, matching story lessons (lesson "parashah" names must match data/parashah.json; build_explore.py checks). Settings > Reading schedule (Diaspora default). Headless-tested 3 dates. Open: which schedule CBB follows.
 
 DONE 11/01 (v19): Explore tab + card engine (PLAN-imprint.md build step 1). No lesson content yet; Explore shows "Coming next: Genesis".
 - explore.js (plugs into app.js via self.KavanahExplore(api)): hook/concept/term/text/timeline/diagram/relevance/reflect/recap cards, swipe or Next/Back; checks pick/why/tf/order, pretest guess (revealed on recap), "I'm sure" toggle, "I don't know"; wrong = your answer + why it's tempting + answer + why + Look again; missed idea re-asked in another form before recap; To revisit list (leaves after right on 2 different days, sure-errors first); source chip -> ref + Sefaria link; Flag card (list in Settings, kept on Reset); reflection notes; Mark reviewed. Progress per idea in state.items "x:<lesson>:<idea>" (fades like letters); Practice tab has Ideas block.
 - tools/build_explore.py: data/src/x-<track>.json -> data/explore.json, validates (src types, wrong_why per choice, look_again, last card recap), fills tl, warns if a lesson id vanishes. tools/test_explore_fixture.json = placeholder lesson for headless tests (build with --src fixture --out <test copy>).
 - Headless: fixture lesson run through, no JS errors.
-NEXT: Creation pilot (outline sent to Jamie 11/01; needs Sefaria fetch of Gen 1:1-2:3, Masorah he + Contemporary Torah en).
+
 
 DONE 11/01 (v18): "Kabbalat Shabbat" unit (id kabbalat), shown before Sh'ma. 5 lessons: L'cha Dodi (1) refrain + stanzas 1-4 (9 lines), L'cha Dodi (2) stanzas 5-9 (10), Mizmor Shir (1)/(2) Psalm 92 one verse per line (8+8), Adonai Malach Psalm 93 (6).
 - data/src/sefaria-kabbalat.json: Siddur Ashkenaz Shabbat Kabbalat Shabbat Lekha Dodi, Psalm 92, 93, Metsudah he/en (CC-BY), 24 segs hash-verified. L'cha Dodi repeated refrains dropped ("segs" = original numbers).

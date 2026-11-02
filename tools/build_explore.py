@@ -4,7 +4,7 @@ Lesson ids and check "idea" keys are progress keys: never rename or remove them 
 Usage: python tools/build_explore.py            (all data/src/x-*.json -> data/explore.json)
        python tools/build_explore.py --src F --out O   (test with a fixture)
 Schema: see PLAN-imprint.md section 2."""
-import argparse, glob, json, os, sys, unicodedata
+import argparse, glob, json, os, re, sys, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from translit import tl
 
@@ -15,6 +15,20 @@ KINDS = {"hook", "concept", "term", "text", "timeline", "diagram", "check", "rel
 NO_SRC = {"reflect", "recap", "relevance"}
 CHECKS = {"pick", "why", "tf", "order"}
 errors, warns = [], []
+SEF = {}  # (ref, lang) -> source entry, from data/src/sefaria-*.json ("sources" lists)
+
+def load_sefaria():
+    for f in glob.glob(os.path.join(ROOT, "data", "src", "sefaria-*.json")):
+        d = json.load(open(f, encoding="utf-8"))
+        if isinstance(d, dict) and isinstance(d.get("sources"), list):
+            for x in d["sources"]:
+                if isinstance(x, dict) and "ref" in x and "lang" in x: SEF[(x["ref"], x["lang"])] = x
+
+def clean_he(t):
+    t = re.sub(r"\s*\{[פס]\}", "", t).replace("יְהֹוָה", "יְיָ")  # paragraph marks; the Name as elsewhere in the app
+    return nfc(t.strip())
+
+def clean_en(t): return re.sub(r",(?=[A-Za-z])", ", ", t).strip()  # Sefaria poetry line breaks lose their space
 
 def err(where, msg): errors.append(f"{where}: {msg}")
 
@@ -23,16 +37,23 @@ def nfc(s): return unicodedata.normalize("NFC", s) if isinstance(s, str) else s
 def check_card(c, n, cards, where):
     k = c.get("kind")
     if k not in KINDS: return err(where, f"unknown kind {k!r}")
-    if k not in NO_SRC:
-        s = c.get("src") or {}
-        if s.get("type") not in SRC: err(where, f"src.type must be one of {sorted(SRC)}")
     for f in ("he",):
         if f in c: c[f] = nfc(c[f])
+    if k == "text" and c.get("sefaria"):  # fill from the verified Sefaria file; never hand-typed
+        ref = c["sefaria"]; he_s, en_s = SEF.get((ref, "he")), SEF.get((ref, "en"))
+        if not (he_s and en_s): return err(where, f"no Sefaria he+en for {ref!r} in data/src/sefaria-*.json")
+        c.update(ref=c.get("ref") or ref, he="\n".join(map(clean_he, he_s["text"])), en=" ".join(map(clean_en, en_s["text"])),
+                 en_src=en_s["version"], license=en_s["license"], he_src=f'{he_s["version"]} ({he_s["license"]})')
+        c.setdefault("src", {"type": "torah", "ref": ref})
+    if k not in NO_SRC:
+        s_ = c.get("src") or {}
+        if s_.get("type") not in SRC: err(where, f"src.type must be one of {sorted(SRC)}")
     if k in ("term", "text"):
         if not c.get("he"): err(where, "needs he")
         if c.get("tl") is None and c.get("he"):
-            c["tl"], flagged = tl(c["he"])
-            if flagged: c["tlf"] = True
+            parts = [tl(x) for x in c["he"].split("\n")]
+            c["tl"] = "\n".join(x[0] for x in parts)
+            if any(x[1] for x in parts): c["tlf"] = True
     if k == "text" and not (c.get("en_src") and c.get("license") and c.get("ref")):
         err(where, "text card needs ref, en_src and license (Sefaria version)")
     if k in ("concept", "hook") and not c.get("body"): err(where, "needs body")
@@ -65,6 +86,7 @@ def check_card(c, n, cards, where):
         err(where, "look_again must point to an earlier non-check card")
 
 def build(srcs, out):
+    load_sefaria()
     tracks = {tid: {"id": tid, "title": title, "units": []} for tid, title in TRACKS}
     pnames = set(json.load(open(os.path.join(ROOT, "data", "parashah.json"), encoding="utf-8"))["names"])
     lesson_ids = set()

@@ -61,7 +61,8 @@ self.KavanahExplore = (api) => {
           h("p", { class: "xbody" }, rich(c.gloss)), c.tlf ? h("div", { class: "flag" }, "Transliteration to check.") : null];
       case "text":
         return [h("p", { class: "prompt-label" }, c.ref), he(c.he), c.tl ? h("div", { class: "hint" }, c.tl) : null,
-          h("p", { class: "xbody" }, c.en), h("small", { class: "src" }, `English: ${c.en_src} (${c.license})`)];
+          h("p", { class: "xbody" }, c.en), h("small", { class: "src" }, `${c.he_src ? "Hebrew: " + c.he_src + " · " : ""}English: ${c.en_src} (${c.license})`),
+          c.tlf ? h("div", { class: "flag" }, "Transliteration has a spot to check (often a kamatz katan or sh'va).") : null];
       case "timeline": {
         const pts = l.cards.filter((x) => x.kind === "timeline");
         return [h("ol", { class: "tl-strip" }, pts.map((x) => h("li", { class: x === c ? "on" : "" }, h("b", {}, x.when), h("span", {}, x === c ? rich(x.body) : x.body))))];

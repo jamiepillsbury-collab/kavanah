@@ -205,3 +205,4 @@ button.small { padding: 6px 14px; font-size: .9rem; }
 .overlay > * { max-width: 528px; margin-left: auto; margin-right: auto; }
 .row-btns > .primary, .row-btns > .secondary { margin-top: 10px; }
 .card.week { text-align: left; margin-bottom: 14px; border-color: var(--accent); }
+.xcard .line-he, .xcard .hint { white-space: pre-line; }
