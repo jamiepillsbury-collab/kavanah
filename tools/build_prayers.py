@@ -17,6 +17,8 @@ SRC = {}
 for s in raw["sources"] + raw2["sources"] + raw3["sources"] + raw4["sources"] + raw5["sources"] + raw6["sources"]:
     SRC[("BARCHU_HE" if "Maariv, Barchu" in s["ref"] else None) or f'{s["ref"]}|{s["lang"]}'] = s
 def key(ref, lang): return SRC.get(f"{ref}|{lang}")
+raw7 = json.load(open(os.path.join(ROOT, "data/src/sefaria-torah-service.json"), encoding="utf-8"))  # Torah service; own key space (|ts), its Haftarah entry holds other segs than sefaria-texts.json
+for s in raw7["sources"]: SRC[f'{s["ref"]}|{s["lang"]}|ts'] = s
 S = {
  "barchu_he": SRC["BARCHU_HE"], "barchu_en": key("Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Barchu", "en"),
  "torah_he": key("Siddur Sefard, Shabbat Morning Services, Blessings on Torah Reading", "he"),
@@ -43,12 +45,16 @@ S = {
  **{f"{k}_{l}": key(f"Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, {n}", l) for k, n in
     (("ld", "Lekha Dodi"), ("p92", "Psalm 92"), ("p93", "Psalm 93")) for l in ("he", "en")},
  "bs_en": key("Siddur Ashkenaz, Weekday, Maariv, Blessings of the Shema, Shema (seg 4)", "en"),
+ **{f"{k}_{l}": SRC[f"{r}|{l}|ts"] for k, r in (("ts", "Siddur Sefard, Shabbat Morning Services, Shabbat Torah Reading"), ("hg", "Siddur Sefard, Shabbat Morning Services, Hagbahah"),
+    ("hb", "Siddur Sefard, Shabbat Morning Services, Haftarah Blessings"), ("p148", "Psalms 148:13-14"), ("pr4", "Proverbs 4:2"), ("lam", "Lamentations 5:21")) for l in ("he", "en")},
 }
 NAME = "יְיָ"  # Mishkan T'filah prints the Name as yod-yod (display convention, not a wording change)
 
 def clean_he(t):
     t = re.sub(r"^[^ְ-ׇ]*?:\s*(?=\S*[ְ-ׇ])", "", t)  # unpointed instruction prefix
     t = t.replace("‑", "").replace("לַיהֹוָה", "לַייָ").replace("יְהֹוָה", NAME).replace("יְהוָה", NAME).replace("יְיָ", NAME).replace("אֱלֹהֵינוּ", "אֱלֹהֵינוּ")
+    t = re.sub(r"\(\S+\)\s*\[(\S+)\]", r"\1", t)  # ketiv (x) [qere]: keep the read form
+    t = re.sub(r"\((?=[^)]*[א-ת]\"[א-ת])[^)]*\)", "", t)  # unpointed bracketed instruction, e.g. (בראש השנה... )
     t = t.replace("(", "").replace(")", "")
     t = re.sub(r"([א-ת])([֑-ׇ]*?)\u05BA", lambda m: m[0] if m[1] == "ו" else m[1] + m[2] + "\u05B9", t)  # holam haser (Metsudah) -> holam, except on vav
     t = re.sub(r"\.\s+(?=\S)(?!בָּרוּךְ)", ", ", t)  # mid-line periods read as commas
@@ -56,7 +62,7 @@ def clean_he(t):
 def clean_en(t):
     t = re.sub(r"^(The [^:]{0,60}(says|repeats|responds)[^:]*|Recite (quietly|aloud)|\(When reciting Kiddush on wine\))\s*:?\s*", "", t)
     t = re.sub(r"\s*Recite aloud:\s*$", "", t)
-    for a, b in (("יהוה", "Adonai"), ("Adonoy", "Adonai"), ("the Lord", "Adonai"), ("Shabbos", "Shabbat")): t = t.replace(a, b)
+    for a, b in (("יהוה", "Adonai"), ("Adonoy", "Adonai"), ("the Lord", "Adonai"), ("O LORD", "Adonai"), ("the LORD", "Adonai"), ("Shabbos", "Shabbat")): t = t.replace(a, b)
     t = re.sub(r"\s+", " ", t.replace("(", "").replace(")", "")).strip()
     t = re.sub(r",\s*—\s*", " — ", t)  # Metsudah ", —and" -> " — and"
     return t[:1].upper() + t[1:]
@@ -234,6 +240,43 @@ PRAYERS = [
    (("p93_he", 0, 2), ("p93_en", 0, ("cut", "The rivers", "raging waves."))),
    (("p93_he", 0, 3), ("p93_en", 0, ("cut", "More than", "are You, Adonoy."))),
    (("p93_he", 0, 4), ("p93_en", 0, ("cut", "Your testimonies", "length of days.")))]),
+ ("t_ein_kamocha", "Ein Kamocha", "Taking out the Torah: none like You", [
+   (("ts_he", 0, 1), ("ts_en", 0, ("cut", "There is none", "Your works."))),
+   (("ts_he", 0, 2), ("ts_en", 0, ("cut", "Your kingship", "every generation."))),
+   (("ts_he", 0, 3), ("ts_en", 0, ("cut", "Adonoy is King", "forever and ever."))),
+   (("ts_he", 0, 4), ("ts_en", 0, ("cut", "Adonoy will give", "with peace."))),
+   (("ts_he", 1, 0), ("ts_en", 1, ("cut", "Father of compassion", "Jerusalem."))),
+   (("ts_he", 1, 1), ("ts_en", 1, ("cut", "For in You alone", "Master of worlds.")))]),
+ ("t_vayhi", "Vay'hi Binsoa", "The ark opens; Sh'ma, Echad and Gadlu with the Torah in hand", [
+   (("ts_he", 2, ("w", 0, 0, 4)), ("ts_en", 2, ("cut", "And whenever", "would say:"))),
+   (("ts_he", 2, ("w", 0, 5, 10)), ("ts_en", 2, ("cut", "Rise, Adonoy", "flee before You."))),
+   (("ts_he", 2, 1), ("ts_en", 2, ("cut", "For from Zion", "from Jerusalem."))),
+   (("ts_he", 2, 2), ("ts_en", 2, ("cut", "Blessed is He", "in His holiness."))),
+   (("ts_he", 3, None), ("ts_en", 3, ("cut", "Hear Israel", "is One."))),
+   ([("ts_he", 4, ("w", 0, 0, 5)), ("ts_he", 4, ("w", 0, 6, 6))], ("ts_en", 4, None)),
+   (("ts_he", 5, None), ("ts_en", 5, None))]),
+ ("t_lcha", "L'cha Adonai", "The Torah procession: Yours, Adonai, is the greatness", [
+   (("ts_he", 6, ("w", 0, 0, 6)), ("ts_en", 6, ("cut", "Yours, Adonoy, is the greatness", "the beauty"))),
+   (("ts_he", 6, ("w", 0, 7, 10)), ("ts_en", 6, ("cut", "for everything", "[is Yours]"))),
+   (("ts_he", 6, 1), ("ts_en", 6, ("cut", "Yours, Adonoy, is the kingdom", "over all rulers."))),
+   (("ts_he", 6, 2), ("ts_en", 6, ("cut", "Exalt Adonoy, our God and", "Holy is He."))),
+   (("ts_he", 6, 3), ("ts_en", 6, ("cut", "Exalt Adonoy, Our God", "is holy.")))]),
+ ("t_vzot", "V'zot HaTorah", "Lifting the Torah for all to see", [
+   (("hg_he", 0, 0), ("hg_en", 0, ("cut", "This is the Torah", "children of Israel"))),
+   (("hg_he", 0, 1), ("hg_en", 0, ("cut", "at Adonoy's command", "Moses.")))]),
+ ("haftarah_after", "Haftarah blessings (after)", "After the reading from the Prophets (CBB's short form)", [
+   (("hb_he", 0, ("w", 0, 0, 11)), ("hb_en", 0, ("cut", "Blessed are You", "all generations"))),
+   (("hb_he", 0, ("w", 0, 12, 21)), ("hb_en", 0, ("cut", "the Almighty, the Faithful", "true and right."))),
+   (("hb_he", 3, ("w", 0, 0, 9)), ("hb_en", 3, ("cut", "For the Torah", "this Sabbath Day"))),
+   (("hb_he", 3, ("w", 0, 10, 17)), ("hb_en", 3, ("cut", "which You gave us", "for glory."))),
+   (("hb_he", 3, 1), ("hb_en", 3, ("cut", "For all this", "forever."))),
+   (("hb_he", 3, 2), ("hb_en", 3, ("cut", "Blessed are You", "Sabbath.")))]),
+ ("t_etz", "Etz Chayim Hi", "Returning the Torah to the ark: a tree of life", [
+   (("p148_he", 0, ("w", 0, 0, 5)), ("p148_en", 0, ("cut", "Let them praise", "alone is exalted"))),
+   (("pr4_he", 0, None), ("pr4_en", 0, None)),
+   (("hg_he", 0, 3), ("hg_en", 0, ("cut", "It is a tree of life", "fortunate."))),
+   (("hg_he", 0, 4), ("hg_en", 0, ("cut", "Its ways", "peace."))),
+   (("lam_he", 0, None), ("lam_en", 0, None))]),
 ]
 # Marked Reform changes vs the traditional base (Mishkan T'filah wording). "sub" = (traditional Hebrew, Reform Hebrew) applied to that line.
 # Added words: names from Genesis (Sefaria, Miqra al pi ha-Masorah), g'ulah Lev 25:24, ezrat Judg 5:23, hakol from this blessing. Not sourced: imoteinu, imahot.
@@ -256,8 +299,8 @@ REFORM = {
  "aleinu": [{"line": 3, "change": "Leaves out 'shehem mishtachavim lahevel varik umitpal'lim el el lo yoshia' (many traditional Ashkenazi siddurim also omit it).",
              "sub": ("שֶׁהֵם מִשְׁתַּחֲוִים לָהֶבֶל וָרִיק וּמִתְפַּלְּלִים אֶל אֵל לֹא יוֹשִׁיעַ, ", "")}],
 }
-UNIT = {**{k: "kabbalat" for k in ("lcha_dodi_1", "lcha_dodi_2", "ps92_1", "ps92_2", "ps93")}, "kaddish": "concluding", "vaychulu": "concluding", "magen_avot": "concluding", "aleinu": "concluding", **{k: "amidah" for k in ("avot", "gvurot", "kdushat_hashem", "kdushat_hayom", "shalom_rav")}, "maariv_aravim": "shma", "hashkiveinu": "shma", "vshamru": "shma", "shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
-SEQ = {"maariv_aravim": 7.2, "ahavat_olam": 7.5}  # display order (Mishkan T'filah); "order" stays append-only so words.json ids stay stable  # app groups lessons into units by this
+UNIT = {**{k: "torah" for k in ("t_ein_kamocha", "t_vayhi", "t_lcha", "torah_before", "torah_after", "t_vzot", "haftarah_before", "haftarah_after", "t_etz")}, **{k: "kabbalat" for k in ("lcha_dodi_1", "lcha_dodi_2", "ps92_1", "ps92_2", "ps93")}, "kaddish": "concluding", "vaychulu": "concluding", "magen_avot": "concluding", "aleinu": "concluding", **{k: "amidah" for k in ("avot", "gvurot", "kdushat_hashem", "kdushat_hayom", "shalom_rav")}, "maariv_aravim": "shma", "hashkiveinu": "shma", "vshamru": "shma", "shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
+SEQ = {"maariv_aravim": 7.2, "ahavat_olam": 7.5, **{k: 100 + i for i, k in enumerate(("t_ein_kamocha", "t_vayhi", "t_lcha", "torah_before", "torah_after", "t_vzot", "haftarah_before", "haftarah_after", "t_etz"))}}  # display order (Mishkan T'filah); "order" stays append-only so words.json ids stay stable  # app groups lessons into units by this
 CHECK = {
  "candles": ["Mishkan T'filah wording: confirm 'l'hadlik ner shel Shabbat' matches your siddur."],
  "torah_before": ["Mishkan T'filah: 'mikol ha-amim' or 'im kol ha-amim'? (line 3)"],
@@ -354,6 +397,18 @@ CHECK["torah_before"].append(f"{C} p. 110 says mikol ha-amim.")
 CHECK["shma"].append(f"{C} p. 26: Baruch shem is said in a whisper.")
 CHECK["vahavta"].append(f"{C} p. 28 matches the Mishkan T'filah selection: Deut 6:5-9, then Num 15:40-41.")
 CHECK["avot"].insert(0, f"{C} p. 36: Adonai s'fatai (line 1) matches.")
+CHECK.update({
+ "t_ein_kamocha": [f"{C} p. 104: same Hebrew words. Starts at Ein kamocha (no Atah hor'eita). Av harachamim here is the short verse, not the memorial prayer of the same name.",
+                   "Hebrew: Siddur Sefard (Torat Emet, public domain); English: Metsudah (CC-BY)."],
+ "t_vayhi": [f"{C} p. 104 and 107: same Hebrew words. Sh'ma, Echad and Gadlu: the leader says each, the congregation repeats.",
+             f"{C} prints (v'nora) in Echad: added on the High Holy Days, left out here."],
+ "t_lcha": [f"{C} p. 108: same Hebrew words. Sung as the Torah is carried around the room."],
+ "t_vzot": [f"{C} p. 113: same Hebrew words. Said as the Torah is lifted."],
+ "haftarah_after": [f"{C} p. 114: CBB's short form. After the first part of the first blessing (ending emet vatzedek) it goes straight to Al haTorah; the Ne'eman, Rachem al Tziyon and Sam'cheinu blessings are left out.",
+                    "Hebrew: Siddur Sefard (Torat Emet); English: Metsudah. The English of line 3 lacks a comma ('Divine Service for the Prophets')."],
+ "t_etz": [f"{C} p. 118-119: same selection. Line 1 is Psalm 148:13 (first half), then Proverbs 4:2, 3:18, 3:17 and Lamentations 5:21.",
+           "Verses: Hebrew Miqra al pi ha-Masorah (Hashiveinu uses the read form v'nashuvah); English JPS 1917 (public domain), old-fashioned in places."],
+})
 
 out = {"generated_by": "tools/build_prayers.py", "source_fetched": raw["fetched"], "prayers": []}
 for order, (pid, title, about, lines) in enumerate(PRAYERS):
