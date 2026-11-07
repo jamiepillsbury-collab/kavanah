@@ -321,14 +321,14 @@ CBBSUB = {
  "lcha_dodi_2": [{"line": 9, "change": "Bo'i chalah twice, without 'Shabbat malk'ta' (p. 14).", "sub": ("בֹּאִי כַלָּה בֹּאִי כַלָּה בֹּאִי כַלָּה שַׁבָּת מַלְכְּתָא", "בֹּאִי כַלָּה, בֹּאִי כַלָּה")}],
 }
 for k in ("gvurot", "kdushat_hayom", "kaddish"): REFORM.pop(k)  # CBB keeps the traditional wording here (p. 40, 43, 122)
-NOT_CBB = {"kiddush": "said at home", "hamotzi": "said at home", "ps93": None, "magen_avot": None, "vaychulu": "CBB prints Gen 2:1-3 in English only, p. 42"}
+NOT_CBB = {"kiddush": "said at home", "hamotzi": "said at home", "ps93": None, "magen_avot": None}
 ABOUT = {"lcha_dodi_1": "Come, my beloved, to greet the bride: refrain and stanzas 1-2", "lcha_dodi_2": "Stanzas 5 and 9, ending Bo'i v'shalom",
          "ps92_1": "Psalm 92, verses 1-6: a song for the Shabbat day", "ps92_2": "Psalm 92, verses 13-16: the righteous flourish like a palm"}
 C = "CBB siddur Mashiv HaRuach"
 CHECK.update({
  "gvurot": [f"{C} p. 40 says m'chayei meitim (the traditional wording), so the app follows it. Mishkan T'filah offers m'chayeih hakol.",
             "Mashiv haruach umorid hagashem (line 2) is said only between Sukkot and Pesach; CBB has no summer morid hatal."],
- "kdushat_hayom": [f"{C} p. 43: same lines, opening 'Eloheinu v'Elohei avoteinu' without v'imoteinu, so the app follows it."],
+ "kdushat_hayom": [f"{C} p. 43: same lines, opening 'Eloheinu v'Elohei avoteinu' without v'imoteinu, so the app follows it.", f"{C} p. 42: Atah kidashta and Vay'chulu come first, then these lines. Atah kidashta isn't in the app yet."],
  "kaddish": ["Aramaic. Ten Days inserts (l'eila l'eila) left out; the congregation's amein after line 1 is not shown.",
              f"{C} p. 122: v'chayim, and Oseh shalom ends v'al kol Yisrael (no 'v'al kol yoshvei teiveil').",
              "At CBB, does the whole congregation say it, or only mourners?"],
@@ -340,11 +340,20 @@ CHECK.update({
  "ps92_2": [f"{C} p. 16: verses 13-16 (Tzadik katamar).", "Line 1 starts a new block in CBB's siddur."],
  "ps93": [f"Not in {C} (Friday night has Psalms 29, 92, 95-99). Kept from the traditional Kabbalat Shabbat."],
  "magen_avot": [f"Not in {C}. Kept as in Mishkan T'filah (v'imahot, m'chayeih hakol)."],
- "vaychulu": [f"{C} prints Genesis 2:1-3 in English only (p. 42). Hebrew here is the Torah text as in the Metsudah siddur.", "Does CBB chant it in Hebrew anyway?"],
- "kiddush": [f"Not in {C} (no Kiddush section). Wording as in Mishkan T'filah / traditional; check against your home practice."] + CHECK["kiddush"][1:2],
+ "vaychulu": [f"{C} p. 42 prints Vay'chulu in Hebrew inside the Amidah (Holiness of the Sabbath Day), after 'Atah kidashta'. Same words as here; not repeated after the Amidah.", "Hebrew here: the Torah text as in the Metsudah siddur."],
+ "kiddush": [f"Not in {C} (no Kiddush section; Vay'chulu is in its Amidah, p. 42). Wording as in Mishkan T'filah / traditional; check against your home practice."] + CHECK["kiddush"][1:2],
 })
 CHECK["avot"].insert(0, f"{C} p. 38 matches these lines (imahot, g'ulah, v'ezrat Sarah).")
 CHECK["shalom_rav"] = [f"{C} p. 48 matches (no 'v'al kol yoshvei teiveil')."] + [c for c in CHECK["shalom_rav"] if "yoshvei" not in c]
+
+MATCH = {"candles": 8, "barchu": 20, "maariv_aravim": 22, "ahavat_olam": 24, "shma": 26, "vahavta": 28, "mi_chamocha": 30, "kdushat_hashem": 42,
+         "shalom_rav": 48, "torah_before": 110, "torah_after": 110, "haftarah_before": 114}
+for k, pg in MATCH.items():
+    CHECK[k] = [f"{C} p. {pg}: same Hebrew words (checked 11/07 from the page image; vowels not compared letter by letter)."] + [c for c in CHECK.get(k, []) if "Mishkan T'filah" not in c and "CBB" not in c and "Mishkan T'filah" not in c]
+CHECK["torah_before"].append(f"{C} p. 110 says mikol ha-amim.")
+CHECK["shma"].append(f"{C} p. 26: Baruch shem is said in a whisper.")
+CHECK["vahavta"].append(f"{C} p. 28 matches the Mishkan T'filah selection: Deut 6:5-9, then Num 15:40-41.")
+CHECK["avot"].insert(0, f"{C} p. 36: Adonai s'fatai (line 1) matches.")
 
 out = {"generated_by": "tools/build_prayers.py", "source_fetched": raw["fetched"], "prayers": []}
 for order, (pid, title, about, lines) in enumerate(PRAYERS):
