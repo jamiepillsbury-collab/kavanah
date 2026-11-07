@@ -1849,6 +1849,235 @@
         }
        ],
        "season": null
+      },
+      {
+       "id": "x-st-gen-09",
+       "title": "The Tower of Babel",
+       "parashah": [
+        "Noach"
+       ],
+       "status": "draft",
+       "related": [
+        "prayer:aleinu"
+       ],
+       "check_note": "My summaries of Pirkei de-Rabbi Eliezer 24, Rashi on Genesis 11:5 and the Netziv (Ha'amek Davar on Genesis 11:4; please check this one most closely). Bab-ili etymology: standard scholarly view.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "One language, one plan",
+         "body": "\"Everyone on earth had **the same language and the same words**\" (11:1). Humanity is finally united, and what it decides to do with that unity is build a tower **to make a name for itself**.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 11:1-4"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "What does the Torah say was wrong with building the tower?",
+         "choices": [
+          "It never says directly",
+          "Using bricks was forbidden",
+          "They were worshipping idols",
+          "The tower was too tall"
+         ],
+         "answer": 0,
+         "why": "The Torah **never names the sin**. It gives their motives, a name for themselves and fear of being scattered, and leaves the judgment to the reader.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 11:4"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 11:1-4",
+         "ref": "Genesis 11:1-4",
+         "he": "וַיְהִי כׇל־הָאָרֶץ שָׂפָה אֶחָת וּדְבָרִים אֲחָדִים\nוַיְהִי בְּנׇסְעָם מִקֶּדֶם וַיִּמְצְאוּ בִקְעָה בְּאֶרֶץ שִׁנְעָר וַיֵּשְׁבוּ שָׁם\nוַיֹּאמְרוּ אִישׁ אֶל־רֵעֵהוּ הָבָה נִלְבְּנָה לְבֵנִים וְנִשְׂרְפָה לִשְׂרֵפָה וַתְּהִי לָהֶם הַלְּבֵנָה לְאָבֶן וְהַחֵמָר הָיָה לָהֶם לַחֹמֶר\nוַיֹּאמְרוּ הָבָה נִבְנֶה־לָּנוּ עִיר וּמִגְדָּל וְרֹאשׁוֹ בַשָּׁמַיִם וְנַעֲשֶׂה־לָּנוּ שֵׁם פֶּן־נָפוּץ עַל־פְּנֵי כׇל־הָאָרֶץ",
+         "en": "Everyone on earth had the same language and the same words. And as they migrated from the east, they came upon a valley in the land of Shinar and settled there. They said to one another, “Come, let us make bricks and burn them hard.”—Brick served them as stone, and bitumen served them as mortar.— And they said, “Come, let us build us a city, and a tower with its top in the sky, to make a name for ourselves; else we shall be scattered all over the world.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 11:1-4"
+         },
+         "tl": "Vay'hi chol ha-aretz safah echat ud'varim achadim\nVay'hi b'nos'am mikedem vayimtz'u vik'ah b'eretz shin'ar vayeishvu sham\nVayomru ish el rei-eihu havah nilb'nah l'veinim v'nisr'fah lisreifah vat'hi lahem hal'veinah l'aven v'hacheimar hayah lahem lachomer\nVayomru havah nivneh lanu ir umigdal v'rosho vashamayim v'na-aseh lanu sheim pen nafutz al p'nei chol ha-aretz",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "וְנַעֲשֶׂה לָּנוּ שֵׁם",
+         "tl": "V'na-aseh lanu sheim",
+         "gloss": "\"Let us make a name for ourselves\" (11:4). One chapter later God tells Abram the opposite way round: **\"I will make your name great\"** (12:2). A name you grab, or a name you're given.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 11:4",
+          "note": "Compare Genesis 12:2."
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A brick worth more than a person",
+         "body": "A midrash pictures the work: the tower grew so tall that hauling bricks up took a year. **If a person fell and died, no one noticed. If a brick fell, they wept**: when will another one come up in its place?",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Pirkei de-Rabbi Eliezer 24"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "bricks",
+         "type": "why",
+         "q": "In the midrash, what shows the builders had lost their way?",
+         "choices": [
+          "They mourned a fallen brick more than a fallen person",
+          "They used brick instead of stone",
+          "The tower took a whole year to climb"
+         ],
+         "answer": 0,
+         "why": "They **mourned a fallen brick more than a fallen person**. The project mattered more than the people building it.",
+         "wrong_why": [
+          null,
+          "The midrash doesn't fault the bricks; what's wrong is what they cared about.",
+          "Height makes the work slow, but the point is how they treated the workers."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Pirkei de-Rabbi Eliezer 24"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 11:5-7",
+         "ref": "Genesis 11:5-7",
+         "he": "וַיֵּרֶד יְיָ לִרְאֹת אֶת־הָעִיר וְאֶת־הַמִּגְדָּל אֲשֶׁר בָּנוּ בְּנֵי הָאָדָם\nוַיֹּאמֶר יְיָ הֵן עַם אֶחָד וְשָׂפָה אַחַת לְכֻלָּם וְזֶה הַחִלָּם לַעֲשׂוֹת וְעַתָּה לֹא־יִבָּצֵר מֵהֶם כֹּל אֲשֶׁר יָזְמוּ לַעֲשׂוֹת\nהָבָה נֵרְדָה וְנָבְלָה שָׁם שְׂפָתָם אֲשֶׁר לֹא יִשְׁמְעוּ אִישׁ שְׂפַת רֵעֵהוּ",
+         "en": "יהוה came down to look at the city and tower that humanity had built, and יהוה said, “If, as one people with one language for all, this is how they have begun to act, then nothing that they may propose to do will be out of their reach. Let us, then, go down and confound their speech there, so that they shall not understand one another’s speech.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 11:5-7"
+         },
+         "tl": "Vayeired Adonai lir'ot et ha-ir v'et hamigdal asher banu b'nei ha-adam\nVayomer Adonai hein am echad v'safah achat l'chulam v'zeh hachilam la-asot v'atah lo yibatzeir meihem kol asher yazmu la-asot\nHavah neirdah v'navlah sham s'fatam asher lo yishm'u ish s'fat rei-eihu",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "God came down to see",
+         "body": "Why would God need to **come down to look**? **Rashi**: God didn't need to. The verse teaches judges **not to rule until they have seen for themselves**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 11:5"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "came-down",
+         "type": "why",
+         "q": "Rashi asks why God had to \"come down to look.\" What is his answer?",
+         "choices": [
+          "To teach judges to see for themselves before ruling",
+          "Because God couldn't see from heaven",
+          "To knock the tower down"
+         ],
+         "answer": 0,
+         "why": "It's a lesson for human judges: **see for yourself before you rule**.",
+         "wrong_why": [
+          null,
+          "Rashi says plainly God didn't need to come down to know.",
+          "The verse is about looking, not about stopping the work by force."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 11:5"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 11:8-9",
+         "ref": "Genesis 11:8-9",
+         "he": "וַיָּפֶץ יְיָ אֹתָם מִשָּׁם עַל־פְּנֵי כׇל־הָאָרֶץ וַיַּחְדְּלוּ לִבְנֹת הָעִיר\nעַל־כֵּן קָרָא שְׁמָהּ בָּבֶל כִּי־שָׁם בָּלַל יְיָ שְׂפַת כׇּל־הָאָרֶץ וּמִשָּׁם הֱפִיצָם יְיָ עַל־פְּנֵי כׇּל־הָאָרֶץ",
+         "en": "Thus יהוה scattered them from there over the face of the whole earth; and they stopped building the city. That is why it was called Babel, because there יהוה confounded the speech of the whole earth; and from there יהוה scattered them over the face of the whole earth.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 11:8-9"
+         },
+         "tl": "Vayafetz Adonai otam misham al p'nei chol ha-aretz vayachd'lu livnot ha-ir\nAl kein kara sh'mah bavel ki sham balal Adonai s'fat kol ha-aretz umisham hefitzam Adonai al p'nei kol ha-aretz"
+        },
+        {
+         "kind": "term",
+         "he": "בָּבֶל",
+         "tl": "Bavel",
+         "gloss": "**Bavel**, Babylon. The Torah makes a pun: there God **balal**, confused, their speech. In Babylon's own language the name meant \"**gate of the god**\" (Bab-ili), and its great stepped temple-tower likely stands behind the story.",
+         "src": {
+          "type": "scholarly",
+          "ref": "Genesis 11:9",
+          "note": "Akkadian Bab-ili; the ziggurat Etemenanki in Babylon."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "bavel",
+         "type": "pick",
+         "q": "The Torah links the name Bavel to which Hebrew word?",
+         "choices": [
+          "Balal, confused",
+          "Bab-ili, gate of the god",
+          "Levenah, brick"
+         ],
+         "answer": 0,
+         "why": "**Balal**, confused or mixed up: \"there God confused the speech of the whole earth\" (11:9).",
+         "wrong_why": [
+          null,
+          "Bab-ili, gate of the god, is what the name meant in Babylon's language; the Torah turns it into a pun about confusion.",
+          "Levenah (brick) appears in the story, but the verse ties the name to balal."
+         ],
+         "look_again": 10,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 11:9"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "The danger of one voice",
+         "body": "The **Netziv** (19th-century Lithuania) reads \"the same words\" as **enforced sameness**: a society afraid of anyone leaving or thinking differently. Scattering them into many languages wasn't only a punishment; it **restored room to differ**, and fulfilled God's charge to fill the earth (9:1).",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Ha'amek Davar on Genesis 11:4",
+          "note": "Netziv, Rabbi Naftali Tzvi Yehudah Berlin."
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "Aleinu, which you know, ends with a different kind of unity: **\"On that day Adonai will be one, and God's name will be one\"** (Zechariah 14:9). Not one human name made great, and not one language forced on all, but **many peoples** recognizing one God.",
+         "links": [
+          "prayer:aleinu"
+         ]
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "One language, one plan: **\"Let us make a name for ourselves.\"**",
+          "The Torah never names the sin; a midrash: **a brick mattered more than a person**.",
+          "Rashi: God \"came down to see\" so judges would **see before they rule**.",
+          "**Bavel / balal**: Babylon becomes \"confusion.\"",
+          "Netziv: the danger was **forced sameness**; scattering restored difference."
+         ]
+        }
+       ],
+       "season": null
       }
      ]
     }
