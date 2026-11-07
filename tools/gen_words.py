@@ -42,11 +42,17 @@ for p in sorted(P["prayers"], key=lambda p: p["order"]):
             if w not in order: order.append(w)
 
 items, ids = {}, []
+# Stable ids: a word keeps the id it had in the current data/words.json; new words get the next free number.
+try: OLDID = {it["he"]: k for k, it in json.load(open(os.path.join(ROOT, "data", "words.json"), encoding="utf-8"))["items"].items() if it.get("kind") == "word"}
+except Exception: OLDID = {}
+nxt = max([int(k[2:]) for k in OLDID.values()] + [0])
 for i, w in enumerate(order):
     t, flag = tr(w)
     g = LEX.get(w)
     gloss = None if (not g or w in REJECT or USELESS.match(g[1])) else {"root": g[0], "def": g[1], "src": "BDB (Sefaria lexicon)"}
-    iid = f"w-{i+1:03d}"; ids.append(iid)
+    if w in OLDID: iid = OLDID[w]
+    else: nxt += 1; iid = f"w-{nxt:03d}"
+    ids.append(iid)
     items[iid] = {"kind": "word", "he": w, "tr": t, "tlf": flag, "say": SAY.get(w, w), "gloss": gloss,
                   "note": NOTE.get(w), "freq": freq.get(w, 0), "prayers": where.get(w, []), "audio": None}
 titles = {p["id"]: p["title"] for p in P["prayers"]}

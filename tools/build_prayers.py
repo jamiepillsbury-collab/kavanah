@@ -311,38 +311,60 @@ CHECK = {
  "shehecheyanu": ["No Sefaria English found for this text."],
 }
 
-# CBB siddur Mashiv HaRuach (c. 2012, PDF on cbbsb.org/shabbat-siddur), read by an automated tool 11/01, NOT yet verified by eye.
-CBB = "CBB siddur (machine read, verify): "
-for pid, note in {
- "kiddush": "no Kiddush section found; Gen 2:1-3 appears only in English, in the Amidah's 'Holiness of the Sabbath Day' (p. 42-43).",
- "vaychulu": "no Hebrew Vay'chulu found, and no Kiddush section (Gen 2:1-3 only in English, p. 42-43).",
- "kdushat_hayom": "Evening Amidah has 'Holiness of the Sabbath Day' (p. 42-43) with Gen 2:1-3 in English only.",
- "magen_avot": "no Magen Avot found; evening service goes from the Amidah to Meditations and Mi Shebeirach (p. 50).",
- "aleinu": "Aleinu p. 120-121; neither 'shehem mishtachavim' nor 'shenatan lanu torat emet' found, and no Al kein.",
- "kaddish": "Kaddish Yatom p. 122-123 ends 'v'al kol Yisrael' (no 'v'al kol yoshvei teiveil' found).",
- "lcha_dodi_1": "L'cha Dodi p. 14-15 seems to print only some stanzas (first three plus the last?). Please count them.",
- "lcha_dodi_2": "the middle stanzas may be missing from p. 14-15; please check.",
- "ps92_1": "Psalm 92 p. 16-17.",
- "ps93": "Psalm 93 not found (the book has Psalms 29, 92, 96-99 on Friday night).",
-}.items():
-    CHECK[pid].append(CBB + note)
+# ---- CBB layer: siddur Mashiv HaRuach (Congregation B'nai B'rith, 2012), checked 11/07 against sources/ PDF (translit text + Hebrew page images).
+# CBB takes priority over Mishkan T'filah (project rule). DROP = line indices (as written in PRAYERS) CBB doesn't print.
+# CBBSUB = wording changes from the CBB Hebrew, shown on line cards as "CBB siddur wording". Line numbers as written in PRAYERS.
+DROP = {"hashkiveinu": [6], "gvurot": [2], "aleinu": [4, 5, 6], "lcha_dodi_1": [5, 6, 7, 8], "lcha_dodi_2": [2, 3, 4, 5, 6, 7],
+        "ps92_1": [6, 7], "ps92_2": [0, 1, 2, 3]}
+CBBSUB = {
+ "hashkiveinu": [{"line": 7, "change": "Ends 'aleinu v'al Y'rushalayim', without 'v'al kol amo Yisrael' (p. 32).", "sub": ("עָלֵינוּ וְעַל כָּל עַמּוֹ יִשְׂרָאֵל וְעַל", "עָלֵינוּ וְעַל")}],
+ "lcha_dodi_2": [{"line": 9, "change": "Bo'i chalah twice, without 'Shabbat malk'ta' (p. 14).", "sub": ("בֹּאִי כַלָּה בֹּאִי כַלָּה בֹּאִי כַלָּה שַׁבָּת מַלְכְּתָא", "בֹּאִי כַלָּה, בֹּאִי כַלָּה")}],
+}
+for k in ("gvurot", "kdushat_hayom", "kaddish"): REFORM.pop(k)  # CBB keeps the traditional wording here (p. 40, 43, 122)
+NOT_CBB = {"kiddush": "said at home", "hamotzi": "said at home", "ps93": None, "magen_avot": None, "vaychulu": "CBB prints Gen 2:1-3 in English only, p. 42"}
+ABOUT = {"lcha_dodi_1": "Come, my beloved, to greet the bride: refrain and stanzas 1-2", "lcha_dodi_2": "Stanzas 5 and 9, ending Bo'i v'shalom",
+         "ps92_1": "Psalm 92, verses 1-6: a song for the Shabbat day", "ps92_2": "Psalm 92, verses 13-16: the righteous flourish like a palm"}
+C = "CBB siddur Mashiv HaRuach"
+CHECK.update({
+ "gvurot": [f"{C} p. 40 says m'chayei meitim (the traditional wording), so the app follows it. Mishkan T'filah offers m'chayeih hakol.",
+            "Mashiv haruach umorid hagashem (line 2) is said only between Sukkot and Pesach; CBB has no summer morid hatal."],
+ "kdushat_hayom": [f"{C} p. 43: same lines, opening 'Eloheinu v'Elohei avoteinu' without v'imoteinu, so the app follows it."],
+ "kaddish": ["Aramaic. Ten Days inserts (l'eila l'eila) left out; the congregation's amein after line 1 is not shown.",
+             f"{C} p. 122: v'chayim, and Oseh shalom ends v'al kol Yisrael (no 'v'al kol yoshvei teiveil').",
+             "At CBB, does the whole congregation say it, or only mourners?"],
+ "aleinu": [f"{C} p. 120-121: first paragraph (traditional 'shelo asanu', without 'shehem mishtachavim') and the V'ne-emar line. The middle lines are in English only, so they're left out."],
+ "hashkiveinu": [f"{C} p. 32: Shabbat form, no second 'Uf'ros aleinu'; ends 'aleinu v'al Y'rushalayim'.", "Line 1 English: Metsudah has no period after 'to life'."],
+ "lcha_dodi_1": [f"{C} p. 14: refrain and stanzas 1, 2, 5 and 9 only. Hebrew and English here: Metsudah siddur.", "The refrain is sung after every stanza."],
+ "lcha_dodi_2": [f"{C} p. 14: stanzas 5 and 9; everyone rises and turns to greet the Shabbat bride before stanza 9.", "Last line English still says 'Sabbath Queen' (Metsudah); CBB's Hebrew ends 'bo'i chalah' twice."],
+ "ps92_1": [f"{C} p. 16: verses 1-6, then 13-16. Hebrew and English: Metsudah siddur."],
+ "ps92_2": [f"{C} p. 16: verses 13-16 (Tzadik katamar).", "Line 1 starts a new block in CBB's siddur."],
+ "ps93": [f"Not in {C} (Friday night has Psalms 29, 92, 95-99). Kept from the traditional Kabbalat Shabbat."],
+ "magen_avot": [f"Not in {C}. Kept as in Mishkan T'filah (v'imahot, m'chayeih hakol)."],
+ "vaychulu": [f"{C} prints Genesis 2:1-3 in English only (p. 42). Hebrew here is the Torah text as in the Metsudah siddur.", "Does CBB chant it in Hebrew anyway?"],
+ "kiddush": [f"Not in {C} (no Kiddush section). Wording as in Mishkan T'filah / traditional; check against your home practice."] + CHECK["kiddush"][1:2],
+})
+CHECK["avot"].insert(0, f"{C} p. 38 matches these lines (imahot, g'ulah, v'ezrat Sarah).")
+CHECK["shalom_rav"] = [f"{C} p. 48 matches (no 'v'al kol yoshvei teiveil')."] + [c for c in CHECK["shalom_rav"] if "yoshvei" not in c]
 
 out = {"generated_by": "tools/build_prayers.py", "source_fetched": raw["fetched"], "prayers": []}
 for order, (pid, title, about, lines) in enumerate(PRAYERS):
     pl = []
     for i, (hs, es) in enumerate(lines):
-        he = get(hs, "he"); rf = [r for r in REFORM.get(pid, []) if r["line"] == i]
-        for r in rf:
+        if i in DROP.get(pid, []): continue
+        he = get(hs, "he"); rf = [r for r in REFORM.get(pid, []) if r["line"] == i]; cf = [r for r in CBBSUB.get(pid, []) if r["line"] == i]
+        for r in rf + cf:
             assert he.count(r["sub"][0]) == 1, (pid, i, r["sub"][0]); he = he.replace(*r["sub"])
         t, f = tl(he)
         src = None if es is None else (es[0] if isinstance(es, tuple) else es[0][0])
         pl.append({"he": he, "tl": t, "tlf": f, "en": get(es, "en"),
                    "en_src": S[src]["version"] if src else None, "en_license": S[src]["license"] if src else None,
-                   "reform": [r["change"] for r in rf], "verify": True})
+                   "reform": [r["change"] for r in rf], "cbb": [r["change"] for r in cf], "verify": True})
     hs0 = lines[0][0] if isinstance(lines[0][0], tuple) else lines[0][0][0]
+    about = ABOUT.get(pid, about)
+    if pid in NOT_CBB: about += " (not in CBB's siddur" + (f"; {NOT_CBB[pid]})" if NOT_CBB[pid] else ")")
     out["prayers"].append({"id": pid, "title": title, "about": about, "order": order, "audio": None,
         "he_src": f'{S[hs0[0]]["ref"]} ({S[hs0[0]]["version"]}, {S[hs0[0]]["license"]})',
-        "unit": UNIT.get(pid, "blessings"), "seq": SEQ.get(pid, order), "check": CHECK.get(pid, []) + [f'Line {r["line"] + 1}, Reform change: {r["change"]} Confirm against Mishkan T\'filah.' for r in REFORM.get(pid, [])], "lines": pl})
+        "unit": UNIT.get(pid, "blessings"), "seq": SEQ.get(pid, order), "check": CHECK.get(pid, []) + [f'Line {r["line"] + 1 - sum(d < r["line"] for d in DROP.get(pid, []))}, Reform change: {r["change"]} Confirm against Mishkan T\'filah.' for r in REFORM.get(pid, [])], "lines": pl})
 json.dump(out, open(os.path.join(ROOT, "data/prayers.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 for p in out["prayers"]:
     print(p["id"])

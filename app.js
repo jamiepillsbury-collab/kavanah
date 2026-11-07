@@ -460,7 +460,7 @@
       prayers[p.id] = p;
       const items = p.lines.map((l, n) => {
         const id = `p-${p.id}-${n}`;
-        course.items[id] = { kind: "line", he: l.he, tr: l.tl, tlf: l.tlf, en: l.en, en_src: l.en_src, en_license: l.en_license, reform: l.reform || [],
+        course.items[id] = { kind: "line", he: l.he, tr: l.tl, tlf: l.tlf, en: l.en, en_src: l.en_src, en_license: l.en_license, reform: l.reform || [], cbb: l.cbb || [],
           prayer: p.id, n, say: l.he.replace(/יְיָ/g, "אֲדֹנָי"), audio: null };
         return id;
       });
@@ -518,6 +518,7 @@
       hintBlock(id, it.en || "No Sefaria translation for this line yet.", false, "Show translation"),
       it.en_src ? h("small", { class: "src" }, `English: ${it.en_src} (${it.en_license})`) : null,
       it.reform && it.reform.length ? h("div", { class: "flag" }, "Reform wording (Mishkan T'filah), to confirm: " + it.reform.join(" ")) : null,
+      it.cbb && it.cbb.length ? h("div", { class: "flag" }, "CBB siddur wording: " + it.cbb.join(" ")) : null,
       flagNote(it)), bar);
     bar.append(h("button", { class: "primary", onclick: next }, "Continue"));
   }

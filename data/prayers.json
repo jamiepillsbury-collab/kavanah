@@ -5,7 +5,7 @@
   {
    "id": "hamotzi",
    "title": "HaMotzi",
-   "about": "Blessing over bread",
+   "about": "Blessing over bread (not in CBB's siddur; said at home)",
    "order": 0,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Berachot, Birkat Hanehenin, Eating, Barachot Rishonot (Daat Siddur Ashkenaz, Public Domain)",
@@ -23,6 +23,7 @@
      "en_src": null,
      "en_license": null,
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -48,6 +49,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -73,6 +75,7 @@
      "en_src": null,
      "en_license": null,
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -96,6 +99,7 @@
      "en_src": "Ha-Siddur Ha-Shalem (1949)",
      "en_license": "unknown",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -106,6 +110,7 @@
      "en_src": "Ha-Siddur Ha-Shalem (1949)",
      "en_license": "unknown",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -131,6 +136,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -141,6 +147,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -151,6 +158,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -161,6 +169,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -184,6 +193,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -194,6 +204,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -201,17 +212,15 @@
   {
    "id": "kiddush",
    "title": "Kiddush (Shabbat evening)",
-   "about": "Sanctifying Shabbat over wine",
+   "about": "Sanctifying Shabbat over wine (not in CBB's siddur; said at home)",
    "order": 6,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Shabbat Evening, Kiddush (The Metsudah siddur, 1981, CC-BY)",
    "unit": "blessings",
    "seq": 6,
    "check": [
-    "Does Mishkan T'filah include 'Vay'hi erev vay'hi voker' and 'Savri maranan'?",
-    "Mishkan T'filah wording of 'ki vanu vacharta v'otanu kidashta mikol ha-amim'?",
-    "Line 1 English joins two Metsudah pieces; Genesis lines use Contemporary Torah.",
-    "CBB siddur (machine read, verify): no Kiddush section found; Gen 2:1-3 appears only in English, in the Amidah's 'Holiness of the Sabbath Day' (p. 42-43)."
+    "Not in CBB siddur Mashiv HaRuach (no Kiddush section). Wording as in Mishkan T'filah / traditional; check against your home practice.",
+    "Mishkan T'filah wording of 'ki vanu vacharta v'otanu kidashta mikol ha-amim'?"
    ],
    "lines": [
     {
@@ -222,6 +231,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -232,6 +242,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -242,6 +253,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -252,6 +264,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -262,6 +275,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -272,6 +286,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -282,6 +297,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -292,6 +308,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -315,6 +332,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -325,6 +343,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -351,6 +370,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -361,6 +381,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -387,6 +408,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -397,6 +419,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -407,6 +430,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -417,6 +441,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -427,6 +452,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -437,6 +463,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -447,6 +474,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -473,6 +501,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -483,6 +512,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -493,6 +523,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -503,6 +534,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -513,6 +545,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -539,6 +572,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -549,6 +583,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -559,6 +594,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -569,6 +605,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -579,6 +616,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -604,6 +642,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -614,6 +653,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -624,6 +664,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -634,6 +675,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -644,6 +686,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -654,6 +697,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -668,7 +712,7 @@
    "unit": "shma",
    "seq": 13,
    "check": [
-    "Shabbat evening form (ends 'haporeis sukat shalom'). Does Mishkan T'filah keep 'v'haseir mei-aleinu oyeiv, dever v'cherev v'ra-av v'yagon' and 'v'haseir satan'?",
+    "CBB siddur Mashiv HaRuach p. 32: Shabbat form, no second 'Uf'ros aleinu'; ends 'aleinu v'al Y'rushalayim'.",
     "Line 1 English: Metsudah has no period after 'to life'."
    ],
    "lines": [
@@ -680,6 +724,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -690,6 +735,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -700,6 +746,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -710,6 +757,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -720,6 +768,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -730,26 +779,20 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
-     "he": "וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ",
-     "tl": "Uf'ros aleinu sukat sh'lomecha",
-     "tlf": false,
-     "en": "And spread over us the shelter of Your peace.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "בָּרוּךְ אַתָּה יְיָ הַפּוֹרֵשׂ סֻכַּת שָׁלוֹם עָלֵינוּ וְעַל כָּל עַמּוֹ יִשְׂרָאֵל וְעַל יְרוּשָׁלָיִם",
-     "tl": "Baruch atah Adonai haporeis sukat shalom aleinu v'al kol amo Yisrael v'al Y'rushalayim",
+     "he": "בָּרוּךְ אַתָּה יְיָ הַפּוֹרֵשׂ סֻכַּת שָׁלוֹם עָלֵינוּ וְעַל יְרוּשָׁלָיִם",
+     "tl": "Baruch atah Adonai haporeis sukat shalom aleinu v'al Y'rushalayim",
      "tlf": false,
      "en": "Blessed are You, Adonai, Who spreads the shelter of peace over us and over all His people, Israel and over Jerusalem.",
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [
+      "Ends 'aleinu v'al Y'rushalayim', without 'v'al kol amo Yisrael' (p. 32)."
+     ],
      "verify": true
     }
    ]
@@ -775,6 +818,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -785,6 +829,7 @@
      "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
      "en_license": "CC-BY-NC",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -799,6 +844,7 @@
    "unit": "amidah",
    "seq": 15,
    "check": [
+    "CBB siddur Mashiv HaRuach p. 38 matches these lines (imahot, g'ulah, v'ezrat Sarah).",
     "Hebrew base: Metsudah siddur (traditional). Reform wording added from Mishkan T'filah as I know it; please check each marked line, and the vowels of v'imoteinu and v'imahot (no Sefaria source for those two words).",
     "English is the traditional Metsudah translation, so it doesn't mention the matriarchs. Add your own if you like.",
     "The Ten Days of Repentance insert (Zochreinu) is left out.",
@@ -817,6 +863,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -829,6 +876,7 @@
      "reform": [
       "Adds v'imoteinu (and our mothers)."
      ],
+     "cbb": [],
      "verify": true
     },
     {
@@ -841,6 +889,7 @@
      "reform": [
       "Adds Elohei Sarah, Elohei Rivkah, Elohei Rachel v'Elohei Leah."
      ],
+     "cbb": [],
      "verify": true
     },
     {
@@ -851,6 +900,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -864,6 +914,7 @@
       "Adds v'imahot (and mothers).",
       "G'ulah (redemption) instead of go'el (a redeemer)."
      ],
+     "cbb": [],
      "verify": true
     },
     {
@@ -874,6 +925,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -886,6 +938,7 @@
      "reform": [
       "Adds v'ezrat Sarah (and Sarah's help)."
      ],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -900,25 +953,19 @@
    "unit": "amidah",
    "seq": 16,
    "check": [
-    "Mishkan T'filah prints m'chayeih hakol with m'chayeih meitim as an option. Which does CBB say?",
-    "Lines 2-3 are seasonal: mashiv haruach (winter) or morid hatal (summer). Does CBB say morid hatal year-round, or switch?",
-    "English is Metsudah's 'Resurrector of the dead'; it doesn't match hakol.",
-    "Line 1, Reform change: M'chayeih hakol (gives life to all) instead of m'chayeh meitim (revives the dead). Confirm against Mishkan T'filah.",
-    "Line 4, Reform change: M'chayeih hakol instead of m'chayeih meitim. Confirm against Mishkan T'filah.",
-    "Line 7, Reform change: L'hachayot hakol instead of l'hachayot meitim. Confirm against Mishkan T'filah.",
-    "Line 8, Reform change: M'chayeih hakol instead of m'chayeih hameitim. Confirm against Mishkan T'filah."
+    "CBB siddur Mashiv HaRuach p. 40 says m'chayei meitim (the traditional wording), so the app follows it. Mishkan T'filah offers m'chayeih hakol.",
+    "Mashiv haruach umorid hagashem (line 2) is said only between Sukkot and Pesach; CBB has no summer morid hatal."
    ],
    "lines": [
     {
-     "he": "אַתָּה גִבּוֹר לְעוֹלָם אֲדֹנָי מְחַיֵּה הַכֹּל אַתָּה רַב לְהוֹשִׁיעַ",
-     "tl": "Atah gibor l'olam Adonai m'chayeih hakol atah rav l'hoshia",
+     "he": "אַתָּה גִבּוֹר לְעוֹלָם אֲדֹנָי מְחַיֶּה מֵתִים אַתָּה רַב לְהוֹשִׁיעַ",
+     "tl": "Atah gibor l'olam Adonai m'chayeh meitim atah rav l'hoshia",
      "tlf": false,
      "en": "You are mighty forever, my Master; You are the Resurrector of the dead the Powerful One to deliver us.",
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
-     "reform": [
-      "M'chayeih hakol (gives life to all) instead of m'chayeh meitim (revives the dead)."
-     ],
+     "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -929,28 +976,18 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
-     "he": "מוֹרִיד הַטָּל",
-     "tl": "Morid hatal",
-     "tlf": false,
-     "en": "He causes the dew to descend.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "מְכַלְכֵּל חַיִּים בְּחֶסֶד מְחַיֵּה הַכֹּל בְּרַחֲמִים רַבִּים",
-     "tl": "M'chalkeil chayim b'chesed m'chayeih hakol b'rachamim rabim",
+     "he": "מְכַלְכֵּל חַיִּים בְּחֶסֶד מְחַיֵּה מֵתִים בְּרַחֲמִים רַבִּים",
+     "tl": "M'chalkeil chayim b'chesed m'chayeih meitim b'rachamim rabim",
      "tlf": false,
      "en": "Sustainer of the living with kindliness, Resurrector of the dead with great mercy",
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
-     "reform": [
-      "M'chayeih hakol instead of m'chayeih meitim."
-     ],
+     "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -961,6 +998,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -971,30 +1009,29 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
-     "he": "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת הַכֹּל",
-     "tl": "V'ne-eman atah l'hachayot hakol",
+     "he": "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת מֵתִים",
+     "tl": "V'ne-eman atah l'hachayot meitim",
      "tlf": false,
      "en": "And You are faithful to restore the dead to life.",
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
-     "reform": [
-      "L'hachayot hakol instead of l'hachayot meitim."
-     ],
+     "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
-     "he": "בָּרוּךְ אַתָּה יְיָ מְחַיֵּה הַכֹּל",
-     "tl": "Baruch atah Adonai m'chayeih hakol",
+     "he": "בָּרוּךְ אַתָּה יְיָ מְחַיֵּה הַמֵּתִים",
+     "tl": "Baruch atah Adonai m'chayeih hameitim",
      "tlf": false,
      "en": "Blessed are You, Adonai, Resurrector of the dead.",
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
-     "reform": [
-      "M'chayeih hakol instead of m'chayeih hameitim."
-     ],
+     "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -1020,6 +1057,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1030,6 +1068,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -1044,21 +1083,18 @@
    "unit": "amidah",
    "seq": 18,
    "check": [
-    "Only R'tzei vimnuchateinu is here. Does Mishkan T'filah's Shabbat evening K'dushat HaYom also have Atah kidashta, Vay'chulu, or Yism'chu?",
-    "CBB siddur (machine read, verify): Evening Amidah has 'Holiness of the Sabbath Day' (p. 42-43) with Gen 2:1-3 in English only.",
-    "Line 1, Reform change: Adds v'imoteinu (and our mothers). Confirm against Mishkan T'filah."
+    "CBB siddur Mashiv HaRuach p. 43: same lines, opening 'Eloheinu v'Elohei avoteinu' without v'imoteinu, so the app follows it."
    ],
    "lines": [
     {
-     "he": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְאִמּוֹתֵינוּ רְצֵה בִמְנוּחָתֵנוּ",
-     "tl": "Eloheinu v'Elohei avoteinu v'imoteinu r'tzei vimnuchateinu",
+     "he": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ רְצֵה בִמְנוּחָתֵנוּ",
+     "tl": "Eloheinu v'Elohei avoteinu r'tzei vimnuchateinu",
      "tlf": false,
      "en": "Our God, and God of our fathers, be pleased with our rest",
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
-     "reform": [
-      "Adds v'imoteinu (and our mothers)."
-     ],
+     "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1069,6 +1105,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1079,6 +1116,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1089,6 +1127,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1099,6 +1138,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1109,6 +1149,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -1123,7 +1164,7 @@
    "unit": "amidah",
    "seq": 19,
    "check": [
-    "Does Mishkan T'filah's Shalom Rav add 'v'al kol yoshvei teiveil' (and all who live on earth)?",
+    "CBB siddur Mashiv HaRuach p. 48 matches (no 'v'al kol yoshvei teiveil').",
     "Ten Days insert (B'sefer chayim) left out. Ending: ham'vareich et amo Yisrael bashalom."
    ],
    "lines": [
@@ -1135,6 +1176,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1145,6 +1187,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1155,6 +1198,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1165,6 +1209,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -1172,16 +1217,15 @@
   {
    "id": "vaychulu",
    "title": "Vay'chulu",
-   "about": "Genesis 2:1-3: heaven and earth completed, and the seventh day",
+   "about": "Genesis 2:1-3: heaven and earth completed, and the seventh day (not in CBB's siddur; CBB prints Gen 2:1-3 in English only, p. 42)",
    "order": 20,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Vay'chulu (The Metsudah siddur, 1981, CC-BY)",
    "unit": "concluding",
    "seq": 20,
    "check": [
-    "Torah text (Genesis 2:1-3), as printed in the Metsudah siddur. Mishkan T'filah also has it in the Kiddush; same wording?",
-    "Does CBB say Vay'chulu after the Amidah, or only in Kiddush?",
-    "CBB siddur (machine read, verify): no Hebrew Vay'chulu found, and no Kiddush section (Gen 2:1-3 only in English, p. 42-43)."
+    "CBB siddur Mashiv HaRuach prints Genesis 2:1-3 in English only (p. 42). Hebrew here is the Torah text as in the Metsudah siddur.",
+    "Does CBB chant it in Hebrew anyway?"
    ],
    "lines": [
     {
@@ -1192,6 +1236,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1202,6 +1247,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1212,6 +1258,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -1219,17 +1266,14 @@
   {
    "id": "magen_avot",
    "title": "Magen Avot",
-   "about": "The Amidah in brief, said together after it (from Me'ein Sheva)",
+   "about": "The Amidah in brief, said together after it (from Me'ein Sheva) (not in CBB's siddur)",
    "order": 21,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Me'ein Sheva (The Metsudah siddur, 1981, CC-BY)",
    "unit": "concluding",
    "seq": 21,
    "check": [
-    "Only the Magen Avot paragraph of Me'ein Sheva is here (not the opening 'Baruch atah... koneih shamayim va-aretz' or the closing R'tzei). Does Mishkan T'filah print more?",
-    "Ten Days word (hamelech hakadosh) left out.",
-    "English is Metsudah's 'Resurrector of the dead' and 'fathers'; it doesn't match hakol or v'imahot.",
-    "CBB siddur (machine read, verify): no Magen Avot found; evening service goes from the Amidah to Meditations and Mi Shebeirach (p. 50).",
+    "Not in CBB siddur Mashiv HaRuach. Kept as in Mishkan T'filah (v'imahot, m'chayeih hakol).",
     "Line 1, Reform change: Adds v'imahot: Magen avot v'imahot (shield of fathers and mothers). Confirm against Mishkan T'filah.",
     "Line 1, Reform change: M'chayeih hakol instead of m'chayeih meitim. Confirm against Mishkan T'filah."
    ],
@@ -1245,6 +1289,7 @@
       "Adds v'imahot: Magen avot v'imahot (shield of fathers and mothers).",
       "M'chayeih hakol instead of m'chayeih meitim."
      ],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1255,6 +1300,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1265,6 +1311,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1275,6 +1322,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -1289,10 +1337,7 @@
    "unit": "concluding",
    "seq": 22,
    "check": [
-    "Does Mishkan T'filah offer the alternative first paragraph ('shenatan lanu torat emet, v'chayei olam nata b'tocheinu') in place of 'shelo asanu k'goyei ha-aratzot...'? Which does CBB sing?",
-    "The second paragraph (Al kein n'kaveh) is left out; only its closing V'ne-emar line is here. Does Mishkan T'filah or CBB include Al kein?",
-    "'Hu Eloheinu ein od... v'yadata hayom' (lines 6-7) kept from the traditional text. Confirm Mishkan T'filah prints them.",
-    "CBB siddur (machine read, verify): Aleinu p. 120-121; neither 'shehem mishtachavim' nor 'shenatan lanu torat emet' found, and no Al kein.",
+    "CBB siddur Mashiv HaRuach p. 120-121: first paragraph (traditional 'shelo asanu', without 'shehem mishtachavim') and the V'ne-emar line. The middle lines are in English only, so they're left out.",
     "Line 4, Reform change: Leaves out 'shehem mishtachavim lahevel varik umitpal'lim el el lo yoshia' (many traditional Ashkenazi siddurim also omit it). Confirm against Mishkan T'filah."
    ],
    "lines": [
@@ -1304,6 +1349,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1314,6 +1360,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1324,6 +1371,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1336,36 +1384,7 @@
      "reform": [
       "Leaves out 'shehem mishtachavim lahevel varik umitpal'lim el el lo yoshia' (many traditional Ashkenazi siddurim also omit it)."
      ],
-     "verify": true
-    },
-    {
-     "he": "שֶׁהוּא נוֹטֶה שָׁמַיִם וְיוֹסֵד אָרֶץ, וּמוֹשַׁב יְקָרוֹ בַּשָּׁמַיִם מִמַּעַל, וּשְׁכִינַת עֻזּוֹ בְּגָבְהֵי מְרוֹמִים",
-     "tl": "Shehu noteh shamayim v'yoseid aretz, umoshav y'karo bashamayim mima-al, ush'chinat uzo b'govhei m'romim",
-     "tlf": false,
-     "en": "Who spreads the heavens, and establishes the earth, and the seat of His glory is in heaven above, and the abode of His invincible might is in the loftiest heights.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "הוּא אֱלֹהֵינוּ אֵין עוֹד, אֱמֶת מַלְכֵּנוּ אֶפֶס זוּלָתוֹ כַּכָּתוּב בְּתוֹרָתוֹ",
-     "tl": "Hu Eloheinu ein od, emet malkeinu efes zulato kakatuv b'torato",
-     "tlf": false,
-     "en": "He is our God, there is nothing else. Our King is true, all else is insignificant, as it is written in His Torah",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "וְיָדַעְתָּ הַיּוֹם וַהֲשֵׁבֹתָ אֶל לְבָבֶךָ כִּי יְיָ הוּא הָאֱלֹהִים בַּשָּׁמַיִם מִמַּעַל וְעַל הָאָרֶץ מִתָּחַת אֵין עוֹד",
-     "tl": "V'yadata hayom vahasheivota el l'vavecha ki Adonai hu ha-Elohim bashamayim mima-al v'al ha-aretz mitachat ein od",
-     "tlf": false,
-     "en": "And You shall know this day and take into Your heart that Adonai is God in the heavens above and upon the earth below; there is nothing else.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1376,6 +1395,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -1390,12 +1410,9 @@
    "unit": "concluding",
    "seq": 23,
    "check": [
-    "Aramaic. Ten Days inserts (l'eila l'eila, hashalom) left out; the congregation's amein after line 1 is not shown.",
-    "Line 4 (Y'hei sh'meih raba) is said together by everyone. At CBB, does the whole congregation say the full Kaddish, or only mourners?",
-    "Hebrew says v'chayim (life); Metsudah's English says 'a good life'. Does Mishkan T'filah have v'chayim or v'chayim tovim?",
-    "Line 8 English is Metsudah's ('in His mercy'), so it lacks 'all who dwell on earth'. The added words are spelled as in Aleinu (Metsudah).",
-    "CBB siddur (machine read, verify): Kaddish Yatom p. 122-123 ends 'v'al kol Yisrael' (no 'v'al kol yoshvei teiveil' found).",
-    "Line 8, Reform change: Adds v'al kol yoshvei teiveil (and all who dwell on earth). Confirm against Mishkan T'filah."
+    "Aramaic. Ten Days inserts (l'eila l'eila) left out; the congregation's amein after line 1 is not shown.",
+    "CBB siddur Mashiv HaRuach p. 122: v'chayim, and Oseh shalom ends v'al kol Yisrael (no 'v'al kol yoshvei teiveil').",
+    "At CBB, does the whole congregation say it, or only mourners?"
    ],
    "lines": [
     {
@@ -1406,6 +1423,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1416,6 +1434,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1426,6 +1445,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1436,6 +1456,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1446,6 +1467,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1456,6 +1478,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1466,18 +1489,18 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
-     "he": "עוֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל וְעַל כָּל יוֹשְׁבֵי תֵבֵל וְאִמְרוּ אָמֵן",
-     "tl": "Oseh shalom bimromav hu ya-aseh shalom aleinu v'al kol Yisrael v'al kol yoshvei teiveil v'imru amein",
+     "he": "עוֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל וְאִמְרוּ אָמֵן",
+     "tl": "Oseh shalom bimromav hu ya-aseh shalom aleinu v'al kol Yisrael v'imru amein",
      "tlf": false,
      "en": "He Who makes peace in His high heavens may He, in His mercy, make peace for us and for all Israel — and say Amein.",
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
-     "reform": [
-      "Adds v'al kol yoshvei teiveil (and all who dwell on earth)."
-     ],
+     "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -1485,18 +1508,15 @@
   {
    "id": "lcha_dodi_1",
    "title": "L'cha Dodi (1)",
-   "about": "Come, my beloved, to greet the bride: refrain and stanzas 1-4",
+   "about": "Come, my beloved, to greet the bride: refrain and stanzas 1-2",
    "order": 24,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Lekha Dodi (The Metsudah siddur, 1981, CC-BY)",
    "unit": "kabbalat",
    "seq": 24,
    "check": [
-    "Hebrew and English: Metsudah siddur (traditional). No Reform wording change is marked; I don't know of one in Mishkan T'filah's L'cha Dodi. Please compare each line.",
-    "Which of the nine stanzas does Mishkan T'filah print, and which does CBB sing?",
-    "The refrain is shown once (line 1); it is sung after every stanza.",
-    "Stanza 4 (ben Yishai, redemption): does Mishkan T'filah keep it as printed here?",
-    "CBB siddur (machine read, verify): L'cha Dodi p. 14-15 seems to print only some stanzas (first three plus the last?). Please count them."
+    "CBB siddur Mashiv HaRuach p. 14: refrain and stanzas 1, 2, 5 and 9 only. Hebrew and English here: Metsudah siddur.",
+    "The refrain is sung after every stanza."
    ],
    "lines": [
     {
@@ -1507,6 +1527,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1517,6 +1538,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1527,6 +1549,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1537,6 +1560,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1547,46 +1571,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
-     "verify": true
-    },
-    {
-     "he": "מִקְדַּשׁ מֶלֶךְ עִיר מְלוּכָה, קוּמִי צְאִי מִתּוֹךְ הַהֲפֵכָה",
-     "tl": "Mikdash melech ir m'luchah, kumi tz'i mitoch hahafeichah",
-     "tlf": false,
-     "en": "Sanctuary of the King, royal city, arise, come forth from the upheaval",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "רַב לָךְ שֶׁבֶת בְּעֵמֶק הַבָּכָא, וְהוּא יַחְמוֹל עָלַיִךְ חֶמְלָה",
-     "tl": "Rav lach shevet b'eimek habacha, v'hu yachmol alayich chemlah",
-     "tlf": false,
-     "en": "Too long have you dwelt in the valley of weeping; He will show you abundant pity.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "הִתְנַעֲרִי מֵעָפָר קוּמִי, לִבְשִׁי בִּגְדֵי תִפְאַרְתֵּךְ עַמִּי",
-     "tl": "Hitna-ari mei-afar kumi, livshi bigdei tif'arteich ami",
-     "tlf": false,
-     "en": "Shake the dust off yourself, arise, dress up in your garments of glory, my people",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "עַל יַד בֶּן יִשַּׁי בֵּית הַלַּחְמִי, קָרְבָה אֶל נַפְשִׁי גְּאָלָהּ",
-     "tl": "Al yad ben Yishai beit halachmi, korvah el nafshi g'alah",
-     "tlf": false,
-     "en": "Through the son of Yishai the Bethlehemite, draw near to my soul and redeem it.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -1594,16 +1579,15 @@
   {
    "id": "lcha_dodi_2",
    "title": "L'cha Dodi (2)",
-   "about": "Stanzas 5-9, ending Bo'i v'shalom",
+   "about": "Stanzas 5 and 9, ending Bo'i v'shalom",
    "order": 25,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Lekha Dodi (The Metsudah siddur, 1981, CC-BY)",
    "unit": "kabbalat",
    "seq": 25,
    "check": [
-    "Stanzas 6-8 (rebuilding the city, the man from Peretz): does Mishkan T'filah print them?",
-    "Last line ends 'Bo'i chalah' three times with 'Shabbat malk'ta', as in the Metsudah siddur. Mishkan T'filah wording and CBB custom?",
-    "CBB siddur (machine read, verify): the middle stanzas may be missing from p. 14-15; please check."
+    "CBB siddur Mashiv HaRuach p. 14: stanzas 5 and 9; everyone rises and turns to greet the Shabbat bride before stanza 9.",
+    "Last line English still says 'Sabbath Queen' (Metsudah); CBB's Hebrew ends 'bo'i chalah' twice."
    ],
    "lines": [
     {
@@ -1614,6 +1598,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1624,66 +1609,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
-     "verify": true
-    },
-    {
-     "he": "לֹא תֵבוֹשִׁי וְלֹא תִכָּלְמִי, מַה תִּשְׁתּוֹחֲחִי וּמַה תֶּהֱמִי",
-     "tl": "Lo teivoshi v'lo tikalmi, ma tishtochachi uma tehemi",
-     "tlf": false,
-     "en": "Feel not ashamed or humiliated why are you bowed down, why do you moan?",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "בָּךְ יֶחֱסוּ עֲנִיֵּי עַמִּי, וְנִבְנְתָה עִיר עַל תִּלָּהּ",
-     "tl": "Bach yechesu aniyei ami, v'nivn'tah ir al tilah",
-     "tlf": false,
-     "en": "In you will take refuge the poor of my people; and the city will be rebuilt on its ancient site.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "וְהָיוּ לִמְשִׁסָּה שֹׁסָיִךְ, וְרָחֲקוּ כָּל מְבַלְּעָיִךְ",
-     "tl": "V'hayu limshisah shosayich, v'rachaku kol m'val'ayich",
-     "tlf": false,
-     "en": "They will be ravaged, those who ravaged you, and they will be cast far off, all who devour you.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "יָשִׂישׂ עָלַיִךְ אֱלֹהָיִךְ, כִּמְשׂוֹשׂ חָתָן עַל כַּלָּה",
-     "tl": "Yasis alayich Elohayich, kimsos chatan al kalah",
-     "tlf": false,
-     "en": "Your God will rejoice over you as a bridegroom rejoices over his bride.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "יָמִין וּשְׂמֹאל תִּפְרוֹצִי, וְאֶת יְיָ תַּעֲרִיצִי",
-     "tl": "Yamin us'mol tifrotzi, v'et Adonai ta-aritzi",
-     "tlf": false,
-     "en": "Right and left you will spread out. and Adonai, you will praise",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "עַל יַד אִישׁ בֶּן פַּרְצִי, וְנִשְׂמְחָה וְנָגִילָה",
-     "tl": "Al yad ish ben Partzi, v'nism'chah v'nagilah",
-     "tlf": false,
-     "en": "Through the man descended from Peretz we will rejoice and exult.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1694,16 +1620,20 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
-     "he": "תּוֹךְ אֱמוּנֵי עַם סְגֻלָּה, בֹּאִי כַלָּה בֹּאִי כַלָּה בֹּאִי כַלָּה שַׁבָּת מַלְכְּתָא",
-     "tl": "Toch emunei am s'gulah, bo-i chalah bo-i chalah bo-i chalah Shabbat malk'ta",
+     "he": "תּוֹךְ אֱמוּנֵי עַם סְגֻלָּה, בֹּאִי כַלָּה, בֹּאִי כַלָּה",
+     "tl": "Toch emunei am s'gulah, bo-i chalah, bo-i chalah",
      "tlf": false,
      "en": "Come Bride, come Bride, come Bride, Shabbat Queen!",
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [
+      "Bo'i chalah twice, without 'Shabbat malk'ta' (p. 14)."
+     ],
      "verify": true
     }
    ]
@@ -1711,15 +1641,14 @@
   {
    "id": "ps92_1",
    "title": "Mizmor Shir (1)",
-   "about": "Psalm 92, verses 1-8: a song for the Shabbat day",
+   "about": "Psalm 92, verses 1-6: a song for the Shabbat day",
    "order": 26,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 92 (The Metsudah siddur, 1981, CC-BY)",
    "unit": "kabbalat",
    "seq": 26,
    "check": [
-    "Psalm 92 (Metsudah siddur), one verse per line. Does Mishkan T'filah print the whole psalm, or only some verses? Which does CBB sing?",
-    "CBB siddur (machine read, verify): Psalm 92 p. 16-17."
+    "CBB siddur Mashiv HaRuach p. 16: verses 1-6, then 13-16. Hebrew and English: Metsudah siddur."
    ],
    "lines": [
     {
@@ -1730,6 +1659,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1740,6 +1670,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1750,6 +1681,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1760,6 +1692,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1770,6 +1703,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1780,26 +1714,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
-     "verify": true
-    },
-    {
-     "he": "אִישׁ־בַּעַר לֹא יֵדָע וּכְסִיל לֹא־יָבִין אֶת־זֹאת",
-     "tl": "Ish ba-ar lo yeida uch'sil lo yavin et zot",
-     "tlf": false,
-     "en": "An empty-headed man cannot know, nor does a fool understand this",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "בִּפְרֹחַ רְשָׁעִים כְּמוֹ עֵשֶׂב וַיָּצִיצוּ כָּל־פֹּעֲלֵי אָוֶן לְהִשָּׁמְדָם עֲדֵי־עַד",
-     "tl": "Bifroach r'sha-im k'mo eisev vayatzitzu kol po-alei aven l'hishamdam adei ad",
-     "tlf": false,
-     "en": "When the wicked bloom like grass, and all the evildoers blossom— it is so that they may be destroyed forever.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -1807,57 +1722,17 @@
   {
    "id": "ps92_2",
    "title": "Mizmor Shir (2)",
-   "about": "Psalm 92, verses 9-16: the righteous flourish like a palm",
+   "about": "Psalm 92, verses 13-16: the righteous flourish like a palm",
    "order": 27,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 92 (The Metsudah siddur, 1981, CC-BY)",
    "unit": "kabbalat",
    "seq": 27,
    "check": [
-    "Line 4 English has the translator's bracketed words.",
-    "CBB often sings Tzadik katamar (line 5)? Confirm the verses sung."
+    "CBB siddur Mashiv HaRuach p. 16: verses 13-16 (Tzadik katamar).",
+    "Line 1 starts a new block in CBB's siddur."
    ],
    "lines": [
-    {
-     "he": "וְאַתָּה מָרוֹם לְעֹלָם יְיָ",
-     "tl": "V'atah marom l'olam Adonai",
-     "tlf": false,
-     "en": "But You will remain on high forever Adonai.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "כִּי הִנֵּה אֹיְבֶיךָ יְיָ כִּי־הִנֵּה אֹיְבֶיךָ יֹאבֵדוּ יִתְפָּרְדוּ כָּל־פֹּעֲלֵי אָוֶן",
-     "tl": "Ki hinei oyvecha Adonai ki hinei oyvecha yoveidu yitpardu kol po-alei aven",
-     "tlf": false,
-     "en": "For behold, Your enemies, Adonai; For behold, Your enemies shall perish; dispersed shall be all evildoers.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "וַתָּרֶם כִּרְאֵים קַרְנִי בַּלֹּתִי בְּשֶׁמֶן רַעֲנָן",
-     "tl": "Vatarem kir'eim karni baloti b'shemen ra-anan",
-     "tlf": false,
-     "en": "You uplifted my horn like that of a unicorn; I am saturated with fresh oil.",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
-    {
-     "he": "וַתַּבֵּט עֵינִי בְּשׁוּרָי בַּקָּמִים עָלַי מְרֵעִים תִּשְׁמַעְנָה אָזְנָי",
-     "tl": "Vatabeit eini b'shurai bakamim alai m'rei-im tishmanah oznai",
-     "tlf": false,
-     "en": "My eye has seen [the defeat of] those who spy on me; of the wicked who rise against me, my ears have heard [that they are doomed].",
-     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
-     "en_license": "CC-BY",
-     "reform": [],
-     "verify": true
-    },
     {
      "he": "צַדִּיק כַּתָּמָר יִפְרָח כְּאֶרֶז בַּלְּבָנוֹן יִשְׂגֶּה",
      "tl": "Tzadik katamar yifrach k'erez bal'vanon yisgeh",
@@ -1866,6 +1741,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1876,6 +1752,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1886,6 +1763,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1896,6 +1774,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
@@ -1903,15 +1782,14 @@
   {
    "id": "ps93",
    "title": "Adonai Malach (Psalm 93)",
-   "about": "God reigns, robed in majesty",
+   "about": "God reigns, robed in majesty (not in CBB's siddur)",
    "order": 28,
    "audio": null,
    "he_src": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 93 (The Metsudah siddur, 1981, CC-BY)",
    "unit": "kabbalat",
    "seq": 28,
    "check": [
-    "Psalm 93 (Metsudah siddur). Confirm Mishkan T'filah prints it here and with the same wording.",
-    "CBB siddur (machine read, verify): Psalm 93 not found (the book has Psalms 29, 92, 96-99 on Friday night)."
+    "Not in CBB siddur Mashiv HaRuach (Friday night has Psalms 29, 92, 95-99). Kept from the traditional Kabbalat Shabbat."
    ],
    "lines": [
     {
@@ -1922,6 +1800,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1932,6 +1811,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1942,6 +1822,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1952,6 +1833,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1962,6 +1844,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     },
     {
@@ -1972,6 +1855,7 @@
      "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
      "en_license": "CC-BY",
      "reform": [],
+     "cbb": [],
      "verify": true
     }
    ]
