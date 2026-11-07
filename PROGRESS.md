@@ -2,6 +2,12 @@
 
 ## START HERE (next session, written 11/07)
 Read this block + BRIEF.md. Don't re-audit anything below.
+DONE 11/07 (v29): "Shabbat morning: Sh'ma and its blessings" unit (unit id morning, SEQ 90-97, CBB p. 52-83): m_mah_tovu (7), m_yotzer_1 (6), m_yotzer_2 (7; CBB short Yotzer Or ending with Or chadash), m_ahavah_rabbah (10), m_vhaya_1/2 (Deut 11:13-17 / 18-21; CBB prints it), m_tzitzit (Num 15:37-39; 15:40-41 is in V'ahavta), m_mi_chamocha (9; CBBSUB adds Miriam). Sh'ma/V'ahavta/Barchu reuse the existing lessons.
+- data/src/sefaria-morning.json (44 lines hash-verified, key "<ref>|<lang>|mo"): Siddur Ashkenaz WEEKDAY Shacharit Metsudah he/en (Siddur Ashkenaz Shabbat Shacharit has only Daat, which lacks holam/sin dots: don't use), Siddur Sefard Shabbat Shema & Blessings seg 3 (Hakol yoducha; Torat Emet he, Metsudah en), Deut 11:13-21 + Num 15:37-39 (Masorah, Contemporary Torah). Lines picked by word index ("w" specs) to match CBB.
+- clean_he: strips {פ}/{ס}, maps כַּיהֹוָה -> כַּייָ. translit EXCEPT += kAdonai, Miriam, Y'hudah, ham'racheim, v'Yisrael. questions.html 84.
+- CBB page images p. 52, 68-71, 76, 78, 82 checked: selections match.
+- Headless: all 8 lessons run to the end, no JS errors.
+NEXT: morning Amidah (CBB p. 86-100: Avot, G'vurot, K'dushah, K'dushat HaYom, R'tzeh, Modim, Shalom; check what Sefaria has with Metsudah: try Siddur Ashkenaz Weekday or Siddur Sefard Shabbat Morning Amidah), then Adon Olam p. 124, Ein Keloheinu p. 126, Yigdal p. 54. Then Trope 1-3.
 DONE 11/07 (v28): "Torah service" unit (unit id torah, Shabbat morning, CBB p. 104-119). New prayers: t_ein_kamocha (6 lines), t_vayhi (Vay'hi binsoa + Sh'ma/Echad/Gadlu, 7), t_lcha (5), t_vzot (2), haftarah_after (CBB short form, 6), t_etz (Y'hal'lu, Ki lekach tov, Etz chayim, D'racheha, Hashiveinu, 5). torah_before/after and haftarah_before moved into this unit (SEQ 100-108).
 - data/src/sefaria-torah-service.json (32 lines hash-verified): Siddur Sefard Shabbat Morning (Torat Emet he PD, Metsudah en CC-BY; subset segs) + Psalms 148:13-14, Proverbs 4:2, Lamentations 5:21 (Masorah he, JPS 1917 en PD). Loaded under key "<ref>|<lang>|ts" (its Haftarah entry has other segs than sefaria-texts.json). Siddur Ashkenaz has no Metsudah for the Shabbat Torah service.
 - build_prayers.py: clean_he keeps qere of "(ketiv) [qere]" and drops unpointed bracketed instructions; clean_en maps LORD -> Adonai. translit EXCEPT += Tziyon, miTziyon, miY'rushalayim, ham'dabeir, gadlu, Torati, Torato, תוֹרָה. app.js UNITS += torah; questions.py too (69 questions).

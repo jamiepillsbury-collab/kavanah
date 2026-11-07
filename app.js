@@ -471,6 +471,7 @@
                    ["shma", "Sh'ma and its blessings", "Shabbat evening, Ma'ariv Aravim to V'shamru"],
                    ["amidah", "Amidah", "Shabbat evening, Avot v'Imahot to Shalom Rav"],
                    ["concluding", "After the Amidah", "Shabbat evening: Vay'chulu, Magen Avot, Aleinu, Mourner's Kaddish"],
+                   ["morning", "Shabbat morning: Sh'ma and its blessings", "Mah Tovu, Yotzer Or, Ahavah Rabbah, V'haya im shamoa, Tzitzit, Mi Chamocha"],
                    ["torah", "Torah service", "Shabbat morning: taking out the Torah, the blessings, returning it"]];
     for (const [u, title, subtitle] of UNITS) {
       const ls = lessons.filter((l) => l.unit === u);
