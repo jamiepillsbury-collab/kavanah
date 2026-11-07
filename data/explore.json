@@ -908,6 +908,469 @@
         }
        ],
        "season": null
+      },
+      {
+       "id": "x-st-gen-05",
+       "title": "Cain and Abel (1): The offerings and the door",
+       "parashah": [
+        "Bereshit"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "My summaries of Rashi on Genesis 4:3 and Bereshit Rabbah 22:7. Claim to check: chatat (4:7) is the Torah's first word for sin.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Two names",
+         "body": "Eve names her first son **Kayin**: \"I have gained (*kaniti*) a man with God\" (4:1). The second son gets no explanation, but his name says plenty: **Hevel** means breath or vapor, the word Ecclesiastes uses for \"vanity\" (*havel havalim*). He passes like a breath.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:1-2",
+          "note": "Hevel as in Ecclesiastes 1:2."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Why does God accept Abel's offering and not Cain's?",
+         "choices": [
+          "The Torah doesn't say",
+          "God wanted animals, not fruit",
+          "Cain was the older brother",
+          "Abel prayed first"
+         ],
+         "answer": 0,
+         "why": "The text gives **no reason**. It only describes what each brought, and readers have been filling the gap ever since.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:3-5"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 4:3-5",
+         "ref": "Genesis 4:3-5",
+         "he": "וַיְהִי מִקֵּץ יָמִים וַיָּבֵא קַיִן מִפְּרִי הָאֲדָמָה מִנְחָה לַיהֹוָה\nוְהֶבֶל הֵבִיא גַם־הוּא מִבְּכֹרוֹת צֹאנוֹ וּמֵחֶלְבֵהֶן וַיִּשַׁע יְיָ אֶל־הֶבֶל וְאֶל־מִנְחָתוֹ\nוְאֶל־קַיִן וְאֶל־מִנְחָתוֹ לֹא שָׁעָה וַיִּחַר לְקַיִן מְאֹד וַיִּפְּלוּ פָּנָיו",
+         "en": "In the course of time, Cain brought an offering to יהוה from the fruit of the soil; and Abel, for his part, brought the choicest of the firstlings of his flock. יהוה paid heed to Abel and his offering, but to Cain and his offering [God] paid no heed. Cain was much distressed and his face fell.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:3-5"
+         },
+         "tl": "Vay'hi mikeitz yamim vayavei kayin mip'ri ha-adamah minchah laihovah\nV'hevel heivi gam hu mib'chorot tzono umeichelveihen vayisha Adonai el hevel v'el minchato\nV'el kayin v'el minchato lo sha-ah vayichar l'kayin m'od vayip'lu panav"
+        },
+        {
+         "kind": "concept",
+         "title": "Reading the gap",
+         "body": "Look at the details. Abel brings **the firstlings of his flock and their fat**, the best. Cain brings just \"from the fruit of the soil.\" **Rashi** says Cain brought the worst of his crop. Care, not the kind of gift, makes the difference.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 4:3",
+          "note": "Rashi draws on Bereshit Rabbah 22:5."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "offering-gap",
+         "type": "why",
+         "q": "According to Rashi, why was Cain's offering not accepted?",
+         "choices": [
+          "He brought the worst of his crop",
+          "Plant offerings weren't allowed",
+          "He brought it on the wrong day"
+         ],
+         "answer": 0,
+         "why": "Rashi reads \"from the fruit of the soil\" as **the worst of it**, set against Abel's firstlings and best portions.",
+         "wrong_why": [
+          null,
+          "Later the Torah has grain offerings, also called *minchah* (Leviticus 2), so plants weren't the problem.",
+          "The text says only \"in the course of time\"; nothing about the day."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 4:3"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 4:6-8",
+         "ref": "Genesis 4:6-8",
+         "he": "וַיֹּאמֶר יְיָ אֶל־קָיִן לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶיךָ\nהֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשׇׁל־בּוֹ\nוַיֹּאמֶר קַיִן אֶל־הֶבֶל אָחִיו וַיְהִי בִּהְיוֹתָם בַּשָּׂדֶה וַיָּקׇם קַיִן אֶל־הֶבֶל אָחִיו וַיַּהַרְגֵהוּ",
+         "en": "And יהוה said to Cain, “Why are you distressed, And why is your face fallen? Surely, if you do right, There is uplift. But if you do not do right Sin couches at the door; Its urge is toward you, Yet you can be its master.” Cain said to his brother Abel … and when they were in the field, Cain set upon his brother Abel and killed him.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:6-8"
+         },
+         "tl": "Vayomer Adonai el kayin lamah charah lach v'lamah naflu fanecha\nHalo im teitiv s'eit v'im lo teitiv lapetach chatat roveitz v'eilecha t'shukato v'atah timshol bo\nVayomer kayin el hevel achiv vay'hi bihyotam basadeh vayakom kayin el hevel achiv vayahargeihu",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "לַפֶּתַח חַטָּאת רֹבֵץ",
+         "tl": "Lapetach chatat roveitz",
+         "gloss": "\"Sin crouches at the door\" (4:7), like an animal waiting. The word **chatat**, sin, appears here for the first time in the Torah: not in the Garden, but just before the first murder.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:7"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "וְאַתָּה תִּמְשׇׁל־בּוֹ",
+         "tl": "V'atah timshol bo",
+         "gloss": "\"And you can rule over it\" (4:7). Sin wants Cain, but **the choice is his**. John Steinbeck built *East of Eden* around this one word.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:7",
+          "note": "John Steinbeck, East of Eden (1952)."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "timshol",
+         "type": "pick",
+         "q": "In 4:7, what does God tell Cain about sin?",
+         "choices": [
+          "It is waiting, but you can master it",
+          "You are already doomed to it",
+          "It comes from the serpent",
+          "An offering will remove it"
+         ],
+         "answer": 0,
+         "why": "Sin is **waiting at the door**, but Cain **can master it**. The verse puts the choice in his hands.",
+         "wrong_why": [
+          null,
+          "The verse says the opposite: v'atah timshol bo, you can rule over it.",
+          "The serpent is from the Garden; this verse never mentions it.",
+          "God points Cain to how he acts, not to a ritual."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:7"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "The missing words",
+         "body": "\"Cain said to his brother Abel...\" and then **nothing**. The Hebrew leaves his words out (the Contemporary Torah prints \"…\"). The midrash fills the silence with arguments: over **dividing the world**, over **whose land the Temple would stand on**, over **a woman**. Every version is a fight about having more.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bereshit Rabbah 22:7",
+          "note": "The Septuagint and the Samaritan Torah add \"Let us go out to the field.\""
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "missing-words",
+         "type": "tf",
+         "q": "Genesis 4:8 tells us what Cain said to Abel.",
+         "answer": 1,
+         "why": "It doesn't. The verse says \"Cain said to his brother Abel\" and **breaks off**. The midrash and some ancient translations fill the gap.",
+         "wrong_why": [
+          "Some ancient translations add \"Let us go out to the field,\" so you may have read a version that has words there.",
+          null
+         ],
+         "look_again": 9,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:8"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "relevance",
+         "body": "\"You can rule over it\" is the idea behind **t'shuvah**, turning back: Judaism assumes you can always choose again. You met the same idea in the Garden lesson: the **yetzer hara** is a drive to steer, not a fate.",
+         "links": []
+        },
+        {
+         "kind": "check",
+         "id": "q4",
+         "idea": "offering-gap",
+         "type": "pick",
+         "q": "What does the Torah say Abel brought?",
+         "choices": [
+          "The choicest firstlings of his flock",
+          "Fruit of the soil",
+          "Bread and wine"
+         ],
+         "answer": 0,
+         "why": "**The choicest of the firstlings of his flock** (4:4), the best he had.",
+         "wrong_why": [
+          null,
+          "That is Cain's offering (4:3).",
+          "Bread and wine come later, with Malki-tzedek (Genesis 14:18)."
+         ],
+         "look_again": 2,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:4"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Sin crouches at the door, yet you can master it. When has something waited at your door, and what helped you master it?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "**Kayin** (gained) and **Hevel** (breath).",
+          "The Torah never says why Abel's offering was accepted; Rashi points to Cain's careless gift.",
+          "**Chatat**, sin, first appears at Cain's door, and **timshol**: you can rule over it.",
+          "4:8 breaks off; the midrash fills the silence with fights over having more."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-gen-06",
+       "title": "Cain and Abel (2): The keeper and the cry",
+       "parashah": [
+        "Bereshit"
+       ],
+       "status": "draft",
+       "related": [
+        "prayer:ps92_1"
+       ],
+       "check_note": "My summaries of Mishnah Sanhedrin 4:5, Rashi on Genesis 4:13 and Bereshit Rabbah 22:13. The shomer link to Eden is my reading.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Where is your brother?",
+         "body": "In the Garden God asked Adam **\"Where are you?\"** Now God asks Cain **\"Where is your brother?\"** Adam hid; Cain lies, and answers with a question of his own.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:9"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Who puts a mark on Cain, and why?",
+         "choices": [
+          "God, to protect him",
+          "God, to shame him",
+          "Adam, to warn others",
+          "The text doesn't say"
+         ],
+         "answer": 0,
+         "why": "God marks Cain **so that no one who meets him will kill him** (4:15). The \"mark of Cain\" is protection, not a brand.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:15"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 4:9-10",
+         "ref": "Genesis 4:9-10",
+         "he": "וַיֹּאמֶר יְיָ אֶל־קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹכִי\nוַיֹּאמֶר מֶה עָשִׂיתָ קוֹל דְּמֵי אָחִיךָ צֹעֲקִים אֵלַי מִן־הָאֲדָמָה",
+         "en": "יהוה said to Cain, “Where is your brother Abel?” And he said, “I do not know. Am I my brother’s keeper?” “What have you done? Hark, your brother’s blood cries out to Me from the ground!",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:9-10"
+         },
+         "tl": "Vayomer Adonai el kayin ei hevel achicha vayomer lo yadati hashomeir achi anochi\nVayomer meh asita kol d'mei achicha tzo-akim eilai min ha-adamah"
+        },
+        {
+         "kind": "term",
+         "he": "הֲשֹׁמֵר אָחִי אָנֹכִי",
+         "tl": "Hashomeir achi anochi",
+         "gloss": "\"Am I my brother's keeper?\" (4:9). **Shomer**, keeper, is the root of *l'shomrah*: the first human was put in the garden to **guard** it. One chapter later, Cain refuses to guard his brother.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:9",
+          "note": "Compare Genesis 2:15."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "shomer",
+         "type": "pick",
+         "q": "Shomer (keeper) shares its root with which word from the Garden of Eden lessons?",
+         "choices": [
+          "L'shomrah, to guard it",
+          "Shabbat",
+          "Shalom",
+          "Sh'ma"
+         ],
+         "answer": 0,
+         "why": "**L'shomrah**, to guard it (2:15). Same root, ש־מ־ר: guarding the garden, keeping Shabbat (V'shamru), and the brother Cain won't keep.",
+         "wrong_why": [
+          null,
+          "Shabbat's root is ש־ב־ת (to stop), a different word.",
+          "Shalom's root is ש־ל־ם (whole).",
+          "Sh'ma's root is ש־מ־ע (hear)."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 2:15"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "דְּמֵי אָחִיךָ",
+         "tl": "D'mei achicha",
+         "gloss": "\"Your brother's **bloods**\" (4:10). The Hebrew is plural; English translations usually say \"blood.\"",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:10"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Bloods, not blood",
+         "body": "The Mishnah notices the plural: **his blood and the blood of all the descendants he would have had.** It is the same passage you met in Creation: whoever destroys one life destroys a whole world. Judges read it to witnesses in a capital case, so they would feel the weight of a life.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishnah Sanhedrin 4:5",
+          "note": "It also offers a second reading: his blood was spattered on trees and stones."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "bloods",
+         "type": "why",
+         "q": "What lesson does the Mishnah draw from \"bloods\"?",
+         "choices": [
+          "Killing one person destroys a whole future world",
+          "A murderer must be punished twice",
+          "Blood can never be washed away"
+         ],
+         "answer": 0,
+         "why": "Abel's **whole future line** died with him. Killing one person destroys a whole world.",
+         "wrong_why": [
+          null,
+          "The Mishnah isn't about punishment here; it is about what was lost.",
+          "Nothing in the passage says this; the plural points to the people who never lived."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishnah Sanhedrin 4:5"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 4:13-16",
+         "ref": "Genesis 4:13-16",
+         "he": "וַיֹּאמֶר קַיִן אֶל־יְיָ גָּדוֹל עֲוֺנִי מִנְּשֹׂא\nהֵן גֵּרַשְׁתָּ אֹתִי הַיּוֹם מֵעַל פְּנֵי הָאֲדָמָה וּמִפָּנֶיךָ אֶסָּתֵר וְהָיִיתִי נָע וָנָד בָּאָרֶץ וְהָיָה כׇל־מֹצְאִי יַהַרְגֵנִי\nוַיֹּאמֶר לוֹ יְיָ לָכֵן כׇּל־הֹרֵג קַיִן שִׁבְעָתַיִם יֻקָּם וַיָּשֶׂם יְיָ לְקַיִן אוֹת לְבִלְתִּי הַכּוֹת־אֹתוֹ כׇּל־מֹצְאוֹ\nוַיֵּצֵא קַיִן מִלִּפְנֵי יְיָ וַיֵּשֶׁב בְּאֶרֶץ־נוֹד קִדְמַת־עֵדֶן",
+         "en": "Cain said to יהוה, “My punishment is too great to bear! Since You have banished me this day from the soil, and I must avoid Your presence and become a restless wanderer on earth—anyone who meets me may kill me!” יהוה said to him, “I promise, if anyone kills Cain, sevenfold vengeance shall be exacted.” And יהוה put a mark on Cain, lest anyone who met him should kill him. Cain left the presence of יהוה and settled in the land of Nod, east of Eden.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:13-16"
+         },
+         "tl": "Vayomer kayin el Adonai gadol avoni min'so\nHein geirashta oti hayom mei-al p'nei ha-adamah umipanecha esateir v'hayiti na vanad ba-aretz v'hayah chol motz'i yahargeini\nVayomer lo Adonai lachein kol horeig kayin shiv'atayim yukam vayasem Adonai l'kayin ot l'vilti hakot oto kol motz'o\nVayeitzei kayin milifnei Adonai vayeishev b'eretz nod kidmat eiden",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Punishment, or sin?",
+         "body": "**Avon** means both sin and its punishment, so Cain's words can mean \"my punishment is too great to bear\" or \"my **sin** is too great to bear.\" **Rashi** hears a question: You carry the heavens and the earth, and You can't carry my sin? God answers with a **mark that protects** him.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 4:13"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "mark",
+         "type": "tf",
+         "q": "The mark of Cain was a sign of shame, so others would reject him.",
+         "answer": 1,
+         "why": "God puts the mark on Cain **\"lest anyone who met him should kill him\"** (4:15). It protects him.",
+         "wrong_why": [
+          "\"Mark of Cain\" became an English phrase for disgrace, so the shame reading feels natural.",
+          null
+         ],
+         "look_again": 9,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 4:15"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "concept",
+         "title": "Cain meets Adam",
+         "body": "A midrash: Adam meets Cain and asks how his judgment went. Cain says, **\"I did t'shuvah, and it was settled.\"** Adam strikes his own face: \"Such is the power of t'shuvah, and I didn't know!\" Right away he sings **\"Mizmor shir l'yom haShabbat: tov l'hodot ladonai,\"** reading *l'hodot* as both \"to give thanks\" and \"to confess.\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bereshit Rabbah 22:13"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q4",
+         "idea": "cain-tshuvah",
+         "type": "why",
+         "q": "In the midrash, why does Adam sing Psalm 92?",
+         "choices": [
+          "He learns from Cain how powerful t'shuvah is",
+          "Because it was Shabbat",
+          "To mourn that Abel was at fault"
+         ],
+         "answer": 0,
+         "why": "Cain's story shows him **the power of t'shuvah**, and Adam answers with \"It is good to give thanks (and confess) to God.\"",
+         "wrong_why": [
+          null,
+          "It's Shabbat's psalm, but in this midrash it comes from what Adam learns from Cain.",
+          "Nothing in the midrash blames Abel."
+         ],
+         "look_again": 11,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bereshit Rabbah 22:13"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "You know **Mizmor Shir** from Kabbalat Shabbat. Next Friday night, when you reach *tov l'hodot*, you're singing the line the midrash gives Adam after hearing Cain.",
+         "links": [
+          "prayer:ps92_1"
+         ]
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"Where is your brother?\": Cain answers **\"Am I my brother's keeper (shomer)?\"**, the root of guarding the garden.",
+          "**D'mei**, bloods: one life holds a whole future world.",
+          "**Avon**: sin and punishment; the mark **protects** Cain.",
+          "Midrash: Adam learns the power of t'shuvah from Cain and sings **Psalm 92**."
+         ]
+        }
+       ],
+       "season": null
       }
      ]
     }

@@ -2,6 +2,8 @@
 
 ## START HERE (next session, written 11/07)
 Read this block + BRIEF.md. Don't re-audit anything below.
+DONE 11/07 (v24): Cain and Abel, 2 Explore lessons (draft, 15 cards each): x-st-gen-05 "(1): The offerings and the door" (Kayin/Hevel, Rashi 4:3, lapetach chatat roveitz, timshol, BR 22:7 missing words), x-st-gen-06 "(2): The keeper and the cry" (hashomer achi = l'shomrah root, d'mei + Mishnah Sanhedrin 4:5, avon + Rashi 4:13, mark protects, BR 22:13 Adam sings Ps 92 -> link prayer:ps92_1). data/src/sefaria-cain.json: Gen 4:3-5, 4:6-8, 4:9-10, 4:13-16, 24 lines hash-verified. Headless: both run to Done.
+NEXT: Jamie tries Creation, Eden, Cain and Abel. Then Noah (ask first), or eye-check remaining prayers' Hebrew against CBB pages.
 DONE 11/07 later (v23): CBB siddur applied. Jamie saved the CBB PDF to sources/ (gitignored; also a useless print copy cbbsb.pdf, she can delete it). PDF page = book page. Translit + English are text (pdftotext -layout -> sources/cbb_txt/pNNN.txt); ALL Hebrew is images (view with pdftoppm -r 80, crop at -r 200 for vowels).
 - tools/cbb_compare.py: matches every prayers.json line's translit to CBB translit -> sources/cbb_compare.txt. Low score can just mean Hebrew-only in CBB: check the page image.
 - build_prayers.py CBB layer: DROP (line indices CBB doesn't print), CBBSUB (CBB Hebrew wording, line field "cbb", shown on line cards "CBB siddur wording"), NOT_CBB (about label), ABOUT overrides; CHECKs rewritten from CBB (questions.html 51). Reform subs removed where CBB is traditional: gvurot (m'chayei meitim), kdushat_hayom (no v'imoteinu), kaddish (no yoshvei teiveil). Kept: avot imahot (CBB matches), aleinu shehem omission.
