@@ -1371,6 +1371,484 @@
         }
        ],
        "season": null
+      },
+      {
+       "id": "x-st-gen-07",
+       "title": "Noah (1): Righteous in his generation",
+       "parashah": [
+        "Noach"
+       ],
+       "status": "draft",
+       "related": [
+        "prayer:barchu"
+       ],
+       "check_note": "My summaries of Rashi on Genesis 6:9 and 6:13 (Sanhedrin 108a). The tevah-as-word teaching: I attribute it to the Baal Shem Tov but am not sure of the exact book; please check.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A grieving God",
+         "body": "The flood story doesn't open with anger. It opens with **regret and grief**: God \"regretted having made humankind\" and was pained **to the heart** (6:6). The destruction comes from a broken heart.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 6:5-6"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "What does the Torah name as the earth's crime before the flood?",
+         "choices": [
+          "Chamas: lawlessness",
+          "Worshipping idols",
+          "Building a tower",
+          "Eating forbidden fruit"
+         ],
+         "answer": 0,
+         "why": "Twice the Torah says the earth was **filled with chamas** (6:11, 6:13): violence, lawlessness, people taking what isn't theirs.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 6:11-13"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 6:5-6",
+         "ref": "Genesis 6:5-6",
+         "he": "וַיַּרְא יְיָ כִּי רַבָּה רָעַת הָאָדָם בָּאָרֶץ וְכׇל־יֵצֶר מַחְשְׁבֹת לִבּוֹ רַק רַע כׇּל־הַיּוֹם\nוַיִּנָּחֶם יְיָ כִּי־עָשָׂה אֶת־הָאָדָם בָּאָרֶץ וַיִּתְעַצֵּב אֶל־לִבּוֹ",
+         "en": "יהוה saw how great was human wickedness on earth—how every plan devised by the human mind was nothing but evil all the time. And יהוה regretted having made humankind on earth. With a sorrowful heart,",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 6:5-6"
+         },
+         "tl": "Vayar Adonai ki rabah ra-at ha-adam ba-aretz v'chol yeitzer machsh'vot libo rak ra kol hayom\nVayinachem Adonai ki asah et ha-adam ba-aretz vayit'atzeiv el libo"
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 6:11-13",
+         "ref": "Genesis 6:11-13",
+         "he": "וַתִּשָּׁחֵת הָאָרֶץ לִפְנֵי הָאֱלֹהִים וַתִּמָּלֵא הָאָרֶץ חָמָס\nוַיַּרְא אֱלֹהִים אֶת־הָאָרֶץ וְהִנֵּה נִשְׁחָתָה כִּי־הִשְׁחִית כׇּל־בָּשָׂר אֶת־דַּרְכּוֹ עַל־הָאָרֶץ\nוַיֹּאמֶר אֱלֹהִים לְנֹחַ קֵץ כׇּל־בָּשָׂר בָּא לְפָנַי כִּי־מָלְאָה הָאָרֶץ חָמָס מִפְּנֵיהֶם וְהִנְנִי מַשְׁחִיתָם אֶת־הָאָרֶץ",
+         "en": "The earth became corrupt before God; the earth was filled with lawlessness. When God saw how corrupt the earth was, for all flesh had corrupted its ways on earth, God said to Noah, “I have decided to put an end to all flesh, for the earth is filled with lawlessness because of them: I am about to destroy them with the earth.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 6:11-13"
+         },
+         "tl": "Vatishacheit ha-aretz lifnei ha-Elohim vatimalei ha-aretz chamas\nVayar Elohim et ha-aretz v'hinei nishchatah ki hishchit kol basar et darko al ha-aretz\nVayomer Elohim l'noach keitz kol basar ba l'fanai ki mal'ah ha-aretz chamas mip'neihem v'hin'ni mashchitam et ha-aretz",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "חָמָס",
+         "tl": "Chamas",
+         "gloss": "\"Lawlessness, violence\" (6:11). **Rashi** says it means **robbery**. The Talmud adds that the flood generation did every kind of wrong, but their fate was **sealed by robbery**: everyday stealing from one another.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 6:13",
+          "note": "Based on Sanhedrin 108a."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "chamas",
+         "type": "why",
+         "q": "According to Rashi, what sealed the flood generation's fate?",
+         "choices": [
+          "Robbery, people taking from each other",
+          "Idol worship",
+          "Noah's prayers failed"
+         ],
+         "answer": 0,
+         "why": "**Robbery** (chamas). They did many wrongs, but taking from each other is what the Talmud says sealed the decree.",
+         "wrong_why": [
+          null,
+          "Rashi says they did that too, but it isn't what sealed the decree.",
+          "The Torah never says Noah prayed for them; that silence comes up later in this lesson."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 6:13"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 6:9",
+         "ref": "Genesis 6:9",
+         "he": "אֵלֶּה תּוֹלְדֹת נֹחַ נֹחַ אִישׁ צַדִּיק תָּמִים הָיָה בְּדֹרֹתָיו אֶת־הָאֱלֹהִים הִתְהַלֶּךְ־נֹחַ",
+         "en": "This is the line of Noah.—Noah was a righteous man; he was blameless in his age; Noah walked with God.—",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 6:9"
+         },
+         "tl": "Eileh toldot noach noach ish tzadik tamim hayah b'dorotav et ha-Elohim hithalech noach",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Righteous, compared to whom?",
+         "body": "\"Blameless **in his generation**\" (*b'dorotav*). The rabbis split. Some read it as **praise**: if he was righteous among such people, how much more in a good age. Others read it as a **limit**: next to his neighbors he looked righteous; next to Abraham he would have counted for little.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 6:9",
+          "note": "Based on Sanhedrin 108a."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "b-dorotav",
+         "type": "pick",
+         "q": "How can \"righteous in his generation\" be read as a limit?",
+         "choices": [
+          "He looked righteous only next to a wicked generation",
+          "He lived for many generations",
+          "He became righteous only in old age"
+         ],
+         "answer": 0,
+         "why": "Read as a limit: he was righteous **only by his generation's low standard**. The other reading takes the same words as praise.",
+         "wrong_why": [
+          null,
+          "B'dorotav is about the people around him, not how long he lived.",
+          "Nothing in the verse is about his age."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 6:9"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 6:22",
+         "ref": "Genesis 6:22",
+         "he": "וַיַּעַשׂ נֹחַ כְּכֹל אֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים כֵּן עָשָׂה",
+         "en": "Noah did so; just as God commanded him, so he did.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 6:22"
+         },
+         "tl": "Vaya-as noach k'chol asher tzivah oto Elohim kein asah"
+        },
+        {
+         "kind": "concept",
+         "title": "Noah doesn't argue",
+         "body": "Noah does **everything he is told** (6:22) and says **nothing** on behalf of the world. Compare Abraham, who hears Sodom will be destroyed and pushes back: \"Shall not the Judge of all the earth deal justly?\" (18:25). Jewish teachers often set the two side by side: obedience is not the whole of righteousness.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 18:23-25",
+          "note": "My comparison; a common one in Jewish teaching."
+         }
+        },
+        {
+         "kind": "term",
+         "he": "תֵּבָה",
+         "tl": "Teivah",
+         "gloss": "\"Ark.\" The only other place the Torah uses it: the **basket** that carried baby Moses (Exodus 2:3). In later Hebrew tevah also means \"**word**,\" and a Hasidic teaching reads \"come into the tevah\" as: **enter the words of your prayer**.",
+         "src": {
+          "type": "tradition",
+          "ref": "Teaching attributed to the Baal Shem Tov",
+          "note": "Exodus 2:3 for the basket."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "tevah",
+         "type": "pick",
+         "q": "Where else in the Torah does the word tevah appear?",
+         "choices": [
+          "The basket that carried baby Moses",
+          "The Ark of the Covenant",
+          "The Tabernacle"
+         ],
+         "answer": 0,
+         "why": "In **Moses' basket** (Exodus 2:3). Both times, a small vessel carries life through water.",
+         "wrong_why": [
+          null,
+          "The Ark of the Covenant is an *aron*, a different word.",
+          "The Tabernacle is the *mishkan*."
+         ],
+         "look_again": 11,
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 2:3"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "Try the Hasidic reading next time you pray: treat each word as a **tevah**, a small shelter to step inside. Start with the two lines of **Barchu**.",
+         "links": [
+          "prayer:barchu"
+         ]
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "The flood begins with God's **grief**.",
+          "The crime is **chamas**; Rashi: robbery sealed the decree.",
+          "**B'dorotav**: praise, or righteous only by a low standard.",
+          "Noah obeys but never argues for the world; Abraham will.",
+          "**Tevah**: the ark, Moses' basket, and in later Hebrew a word of prayer."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-gen-08",
+       "title": "Noah (2): The bow in the clouds",
+       "parashah": [
+        "Noach"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "My summaries of Sanhedrin 56a, Tosefta Sanhedrin 13:2, Ramban on Genesis 9:12, Berakhot 59a and Chagigah 16a. Please check the Ramban card most closely.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Same reason, opposite answer",
+         "body": "Before the flood, God sees that every human thought is \"only evil\" (6:5). After it, God says nearly the same thing, the human heart \"is evil from youth\" (8:21), and then promises **never again**. The diagnosis hasn't changed. The response has.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 8:21",
+          "note": "Compare Genesis 6:5."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Why does God promise never to flood the earth again?",
+         "choices": [
+          "Because human hearts lean toward evil from youth",
+          "Because Noah proved humans are good",
+          "Because the flood washed evil away",
+          "Because the rainbow forced it"
+         ],
+         "answer": 0,
+         "why": "Surprisingly, it's **the same reason** given for the flood: humans lean toward evil. This time God chooses patience.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 8:21"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 8:21",
+         "ref": "Genesis 8:21",
+         "he": "וַיָּרַח יְיָ אֶת־רֵיחַ הַנִּיחֹחַ וַיֹּאמֶר יְיָ אֶל־לִבּוֹ לֹא־אֹסִף לְקַלֵּל עוֹד אֶת־הָאֲדָמָה בַּעֲבוּר הָאָדָם כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו וְלֹא־אֹסִף עוֹד לְהַכּוֹת אֶת־כׇּל־חַי כַּאֲשֶׁר עָשִׂיתִי",
+         "en": "יהוה smelled the pleasing odor, and יהוה resolved: “Never again will I doom the earth because of humankind, since the devisings of the human mind are evil from youth; nor will I ever again destroy every living being, as I have done.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 8:21"
+         },
+         "tl": "Vayarach Adonai et reiach hanichoach vayomer Adonai el libo lo osif l'kaleil od et ha-adamah ba-avur ha-adam ki yeitzer leiv ha-adam ra min'urav v'lo osif od l'hakot et kol chai ka-asher asiti"
+        },
+        {
+         "kind": "term",
+         "he": "יֵצֶר לֵב הָאָדָם",
+         "tl": "Yeitzer leiv ha-adam",
+         "gloss": "\"The devising of the human heart\" (8:21). **Yetzer** here is where the rabbis' **yetzer hara**, the drive you met in the Garden lessons, gets its name.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 8:21"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "same-reason",
+         "type": "tf",
+         "q": "After the flood, God promises mercy because humans have become good.",
+         "answer": 1,
+         "why": "The verse says the opposite: the human heart is **evil from youth**, and God promises anyway.",
+         "wrong_why": [
+          "It would make sense for a promise to follow improvement, but here it doesn't.",
+          null
+         ],
+         "look_again": 2,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 8:21"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 9:6",
+         "ref": "Genesis 9:6",
+         "he": "שֹׁפֵךְ דַּם הָאָדָם בָּאָדָם דָּמוֹ יִשָּׁפֵךְ כִּי בְּצֶלֶם אֱלֹהִים עָשָׂה אֶת־הָאָדָם",
+         "en": "Whoever sheds human blood, By human [hands] shall that one’s blood be shed; For in the image of God Was humankind made.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 9:6"
+         },
+         "tl": "Shofeich dam ha-adam ba-adam damo yishafeich ki b'tzelem Elohim asah et ha-adam"
+        },
+        {
+         "kind": "concept",
+         "title": "Laws for everyone",
+         "body": "After the flood God gives laws to **all humanity**, and the first protects human life, \"for in the image of God was humankind made.\" The rabbis count **seven laws for the children of Noah**: set up courts, and do not curse God, worship idols, commit sexual wrongs, murder, rob, or eat a limb torn from a living animal.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sanhedrin 56a"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "בְּנֵי נֹחַ",
+         "tl": "B'nei noach",
+         "gloss": "\"Children of Noah\": every human being. A rabbinic teaching holds that **the righteous of all nations have a share in the world to come**; you don't have to be Jewish to be righteous.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Tosefta Sanhedrin 13:2"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "noahide",
+         "type": "why",
+         "q": "Why do the rabbis speak of laws for the \"children of Noah\"?",
+         "choices": [
+          "Everyone descends from Noah, so they are laws for all humanity",
+          "Only Noah's own family had to keep them",
+          "They replaced the Torah for Jews"
+         ],
+         "answer": 0,
+         "why": "Everyone alive descends from Noah, so these are **laws for all humanity**, and anyone who keeps them is righteous.",
+         "wrong_why": [
+          null,
+          "\"Children of Noah\" means everyone, not one family.",
+          "They were never meant to replace the Torah for Jews; they are a shared baseline for all people."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sanhedrin 56a"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 9:13-15",
+         "ref": "Genesis 9:13-15",
+         "he": "אֶת־קַשְׁתִּי נָתַתִּי בֶּעָנָן וְהָיְתָה לְאוֹת בְּרִית בֵּינִי וּבֵין הָאָרֶץ\nוְהָיָה בְּעַנְנִי עָנָן עַל־הָאָרֶץ וְנִרְאֲתָה הַקֶּשֶׁת בֶּעָנָן\nוְזָכַרְתִּי אֶת־בְּרִיתִי אֲשֶׁר בֵּינִי וּבֵינֵיכֶם וּבֵין כׇּל־נֶפֶשׁ חַיָּה בְּכׇל־בָּשָׂר וְלֹא־יִהְיֶה עוֹד הַמַּיִם לְמַבּוּל לְשַׁחֵת כׇּל־בָּשָׂר",
+         "en": "I have set My bow in the clouds, and it shall serve as a sign of the covenant between Me and the earth. When I bring clouds over the earth, and the bow appears in the clouds, I will remember My covenant between Me and you and every living creature among all flesh, so that the waters shall never again become a flood to destroy all flesh.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 9:13-15"
+         },
+         "tl": "Et kashti natati be-anan v'haytah l'ot b'rit beini uvein ha-aretz\nV'hayah b'an'ni anan al ha-aretz v'nir'atah hakeshet be-anan\nV'zacharti et b'riti asher beini uveineichem uvein kol nefesh chayah b'chol basar v'lo yihyeh od hamayim l'mabul l'shacheit kol basar",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "קֶשֶׁת",
+         "tl": "Keshet",
+         "gloss": "\"Bow,\" the same word as a **war bow**. **Ramban** notes the rainbow is set with no arrow and its ends turned **down toward the earth**, the way a warrior hangs up a bow: a sign that God is not shooting at us.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Ramban on Genesis 9:12"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A blessing for rainbows",
+         "body": "When you see a rainbow, the Talmud gives a blessing: *Baruch atah Adonai, Eloheinu melech ha-olam,* **zocher habrit, v'ne-eman bivrito, v'kayam b'ma-amaro**: who **remembers the covenant**, is faithful to it, and keeps God's word. Some also say not to stare at a rainbow for long, out of awe.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 59a",
+          "note": "On not gazing: Chagigah 16a."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "rainbow-blessing",
+         "type": "pick",
+         "q": "What does the rainbow blessing praise God for?",
+         "choices": [
+          "Remembering the covenant",
+          "Making the rain stop",
+          "Creating the colors of light"
+         ],
+         "answer": 0,
+         "why": "**Remembering the covenant** (zocher habrit) and keeping the promise of Genesis 9.",
+         "wrong_why": [
+          null,
+          "The blessing is about the promise, not the weather.",
+          "It is about the covenant, not the colors."
+         ],
+         "look_again": 11,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 59a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q4",
+         "idea": "same-reason",
+         "type": "pick",
+         "q": "Which word in Genesis 8:21 gives the rabbis the name yetzer hara?",
+         "choices": [
+          "Yetzer",
+          "Keshet",
+          "Chamas",
+          "Tevah"
+         ],
+         "answer": 0,
+         "why": "**Yetzer**, the devising or drive of the human heart.",
+         "wrong_why": [
+          null,
+          "Keshet is the bow in chapter 9.",
+          "Chamas is the lawlessness before the flood.",
+          "Tevah is the ark."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 8:21"
+         }
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Before and after the flood, the same diagnosis: the human heart leans toward evil. After, God chooses **patience**.",
+          "**Yetzer** (8:21) is where the yetzer hara gets its name.",
+          "**Seven laws for the children of Noah**: a moral baseline for all humanity.",
+          "**Keshet**: a bow hung up, not aimed. Blessing: **zocher habrit**."
+         ]
+        }
+       ],
+       "season": null
       }
      ]
     }
