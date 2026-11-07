@@ -311,6 +311,22 @@ CHECK = {
  "shehecheyanu": ["No Sefaria English found for this text."],
 }
 
+# CBB siddur Mashiv HaRuach (c. 2012, PDF on cbbsb.org/shabbat-siddur), read by an automated tool 11/01, NOT yet verified by eye.
+CBB = "CBB siddur (machine read, verify): "
+for pid, note in {
+ "kiddush": "no Kiddush section found; Gen 2:1-3 appears only in English, in the Amidah's 'Holiness of the Sabbath Day' (p. 42-43).",
+ "vaychulu": "no Hebrew Vay'chulu found, and no Kiddush section (Gen 2:1-3 only in English, p. 42-43).",
+ "kdushat_hayom": "Evening Amidah has 'Holiness of the Sabbath Day' (p. 42-43) with Gen 2:1-3 in English only.",
+ "magen_avot": "no Magen Avot found; evening service goes from the Amidah to Meditations and Mi Shebeirach (p. 50).",
+ "aleinu": "Aleinu p. 120-121; neither 'shehem mishtachavim' nor 'shenatan lanu torat emet' found, and no Al kein.",
+ "kaddish": "Kaddish Yatom p. 122-123 ends 'v'al kol Yisrael' (no 'v'al kol yoshvei teiveil' found).",
+ "lcha_dodi_1": "L'cha Dodi p. 14-15 seems to print only some stanzas (first three plus the last?). Please count them.",
+ "lcha_dodi_2": "the middle stanzas may be missing from p. 14-15; please check.",
+ "ps92_1": "Psalm 92 p. 16-17.",
+ "ps93": "Psalm 93 not found (the book has Psalms 29, 92, 96-99 on Friday night).",
+}.items():
+    CHECK[pid].append(CBB + note)
+
 out = {"generated_by": "tools/build_prayers.py", "source_fetched": raw["fetched"], "prayers": []}
 for order, (pid, title, about, lines) in enumerate(PRAYERS):
     pl = []

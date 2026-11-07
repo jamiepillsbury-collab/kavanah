@@ -1,6 +1,14 @@
 # PROGRESS
 
-## START HERE (next session, written 11/01)
+## START HERE (next session, written 11/07)
+Read this block + BRIEF.md. Don't re-audit anything below.
+DONE 11/07 (v22): Garden of Eden, 2 Explore lessons (draft, 15 cards each, Jamie to review): x-st-gen-03 "Garden of Eden (1): Earth, work and a partner" (adam/adamah, l'ovdah ul'shomrah, Kohelet Rabbah 7:13, ezer k'negdo, Rashi 2:18 + BR 8:1, V'shamru/Tu BiShvat), x-st-gen-04 "Garden of Eden (2): The fruit and the question" (Berakhot 40a, Ayekah + Rashi 3:9 + Shneur Zalman/Buber, no original sin + Berakhot 60b, yetzer hara BR 9:7, Etz chayim hi). data/src/sefaria-eden.json: Gen 2:8-9, 2:15, 2:18, 2:21-23, 3:4-6, 3:8-9, 3:22-24, 30 lines hash-verified (2:21-23 and 3:22-24 fetched but not used on cards yet). x-stories.json now saved with indent=1.
+- Creation feedback (Jamie 11/07): keep 14-15 cards; she hasn't tried the lessons yet, so no tone/flow notes. Eden approved as 2 lessons.
+- Browser fetch tip: replace <br> with a space before DOMParser, or English poetry loses spaces.
+- CBB check (cbbsb.org, 11/01): site says only "the weekly Torah portion" (no cycle named); siddur page links a Mashiv HaRuach PDF (c. 2012): https://cbbsb.org/wp-content/uploads/2023/12/Mashiv-Haruach-CBB-Siddur-text.pdf. Machine read of the PDF (unverified): no Kiddush section, Gen 2:1-3 only in English, no Psalm 93, no Magen Avot, L'cha Dodi maybe partial, Aleinu without either first-paragraph variant line, Kaddish ends v'al kol Yisrael; only melody credit Debbie Friedman (Mi Shebeirach). Added as "CBB siddur (machine read, verify)" CHECKs in build_prayers.py (questions.html 75). Shells can't reach cbbsb.org. Per project rules the PDF takes priority: ask Jamie to save it into the project folder, then read it properly and correct the affected units (kabbalat, concluding, amidah).
+NEXT: Jamie tries Creation + Eden; saves the CBB PDF. Then rest of Genesis (Cain and Abel next; ask first).
+
+## Earlier START HERE (written 11/01)
 Read this block + BRIEF.md. Don't re-audit anything below.
 State: v18 committed locally (Jamie: click Push origin in GitHub Desktop). Live site https://jamiepillsbury-collab.github.io/kavanah/. Commit with
 `git -c safe.directory='*' -c user.name=jamiepillsbury-collab -c user.email=jamiepillsbury-collab@users.noreply.github.com commit -qam "..."` (request delete permission once per session first, or git leaves .lock files). Bump version.js on every app change.

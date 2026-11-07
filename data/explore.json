@@ -239,7 +239,7 @@
         "prayer:vaychulu",
         "prayer:kiddush"
        ],
-       "check_note": "My summaries of Rashi on Genesis 1:26 and Mishnah Sanhedrin 4:5; whether Kiddush at CBB includes Vay'chulu.",
+       "check_note": "My summaries of Rashi on Genesis 1:26 and Mishnah Sanhedrin 4:5. Kiddush/Vay'chulu: the CBB siddur PDF (machine read) shows no Kiddush section and Gen 2:1-3 only in English; does CBB chant Vay'chulu?",
        "cards": [
         {
          "kind": "hook",
@@ -451,6 +451,459 @@
           "The Mishnah: one life is a whole world, and no two people are alike.",
           "Shabbat begins as God's **stopping** (vayishbot), and the first holy thing is time.",
           "**Vay'chulu** (Genesis 2:1-3) opens Shabbat every Friday night."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-gen-03",
+       "title": "Garden of Eden (1): Earth, work and a partner",
+       "parashah": [
+        "Bereshit"
+       ],
+       "status": "draft",
+       "related": [
+        "prayer:vshamru"
+       ],
+       "check_note": "My summaries of Kohelet Rabbah 7:13, Rashi on Genesis 2:18 and Bereshit Rabbah 8:1. Translit of l'ovdah ul'shomrah (kamatz katan).",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A second beginning",
+         "body": "Genesis 1 sees the whole cosmos from far away. Genesis 2 comes in close: **one human, one garden, one job**, and a problem God notices: being alone.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 2:4-9"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Genesis 2:15 gives the human a task in the garden. What is it?",
+         "choices": [
+          "To name every tree",
+          "To work it and guard it",
+          "To guard the tree of life",
+          "To rest in it"
+         ],
+         "answer": 1,
+         "why": "God places the human in the garden **l'ovdah ul'shomrah**, to work it and to guard it. Paradise comes with a job.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 2:15"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 2:8-9",
+         "ref": "Genesis 2:8-9",
+         "he": "וַיִּטַּע יְיָ אֱלֹהִים גַּן־בְּעֵדֶן מִקֶּדֶם וַיָּשֶׂם שָׁם אֶת־הָאָדָם אֲשֶׁר יָצָר\nוַיַּצְמַח יְיָ אֱלֹהִים מִן־הָאֲדָמָה כׇּל־עֵץ נֶחְמָד לְמַרְאֶה וְטוֹב לְמַאֲכָל וְעֵץ הַחַיִּים בְּתוֹךְ הַגָּן וְעֵץ הַדַּעַת טוֹב וָרָע",
+         "en": "God יהוה planted a garden in Eden, in the east, and placed there the Human who had been fashioned. And from the ground God יהוה caused to grow every tree that was pleasing to the sight and good for food, with the tree of life in the middle of the garden, and the tree of knowledge of good and bad.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 2:8-9"
+         },
+         "tl": "Vayita Adonai Elohim gan b'eiden mikedem vayasem sham et ha-adam asher yatzar\nVayatzmach Adonai Elohim min ha-adamah kol eitz nechmad l'mar'eh v'tov l'ma-achol v'eitz hachayim b'toch hagan v'eitz hada-at tov vara"
+        },
+        {
+         "kind": "term",
+         "he": "אָדָם",
+         "tl": "Adam",
+         "gloss": "\"Human.\" Made from the **adamah**, the ground (2:7). In Genesis 2-3 it is mostly *ha-adam*, \"the human,\" a title more than a name: an earthling made of earth.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 2:7"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "adamah",
+         "type": "pick",
+         "q": "The word adam (human) is tied in the text to which word?",
+         "choices": [
+          "Adamah, the ground",
+          "Adom, red",
+          "A personal name, nothing more",
+          "Dam, blood"
+         ],
+         "answer": 0,
+         "why": "The verse makes the pun itself: God forms **ha-adam** from the dust of the **adamah** (2:7), and later says the human will return to it (3:19).",
+         "wrong_why": [
+          null,
+          "Adom (red) shares the letters, and some later readers make that link, but the verse ties adam to the ground.",
+          "Here it is mostly ha-adam, \"the human,\" with \"the.\" It works more like a title than a personal name.",
+          "Dam (blood) also shares letters, but the text never makes that connection."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 2:7"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 2:15",
+         "ref": "Genesis 2:15",
+         "he": "וַיִּקַּח יְיָ אֱלֹהִים אֶת־הָאָדָם וַיַּנִּחֵהוּ בְגַן־עֵדֶן לְעׇבְדָהּ וּלְשׇׁמְרָהּ",
+         "en": "God יהוה settled the Human in the garden of Eden, to till it and tend it.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 2:15"
+         },
+         "tl": "Vayikach Adonai Elohim et ha-adam vayanicheihu v'gan eiden l'ovdah ul'shomrah"
+        },
+        {
+         "kind": "term",
+         "he": "לְעׇבְדָהּ וּלְשׇׁמְרָהּ",
+         "tl": "L'ovdah ul'shomrah",
+         "gloss": "\"To work it and to guard it\" (2:15). **Avad** also means to serve, as in *avodah*, worship. **Shamar** means to guard or keep, the verb of **V'shamru**: keep the Shabbat.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 2:15"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "No one to fix it after you",
+         "body": "A midrash says God led the first human around the trees of the garden: \"See how beautiful and fine my works are. All of it I made for you. **Take care not to spoil and destroy my world, because if you spoil it, there is no one to repair it after you.**\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Kohelet Rabbah 7:13"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "guard-world",
+         "type": "why",
+         "q": "In the midrash, why does God show the first human the trees?",
+         "choices": [
+          "To warn that if the world is ruined, no one will repair it",
+          "To let the human choose which tree to eat from",
+          "To teach the trees' names"
+         ],
+         "answer": 0,
+         "why": "The tour ends with a warning: this world is beautiful, it is in your care, and **no one will repair it after you**.",
+         "wrong_why": [
+          null,
+          "The forbidden tree comes in the next verses (2:16-17), but the midrash is about caring for the whole world.",
+          "Naming comes later (2:19-20), and it is the animals, not the trees."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Kohelet Rabbah 7:13"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 2:18",
+         "ref": "Genesis 2:18",
+         "he": "וַיֹּאמֶר יְיָ אֱלֹהִים לֹא־טוֹב הֱיוֹת הָאָדָם לְבַדּוֹ אֶעֱשֶׂה־לּוֹ עֵזֶר כְּנֶגְדּוֹ",
+         "en": "God יהוה said, “It is not good for the Human to be alone; I will make a fitting counterpart for him.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 2:18"
+         },
+         "tl": "Vayomer Adonai Elohim lo tov heyot ha-adam l'vado e-eseh lo eizer k'negdo"
+        },
+        {
+         "kind": "term",
+         "he": "עֵזֶר כְּנֶגְדּוֹ",
+         "tl": "Eizer k'negdo",
+         "gloss": "\"A helper opposite him\" (2:18). **Ezer** is not a junior word: the Bible uses it for God, \"my help comes from Adonai\" (Psalm 121:2). **K'negdo** means facing him, his match.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 2:18",
+          "note": "Psalm 121:1-2 uses ezer for God."
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Help, or against?",
+         "body": "*K'negdo* can also mean \"against him.\" **Rashi** takes both: if he is worthy, she is a help; if not, she stands against him. A midrash goes further: the first human was made **two-faced, male and female in one**, and God divided it into two. That is one reason the Contemporary Torah says God took one of his **sides** (2:21).",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 2:18",
+          "note": "Also Bereshit Rabbah 8:1 (the two-faced first human)."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "ezer",
+         "type": "pick",
+         "q": "Elsewhere in the Bible, who is most often called an ezer, a help?",
+         "choices": [
+          "God",
+          "A servant",
+          "An animal",
+          "A child"
+         ],
+         "answer": 0,
+         "why": "Most often **God**: \"My help (ezri) comes from Adonai\" (Psalm 121:2). So ezer means strength that rescues, not a lower rank.",
+         "wrong_why": [
+          null,
+          "English \"helper\" can sound like an assistant, which is the reading the Hebrew pushes against.",
+          "Animals are brought to the human in 2:19-20, but none of them turns out to be an ezer k'negdo.",
+          "Children are never the main use of the word."
+         ],
+         "look_again": 10,
+         "src": {
+          "type": "tanakh",
+          "ref": "Psalm 121:2"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "**Shamar**, to guard, is the verb of V'shamru, which you know from Friday night: guarding the garden and keeping Shabbat use one word. On **Tu BiShvat**, the new year of the trees, many congregations, Reform ones too, read l'ovdah ul'shomrah as a call to care for the earth.",
+         "links": [
+          "prayer:vshamru"
+         ]
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "**Adam** (human) is made from the **adamah** (ground).",
+          "The human's task: **l'ovdah ul'shomrah**, to work and guard the garden.",
+          "Midrash: if you ruin the world, **no one will repair it after you**.",
+          "**Ezer k'negdo**: a help who faces you, a word the Bible also uses for God."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-gen-04",
+       "title": "Garden of Eden (2): The fruit and the question",
+       "parashah": [
+        "Bereshit"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "My summaries of Berakhot 40a, Rashi on Genesis 3:9, the Shneur Zalman story (as told by Buber), Berakhot 60b and Bereshit Rabbah 9:7. The original-sin card simplifies Christian teaching; check the framing.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Not an apple",
+         "body": "The Torah never names the fruit. The rabbis guessed: **grapes, wheat, or a fig** (fig leaves are right there in 3:7). The apple came later, in European art and in a Latin pun: *malum* means both \"apple\" and \"evil.\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 40a",
+          "note": "Bereshit Rabbah 15:7 adds the etrog."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "What fruit does the Torah say grew on the tree of knowledge?",
+         "choices": [
+          "An apple",
+          "A fig",
+          "A pomegranate",
+          "It doesn't say"
+         ],
+         "answer": 3,
+         "why": "It only says **the fruit of the tree**. Every named fruit is a later guess.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 3:6"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 3:4-6",
+         "ref": "Genesis 3:4-6",
+         "he": "וַיֹּאמֶר הַנָּחָשׁ אֶל־הָאִשָּׁה לֹא־מוֹת תְּמֻתוּן\nכִּי יֹדֵעַ אֱלֹהִים כִּי בְּיוֹם אֲכׇלְכֶם מִמֶּנּוּ וְנִפְקְחוּ עֵינֵיכֶם וִהְיִיתֶם כֵּאלֹהִים יֹדְעֵי טוֹב וָרָע\nוַתֵּרֶא הָאִשָּׁה כִּי טוֹב הָעֵץ לְמַאֲכָל וְכִי תַאֲוָה־הוּא לָעֵינַיִם וְנֶחְמָד הָעֵץ לְהַשְׂכִּיל וַתִּקַּח מִפִּרְיוֹ וַתֹּאכַל וַתִּתֵּן גַּם־לְאִישָׁהּ עִמָּהּ וַיֹּאכַל",
+         "en": "And the serpent said to the woman, “You are not going to die, but God knows that as soon as you eat of it your eyes will be opened and you will be like divine beings who know good and bad.” When the woman saw that the tree was good for eating and a delight to the eyes, and that the tree was desirable as a source of wisdom, she took of its fruit and ate. She also gave some to her husband, and he ate.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 3:4-6"
+         },
+         "tl": "Vayomer hanachash el ha-ishah lo mot t'mutun\nKi yodeia Elohim ki b'yom acholchem mimenu v'nifk'chu eineichem vihyitem keilohim yod'ei tov vara\nVateire ha-ishah ki tov ha-eitz l'ma-achol v'chi ta-avah hu la-einayim v'nechmad ha-eitz l'haskil vatikach mipiryo vatochal vatitein gam l'ishah imah vayochal",
+         "tlf": true
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "fruit",
+         "type": "tf",
+         "q": "The rabbis of the Talmud all agree the fruit was a fig.",
+         "answer": 1,
+         "why": "They disagree: Rabbi Meir says grapes, Rabbi Yehudah wheat, Rabbi Nechemiah a fig. The Torah leaves room, and they fill it in different ways.",
+         "wrong_why": [
+          "The fig has a good case, since the couple sew fig leaves right after (3:7), but it is one opinion of three.",
+          null
+         ],
+         "look_again": 0,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 40a"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 3:8-9",
+         "ref": "Genesis 3:8-9",
+         "he": "וַיִּשְׁמְעוּ אֶת־קוֹל יְיָ אֱלֹהִים מִתְהַלֵּךְ בַּגָּן לְרוּחַ הַיּוֹם וַיִּתְחַבֵּא הָאָדָם וְאִשְׁתּוֹ מִפְּנֵי יְיָ אֱלֹהִים בְּתוֹךְ עֵץ הַגָּן\nוַיִּקְרָא יְיָ אֱלֹהִים אֶל־הָאָדָם וַיֹּאמֶר לוֹ אַיֶּכָּה",
+         "en": "They heard the sound of God יהוה moving about in the garden at the breezy time of day; and the Human and his wife hid from God יהוה among the trees of the garden. God יהוה called out to the Human and said to him, “Where are you?”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 3:8-9"
+         },
+         "tl": "Vayishm'u et kol Adonai Elohim mithaleich bagan l'ruach hayom vayitchabei ha-adam v'ishto mip'nei Adonai Elohim b'toch eitz hagan\nVayikra Adonai Elohim el ha-adam vayomer lo ayekah"
+        },
+        {
+         "kind": "term",
+         "he": "אַיֶּכָּה",
+         "tl": "Ayekah",
+         "gloss": "\"Where are you?\" (3:9). God's first question to a human in the Torah, asked right after they hide.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 3:9"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A question for everyone",
+         "body": "Rashi says God knew where Adam was and asked **to open a conversation gently**. A Hasidic story goes further. Jailed in St. Petersburg, Rabbi **Shneur Zalman of Liadi** was asked by an official why God would need to ask. His answer: in every age God calls to every person, **\"Where are you in your world?\"** Your years are passing; how far have you come?",
+         "src": {
+          "type": "tradition",
+          "ref": "Rashi on Genesis 3:9",
+          "note": "Story as told by Martin Buber, The Way of Man (1948)."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "ayekah",
+         "type": "why",
+         "q": "In the Hasidic story, why does God ask \"Where are you?\"",
+         "choices": [
+          "It asks every person to take stock of their life",
+          "God had lost track of Adam",
+          "To catch Adam in a lie"
+         ],
+         "answer": 0,
+         "why": "The question isn't about location. It asks each person to **take stock**: where am I in my life, and where am I going?",
+         "wrong_why": [
+          null,
+          "Rashi says plainly that God knew where Adam was.",
+          "Some readers do see the question as giving Adam room to own up, but the story turns it into a question for every person, not a trap."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "tradition",
+          "ref": "Buber, The Way of Man"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "No original sin",
+         "body": "Christian teaching, especially from **Augustine** (around 400 CE), holds that Adam's sin passes to every person. Judaism never made that a doctrine. The story brings real consequences: work, pain, death. But each morning's prayer says: **\"My God, the soul you placed in me is pure.\"** A few rabbinic passages speak of a lasting stain, but it never became Jewish teaching.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 60b",
+          "note": "Elohai n'shamah, from the morning blessings. The stain: Shabbat 146a."
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "no-original-sin",
+         "type": "tf",
+         "q": "In mainstream Jewish teaching, every person is born carrying Adam and Eve's sin.",
+         "answer": 1,
+         "why": "The morning prayer **Elohai n'shamah** says the soul in each of us is **pure**. People sin, but no one inherits guilt.",
+         "wrong_why": [
+          "That is the Christian doctrine of original sin, so it's easy to assume the story means the same in Judaism.",
+          null
+         ],
+         "look_again": 8,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 60b"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "concept",
+         "title": "The \"evil\" urge is very good",
+         "body": "The rabbis speak of two drives: the **yetzer tov** (good inclination) and the **yetzer hara** (evil inclination). A midrash reads Genesis 1:31, \"very good,\" as including the yetzer hara: **without it, no one would build a house, marry, have children, or go into business.** Desire isn't the enemy; it needs direction.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bereshit Rabbah 9:7"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q4",
+         "idea": "yetzer",
+         "type": "why",
+         "q": "Why, says the midrash, does \"very good\" include the yetzer hara?",
+         "choices": [
+          "Without it, no one would build, marry or have children",
+          "It slipped in by mistake",
+          "Because humans can always overcome it"
+         ],
+         "answer": 0,
+         "why": "The same drive that can lead to wrong also **builds houses and families**. The goal is to direct it, not destroy it.",
+         "wrong_why": [
+          null,
+          "The midrash treats it as part of the world God called very good, not a mistake.",
+          "The midrash says it is needed, not that people overcome it."
+         ],
+         "look_again": 10,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bereshit Rabbah 9:7"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "The story ends with the way to the **tree of life** guarded by cherubim and a fiery sword (3:24). When the Torah scroll goes back into the ark, the congregation sings **Etz chayim hi**: \"It is a tree of life to those who hold it\" (Proverbs 3:18). The tree is out of reach, but Torah is offered in its place. The Torah service lessons will come later.",
+         "links": []
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Ayekah, where are you? If the question came to you today, how would you answer?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "The Torah never names the fruit; the rabbis guess grapes, wheat or a fig.",
+          "**Ayekah**, \"Where are you?\": a question for every person, in every age.",
+          "Judaism has **no original sin**: the soul in each of us is pure.",
+          "The **yetzer hara** is part of what is \"very good\": it builds, if it's directed.",
+          "**Etz chayim hi**: Torah as a tree of life."
          ]
         }
        ],

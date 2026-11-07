@@ -2,6 +2,7 @@
 Uses pyluach (pip install pyluach; MIT, tested Hebrew calendar). Run in the cloud shell, then copy the JSON over.
 Both schedules are stored: Diaspora and Israel. They differ for a few weeks when a second festival day
 (diaspora only) falls on Shabbat. Many Reform congregations keep one festival day; ask CBB which it follows.
+cbbsb.org (checked 11/01) only says "the weekly Torah portion"; it names no cycle (annual, triennial, Israel or Diaspora).
 Spot-checked: 2026-10-10 Bereshit, 2026-10-31 Vayera, 2027-06-12 diaspora Shavuot / Israel Nasso.
 Usage: python tools/gen_parashah.py [out_path]"""
 import datetime as dt, json, sys
