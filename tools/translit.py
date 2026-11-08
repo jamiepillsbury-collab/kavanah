@@ -35,7 +35,7 @@ EXCEPT.update({"בָּרְכוּ": "Bar'chu", "הַמְבֹרָךְ": "ham'vorac
 EXCEPT.update({"אַבְרָהָם": "Avraham", "יִצְחָק": "Yitzchak", "שָׂרָה": "Sarah", "רִבְקָה": "Rivkah", "רָחֵל": "Rachel", "לֵאָה": "Leah",
     "וֵאלֹהֵי": "v'Elohei", "קָדְשֶׁךָ": "kodshecha", "הַמְבָרֵךְ": "ham'vareich", "מְחַיֵּה": "m'chayeih", "מְחַיֶּה": "m'chayeh"})
 EXCEPT.update({"כּוֹרְעִים": "kor'im", "בְּגָבְהֵי": "b'govhei"})
-EXCEPT.update({"צִיּוֹן": "Tziyon", "מִצִּיּוֹן": "miTziyon", "מִירוּשָׁלָיִם": "miY'rushalayim", "הַמְדַבֵּר": "ham'dabeir", "גַּדְּלוּ": "gadlu", "תּוֹרָתִי": "Torati", "תּוֹרָתוֹ": "Torato", "תוֹרָה": "Torah", "כַּייָ": "kAdonai", "מִרְיָם": "Miriam", "יְהוּדָה": "Y'hudah", "הַמְרַחֵם": "ham'racheim", "וְיִשְׂרָאֵל": "v'Yisrael", "לְצִיּוֹן": "l'Tziyon", "וְהַמְרַחֵם": "v'ham'racheim"})  # Torah service
+EXCEPT.update({"צִיּוֹן": "Tziyon", "מִצִּיּוֹן": "miTziyon", "מִירוּשָׁלָיִם": "miY'rushalayim", "הַמְדַבֵּר": "ham'dabeir", "גַּדְּלוּ": "gadlu", "תּוֹרָתִי": "Torati", "תּוֹרָתוֹ": "Torato", "תוֹרָה": "Torah", "כַּייָ": "kAdonai", "מִרְיָם": "Miriam", "יְהוּדָה": "Y'hudah", "הַמְרַחֵם": "ham'racheim", "וְיִשְׂרָאֵל": "v'Yisrael", "לְצִיּוֹן": "l'Tziyon", "וְהַמְרַחֵם": "v'ham'racheim", "בְּיִשְׂרָאֵל": "b'Yisrael", "כְּמשֶׁה": "k'Moshe"})  # Torah service
 EXCEPT.update({"קָרְבָה": "korvah", "אָזְנָי": "oznai", "דָּכְיָם": "dochyam", "לַייָ": "ladonai", "בַּעְלָהּ": "ba'lah", "יִשַּׁי": "Yishai", "פַּרְצִי": "Partzi",
                "וְלִתְהִלָּה": "v'lit'hilah", "הַמְיוּחָד": "ham'yuchad", "וְנֵלְכָה": "v'neilchah", "הִתְעוֹרְרִי": "hit'or'ri", "תִכָּלְמִי": "tikalmi",
                "וֶאֱמוּנָתְךָ": "ve-emunat'cha", "עָמְקוּ": "amku", "לְהִשָּׁמְדָם": "l'hishamdam", "אֹיְבֶיךָ": "oyvecha", "יִתְפָּרְדוּ": "yitpardu",

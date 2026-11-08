@@ -27,11 +27,11 @@
      "drill": true,
      "subtitle": "2 letter words",
      "items": [
-      "w-837",
       "w-912",
-      "w-437",
-      "w-877",
       "w-1066",
+      "w-437",
+      "w-837",
+      "w-877",
       "w-013"
      ]
     },
@@ -41,12 +41,12 @@
      "drill": true,
      "subtitle": "2 letter words",
      "items": [
+      "w-117",
       "w-223",
+      "w-265",
       "w-670",
       "w-066",
-      "w-117",
-      "w-139",
-      "w-159"
+      "w-139"
      ]
     },
     {
@@ -55,10 +55,10 @@
      "drill": true,
      "subtitle": "2 letter words",
      "items": [
+      "w-159",
       "w-183",
       "w-201",
       "w-220",
-      "w-265",
       "w-484",
       "w-636"
      ]
@@ -73,8 +73,8 @@
       "w-760",
       "w-762",
       "w-811",
-      "w-016",
-      "w-017"
+      "w-1145",
+      "w-1258"
      ]
     },
     {
@@ -83,12 +83,12 @@
      "drill": true,
      "subtitle": "2 letter words",
      "items": [
+      "w-1348",
+      "w-016",
+      "w-017",
       "w-121",
       "w-192",
-      "w-367",
-      "w-395",
-      "w-427",
-      "w-429"
+      "w-367"
      ]
     }
    ],
@@ -2542,6 +2542,287 @@
       "w-1248",
       "w-1249"
      ]
+    },
+    {
+     "id": "words-189",
+     "title": "Words 189",
+     "subtitle": "Toward Yigdal (1)",
+     "items": [
+      "w-1250",
+      "w-1251",
+      "w-1252",
+      "w-1253",
+      "w-1254",
+      "w-1255"
+     ]
+    },
+    {
+     "id": "words-190",
+     "title": "Words 190",
+     "subtitle": "Toward Yigdal (1)",
+     "items": [
+      "w-1256",
+      "w-1257",
+      "w-1258",
+      "w-1259",
+      "w-1260",
+      "w-1261"
+     ]
+    },
+    {
+     "id": "words-191",
+     "title": "Words 191",
+     "subtitle": "Toward Yigdal (1)",
+     "items": [
+      "w-1262",
+      "w-1263",
+      "w-1264",
+      "w-1265",
+      "w-1266",
+      "w-1267"
+     ]
+    },
+    {
+     "id": "words-192",
+     "title": "Words 192",
+     "subtitle": "Toward Yigdal (1)",
+     "items": [
+      "w-1268",
+      "w-1269",
+      "w-1270",
+      "w-1271",
+      "w-1272",
+      "w-1273"
+     ]
+    },
+    {
+     "id": "words-193",
+     "title": "Words 193",
+     "subtitle": "Toward Yigdal (1)",
+     "items": [
+      "w-1274",
+      "w-1275",
+      "w-1276",
+      "w-1277",
+      "w-1278",
+      "w-1279"
+     ]
+    },
+    {
+     "id": "words-194",
+     "title": "Words 194",
+     "subtitle": "Toward Yigdal (1)",
+     "items": [
+      "w-1280",
+      "w-1281",
+      "w-1282",
+      "w-1283",
+      "w-1284",
+      "w-1285"
+     ]
+    },
+    {
+     "id": "words-195",
+     "title": "Words 195",
+     "subtitle": "Toward Yigdal (2)",
+     "items": [
+      "w-1286",
+      "w-1287",
+      "w-1288",
+      "w-1289",
+      "w-1290",
+      "w-1291"
+     ]
+    },
+    {
+     "id": "words-196",
+     "title": "Words 196",
+     "subtitle": "Toward Yigdal (2)",
+     "items": [
+      "w-1292",
+      "w-1293",
+      "w-1294",
+      "w-1295",
+      "w-1296",
+      "w-1297"
+     ]
+    },
+    {
+     "id": "words-197",
+     "title": "Words 197",
+     "subtitle": "Toward Yigdal (2)",
+     "items": [
+      "w-1298",
+      "w-1299",
+      "w-1300",
+      "w-1301",
+      "w-1302",
+      "w-1303"
+     ]
+    },
+    {
+     "id": "words-198",
+     "title": "Words 198",
+     "subtitle": "Toward Yigdal (2)",
+     "items": [
+      "w-1304",
+      "w-1305",
+      "w-1306",
+      "w-1307",
+      "w-1308",
+      "w-1309"
+     ]
+    },
+    {
+     "id": "words-199",
+     "title": "Words 199",
+     "subtitle": "Toward Yigdal (2)",
+     "items": [
+      "w-1310",
+      "w-1311",
+      "w-1312",
+      "w-1313",
+      "w-1314",
+      "w-1315"
+     ]
+    },
+    {
+     "id": "words-200",
+     "title": "Words 200",
+     "subtitle": "Toward Adon Olam",
+     "items": [
+      "w-1316",
+      "w-1317",
+      "w-1318",
+      "w-1319",
+      "w-1320",
+      "w-1321"
+     ]
+    },
+    {
+     "id": "words-201",
+     "title": "Words 201",
+     "subtitle": "Toward Adon Olam",
+     "items": [
+      "w-1322",
+      "w-1323",
+      "w-1324",
+      "w-1325",
+      "w-1326",
+      "w-1327"
+     ]
+    },
+    {
+     "id": "words-202",
+     "title": "Words 202",
+     "subtitle": "Toward Adon Olam",
+     "items": [
+      "w-1328",
+      "w-1329",
+      "w-1330",
+      "w-1331",
+      "w-1332",
+      "w-1333"
+     ]
+    },
+    {
+     "id": "words-203",
+     "title": "Words 203",
+     "subtitle": "Toward Adon Olam",
+     "items": [
+      "w-1334",
+      "w-1335",
+      "w-1336",
+      "w-1337",
+      "w-1338",
+      "w-1339"
+     ]
+    },
+    {
+     "id": "words-204",
+     "title": "Words 204",
+     "subtitle": "Toward Adon Olam",
+     "items": [
+      "w-1340",
+      "w-1341",
+      "w-1342",
+      "w-1343",
+      "w-1344",
+      "w-1345"
+     ]
+    },
+    {
+     "id": "words-205",
+     "title": "Words 205",
+     "subtitle": "Toward Adon Olam",
+     "items": [
+      "w-1346",
+      "w-1347",
+      "w-1348",
+      "w-1349",
+      "w-1350",
+      "w-1351"
+     ]
+    },
+    {
+     "id": "words-206",
+     "title": "Words 206",
+     "subtitle": "Toward Adon Olam",
+     "items": [
+      "w-1352",
+      "w-1353",
+      "w-1354",
+      "w-1355",
+      "w-1356",
+      "w-1357"
+     ]
+    },
+    {
+     "id": "words-207",
+     "title": "Words 207",
+     "subtitle": "Toward Ein Keloheinu",
+     "items": [
+      "w-1358",
+      "w-1359",
+      "w-1360",
+      "w-1361",
+      "w-1362",
+      "w-1363"
+     ]
+    },
+    {
+     "id": "words-208",
+     "title": "Words 208",
+     "subtitle": "Toward Ein Keloheinu",
+     "items": [
+      "w-1364",
+      "w-1365",
+      "w-1366",
+      "w-1367",
+      "w-1368",
+      "w-1369"
+     ]
+    },
+    {
+     "id": "words-209",
+     "title": "Words 209",
+     "subtitle": "Toward Ein Keloheinu",
+     "items": [
+      "w-1370",
+      "w-1371",
+      "w-1372",
+      "w-1373",
+      "w-1374",
+      "w-1375"
+     ]
+    },
+    {
+     "id": "words-210",
+     "title": "Words 210",
+     "subtitle": "Toward Ein Keloheinu",
+     "items": [
+      "w-1376"
+     ]
     }
    ],
    "tiles": false
@@ -2560,7 +2841,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 40,
+   "freq": 45,
    "prayers": [
     "hamotzi",
     "candles",
@@ -2591,7 +2872,9 @@
     "m_kdushah_2",
     "m_rtzeh",
     "m_modim",
-    "m_sim_shalom"
+    "m_sim_shalom",
+    "c_yigdal_2",
+    "c_ein_keloheinu"
    ],
    "audio": null
   },
@@ -2607,7 +2890,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 39,
+   "freq": 44,
    "prayers": [
     "hamotzi",
     "candles",
@@ -2633,7 +2916,8 @@
     "m_kdushah_2",
     "m_rtzeh",
     "m_modim",
-    "m_sim_shalom"
+    "m_sim_shalom",
+    "c_ein_keloheinu"
    ],
    "audio": null
   },
@@ -2645,7 +2929,7 @@
    "say": "אֲדֹנָי",
    "gloss": null,
    "note": "Written יְיָ, read Adonai.",
-   "freq": 103,
+   "freq": 104,
    "prayers": [
     "hamotzi",
     "candles",
@@ -2691,7 +2975,8 @@
     "m_kdushah_2",
     "m_rtzeh",
     "m_modim",
-    "m_sim_shalom"
+    "m_sim_shalom",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -2703,7 +2988,7 @@
    "say": "אֱלֹהֵינוּ",
    "gloss": null,
    "note": null,
-   "freq": 31,
+   "freq": 33,
    "prayers": [
     "hamotzi",
     "candles",
@@ -2728,7 +3013,8 @@
     "m_kdushah_2",
     "m_rtzeh",
     "m_modim",
-    "m_sim_shalom"
+    "m_sim_shalom",
+    "c_ein_keloheinu"
    ],
    "audio": null
   },
@@ -2744,7 +3030,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 18,
+   "freq": 19,
    "prayers": [
     "hamotzi",
     "candles",
@@ -2761,7 +3047,8 @@
     "aleinu",
     "t_ein_kamocha",
     "haftarah_after",
-    "m_yotzer_1"
+    "m_yotzer_1",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -2800,7 +3087,7 @@
    "say": "אֲשֶׁר",
    "gloss": null,
    "note": null,
-   "freq": 19,
+   "freq": 21,
    "prayers": [
     "candles",
     "torah_before",
@@ -2813,7 +3100,9 @@
     "t_vzot",
     "m_vhaya_1",
     "m_vhaya_2",
-    "m_tzitzit"
+    "m_tzitzit",
+    "c_yigdal_1",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -3116,7 +3405,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 31,
+   "freq": 33,
    "prayers": [
     "barchu",
     "torah_before",
@@ -3137,7 +3426,9 @@
     "m_kdushah_1",
     "m_rtzeh",
     "m_modim",
-    "m_sim_shalom"
+    "m_sim_shalom",
+    "c_yigdal_1",
+    "c_ein_keloheinu"
    ],
    "audio": null
   },
@@ -3352,10 +3643,11 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
     "torah_before",
-    "torah_after"
+    "torah_after",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -3392,9 +3684,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "torah_after"
+    "torah_after",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -3410,10 +3703,11 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
     "torah_after",
-    "m_sim_shalom"
+    "m_sim_shalom",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -3425,10 +3719,11 @@
    "say": "אֱמֶת",
    "gloss": null,
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
     "torah_after",
-    "haftarah_after"
+    "haftarah_after",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -3458,13 +3753,15 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 6,
+   "freq": 8,
    "prayers": [
     "torah_after",
     "ahavat_olam",
     "hashkiveinu",
     "vshamru",
-    "m_yotzer_2"
+    "m_yotzer_2",
+    "c_yigdal_1",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -3722,12 +4019,13 @@
    "say": "אֱלֹהִים",
    "gloss": null,
    "note": null,
-   "freq": 8,
+   "freq": 9,
    "prayers": [
     "kiddush",
     "vaychulu",
     "m_mah_tovu",
-    "m_vhaya_1"
+    "m_vhaya_1",
+    "c_yigdal_1"
    ],
    "audio": null
   },
@@ -4271,7 +4569,7 @@
    "say": "הוּא",
    "gloss": null,
    "note": null,
-   "freq": 13,
+   "freq": 18,
    "prayers": [
     "kiddush",
     "shalom_rav",
@@ -4281,7 +4579,8 @@
     "t_lcha",
     "m_mi_chamocha",
     "m_kdushah_1",
-    "m_modim"
+    "m_modim",
+    "c_ein_keloheinu"
    ],
    "audio": null
   },
@@ -4811,13 +5110,15 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 9,
+   "freq": 11,
    "prayers": [
     "shma",
     "aleinu",
     "lcha_dodi_1",
     "t_vayhi",
-    "m_kdushah_1"
+    "m_kdushah_1",
+    "c_yigdal_1",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -4833,10 +5134,11 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
     "shma",
-    "t_etz"
+    "t_etz",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -5143,7 +5445,7 @@
    "say": "עַל",
    "gloss": null,
    "note": null,
-   "freq": 20,
+   "freq": 21,
    "prayers": [
     "vahavta",
     "ahavat_olam",
@@ -5156,7 +5458,8 @@
     "m_tzitzit",
     "m_mi_chamocha",
     "m_kdushah_1",
-    "m_modim"
+    "m_modim",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -6387,9 +6690,10 @@
    "say": "לְעוֹלָמִים",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "ahavat_olam"
+    "ahavat_olam",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -6423,11 +6727,12 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 5,
+   "freq": 9,
    "prayers": [
     "mi_chamocha",
     "gvurot",
-    "m_mi_chamocha"
+    "m_mi_chamocha",
+    "c_ein_keloheinu"
    ],
    "audio": null
   },
@@ -6538,10 +6843,11 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
     "mi_chamocha",
-    "m_mi_chamocha"
+    "m_mi_chamocha",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -6761,9 +7067,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "mi_chamocha"
+    "mi_chamocha",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -6817,13 +7124,14 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 5,
+   "freq": 6,
    "prayers": [
     "mi_chamocha",
     "maariv_aravim",
     "t_ein_kamocha",
     "m_mi_chamocha",
-    "m_kdushah_2"
+    "m_kdushah_2",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -7438,13 +7746,14 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 6,
+   "freq": 7,
    "prayers": [
     "maariv_aravim",
     "avot",
     "t_vayhi",
     "t_etz",
-    "m_mi_chamocha"
+    "m_mi_chamocha",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -7456,7 +7765,7 @@
    "say": "אֵל",
    "gloss": null,
    "note": null,
-   "freq": 8,
+   "freq": 10,
    "prayers": [
     "maariv_aravim",
     "hashkiveinu",
@@ -7464,7 +7773,8 @@
     "magen_avot",
     "lcha_dodi_1",
     "t_ein_kamocha",
-    "m_ahavah_rabbah"
+    "m_ahavah_rabbah",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -7480,10 +7790,11 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
     "maariv_aravim",
-    "haftarah_after"
+    "haftarah_after",
+    "c_yigdal_1"
    ],
    "audio": null
   },
@@ -7621,12 +7932,13 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 4,
+   "freq": 6,
    "prayers": [
     "hashkiveinu",
     "m_ahavah_rabbah",
     "m_kdushah_1",
-    "m_modim"
+    "m_modim",
+    "c_ein_keloheinu"
    ],
    "audio": null
   },
@@ -8677,12 +8989,13 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 4,
+   "freq": 5,
    "prayers": [
     "avot",
     "kdushat_hayom",
     "m_ahavah_rabbah",
-    "m_modim"
+    "m_modim",
+    "c_ein_keloheinu"
    ],
    "audio": null
   },
@@ -8831,7 +9144,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 7,
+   "freq": 8,
    "prayers": [
     "avot",
     "kdushat_hashem",
@@ -8839,7 +9152,8 @@
     "haftarah_after",
     "m_yotzer_1",
     "m_kdushah_2",
-    "m_modim"
+    "m_modim",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -8927,9 +9241,10 @@
    "say": "גּוֹמֵל",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "avot"
+    "avot",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -8973,13 +9288,14 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 8,
+   "freq": 9,
    "prayers": [
     "avot",
     "magen_avot",
     "aleinu",
     "haftarah_after",
-    "m_yotzer_1"
+    "m_yotzer_1",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -9232,9 +9548,10 @@
    "say": "מֵתִים",
    "gloss": null,
    "note": null,
-   "freq": 3,
+   "freq": 4,
    "prayers": [
-    "gvurot"
+    "gvurot",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -10379,9 +10696,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 3,
    "prayers": [
-    "shalom_rav"
+    "shalom_rav",
+    "c_yigdal_1"
    ],
    "audio": null
   },
@@ -10473,12 +10791,13 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 4,
+   "freq": 5,
    "prayers": [
     "shalom_rav",
     "m_mah_tovu",
     "m_modim",
-    "m_sim_shalom"
+    "m_sim_shalom",
+    "c_yigdal_1"
    ],
    "audio": null
   },
@@ -10641,11 +10960,12 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 3,
+   "freq": 4,
    "prayers": [
     "magen_avot",
     "t_ein_kamocha",
-    "t_vayhi"
+    "t_vayhi",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -10661,9 +10981,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "magen_avot"
+    "magen_avot",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -10892,11 +11213,13 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 3,
+   "freq": 5,
    "prayers": [
     "magen_avot",
     "t_ein_kamocha",
-    "m_yotzer_2"
+    "m_yotzer_2",
+    "c_yigdal_1",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -11192,13 +11515,15 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 5,
+   "freq": 7,
    "prayers": [
     "aleinu",
     "ps92_2",
     "m_ahavah_rabbah",
     "m_vhaya_1",
-    "m_tzitzit"
+    "m_tzitzit",
+    "c_yigdal_2",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -11486,7 +11811,7 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 10,
+   "freq": 11,
    "prayers": [
     "aleinu",
     "kaddish",
@@ -11494,7 +11819,8 @@
     "haftarah_after",
     "m_ahavah_rabbah",
     "m_kdushah_1",
-    "m_sim_shalom"
+    "m_sim_shalom",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -11528,10 +11854,11 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
     "aleinu",
-    "m_vhaya_1"
+    "m_vhaya_1",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -11954,9 +12281,10 @@
    "say": "וְיִשְׁתַּבַּח",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "kaddish"
+    "kaddish",
+    "c_yigdal_1"
    ],
    "audio": null
   },
@@ -12593,9 +12921,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "lcha_dodi_1"
+    "lcha_dodi_1",
+    "c_yigdal_1"
    ],
    "audio": null
   },
@@ -13736,9 +14065,10 @@
    "say": "עוֹד",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "ps92_2"
+    "ps92_2",
+    "c_yigdal_1"
    ],
    "audio": null
   },
@@ -14457,10 +14787,12 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 2,
+   "freq": 8,
    "prayers": [
     "t_ein_kamocha",
-    "m_yotzer_1"
+    "m_yotzer_1",
+    "c_yigdal_1",
+    "c_ein_keloheinu"
    ],
    "audio": null
   },
@@ -14500,9 +14832,11 @@
    "say": "וְאֵין",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 5,
    "prayers": [
-    "t_ein_kamocha"
+    "t_ein_kamocha",
+    "c_yigdal_1",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -15792,10 +16126,11 @@
    "say": "לְבַדּוֹ",
    "gloss": null,
    "note": null,
-   "freq": 2,
+   "freq": 3,
    "prayers": [
     "t_etz",
-    "m_yotzer_2"
+    "m_yotzer_2",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -16115,9 +16450,10 @@
    "say": "בְּרֹב",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "m_mah_tovu"
+    "m_mah_tovu",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -16185,12 +16521,13 @@
    "say": "אֶל",
    "gloss": null,
    "note": null,
-   "freq": 5,
+   "freq": 7,
    "prayers": [
     "m_mah_tovu",
     "m_vhaya_1",
     "m_tzitzit",
-    "m_kdushah_1"
+    "m_kdushah_1",
+    "c_yigdal_1"
    ],
    "audio": null
   },
@@ -18041,9 +18378,10 @@
    "say": "יוֹרֶה",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "m_vhaya_1"
+    "m_vhaya_1",
+    "c_yigdal_1"
    ],
    "audio": null
   },
@@ -18371,11 +18709,13 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 4,
+   "freq": 7,
    "prayers": [
     "m_vhaya_1",
     "m_kdushah_2",
-    "m_modim"
+    "m_modim",
+    "c_yigdal_1",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -18991,9 +19331,10 @@
    "say": "וְאַחֲרֵי",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "m_tzitzit"
+    "m_tzitzit",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -19496,9 +19837,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "m_kdushah_1"
+    "m_kdushah_1",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -19636,9 +19978,10 @@
    "say": "מוֹשִׁיעֵנוּ",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 3,
    "prayers": [
-    "m_kdushah_1"
+    "m_kdushah_1",
+    "c_ein_keloheinu"
    ],
    "audio": null
   },
@@ -19654,9 +19997,10 @@
     "src": "BDB (Sefaria lexicon)"
    },
    "note": null,
-   "freq": 1,
+   "freq": 7,
    "prayers": [
-    "m_kdushah_1"
+    "m_kdushah_1",
+    "c_adon_olam"
    ],
    "audio": null
   },
@@ -20342,9 +20686,10 @@
    "say": "נוֹדֶה",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 5,
    "prayers": [
-    "m_modim"
+    "m_modim",
+    "c_ein_keloheinu"
    ],
    "audio": null
   },
@@ -20930,9 +21275,10 @@
    "say": "חֶסֶד",
    "gloss": null,
    "note": null,
-   "freq": 1,
+   "freq": 2,
    "prayers": [
-    "m_sim_shalom"
+    "m_sim_shalom",
+    "c_yigdal_2"
    ],
    "audio": null
   },
@@ -20961,6 +21307,1796 @@
    "freq": 1,
    "prayers": [
     "m_sim_shalom"
+   ],
+   "audio": null
+  },
+  "w-1250": {
+   "kind": "word",
+   "he": "יִגְדַּל",
+   "tr": "yigdal",
+   "tlf": false,
+   "say": "יִגְדַּל",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1251": {
+   "kind": "word",
+   "he": "נִמְצָא",
+   "tr": "nimtza",
+   "tlf": false,
+   "say": "נִמְצָא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1252": {
+   "kind": "word",
+   "he": "מְצִיאוּתוֹ",
+   "tr": "m'tzi-uto",
+   "tlf": false,
+   "say": "מְצִיאוּתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1253": {
+   "kind": "word",
+   "he": "יָחִיד",
+   "tr": "yachid",
+   "tlf": false,
+   "say": "יָחִיד",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1254": {
+   "kind": "word",
+   "he": "כְּיִחוּדוֹ",
+   "tr": "k'yichudo",
+   "tlf": false,
+   "say": "כְּיִחוּדוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1255": {
+   "kind": "word",
+   "he": "נֶעְלָם",
+   "tr": "nelam",
+   "tlf": false,
+   "say": "נֶעְלָם",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1256": {
+   "kind": "word",
+   "he": "וְגַם",
+   "tr": "v'gam",
+   "tlf": false,
+   "say": "וְגַם",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1257": {
+   "kind": "word",
+   "he": "לְאַחְדּוּתוֹ",
+   "tr": "l'achduto",
+   "tlf": false,
+   "say": "לְאַחְדּוּתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1258": {
+   "kind": "word",
+   "he": "לוֹ",
+   "tr": "lo",
+   "tlf": false,
+   "say": "לוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "c_yigdal_1",
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1259": {
+   "kind": "word",
+   "he": "דְמוּת",
+   "tr": "d'mut",
+   "tlf": false,
+   "say": "דְמוּת",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1260": {
+   "kind": "word",
+   "he": "הַגּוּף",
+   "tr": "haguf",
+   "tlf": false,
+   "say": "הַגּוּף",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1261": {
+   "kind": "word",
+   "he": "וְאֵינוֹ",
+   "tr": "v'eino",
+   "tlf": false,
+   "say": "וְאֵינוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1262": {
+   "kind": "word",
+   "he": "גוּף",
+   "tr": "guf",
+   "tlf": false,
+   "say": "גוּף",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1263": {
+   "kind": "word",
+   "he": "נַעֲרֹךְ",
+   "tr": "na-aroch",
+   "tlf": false,
+   "say": "נַעֲרֹךְ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1264": {
+   "kind": "word",
+   "he": "אֵלָיו",
+   "tr": "eilav",
+   "tlf": false,
+   "say": "אֵלָיו",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1265": {
+   "kind": "word",
+   "he": "קְדֻשָּׁתוֹ",
+   "tr": "k'dushato",
+   "tlf": false,
+   "say": "קְדֻשָּׁתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1266": {
+   "kind": "word",
+   "he": "קַדְמוֹן",
+   "tr": "kadmon",
+   "tlf": false,
+   "say": "קַדְמוֹן",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1267": {
+   "kind": "word",
+   "he": "דָּבָר",
+   "tr": "davar",
+   "tlf": false,
+   "say": "דָּבָר",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "c_yigdal_1",
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1268": {
+   "kind": "word",
+   "he": "נִבְרָא",
+   "tr": "nivra",
+   "tlf": false,
+   "say": "נִבְרָא",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "c_yigdal_1",
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1269": {
+   "kind": "word",
+   "he": "רִאשׁוֹן",
+   "tr": "rishon",
+   "tlf": false,
+   "say": "רִאשׁוֹן",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1270": {
+   "kind": "word",
+   "he": "רֵאשִׁית",
+   "tr": "reishit",
+   "tlf": false,
+   "say": "רֵאשִׁית",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "c_yigdal_1",
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1271": {
+   "kind": "word",
+   "he": "לְרֵאשִׁיתוֹ",
+   "tr": "l'reishito",
+   "tlf": false,
+   "say": "לְרֵאשִׁיתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1272": {
+   "kind": "word",
+   "he": "הִנּוֹ",
+   "tr": "hino",
+   "tlf": false,
+   "say": "הִנּוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1273": {
+   "kind": "word",
+   "he": "נוֹצָר",
+   "tr": "notzar",
+   "tlf": false,
+   "say": "נוֹצָר",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1274": {
+   "kind": "word",
+   "he": "גְדֻלָּתוֹ",
+   "tr": "g'dulato",
+   "tlf": false,
+   "say": "גְדֻלָּתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1275": {
+   "kind": "word",
+   "he": "וּמַלְכוּתוֹ",
+   "tr": "umalchuto",
+   "tlf": false,
+   "say": "וּמַלְכוּתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1276": {
+   "kind": "word",
+   "he": "שֶׁפַע",
+   "tr": "shefa",
+   "tlf": false,
+   "say": "שֶׁפַע",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1277": {
+   "kind": "word",
+   "he": "נְבוּאָתוֹ",
+   "tr": "n'vu-ato",
+   "tlf": false,
+   "say": "נְבוּאָתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1278": {
+   "kind": "word",
+   "he": "נְתָנוֹ",
+   "tr": "n'tano",
+   "tlf": false,
+   "say": "נְתָנוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1279": {
+   "kind": "word",
+   "he": "אַנְשֵׁי",
+   "tr": "anshei",
+   "tlf": false,
+   "say": "אַנְשֵׁי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1280": {
+   "kind": "word",
+   "he": "סְגֻלָּתוֹ",
+   "tr": "s'gulato",
+   "tlf": false,
+   "say": "סְגֻלָּתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1281": {
+   "kind": "word",
+   "he": "וְתִפְאַרְתּוֹ",
+   "tr": "v'tif'arto",
+   "tlf": false,
+   "say": "וְתִפְאַרְתּוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1282": {
+   "kind": "word",
+   "he": "קָם",
+   "tr": "kam",
+   "tlf": false,
+   "say": "קָם",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1283": {
+   "kind": "word",
+   "he": "בְּיִשְׂרָאֵל",
+   "tr": "b'Yisrael",
+   "tlf": false,
+   "say": "בְּיִשְׂרָאֵל",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1284": {
+   "kind": "word",
+   "he": "כְּמשֶׁה",
+   "tr": "k'Moshe",
+   "tlf": false,
+   "say": "כְּמשֶׁה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1285": {
+   "kind": "word",
+   "he": "נָבִיא",
+   "tr": "navi",
+   "tlf": false,
+   "say": "נָבִיא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1286": {
+   "kind": "word",
+   "he": "וּמַבִּיט",
+   "tr": "umabit",
+   "tlf": false,
+   "say": "וּמַבִּיט",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1287": {
+   "kind": "word",
+   "he": "תְּמוּנָתוֹ",
+   "tr": "t'munato",
+   "tlf": false,
+   "say": "תְּמוּנָתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_1"
+   ],
+   "audio": null
+  },
+  "w-1288": {
+   "kind": "word",
+   "he": "נְבִיאוֹ",
+   "tr": "n'vi-o",
+   "tlf": false,
+   "say": "נְבִיאוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1289": {
+   "kind": "word",
+   "he": "נֶאֱמַן",
+   "tr": "ne-eman",
+   "tlf": false,
+   "say": "נֶאֱמַן",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1290": {
+   "kind": "word",
+   "he": "בֵּיתוֹ",
+   "tr": "beito",
+   "tlf": false,
+   "say": "בֵּיתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1291": {
+   "kind": "word",
+   "he": "יַחֲלִיף",
+   "tr": "yachalif",
+   "tlf": false,
+   "say": "יַחֲלִיף",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1292": {
+   "kind": "word",
+   "he": "יָמִיר",
+   "tr": "yamir",
+   "tlf": false,
+   "say": "יָמִיר",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1293": {
+   "kind": "word",
+   "he": "דָּתוֹ",
+   "tr": "dato",
+   "tlf": false,
+   "say": "דָּתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1294": {
+   "kind": "word",
+   "he": "לְזוּלָתוֹ",
+   "tr": "l'zulato",
+   "tlf": false,
+   "say": "לְזוּלָתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1295": {
+   "kind": "word",
+   "he": "צוֹפֶה",
+   "tr": "tzofeh",
+   "tlf": false,
+   "say": "צוֹפֶה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1296": {
+   "kind": "word",
+   "he": "וְיוֹדֵעַ",
+   "tr": "v'yodeia",
+   "tlf": false,
+   "say": "וְיוֹדֵעַ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1297": {
+   "kind": "word",
+   "he": "סְתָרֵינוּ",
+   "tr": "s'tareinu",
+   "tlf": false,
+   "say": "סְתָרֵינוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1298": {
+   "kind": "word",
+   "he": "מַבִּיט",
+   "tr": "mabit",
+   "tlf": false,
+   "say": "מַבִּיט",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1299": {
+   "kind": "word",
+   "he": "לְסוֹף",
+   "tr": "l'sof",
+   "tlf": false,
+   "say": "לְסוֹף",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1300": {
+   "kind": "word",
+   "he": "בְּקַדְמָתוֹ",
+   "tr": "b'kadmato",
+   "tlf": false,
+   "say": "בְּקַדְמָתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1301": {
+   "kind": "word",
+   "he": "לְאִישׁ",
+   "tr": "l'ish",
+   "tlf": false,
+   "say": "לְאִישׁ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1302": {
+   "kind": "word",
+   "he": "כְּמִפְעָלוֹ",
+   "tr": "k'mif'alo",
+   "tlf": false,
+   "say": "כְּמִפְעָלוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1303": {
+   "kind": "word",
+   "he": "לְרָשָׁע",
+   "tr": "l'rasha",
+   "tlf": false,
+   "say": "לְרָשָׁע",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1304": {
+   "kind": "word",
+   "he": "רָע",
+   "tr": "ra",
+   "tlf": false,
+   "say": "רָע",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1305": {
+   "kind": "word",
+   "he": "כְּרִשְׁעָתוֹ",
+   "tr": "k'rish'ato",
+   "tlf": false,
+   "say": "כְּרִשְׁעָתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1306": {
+   "kind": "word",
+   "he": "יִשְׁלַח",
+   "tr": "yishlach",
+   "tlf": false,
+   "say": "יִשְׁלַח",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1307": {
+   "kind": "word",
+   "he": "לְקֵץ",
+   "tr": "l'keitz",
+   "tlf": false,
+   "say": "לְקֵץ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1308": {
+   "kind": "word",
+   "he": "הַיָּמִין",
+   "tr": "hayamin",
+   "tlf": false,
+   "say": "הַיָּמִין",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1309": {
+   "kind": "word",
+   "he": "מְשִׁיחֵנוּ",
+   "tr": "m'shicheinu",
+   "tlf": false,
+   "say": "מְשִׁיחֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1310": {
+   "kind": "word",
+   "he": "לִפְדּוֹת",
+   "tr": "lifdot",
+   "tlf": false,
+   "say": "לִפְדּוֹת",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1311": {
+   "kind": "word",
+   "he": "מְחַכֵּי",
+   "tr": "m'chakei",
+   "tlf": false,
+   "say": "מְחַכֵּי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1312": {
+   "kind": "word",
+   "he": "קֵץ",
+   "tr": "keitz",
+   "tlf": false,
+   "say": "קֵץ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1313": {
+   "kind": "word",
+   "he": "יְשׁוּעָתוֹ",
+   "tr": "y'shu-ato",
+   "tlf": false,
+   "say": "יְשׁוּעָתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1314": {
+   "kind": "word",
+   "he": "יְחַיֶּה",
+   "tr": "y'chayeh",
+   "tlf": false,
+   "say": "יְחַיֶּה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1315": {
+   "kind": "word",
+   "he": "חַסְדּוֹ",
+   "tr": "chasdo",
+   "tlf": false,
+   "say": "חַסְדּוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1316": {
+   "kind": "word",
+   "he": "עֲדֵי",
+   "tr": "adei",
+   "tlf": false,
+   "say": "עֲדֵי",
+   "gloss": {
+    "root": "עַד",
+    "def": "perpetuity, for ever, continuing future",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1317": {
+   "kind": "word",
+   "he": "עַד",
+   "tr": "ad",
+   "tlf": false,
+   "say": "עַד",
+   "gloss": {
+    "root": "עַד",
+    "def": "perpetuity, for ever, continuing future",
+    "src": "BDB (Sefaria lexicon)"
+   },
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1318": {
+   "kind": "word",
+   "he": "תְּהִלָּתוֹ",
+   "tr": "t'hilato",
+   "tlf": false,
+   "say": "תְּהִלָּתוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_yigdal_2"
+   ],
+   "audio": null
+  },
+  "w-1319": {
+   "kind": "word",
+   "he": "מָלַךְ",
+   "tr": "malach",
+   "tlf": false,
+   "say": "מָלַךְ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1320": {
+   "kind": "word",
+   "he": "בְּטֶרֶם",
+   "tr": "b'terem",
+   "tlf": false,
+   "say": "בְּטֶרֶם",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1321": {
+   "kind": "word",
+   "he": "יְצִיר",
+   "tr": "y'tzir",
+   "tlf": false,
+   "say": "יְצִיר",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1322": {
+   "kind": "word",
+   "he": "לְעֵת",
+   "tr": "l'eit",
+   "tlf": false,
+   "say": "לְעֵת",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1323": {
+   "kind": "word",
+   "he": "נַעֲשָׂה",
+   "tr": "na-asah",
+   "tlf": false,
+   "say": "נַעֲשָׂה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1324": {
+   "kind": "word",
+   "he": "בְחֶפְצוֹ",
+   "tr": "v'cheftzo",
+   "tlf": false,
+   "say": "בְחֶפְצוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1325": {
+   "kind": "word",
+   "he": "כֹּל",
+   "tr": "kol",
+   "tlf": false,
+   "say": "כֹּל",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1326": {
+   "kind": "word",
+   "he": "אֲזַי",
+   "tr": "azai",
+   "tlf": false,
+   "say": "אֲזַי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1327": {
+   "kind": "word",
+   "he": "נִקְרָא",
+   "tr": "nikra",
+   "tlf": false,
+   "say": "נִקְרָא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1328": {
+   "kind": "word",
+   "he": "כִּכְלוֹת",
+   "tr": "kichlot",
+   "tlf": false,
+   "say": "כִּכְלוֹת",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1329": {
+   "kind": "word",
+   "he": "הָיָה",
+   "tr": "hayah",
+   "tlf": false,
+   "say": "הָיָה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1330": {
+   "kind": "word",
+   "he": "הֹוֶה",
+   "tr": "hoveh",
+   "tlf": false,
+   "say": "הֹוֶה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1331": {
+   "kind": "word",
+   "he": "בְּתִפְאָרָה",
+   "tr": "b'tif'arah",
+   "tlf": false,
+   "say": "בְּתִפְאָרָה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1332": {
+   "kind": "word",
+   "he": "שֵׁנִי",
+   "tr": "sheini",
+   "tlf": false,
+   "say": "שֵׁנִי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1333": {
+   "kind": "word",
+   "he": "לְהַמְשִׁיל",
+   "tr": "l'hamshil",
+   "tlf": false,
+   "say": "לְהַמְשִׁיל",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1334": {
+   "kind": "word",
+   "he": "לְהַחְבִּירָה",
+   "tr": "l'hachbirah",
+   "tlf": false,
+   "say": "לְהַחְבִּירָה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1335": {
+   "kind": "word",
+   "he": "בְּלִי",
+   "tr": "b'li",
+   "tlf": false,
+   "say": "בְּלִי",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1336": {
+   "kind": "word",
+   "he": "תַכְלִית",
+   "tr": "tachlit",
+   "tlf": false,
+   "say": "תַכְלִית",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1337": {
+   "kind": "word",
+   "he": "וְלוֹ",
+   "tr": "v'lo",
+   "tlf": false,
+   "say": "וְלוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1338": {
+   "kind": "word",
+   "he": "הָעֹז",
+   "tr": "ha-oz",
+   "tlf": false,
+   "say": "הָעֹז",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1339": {
+   "kind": "word",
+   "he": "וְהַמִּשְׂרָה",
+   "tr": "v'hamisrah",
+   "tlf": false,
+   "say": "וְהַמִּשְׂרָה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1340": {
+   "kind": "word",
+   "he": "וְחַי",
+   "tr": "v'chai",
+   "tlf": false,
+   "say": "וְחַי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1341": {
+   "kind": "word",
+   "he": "גּוֹאֲלִי",
+   "tr": "go-ali",
+   "tlf": false,
+   "say": "גּוֹאֲלִי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1342": {
+   "kind": "word",
+   "he": "וְצוּר",
+   "tr": "v'tzur",
+   "tlf": false,
+   "say": "וְצוּר",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1343": {
+   "kind": "word",
+   "he": "חֶבְלִי",
+   "tr": "chevli",
+   "tlf": false,
+   "say": "חֶבְלִי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1344": {
+   "kind": "word",
+   "he": "בְּעֵת",
+   "tr": "b'eit",
+   "tlf": false,
+   "say": "בְּעֵת",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1345": {
+   "kind": "word",
+   "he": "צָרָה",
+   "tr": "tzarah",
+   "tlf": false,
+   "say": "צָרָה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1346": {
+   "kind": "word",
+   "he": "נִסִּי",
+   "tr": "nisi",
+   "tlf": false,
+   "say": "נִסִּי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1347": {
+   "kind": "word",
+   "he": "וּמָנוֹס",
+   "tr": "umanos",
+   "tlf": false,
+   "say": "וּמָנוֹס",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1348": {
+   "kind": "word",
+   "he": "לִי",
+   "tr": "li",
+   "tlf": false,
+   "say": "לִי",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1349": {
+   "kind": "word",
+   "he": "מְנָת",
+   "tr": "m'nat",
+   "tlf": false,
+   "say": "מְנָת",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1350": {
+   "kind": "word",
+   "he": "כּוֹסִי",
+   "tr": "kosi",
+   "tlf": false,
+   "say": "כּוֹסִי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1351": {
+   "kind": "word",
+   "he": "אֶקְרָא",
+   "tr": "ekra",
+   "tlf": false,
+   "say": "אֶקְרָא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1352": {
+   "kind": "word",
+   "he": "בְּיָדוֹ",
+   "tr": "b'yado",
+   "tlf": false,
+   "say": "בְּיָדוֹ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1353": {
+   "kind": "word",
+   "he": "אַפְקִיד",
+   "tr": "afkid",
+   "tlf": false,
+   "say": "אַפְקִיד",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1354": {
+   "kind": "word",
+   "he": "רוּחִי",
+   "tr": "ruchi",
+   "tlf": false,
+   "say": "רוּחִי",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1355": {
+   "kind": "word",
+   "he": "אִישַׁן",
+   "tr": "ishan",
+   "tlf": false,
+   "say": "אִישַׁן",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1356": {
+   "kind": "word",
+   "he": "וְאָעִירָה",
+   "tr": "v'a-irah",
+   "tlf": false,
+   "say": "וְאָעִירָה",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1357": {
+   "kind": "word",
+   "he": "וְעִם",
+   "tr": "v'im",
+   "tlf": false,
+   "say": "וְעִם",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1358": {
+   "kind": "word",
+   "he": "גְּוִיָּתִי",
+   "tr": "g'viyati",
+   "tlf": false,
+   "say": "גְּוִיָּתִי",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1359": {
+   "kind": "word",
+   "he": "אִירָא",
+   "tr": "ira",
+   "tlf": false,
+   "say": "אִירָא",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_adon_olam"
+   ],
+   "audio": null
+  },
+  "w-1360": {
+   "kind": "word",
+   "he": "כֵּאלֹהֵינוּ",
+   "tr": "keiloheinu",
+   "tlf": false,
+   "say": "כֵּאלֹהֵינוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1361": {
+   "kind": "word",
+   "he": "כַּאדוֹנֵנוּ",
+   "tr": "kadoneinu",
+   "tlf": false,
+   "say": "כַּאדוֹנֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1362": {
+   "kind": "word",
+   "he": "כְּמַלְכֵּנוּ",
+   "tr": "k'malkeinu",
+   "tlf": false,
+   "say": "כְּמַלְכֵּנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1363": {
+   "kind": "word",
+   "he": "כְּמוֹשִׁיעֵנוּ",
+   "tr": "k'moshi-einu",
+   "tlf": false,
+   "say": "כְּמוֹשִׁיעֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1364": {
+   "kind": "word",
+   "he": "כֵאלֹהֵינוּ",
+   "tr": "cheiloheinu",
+   "tlf": false,
+   "say": "כֵאלֹהֵינוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1365": {
+   "kind": "word",
+   "he": "כַאדוֹנֵנוּ",
+   "tr": "chadoneinu",
+   "tlf": false,
+   "say": "כַאדוֹנֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1366": {
+   "kind": "word",
+   "he": "כְמַלְכֵּנוּ",
+   "tr": "ch'malkeinu",
+   "tlf": false,
+   "say": "כְמַלְכֵּנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1367": {
+   "kind": "word",
+   "he": "כְמוֹשִׁיעֵנוּ",
+   "tr": "ch'moshi-einu",
+   "tlf": false,
+   "say": "כְמוֹשִׁיעֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1368": {
+   "kind": "word",
+   "he": "לֵאלֹהֵינוּ",
+   "tr": "leiloheinu",
+   "tlf": false,
+   "say": "לֵאלֹהֵינוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1369": {
+   "kind": "word",
+   "he": "לַאדוֹנֵנוּ",
+   "tr": "ladoneinu",
+   "tlf": false,
+   "say": "לַאדוֹנֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1370": {
+   "kind": "word",
+   "he": "לְמַלְכֵּנוּ",
+   "tr": "l'malkeinu",
+   "tlf": false,
+   "say": "לְמַלְכֵּנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1371": {
+   "kind": "word",
+   "he": "לְמוֹשִׁיעֵנוּ",
+   "tr": "l'moshi-einu",
+   "tlf": false,
+   "say": "לְמוֹשִׁיעֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1372": {
+   "kind": "word",
+   "he": "אֲדוֹנֵנוּ",
+   "tr": "adoneinu",
+   "tlf": false,
+   "say": "אֲדוֹנֵנוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 2,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1373": {
+   "kind": "word",
+   "he": "שֶׁהִקְטִרוּ",
+   "tr": "shehiktiru",
+   "tlf": false,
+   "say": "שֶׁהִקְטִרוּ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1374": {
+   "kind": "word",
+   "he": "לְפָנֶיךָ",
+   "tr": "l'fanecha",
+   "tlf": false,
+   "say": "לְפָנֶיךָ",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1375": {
+   "kind": "word",
+   "he": "קְטֹרֶת",
+   "tr": "k'toret",
+   "tlf": false,
+   "say": "קְטֹרֶת",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
+   ],
+   "audio": null
+  },
+  "w-1376": {
+   "kind": "word",
+   "he": "הַסַּמִּים",
+   "tr": "hasamim",
+   "tlf": false,
+   "say": "הַסַּמִּים",
+   "gloss": null,
+   "note": null,
+   "freq": 1,
+   "prayers": [
+    "c_ein_keloheinu"
    ],
    "audio": null
   }

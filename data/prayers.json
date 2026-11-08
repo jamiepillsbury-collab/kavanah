@@ -3484,6 +3484,389 @@
      "verify": true
     }
    ]
+  },
+  {
+   "id": "c_yigdal_1",
+   "title": "Yigdal (1)",
+   "about": "A medieval song of the thirteen principles of faith: lines 1-7",
+   "order": 49,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Yigdal (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "closing",
+   "seq": 120,
+   "check": [
+    "CBB siddur Mashiv HaRuach p. 54: all 13 lines, sung responsively (leader, then congregation). Matched by transliteration.",
+    "By Daniel ben Judah (Rome, 14th c.), on Maimonides' 13 principles. Hebrew and English: Metsudah."
+   ],
+   "lines": [
+    {
+     "he": "יִגְדַּל אֱלֹהִים חַי וְיִשְׁתַּבַּח, נִמְצָא וְאֵין עֵת אֶל מְצִיאוּתוֹ",
+     "tl": "Yigdal Elohim chai v'yishtabach, nimtza v'ein eit el m'tzi-uto",
+     "tlf": false,
+     "en": "Exalted is the living God, and praised He exists, and His existence transcends time.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "אֶחָד וְאֵין יָחִיד כְּיִחוּדוֹ, נֶעְלָם וְגַם אֵין סוֹף לְאַחְדּוּתוֹ",
+     "tl": "Echad v'ein yachid k'yichudo, nelam v'gam ein sof l'achduto",
+     "tlf": false,
+     "en": "He is One, and there is no unity like His, He is invisible, His unity is infinitive.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "אֵין לוֹ דְמוּת הַגּוּף וְאֵינוֹ גוּף, לֹא נַעֲרֹךְ אֵלָיו קְדֻשָּׁתוֹ",
+     "tl": "Ein lo d'mut haguf v'eino guf, lo na-aroch eilav k'dushato",
+     "tlf": false,
+     "en": "He is unlike the corporeal or even the non-corporeal, His holiness is beyond comparison.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "קַדְמוֹן לְכָל דָּבָר אֲשֶׁר נִבְרָא, רִאשׁוֹן וְאֵין רֵאשִׁית לְרֵאשִׁיתוֹ",
+     "tl": "Kadmon l'chol davar asher nivra, rishon v'ein reishit l'reishito",
+     "tlf": false,
+     "en": "He preceded every being that was created, He was First, and there was no genesis to His beginning.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "הִנּוֹ אֲדוֹן עוֹלָם לְכָל נוֹצָר, יוֹרֶה גְדֻלָּתוֹ וּמַלְכוּתוֹ",
+     "tl": "Hino adon olam l'chol notzar, yoreh g'dulato umalchuto",
+     "tlf": false,
+     "en": "He is Master of the Universe to every creature, all proclaim His greatness and His majesty.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "שֶׁפַע נְבוּאָתוֹ נְתָנוֹ, אֶל אַנְשֵׁי סְגֻלָּתוֹ וְתִפְאַרְתּוֹ",
+     "tl": "Shefa n'vu-ato n'tano, el anshei s'gulato v'tif'arto",
+     "tlf": false,
+     "en": "The fullness of His prophecy, He bestowed on those He treasured, and in whom He gloried.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "לֹא קָם בְּיִשְׂרָאֵל כְּמשֶׁה עוֹד, נָבִיא וּמַבִּיט אֶת תְּמוּנָתוֹ",
+     "tl": "Lo kam b'Yisrael k'Moshe od, navi umabit et t'munato",
+     "tlf": false,
+     "en": "There never arose in Israel another like Moses, a prophet who beheld God's image.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "c_yigdal_2",
+   "title": "Yigdal (2)",
+   "about": "Yigdal, lines 8-13",
+   "order": 50,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Yigdal (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "closing",
+   "seq": 121,
+   "check": [
+    "CBB siddur Mashiv HaRuach p. 54: lines 8-13; the last line is sung by everyone.",
+    "Line 13 speaks of reviving the dead (meitim). Some Reform siddurim change it; CBB keeps it (transliteration)."
+   ],
+   "lines": [
+    {
+     "he": "תּוֹרַת אֱמֶת נָתַן לְעַמּוֹ אֵל, עַל יַד נְבִיאוֹ נֶאֱמַן בֵּיתוֹ",
+     "tl": "Torat emet natan l'amo eil, al yad n'vi-o ne-eman beito",
+     "tlf": false,
+     "en": "The Torah of truth the Almighty gave to His people through His prophet, the trusted one of His house.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "לֹא יַחֲלִיף הָאֵל וְלֹא יָמִיר דָּתוֹ, לְעוֹלָמִים לְזוּלָתוֹ",
+     "tl": "Lo yachalif ha-eil v'lo yamir dato, l'olamim l'zulato",
+     "tlf": false,
+     "en": "The Almighty will not exchange nor alter His Law. Never will He offer any alternative.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "צוֹפֶה וְיוֹדֵעַ סְתָרֵינוּ, מַבִּיט לְסוֹף דָּבָר בְּקַדְמָתוֹ",
+     "tl": "Tzofeh v'yodeia s'tareinu, mabit l'sof davar b'kadmato",
+     "tlf": false,
+     "en": "He scrutinizes and knows our secrets. He beholds the end of a thing at its beginning.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "גּוֹמֵל לְאִישׁ חֶסֶד כְּמִפְעָלוֹ, נוֹתֵן לְרָשָׁע רָע כְּרִשְׁעָתוֹ",
+     "tl": "Gomeil l'ish chesed k'mif'alo, notein l'rasha ra k'rish'ato",
+     "tlf": false,
+     "en": "He rewards man with kindness according to his deeds. He sends evil to the wicked according to his wickedness.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "יִשְׁלַח לְקֵץ הַיָּמִין מְשִׁיחֵנוּ, לִפְדּוֹת מְחַכֵּי קֵץ יְשׁוּעָתוֹ",
+     "tl": "Yishlach l'keitz hayamin m'shicheinu, lifdot m'chakei keitz y'shu-ato",
+     "tlf": false,
+     "en": "He will send our Messiah at the end of days, to redeem all who await His final deliverance.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "מֵתִים יְחַיֶּה אֵל בְּרֹב חַסְדּוֹ, בָּרוּךְ עֲדֵי עַד שֵׁם תְּהִלָּתוֹ",
+     "tl": "Meitim y'chayeh eil b'rov chasdo, baruch adei ad sheim t'hilato",
+     "tlf": false,
+     "en": "The Almighty will revive the dead because of His abundant kindness: Blessed forever is His praised Name.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "c_adon_olam",
+   "title": "Adon Olam",
+   "about": "Master of the world: the closing song",
+   "order": 51,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Shabbat, Maariv, Adon Olam (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "closing",
+   "seq": 122,
+   "check": [
+    "CBB siddur Mashiv HaRuach p. 124: all ten lines. Matched by transliteration.",
+    "Hebrew and English: Metsudah. CBB has its own English (p. 125)."
+   ],
+   "lines": [
+    {
+     "he": "אֲדוֹן עוֹלָם אֲשֶׁר מָלַךְ, בְּטֶרֶם כָּל יְצִיר נִבְרָא",
+     "tl": "Adon olam asher malach, b'terem kol y'tzir nivra",
+     "tlf": false,
+     "en": "Master of the Universe Who reigned before any creature was created.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "לְעֵת נַעֲשָׂה בְחֶפְצוֹ כֹּל, אֲזַי מֶלֶךְ שְׁמוֹ נִקְרָא",
+     "tl": "L'eit na-asah v'cheftzo kol, azai melech sh'mo nikra",
+     "tlf": false,
+     "en": "At the time when all was made by His will, then was His Name proclaimed King.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְאַחֲרֵי כִּכְלוֹת הַכֹּל, לְבַדּוֹ יִמְלֹךְ נוֹרָא",
+     "tl": "V'acharei kichlot hakol, l'vado yimloch nora",
+     "tlf": false,
+     "en": "And after all things shall cease to be the Awesome One will reign alone.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְהוּא הָיָה וְהוּא הֹוֶה, וְהוּא יִהְיֶה בְּתִפְאָרָה",
+     "tl": "V'hu hayah v'hu hoveh, v'hu yihyeh b'tif'arah",
+     "tlf": false,
+     "en": "He was, He is, and He shall be in glory.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְהוּא אֶחָד וְאֵין שֵׁנִי, לְהַמְשִׁיל לוֹ לְהַחְבִּירָה",
+     "tl": "V'hu echad v'ein sheini, l'hamshil lo l'hachbirah",
+     "tlf": false,
+     "en": "He is One, and there is no second to compare to Him, to associate [with Him].",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "בְּלִי רֵאשִׁית בְּלִי תַכְלִית, וְלוֹ הָעֹז וְהַמִּשְׂרָה",
+     "tl": "B'li reishit b'li tachlit, v'lo ha-oz v'hamisrah",
+     "tlf": false,
+     "en": "Without beginning, without end, power and dominion are His.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְהוּא אֵלִי וְחַי גּוֹאֲלִי, וְצוּר חֶבְלִי בְּעֵת צָרָה",
+     "tl": "V'hu eili v'chai go-ali, v'tzur chevli b'eit tzarah",
+     "tlf": false,
+     "en": "He is my God and my ever-living Redeemer, the Rock of my destiny in times of distress.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְהוּא נִסִּי וּמָנוֹס לִי, מְנָת כּוֹסִי בְּיוֹם אֶקְרָא",
+     "tl": "V'hu nisi umanos li, m'nat kosi b'yom ekra",
+     "tlf": false,
+     "en": "He is my flag and my refuge; He is the portion of my cup on the day I call.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "בְּיָדוֹ אַפְקִיד רוּחִי, בְּעֵת אִישַׁן וְאָעִירָה",
+     "tl": "B'yado afkid ruchi, b'eit ishan v'a-irah",
+     "tlf": false,
+     "en": "Into His hand I entrust my spirit [both] when I sleep and when I awaken.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְעִם רוּחִי גְּוִיָּתִי, יְיָ לִי וְלֹא אִירָא",
+     "tl": "V'im ruchi g'viyati, Adonai li v'lo ira",
+     "tlf": false,
+     "en": "And with my spirit my body [too], Adonai is with me, I shall not fear.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "c_ein_keloheinu",
+   "title": "Ein Keloheinu",
+   "about": "None like our God",
+   "order": 52,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Korbanot (Israel), Ein Kelohenu (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "closing",
+   "seq": 123,
+   "check": [
+    "CBB siddur Mashiv HaRuach p. 126: all five stanzas and the closing line about the incense (Atah hu shehiktiru...). Matched by transliteration.",
+    "Line 6 leaves out 'Adonai Eloheinu', which some editions add (CBB doesn't). English for line 6 is my own draft."
+   ],
+   "lines": [
+    {
+     "he": "אֵין כֵּאלֹהֵינוּ, אֵין כַּאדוֹנֵנוּ, אֵין כְּמַלְכֵּנוּ, אֵין כְּמוֹשִׁיעֵנוּ",
+     "tl": "Ein keiloheinu, ein kadoneinu, ein k'malkeinu, ein k'moshi-einu",
+     "tlf": false,
+     "en": "There is none like our God. There is none like our Master. There is none like our King. There is none like our Deliverer.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "מִי כֵאלֹהֵינוּ, מִי כַאדוֹנֵנוּ, מִי כְמַלְכֵּנוּ, מִי כְמוֹשִׁיעֵנוּ",
+     "tl": "Mi cheiloheinu, mi chadoneinu, mi ch'malkeinu, mi ch'moshi-einu",
+     "tlf": false,
+     "en": "Who is like our God? Who is like our Master? Who is like our King? Who is like our Deliverer?",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "נוֹדֶה לֵאלֹהֵינוּ, נוֹדֶה לַאדוֹנֵנוּ, נוֹדֶה לְמַלְכֵּנוּ, נוֹדֶה לְמוֹשִׁיעֵנוּ",
+     "tl": "Nodeh leiloheinu, nodeh ladoneinu, nodeh l'malkeinu, nodeh l'moshi-einu",
+     "tlf": false,
+     "en": "Let us thank our God. Let us thank our Master. Let us thank our King. Let us thank our deliverer.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אֱלֹהֵינוּ בָּרוּךְ אֲדוֹנֵנוּ בָּרוּךְ מַלְכֵּנוּ בָּרוּךְ מוֹשִׁיעֵנוּ",
+     "tl": "Baruch Eloheinu baruch adoneinu baruch malkeinu baruch moshi-einu",
+     "tlf": false,
+     "en": "Blessed is our God. Blessed is our Master. Blessed is our King. Blessed is our Deliverer.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "אַתָּה הוּא אֱלֹהֵינוּ, אַתָּה הוּא אֲדוֹנֵנוּ, אַתָּה הוּא מַלְכֵּנוּ, אַתָּה הוּא מוֹשִׁיעֵנוּ",
+     "tl": "Atah hu Eloheinu, atah hu adoneinu, atah hu malkeinu, atah hu moshi-einu",
+     "tlf": false,
+     "en": "You are our God. You are our Master. You are our King. You are our Deliverer.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "אַתָּה הוּא שֶׁהִקְטִרוּ אֲבוֹתֵינוּ לְפָנֶיךָ אֶת קְטֹרֶת הַסַּמִּים",
+     "tl": "Atah hu shehiktiru avoteinu l'fanecha et k'toret hasamim",
+     "tlf": false,
+     "en": "You are the One before whom our ancestors burned the fragrant incense.",
+     "en_src": "Original translation (Claude; draft for Jamie to check)",
+     "en_license": null,
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    }
+   ]
   }
  ]
 }
