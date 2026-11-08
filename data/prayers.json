@@ -2995,6 +2995,495 @@
      "verify": true
     }
    ]
+  },
+  {
+   "id": "m_kdushah_1",
+   "title": "K'dushah (1)",
+   "about": "Holy, holy, holy: the morning K'dushah, said aloud together",
+   "order": 43,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Kedushah (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "amidah_am",
+   "seq": 98.0,
+   "check": [
+    "CBB siddur Mashiv HaRuach p. 90: CBB's K'dushah joins the Shabbat morning text with lines from Musaf (Adir adirenu, Echad hu Eloheinu). Those two lines and 'Ani Adonai Eloheichem' are typed from CBB's page (no full-vowel source on Sefaria); English for them is my own draft.",
+    "Other lines: Metsudah siddur, weekday K'dushah (same words). CBB leaves out 'sheinit' in Echad hu Eloheinu."
+   ],
+   "lines": [
+    {
+     "he": "נְקַדֵּשׁ אֶת־שִׁמְךָ בָּעוֹלָם כְּשֵׁם שֶׁמַּקְדִּישִׁים אוֹתוֹ בִּשְׁמֵי מָרוֹם",
+     "tl": "N'kadeish et shimcha ba-olam k'sheim shemakdishim oto bishmei marom",
+     "tlf": false,
+     "en": "We will hallow Your Name in the world, as they hallow it in the heavens above",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "כַּכָּתוּב עַל־יַד נְבִיאֶךָ וְקָרָא זֶה אֶל־זֶה וְאָמַר",
+     "tl": "Kakatuv al yad n'vi-echa v'kara zeh el zeh v'amar",
+     "tlf": false,
+     "en": "As is written by the hand of Your prophet, And they called one to another, and said:",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְיָ צְבָאוֹת מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ",
+     "tl": "Kadosh kadosh kadosh Adonai tz'va-ot m'lo chol ha-aretz k'vodo",
+     "tlf": false,
+     "en": "Holy, holy, holy, is Adonai of Hosts, the fullness of all the earth is His glory.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "אַדִּיר אַדִּירֵנוּ, יְיָ אֲדוֹנֵינוּ, מָה אַדִּיר שִׁמְךָ בְּכָל־הָאָרֶץ",
+     "tl": "Adir adireinu, Adonai adoneinu, mah adir shimcha b'chol ha-aretz",
+     "tlf": false,
+     "en": "Mighty One, our Mighty One, Adonai our Lord, how mighty is Your name in all the earth!",
+     "en_src": "Original translation (Claude; draft for Jamie to check)",
+     "en_license": null,
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ כְּבוֹד־יְיָ מִמְּקוֹמוֹ",
+     "tl": "Baruch k'vod Adonai mim'komo",
+     "tlf": false,
+     "en": "Blessed is the glory of Adonai from its place",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "אֶחָד הוּא אֱלֹהֵינוּ, הוּא אָבִינוּ, הוּא מַלְכֵּנוּ, הוּא מוֹשִׁיעֵנוּ, וְהוּא יַשְׁמִיעֵנוּ בְּרַחֲמָיו לְעֵינֵי כָּל חָי",
+     "tl": "Echad hu Eloheinu, hu avinu, hu malkeinu, hu moshi-einu, v'hu yashmi-einu b'rachamav l'einei kol chai",
+     "tlf": false,
+     "en": "One is our God: our Father, our King, our Deliverer, who in mercy will let us hear, before every living being:",
+     "en_src": "Original translation (Claude; draft for Jamie to check)",
+     "en_license": null,
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "m_kdushah_2",
+   "title": "K'dushah (2)",
+   "about": "I am Adonai your God; God will reign forever; from generation to generation",
+   "order": 44,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Kedushah (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "amidah_am",
+   "seq": 98.1,
+   "check": [
+    "CBB siddur Mashiv HaRuach p. 90: L'dor vador ends 'l'olam va-ed' and goes straight to the blessing (no 'ki El melech gadol v'kadosh atah')."
+   ],
+   "lines": [
+    {
+     "he": "אֲנִי יְיָ אֱלֹהֵיכֶם",
+     "tl": "Ani Adonai Eloheichem",
+     "tlf": false,
+     "en": "I am Adonai your God.",
+     "en_src": "Original translation (Claude; draft for Jamie to check)",
+     "en_license": null,
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "יִמְלֹךְ יְיָ לְעוֹלָם אֱלֹהַיִךְ צִיּוֹן לְדֹר וָדֹר הַלְלוּיָהּ",
+     "tl": "Yimloch Adonai l'olam Elohayich Tziyon l'dor vador hal'luyah",
+     "tlf": false,
+     "en": "Adonai will reign forever; Your God, Zion, throughout all generations! Praise God.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "לְדוֹר וָדוֹר נַגִּיד גָּדְלֶךָ וּלְנֵצַח נְצָחִים קְדֻשָּׁתְךָ נַקְדִּישׁ",
+     "tl": "L'dor vador nagid gadlecha ul'neitzach n'tzachim k'dushatcha nakdish",
+     "tlf": true,
+     "en": "From generation to generation we will declare Your greatness, and to all eternity, we will sanctify Your holiness",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְשִׁבְחֲךָ אֱלֹהֵינוּ מִפִּינוּ לֹא יָמוּשׁ לְעוֹלָם וָעֶד",
+     "tl": "V'shivchacha Eloheinu mipinu lo yamush l'olam va-ed",
+     "tlf": false,
+     "en": "And Your praise, our God, will not depart from our mouth forever and ever",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ הָאֵל הַקָּדוֹשׁ",
+     "tl": "Baruch atah Adonai ha-eil hakadosh",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, the Almighty, the Holy One.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "m_yismchu",
+   "title": "Yism'chu",
+   "about": "Those who keep Shabbat rejoice: from the Shabbat morning Amidah",
+   "order": 45,
+   "audio": null,
+   "he_src": "Siddur Sefard, Shabbat Morning Services, Amidah (Torat Emet 357, Public Domain)",
+   "unit": "amidah_am",
+   "seq": 98.2,
+   "check": [
+    "CBB siddur Mashiv HaRuach p. 92: same Hebrew words. CBB also prints Yismach Moshe and V'shamru here (said silently); V'shamru is in the Friday night unit.",
+    "Hebrew: Siddur Sefard (Torat Emet, public domain); English: Metsudah."
+   ],
+   "lines": [
+    {
+     "he": "יִשְׂמְחוּ בְמַלְכוּתְךָ שׁוֹמְרֵי שַׁבָּת וְקוֹרְאֵי עוֹנֶג עַם מְקַדְּשֵׁי שְׁבִיעִי",
+     "tl": "Yism'chu v'malchutcha shomrei Shabbat v'kor'ei oneg am m'kad'shei sh'vi-i",
+     "tlf": true,
+     "en": "They shall rejoice in Your kingship— those who preserve the Sabbath and call it a delight. The people who sanctify the seventh [day]",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "כֻּלָּם יִשְׂבְּעוּ וְיִתְעַנְּגוּ מִטּוּבֶךָ",
+     "tl": "Kulam yisb'u v'yit'an'gu mituvecha",
+     "tlf": false,
+     "en": "Will all be satisfied and delighted from Your goodness.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וּבַשְּׁבִיעִי רָצִיתָ בּוֹ וְקִדַּשְׁתּוֹ",
+     "tl": "Uvash'vi-i ratzita bo v'kidashto",
+     "tlf": false,
+     "en": "And in the seventh [day], You took pleasure and You hallowed it.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "חֶמְדַת יָמִים אוֹתוֹ קָרָאתָ, זֵכֶר לְמַעֲשֵׂה בְרֵאשִׁית",
+     "tl": "Chemdat yamim oto karata, zeicher l'ma-asei v'reishit",
+     "tlf": false,
+     "en": "“Most desirable of days,” You called it— a commemoration of the work of creation.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "m_rtzeh",
+   "title": "R'tzeh",
+   "about": "Be pleased with our prayer: the Amidah's blessing of worship (morning and evening)",
+   "order": 46,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Temple Service (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "amidah_am",
+   "seq": 98.3,
+   "check": [
+    "CBB siddur Mashiv HaRuach p. 96 (morning) and p. 44 (Friday night): same Hebrew words, including 'v'ishei Yisrael' (the fire-offerings), which some Reform siddurim change.",
+    "Then CBB continues with K'dushat HaYom's R'tzei vimnuchateinu (p. 93), which is in the Friday night unit."
+   ],
+   "lines": [
+    {
+     "he": "רְצֵה יְיָ אֱלֹהֵינוּ בְּעַמְּךָ יִשְׂרָאֵל וּבִתְפִלָּתָם",
+     "tl": "R'tzei Adonai Eloheinu b'am'cha Yisrael uvitfilatam",
+     "tlf": false,
+     "en": "Be pleased, Adonai, our God, with Your people, Israel, and their prayer",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְהָשֵׁב אֶת הָעֲבוֹדָה לִדְבִיר בֵּיתֶךָ",
+     "tl": "V'hasheiv et ha-avodah lidvir beitecha",
+     "tlf": false,
+     "en": "And restore the service to the Holy of Holies in Your abode",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְאִשֵּׁי יִשְׂרָאֵל וּתְפִלָּתָם בְּאַהֲבָה תְקַבֵּל בְּרָצוֹן",
+     "tl": "V'ishei Yisrael ut'filatam b'ahavah t'kabeil b'ratzon",
+     "tlf": false,
+     "en": "And the fire-offerings of Israel; and accept their prayer, lovingly and willingly.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וּתְהִי לְרָצוֹן תָּמִיד עֲבוֹדַת יִשְׂרָאֵל עַמֶּךָ",
+     "tl": "Ut'hi l'ratzon tamid avodat Yisrael amecha",
+     "tlf": false,
+     "en": "And may You always find pleasure with the service of Your people, Israel.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים",
+     "tl": "V'techezenah eineinu b'shuvcha l'Tziyon b'rachamim",
+     "tlf": false,
+     "en": "And may our eyes behold Your merciful return to Zion.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן",
+     "tl": "Baruch atah Adonai hamachazir sh'chinato l'Tziyon",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Who returns His Divine Presence to Zion.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "m_modim",
+   "title": "Modim",
+   "about": "We give thanks: the Amidah's blessing of gratitude (morning and evening)",
+   "order": 47,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Thanksgiving (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "amidah_am",
+   "seq": 98.4,
+   "check": [
+    "CBB siddur Mashiv HaRuach p. 98 and p. 46: same Hebrew words (the full Modim)."
+   ],
+   "lines": [
+    {
+     "he": "מוֹדִים אֲנַחְנוּ לָךְ שָׁאַתָּה הוּא יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ לְעוֹלָם וָעֶד",
+     "tl": "Modim anachnu lach sha-atah hu Adonai Eloheinu v'Elohei avoteinu l'olam va-ed",
+     "tlf": false,
+     "en": "We are thankful to You that You Adonai are our God and the God of our fathers forever",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "צוּר חַיֵּינוּ מָגֵן יִשְׁעֵנוּ אַתָּה הוּא לְדוֹר וָדוֹר נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ",
+     "tl": "Tzur chayeinu magein yish'einu atah hu l'dor vador nodeh l'cha un'sapeir t'hilatecha",
+     "tlf": false,
+     "en": "Rock of our lives, You are the Shield of our deliverance in every generation. We will give thanks to You and recount Your praise",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "עַל־חַיֵּינוּ הַמְּסוּרִים בְּיָדֶךָ וְעַל נִשְׁמוֹתֵינוּ הַפְּקוּדוֹת לָךְ",
+     "tl": "Al chayeinu ham'surim b'yadecha v'al nishmoteinu hap'kudot lach",
+     "tlf": false,
+     "en": "For our lives which are committed into Your hand, and for our souls which are entrusted to You",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְעַל נִסֶּיךָ שֶׁבְּכָל יוֹם עִמָּנוּ וְעַל נִפְלְאוֹתֶיךָ וְטוֹבוֹתֶיךָ שֶׁבְּכָל עֵת עֶרֶב וָבֹקֶר וְצָהֳרָיִם",
+     "tl": "V'al nisecha sheb'chol yom imanu v'al nifl'otecha v'tovotecha sheb'chol eit erev vavoker v'tzahorayim",
+     "tlf": false,
+     "en": "And for Your miracles of every day with us, and for Your wonders and benefactions at all times— evening, morning and noon.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "הַטּוֹב כִּי לֹא כָלוּ רַחֲמֶיךָ",
+     "tl": "Hatov ki lo chalu rachamecha",
+     "tlf": false,
+     "en": "You are The Beneficent One— for Your compassion is never withheld",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְהַמְרַחֵם כִּי לֹא תַמּוּ חֲסָדֶיךָ מֵעוֹלָם קִוִּינוּ לָךְ",
+     "tl": "V'ham'racheim ki lo tamu chasadecha mei-olam kivinu lach",
+     "tlf": false,
+     "en": "And You are the Merciful One— for Your kindliness never ceases; we have always placed our hope in You.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְעַל־כֻּלָּם יִתְבָּרַךְ וְיִתְרוֹמַם שִׁמְךָ מַלְכֵּנוּ תָּמִיד לְעוֹלָם וָעֶד",
+     "tl": "V'al kulam yitbarach v'yitromam shimcha malkeinu tamid l'olam va-ed",
+     "tlf": false,
+     "en": "And for all the foregoing may Your Name, our King, constantly be blessed and extolled, forever and ever.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְכֹל הַחַיִּים יוֹדוּךָ סֶּלָה וִיהַלְלוּ אֶת־שִׁמְךָ בֶּאֱמֶת הָאֵל יְשׁוּעָתֵנוּ וְעֶזְרָתֵנוּ סֶלָה",
+     "tl": "V'chol hachayim yoducha selah vihal'lu et shimcha be-emet ha-eil y'shu-ateinu v'ezrateinu selah",
+     "tlf": false,
+     "en": "And all the living shall thank You forever and praise Your Name with sincerity — the Almighty, Who is our deliverance and our help forever.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת",
+     "tl": "Baruch atah Adonai hatov shimcha ul'cha na-eh l'hodot",
+     "tlf": false,
+     "en": "Blessed are You, Adonai; Your Name is The Beneficent and You it is fitting to praise.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    }
+   ]
+  },
+  {
+   "id": "m_sim_shalom",
+   "title": "Sim Shalom",
+   "about": "Grant peace: the morning blessing for peace",
+   "order": 48,
+   "audio": null,
+   "he_src": "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Peace (The Metsudah siddur, 1981, CC-BY)",
+   "unit": "amidah_am",
+   "seq": 98.5,
+   "check": [
+    "CBB siddur Mashiv HaRuach p. 100: same Hebrew words. Friday night has Shalom Rav instead."
+   ],
+   "lines": [
+    {
+     "he": "שִׂים שָׁלוֹם טוֹבָה וּבְרָכָה חֵן וָחֶסֶד וְרַחֲמִים עָלֵינוּ וְעַל כָּל־יִשְׂרָאֵל עַמֶּךָ",
+     "tl": "Sim shalom tovah uv'rachah chein vachesed v'rachamim aleinu v'al kol Yisrael amecha",
+     "tlf": false,
+     "en": "Grant peace, goodness, and blessing, favor, kindness and compassion upon us and upon all Israel, Your people.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרְכֵנוּ אָבִינוּ כֻּלָּנוּ כְּאֶחָד בְּאוֹר פָּנֶיךָ",
+     "tl": "Barcheinu avinu kulanu k'echad b'or panecha",
+     "tlf": true,
+     "en": "Bless us, our Father, all of us as one with the light of Your countenance.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "כִּי בְאוֹר פָּנֶיךָ נָתַתָּ לָּנוּ יְיָ אֱלֹהֵינוּ תּוֹרַת חַיִּים",
+     "tl": "Ki v'or panecha natata lanu Adonai Eloheinu torat chayim",
+     "tlf": false,
+     "en": "For by the light of Your countenance You gave us Adonai our God, a Torah of life",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְאַהֲבַת חֶסֶד וּצְדָקָה וּבְרָכָה וְרַחֲמִים וְחַיִּים וְשָׁלוֹם",
+     "tl": "V'ahavat chesed utz'dakah uv'rachah v'rachamim v'chayim v'shalom",
+     "tlf": false,
+     "en": "And the love of kindliness, righteousness, blessing, compassion, life and peace.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "וְטוֹב בְּעֵינֶיךָ לְבָרֵךְ אֶת עַמְּךָ יִשְׂרָאֵל בְּכָל־עֵת וּבְכָל־שָׁעָה בִּשְׁלוֹמֶךָ",
+     "tl": "V'tov b'einecha l'vareich et am'cha Yisrael b'chol eit uv'chol sha-ah bishlomecha",
+     "tlf": false,
+     "en": "And may it be good in Your sight to bless Your people, Israel, at all times and at every moment with Your peace.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    },
+    {
+     "he": "בָּרוּךְ אַתָּה יְיָ הַמְבָרֵךְ אֶת־עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם",
+     "tl": "Baruch atah Adonai ham'vareich et amo Yisrael bashalom",
+     "tlf": false,
+     "en": "Blessed are You, Adonai, Who blesses His people Israel with peace.",
+     "en_src": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981",
+     "en_license": "CC-BY",
+     "reform": [],
+     "cbb": [],
+     "verify": true
+    }
+   ]
   }
  ]
 }

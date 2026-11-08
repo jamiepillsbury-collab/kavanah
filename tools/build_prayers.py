@@ -21,6 +21,8 @@ raw7 = json.load(open(os.path.join(ROOT, "data/src/sefaria-torah-service.json"),
 for s in raw7["sources"]: SRC[f'{s["ref"]}|{s["lang"]}|ts'] = s
 raw8 = json.load(open(os.path.join(ROOT, "data/src/sefaria-morning.json"), encoding="utf-8"))  # Shabbat morning Sh'ma unit; own key space (|mo)
 for s in raw8["sources"]: SRC[f'{s["ref"]}|{s["lang"]}|mo'] = s
+raw9 = json.load(open(os.path.join(ROOT, "data/src/sefaria-morning-amidah.json"), encoding="utf-8"))  # Shabbat morning Amidah; own key space (|ma)
+for s in raw9["sources"]: SRC[f'{s["ref"]}|{s["lang"]}|ma'] = s
 S = {
  "barchu_he": SRC["BARCHU_HE"], "barchu_en": key("Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Barchu", "en"),
  "torah_he": key("Siddur Sefard, Shabbat Morning Services, Blessings on Torah Reading", "he"),
@@ -53,6 +55,8 @@ S = {
     ("yo", "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, First Blessing before Shema"), ("ar", "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Second Blessing before Shema"),
     ("ms", "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Blessing after Shema"), ("hy", "Siddur Sefard, Shabbat Morning Services, Shema & Blessings"),
     ("vh", "Deuteronomy 11:13-21"), ("tz", "Numbers 15:37-39")) for l in ("he", "en")},
+ **{f"{k}_{l}": SRC[f"{r}|{l}|ma"] for k, r in (("kq", "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Kedushah"), ("rz", "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Temple Service"),
+    ("md", "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Thanksgiving"), ("ss", "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Peace"), ("ym", "Siddur Sefard, Shabbat Morning Services, Amidah")) for l in ("he", "en")},
 }
 NAME = "יְיָ"  # Mishkan T'filah prints the Name as yod-yod (display convention, not a wording change)
 
@@ -82,6 +86,7 @@ def get(spec, lang):
         ps = [get(x, lang) for x in spec]
         ps = [p if k == 0 or lang == "he" or not isinstance(x[2], tuple) or x[2][0] != "cut" else x[2][1][0] + p[1:] for k, (p, x) in enumerate(zip(ps, spec))]
         return " ".join(ps).replace("־ ", "־")
+    if spec[0] == "LIT": return spec[2]  # text typed from the CBB siddur page (he) or Claude's own translation (en)
     src, seg, part = spec
     t = S[src]["text"][seg]
     if part == "s0": return clean_en(t.split(". ")[0]) + "."
@@ -331,6 +336,48 @@ PRAYERS = [
    (("ms_he", 4, ("w", 0, 0, 8)), ("ms_en", 4, ("cut", "Rock of Israel", "as You promised."))),
    (("ms_he", 4, ("w", 0, 9, 14)), ("ms_en", 4, ("cut", "Our Redeemer", "Holy One of Israel"))),
    (("ms_he", 4, 1), ("ms_en", 4, ("cut", "Blessed are You", "redeemed Israel.")))]),
+ ("m_kdushah_1", "K'dushah (1)", "Holy, holy, holy: the morning K'dushah, said aloud together", [
+   (("kq_he", 0, ("w", 0, 0, 7)), ("kq_en", 0, ("cut", "We will hallow", "heavens above"))),
+   (("kq_he", 0, ("w", 0, 8, 14)), ("kq_en", 0, ("cut", "as is written", "and said:"))),
+   (("kq_he", 1, None), ("kq_en", 1, ("cut", "Holy, holy", "His glory."))),
+   (("LIT", None, "אַדִּיר אַדִּירֵנוּ, יְיָ אֲדוֹנֵינוּ, מָה אַדִּיר שִׁמְךָ בְּכָל־הָאָרֶץ"), ("LIT", None, "Mighty One, our Mighty One, Adonai our Lord, how mighty is Your name in all the earth!")),
+   (("kq_he", 2, None), ("kq_en", 2, None)),
+   (("LIT", None, "אֶחָד הוּא אֱלֹהֵינוּ, הוּא אָבִינוּ, הוּא מַלְכֵּנוּ, הוּא מוֹשִׁיעֵנוּ, וְהוּא יַשְׁמִיעֵנוּ בְּרַחֲמָיו לְעֵינֵי כָּל חָי"), ("LIT", None, "One is our God: our Father, our King, our Deliverer, who in mercy will let us hear, before every living being:"))]),
+ ("m_kdushah_2", "K'dushah (2)", "I am Adonai your God; God will reign forever; from generation to generation", [
+   (("LIT", None, "אֲנִי יְיָ אֱלֹהֵיכֶם"), ("LIT", None, "I am Adonai your God.")),
+   (("kq_he", 3, None), ("kq_en", 3, None)),
+   (("kq_he", 4, ("w", 0, 0, 7)), ("kq_en", 4, ("cut", "From generation", "sanctify Your holiness"))),
+   (("kq_he", 4, ("w", 0, 8, 14)), ("kq_en", 4, ("cut", "and Your praise", "forever and ever"))),
+   (("kq_he", 4, 1), ("kq_en", 4, ("cut", "Blessed are You", "the Holy One.")))]),
+ ("m_yismchu", "Yism'chu", "Those who keep Shabbat rejoice: from the Shabbat morning Amidah", [
+   (("ym_he", 0, ("w", 0, 0, 8)), ("ym_en", 0, ("cut", "They shall rejoice", "seventh [day]"))),
+   (("ym_he", 0, ("w", 0, 9, 12)), ("ym_en", 0, ("cut", "will all be satisfied", "Your goodness."))),
+   (("ym_he", 0, ("w", 0, 13, 16)), ("ym_en", 0, ("cut", "And in the seventh", "You hallowed it."))),
+   (("ym_he", 0, ("w", 0, 17, 23)), ("ym_en", 0, ("cut", "“Most desirable", "work of creation.")))]),
+ ("m_rtzeh", "R'tzeh", "Be pleased with our prayer: the Amidah's blessing of worship (morning and evening)", [
+   (("rz_he", 0, ("w", 0, 0, 5)), ("rz_en", 0, ("cut", "Be pleased", "their prayer"))),
+   (("rz_he", 0, ("w", 0, 6, 10)), ("rz_en", 0, ("cut", "and restore", "Your abode"))),
+   (("rz_he", 0, ("w", 0, 11, 16)), ("rz_en", 0, ("cut", "and the fire-offerings", "lovingly and willingly."))),
+   (("rz_he", 0, ("w", 0, 17, 22)), ("rz_en", 0, ("cut", "And may You always", "Your people, Israel."))),
+   (("rz_he", 1, 0), ("rz_en", 1, ("cut", "And may our eyes", "return to Zion."))),
+   (("rz_he", 1, 1), ("rz_en", 1, ("cut", "Blessed are You", "Presence to Zion.")))]),
+ ("m_modim", "Modim", "We give thanks: the Amidah's blessing of gratitude (morning and evening)", [
+   (("md_he", 0, ("w", 0, 0, 10)), ("md_en", 0, ("cut", "We are thankful", "fathers forever"))),
+   (("md_he", 0, ("w", 0, 11, 22)), ("md_en", 0, ("cut", "Rock of our lives", "recount Your praise"))),
+   (("md_he", 0, ("w", 0, 23, 29)), ("md_en", 0, ("cut", "for our lives", "entrusted to You"))),
+   (("md_he", 0, ("w", 0, 30, 42)), ("md_en", 0, ("cut", "and for Your miracles", "morning and noon."))),
+   (("md_he", 0, ("w", 0, 43, 47)), ("md_en", 0, ("cut", "(You are) The Beneficent", "never withheld"))),
+   (("md_he", 0, ("w", 0, 48, 55)), ("md_en", 0, ("cut", "And (You are) the Merciful", "hope in You."))),
+   (("md_he", 1, None), ("md_en", 1, None)),
+   (("md_he", 2, 0), ("md_en", 2, ("cut", "And all the living", "our help forever."))),
+   (("md_he", 2, 1), ("md_en", 2, ("cut", "Blessed are You", "fitting to praise.")))]),
+ ("m_sim_shalom", "Sim Shalom", "Grant peace: the morning blessing for peace", [
+   (("ss_he", 0, ("w", 0, 0, 10)), ("ss_en", 0, ("cut", "Grant peace", "Your people."))),
+   (("ss_he", 0, ("w", 0, 11, 16)), ("ss_en", 0, ("cut", "Bless us", "Your countenance."))),
+   (("ss_he", 0, ("w", 0, 17, 25)), ("ss_en", 0, ("cut", "For by the light", "a Torah of life"))),
+   (("ss_he", 0, ("w", 0, 26, 32)), ("ss_en", 0, ("cut", "and the love", "life and peace."))),
+   (("ss_he", 0, ("w", 0, 33, 41)), ("ss_en", 0, ("cut", "And may it be good", "with Your peace."))),
+   (("ss_he", 1, None), ("ss_en", 1, None))]),
 ]
 # Marked Reform changes vs the traditional base (Mishkan T'filah wording). "sub" = (traditional Hebrew, Reform Hebrew) applied to that line.
 # Added words: names from Genesis (Sefaria, Miqra al pi ha-Masorah), g'ulah Lev 25:24, ezrat Judg 5:23, hakol from this blessing. Not sourced: imoteinu, imahot.
@@ -353,8 +400,8 @@ REFORM = {
  "aleinu": [{"line": 3, "change": "Leaves out 'shehem mishtachavim lahevel varik umitpal'lim el el lo yoshia' (many traditional Ashkenazi siddurim also omit it).",
              "sub": ("שֶׁהֵם מִשְׁתַּחֲוִים לָהֶבֶל וָרִיק וּמִתְפַּלְּלִים אֶל אֵל לֹא יוֹשִׁיעַ, ", "")}],
 }
-UNIT = {**{k: "morning" for k in ("m_mah_tovu", "m_yotzer_1", "m_yotzer_2", "m_ahavah_rabbah", "m_vhaya_1", "m_vhaya_2", "m_tzitzit", "m_mi_chamocha")}, **{k: "torah" for k in ("t_ein_kamocha", "t_vayhi", "t_lcha", "torah_before", "torah_after", "t_vzot", "haftarah_before", "haftarah_after", "t_etz")}, **{k: "kabbalat" for k in ("lcha_dodi_1", "lcha_dodi_2", "ps92_1", "ps92_2", "ps93")}, "kaddish": "concluding", "vaychulu": "concluding", "magen_avot": "concluding", "aleinu": "concluding", **{k: "amidah" for k in ("avot", "gvurot", "kdushat_hashem", "kdushat_hayom", "shalom_rav")}, "maariv_aravim": "shma", "hashkiveinu": "shma", "vshamru": "shma", "shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
-SEQ = {"maariv_aravim": 7.2, "ahavat_olam": 7.5, **{k: 90 + i for i, k in enumerate(("m_mah_tovu", "m_yotzer_1", "m_yotzer_2", "m_ahavah_rabbah", "m_vhaya_1", "m_vhaya_2", "m_tzitzit", "m_mi_chamocha"))}, **{k: 100 + i for i, k in enumerate(("t_ein_kamocha", "t_vayhi", "t_lcha", "torah_before", "torah_after", "t_vzot", "haftarah_before", "haftarah_after", "t_etz"))}}  # display order (Mishkan T'filah); "order" stays append-only so words.json ids stay stable  # app groups lessons into units by this
+UNIT = {**{k: "amidah_am" for k in ("m_kdushah_1", "m_kdushah_2", "m_yismchu", "m_rtzeh", "m_modim", "m_sim_shalom")}, **{k: "morning" for k in ("m_mah_tovu", "m_yotzer_1", "m_yotzer_2", "m_ahavah_rabbah", "m_vhaya_1", "m_vhaya_2", "m_tzitzit", "m_mi_chamocha")}, **{k: "torah" for k in ("t_ein_kamocha", "t_vayhi", "t_lcha", "torah_before", "torah_after", "t_vzot", "haftarah_before", "haftarah_after", "t_etz")}, **{k: "kabbalat" for k in ("lcha_dodi_1", "lcha_dodi_2", "ps92_1", "ps92_2", "ps93")}, "kaddish": "concluding", "vaychulu": "concluding", "magen_avot": "concluding", "aleinu": "concluding", **{k: "amidah" for k in ("avot", "gvurot", "kdushat_hashem", "kdushat_hayom", "shalom_rav")}, "maariv_aravim": "shma", "hashkiveinu": "shma", "vshamru": "shma", "shma": "shma", "vahavta": "shma", "ahavat_olam": "shma", "mi_chamocha": "shma"}
+SEQ = {"maariv_aravim": 7.2, "ahavat_olam": 7.5, **{k: 98 + i / 10 for i, k in enumerate(("m_kdushah_1", "m_kdushah_2", "m_yismchu", "m_rtzeh", "m_modim", "m_sim_shalom"))}, **{k: 90 + i for i, k in enumerate(("m_mah_tovu", "m_yotzer_1", "m_yotzer_2", "m_ahavah_rabbah", "m_vhaya_1", "m_vhaya_2", "m_tzitzit", "m_mi_chamocha"))}, **{k: 100 + i for i, k in enumerate(("t_ein_kamocha", "t_vayhi", "t_lcha", "torah_before", "torah_after", "t_vzot", "haftarah_before", "haftarah_after", "t_etz"))}}  # display order (Mishkan T'filah); "order" stays append-only so words.json ids stay stable  # app groups lessons into units by this
 CHECK = {
  "candles": ["Mishkan T'filah wording: confirm 'l'hadlik ner shel Shabbat' matches your siddur."],
  "torah_before": ["Mishkan T'filah: 'mikol ha-amim' or 'im kol ha-amim'? (line 3)"],
@@ -453,6 +500,13 @@ CHECK["shma"].append(f"{C} p. 26: Baruch shem is said in a whisper.")
 CHECK["vahavta"].append(f"{C} p. 28 matches the Mishkan T'filah selection: Deut 6:5-9, then Num 15:40-41.")
 CHECK["avot"].insert(0, f"{C} p. 36: Adonai s'fatai (line 1) matches.")
 CHECK.update({
+ "m_kdushah_1": [f"{C} p. 90: CBB's K'dushah joins the Shabbat morning text with lines from Musaf (Adir adirenu, Echad hu Eloheinu). Those two lines and 'Ani Adonai Eloheichem' are typed from CBB's page (no full-vowel source on Sefaria); English for them is my own draft.",
+                 "Other lines: Metsudah siddur, weekday K'dushah (same words). CBB leaves out 'sheinit' in Echad hu Eloheinu."],
+ "m_kdushah_2": [f"{C} p. 90: L'dor vador ends 'l'olam va-ed' and goes straight to the blessing (no 'ki El melech gadol v'kadosh atah')."],
+ "m_yismchu": [f"{C} p. 92: same Hebrew words. CBB also prints Yismach Moshe and V'shamru here (said silently); V'shamru is in the Friday night unit.", "Hebrew: Siddur Sefard (Torat Emet, public domain); English: Metsudah."],
+ "m_rtzeh": [f"{C} p. 96 (morning) and p. 44 (Friday night): same Hebrew words, including 'v'ishei Yisrael' (the fire-offerings), which some Reform siddurim change.", "Then CBB continues with K'dushat HaYom's R'tzei vimnuchateinu (p. 93), which is in the Friday night unit."],
+ "m_modim": [f"{C} p. 98 and p. 46: same Hebrew words (the full Modim)."],
+ "m_sim_shalom": [f"{C} p. 100: same Hebrew words. Friday night has Shalom Rav instead."],
  "m_mah_tovu": [f"{C} p. 52: same Hebrew words. Said on entering the sanctuary.", "Hebrew and English: Metsudah siddur (weekday page; same text on Shabbat)."],
  "m_yotzer_1": [f"{C} p. 68: CBB's short Shabbat Yotzer Or. Lines 3-6 come from the Shabbat paragraph Hakol yoducha (Siddur Sefard text, public domain; same words in the Ashkenazi siddur).",
                 "Hebrew line 1-2: Metsudah. CBB leaves out El Adon, La'El asher shavat and the K'dushah of Yotzer."],
@@ -485,10 +539,11 @@ for order, (pid, title, about, lines) in enumerate(PRAYERS):
             assert he.count(r["sub"][0]) == 1, (pid, i, r["sub"][0]); he = he.replace(*r["sub"])
         t, f = tl(he)
         src = None if es is None else (es[0] if isinstance(es, tuple) else es[0][0])
+        lit = src == "LIT"
         pl.append({"he": he, "tl": t, "tlf": f, "en": get(es, "en"),
-                   "en_src": S[src]["version"] if src else None, "en_license": S[src]["license"] if src else None,
+                   "en_src": "Original translation (Claude; draft for Jamie to check)" if lit else (S[src]["version"] if src else None), "en_license": None if lit else (S[src]["license"] if src else None),
                    "reform": [r["change"] for r in rf], "cbb": [r["change"] for r in cf], "verify": True})
-    hs0 = lines[0][0] if isinstance(lines[0][0], tuple) else lines[0][0][0]
+    hs0 = next(h for h in ((l[0] if isinstance(l[0], tuple) else l[0][0]) for l in lines) if h[0] != "LIT")
     about = ABOUT.get(pid, about)
     if pid in NOT_CBB: about += " (not in CBB's siddur" + (f"; {NOT_CBB[pid]})" if NOT_CBB[pid] else ")")
     out["prayers"].append({"id": pid, "title": title, "about": about, "order": order, "audio": None,

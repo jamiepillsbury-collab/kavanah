@@ -2,6 +2,12 @@
 
 ## START HERE (next session, written 11/07)
 Read this block + BRIEF.md. Don't re-audit anything below.
+DONE 11/07 (v30): "Shabbat morning: the Amidah" unit (unit id amidah_am, SEQ 98.x, CBB p. 86-100): m_kdushah_1 (6), m_kdushah_2 (5), m_yismchu (4), m_rtzeh (6; also Friday night p. 44), m_modim (9; also p. 46), m_sim_shalom (6). Avot/G'vurot/R'tzei vimnuchateinu reuse the evening lessons (said in the morning too).
+- data/src/sefaria-morning-amidah.json (26 lines hash-verified, key "|ma"): Siddur Ashkenaz WEEKDAY Shacharit Amidah Metsudah (Kedushah, Temple Service, Thanksgiving, Peace) + Siddur Sefard Shabbat Morning Amidah seg 19 (Yism'chu).
+- New spec ("LIT", None, text): line text typed from the CBB page (he) or Claude's own English (en_src "Original translation (Claude; draft...)"). Used for K'dushah lines Adir adirenu, Echad hu Eloheinu (CBB omits sheinit), Ani Adonai Eloheichem: Sefaria has them only in Daat (missing vowels) or not at all.
+- CBB p. 90 K'dushah = Shacharit + Musaf lines; L'dor vador skips "ki El melech gadol...". Not built: Yismach Moshe (CBB p. 92, said silently), festival inserts.
+- translit EXCEPT += l'Tziyon, v'ham'racheim. questions.html 93. Headless: all 6 run to the end, no JS errors.
+NEXT: Concluding songs (Adon Olam p. 124, Ein Keloheinu p. 126, Yigdal p. 54), then Trope 1-3 (PLAN-imprint).
 DONE 11/07 (v29): "Shabbat morning: Sh'ma and its blessings" unit (unit id morning, SEQ 90-97, CBB p. 52-83): m_mah_tovu (7), m_yotzer_1 (6), m_yotzer_2 (7; CBB short Yotzer Or ending with Or chadash), m_ahavah_rabbah (10), m_vhaya_1/2 (Deut 11:13-17 / 18-21; CBB prints it), m_tzitzit (Num 15:37-39; 15:40-41 is in V'ahavta), m_mi_chamocha (9; CBBSUB adds Miriam). Sh'ma/V'ahavta/Barchu reuse the existing lessons.
 - data/src/sefaria-morning.json (44 lines hash-verified, key "<ref>|<lang>|mo"): Siddur Ashkenaz WEEKDAY Shacharit Metsudah he/en (Siddur Ashkenaz Shabbat Shacharit has only Daat, which lacks holam/sin dots: don't use), Siddur Sefard Shabbat Shema & Blessings seg 3 (Hakol yoducha; Torat Emet he, Metsudah en), Deut 11:13-21 + Num 15:37-39 (Masorah, Contemporary Torah). Lines picked by word index ("w" specs) to match CBB.
 - clean_he: strips {פ}/{ס}, maps כַּיהֹוָה -> כַּייָ. translit EXCEPT += kAdonai, Miriam, Y'hudah, ham'racheim, v'Yisrael. questions.html 84.
