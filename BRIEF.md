@@ -7,6 +7,7 @@ Duolingo-style, mobile-first app for Jamie's own learning: Hebrew reading, praye
 - Hebrew base text from Sefaria (traditional), adapted to Mishkan T'filah wording; every Reform change marked in the data. Full nikkud, stored as JSON.
 - No Claude-written translations or transliterations (changed 2026-10-28). English from Sefaria in Jamie's order: Contemporary Torah; Psalms JPS gender-sensitive; siddur Sim Shalom > Community > Birnbaum > Metsudah. Credit the version and license on every text. Transliteration = tools/translit.py run on the Sefaria Hebrew (Mishkan T'filah style); lines it flags get checked by Jamie or her cantor.
 - Allowed sources (Jamie, 2026-11-09): Sefaria (incl. the Talmud and commentaries there) and CBB (cbbsb.org, its siddur). NEVER forums or Reddit (messianic content and bad Hebrew). Scholarly books are OK when named and flagged for checking.
+- Also allowed: the resources Jamie uploaded for Neshamah (D:\Claude Files\neshamah; digest in project doc claude/neshamah-resources-digest-2026-10-29.md).
 - Flag anything uncertain (vowels, wording, Reform vs. traditional) for Jamie/cantor. Jamie verifies each prayer against her Mishkan T'filah before it's final.
 
 ## Learning design

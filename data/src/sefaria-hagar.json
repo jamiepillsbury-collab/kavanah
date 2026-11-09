@@ -1,0 +1,259 @@
+{
+ "fetched": "2026-11-09",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Hagar and Ishmael lesson). Cantillation and footnotes stripped, <br> to space, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 16:1-2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְשָׂרַי אֵשֶׁת אַבְרָם לֹא יָלְדָה לוֹ וְלָהּ שִׁפְחָה מִצְרִית וּשְׁמָהּ הָגָר",
+    "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם הִנֵּה־נָא עֲצָרַנִי יְהֹוָה מִלֶּדֶת בֹּא־נָא אֶל־שִׁפְחָתִי אוּלַי אִבָּנֶה מִמֶּנָּה וַיִּשְׁמַע אַבְרָם לְקוֹל שָׂרָי"
+   ],
+   "sha": [
+    "ff09d3586db1ad559698de5a2de7f399b0b98df20003262ddeeaddd28e701c2a",
+    "3074b3a86ffc42009a8ae28a02631868bac46bf95594e69f8889fe98219c6eae"
+   ]
+  },
+  {
+   "ref": "Genesis 16:1-2",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Sarai, Abram’s wife, had borne him no children. She had an Egyptian maidservant whose name was Hagar.",
+    "And Sarai said to Abram, “Look, יהוה has kept me from bearing. Consort with my maid; perhaps I shall have a child through her.” And Abram heeded Sarai’s request."
+   ],
+   "sha": [
+    "9c08d4ccf455bf4cf3608fedd2270e3b9f87b35665451c2c35d424350886a72c",
+    "d51718b910a1093deeeaa790b21b128471da7c2c3bca7b02b6bcf62e79d351fc"
+   ]
+  },
+  {
+   "ref": "Genesis 16:6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר אַבְרָם אֶל־שָׂרַי הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ וַתְּעַנֶּהָ שָׂרַי וַתִּבְרַח מִפָּנֶיהָ"
+   ],
+   "sha": [
+    "10f691dd67579a79b8121c6b9e11f16b49f21ef3c89ff4dfcd6b87426184e72b"
+   ]
+  },
+  {
+   "ref": "Genesis 16:6",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Abram said to Sarai, “Your maid is in your hands. Deal with her as you think right.” Then Sarai treated her harshly, and she ran away from her."
+   ],
+   "sha": [
+    "335d1007fe50a823ff7af4ba6247c7a97645537163119f80ff533f74af0fbe28"
+   ]
+  },
+  {
+   "ref": "Genesis 16:7-8",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּמְצָאָהּ מַלְאַךְ יְהֹוָה עַל־עֵין הַמַּיִם בַּמִּדְבָּר עַל־הָעַיִן בְּדֶרֶךְ שׁוּר",
+    "וַיֹּאמַר הָגָר שִׁפְחַת שָׂרַי אֵי־מִזֶּה בָאת וְאָנָה תֵלֵכִי וַתֹּאמֶר מִפְּנֵי שָׂרַי גְּבִרְתִּי אָנֹכִי בֹּרַחַת"
+   ],
+   "sha": [
+    "b7f772d1eec07fe2afd55d72b3408a4440ce4aced1146a0f5e7871d50ab355ba",
+    "5b345213444d41fa2cc1c8da119bf19ec9bf2b913f77c3446fe57131a066d306"
+   ]
+  },
+  {
+   "ref": "Genesis 16:7-8",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "A messenger of יהוה found her by a spring of water in the wilderness, the spring on the road to Shur,",
+    "and said, “Hagar, slave of Sarai, where have you come from, and where are you going?” And she said, “I am running away from my mistress Sarai.”"
+   ],
+   "sha": [
+    "32bdf2b6fac6db86af8407651cf5b83477ab00ba7bc2564723d6ae872fc63496",
+    "3ec95ca9d0cc74383f7967c7fbe44b324b15c249bf39089b86540722d86192de"
+   ]
+  },
+  {
+   "ref": "Genesis 16:11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר לָהּ מַלְאַךְ יְהֹוָה הִנָּךְ הָרָה וְיֹלַדְתְּ בֵּן וְקָרָאת שְׁמוֹ יִשְׁמָעֵאל כִּי־שָׁמַע יְהֹוָה אֶל־עׇנְיֵךְ"
+   ],
+   "sha": [
+    "36640e0a63e9f0748d413cba1705e1f9675f07eaf84cda87721c4bb754b614a7"
+   ]
+  },
+  {
+   "ref": "Genesis 16:11",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "The messenger of יהוה said to her further, “Behold, you are pregnant And shall bear a son; You shall call him Ishmael, For יהוה has paid heed to your suffering."
+   ],
+   "sha": [
+    "d6db8c4315fc70d352188ce2a5581d88bcffc2be59a21065eaf5927028bf84fd"
+   ]
+  },
+  {
+   "ref": "Genesis 16:13",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתִּקְרָא שֵׁם־יְהֹוָה הַדֹּבֵר אֵלֶיהָ אַתָּה אֵל רֳאִי כִּי אָמְרָה הֲגַם הֲלֹם רָאִיתִי אַחֲרֵי רֹאִי"
+   ],
+   "sha": [
+    "57a2ba65f397429c85b194264f82f36731dc9e9fba61e0b8c251c8f2c88c743e"
+   ]
+  },
+  {
+   "ref": "Genesis 16:13",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And she called יהוה who spoke to her, “You Are El-roi,” by which she meant, “Have I not gone on seeing after my being seen!”"
+   ],
+   "sha": [
+    "61237d0474f8abcd790a1268e88a1e22ee8de5c9e27617d7963cf032971d344a"
+   ]
+  },
+  {
+   "ref": "Genesis 21:9-10",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתֵּרֶא שָׂרָה אֶת־בֶּן־הָגָר הַמִּצְרִית אֲשֶׁר־יָלְדָה לְאַבְרָהָם מְצַחֵק",
+    "וַתֹּאמֶר לְאַבְרָהָם גָּרֵשׁ הָאָמָה הַזֹּאת וְאֶת־בְּנָהּ כִּי לֹא יִירַשׁ בֶּן־הָאָמָה הַזֹּאת עִם־בְּנִי עִם־יִצְחָק"
+   ],
+   "sha": [
+    "ed130a289dd57d4d308059fc918c5160e24a989c1aa9231c0b05ab28c05ea7ab",
+    "20b6bee6158808fa2fbf8f403419403140074feb4ac0041abae8298328d3e767"
+   ]
+  },
+  {
+   "ref": "Genesis 21:9-10",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Sarah saw the son whom Hagar the Egyptian had borne to Abraham playing.",
+    "She said to Abraham, “Cast out that slave-woman and her son, for the son of that slave shall not share in the inheritance with my son Isaac.”"
+   ],
+   "sha": [
+    "586bee7d5b72958332df7428d3b49874af5244173073c944ac85f42e822d7a86",
+    "93c9043a576a057474f201cc22a5f9c276b28b0e0eac309e8eb1fed8249d7c5d"
+   ]
+  },
+  {
+   "ref": "Genesis 21:14",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּשְׁכֵּם אַבְרָהָם בַּבֹּקֶר וַיִּקַּח־לֶחֶם וְחֵמַת מַיִם וַיִּתֵּן אֶל־הָגָר שָׂם עַל־שִׁכְמָהּ וְאֶת־הַיֶּלֶד וַיְשַׁלְּחֶהָ וַתֵּלֶךְ וַתֵּתַע בְּמִדְבַּר בְּאֵר שָׁבַע"
+   ],
+   "sha": [
+    "9c37c81d9c761634fab386390dd2b440ec7444a367f8bae01775fe9fed523e55"
+   ]
+  },
+  {
+   "ref": "Genesis 21:14",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Early next morning Abraham took some bread and a skin of water, and gave them to Hagar. He placed them over her shoulder, together with the child, and sent her away. And she wandered about in the wilderness of Beer-sheba."
+   ],
+   "sha": [
+    "777fc91d1ac4214b36950361a74912d7404b5faf1ec8dcab5b2e02c7f0ca89bc"
+   ]
+  },
+  {
+   "ref": "Genesis 21:17",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּשְׁמַע אֱלֹהִים אֶת־קוֹל הַנַּעַר וַיִּקְרָא מַלְאַךְ אֱלֹהִים אֶל־הָגָר מִן־הַשָּׁמַיִם וַיֹּאמֶר לָהּ מַה־לָּךְ הָגָר אַל־תִּירְאִי כִּי־שָׁמַע אֱלֹהִים אֶל־קוֹל הַנַּעַר בַּאֲשֶׁר הוּא־שָׁם"
+   ],
+   "sha": [
+    "0afea55cb32baa5438f865d16d7e5879926a9056879c0e1b46a794a124c38e34"
+   ]
+  },
+  {
+   "ref": "Genesis 21:17",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "God heard the cry of the boy, and a messenger of God called to Hagar from heaven and said to her, “What troubles you, Hagar? Fear not, for God has heeded the cry of the boy where he is."
+   ],
+   "sha": [
+    "478443a70efe032683879adf78b27cde7ff907e8e39e7bb1895fa154b51a60da"
+   ]
+  },
+  {
+   "ref": "Genesis 21:19",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּפְקַח אֱלֹהִים אֶת־עֵינֶיהָ וַתֵּרֶא בְּאֵר מָיִם וַתֵּלֶךְ וַתְּמַלֵּא אֶת־הַחֵמֶת מַיִם וַתַּשְׁקְ אֶת־הַנָּעַר"
+   ],
+   "sha": [
+    "e45dede928362db8152a7d24b43db9ec1825ecc31fb169542c88edb6a000b641"
+   ]
+  },
+  {
+   "ref": "Genesis 21:19",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then God opened her eyes and she saw a well of water. She went and filled the skin with water, and let the boy drink."
+   ],
+   "sha": [
+    "5fded8d0f9622f5379c99fe968d5c4dad79d2b66ac759582985c4d08e3b18802"
+   ]
+  },
+  {
+   "ref": "Genesis 25:9",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּקְבְּרוּ אֹתוֹ יִצְחָק וְיִשְׁמָעֵאל בָּנָיו אֶל־מְעָרַת הַמַּכְפֵּלָה אֶל־שְׂדֵה עֶפְרֹן בֶּן־צֹחַר הַחִתִּי אֲשֶׁר עַל־פְּנֵי מַמְרֵא"
+   ],
+   "sha": [
+    "d9ed3b04d1e057fc214182ce3d77c6be006c6e04711d81b90eee7fea339896cc"
+   ]
+  },
+  {
+   "ref": "Genesis 25:9",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "His sons Isaac and Ishmael buried him in the cave of Machpelah, in the field of Ephron son of Zohar the Hittite, facing Mamre,"
+   ],
+   "sha": [
+    "f2478b1694e030160a6f8935642be3f8723a04b9232033e956a83527c536537e"
+   ]
+  }
+ ]
+}

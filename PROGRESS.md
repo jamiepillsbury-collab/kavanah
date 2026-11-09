@@ -2,6 +2,9 @@
 
 ## START HERE (next session, written 11/07)
 Read this block + BRIEF.md. Don't re-audit anything below.
+DONE 11/09 (v38): Abraham and Sarah (3): Hagar and Ishmael, 1 Explore lesson x-st-gen-12 (draft, 15 cards; parashah Lech Lecha + Vayera): first angel = Hagar 16:7, Ramban 16:6 (Sarah and Abraham did wrong), El-roi + Yishmael (Rashi 16:13), m'tzachek 21:9 (same root as Yitzchak), "where he is" (Rashi 21:17: judged as he is now; a person's own prayer), Isaac and Ishmael bury Abraham 25:9. Sources read on Sefaria. data/src/sefaria-hagar.json (26 lines hash-verified); tools/add_story_hagar.py. Headless: runs to Done.
+- BRIEF.md now has Jamie's allowed-sources rule (11/09): Sefaria (incl. Talmud) + CBB + her uploaded Neshamah resources; NEVER forums/Reddit.
+NEXT (Jamie's order): the Akedah (Gen 22), then Sarah's death / Machpelah (Gen 23), then finding Rebekah (Gen 24).
 DONE 11/09 (v37): Abraham and Sarah, 2 Explore lessons (draft, 15 cards each; Jamie chose this over Atah kidashta / High Holy Days / history-Kabbalah): x-st-gen-10 "(1): Go forth" (Lech Lecha: lech l'cha + Rashi 12:1, v'heyeh b'rachah, BR 39:1 lit-up building, Rashi 12:5 Sarah taught the women, magen 15:1 + Pesachim 117b, names + Berakhot 13a -> prayer:avot), x-st-gen-11 "(2): The tent and the laughter" (Vayera: hospitality + Shabbat 127a, Sarah's laugh changed for peace Rashi 18:13 + Bava Metzia 87a, "Judge of all the earth" 18:25 vs Noah, tz'chok 21:6, RH: Rosh Hashanah 11a + Megillah 31a).
 - All rabbinic sources read on Sefaria this session. data/src/sefaria-abraham.json (54 lines hash-verified; he Masorah, en Contemporary Torah). Fetched but unused: Gen 12:4-5, 15:5-6, 17:15, 18:13-14, 21:1-3.
 - tools/add_story_abraham.py writes both lessons into x-stories.json (term Hebrew sliced by word index from the Sefaria file); then build_explore.py. Checks take the src of their look_again card.

@@ -2504,6 +2504,231 @@
         }
        ],
        "season": null
+      },
+      {
+       "id": "x-st-gen-12",
+       "title": "Abraham and Sarah (3): Hagar and Ishmael",
+       "parashah": [
+        "Lech Lecha",
+        "Vayera"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "My summaries of Ramban on Genesis 16:6, Rashi on Genesis 16:13 and 21:17 (read on Sefaria 11/09). 'First angel in the Torah' = first occurrence of mal'ach (16:7).",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "The first to meet an angel",
+         "body": "The first person in the Torah to meet **a messenger of God** is not Abraham or Sarah. It is **Hagar**, Sarah's Egyptian slave, alone by a spring in the wilderness (16:7).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 16:7"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Who is the first person in the Torah to meet an angel?",
+         "choices": [
+          "Hagar",
+          "Abraham",
+          "Sarah",
+          "Noah"
+         ],
+         "answer": 0,
+         "why": "**Hagar** (16:7). The word mal'ach, messenger or angel, appears here for the first time.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 16:7"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 16:1-2",
+         "ref": "Genesis 16:1-2",
+         "he": "וְשָׂרַי אֵשֶׁת אַבְרָם לֹא יָלְדָה לוֹ וְלָהּ שִׁפְחָה מִצְרִית וּשְׁמָהּ הָגָר\nוַתֹּאמֶר שָׂרַי אֶל־אַבְרָם הִנֵּה־נָא עֲצָרַנִי יְיָ מִלֶּדֶת בֹּא־נָא אֶל־שִׁפְחָתִי אוּלַי אִבָּנֶה מִמֶּנָּה וַיִּשְׁמַע אַבְרָם לְקוֹל שָׂרָי",
+         "en": "Sarai, Abram’s wife, had borne him no children. She had an Egyptian maidservant whose name was Hagar. And Sarai said to Abram, “Look, יהוה has kept me from bearing. Consort with my maid; perhaps I shall have a child through her.” And Abram heeded Sarai’s request.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 16:1-2"
+         },
+         "tl": "V'sarai eishet avram lo yaldah lo v'lah shifchah mitzrit ush'mah hagar\nVatomer sarai el avram hinei na atzarani Adonai miledet bo na el shifchati ulai ibaneh mimenah vayishma avram l'kol sarai",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Ramban doesn't excuse Sarah",
+         "body": "Abram tells Sarai, \"Deal with her as you think right,\" and Sarai **treats Hagar harshly** until she runs away (16:6). **Ramban** (13th-century Spain): Sarah **did wrong** by this, and **Abraham did wrong** by allowing it. God heard Hagar's suffering.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Ramban on Genesis 16:6"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "ramban",
+         "type": "why",
+         "q": "How does Ramban judge Sarah's treatment of Hagar?",
+         "choices": [
+          "As a wrong, by Sarah and by Abraham",
+          "As fair, since Hagar was her servant",
+          "He says nothing about it"
+         ],
+         "answer": 0,
+         "why": "He calls it a **transgression** by Sarah, and by Abraham for allowing it.",
+         "wrong_why": [
+          null,
+          "Ramban says the opposite: it was wrong.",
+          "He comments directly on 16:6."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Ramban on Genesis 16:6"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 16:7-8",
+         "ref": "Genesis 16:7-8",
+         "he": "וַיִּמְצָאָהּ מַלְאַךְ יְיָ עַל־עֵין הַמַּיִם בַּמִּדְבָּר עַל־הָעַיִן בְּדֶרֶךְ שׁוּר\nוַיֹּאמַר הָגָר שִׁפְחַת שָׂרַי אֵי־מִזֶּה בָאת וְאָנָה תֵלֵכִי וַתֹּאמֶר מִפְּנֵי שָׂרַי גְּבִרְתִּי אָנֹכִי בֹּרַחַת",
+         "en": "A messenger of יהוה found her by a spring of water in the wilderness, the spring on the road to Shur, and said, “Hagar, slave of Sarai, where have you come from, and where are you going?” And she said, “I am running away from my mistress Sarai.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 16:7-8"
+         },
+         "tl": "Vayimtza-ah mal'ach Adonai al ein hamayim bamidbar al ha-ayin b'derech shur\nVayomar hagar shifchat sarai ei mizeh vat v'anah teileichi vatomer mip'nei sarai g'virti anochi borachat"
+        },
+        {
+         "kind": "term",
+         "he": "אַתָּה אֵל רֳאִי",
+         "tl": "Atah eil ro-i",
+         "gloss": "**Atah El Ro'i**, \"You are El-roi,\" a God of seeing (16:13). Hagar names God from her own experience. Her son's name, **Yishmael**, means \"God hears\": \"for Adonai has paid heed to your suffering\" (16:11). **Rashi**: the One who sees the humiliation people suffer at others' hands.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 16:13",
+          "note": "from Bereshit Rabbah 45:10"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "names",
+         "type": "why",
+         "q": "What do the names El-roi and Yishmael say about God?",
+         "choices": [
+          "God sees and God hears",
+          "God rules and God judges",
+          "God creates and God rests"
+         ],
+         "answer": 0,
+         "why": "**El-roi**: God who sees. **Yishmael**: God hears, heeding Hagar's suffering.",
+         "wrong_why": [
+          null,
+          "Those aren't in either name.",
+          "Those belong to the creation story, not to Hagar."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 16:13",
+          "note": "from Bereshit Rabbah 45:10"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "מְצַחֵק",
+         "tl": "M'tzacheik",
+         "gloss": "**M'tzachek**, \"playing\" (21:9). Years later Sarah sees Ishmael **m'tzachek** and demands that Hagar and her son be sent away. It's the same root as **Yitzchak** and Sarah's laughter. The Torah doesn't say what kind of playing it was.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 21:9-10"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 21:17",
+         "ref": "Genesis 21:17",
+         "he": "וַיִּשְׁמַע אֱלֹהִים אֶת־קוֹל הַנַּעַר וַיִּקְרָא מַלְאַךְ אֱלֹהִים אֶל־הָגָר מִן־הַשָּׁמַיִם וַיֹּאמֶר לָהּ מַה־לָּךְ הָגָר אַל־תִּירְאִי כִּי־שָׁמַע אֱלֹהִים אֶל־קוֹל הַנַּעַר בַּאֲשֶׁר הוּא־שָׁם",
+         "en": "God heard the cry of the boy, and a messenger of God called to Hagar from heaven and said to her, “What troubles you, Hagar? Fear not, for God has heeded the cry of the boy where he is.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 21:17"
+         },
+         "tl": "Vayishma Elohim et kol hana-ar vayikra mal'ach Elohim el hagar min hashamayim vayomer lah ma lach hagar al tir'i ki shama Elohim el kol hana-ar ba-asher hu sham"
+        },
+        {
+         "kind": "concept",
+         "title": "Where he is",
+         "body": "\"God has heeded the cry of the boy **where he is**\" (21:17). **Rashi**: he is judged by **what he is doing now**, not by what his descendants might do later. Rashi also notes that God heard **the boy's own voice**: a sick person's own prayer is accepted more readily than others' prayers for him.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 21:17",
+          "note": "from Rosh Hashanah 16b and Bereshit Rabbah 53:14"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "now",
+         "type": "why",
+         "q": "In Rashi's reading of \"where he is,\" how is Ishmael judged?",
+         "choices": [
+          "By what he is doing now",
+          "By what his descendants will do",
+          "By what his mother did"
+         ],
+         "answer": 0,
+         "why": "**As he is now.** The future doesn't decide the present.",
+         "wrong_why": [
+          null,
+          "Rashi rejects exactly that: the angels raised it, and God answered, what is he now?",
+          "Hagar's actions aren't the basis here."
+         ],
+         "look_again": 10,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 21:17",
+          "note": "from Rosh Hashanah 16b and Bereshit Rabbah 53:14"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Together at the end",
+         "body": "Many years later, when Abraham dies, **\"his sons Isaac and Ishmael buried him\"** in the cave of Machpelah (25:9). The brothers who were separated stand together at their father's grave.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 25:9"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Hagar names God from her own experience: El-roi, the God who sees. What name would come from yours?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "**Hagar** is the first person in the Torah to meet an angel (16:7).",
+          "Ramban: Sarah and Abraham **did wrong** by her (16:6).",
+          "**El-roi**, God who sees; **Yishmael**, God hears.",
+          "Rashi on 21:17: judged **as he is now**; a person's own prayer is heard.",
+          "Isaac and Ishmael **bury Abraham together** (25:9)."
+         ]
+        }
+       ],
+       "season": null
       }
      ]
     },
