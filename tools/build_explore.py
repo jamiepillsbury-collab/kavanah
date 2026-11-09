@@ -22,7 +22,7 @@ def load_sefaria():
         d = json.load(open(f, encoding="utf-8"))
         if isinstance(d, dict) and isinstance(d.get("sources"), list):
             for x in d["sources"]:
-                if isinstance(x, dict) and "ref" in x and "lang" in x: SEF[(x["ref"], x["lang"])] = x
+                if isinstance(x, dict) and "ref" in x and "lang" in x and "text" in x: SEF[(x["ref"], x["lang"])] = x
 
 def clean_he(t):
     t = re.sub(r"\s*\{[פס]\}", "", t).replace("יְהֹוָה", "יְיָ")  # paragraph marks; the Name as elsewhere in the app

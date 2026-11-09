@@ -2,6 +2,9 @@
 
 ## START HERE (next session, written 11/07)
 Read this block + BRIEF.md. Don't re-audit anything below.
+DONE 11/09 (v32): "Holiday stories" unit (Explore > Torah stories, unit x-st-hol, file data/src/x-stories_holidays.json; drafted on phone 11/07, project doc claude/kavanah-story-lessons-batch1.md): x-st-hol-01 Ruth (15 cards), x-st-hol-02 Hanukkah (16), x-st-hol-03 Jonah (16). Status draft. No text/term cards yet (need a Sefaria fetch for Ruth 1:16-17, Jonah 3:4, Zech 4:6 + he for hesed/go'el/teshuvah). Jamie to check: Ruth Rabbah 2:14, Shavuot traditions, 'hammer', Reform framing of Hanukkah, CBB/Mishkan HaNefesh reading Ruth on Shavuot and Jonah on YK afternoon.
+- build_explore.py fix: load_sefaria skips entries with no "text" (sefaria-trope.json reuses Genesis refs with he_t only and was overwriting them -> KeyError). Genesis units rebuilt unchanged.
+- Not headless-tested this session (no Playwright on the device shell); build validation passed.
 DONE 11/07 (v31): "Shabbat songs" unit (unit id closing, SEQ 120+): c_yigdal_1 (7), c_yigdal_2 (6), c_adon_olam (10), c_ein_keloheinu (6; line 6 English is Claude's draft via LIT). CBB p. 54, 124, 126 matched by transliteration (full traditional texts). The SHABBAT MORNING SERVICE IS NOW COMPLETE (except Yismach Moshe, silent).
 - data/src/sefaria-closing.json (50 lines hash-verified, key "|cl"): Siddur Ashkenaz Shabbat Maariv Adon Olam + Yigdal, Weekday Concluding Ein Kelohenu (Metsudah he/en). S key for Adon Olam is "adn" ("ao" is Ahavat Olam: check for key clashes when adding S keys).
 - translit EXCEPT += b'Yisrael, k'Moshe. questions.html 101. Headless: 4 new lessons + Ahavat Olam run to the end, no JS errors.
