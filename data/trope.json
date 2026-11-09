@@ -198,7 +198,7 @@
       {
        "t": "card",
        "label": null,
-       "text": "Every verse ends with sof pasuk, \"end of verse\": a short line called silluk under the stressed syllable of the last word, then two dots ׃ after it.",
+       "text": "Every verse ends with sof pasuk, \"end of verse\": a short line called silluk under the stressed syllable of the last word, then two dots after it.",
        "src": "Genesis 1:1. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA)",
        "verse": {
         "ref": "Genesis 1:1",
@@ -276,9 +276,9 @@
    "ch": "ֽ׃",
    "he": "◌ֽ׃",
    "role": "ruler",
-   "pos": "below the stressed syllable of the last word, then ׃ after the word",
+   "pos": "below the stressed syllable of the last word, then two dots after the word",
    "family": "end",
-   "note": "Ends every verse. Silluk looks like the meteg, a small vertical line; the two dots ׃ make it certain.",
+   "note": "Ends every verse. Silluk looks like the meteg, a small vertical line; the two dots after the word make it certain.",
    "look": [
     "tm-etnachta",
     "tm-tipcha",

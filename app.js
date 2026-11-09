@@ -469,7 +469,7 @@
   function verseView(v) {
     if (v.plain) return h("div", { class: "line-he verse", lang: "he", dir: "rtl" }, v.he);
     const words = v.he_t.split(" "), et = v.split ? words.findIndex((w) => w.includes("֑")) : -1;
-    return h("div", { class: "line-he verse", lang: "he", dir: "rtl" }, words.map((w, n) => {
+    return h("div", { class: "line-he verse", lang: "he", dir: "rtl" }, words.flatMap((w, n) => {
       const cls = [];
       if (et >= 0) cls.push(n <= et ? "half1" : "half2");
       if (v.hi && [...v.hi].some((c) => w.includes(c))) cls.push("hl");

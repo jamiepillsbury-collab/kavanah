@@ -15,7 +15,7 @@ JAC = "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002)"
 
 # id: (name, codepoint(s), role, position, family, note)
 MARKS = {
- "sof_pasuk": ("Sof pasuk (silluk)", "ֽ׃", "ruler", "below the stressed syllable of the last word, then ׃ after the word", "end", "Ends every verse. Silluk looks like the meteg, a small vertical line; the two dots ׃ make it certain."),
+ "sof_pasuk": ("Sof pasuk (silluk)", "ֽ׃", "ruler", "below the stressed syllable of the last word, then two dots after the word", "end", "Ends every verse. Silluk looks like the meteg, a small vertical line; the two dots after the word make it certain."),
  "etnachta": ("Etnachta", "֑", "ruler", "below", "etnachta", "The main pause inside a verse: it splits most verses in two."),
  "tipcha": ("Tipcha", "֖", "ruler", "below", "mercha-tipcha", "Usually comes just before etnachta or sof pasuk."),
  "mercha": ("Mercha", "֥", "connector", "below", "mercha-tipcha", "Often leads into tipcha, or into silluk at the end of a verse."),
@@ -106,7 +106,7 @@ L2 = [
 ]
 L3 = [
  card("Trope marks come in two kinds. Disjunctive marks (mafsikim) mark a pause; they are often called kings or rulers. Conjunctive marks (m'shartim, \"servants\") join a word to the next one.", JAC + " ⚑", "Two kinds"),
- card("Every verse ends with sof pasuk, \"end of verse\": a short line called silluk under the stressed syllable of the last word, then two dots ׃ after it.", f"Genesis 1:1. {LIC}", None, V("Genesis 1:1", hi="׃")),
+ card("Every verse ends with sof pasuk, \"end of verse\": a short line called silluk under the stressed syllable of the last word, then two dots after it.", f"Genesis 1:1. {LIC}", None, V("Genesis 1:1", hi="׃")),
  card(f"Most verses split into two halves at etnachta, the strongest pause inside a verse. Here the first half is the first three words. Of the {len(VERSES)} Genesis verses in this app, {n_et} have an etnachta.",
       f"Genesis 1:1. {LIC}. Count: this app's verses ({', '.join(no_et)} has none)", None, V("Genesis 1:1", split=True)),
  card("Each half is divided again by smaller rulers, and connectors lead into them. A verse works like a sentence with commas inside its two halves.", JAC + " ⚑", None, V("Genesis 1:27", split=True)),
