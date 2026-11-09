@@ -1,0 +1,355 @@
+{
+ "fetched": "2026-11-09",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Abraham and Sarah lessons). Cantillation and footnotes stripped, <br> to space, NFC, paseq double space collapsed. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 12:1-3",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יְהֹוָה אֶל־אַבְרָם לֶךְ־לְךָ מֵאַרְצְךָ וּמִמּוֹלַדְתְּךָ וּמִבֵּית אָבִיךָ אֶל־הָאָרֶץ אֲשֶׁר אַרְאֶךָּ",
+    "וְאֶעֶשְׂךָ לְגוֹי גָּדוֹל וַאֲבָרֶכְךָ וַאֲגַדְּלָה שְׁמֶךָ וֶהְיֵה בְּרָכָה",
+    "וַאֲבָרְכָה מְבָרְכֶיךָ וּמְקַלֶּלְךָ אָאֹר וְנִבְרְכוּ בְךָ כֹּל מִשְׁפְּחֹת הָאֲדָמָה"
+   ],
+   "sha": [
+    "35803f31a743dde6642cc7a7715f3d8f0b3e9d9e4ae023a3abfab3c28202655d",
+    "b216fb6aae98f110ce3f3a49309b5d446a77f7e7fed222df1c54cee31777ab7e",
+    "46b54635995188ad6ea3bfd185bd621f376bdda00d9422f36bc2d98e544fd3fc"
+   ]
+  },
+  {
+   "ref": "Genesis 12:1-3",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "יהוה said to Abram, “Go forth from your native land and from your father’s house to the land that I will show you.",
+    "I will make of you a great nation, And I will bless you; I will make your name great, And you shall be a blessing.",
+    "I will bless those who bless you And curse the one who curses you; And all the families of the earth Shall bless themselves by you.”"
+   ],
+   "sha": [
+    "7266a10dd01173a041e8bda70079bb8f05e37e331f20ca517d382d4a65827749",
+    "922fcd44c24ccaf4eef6fc5e2565b77be0a8fcf41ba54fee8c6498214320cf1f",
+    "8fcbd9e5cedf4072bb7d17a01c84f00795e325abd5f656995bd0e50c62dfbf0a"
+   ]
+  },
+  {
+   "ref": "Genesis 12:4-5",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֵּלֶךְ אַבְרָם כַּאֲשֶׁר דִּבֶּר אֵלָיו יְהֹוָה וַיֵּלֶךְ אִתּוֹ לוֹט וְאַבְרָם בֶּן־חָמֵשׁ שָׁנִים וְשִׁבְעִים שָׁנָה בְּצֵאתוֹ מֵחָרָן",
+    "וַיִּקַּח אַבְרָם אֶת־שָׂרַי אִשְׁתּוֹ וְאֶת־לוֹט בֶּן־אָחִיו וְאֶת־כׇּל־רְכוּשָׁם אֲשֶׁר רָכָשׁוּ וְאֶת־הַנֶּפֶשׁ אֲשֶׁר־עָשׂוּ בְחָרָן וַיֵּצְאוּ לָלֶכֶת אַרְצָה כְּנַעַן וַיָּבֹאוּ אַרְצָה כְּנָעַן"
+   ],
+   "sha": [
+    "5f29da073dd34f167ed5f2cb60938f6fd1e409277cc430c72d4e9c861f25e854",
+    "a32efb4264057f8cc5c47cf05eede7e10089cde3588b1715b38807589f537428"
+   ]
+  },
+  {
+   "ref": "Genesis 12:4-5",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Abram went forth as יהוה had commanded him, and Lot went with him. Abram was seventy-five years old when he left Haran.",
+    "Abram took his wife Sarai and his brother’s son Lot, and all the wealth that they had amassed, and the persons that they had acquired in Haran; and they set out for the land of Canaan. When they arrived in the land of Canaan,"
+   ],
+   "sha": [
+    "63763d9ffbf2a4ebe448f0fd85c7a7f2a2a247d398365341d0ec1ccb82d1207b",
+    "44c5d6e63a183ec22a3c84456d08c6f63ad1b0f2d06439bbecf6080690bb4952"
+   ]
+  },
+  {
+   "ref": "Genesis 15:1",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "אַחַר הַדְּבָרִים הָאֵלֶּה הָיָה דְבַר־יְהֹוָה אֶל־אַבְרָם בַּמַּחֲזֶה לֵאמֹר אַל־תִּירָא אַבְרָם אָנֹכִי מָגֵן לָךְ שְׂכָרְךָ הַרְבֵּה מְאֹד"
+   ],
+   "sha": [
+    "e6a48a48c640f2d66f4ee0d0ba88c390f5f95241fd52b9187eccc18d9ac1fdb7"
+   ]
+  },
+  {
+   "ref": "Genesis 15:1",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Some time later, the word of יהוה came to Abram in a vision: “Fear not, Abram, I am a shield to you; Your reward shall be very great.”"
+   ],
+   "sha": [
+    "82b8e45be8ee0dfd78d55da9c827e0208c55ec84ab7fb22bb9cbcd25a83ce834"
+   ]
+  },
+  {
+   "ref": "Genesis 15:5-6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיּוֹצֵא אֹתוֹ הַחוּצָה וַיֹּאמֶר הַבֶּט־נָא הַשָּׁמַיְמָה וּסְפֹר הַכּוֹכָבִים אִם־תּוּכַל לִסְפֹּר אֹתָם וַיֹּאמֶר לוֹ כֹּה יִהְיֶה זַרְעֶךָ",
+    "וְהֶאֱמִן בַּיהֹוָה וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה"
+   ],
+   "sha": [
+    "39326d6d3f27101482e8cd054b5e4f068a3263052033a6342397f45fd29534f3",
+    "0a519bbf25fb1072aefa1d005d05f407a063d5467bff57fbf390d7698168ea07"
+   ]
+  },
+  {
+   "ref": "Genesis 15:5-6",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "[Then in the vision, God] took him outside and said, “Look toward heaven and count the stars, if you are able to count them”—continuing, “So shall your offspring be.”",
+    "And he put his trust in יהוה, who reckoned it to his merit."
+   ],
+   "sha": [
+    "438fa416f709b9c42bea5013717ed4d3beac819051007569d99f71690871f79e",
+    "5468f38469cdaf2098997a387bae1dfdfa171c3ae36eeb6f8e4293b3c212bd46"
+   ]
+  },
+  {
+   "ref": "Genesis 17:5",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְלֹא־יִקָּרֵא עוֹד אֶת־שִׁמְךָ אַבְרָם וְהָיָה שִׁמְךָ אַבְרָהָם כִּי אַב־הֲמוֹן גּוֹיִם נְתַתִּיךָ"
+   ],
+   "sha": [
+    "755dd44f1e7754cd102537a18ce155af3cbdd6e17afdd3abeb83710c89ca313e"
+   ]
+  },
+  {
+   "ref": "Genesis 17:5",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And you shall no longer be called Abram, but your name shall be Abraham, for I make you the father of a multitude of nations."
+   ],
+   "sha": [
+    "0e8e614ecb9e2379093dea9c88650a21283cac92b234710bb66a16b57dc3ebc9"
+   ]
+  },
+  {
+   "ref": "Genesis 17:15",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם שָׂרַי אִשְׁתְּךָ לֹא־תִקְרָא אֶת־שְׁמָהּ שָׂרָי כִּי שָׂרָה שְׁמָהּ"
+   ],
+   "sha": [
+    "2518aacd6f3bf73668e08cbaa286f435688ad571045ae717827ca147a7ff19b0"
+   ]
+  },
+  {
+   "ref": "Genesis 17:15",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And God said to Abraham, “As for your wife Sarai, you shall not call her Sarai, but her name shall be Sarah."
+   ],
+   "sha": [
+    "c72c5e21ede3041ac1752463f6d428bf364b63a8f003da66185b6739a578a5a4"
+   ]
+  },
+  {
+   "ref": "Genesis 18:1-5",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֵּרָא אֵלָיו יְהֹוָה בְּאֵלֹנֵי מַמְרֵא וְהוּא יֹשֵׁב פֶּתַח־הָאֹהֶל כְּחֹם הַיּוֹם",
+    "וַיִּשָּׂא עֵינָיו וַיַּרְא וְהִנֵּה שְׁלֹשָׁה אֲנָשִׁים נִצָּבִים עָלָיו וַיַּרְא וַיָּרׇץ לִקְרָאתָם מִפֶּתַח הָאֹהֶל וַיִּשְׁתַּחוּ אָרְצָה",
+    "וַיֹּאמַר אֲדֹנָי אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ אַל־נָא תַעֲבֹר מֵעַל עַבְדֶּךָ",
+    "יֻקַּח־נָא מְעַט־מַיִם וְרַחֲצוּ רַגְלֵיכֶם וְהִשָּׁעֲנוּ תַּחַת הָעֵץ",
+    "וְאֶקְחָה פַת־לֶחֶם וְסַעֲדוּ לִבְּכֶם אַחַר תַּעֲבֹרוּ כִּי־עַל־כֵּן עֲבַרְתֶּם עַל־עַבְדְּכֶם וַיֹּאמְרוּ כֵּן תַּעֲשֶׂה כַּאֲשֶׁר דִּבַּרְתָּ"
+   ],
+   "sha": [
+    "922aa0f077a6b7e595f0a38d5602c8d0f8b821b9eaada7f2865a9ad4ccc76682",
+    "ec5e2ce8ce25a4015ea63cb0eea86231b18f0fd85d0c881e3e1e1b12fa3b86f7",
+    "aa96823b6ec0b3306323af6e2d327b697087250a3ac3ab948b9a16dcb3036dd3",
+    "65026283b25e76903f679f877dee3ae0e82765b0617c0f2f0e638d9093259056",
+    "e692a7fe0f1e8198cf4d76c8d2383e62b8b373a8f3c9c20d5c176a88f0573065"
+   ]
+  },
+  {
+   "ref": "Genesis 18:1-5",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "יהוה appeared to him by the terebinths of Mamre; he was sitting at the entrance of the tent as the day grew hot.",
+    "Looking up, he saw three figures standing near him. Perceiving this, he ran from the entrance of the tent to greet them and, bowing to the ground,",
+    "he said, “My lords! If it please you, do not go on past your servant.",
+    "Let a little water be brought; bathe your feet and recline under the tree.",
+    "And let me fetch a morsel of bread that you may refresh yourselves; then go on—seeing that you have come your servant’s way.” They replied, “Do as you have said.”"
+   ],
+   "sha": [
+    "ffe435f551222c83ce3ec212d0cbf232e522d7ffdae2b768c67c50f895f59b8d",
+    "5ec4cbd8ea742a28394b870f15eb467cded54d7072a20809f99270facab6b01d",
+    "60da58e61596d36ad13c0430deb540a5e5fdedbcefbae5e88b6702f45af68cbc",
+    "53c42dec201ebea0686b5b7460263a686155b79eb5dda2936e77a4c89a187fcf",
+    "3f582b5a1245a6d287b55363680c162b425243106b9c8a87ed4da0b97d09a812"
+   ]
+  },
+  {
+   "ref": "Genesis 18:10-12",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר שׁוֹב אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וְהִנֵּה־בֵן לְשָׂרָה אִשְׁתֶּךָ וְשָׂרָה שֹׁמַעַת פֶּתַח הָאֹהֶל וְהוּא אַחֲרָיו",
+    "וְאַבְרָהָם וְשָׂרָה זְקֵנִים בָּאִים בַּיָּמִים חָדַל לִהְיוֹת לְשָׂרָה אֹרַח כַּנָּשִׁים",
+    "וַתִּצְחַק שָׂרָה בְּקִרְבָּהּ לֵאמֹר אַחֲרֵי בְלֹתִי הָיְתָה־לִּי עֶדְנָה וַאדֹנִי זָקֵן"
+   ],
+   "sha": [
+    "bf89a8bc66c634dd27fec42bb73eff6ce8bb016dec454bbe7a68c61b6702ed9c",
+    "c86e7c07f52ef7ab101566068ee06801b2b2fc6560b5b859898f33b6a5fab1d5",
+    "44b1a97b57b07113258cf5850aa0f1ce80cac284458551161dfc8917cdeffdfd"
+   ]
+  },
+  {
+   "ref": "Genesis 18:10-12",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then one said, “I will return to you next year, and your wife Sarah shall have a son!” Sarah was listening at the entrance of the tent, which was behind him.",
+    "Now Abraham and Sarah were old, advanced in years; Sarah had stopped having her periods.",
+    "And Sarah laughed to herself, saying, “Now that I’ve lost the ability, am I to have enjoyment—with my husband so old?”"
+   ],
+   "sha": [
+    "e15950172ab90475b4e5cf7e39234644b85431b6bbfb05ef8498ed20108d24bd",
+    "2ce307693a6339b88e40dc20e55266a259f02fee048fbbe1d70faa5caba3096e",
+    "d72dc9d5e8cc123e737103cd7559ad2232b5a292f4ea60e55aee7416c54b24d4"
+   ]
+  },
+  {
+   "ref": "Genesis 18:13-14",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יְהֹוָה אֶל־אַבְרָהָם לָמָּה זֶּה צָחֲקָה שָׂרָה לֵאמֹר הַאַף אֻמְנָם אֵלֵד וַאֲנִי זָקַנְתִּי",
+    "הֲיִפָּלֵא מֵיְהֹוָה דָּבָר לַמּוֹעֵד אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וּלְשָׂרָה בֵן"
+   ],
+   "sha": [
+    "915520494c5ad8990733c4f053ca30deb548a5b61f1b1001375a50d6be0e6cf6",
+    "3b793cf4fb836036b56b32e442a90ea4a91f7cda3ead6307758938b1d15d42f8"
+   ]
+  },
+  {
+   "ref": "Genesis 18:13-14",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then יהוה said to Abraham, “Why did Sarah laugh, saying, ‘Shall I in truth bear a child, old as I am?’",
+    "Is anything too wondrous for יהוה ? I will return to you at the same season next year, and Sarah shall have a son.”"
+   ],
+   "sha": [
+    "83ea93e2a5ed7a17b268922f222e0d7c3e2d85d8bc0a4d1fe6742ed5323ad255",
+    "68d1dc57250ea9717f25249950ddb59317f0dfb23b32b90085bca2b199387a5a"
+   ]
+  },
+  {
+   "ref": "Genesis 18:23-25",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּגַּשׁ אַבְרָהָם וַיֹּאמַר הַאַף תִּסְפֶּה צַדִּיק עִם־רָשָׁע",
+    "אוּלַי יֵשׁ חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר הַאַף תִּסְפֶּה וְלֹא־תִשָּׂא לַמָּקוֹם לְמַעַן חֲמִשִּׁים הַצַּדִּיקִם אֲשֶׁר בְּקִרְבָּהּ",
+    "חָלִלָה לְּךָ מֵעֲשֹׂת כַּדָּבָר הַזֶּה לְהָמִית צַדִּיק עִם־רָשָׁע וְהָיָה כַצַּדִּיק כָּרָשָׁע חָלִלָה לָּךְ הֲשֹׁפֵט כׇּל־הָאָרֶץ לֹא יַעֲשֶׂה מִשְׁפָּט"
+   ],
+   "sha": [
+    "7eec703a45592f2f52af82d2c085e0da81b0286e76fd8ae42e7ba9d6f8944a3c",
+    "47d308bd46310c0365d677d5887a791c5be690bd4a74d8b367e534d271202d8d",
+    "cdf894ab086e30542a1189470ec61acc2c971913a122518e9ced51fa88bd4cb0"
+   ]
+  },
+  {
+   "ref": "Genesis 18:23-25",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Abraham came forward and said, “Will You sweep away the innocent along with the guilty?",
+    "What if there should be fifty innocent within the city; will You then wipe out the place and not forgive it for the sake of the innocent fifty who are in it?",
+    "Far be it from You to do such a thing, to bring death upon the innocent as well as the guilty, so that innocent and guilty fare alike. Far be it from You! Shall not the Judge of all the earth deal justly?”"
+   ],
+   "sha": [
+    "136a127283a294e1fa10f10488e37703956a81b0d874e6ade2fa049b98613c66",
+    "cc820413b042d36b9f56a9a9af11b131ce1e496dfc1c0cb9ebad9ec8cbdc4a9d",
+    "947b21d7b57d8e28d21d4d2325f16610c40f87fe93d4ca13de6ff89b3e75a27a"
+   ]
+  },
+  {
+   "ref": "Genesis 21:1-3",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיהֹוָה פָּקַד אֶת־שָׂרָה כַּאֲשֶׁר אָמָר וַיַּעַשׂ יְהֹוָה לְשָׂרָה כַּאֲשֶׁר דִּבֵּר",
+    "וַתַּהַר וַתֵּלֶד שָׂרָה לְאַבְרָהָם בֵּן לִזְקֻנָיו לַמּוֹעֵד אֲשֶׁר־דִּבֶּר אֹתוֹ אֱלֹהִים",
+    "וַיִּקְרָא אַבְרָהָם אֶת־שֶׁם־בְּנוֹ הַנּוֹלַד־לוֹ אֲשֶׁר־יָלְדָה־לּוֹ שָׂרָה יִצְחָק"
+   ],
+   "sha": [
+    "af0d2b64b5e152ef23e256724d6223fc2e5a969b13f8ac3ce985237aa3d6aeff",
+    "3dff84aa9064781a85d03aa86c9ffca0e069036ac5f21689597b34effc3b6899",
+    "5e1d95639494ca200442745c1aaead001985fbd8cb4b5998e68e8c6e2a1833eb"
+   ]
+  },
+  {
+   "ref": "Genesis 21:1-3",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "יהוה took note of Sarah as promised, and יהוה did for Sarah what had been announced.",
+    "Sarah conceived and bore a son to Abraham in his old age, at the set time of which God had spoken.",
+    "Abraham gave his newborn son, whom Sarah had borne him, the name of Isaac."
+   ],
+   "sha": [
+    "c981584e254e5dd97190bcf2efd74b956ee73581f89ed98e692885dbc98df0d1",
+    "5f3b6f9ec564bee4a32f2f0cb3b2d14523a9450920559367ef18f36204696a0e",
+    "8a22ee4338c0b13654258cb76d9f4a54b9037f8677e31dcb42734346d99b60ce"
+   ]
+  },
+  {
+   "ref": "Genesis 21:6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתֹּאמֶר שָׂרָה צְחֹק עָשָׂה לִי אֱלֹהִים כׇּל־הַשֹּׁמֵעַ יִצְחַק־לִי"
+   ],
+   "sha": [
+    "3a8cbe9b5d1e3548e0114d0d94d35d58909426e4b296dd24b795fb2429eac647"
+   ]
+  },
+  {
+   "ref": "Genesis 21:6",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Sarah said, “God has brought me laughter; everyone who hears will laugh with me.”"
+   ],
+   "sha": [
+    "555d12d83c388c113ec54381ac090f27725333bd2932ca323febf6ee1b5e141e"
+   ]
+  }
+ ]
+}

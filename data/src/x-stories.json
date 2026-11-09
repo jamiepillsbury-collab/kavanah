@@ -1772,6 +1772,367 @@
        ]
       }
      ]
+    },
+    {
+     "id": "x-st-gen-10",
+     "title": "Abraham and Sarah (1): Go forth",
+     "parashah": [
+      "Lech Lecha"
+     ],
+     "status": "draft",
+     "related": [
+      "prayer:avot"
+     ],
+     "check_note": "My summaries of Rashi on Genesis 12:1 and 12:5, Bereshit Rabbah 39:1, Berakhot 13a and Pesachim 117b (all read on Sefaria 11/09). Building 'lit up' vs 'on fire': translations differ.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Go, without a map",
+       "body": "God's first words to **Abram** are a command: **leave** your land, your birthplace and your father's house, for \"the land that **I will show you**\" (12:1). No destination is named.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 12:1"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "Why does the Torah say God chose Abram?",
+       "choices": [
+        "It never says",
+        "He won an argument with his father",
+        "He was the oldest son",
+        "He had built an altar"
+       ],
+       "answer": 0,
+       "why": "The Torah **gives no reason**. The midrash fills the gap, as you'll see.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 12:1"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 12:1-3"
+      },
+      {
+       "kind": "term",
+       "he": "לֶךְ־לְךָ",
+       "tl": null,
+       "gloss": "**Lech l'cha**, literally \"go, to you.\" Why the extra word? **Rashi**: go **for your own benefit and your own good**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 12:1"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וֶהְיֵה בְּרָכָה",
+       "tl": null,
+       "gloss": "**Veh'yeh b'rachah**, \"and you shall be a blessing\" (12:2). Not only blessed: **a blessing for others**. The next verse widens it to all the families of the earth.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 12:2-3"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "The lit-up building",
+       "body": "**Rabbi Yitzchak**'s parable: a traveler sees a building **lit up** (some translate: on fire) and wonders, does this place have **no one in charge**? The owner looks out: **I am the owner.** So Abraham looked at the world and asked, and God answered him.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Bereshit Rabbah 39:1"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "parable",
+       "type": "why",
+       "q": "In the parable, what does the traveler do before the owner speaks?",
+       "choices": [
+        "He asks whether the building has an owner",
+        "He puts out the fire",
+        "He walks past without looking"
+       ],
+       "answer": 0,
+       "why": "He **asks the question**: does this place have someone in charge? Then the owner answers.",
+       "wrong_why": [
+        null,
+        "Nothing in the parable has him fight the fire: he wonders and asks.",
+        "The point is that he **stops and asks**."
+       ],
+       "look_again": 5,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Bereshit Rabbah 39:1"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "The souls they made",
+       "body": "Abram and Sarai set out with \"the persons they had acquired in Haran\" (12:5). **Rashi** quotes a midrash: these are people they brought **under the wings of the Shechinah**. **Abraham taught the men and Sarah taught the women**, and the Torah counts it as if they had made them. (Rashi adds the plain sense: their servants.)",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 12:5",
+        "note": "from Bereshit Rabbah 39:14"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 15:1"
+      },
+      {
+       "kind": "term",
+       "he": "אָנֹכִי מָגֵן לָךְ",
+       "tl": null,
+       "gloss": "**Anochi magen lach**, \"I am a shield to you\" (15:1). The Amidah's first blessing ends **Magen Avraham**, shield of Abraham. The Talmud reads 12:2's \"you shall be a blessing\" as that very ending: **the blessing concludes with you**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Pesachim 117b"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "אַב־הֲמוֹן גּוֹיִם",
+       "tl": null,
+       "gloss": "**Av hamon goyim**, \"father of a multitude of nations\" (17:5): Abram becomes **Abraham**, and Sarai becomes **Sarah** (17:15). The Talmud: Abram was a father to Aram, Abraham to the whole world. Sarai, \"my princess,\" was a princess to her own people; Sarah, to everyone.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 13a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "names",
+       "type": "why",
+       "q": "In Berakhot 13a, what do the new names mean?",
+       "choices": [
+        "Their role grows from one people to the whole world",
+        "They were given new names to hide from enemies",
+        "The names honor Abram's father"
+       ],
+       "answer": 0,
+       "why": "Abram, father to **Aram**, becomes Abraham, father to **all**; Sarai, princess to **her people**, becomes Sarah, princess to **all**.",
+       "wrong_why": [
+        null,
+        "Nothing in the text points to hiding.",
+        "Terach is not part of this explanation."
+       ],
+       "look_again": 10,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 13a"
+       }
+      },
+      {
+       "kind": "relevance",
+       "body": "In the Amidah you already know: **Elohei Avraham ... Elohei Sarah**, and the ending **magein Avraham v'ezrat Sarah**. The shield of 15:1 and the blessing of 12:2 are in that line.",
+       "links": [
+        "prayer:avot"
+       ]
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Abram left before he knew where he was going. When have you started something before you knew where it led?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "**Lech l'cha**: go, with no destination named; Rashi: for your own good.",
+        "**Veh'yeh b'rachah**: be a blessing for others.",
+        "Midrash: the **lit-up building** and its owner.",
+        "Rashi: Abraham taught the men, **Sarah the women**.",
+        "**Magen Avraham** (15:1, Pesachim 117b) and the new names (Berakhot 13a)."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-gen-11",
+     "title": "Abraham and Sarah (2): The tent and the laughter",
+     "parashah": [
+      "Vayera"
+     ],
+     "status": "draft",
+     "related": [
+      "prayer:avot"
+     ],
+     "check_note": "My summaries of Shabbat 127a, Rashi on Genesis 18:13, Bava Metzia 87a, Megillah 31a, Rosh Hashanah 11a (read on Sefaria 11/09). Which Torah reading CBB uses on Rosh Hashanah: not checked.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "A hot afternoon",
+       "body": "Abraham sits at the **entrance of his tent** in the heat of the day (18:1). He looks up, sees **three strangers**, and **runs** to greet them.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 18:1-2"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "When they arrive, the Torah tells us the three visitors are angels.",
+       "answer": false,
+       "why": "The Hebrew calls them **anashim**, men (\"three figures\" in this translation). Abraham greets them as travelers.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 18:1-2"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 18:1-5"
+      },
+      {
+       "kind": "concept",
+       "title": "Guests before God",
+       "body": "The chapter opens with **God appearing** to Abraham, then the guests arrive. **Rav**: welcoming guests is **greater than receiving the Divine Presence**, since Abraham asked God to wait (\"do not go on past your servant,\" 18:3) while he ran to them.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Shabbat 127a"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "אַל־נָא תַעֲבֹר מֵעַל עַבְדֶּךָ",
+       "tl": null,
+       "gloss": "**Al na ta'avor me'al avdecha**, \"please do not go on past your servant\" (18:3). Said to the guests, or, as Rav reads it, **to God**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Shabbat 127a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "guests",
+       "type": "why",
+       "q": "Why does Rav say hospitality is greater than receiving the Divine Presence?",
+       "choices": [
+        "Abraham asked God to wait while he served his guests",
+        "The guests were really God",
+        "Abraham never saw God that day"
+       ],
+       "answer": 0,
+       "why": "Rav reads 18:3 as Abraham **asking God to wait** while he ran to the strangers.",
+       "wrong_why": [
+        null,
+        "Rav's point is the opposite: God and the guests are different, and the guests came first.",
+        "The chapter begins with God appearing to him (18:1)."
+       ],
+       "look_again": 3,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Shabbat 127a"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 18:10-12"
+      },
+      {
+       "kind": "concept",
+       "title": "Changed for peace",
+       "body": "Sarah laughs: \"with **my husband** so old?\" (18:12). Reporting it to Abraham, God quotes her as \"old as **I** am\" (18:13). **Rashi**: the words were changed **for the sake of peace** between them. The Talmud: peace is so great that even God altered the truth for it.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 18:13; Bava Metzia 87a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "peace",
+       "type": "why",
+       "q": "What did God change when telling Abraham about Sarah's laugh?",
+       "choices": [
+        "\"My husband is old\" became \"I am old\"",
+        "God left out that she laughed",
+        "God said she was asleep"
+       ],
+       "answer": 0,
+       "why": "Sarah's words about **Abraham's** age became words about **her own**, to keep peace in the home.",
+       "wrong_why": [
+        null,
+        "God does mention the laugh: \"Why did Sarah laugh?\" (18:13).",
+        "Nothing like that is in the text."
+       ],
+       "look_again": 7,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 18:13; Bava Metzia 87a"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 18:23-25"
+      },
+      {
+       "kind": "term",
+       "he": "הֲשֹׁפֵט כׇּל־הָאָרֶץ לֹא יַעֲשֶׂה מִשְׁפָּט",
+       "tl": null,
+       "gloss": "**Hashofeit kol ha'aretz lo ya'aseh mishpat?** \"Shall not the Judge of all the earth deal justly?\" (18:25). Abraham **argues with God** for strangers in Sodom. Noah, told of the flood, said nothing.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 18:25"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q3",
+       "idea": "argue",
+       "type": "pick",
+       "q": "What does Abraham do when God tells him about Sodom?",
+       "choices": [
+        "He argues for the innocent",
+        "He stays silent, like Noah",
+        "He leaves to warn Lot"
+       ],
+       "answer": 0,
+       "why": "He **steps forward and argues**: will You sweep away the innocent with the guilty? (18:23)",
+       "wrong_why": [
+        null,
+        "That was Noah. Abraham speaks up.",
+        "The Torah shows him arguing with God, not traveling."
+       ],
+       "look_again": 10,
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 18:25"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "צְחֹק עָשָׂה לִי אֱלֹהִים",
+       "tl": null,
+       "gloss": "**Tz'chok asah li Elohim**, \"God has brought me laughter\" (21:6). Her son is named **Yitzchak**, Isaac, from the same root: laughter.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 21:3-6"
+       }
+      },
+      {
+       "kind": "relevance",
+       "body": "The Talmud teaches that **Sarah was remembered on Rosh Hashanah** (Rosh Hashanah 11a), and gives Genesis 21, \"Adonai took note of Sarah,\" as a Rosh Hashanah Torah reading (Megillah 31a). Check what your congregation reads.",
+       "links": []
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Abraham **runs** to three strangers in the heat (18:1-2).",
+        "Rav: guests **before** the Divine Presence (Shabbat 127a).",
+        "Sarah's laugh, retold **for peace** (Rashi 18:13, Bava Metzia 87a).",
+        "**\"Shall not the Judge of all the earth deal justly?\"** Abraham argues.",
+        "**Yitzchak**: God brought Sarah laughter."
+       ]
+      }
+     ]
     }
    ]
   }

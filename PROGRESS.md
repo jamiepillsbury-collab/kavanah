@@ -2,6 +2,11 @@
 
 ## START HERE (next session, written 11/07)
 Read this block + BRIEF.md. Don't re-audit anything below.
+DONE 11/09 (v37): Abraham and Sarah, 2 Explore lessons (draft, 15 cards each; Jamie chose this over Atah kidashta / High Holy Days / history-Kabbalah): x-st-gen-10 "(1): Go forth" (Lech Lecha: lech l'cha + Rashi 12:1, v'heyeh b'rachah, BR 39:1 lit-up building, Rashi 12:5 Sarah taught the women, magen 15:1 + Pesachim 117b, names + Berakhot 13a -> prayer:avot), x-st-gen-11 "(2): The tent and the laughter" (Vayera: hospitality + Shabbat 127a, Sarah's laugh changed for peace Rashi 18:13 + Bava Metzia 87a, "Judge of all the earth" 18:25 vs Noah, tz'chok 21:6, RH: Rosh Hashanah 11a + Megillah 31a).
+- All rabbinic sources read on Sefaria this session. data/src/sefaria-abraham.json (54 lines hash-verified; he Masorah, en Contemporary Torah). Fetched but unused: Gen 12:4-5, 15:5-6, 17:15, 18:13-14, 21:1-3.
+- tools/add_story_abraham.py writes both lessons into x-stories.json (term Hebrew sliced by word index from the Sefaria file); then build_explore.py. Checks take the src of their look_again card.
+- Headless: both run to Done, no JS errors.
+NEXT: Jamie tries Trope 1-3 + Abraham/Sarah. Then the Akedah (Gen 22, also a Rosh Hashanah reading) as the next Genesis lesson (ask first).
 DONE 11/09 (v36): Trope Unit 3 "Reading the scroll" (unit u-trope3, in tools/gen_trope.py, no new fetch): tr3-1 Reading without vowels (scroll = letters only; Soferim 3:7; 3 read-without-vowels steps), tr3-2 Crowns and spaces (tagin: Menachot 29b; shaatnez getz: Shulchan Arukh OC 36:3, which is about tefillin, flagged for Torah scrolls; p'tuchah/s'tumah: Mishneh Torah Tefillin etc. 8:1-2; {פ} at Gen 1:31), tr3-3 Practicing with a tikkun (two-column view of Gen 1:1-3; 3 read steps). All Talmud/Rambam/SA sources checked on Sefaria this session; tikkun and "scroll has no vowels/trope" cite Jacobson ⚑.
 - Engine: step mode tread (verse letters only; "Show vowels" then "Show trope too"; ungraded). verseView bare (strips points, maqaf -> space, {פ}/{ס} removed) and tikkun (two columns, marked on the right). Columns are not line-aligned like a printed tikkun, and there's no scroll (STaM) font.
 - Headless: all 3 lessons + Unit 1 lesson 1 run to the end; no JS errors.
