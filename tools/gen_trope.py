@@ -187,6 +187,34 @@ U2.append(lesson("tr2-8", "Rarer marks", "segol, zarka, telishas, pazer, shalshe
  mc("t2-8a", "How many times does shalshelet appear in the Torah?", ["Four", "About forty", "Once"], 0, "Genesis 19:16, 24:12, 39:8 and Leviticus 8:23.", JAC + " ⚑"),
  mc("t2-8b", "Telisha gedola and telisha ketana: which is the connector?", ["Telisha ketana", "Telisha gedola"], 0, "Ketana (small) connects; gedola (big) is a ruler.", JAC + " ⚑")]))
 units.append({"id": "u-trope2", "title": "Trope 2: The marks", "subtitle": "One lesson per family: shape, ruler or connector, and the marks it pairs with", "tiles": False, "lessons": U2})
+
+# ---------- Unit 3: reading the scroll (no new fetch) ----------
+def tread(ref): return {"t": "read", "verse": V(ref)}
+SOF = "Tractate Soferim 3:7 (Vilna text on Sefaria)"
+MT8 = "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 8:1-2 (Touger translation on Sefaria)"
+U3 = [
+ lesson("tr3-1", "Reading without vowels", "letters only", "ברא", [
+  card("A Torah scroll has letters only: no vowels, no trope marks, no verse numbers, no punctuation. The reader learns the vowels and the tune ahead of time.", JAC + " ⚑", "The scroll"),
+  card("Tractate Soferim, on the laws of scribes, says a scroll whose verses are divided, or with points marking the verse beginnings, may not be read from.", SOF),
+  card("Genesis 1:1 as it appears in a scroll, set here in a regular font. Words joined by a maqaf (the small dash) stand as separate words, and sof pasuk's two dots are gone.", f"Genesis 1:1. {LIC}", None, V("Genesis 1:1", bare=True)),
+  tread("Genesis 1:1"), tread("Genesis 1:3"), tread("Genesis 2:7"),
+  mc("t3-1a", "What does a Torah scroll leave out?", ["Vowels and trope marks", "Final letter forms", "Some of the letters"], 0, "The letters, including final forms, are all there. Vowels and trope are not.", JAC + " ⚑"),
+  mc("t3-1b", "According to Soferim 3:7, what makes a scroll unfit for public reading?", ["Verses divided or marked at their beginnings", "Letters with crowns", "Wide columns"], 0, "Marking the verses changes the scroll's form.", SOF)]),
+ lesson("tr3-2", "Crowns and spaces", "tagin, p'tuchah, s'tumah", "שעט", [
+  card("Scribes add small crowns, tagin, to some letters. The Talmud tells that Moses found God tying crowns onto the letters of the Torah, and learned that Rabbi Akiva would one day derive many laws from them.", "Talmud Menachot 29b (William Davidson translation on Sefaria)", "Crowns"),
+  card("Seven letters get crowns: shin, ayin, tet, nun, zayin, gimel and tzadi, remembered as shaatnez getz (שעטנז גץ).", "Shulchan Arukh, Orach Chayim 36:3 (laws of tefillin; scribes follow the same in Torah scrolls ⚑)"),
+  card("The scroll marks its sections with spaces, not numbers. A p'tuchah (open) section starts on a new line, with the end of the line before it left empty. A s'tumah (closed) section starts after a gap in the middle of a line.", MT8),
+  card("Printed Bibles mark these breaks with פ (p'tuchah) and ס (s'tumah). In Sefaria's text, Genesis 1:31 ends with {פ}: the sixth day ends and a new section begins.", f"Genesis 1:31. {LIC}", None, V("Genesis 1:31")),
+  mc("t3-2a", "Which letters get crowns?", ["שעטנז גץ", "בגד כפת", "אבגד הו"], 0, "Shaatnez getz: shin, ayin, tet, nun, zayin, gimel, tzadi.", "Shulchan Arukh, Orach Chayim 36:3"),
+  mc("t3-2b", "What does a s'tumah break look like?", ["A gap in the middle of a line", "A new line", "A new column"], 0, "S'tumah means closed: the gap sits inside the line.", MT8)]),
+ lesson("tr3-3", "Practicing with a tikkun", "two columns", "תיק", [
+  card("A tikkun (tikkun korim) is a practice book for Torah readers. Each page has two columns: one printed with vowels and trope, the other as it appears in the scroll, letters only.", JAC + " ⚑", "Tikkun"),
+  card("Genesis 1:1-3 in tikkun style. The scroll column here uses a regular font, not scroll script.", f"Genesis 1:1-3. {LIC}", None, {"ref": "Genesis 1:1-3", "tikkun": [V("Genesis 1:1"), V("Genesis 1:2"), V("Genesis 1:3")]}),
+  card("One way to practice: learn a verse from the marked column, then read it from the plain column until you no longer need the marks.", JAC + " ⚑"),
+  tread("Genesis 1:2"), tread("Genesis 1:26"), tread("Genesis 2:3"),
+  mc("t3-3a", "What are the two columns of a tikkun?", ["Marked text, and the same text as in the scroll", "Hebrew and English", "Torah and Haftarah"], 0, "One column has vowels and trope; the other is letters only, like the scroll.", JAC + " ⚑")]),
+]
+units.append({"id": "u-trope3", "title": "Trope 3: Reading the scroll", "subtitle": "Letters without vowels, crowns and spaces, practicing with a tikkun", "tiles": False, "lessons": U3})
 for u in units:
     for l in u["lessons"]:
         for i in l["items"]: assert i in items, i

@@ -374,6 +374,7 @@
     view.replaceChildren(h("div", { class: "progress" }, h("i", { style: `width:${(i / steps.length) * 100}%` })));
 
     if (step.mode === "tcard") return renderTCard(step.card, bar, next);
+    if (step.mode === "tread") return renderTRead(step.card, bar, next);
     if (step.mode === "tq") return renderTQ(it, bar, next, step);
     if (step.mode === "tintro") { view.append(markCard(it, rec(step.id) ? "Refresher" : "New mark"), bar); bar.append(btn("Continue", next)); return; }
     if (step.mode === "tmark") return renderTMark(it, bar, next, step);
@@ -466,7 +467,12 @@
   function addTrope(d) { Object.assign(course.items, d.items); course.units.push(...d.units); }
   const melodyChip = () => h("span", { class: "melody-chip" }, "Melody: not recorded yet");
   const roleText = (it) => (it.role === "ruler" ? "Ruler (disjunctive): marks a pause" : "Connector (conjunctive): joins to the next word");
+  const bareOf = (t) => t.replace(/\{.\}/g, "").replace(/\u05BE/g, " ").replace(/[\u0591-\u05C7]/g, "").replace(/\s+/g, " ").trim();
   function verseView(v) {
+    if (v.tikkun) return h("div", { class: "tikkun", dir: "rtl" },
+      h("div", { class: "tk-col", lang: "he", dir: "rtl" }, v.tikkun.map((x) => h("p", {}, x.he_t))),
+      h("div", { class: "tk-col scroll", lang: "he", dir: "rtl" }, v.tikkun.map((x) => h("p", {}, bareOf(x.he_t)))));
+    if (v.bare) return h("div", { class: "line-he verse", lang: "he", dir: "rtl" }, bareOf(v.he_t));
     if (v.plain) return h("div", { class: "line-he verse", lang: "he", dir: "rtl" }, v.he);
     const words = v.he_t.split(" "), et = v.split ? words.findIndex((w) => w.includes("֑")) : -1;
     return h("div", { class: "line-he verse", lang: "he", dir: "rtl" }, words.flatMap((w, n) => {
@@ -481,6 +487,7 @@
     for (const s of l.steps) {
       if (s.t === "card") steps.push({ mode: "tcard", card: s });
       else if (s.t === "q") steps.push({ id: s.id, mode: "tq" });
+      else if (s.t === "read") steps.push({ mode: "tread", card: s });
       else if (s.t === "drill") {
         for (const id of s.marks) if (!rec(id) || mastery(id) === 0) steps.push({ id, mode: "tintro" });
         shuffle(s.marks).forEach((id) => steps.push({ id, mode: "tmark" }));
@@ -496,6 +503,18 @@
       h("p", { class: "tc-text" }, c.text),
       c.chip ? melodyChip() : null,
       h("small", { class: "src" }, "Source: " + c.src)), bar);
+    bar.append(h("button", { class: "primary", onclick: next }, "Continue"));
+  }
+  function renderTRead(c, bar, next) {
+    let lvl = 0;
+    const box = h("div", {}), btns = h("div", {});
+    const draw = () => {
+      box.replaceChildren(verseView(lvl === 0 ? { ...c.verse, bare: true } : lvl === 1 ? { ...c.verse, plain: true } : c.verse));
+      btns.replaceChildren(lvl < 2 ? h("button", { class: "secondary", onclick: () => { lvl++; draw(); } }, lvl === 0 ? "Show vowels" : "Show trope too") : "");
+    };
+    draw();
+    view.append(h("div", { class: "card" }, h("p", { class: "prompt-label" }, "Read it without vowels"), box,
+      h("small", { class: "src" }, c.verse.ref + ". " + "Showing the vowels is fine: this isn't graded."), btns), bar);
     bar.append(h("button", { class: "primary", onclick: next }, "Continue"));
   }
   function markCard(it, label) {

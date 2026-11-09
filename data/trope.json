@@ -736,6 +736,228 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u-trope3",
+   "title": "Trope 3: Reading the scroll",
+   "subtitle": "Letters without vowels, crowns and spaces, practicing with a tikkun",
+   "tiles": false,
+   "lessons": [
+    {
+     "id": "tr3-1",
+     "title": "Reading without vowels",
+     "subtitle": "letters only",
+     "icon": "ברא",
+     "trope": true,
+     "items": [
+      "tq-t3-1a",
+      "tq-t3-1b"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "The scroll",
+       "text": "A Torah scroll has letters only: no vowels, no trope marks, no verse numbers, no punctuation. The reader learns the vowels and the tune ahead of time.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Tractate Soferim, on the laws of scribes, says a scroll whose verses are divided, or with points marking the verse beginnings, may not be read from.",
+       "src": "Tractate Soferim 3:7 (Vilna text on Sefaria)",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Genesis 1:1 as it appears in a scroll, set here in a regular font. Words joined by a maqaf (the small dash) stand as separate words, and sof pasuk's two dots are gone.",
+       "src": "Genesis 1:1. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA)",
+       "verse": {
+        "ref": "Genesis 1:1",
+        "he_t": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+        "he": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+        "bare": true
+       },
+       "chip": false
+      },
+      {
+       "t": "read",
+       "verse": {
+        "ref": "Genesis 1:1",
+        "he_t": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+        "he": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ"
+       }
+      },
+      {
+       "t": "read",
+       "verse": {
+        "ref": "Genesis 1:3",
+        "he_t": "וַיֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽיְהִי־אֽוֹר׃",
+        "he": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר"
+       }
+      },
+      {
+       "t": "read",
+       "verse": {
+        "ref": "Genesis 2:7",
+        "he_t": "וַיִּ֩יצֶר֩ יְהֹוָ֨ה אֱלֹהִ֜ים אֶת־הָֽאָדָ֗ם עָפָר֙ מִן־הָ֣אֲדָמָ֔ה וַיִּפַּ֥ח בְּאַפָּ֖יו נִשְׁמַ֣ת חַיִּ֑ים וַיְהִ֥י הָֽאָדָ֖ם לְנֶ֥פֶשׁ חַיָּֽה׃",
+        "he": "וַיִּיצֶר יְהֹוָה אֱלֹהִים אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה וַיִּפַּח בְּאַפָּיו נִשְׁמַת חַיִּים וַיְהִי הָאָדָם לְנֶפֶשׁ חַיָּה"
+       }
+      },
+      {
+       "t": "q",
+       "id": "tq-t3-1a"
+      },
+      {
+       "t": "q",
+       "id": "tq-t3-1b"
+      }
+     ]
+    },
+    {
+     "id": "tr3-2",
+     "title": "Crowns and spaces",
+     "subtitle": "tagin, p'tuchah, s'tumah",
+     "icon": "שעט",
+     "trope": true,
+     "items": [
+      "tq-t3-2a",
+      "tq-t3-2b"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Crowns",
+       "text": "Scribes add small crowns, tagin, to some letters. The Talmud tells that Moses found God tying crowns onto the letters of the Torah, and learned that Rabbi Akiva would one day derive many laws from them.",
+       "src": "Talmud Menachot 29b (William Davidson translation on Sefaria)",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Seven letters get crowns: shin, ayin, tet, nun, zayin, gimel and tzadi, remembered as shaatnez getz (שעטנז גץ).",
+       "src": "Shulchan Arukh, Orach Chayim 36:3 (laws of tefillin; scribes follow the same in Torah scrolls ⚑)",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "The scroll marks its sections with spaces, not numbers. A p'tuchah (open) section starts on a new line, with the end of the line before it left empty. A s'tumah (closed) section starts after a gap in the middle of a line.",
+       "src": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 8:1-2 (Touger translation on Sefaria)",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Printed Bibles mark these breaks with פ (p'tuchah) and ס (s'tumah). In Sefaria's text, Genesis 1:31 ends with {פ}: the sixth day ends and a new section begins.",
+       "src": "Genesis 1:31. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA)",
+       "verse": {
+        "ref": "Genesis 1:31",
+        "he_t": "וַיַּ֤רְא אֱלֹהִים֙ אֶת־כׇּל־אֲשֶׁ֣ר עָשָׂ֔ה וְהִנֵּה־ט֖וֹב מְאֹ֑ד וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם הַשִּׁשִּֽׁי׃ {פ}",
+        "he": "וַיַּרְא אֱלֹהִים אֶת־כׇּל־אֲשֶׁר עָשָׂה וְהִנֵּה־טוֹב מְאֹד וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם הַשִּׁשִּׁי {פ}"
+       },
+       "chip": false
+      },
+      {
+       "t": "q",
+       "id": "tq-t3-2a"
+      },
+      {
+       "t": "q",
+       "id": "tq-t3-2b"
+      }
+     ]
+    },
+    {
+     "id": "tr3-3",
+     "title": "Practicing with a tikkun",
+     "subtitle": "two columns",
+     "icon": "תיק",
+     "trope": true,
+     "items": [
+      "tq-t3-3a"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Tikkun",
+       "text": "A tikkun (tikkun korim) is a practice book for Torah readers. Each page has two columns: one printed with vowels and trope, the other as it appears in the scroll, letters only.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Genesis 1:1-3 in tikkun style. The scroll column here uses a regular font, not scroll script.",
+       "src": "Genesis 1:1-3. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA)",
+       "verse": {
+        "ref": "Genesis 1:1-3",
+        "tikkun": [
+         {
+          "ref": "Genesis 1:1",
+          "he_t": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+          "he": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ"
+         },
+         {
+          "ref": "Genesis 1:2",
+          "he_t": "וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃",
+          "he": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּיִם"
+         },
+         {
+          "ref": "Genesis 1:3",
+          "he_t": "וַיֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽיְהִי־אֽוֹר׃",
+          "he": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר"
+         }
+        ]
+       },
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "One way to practice: learn a verse from the marked column, then read it from the plain column until you no longer need the marks.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "read",
+       "verse": {
+        "ref": "Genesis 1:2",
+        "he_t": "וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃",
+        "he": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּיִם"
+       }
+      },
+      {
+       "t": "read",
+       "verse": {
+        "ref": "Genesis 1:26",
+        "he_t": "וַיֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּצַלְמֵ֖נוּ כִּדְמוּתֵ֑נוּ וְיִרְדּוּ֩ בִדְגַ֨ת הַיָּ֜ם וּבְע֣וֹף הַשָּׁמַ֗יִם וּבַבְּהֵמָה֙ וּבְכׇל־הָאָ֔רֶץ וּבְכׇל־הָרֶ֖מֶשׂ הָֽרֹמֵ֥שׂ עַל־הָאָֽרֶץ׃",
+        "he": "וַיֹּאמֶר אֱלֹהִים נַעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ וְיִרְדּוּ בִדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבַבְּהֵמָה וּבְכׇל־הָאָרֶץ וּבְכׇל־הָרֶמֶשׂ הָרֹמֵשׂ עַל־הָאָרֶץ"
+       }
+      },
+      {
+       "t": "read",
+       "verse": {
+        "ref": "Genesis 2:3",
+        "he_t": "וַיְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַשְּׁבִיעִ֔י וַיְקַדֵּ֖שׁ אֹת֑וֹ כִּ֣י ב֤וֹ שָׁבַת֙ מִכׇּל־מְלַאכְתּ֔וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַעֲשֽׂוֹת׃ {פ}",
+        "he": "וַיְבָרֶךְ אֱלֹהִים אֶת־יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ כִּי בוֹ שָׁבַת מִכׇּל־מְלַאכְתּוֹ אֲשֶׁר־בָּרָא אֱלֹהִים לַעֲשׂוֹת {פ}"
+       }
+      },
+      {
+       "t": "q",
+       "id": "tq-t3-3a"
+      }
+     ]
+    }
+   ]
   }
  ],
  "items": {
@@ -1510,6 +1732,71 @@
    ],
    "a": 0,
    "why": "Ketana (small) connects; gedola (big) is a ruler.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t3-1a": {
+   "kind": "tq",
+   "q": "What does a Torah scroll leave out?",
+   "opts": [
+    "Vowels and trope marks",
+    "Final letter forms",
+    "Some of the letters"
+   ],
+   "a": 0,
+   "why": "The letters, including final forms, are all there. Vowels and trope are not.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t3-1b": {
+   "kind": "tq",
+   "q": "According to Soferim 3:7, what makes a scroll unfit for public reading?",
+   "opts": [
+    "Verses divided or marked at their beginnings",
+    "Letters with crowns",
+    "Wide columns"
+   ],
+   "a": 0,
+   "why": "Marking the verses changes the scroll's form.",
+   "src": "Tractate Soferim 3:7 (Vilna text on Sefaria)",
+   "he": ""
+  },
+  "tq-t3-2a": {
+   "kind": "tq",
+   "q": "Which letters get crowns?",
+   "opts": [
+    "שעטנז גץ",
+    "בגד כפת",
+    "אבגד הו"
+   ],
+   "a": 0,
+   "why": "Shaatnez getz: shin, ayin, tet, nun, zayin, gimel, tzadi.",
+   "src": "Shulchan Arukh, Orach Chayim 36:3",
+   "he": ""
+  },
+  "tq-t3-2b": {
+   "kind": "tq",
+   "q": "What does a s'tumah break look like?",
+   "opts": [
+    "A gap in the middle of a line",
+    "A new line",
+    "A new column"
+   ],
+   "a": 0,
+   "why": "S'tumah means closed: the gap sits inside the line.",
+   "src": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 8:1-2 (Touger translation on Sefaria)",
+   "he": ""
+  },
+  "tq-t3-3a": {
+   "kind": "tq",
+   "q": "What are the two columns of a tikkun?",
+   "opts": [
+    "Marked text, and the same text as in the scroll",
+    "Hebrew and English",
+    "Torah and Haftarah"
+   ],
+   "a": 0,
+   "why": "One column has vowels and trope; the other is letters only, like the scroll.",
    "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
    "he": ""
   }
