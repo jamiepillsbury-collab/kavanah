@@ -1,0 +1,207 @@
+{
+ "fetched": "2026-11-09",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Jacob and Esau lesson 2). Cantillation and footnotes stripped, <br> to space, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 27:1-4",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי כִּי־זָקֵן יִצְחָק וַתִּכְהֶיןָ עֵינָיו מֵרְאֹת וַיִּקְרָא אֶת־עֵשָׂו בְּנוֹ הַגָּדֹל וַיֹּאמֶר אֵלָיו בְּנִי וַיֹּאמֶר אֵלָיו הִנֵּנִי",
+    "וַיֹּאמֶר הִנֵּה־נָא זָקַנְתִּי לֹא יָדַעְתִּי יוֹם מוֹתִי",
+    "וְעַתָּה שָׂא־נָא כֵלֶיךָ תֶּלְיְךָ וְקַשְׁתֶּךָ וְצֵא הַשָּׂדֶה וְצוּדָה לִּי (צידה) [צָיִד]",
+    "וַעֲשֵׂה־לִי מַטְעַמִּים כַּאֲשֶׁר אָהַבְתִּי וְהָבִיאָה לִּי וְאֹכֵלָה בַּעֲבוּר תְּבָרֶכְךָ נַפְשִׁי בְּטֶרֶם אָמוּת"
+   ],
+   "sha": [
+    "9f46257051ec8fc980ecd9dcbc868c743982caab05a5350b0a27082eed59da95",
+    "c64f5e2ea1fd6c571829559f18d5c6f8a440a2f7f4e1730ecf7ea3eaf2bc5243",
+    "b21003981cbe772876fe1f0ae34622813fca09398b587495d19aa1f6424c65a7",
+    "c26f3de1e89f2184de3dbbccd386902a4f7ba053511b80a87603a53cd8673693"
+   ]
+  },
+  {
+   "ref": "Genesis 27:1-4",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "When Isaac was old and his eyes were too dim to see, he called his older son Esau and said to him, “My son.” He answered, “Here I am.”",
+    "And he said, “I am old now, and I do not know how soon I may die.",
+    "Take your gear, your quiver and bow, and go out into the open and hunt me some game.",
+    "Then prepare a dish for me such as I like, and bring it to me to eat, so that I may give you my innermost blessing before I die.”"
+   ],
+   "sha": [
+    "e01cd17b88f7c6d597a4dcadb23bd8d6fdc44248328cf3644d29037a6276a597",
+    "be2d17871b04ce6d8efe430bb52dcb472b071a3ddaa1dff17fac385115dbaf87",
+    "63ce58403b8a8380a868f453429e513a3f9bf46ea8c33bf6a4440e93a5f75142",
+    "4e336df69431d159deaa596900c4659aed53d682dfbf6995ab98c9dfeb734a54"
+   ]
+  },
+  {
+   "ref": "Genesis 27:11-13",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יַעֲקֹב אֶל־רִבְקָה אִמּוֹ הֵן עֵשָׂו אָחִי אִישׁ שָׂעִר וְאָנֹכִי אִישׁ חָלָק",
+    "אוּלַי יְמֻשֵּׁנִי אָבִי וְהָיִיתִי בְעֵינָיו כִּמְתַעְתֵּעַ וְהֵבֵאתִי עָלַי קְלָלָה וְלֹא בְרָכָה",
+    "וַתֹּאמֶר לוֹ אִמּוֹ עָלַי קִלְלָתְךָ בְּנִי אַךְ שְׁמַע בְּקֹלִי וְלֵךְ קַח־לִי"
+   ],
+   "sha": [
+    "24a67e6532318838ad895be69cb6918e69ce90688d7bf90ff2e524681d265d64",
+    "59a3b1f7e41897ad854a9828a780b1d254cd2cdf3c7c75c5e417b45fd2af9350",
+    "bcb2514d3b1cf237a2c7295dab95ede86cea8729c7271e914903bb767ec56e45"
+   ]
+  },
+  {
+   "ref": "Genesis 27:11-13",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Jacob answered his mother Rebekah, “But my brother Esau is a hairy man and I am smooth-skinned.",
+    "If my father touches me, I shall appear to him as a trickster and bring upon myself a curse, not a blessing.”",
+    "But his mother said to him, “Your curse, my son, be upon me! Just do as I say and go fetch them for me.”"
+   ],
+   "sha": [
+    "046b3d7a150605dc981ae59fae1956096a10d53234d1c344819a8033612fde43",
+    "43d7969f290deb41c4f5b9a079933d563526817b5f311e3ca7c85f498b8eab45",
+    "a93d83667e48d2aa27de70cef319885a5a9820d6138b035e5356154f4864af7d"
+   ]
+  },
+  {
+   "ref": "Genesis 27:18-20",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיָּבֹא אֶל־אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּי מִי אַתָּה בְּנִי",
+    "וַיֹּאמֶר יַעֲקֹב אֶל־אָבִיו אָנֹכִי עֵשָׂו בְּכֹרֶךָ עָשִׂיתִי כַּאֲשֶׁר דִּבַּרְתָּ אֵלָי קוּם־נָא שְׁבָה וְאׇכְלָה מִצֵּידִי בַּעֲבוּר תְּבָרְכַנִּי נַפְשֶׁךָ",
+    "וַיֹּאמֶר יִצְחָק אֶל־בְּנוֹ מַה־זֶּה מִהַרְתָּ לִמְצֹא בְּנִי וַיֹּאמֶר כִּי הִקְרָה יְהֹוָה אֱלֹהֶיךָ לְפָנָי"
+   ],
+   "sha": [
+    "a4884f9a0a993553fa92aaf29426802ede8552c16ff861122d594952267315d3",
+    "9d5cd7c833e376ff3903328d7d151f7b7bb0ff2a2b5ebc99b1d750cbd075e1d1",
+    "325b4e14ca1f06ccd863706cd6fb242e291d0c2759c626966707ca275eb1f11e"
+   ]
+  },
+  {
+   "ref": "Genesis 27:18-20",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "He went to his father and said, “Father.” And he said, “Yes, which of my sons are you?”",
+    "Jacob said to his father, “I am Esau, your first-born; I have done as you told me. Pray sit up and eat of my game, that you may give me your innermost blessing.”",
+    "Isaac said to his son, “How did you succeed so quickly, my son?” And he said, “Because your God יהוה granted me good fortune.”"
+   ],
+   "sha": [
+    "5ea246cf2dc28238ad8cf35cc98e0dd87e406ffc1200b05b31649696845cce96",
+    "7b3649adc60db858335a023ea0bbbdf0926ac324e1d1309b86b2ab6766d6facc",
+    "7f837851c2be57b23248f4dc426246e239acaeaf6e1b0b3fb9ead3ef0b23d3e4"
+   ]
+  },
+  {
+   "ref": "Genesis 27:22",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּגַּשׁ יַעֲקֹב אֶל־יִצְחָק אָבִיו וַיְמֻשֵּׁהוּ וַיֹּאמֶר הַקֹּל קוֹל יַעֲקֹב וְהַיָּדַיִם יְדֵי עֵשָׂו"
+   ],
+   "sha": [
+    "3c81652889f106f092f67a8c90d88eb9d61569f7b0724331dcedbeaea23b85ac"
+   ]
+  },
+  {
+   "ref": "Genesis 27:22",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "So Jacob drew close to his father Isaac, who felt him and wondered. “The voice is the voice of Jacob, yet the hands are the hands of Esau.”"
+   ],
+   "sha": [
+    "49071276785c35a009a5ee7d9c34da5e2aadc66a2b431797d8fe16ad5bd91113"
+   ]
+  },
+  {
+   "ref": "Genesis 27:33-34",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֶּחֱרַד יִצְחָק חֲרָדָה גְּדֹלָה עַד־מְאֹד וַיֹּאמֶר מִי־אֵפוֹא הוּא הַצָּד־צַיִד וַיָּבֵא לִי וָאֹכַל מִכֹּל בְּטֶרֶם תָּבוֹא וָאֲבָרְכֵהוּ גַּם־בָּרוּךְ יִהְיֶה",
+    "כִּשְׁמֹעַ עֵשָׂו אֶת־דִּבְרֵי אָבִיו וַיִּצְעַק צְעָקָה גְּדֹלָה וּמָרָה עַד־מְאֹד וַיֹּאמֶר לְאָבִיו בָּרְכֵנִי גַם־אָנִי אָבִי"
+   ],
+   "sha": [
+    "8138a56ba78debad0ce563954fc9d7c74494ad0284e0aa2a5de539dea695dae5",
+    "277b0ad5877b866899130e596af528d2504ed98590b394a26e2a29c0f6fc54e7"
+   ]
+  },
+  {
+   "ref": "Genesis 27:33-34",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Isaac was seized with very violent trembling. “Who was it then,” he demanded, “that hunted game and brought it to me? Moreover, I ate of it before you came, and I blessed him; now he must remain blessed!”",
+    "When Esau heard his father’s words, he burst into wild and bitter sobbing, and said to his father, “Bless me too, Father!”"
+   ],
+   "sha": [
+    "44ae2df097bbc697fc17347f9b7a78ca33e4f720e0803bba03139aecae717957",
+    "bde06abd69467e41057e92f7122a17dac4050662867503817c6c30908deb7ced"
+   ]
+  },
+  {
+   "ref": "Genesis 27:36",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר הֲכִי קָרָא שְׁמוֹ יַעֲקֹב וַיַּעְקְבֵנִי זֶה פַעֲמַיִם אֶת־בְּכֹרָתִי לָקָח וְהִנֵּה עַתָּה לָקַח בִּרְכָתִי וַיֹּאמַר הֲלֹא־אָצַלְתָּ לִּי בְּרָכָה"
+   ],
+   "sha": [
+    "8c0135ea6637c2dc7a82f4bf9f8610ae352da64ca9acef1c6604d40e72cde6cf"
+   ]
+  },
+  {
+   "ref": "Genesis 27:36",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "[Esau] said, “Was he, then, named Jacob that he might supplant me these two times? First he took away my birthright and now he has taken away my blessing!” And he added, “Have you not reserved a blessing for me?”"
+   ],
+   "sha": [
+    "69655628ac21defa247fec7a332ffc1286822261f305fd4aed2ad8760723f0d6"
+   ]
+  },
+  {
+   "ref": "Genesis 27:38",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר עֵשָׂו אֶל־אָבִיו הַבְרָכָה אַחַת הִוא־לְךָ אָבִי בָּרְכֵנִי גַם־אָנִי אָבִי וַיִּשָּׂא עֵשָׂו קֹלוֹ וַיֵּבְךְּ"
+   ],
+   "sha": [
+    "331426d71dd4fc74ef2ac99ba56d633d2ae4fc7e2ce373b0bd3750733a1b0b6b"
+   ]
+  },
+  {
+   "ref": "Genesis 27:38",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And Esau said to his father, “Have you but one blessing, Father? Bless me too, Father!” And Esau wept aloud."
+   ],
+   "sha": [
+    "34a8759209312655b9e28e57a6b9d3e64f3bba16e7087e52b0bb6f71ad2173f6"
+   ]
+  }
+ ]
+}

@@ -3074,6 +3074,198 @@
        ]
       }
      ]
+    },
+    {
+     "id": "x-st-gen-17",
+     "title": "Jacob and Esau (2): The stolen blessing",
+     "parashah": [
+      "Toldot"
+     ],
+     "status": "draft",
+     "related": [],
+     "check_note": "My summaries of Rashi on Genesis 27:1, 27:19 and 27:22 (from Midrash Tanchuma) and Bereshit Rabbah 67:4, read on Sefaria 11/09.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "One blessing, two brothers",
+       "body": "Isaac is old and **cannot see**. He plans to bless **Esau**. Rebekah overhears, and sends **Jacob** in to take the blessing in disguise (27:1-17).",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 27:1-17"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "When Isaac asks \"Which of my sons are you?\", what does Jacob answer?",
+       "choices": [
+        "\"I am Esau, your firstborn\"",
+        "\"I am Jacob\"",
+        "He says nothing",
+        "\"Your younger son\""
+       ],
+       "answer": 0,
+       "why": "\"**I am Esau, your first-born**\" (27:19). Rashi works hard with those words, as you'll see.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 27:1-17"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 27:1-4"
+      },
+      {
+       "kind": "concept",
+       "title": "Why was Isaac blind?",
+       "body": "**Rashi** gives two midrashim: the **smoke** of the incense Esau's wives offered to idols dimmed his eyes; or, at the binding of Isaac, the **angels wept** and their tears fell into his eyes.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 27:1",
+        "note": "from Midrash Tanchuma, Toldot 8"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 27:11-13"
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 27:18-20"
+      },
+      {
+       "kind": "concept",
+       "title": "A lie, or not quite?",
+       "body": "\"Anochi Esav b'chorecha,\" I am Esau your firstborn. **Rashi** splits the sentence: \"**I am** the one bringing you food\" and \"**Esau is** your firstborn.\" He reads the words so Jacob doesn't tell an outright lie.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 27:19"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "anochi",
+       "type": "why",
+       "q": "How does Rashi read Jacob's \"I am Esau your firstborn\"?",
+       "choices": [
+        "As two statements: \"I am the one bringing food\" and \"Esau is your firstborn\"",
+        "As a plain lie the Torah approves",
+        "As a mistranslation"
+       ],
+       "answer": 0,
+       "why": "Rashi **divides the sentence**, so each half is true.",
+       "wrong_why": [
+        null,
+        "Rashi tries to avoid that conclusion.",
+        "Rashi reads the Hebrew as it stands."
+       ],
+       "look_again": 6,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 27:19"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "הַקֹּל קוֹל יַעֲקֹב וְהַיָּדַיִם יְדֵי עֵשָׂו",
+       "tl": null,
+       "gloss": "**Hakol kol Yaakov v'hayadayim y'dei Esav**, \"the voice is the voice of Jacob, yet the hands are the hands of Esau\" (27:22). **Rashi**: Jacob's voice was **gentle**, \"please sit up\"; Esau would speak **harshly**, \"let my father sit up\" (27:31).",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 27:22",
+        "note": "from Midrash Tanchuma, Toldot 11"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "voice",
+       "type": "why",
+       "q": "According to Rashi, what gave Jacob's voice away?",
+       "choices": [
+        "He spoke gently and politely",
+        "His voice was higher",
+        "He spoke Hebrew, Esau Aramaic"
+       ],
+       "answer": 0,
+       "why": "Jacob said **\"please\"**; Esau's way of speaking was harsh.",
+       "wrong_why": [
+        null,
+        "Rashi is about manner, not pitch.",
+        "Rashi says nothing about languages here."
+       ],
+       "look_again": 8,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 27:22",
+        "note": "from Midrash Tanchuma, Toldot 11"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 27:33-34"
+      },
+      {
+       "kind": "term",
+       "he": "הַבְרָכָה אַחַת הִוא־לְךָ אָבִי",
+       "tl": null,
+       "gloss": "**Havrachah achat hi l'cha avi?** \"Have you but one blessing, Father?\" (27:38). Then **Esau wept aloud**. The Torah lets us hear the pain of the brother who lost.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 27:38"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "The cry comes back",
+       "body": "**Rabbi Chanina**: Jacob caused Esau **one great and bitter cry**. It was repaid generations later in Shushan, when **Mordecai** cried out \"a loud and bitter cry\" (Esther 4:1). God is patient, the midrash says, but the debt is remembered.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Bereshit Rabbah 67:4"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q3",
+       "idea": "cry",
+       "type": "why",
+       "q": "In Bereshit Rabbah 67:4, how was Esau's cry repaid?",
+       "choices": [
+        "By Mordecai's bitter cry in Shushan",
+        "Jacob was never held to account",
+        "Esau later took the blessing back"
+       ],
+       "answer": 0,
+       "why": "The same words, **a great and bitter cry**, come back in the Book of Esther.",
+       "wrong_why": [
+        null,
+        "The midrash says the opposite: God collects, patiently.",
+        "Nothing in the Torah says Esau took it back."
+       ],
+       "look_again": 12,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Bereshit Rabbah 67:4"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Jacob is our ancestor, yet the Torah makes us hear Esau's sobbing. Why might it tell the story this way?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Isaac, blind, plans to bless **Esau**; Rebekah sends **Jacob**.",
+        "Rashi on 27:19: \"**I am** (bringing food); **Esau is** your firstborn.\"",
+        "**The voice is Jacob's**: gentle, \"please\" (Rashi 27:22).",
+        "\"**Have you but one blessing?**\" Esau weeps.",
+        "Bereshit Rabbah 67:4: the cry returns as **Mordecai's**."
+       ]
+      }
+     ]
     }
    ]
   }
