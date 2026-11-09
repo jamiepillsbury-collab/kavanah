@@ -2882,6 +2882,198 @@
        ]
       }
      ]
+    },
+    {
+     "id": "x-st-gen-16",
+     "title": "Jacob and Esau (1): Twins and the birthright",
+     "parashah": [
+      "Toldot"
+     ],
+     "status": "draft",
+     "related": [
+      "prayer:m_mah_tovu"
+     ],
+     "check_note": "My summaries of Rashi on Genesis 25:22, 25:27 and 25:30 (with Bereshit Rabbah 63 and Bava Batra 16b), read on Sefaria 11/09. Note the Contemporary Torah renders yoshev ohalim as 'raising livestock'.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Two in one womb",
+       "body": "Rebekah's twins **struggle inside her** (25:22). She asks the question people in pain ask, **why?**, and then goes **to inquire of God**.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 25:21-23"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "Rebekah keeps her distress to herself.",
+       "answer": false,
+       "why": "She speaks it aloud and **goes to inquire of Adonai** (25:22), and God answers her.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 25:21-23"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 25:21-23"
+      },
+      {
+       "kind": "term",
+       "he": "לָמָּה זֶּה אָנֹכִי",
+       "tl": null,
+       "gloss": "**Lamah zeh anochi**, \"why do I exist?\" or \"why am I like this?\" (25:22). Rebekah doesn't stop at the question: she goes **lidrosh**, to seek out God.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 25:22"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Running to the doors",
+       "body": "**Rashi** reads \"struggled\" as **running**: whenever Rebekah passed a house of Torah study, **Jacob** strained to come out; whenever she passed a pagan temple, **Esau** did. He also gives the plain reading: the twins **fought** with each other.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 25:22",
+        "note": "from Bereshit Rabbah 63:6"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "struggle",
+       "type": "why",
+       "q": "In Rashi's midrash, why did the twins move inside Rebekah?",
+       "choices": [
+        "Each was drawn to a different kind of place",
+        "They were hungry",
+        "They wanted to be born first"
+       ],
+       "answer": 0,
+       "why": "Jacob toward **houses of study**, Esau toward **pagan temples**: two paths from the start.",
+       "wrong_why": [
+        null,
+        "Hunger isn't part of this midrash.",
+        "Rashi's midrash here is about where each was drawn, not birth order."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 25:22",
+        "note": "from Bereshit Rabbah 63:6"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 25:27-28"
+      },
+      {
+       "kind": "term",
+       "he": "אִישׁ תָּם יֹשֵׁב אֹהָלִים",
+       "tl": null,
+       "gloss": "**Ish tam yoshev ohalim**: this translation says \"a mild man, raising livestock\"; word for word, \"a **whole** man, **dwelling in tents**.\" **Rashi**: tam means his heart matched his mouth, not clever at deceiving; the tents are the study tents of **Shem and Ever**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 25:27"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "tam",
+       "type": "why",
+       "q": "What does Rashi say tam means?",
+       "choices": [
+        "His words matched his thoughts",
+        "He was physically weak",
+        "He was the younger twin"
+       ],
+       "answer": 0,
+       "why": "**Tam**: whole, straightforward. What was in his heart was in his mouth.",
+       "wrong_why": [
+        null,
+        "Tam isn't about strength.",
+        "Tam describes character, not birth order."
+       ],
+       "look_again": 7,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 25:27"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 25:29-31"
+      },
+      {
+       "kind": "concept",
+       "title": "A mourner's meal",
+       "body": "Why was Jacob cooking lentils? **Rashi**: **Abraham died that day**, and Jacob was preparing the first meal for the mourners. Lentils are **round like a wheel**, because mourning is a wheel that comes around to everyone.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rashi on Genesis 25:30",
+        "note": "from Bava Batra 16b"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 25:32-34"
+      },
+      {
+       "kind": "term",
+       "he": "וַיִּבֶז עֵשָׂו אֶת־הַבְּכֹרָה",
+       "tl": null,
+       "gloss": "**Vayivez Esav et hab'chorah**, \"thus did Esau spurn the birthright\" (25:34). The Torah's own verdict comes after a rush of verbs: **he ate, drank, rose and went**.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 25:34"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q3",
+       "idea": "spurn",
+       "type": "pick",
+       "q": "Whom does the last line of the story judge?",
+       "choices": [
+        "Esau, for spurning the birthright",
+        "Jacob, for driving a hard bargain",
+        "Isaac, for loving Esau more"
+       ],
+       "answer": 0,
+       "why": "The verse names **Esau**: he \"spurned the birthright.\"",
+       "wrong_why": [
+        null,
+        "The Torah doesn't comment on Jacob here, though readers have long argued about him.",
+        "Isaac isn't in this scene."
+       ],
+       "look_again": 12,
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 25:34"
+       }
+      },
+      {
+       "kind": "relevance",
+       "body": "Jacob is the one who **dwells in tents**. Every Shabbat morning you open with **Mah tovu ohalecha Yaakov**, \"how good are your tents, Jacob\" (Numbers 24:5).",
+       "links": [
+        "prayer:m_mah_tovu"
+       ]
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "**Lamah zeh anochi**: Rebekah's why becomes a search for God.",
+        "Rashi: the twins ran toward **study houses** and **temples**.",
+        "**Ish tam**: heart and mouth matched (Rashi 25:27).",
+        "The lentils: **a mourner's meal** for Abraham (Rashi 25:30).",
+        "**Vayivez Esav**: the Torah's verdict on the sale."
+       ]
+      }
+     ]
     }
    ]
   }

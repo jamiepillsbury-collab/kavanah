@@ -26,6 +26,7 @@ def load_sefaria():
 
 def clean_he(t):
     t = re.sub(r"\s*\{[פס]\}", "", t).replace("יְהֹוָה", "יְיָ")  # paragraph marks; the Name as elsewhere in the app
+    t = re.sub(r"\(([^)]*)\)\s*\[([^\]]*)\]", r"\2", t)  # ketiv (x) [qere]: read the qere, as in build_prayers.py
     return nfc(t.strip())
 
 def clean_en(t): return re.sub(r",(?=[A-Za-z])", ", ", t).strip()  # Sefaria poetry line breaks lose their space

@@ -3395,6 +3395,250 @@
         }
        ],
        "season": null
+      },
+      {
+       "id": "x-st-gen-16",
+       "title": "Jacob and Esau (1): Twins and the birthright",
+       "parashah": [
+        "Toldot"
+       ],
+       "status": "draft",
+       "related": [
+        "prayer:m_mah_tovu"
+       ],
+       "check_note": "My summaries of Rashi on Genesis 25:22, 25:27 and 25:30 (with Bereshit Rabbah 63 and Bava Batra 16b), read on Sefaria 11/09. Note the Contemporary Torah renders yoshev ohalim as 'raising livestock'.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Two in one womb",
+         "body": "Rebekah's twins **struggle inside her** (25:22). She asks the question people in pain ask, **why?**, and then goes **to inquire of God**.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 25:21-23"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "Rebekah keeps her distress to herself.",
+         "answer": 1,
+         "why": "She speaks it aloud and **goes to inquire of Adonai** (25:22), and God answers her.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 25:21-23"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 25:21-23",
+         "ref": "Genesis 25:21-23",
+         "he": "וַיֶּעְתַּר יִצְחָק לַיהֹוָה לְנֹכַח אִשְׁתּוֹ כִּי עֲקָרָה הִוא וַיֵּעָתֶר לוֹ יְיָ וַתַּהַר רִבְקָה אִשְׁתּוֹ\nוַיִּתְרֹצְצוּ הַבָּנִים בְּקִרְבָּהּ וַתֹּאמֶר אִם־כֵּן לָמָּה זֶּה אָנֹכִי וַתֵּלֶךְ לִדְרֹשׁ אֶת־יְיָ\nוַיֹּאמֶר יְיָ לָהּ שְׁנֵי גוֹיִם בְּבִטְנֵךְ וּשְׁנֵי לְאֻמִּים מִמֵּעַיִךְ יִפָּרֵדוּ וּלְאֹם מִלְאֹם יֶאֱמָץ וְרַב יַעֲבֹד צָעִיר",
+         "en": "Isaac pleaded with יהוה on behalf of his wife, because she was barren; and יהוה responded to his plea, and his wife Rebekah conceived. But the children struggled in her womb, and she said, “If so, why do I exist?” She went to inquire of יהוה, and יהוה answered her, “Two nations are in your womb, Two separate peoples shall issue from your body; One people shall be mightier than the other, And the older shall serve the younger.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 25:21-23"
+         },
+         "tl": "Vayetar Yitzchak laihovah l'nochach ishto ki akarah hi vayei-ater lo Adonai vatahar Rivkah ishto\nVayitrotz'tzu habanim b'kirbah vatomer im kein lamah zeh anochi vateilech lidrosh et Adonai\nVayomer Adonai lah sh'nei goyim b'vitneich ush'nei l'umim mimei-ayich yipareidu ul'om mil'om ye-ematz v'rav ya-avod tza-ir",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "לָמָּה זֶּה אָנֹכִי",
+         "tl": "Lamah zeh anochi",
+         "gloss": "**Lamah zeh anochi**, \"why do I exist?\" or \"why am I like this?\" (25:22). Rebekah doesn't stop at the question: she goes **lidrosh**, to seek out God.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 25:22"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Running to the doors",
+         "body": "**Rashi** reads \"struggled\" as **running**: whenever Rebekah passed a house of Torah study, **Jacob** strained to come out; whenever she passed a pagan temple, **Esau** did. He also gives the plain reading: the twins **fought** with each other.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 25:22",
+          "note": "from Bereshit Rabbah 63:6"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "struggle",
+         "type": "why",
+         "q": "In Rashi's midrash, why did the twins move inside Rebekah?",
+         "choices": [
+          "Each was drawn to a different kind of place",
+          "They were hungry",
+          "They wanted to be born first"
+         ],
+         "answer": 0,
+         "why": "Jacob toward **houses of study**, Esau toward **pagan temples**: two paths from the start.",
+         "wrong_why": [
+          null,
+          "Hunger isn't part of this midrash.",
+          "Rashi's midrash here is about where each was drawn, not birth order."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 25:22",
+          "note": "from Bereshit Rabbah 63:6"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 25:27-28",
+         "ref": "Genesis 25:27-28",
+         "he": "וַיִּגְדְּלוּ הַנְּעָרִים וַיְהִי עֵשָׂו אִישׁ יֹדֵעַ צַיִד אִישׁ שָׂדֶה וְיַעֲקֹב אִישׁ תָּם יֹשֵׁב אֹהָלִים\nוַיֶּאֱהַב יִצְחָק אֶת־עֵשָׂו כִּי־צַיִד בְּפִיו וְרִבְקָה אֹהֶבֶת אֶת־יַעֲקֹב",
+         "en": "When the boys grew up, Esau became a skillful hunter, a man of the outdoors; but Jacob became a mild man, raising livestock. Isaac favored Esau because he had a taste for game; but Rebekah favored Jacob.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 25:27-28"
+         },
+         "tl": "Vayigd'lu han'arim vay'hi eisav ish yodeia tzayid ish sadeh v'ya-akov ish tam yosheiv ohalim\nVaye-ehav Yitzchak et eisav ki tzayid b'fiv v'rivkah ohevet et Yaakov"
+        },
+        {
+         "kind": "term",
+         "he": "אִישׁ תָּם יֹשֵׁב אֹהָלִים",
+         "tl": "Ish tam yosheiv ohalim",
+         "gloss": "**Ish tam yoshev ohalim**: this translation says \"a mild man, raising livestock\"; word for word, \"a **whole** man, **dwelling in tents**.\" **Rashi**: tam means his heart matched his mouth, not clever at deceiving; the tents are the study tents of **Shem and Ever**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 25:27"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "tam",
+         "type": "why",
+         "q": "What does Rashi say tam means?",
+         "choices": [
+          "His words matched his thoughts",
+          "He was physically weak",
+          "He was the younger twin"
+         ],
+         "answer": 0,
+         "why": "**Tam**: whole, straightforward. What was in his heart was in his mouth.",
+         "wrong_why": [
+          null,
+          "Tam isn't about strength.",
+          "Tam describes character, not birth order."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 25:27"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 25:29-31",
+         "ref": "Genesis 25:29-31",
+         "he": "וַיָּזֶד יַעֲקֹב נָזִיד וַיָּבֹא עֵשָׂו מִן־הַשָּׂדֶה וְהוּא עָיֵף\nוַיֹּאמֶר עֵשָׂו אֶל־יַעֲקֹב הַלְעִיטֵנִי נָא מִן־הָאָדֹם הָאָדֹם הַזֶּה כִּי עָיֵף אָנֹכִי עַל־כֵּן קָרָא־שְׁמוֹ אֱדוֹם\nוַיֹּאמֶר יַעֲקֹב מִכְרָה כַיּוֹם אֶת־בְּכֹרָתְךָ לִי",
+         "en": "Once when Jacob was cooking a stew, Esau came in from the open, famished. And Esau said to Jacob, “Give me some of that red stuff to gulp down, for I am famished”—which is why he was named Edom. Jacob said, “First sell me your birthright.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 25:29-31"
+         },
+         "tl": "Vayazed Yaakov nazid vayavo eisav min hasadeh v'hu ayeif\nVayomer eisav el Yaakov hal'iteini na min ha-adom ha-adom hazeh ki ayeif anochi al kein kara sh'mo edom\nVayomer Yaakov michrah chayom et b'choratcha li",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "A mourner's meal",
+         "body": "Why was Jacob cooking lentils? **Rashi**: **Abraham died that day**, and Jacob was preparing the first meal for the mourners. Lentils are **round like a wheel**, because mourning is a wheel that comes around to everyone.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 25:30",
+          "note": "from Bava Batra 16b"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 25:32-34",
+         "ref": "Genesis 25:32-34",
+         "he": "וַיֹּאמֶר עֵשָׂו הִנֵּה אָנֹכִי הוֹלֵךְ לָמוּת וְלָמָּה־זֶּה לִי בְּכֹרָה\nוַיֹּאמֶר יַעֲקֹב הִשָּׁבְעָה לִּי כַּיּוֹם וַיִּשָּׁבַע לוֹ וַיִּמְכֹּר אֶת־בְּכֹרָתוֹ לְיַעֲקֹב\nוְיַעֲקֹב נָתַן לְעֵשָׂו לֶחֶם וּנְזִיד עֲדָשִׁים וַיֹּאכַל וַיֵּשְׁתְּ וַיָּקׇם וַיֵּלַךְ וַיִּבֶז עֵשָׂו אֶת־הַבְּכֹרָה",
+         "en": "And Esau said, “I am at the point of death, so of what use is my birthright to me?” But Jacob said, “Swear to me first.” So he swore to him, and sold his birthright to Jacob. Jacob then gave Esau bread and lentil stew; he ate and drank, and he rose and went away. Thus did Esau spurn the birthright.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 25:32-34"
+         },
+         "tl": "Vayomer eisav hinei anochi holeich lamut v'lamah zeh li b'chorah\nVayomer Yaakov hishav'ah li kayom vayishava lo vayimkor et b'chorato l'ya-akov\nV'ya-akov natan l'eisav lechem un'zid adashim vayochal vayeisht vayakom vayeilach vayivez eisav et hab'chorah",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "וַיִּבֶז עֵשָׂו אֶת־הַבְּכֹרָה",
+         "tl": "Vayivez eisav et hab'chorah",
+         "gloss": "**Vayivez Esav et hab'chorah**, \"thus did Esau spurn the birthright\" (25:34). The Torah's own verdict comes after a rush of verbs: **he ate, drank, rose and went**.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 25:34"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "spurn",
+         "type": "pick",
+         "q": "Whom does the last line of the story judge?",
+         "choices": [
+          "Esau, for spurning the birthright",
+          "Jacob, for driving a hard bargain",
+          "Isaac, for loving Esau more"
+         ],
+         "answer": 0,
+         "why": "The verse names **Esau**: he \"spurned the birthright.\"",
+         "wrong_why": [
+          null,
+          "The Torah doesn't comment on Jacob here, though readers have long argued about him.",
+          "Isaac isn't in this scene."
+         ],
+         "look_again": 12,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 25:34"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "Jacob is the one who **dwells in tents**. Every Shabbat morning you open with **Mah tovu ohalecha Yaakov**, \"how good are your tents, Jacob\" (Numbers 24:5).",
+         "links": [
+          "prayer:m_mah_tovu"
+         ]
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "**Lamah zeh anochi**: Rebekah's why becomes a search for God.",
+          "Rashi: the twins ran toward **study houses** and **temples**.",
+          "**Ish tam**: heart and mouth matched (Rashi 25:27).",
+          "The lentils: **a mourner's meal** for Abraham (Rashi 25:30).",
+          "**Vayivez Esav**: the Torah's verdict on the sale."
+         ]
+        }
+       ],
+       "season": null
       }
      ]
     },

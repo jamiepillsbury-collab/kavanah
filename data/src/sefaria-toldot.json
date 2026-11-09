@@ -1,0 +1,131 @@
+{
+ "fetched": "2026-11-09",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Jacob and Esau lesson 1). Cantillation and footnotes stripped, <br> to space, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 25:21-23",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֶּעְתַּר יִצְחָק לַיהֹוָה לְנֹכַח אִשְׁתּוֹ כִּי עֲקָרָה הִוא וַיֵּעָתֶר לוֹ יְהֹוָה וַתַּהַר רִבְקָה אִשְׁתּוֹ",
+    "וַיִּתְרֹצְצוּ הַבָּנִים בְּקִרְבָּהּ וַתֹּאמֶר אִם־כֵּן לָמָּה זֶּה אָנֹכִי וַתֵּלֶךְ לִדְרֹשׁ אֶת־יְהֹוָה",
+    "וַיֹּאמֶר יְהֹוָה לָהּ שְׁנֵי (גיים) [גוֹיִם] בְּבִטְנֵךְ וּשְׁנֵי לְאֻמִּים מִמֵּעַיִךְ יִפָּרֵדוּ וּלְאֹם מִלְאֹם יֶאֱמָץ וְרַב יַעֲבֹד צָעִיר"
+   ],
+   "sha": [
+    "e6a7c808d7fad06bf307b5db779ce23c654c7c86047b5c28b8c75345c81e9c2a",
+    "33ddba408ad502b783de0164c29079847fbf0a0a66877b68e9d006c58f0f399f",
+    "da333f698313aa1ae641145402934ad6dd879e7265fe73638276e52b6889ee84"
+   ]
+  },
+  {
+   "ref": "Genesis 25:21-23",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Isaac pleaded with יהוה on behalf of his wife, because she was barren; and יהוה responded to his plea, and his wife Rebekah conceived.",
+    "But the children struggled in her womb, and she said, “If so, why do I exist?” She went to inquire of יהוה,",
+    "and יהוה answered her, “Two nations are in your womb, Two separate peoples shall issue from your body; One people shall be mightier than the other, And the older shall serve the younger.”"
+   ],
+   "sha": [
+    "a8e37c953caf70e4bb095c849fe32827b7b5732f767e24042a48423674b9555f",
+    "2d18d6c92c078395ec56a5caf55cafd274c15e1fb8d0e7717fb2cd6697401718",
+    "7c703e0bb615e04119616ee72cd2786f47bc1dea208f4460cbd543e6f3cec9bb"
+   ]
+  },
+  {
+   "ref": "Genesis 25:27-28",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּגְדְּלוּ הַנְּעָרִים וַיְהִי עֵשָׂו אִישׁ יֹדֵעַ צַיִד אִישׁ שָׂדֶה וְיַעֲקֹב אִישׁ תָּם יֹשֵׁב אֹהָלִים",
+    "וַיֶּאֱהַב יִצְחָק אֶת־עֵשָׂו כִּי־צַיִד בְּפִיו וְרִבְקָה אֹהֶבֶת אֶת־יַעֲקֹב"
+   ],
+   "sha": [
+    "550299c666e1459343cee59aba523b9d61cb3c8569e496d59ba63e5c654db407",
+    "45765303c7b8ccab75604277cecf9fe97b12a03c15e6e204ad54dc7443aded8a"
+   ]
+  },
+  {
+   "ref": "Genesis 25:27-28",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "When the boys grew up, Esau became a skillful hunter, a man of the outdoors; but Jacob became a mild man, raising livestock.",
+    "Isaac favored Esau because he had a taste for game; but Rebekah favored Jacob."
+   ],
+   "sha": [
+    "187b44a0b50318777ede39616bf18786b12014d6cac36614d93b2d93fd160f2e",
+    "47b5ea7145d0129c095e25268e979713f90303c7af832767b3ff401d008ac6c2"
+   ]
+  },
+  {
+   "ref": "Genesis 25:29-31",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיָּזֶד יַעֲקֹב נָזִיד וַיָּבֹא עֵשָׂו מִן־הַשָּׂדֶה וְהוּא עָיֵף",
+    "וַיֹּאמֶר עֵשָׂו אֶל־יַעֲקֹב הַלְעִיטֵנִי נָא מִן־הָאָדֹם הָאָדֹם הַזֶּה כִּי עָיֵף אָנֹכִי עַל־כֵּן קָרָא־שְׁמוֹ אֱדוֹם",
+    "וַיֹּאמֶר יַעֲקֹב מִכְרָה כַיּוֹם אֶת־בְּכֹרָתְךָ לִי"
+   ],
+   "sha": [
+    "854b665c164eb69e43b28be9f26bdcd61c281907e0711ffe48313d30aaa6fbb3",
+    "4aadb324b5f20de5ee95544bebeddd60848c06df59d855a5ff59b9c89ac01fcb",
+    "fdc640d0f315a259634123c65f5b86f5726444eb4bf8a501509d0c01b445449e"
+   ]
+  },
+  {
+   "ref": "Genesis 25:29-31",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Once when Jacob was cooking a stew, Esau came in from the open, famished.",
+    "And Esau said to Jacob, “Give me some of that red stuff to gulp down, for I am famished”—which is why he was named Edom.",
+    "Jacob said, “First sell me your birthright.”"
+   ],
+   "sha": [
+    "5c1ce26aa6ad4764c3038604a767715ec63df3bb4c731d84d5f448850cd611d9",
+    "76b9a1ef5e13ae732ed3d10b235ed07a9e427c2108eefd93ce3a00f428dd9e5a",
+    "8d568bc5674702486f6ddf3447d478221130e29eb1399009053d7bbd314c0452"
+   ]
+  },
+  {
+   "ref": "Genesis 25:32-34",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר עֵשָׂו הִנֵּה אָנֹכִי הוֹלֵךְ לָמוּת וְלָמָּה־זֶּה לִי בְּכֹרָה",
+    "וַיֹּאמֶר יַעֲקֹב הִשָּׁבְעָה לִּי כַּיּוֹם וַיִּשָּׁבַע לוֹ וַיִּמְכֹּר אֶת־בְּכֹרָתוֹ לְיַעֲקֹב",
+    "וְיַעֲקֹב נָתַן לְעֵשָׂו לֶחֶם וּנְזִיד עֲדָשִׁים וַיֹּאכַל וַיֵּשְׁתְּ וַיָּקׇם וַיֵּלַךְ וַיִּבֶז עֵשָׂו אֶת־הַבְּכֹרָה {פ}"
+   ],
+   "sha": [
+    "46dcff31e07e8badeb2cc3911d8c82b100a6518b7f29d7036cbbf01878a08c22",
+    "73b8c2b3013112ea64b941abe80e7201b2f048b747ffa3cbf18e644245874bd3",
+    "47c3016d216092bf61fbb971edbe03cd7bb884cb725d434730d3f51c20bb1ced"
+   ]
+  },
+  {
+   "ref": "Genesis 25:32-34",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And Esau said, “I am at the point of death, so of what use is my birthright to me?”",
+    "But Jacob said, “Swear to me first.” So he swore to him, and sold his birthright to Jacob.",
+    "Jacob then gave Esau bread and lentil stew; he ate and drank, and he rose and went away. Thus did Esau spurn the birthright."
+   ],
+   "sha": [
+    "f5ef7c473c8806cc0ebf0826ed359b5cba5c13dfc98690e17e6403a39e671a82",
+    "e06f39b0373bbaa939884973bb3a444485e2db06f0a2d07df0fd9fb23dda3e29",
+    "278343527b98c28d716bc12388a06bb99fae9af01f8506877e2e73ff7ed89ef1"
+   ]
+  }
+ ]
+}
