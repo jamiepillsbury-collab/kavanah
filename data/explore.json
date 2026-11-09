@@ -3165,6 +3165,236 @@
         }
        ],
        "season": null
+      },
+      {
+       "id": "x-st-gen-15",
+       "title": "Abraham and Sarah (6): Rebekah at the well",
+       "parashah": [
+        "Chayei Sara"
+       ],
+       "status": "draft",
+       "related": [
+        "prayer:avot"
+       ],
+       "check_note": "My summaries of Rashi on Genesis 24:14, 24:57 and 24:67, Berakhot 26b (read on Sefaria 11/09). Ten camels: Genesis 24:10.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A test of kindness",
+         "body": "Abraham sends his servant to find a wife for Isaac. At a well, the servant prays for a sign: the young woman who offers water **to him and to his camels** (24:12-14).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 24:12-14"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "What sign does the servant ask God for?",
+         "choices": [
+          "A woman who offers water to him and his camels",
+          "A woman from Abraham's family",
+          "The most beautiful woman at the well",
+          "A woman who knows Abraham's name"
+         ],
+         "answer": 0,
+         "why": "The sign is **kindness beyond what's asked**: water for a stranger, and for his camels too.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 24:12-14"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 24:12-14",
+         "ref": "Genesis 24:12-14",
+         "he": "וַיֹּאמַר יְיָ אֱלֹהֵי אֲדֹנִי אַבְרָהָם הַקְרֵה־נָא לְפָנַי הַיּוֹם וַעֲשֵׂה־חֶסֶד עִם אֲדֹנִי אַבְרָהָם\nהִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וּבְנוֹת אַנְשֵׁי הָעִיר יֹצְאֹת לִשְׁאֹב מָיִם\nוְהָיָה הַנַּעֲרָ אֲשֶׁר אֹמַר אֵלֶיהָ הַטִּי־נָא כַדֵּךְ וְאֶשְׁתֶּה וְאָמְרָה שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה אֹתָהּ הֹכַחְתָּ לְעַבְדְּךָ לְיִצְחָק וּבָהּ אֵדַע כִּי־עָשִׂיתָ חֶסֶד עִם־אֲדֹנִי",
+         "en": "And he said, “O יהוה, God of my master Abraham’s [house], grant me good fortune this day, and deal graciously with my master Abraham: Here I stand by the spring as the daughters of the townspeople come out to draw water; let the maiden to whom I say, ‘Please, lower your jar that I may drink,’ and who replies, ‘Drink, and I will also water your camels’—let her be the one whom You have decreed for Your servant Isaac. Thereby shall I know that You have dealt graciously with my master.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 24:12-14"
+         },
+         "tl": "Vayomar Adonai Elohei adoni Avraham hakrei na l'fanai hayom va-asei chesed im adoni Avraham\nHinei anochi nitzav al ein hamayim uv'not anshei ha-ir yotz'ot lish'ov mayim\nV'hayah hana-ara asher omar eileha hati na chadeich v'eshteh v'amrah sh'tei v'gam g'malecha ashkeh otah hochachta l'avd'cha l'yitzchak uvah eida ki asita chesed im adoni",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "וַעֲשֵׂה־חֶסֶד",
+         "tl": "Va-asei chesed",
+         "gloss": "**Va'aseh chesed**, \"deal graciously\" (24:12). **Chesed**, loving-kindness, is this chapter's key word: the servant asks God for chesed, and looks for a woman who shows it. **Rashi**: if she is fitting, \"I'll know You have shown kindness to my master.\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 24:14"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 24:17-20",
+         "ref": "Genesis 24:17-20",
+         "he": "וַיָּרׇץ הָעֶבֶד לִקְרָאתָהּ וַיֹּאמֶר הַגְמִיאִינִי נָא מְעַט־מַיִם מִכַּדֵּךְ\nוַתֹּאמֶר שְׁתֵה אֲדֹנִי וַתְּמַהֵר וַתֹּרֶד כַּדָּהּ עַל־יָדָהּ וַתַּשְׁקֵהוּ\nוַתְּכַל לְהַשְׁקֹתוֹ וַתֹּאמֶר גַּם לִגְמַלֶּיךָ אֶשְׁאָב עַד אִם־כִּלּוּ לִשְׁתֹּת\nוַתְּמַהֵר וַתְּעַר כַּדָּהּ אֶל־הַשֹּׁקֶת וַתָּרׇץ עוֹד אֶל־הַבְּאֵר לִשְׁאֹב וַתִּשְׁאַב לְכׇל־גְּמַלָּיו",
+         "en": "The servant ran toward her and said, “Please, let me sip a little water from your jar.” “Drink, my lord,” she said, and she quickly lowered her jar upon her hand and let him drink. When she had let him drink his fill, she said, “I will also draw for your camels, until they finish drinking.” Quickly emptying her jar into the trough, she ran back to the well to draw, and she drew for all his camels.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 24:17-20"
+         },
+         "tl": "Vayarotz ha-eved likratah vayomer hagmi-ini na m'at mayim mikadeich\nVatomer sh'tei adoni vat'maheir vatored kadah al yadah vatashkeihu\nVat'chal l'hashkoto vatomer gam ligmalecha esh'av ad im kilu lishtot\nVat'maheir vat'ar kadah el hashoket vatarotz od el hab'eir lish'ov vatish'av l'chol g'malav"
+        },
+        {
+         "kind": "concept",
+         "title": "She ran",
+         "body": "Count Rebekah's verbs: she **hurries**, lowers her jar, gives him drink, empties it, **runs** back to the well, and draws for **all** his camels (24:18-20). He had ten camels (24:10). She does far more than she was asked.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 24:10, 24:18-20"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "chesed",
+         "type": "why",
+         "q": "What made Rebekah the answer to the servant's prayer?",
+         "choices": [
+          "She offered water to his camels too, without being asked",
+          "She was related to Abraham",
+          "She asked who his master was"
+         ],
+         "answer": 0,
+         "why": "His sign was **chesed beyond the request**, and she gave it, running back again and again.",
+         "wrong_why": [
+          null,
+          "She was family, but that wasn't the sign he prayed for.",
+          "She didn't ask; she simply helped."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 24:10, 24:18-20"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 24:57-58",
+         "ref": "Genesis 24:57-58",
+         "he": "וַיֹּאמְרוּ נִקְרָא לַנַּעֲרָ וְנִשְׁאֲלָה אֶת־פִּיהָ\nוַיִּקְרְאוּ לְרִבְקָה וַיֹּאמְרוּ אֵלֶיהָ הֲתֵלְכִי עִם־הָאִישׁ הַזֶּה וַתֹּאמֶר אֵלֵךְ",
+         "en": "And they said, “Let us call the girl and ask for her reply.” They called Rebekah and said to her, “Will you go with this man?” And she said, “I will.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 24:57-58"
+         },
+         "tl": "Vayomru nikra lana-ara v'nish'alah et piha\nVayikr'u l'rivkah vayomru eileha hateilchi im ha-ish hazeh vatomer eileich",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "אֵלֵךְ",
+         "tl": "Eileich",
+         "gloss": "**Elech**, \"I will\" (24:58): one word. Her family says \"let us call the girl and ask her.\" **Rashi**: from here we learn that a woman is not married **without her own consent**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 24:57",
+          "note": "from Bereshit Rabbah 60:12"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "consent",
+         "type": "why",
+         "q": "What does Rashi learn from \"let us call the girl and ask her\"?",
+         "choices": [
+          "A woman is not married without her consent",
+          "Brothers decide for their sisters",
+          "A bride must travel the same day"
+         ],
+         "answer": 0,
+         "why": "Asking Rebekah teaches that **her own yes** is required.",
+         "wrong_why": [
+          null,
+          "The verse teaches the opposite: they ask her.",
+          "The timing isn't Rashi's point."
+         ],
+         "look_again": 8,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 24:57",
+          "note": "from Bereshit Rabbah 60:12"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "לָשׂוּחַ בַּשָּׂדֶה",
+         "tl": "Lasuach basadeh",
+         "gloss": "**Lasuach basadeh**, Isaac went out \"walking in the field\" toward evening (24:63). **Lasuach** can also mean to converse, so the Talmud reads it as **prayer**: Abraham began the morning prayer, and **Isaac began Minchah**, the afternoon prayer.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 26b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "minchah",
+         "type": "pick",
+         "q": "According to Berakhot 26b, which prayer did Isaac begin?",
+         "choices": [
+          "Minchah, the afternoon prayer",
+          "Shacharit, the morning prayer",
+          "Ma'ariv, the evening prayer"
+         ],
+         "answer": 0,
+         "why": "From \"lasuach basadeh **toward evening**\": Isaac's prayer is the afternoon one.",
+         "wrong_why": [
+          null,
+          "The Talmud credits Abraham with the morning prayer.",
+          "That isn't Isaac's; the verse says toward evening."
+         ],
+         "look_again": 10,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 26b"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Comfort after his mother",
+         "body": "Isaac brings Rebekah into **his mother Sarah's tent**, loves her, and is comforted after his mother (24:67). **Rashi** quotes a midrash: in Sarah's lifetime a **lamp burned** from one Shabbat eve to the next, there was **blessing in the dough** and a **cloud** over the tent. They stopped when she died, and **returned with Rebekah**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 24:67",
+          "note": "from Bereshit Rabbah 60:16"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "In the Amidah's first blessing you say **Elohei Rivkah**, God of Rebekah, right after Elohei Sarah. And every **Minchah** is, in the Talmud's reading, Isaac's walk in the field.",
+         "links": [
+          "prayer:avot"
+         ]
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "The sign: **chesed beyond the request** (24:14).",
+          "Rebekah **runs** to water ten camels.",
+          "**Elech**, \"I will\": Rashi, no marriage **without her consent**.",
+          "**Lasuach basadeh**: Isaac begins **Minchah** (Berakhot 26b).",
+          "Sarah's lamp, dough and cloud **return with Rebekah** (Rashi 24:67)."
+         ]
+        }
+       ],
+       "season": null
       }
      ]
     },

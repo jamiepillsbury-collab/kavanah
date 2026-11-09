@@ -2,6 +2,8 @@
 
 ## START HERE (next session, written 11/07)
 Read this block + BRIEF.md. Don't re-audit anything below.
+DONE 11/09 (v41): Abraham and Sarah (6): Rebekah at the well, Explore lesson x-st-gen-15 (draft, 15 cards, Chayei Sara): chesed sign (Rashi 24:14), she ran / ten camels, elech + consent (Rashi 24:57, BR 60:12), lasuach basadeh = Minchah (Berakhot 26b), Sarah's lamp/dough/cloud return (Rashi 24:67, BR 60:16) -> prayer:avot (Elohei Rivkah). data/src/sefaria-rebekah.json (24 lines hash-verified); tools/add_story_rebekah.py. Headless: runs to Done.
+ABRAHAM AND SARAH ARC DONE (x-st-gen-10..15, 6 lessons). NEXT: Jamie reviews on phone. Genesis continues with Jacob and Esau (Toldot) only when she asks.
 DONE 11/09 (v40): Abraham and Sarah (5): Sarah's life and the cave of Machpelah, Explore lesson x-st-gen-14 (draft, 15 cards, Chayei Sara): sh'nei chayei Sarah (Rashi 23:1 all years equally good), Rashi 23:2 (death after the Akedah, PRE 32), ger v'toshav (Rashi 23:4), Ephron vs Abraham (Bava Metzia 87a), paid in full (BR 79:7). data/src/sefaria-machpelah.json (18 lines hash-verified); tools/add_story_machpelah.py. Headless: runs to Done. Plan doc claude/kavanah-machpelah-plan-2026-11-09.md is now done.
 NEXT: finding Rebekah (Gen 24).
 DONE 11/09 (v39): Abraham and Sarah (4): The binding of Isaac, Explore lesson x-st-gen-13 (draft, 16 cards, Vayera): hineni x3, Rashi 22:2 "your son... Isaac" (Sanhedrin 89b), yachdav (Rashi 22:6), Elohim yir'eh / Adonai yireh, ram + shofar (Rosh Hashanah 16a), Isaac missing in 22:19 (Ibn Ezra), RH day 2 reading (Megillah 31a). data/src/sefaria-akedah.json (20 lines hash-verified); tools/add_story_akedah.py. Headless: runs to Done.

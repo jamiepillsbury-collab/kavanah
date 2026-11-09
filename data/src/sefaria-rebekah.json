@@ -1,0 +1,155 @@
+{
+ "fetched": "2026-11-09",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Rebekah lesson). Cantillation and footnotes stripped, <br> to space, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 24:12-14",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמַר יְהֹוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם הַקְרֵה־נָא לְפָנַי הַיּוֹם וַעֲשֵׂה־חֶסֶד עִם אֲדֹנִי אַבְרָהָם",
+    "הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וּבְנוֹת אַנְשֵׁי הָעִיר יֹצְאֹת לִשְׁאֹב מָיִם",
+    "וְהָיָה הַנַּעֲרָ אֲשֶׁר אֹמַר אֵלֶיהָ הַטִּי־נָא כַדֵּךְ וְאֶשְׁתֶּה וְאָמְרָה שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה אֹתָהּ הֹכַחְתָּ לְעַבְדְּךָ לְיִצְחָק וּבָהּ אֵדַע כִּי־עָשִׂיתָ חֶסֶד עִם־אֲדֹנִי"
+   ],
+   "sha": [
+    "3093a0d94f7cab5bb070e4d3d25bbd9226d3afcea069c0684e46dcacbd504695",
+    "aa0e50d5a118b68bd8e5fc390e32c87360f280143d613fe7c5dcf46e28363c91",
+    "ccbe88bebaa69564e914cde4ffe5f779876a5c01f1f2412a2ebc6acf08d59a32"
+   ]
+  },
+  {
+   "ref": "Genesis 24:12-14",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And he said, “O יהוה, God of my master Abraham’s [house], grant me good fortune this day, and deal graciously with my master Abraham:",
+    "Here I stand by the spring as the daughters of the townspeople come out to draw water;",
+    "let the maiden to whom I say, ‘Please, lower your jar that I may drink,’ and who replies, ‘Drink, and I will also water your camels’—let her be the one whom You have decreed for Your servant Isaac. Thereby shall I know that You have dealt graciously with my master.”"
+   ],
+   "sha": [
+    "da36354841d1237760e215cdb12424130e970d6df3d9a91aab14e6cf366258ab",
+    "bd5e1379171d947189dc23366b1e698ac2be4ecf4f4488c6f5504c6ad96a712e",
+    "0d48ab1143f1783d90c5ad067ed5a719ccb3cd77cc4dcf8c8c4cfc9c65e662d5"
+   ]
+  },
+  {
+   "ref": "Genesis 24:17-20",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיָּרׇץ הָעֶבֶד לִקְרָאתָהּ וַיֹּאמֶר הַגְמִיאִינִי נָא מְעַט־מַיִם מִכַּדֵּךְ",
+    "וַתֹּאמֶר שְׁתֵה אֲדֹנִי וַתְּמַהֵר וַתֹּרֶד כַּדָּהּ עַל־יָדָהּ וַתַּשְׁקֵהוּ",
+    "וַתְּכַל לְהַשְׁקֹתוֹ וַתֹּאמֶר גַּם לִגְמַלֶּיךָ אֶשְׁאָב עַד אִם־כִּלּוּ לִשְׁתֹּת",
+    "וַתְּמַהֵר וַתְּעַר כַּדָּהּ אֶל־הַשֹּׁקֶת וַתָּרׇץ עוֹד אֶל־הַבְּאֵר לִשְׁאֹב וַתִּשְׁאַב לְכׇל־גְּמַלָּיו"
+   ],
+   "sha": [
+    "83e34ea140951b486b371600c0dbcbf16675f9862d015473317335621e80ebac",
+    "9e35522581c2fc04521c80e76c90736f579f604b4b06d2b58a92a970a9f031c8",
+    "464db55eb4a7b5eeb9b92a565067b467872ea94144d1fbf1c064ed2ea6a12f3c",
+    "9767317d4fe7186d6593e5925cf704c2be2a3a255984afcae990ab0e7adfcd90"
+   ]
+  },
+  {
+   "ref": "Genesis 24:17-20",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "The servant ran toward her and said, “Please, let me sip a little water from your jar.”",
+    "“Drink, my lord,” she said, and she quickly lowered her jar upon her hand and let him drink.",
+    "When she had let him drink his fill, she said, “I will also draw for your camels, until they finish drinking.”",
+    "Quickly emptying her jar into the trough, she ran back to the well to draw, and she drew for all his camels."
+   ],
+   "sha": [
+    "c0d900eb15dca7987c87c179332ea65d43cc56e52eaa949cc83835d9cb791881",
+    "2aab4f6d537eb58f02e9c1f27d790034e0aa4e0efb1768045e93f94079bc7b6f",
+    "6b342f95b96655af78179632bff970040936ccc662104967608737191aee34e4",
+    "6d556227bfaa1124afa80e4cc34bc48d7cbfa1df41bfd93be73bc9381f6cbd59"
+   ]
+  },
+  {
+   "ref": "Genesis 24:57-58",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמְרוּ נִקְרָא לַנַּעֲרָ וְנִשְׁאֲלָה אֶת־פִּיהָ",
+    "וַיִּקְרְאוּ לְרִבְקָה וַיֹּאמְרוּ אֵלֶיהָ הֲתֵלְכִי עִם־הָאִישׁ הַזֶּה וַתֹּאמֶר אֵלֵךְ"
+   ],
+   "sha": [
+    "cd0da110185f6815ef3c3ee288fa7cef8479ba712af390b1c3bb2901761b7fce",
+    "dad391e0ff52f6a13cca582d7dbe90dcbc7963e6b7181c9849c0524fce412ed1"
+   ]
+  },
+  {
+   "ref": "Genesis 24:57-58",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And they said, “Let us call the girl and ask for her reply.”",
+    "They called Rebekah and said to her, “Will you go with this man?” And she said, “I will.”"
+   ],
+   "sha": [
+    "1d02b3991087b968a57a29341e9f688a6fd01fe5ffc02f474d4fab31e507e96a",
+    "c5e3b7f8214c4a013194b5bd23a4ec34e289cf579d6de37bbe6242f962f826cc"
+   ]
+  },
+  {
+   "ref": "Genesis 24:63-64",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֵּצֵא יִצְחָק לָשׂוּחַ בַּשָּׂדֶה לִפְנוֹת עָרֶב וַיִּשָּׂא עֵינָיו וַיַּרְא וְהִנֵּה גְמַלִּים בָּאִים",
+    "וַתִּשָּׂא רִבְקָה אֶת־עֵינֶיהָ וַתֵּרֶא אֶת־יִצְחָק וַתִּפֹּל מֵעַל הַגָּמָל"
+   ],
+   "sha": [
+    "9a81e1759616c979a25339158590948435401ec2496535cc93235a2fedcee1b3",
+    "b56ee0484d6caee8d2095226e63a5e78b7dc4db2d6c82b6146d10e8071bbab94"
+   ]
+  },
+  {
+   "ref": "Genesis 24:63-64",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And Isaac went out walking in the field toward evening and, looking up, he saw camels approaching.",
+    "Raising her eyes, Rebekah saw Isaac. She alighted from the camel"
+   ],
+   "sha": [
+    "78f7ec55cc6647b93a99ea080c1ab2693cccd6be119e7880e89464caf96ed751",
+    "c2fbb23beb37f5183177efcfaba20a7e0ffe6834350a4f9a4b8e67ab2b154385"
+   ]
+  },
+  {
+   "ref": "Genesis 24:67",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְבִאֶהָ יִצְחָק הָאֹהֱלָה שָׂרָה אִמּוֹ וַיִּקַּח אֶת־רִבְקָה וַתְּהִי־לוֹ לְאִשָּׁה וַיֶּאֱהָבֶהָ וַיִּנָּחֵם יִצְחָק אַחֲרֵי אִמּוֹ {פ}"
+   ],
+   "sha": [
+    "520265f9fb8f63338eb2254a084d9c01159ca58fccd9865adc2b5c1766e83af5"
+   ]
+  },
+  {
+   "ref": "Genesis 24:67",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Isaac then brought her into the tent of his mother Sarah, and he took Rebekah as his wife. Isaac loved her, and thus found comfort after his mother’s death."
+   ],
+   "sha": [
+    "5b92896b28838bbbb178fdfd47df680a51b6246ab37e893ece886e2e86e20aa3"
+   ]
+  }
+ ]
+}
