@@ -2943,6 +2943,228 @@
         }
        ],
        "season": null
+      },
+      {
+       "id": "x-st-gen-14",
+       "title": "Abraham and Sarah (5): Sarah's life and the cave of Machpelah",
+       "parashah": [
+        "Chayei Sara"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "My summaries of Rashi on Genesis 23:1, 23:2 and 23:4, Bava Metzia 87a, Bereshit Rabbah 79:7 (read on Sefaria 11/09).",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A portion called \"Life\"",
+         "body": "This Torah portion is called **Chayei Sarah**, \"the life of Sarah,\" yet it opens with **her death** (23:1-2). Abraham comes **to mourn her and to weep for her**, then rises to find her a resting place.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 23:1-2"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "How did Abraham get the cave of Machpelah?",
+         "choices": [
+          "He paid full price for it",
+          "It was a gift he accepted",
+          "He inherited it",
+          "He took it in a war"
+         ],
+         "answer": 0,
+         "why": "Ephron offers it as a gift, but Abraham **insists on paying** 400 shekels of silver (23:16).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 23:1-2"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 23:1-2",
+         "ref": "Genesis 23:1-2",
+         "he": "וַיִּהְיוּ חַיֵּי שָׂרָה מֵאָה שָׁנָה וְעֶשְׂרִים שָׁנָה וְשֶׁבַע שָׁנִים שְׁנֵי חַיֵּי שָׂרָה\nוַתָּמׇת שָׂרָה בְּקִרְיַת אַרְבַּע הִוא חֶבְרוֹן בְּאֶרֶץ כְּנָעַן וַיָּבֹא אַבְרָהָם לִסְפֹּד לְשָׂרָה וְלִבְכֹּתָהּ",
+         "en": "Sarah’s lifetime—the span of Sarah’s life—came to one hundred and twenty-seven years. Sarah died in Kiriath-arba—now Hebron—in the land of Canaan; and Abraham proceeded to mourn for Sarah and to bewail her.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 23:1-2"
+         },
+         "tl": "Vayihyu chayei Sarah mei-ah shanah v'esrim shanah v'sheva shanim sh'nei chayei Sarah\nVatamot Sarah b'kiryat arba hi chevron b'eretz k'na-an vayavo Avraham lispod l'sarah v'livkotah"
+        },
+        {
+         "kind": "term",
+         "he": "שְׁנֵי חַיֵּי שָׂרָה",
+         "tl": "Sh'nei chayei Sarah",
+         "gloss": "**Sh'nei chayei Sarah**, \"the years of Sarah's life\" (23:1). The verse counts 100 years, 20 years and 7 years separately. **Rashi**: \"years\" is repeated to show that **all her years were equally good**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 23:1",
+          "note": "from Bereshit Rabbah 58:1"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Why here?",
+         "body": "Sarah's death comes right after the binding of Isaac. **Rashi** quotes a midrash: when she heard that her son had been readied as an offering and nearly sacrificed, the shock was too much, and **she died**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 23:2",
+          "note": "from Pirkei DeRabbi Eliezer 32"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "years",
+         "type": "why",
+         "q": "Why does Rashi say the verse repeats the word \"years\"?",
+         "choices": [
+          "To show all her years were equally good",
+          "To show she lived longer than Abraham",
+          "Because the number was uncertain"
+         ],
+         "answer": 0,
+         "why": "The repetition tells us **every stage of her life was good**.",
+         "wrong_why": [
+          null,
+          "Rashi says nothing about comparing their ages.",
+          "Rashi reads it as praise, not doubt."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 23:1",
+          "note": "from Bereshit Rabbah 58:1"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 23:3-4",
+         "ref": "Genesis 23:3-4",
+         "he": "וַיָּקׇם אַבְרָהָם מֵעַל פְּנֵי מֵתוֹ וַיְדַבֵּר אֶל־בְּנֵי־חֵת לֵאמֹר\nגֵּר־וְתוֹשָׁב אָנֹכִי עִמָּכֶם תְּנוּ לִי אֲחֻזַּת־קֶבֶר עִמָּכֶם וְאֶקְבְּרָה מֵתִי מִלְּפָנָי",
+         "en": "Then Abraham rose from beside his dead, and spoke to the Hittites, saying, “I am a resident alien among you; sell me a burial site among you, that I may remove my dead for burial.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 23:3-4"
+         },
+         "tl": "Vayakom Avraham mei-al p'nei meito vaydabeir el b'nei cheit leimor\nGeir v'toshav anochi imachem t'nu li achuzat kever imachem v'ekb'rah meiti mil'fanai"
+        },
+        {
+         "kind": "term",
+         "he": "גֵּר־וְתוֹשָׁב אָנֹכִי עִמָּכֶם",
+         "tl": "Geir v'toshav anochi imachem",
+         "gloss": "**Ger v'toshav anochi imachem**, \"I am a resident alien among you\" (23:4): an outsider who has settled down. **Rashi** adds a midrash: if you sell, I'm a stranger and will pay; if not, I'll claim it as a resident, **by right**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 23:4"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "ger-toshav",
+         "type": "why",
+         "q": "What do the two words ger and toshav describe?",
+         "choices": [
+          "An outsider who has settled down",
+          "A king and a servant",
+          "A buyer and a seller"
+         ],
+         "answer": 0,
+         "why": "**Ger**, stranger, from another land; **toshav**, resident, settled among them. Abraham is both.",
+         "wrong_why": [
+          null,
+          "Neither word means king or servant.",
+          "The words describe Abraham alone."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 23:4"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 23:10-11",
+         "ref": "Genesis 23:10-11",
+         "he": "וְעֶפְרוֹן יֹשֵׁב בְּתוֹךְ בְּנֵי־חֵת וַיַּעַן עֶפְרוֹן הַחִתִּי אֶת־אַבְרָהָם בְּאׇזְנֵי בְנֵי־חֵת לְכֹל בָּאֵי שַׁעַר־עִירוֹ לֵאמֹר\nלֹא־אֲדֹנִי שְׁמָעֵנִי הַשָּׂדֶה נָתַתִּי לָךְ וְהַמְּעָרָה אֲשֶׁר־בּוֹ לְךָ נְתַתִּיהָ לְעֵינֵי בְנֵי־עַמִּי נְתַתִּיהָ לָּךְ קְבֹר מֵתֶךָ",
+         "en": "Ephron was present among the Hittites; so Ephron the Hittite answered Abraham in the hearing of the Hittites, the assembly in his town’s gate, saying, “No, my lord, hear me: I give you the field and I give you the cave that is in it; I give it to you in the presence of my people. Bury your dead.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 23:10-11"
+         },
+         "tl": "V'efron yosheiv b'toch b'nei cheit vaya-an efron hachiti et Avraham b'oznei v'nei cheit l'chol ba-ei sha-ar iro leimor\nLo adoni sh'ma-eini hasadeh natati lach v'ham'arah asher bo l'cha n'tatiha l'einei v'nei ami n'tatiha lach k'vor meitecha"
+        },
+        {
+         "kind": "concept",
+         "title": "Say little, do much",
+         "body": "Ephron offers the field as a **gift**, in front of everyone (23:11). Then he names a price, 400 shekels: \"what is that between you and me?\" (23:15). **Rabbi Elazar**: the righteous **say little and do much**, like Abraham running to his guests; the wicked **say much and don't do even a little**, like Ephron.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Metzia 87a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Paid in full",
+         "body": "Abraham **weighs out the silver** in public (23:16) and buries Sarah in the cave of Machpelah (23:19). A midrash: Machpelah is one of **three places** no one can call stolen, because they were bought: the cave of Machpelah, the Temple site and Joseph's tomb.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bereshit Rabbah 79:7"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "paid",
+         "type": "why",
+         "q": "Why does the midrash stress that Machpelah was paid for?",
+         "choices": [
+          "So no one can say it was stolen",
+          "Because gifts were forbidden",
+          "Because Ephron was poor"
+         ],
+         "answer": 0,
+         "why": "It's one of three places **bought outright**, so no one can claim it was taken.",
+         "wrong_why": [
+          null,
+          "Ephron did offer a gift; Abraham chose to pay.",
+          "Nothing in the text says Ephron was poor."
+         ],
+         "look_again": 11,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bereshit Rabbah 79:7"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Abraham mourns, and then rises to do what has to be done (23:3). What helps you move between grieving and doing? It's fine to skip this one."
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "**Chayei Sarah**, the life of Sarah, opens with her death.",
+          "Rashi: **all her years were equally good**.",
+          "**Ger v'toshav**: an outsider who has settled down.",
+          "Bava Metzia 87a: **say little, do much** (Abraham, not Ephron).",
+          "Machpelah was **paid for**, never taken (Bereshit Rabbah 79:7)."
+         ]
+        }
+       ],
+       "season": null
       }
      ]
     },

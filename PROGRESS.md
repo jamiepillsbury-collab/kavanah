@@ -2,6 +2,8 @@
 
 ## START HERE (next session, written 11/07)
 Read this block + BRIEF.md. Don't re-audit anything below.
+DONE 11/09 (v40): Abraham and Sarah (5): Sarah's life and the cave of Machpelah, Explore lesson x-st-gen-14 (draft, 15 cards, Chayei Sara): sh'nei chayei Sarah (Rashi 23:1 all years equally good), Rashi 23:2 (death after the Akedah, PRE 32), ger v'toshav (Rashi 23:4), Ephron vs Abraham (Bava Metzia 87a), paid in full (BR 79:7). data/src/sefaria-machpelah.json (18 lines hash-verified); tools/add_story_machpelah.py. Headless: runs to Done. Plan doc claude/kavanah-machpelah-plan-2026-11-09.md is now done.
+NEXT: finding Rebekah (Gen 24).
 DONE 11/09 (v39): Abraham and Sarah (4): The binding of Isaac, Explore lesson x-st-gen-13 (draft, 16 cards, Vayera): hineni x3, Rashi 22:2 "your son... Isaac" (Sanhedrin 89b), yachdav (Rashi 22:6), Elohim yir'eh / Adonai yireh, ram + shofar (Rosh Hashanah 16a), Isaac missing in 22:19 (Ibn Ezra), RH day 2 reading (Megillah 31a). data/src/sefaria-akedah.json (20 lines hash-verified); tools/add_story_akedah.py. Headless: runs to Done.
 NEXT: Sarah's death / cave of Machpelah (Gen 23, Chayei Sara), then finding Rebekah (Gen 24).
 DONE 11/09 (v38): Abraham and Sarah (3): Hagar and Ishmael, 1 Explore lesson x-st-gen-12 (draft, 15 cards; parashah Lech Lecha + Vayera): first angel = Hagar 16:7, Ramban 16:6 (Sarah and Abraham did wrong), El-roi + Yishmael (Rashi 16:13), m'tzachek 21:9 (same root as Yitzchak), "where he is" (Rashi 21:17: judged as he is now; a person's own prayer), Isaac and Ishmael bury Abraham 25:9. Sources read on Sefaria. data/src/sefaria-hagar.json (26 lines hash-verified); tools/add_story_hagar.py. Headless: runs to Done.

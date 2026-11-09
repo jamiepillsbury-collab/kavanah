@@ -1,0 +1,143 @@
+{
+ "fetched": "2026-11-09",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Machpelah lesson). Cantillation and footnotes stripped, <br> to space, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 23:1-2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּהְיוּ חַיֵּי שָׂרָה מֵאָה שָׁנָה וְעֶשְׂרִים שָׁנָה וְשֶׁבַע שָׁנִים שְׁנֵי חַיֵּי שָׂרָה",
+    "וַתָּמׇת שָׂרָה בְּקִרְיַת אַרְבַּע הִוא חֶבְרוֹן בְּאֶרֶץ כְּנָעַן וַיָּבֹא אַבְרָהָם לִסְפֹּד לְשָׂרָה וְלִבְכֹּתָהּ"
+   ],
+   "sha": [
+    "ce0daf5a6660d0bb205ae1081b3c8149f06471b50d50445a33dd0143a4052891",
+    "bba8fdc767d268751863c9c1c1cd3bed9ed488f55061aea6732ae0a89f2da1a1"
+   ]
+  },
+  {
+   "ref": "Genesis 23:1-2",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Sarah’s lifetime—the span of Sarah’s life—came to one hundred and twenty-seven years.",
+    "Sarah died in Kiriath-arba—now Hebron—in the land of Canaan; and Abraham proceeded to mourn for Sarah and to bewail her."
+   ],
+   "sha": [
+    "96ca61aae7994dd62e1450b885849fb93be8827518aa1fb0f5358df4e4f3d89c",
+    "79cf644afecf2c68a42e7c3cadf8dacec9ac54bf1f8c30ac6723801c64477239"
+   ]
+  },
+  {
+   "ref": "Genesis 23:3-4",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיָּקׇם אַבְרָהָם מֵעַל פְּנֵי מֵתוֹ וַיְדַבֵּר אֶל־בְּנֵי־חֵת לֵאמֹר",
+    "גֵּר־וְתוֹשָׁב אָנֹכִי עִמָּכֶם תְּנוּ לִי אֲחֻזַּת־קֶבֶר עִמָּכֶם וְאֶקְבְּרָה מֵתִי מִלְּפָנָי"
+   ],
+   "sha": [
+    "f58f2063e77ecd0981a0bf23e2137b642c07ea63592200dddc9b425147546ca2",
+    "51a9b3f19572ad3d445ab34c9407042f0b0c8c2f912eef39a32bc721eae203aa"
+   ]
+  },
+  {
+   "ref": "Genesis 23:3-4",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then Abraham rose from beside his dead, and spoke to the Hittites, saying,",
+    "“I am a resident alien among you; sell me a burial site among you, that I may remove my dead for burial.”"
+   ],
+   "sha": [
+    "317ec75591e97f35eff7b28b44a7195ca5972a7c2178fd9db542ea05c0cf5493",
+    "5821330cb4172e4e71f48310bef78061f3b0370d0038d5923d8ec9b1f0b6ae3f"
+   ]
+  },
+  {
+   "ref": "Genesis 23:10-11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְעֶפְרוֹן יֹשֵׁב בְּתוֹךְ בְּנֵי־חֵת וַיַּעַן עֶפְרוֹן הַחִתִּי אֶת־אַבְרָהָם בְּאׇזְנֵי בְנֵי־חֵת לְכֹל בָּאֵי שַׁעַר־עִירוֹ לֵאמֹר",
+    "לֹא־אֲדֹנִי שְׁמָעֵנִי הַשָּׂדֶה נָתַתִּי לָךְ וְהַמְּעָרָה אֲשֶׁר־בּוֹ לְךָ נְתַתִּיהָ לְעֵינֵי בְנֵי־עַמִּי נְתַתִּיהָ לָּךְ קְבֹר מֵתֶךָ"
+   ],
+   "sha": [
+    "579973e352729e362654c82dadb30845c8f8f697f8a60a8b3022b9e9e1e522fa",
+    "a61422c5c69693fc086b29cdb989c45f562d228d1f89ccfb8c4e2e1728cb6338"
+   ]
+  },
+  {
+   "ref": "Genesis 23:10-11",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Ephron was present among the Hittites; so Ephron the Hittite answered Abraham in the hearing of the Hittites, the assembly in his town’s gate, saying,",
+    "“No, my lord, hear me: I give you the field and I give you the cave that is in it; I give it to you in the presence of my people. Bury your dead.”"
+   ],
+   "sha": [
+    "9b87dae1a90ddfb36b5f2650e61ca4f64bc00bf45e4882a801414f30a4dd2fb5",
+    "92cf43150e9053eb34b6c1ba2117c9800d765252f498831b38e0b7f798d9e798"
+   ]
+  },
+  {
+   "ref": "Genesis 23:15-16",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "אֲדֹנִי שְׁמָעֵנִי אֶרֶץ אַרְבַּע מֵאֹת שֶׁקֶל־כֶּסֶף בֵּינִי וּבֵינְךָ מַה־הִוא וְאֶת־מֵתְךָ קְבֹר",
+    "וַיִּשְׁמַע אַבְרָהָם אֶל־עֶפְרוֹן וַיִּשְׁקֹל אַבְרָהָם לְעֶפְרֹן אֶת־הַכֶּסֶף אֲשֶׁר דִּבֶּר בְּאׇזְנֵי בְנֵי־חֵת אַרְבַּע מֵאוֹת שֶׁקֶל כֶּסֶף עֹבֵר לַסֹּחֵר"
+   ],
+   "sha": [
+    "afa757393f05113091b1e72c7d78735f8e3ad5ecdb8b7de4ca0d4777b9ed8a31",
+    "37f4aa47f1abdebe2afe09d6c86b70a7dc792143c7306ac977b574ba0777e11d"
+   ]
+  },
+  {
+   "ref": "Genesis 23:15-16",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "“My lord, do hear me! A piece of land worth four hundred shekels of silver—what is that between you and me? Go and bury your dead.”",
+    "Abraham accepted Ephron’s terms. Abraham paid out to Ephron the money that he had named in the hearing of the Hittites—four hundred shekels of silver at the going merchants’ rate."
+   ],
+   "sha": [
+    "10bbbda7134f46d87acd97bbce977faa7c8899d3b57fbcdb1557aa384a4bd90d",
+    "84372b4d22db1aeff9aa7e11e1ad8c110a3b159c69196666a3f50a5c4ed87189"
+   ]
+  },
+  {
+   "ref": "Genesis 23:19",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְאַחֲרֵי־כֵן קָבַר אַבְרָהָם אֶת־שָׂרָה אִשְׁתּוֹ אֶל־מְעָרַת שְׂדֵה הַמַּכְפֵּלָה עַל־פְּנֵי מַמְרֵא הִוא חֶבְרוֹן בְּאֶרֶץ כְּנָעַן"
+   ],
+   "sha": [
+    "20658db5af14212b6ce4d13b4335900c1da4fef5b51845b9bf55d1a85ce1dfe2"
+   ]
+  },
+  {
+   "ref": "Genesis 23:19",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And then Abraham buried his wife Sarah in the cave of the field of Machpelah, facing Mamre—now Hebron—in the land of Canaan."
+   ],
+   "sha": [
+    "e00ade2c8023e9312c143e53aa0ee9d134312c0c17c5411867b816ca89d819b4"
+   ]
+  }
+ ]
+}
