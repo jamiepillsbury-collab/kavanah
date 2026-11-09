@@ -2729,6 +2729,220 @@
         }
        ],
        "season": null
+      },
+      {
+       "id": "x-st-gen-13",
+       "title": "Abraham and Sarah (4): The binding of Isaac",
+       "parashah": [
+        "Vayera"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "My summaries of Rashi on Genesis 22:2 and 22:6 (from Sanhedrin 89b), Rosh Hashanah 16a, Megillah 31a, Ibn Ezra on Genesis 22:19 (read on Sefaria 11/09). CBB's Rosh Hashanah reading not checked.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Here I am",
+         "body": "It is one of the hardest stories in the Torah. Through it runs one word: **hineni**, here I am. Abraham says it to **God** (22:1), to **Isaac** (22:7) and to the **angel** (22:11).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 22:1-11"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "How many times does Abraham answer \"hineni\" in this chapter?",
+         "choices": [
+          "Three",
+          "Once",
+          "Twice",
+          "Never"
+         ],
+         "answer": 0,
+         "why": "**Three times**: to God, to Isaac, and to the angel who stops him.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 22:1-11"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 22:1-2",
+         "ref": "Genesis 22:1-2",
+         "he": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה וְהָאֱלֹהִים נִסָּה אֶת־אַבְרָהָם וַיֹּאמֶר אֵלָיו אַבְרָהָם וַיֹּאמֶר הִנֵּנִי\nוַיֹּאמֶר קַח־נָא אֶת־בִּנְךָ אֶת־יְחִידְךָ אֲשֶׁר־אָהַבְתָּ אֶת־יִצְחָק וְלֶךְ־לְךָ אֶל־אֶרֶץ הַמֹּרִיָּה וְהַעֲלֵהוּ שָׁם לְעֹלָה עַל אַחַד הֶהָרִים אֲשֶׁר אֹמַר אֵלֶיךָ",
+         "en": "Some time afterward, God put Abraham to the test, saying to him, “Abraham.” He answered, “Here I am.” “Take your son, your favored one, Isaac, whom you love, and go to the land of Moriah, and offer him there as a burnt offering on one of the heights that I will point out to you.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 22:1-2"
+         },
+         "tl": "Vay'hi achar had'varim ha-eileh v'ha-Elohim nisah et Avraham vayomer eilav Avraham vayomer hineini\nVayomer kach na et bincha et y'chidcha asher ahavta et Yitzchak v'lech l'cha el eretz hamoriyah v'ha-aleihu sham l'olah al achad heharim asher omar eilecha"
+        },
+        {
+         "kind": "concept",
+         "title": "Your son, your only one",
+         "body": "Why does God name Isaac so slowly? **Rashi** retells a Talmudic dialogue: God: \"Your son.\" Abraham: \"I have two sons.\" God: \"Your only one.\" Abraham: \"Each is the only son of his mother.\" God: \"Whom you love.\" Abraham: \"I love them both.\" God: \"Isaac.\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 22:2",
+          "note": "from Sanhedrin 89b"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "הִנֵּנִי",
+         "tl": "Hineini",
+         "gloss": "**Hineni**, here I am. Not a place but **readiness**: I'm listening, I'm present. The same word answers God, a son and an angel.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 22:1, 22:7, 22:11"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 22:6-8",
+         "ref": "Genesis 22:6-8",
+         "he": "וַיִּקַּח אַבְרָהָם אֶת־עֲצֵי הָעֹלָה וַיָּשֶׂם עַל־יִצְחָק בְּנוֹ וַיִּקַּח בְּיָדוֹ אֶת־הָאֵשׁ וְאֶת־הַמַּאֲכֶלֶת וַיֵּלְכוּ שְׁנֵיהֶם יַחְדָּו\nוַיֹּאמֶר יִצְחָק אֶל־אַבְרָהָם אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּי בְנִי וַיֹּאמֶר הִנֵּה הָאֵשׁ וְהָעֵצִים וְאַיֵּה הַשֶּׂה לְעֹלָה\nוַיֹּאמֶר אַבְרָהָם אֱלֹהִים יִרְאֶה־לּוֹ הַשֶּׂה לְעֹלָה בְּנִי וַיֵּלְכוּ שְׁנֵיהֶם יַחְדָּו",
+         "en": "Abraham took the wood for the burnt offering and put it on his son Isaac. He himself took the firestone and the knife; and the two walked off together. Then Isaac said to his father Abraham, “Father!” And he answered, “Yes, my son.” And he said, “Here are the firestone and the wood; but where is the sheep for the burnt offering?” And Abraham said, “It is God who will see to the sheep for this burnt offering, my son.” And the two of them walked on together.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 22:6-8"
+         },
+         "tl": "Vayikach Avraham et atzei ha-olah vayasem al Yitzchak b'no vayikach b'yado et ha-eish v'et hama-achelet vayeilchu sh'neihem yachdav\nVayomer Yitzchak el Avraham aviv vayomer avi vayomer hineni v'ni vayomer hinei ha-eish v'ha-eitzim v'ayei haseh l'olah\nVayomer Avraham Elohim yir'eh lo haseh l'olah b'ni vayeilchu sh'neihem yachdav",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "וַיֵּלְכוּ שְׁנֵיהֶם יַחְדָּו",
+         "tl": "Vayeilchu sh'neihem yachdav",
+         "gloss": "**Vayelchu sh'neihem yachdav**, \"the two walked off together\" (22:6), said again in 22:8. **Rashi**: Abraham, who knew what was coming, walked with the same willingness as Isaac, who did not.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 22:6"
+         },
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "אֱלֹהִים יִרְאֶה־לּוֹ הַשֶּׂה לְעֹלָה",
+         "tl": "Elohim yir'eh lo haseh l'olah",
+         "gloss": "**Elohim yir'eh lo haseh**, \"God will see to the sheep\" (22:8): Abraham's answer to Isaac's question. The same verb, **to see**, names the place afterward: **Adonai yireh** (22:14).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 22:8, 22:14"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 22:11-12",
+         "ref": "Genesis 22:11-12",
+         "he": "וַיִּקְרָא אֵלָיו מַלְאַךְ יְיָ מִן־הַשָּׁמַיִם וַיֹּאמֶר אַבְרָהָם אַבְרָהָם וַיֹּאמֶר הִנֵּנִי\nוַיֹּאמֶר אַל־תִּשְׁלַח יָדְךָ אֶל־הַנַּעַר וְאַל־תַּעַשׂ לוֹ מְאוּמָה כִּי עַתָּה יָדַעְתִּי כִּי־יְרֵא אֱלֹהִים אַתָּה וְלֹא חָשַׂכְתָּ אֶת־בִּנְךָ אֶת־יְחִידְךָ מִמֶּנִּי",
+         "en": "Then a messenger of יהוה called to him from heaven: “Abraham! Abraham!” And he answered, “Here I am.” “Do not raise your hand against the boy, or do anything to him. For now I know that you fear God, since you have not withheld your son, your favored one, from Me.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 22:11-12"
+         },
+         "tl": "Vayikra eilav mal'ach Adonai min hashamayim vayomer Avraham Avraham vayomer hineini\nVayomer al tishlach yadcha el hana-ar v'al ta-as lo m'umah ki atah yadati ki y'rei Elohim atah v'lo chasachta et bincha et y'chidcha mimeni",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "The ram and the shofar",
+         "body": "Abraham looks up and sees **a ram caught by its horns** (22:13), and offers it instead of his son. **Rabbi Abbahu**: that's why the Rosh Hashanah shofar is a **ram's horn**. God says: blow it before Me, and I will **remember the binding of Isaac**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rosh Hashanah 16a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "shofar",
+         "type": "pick",
+         "q": "According to Rosh Hashanah 16a, why is the shofar a ram's horn?",
+         "choices": [
+          "To recall the ram offered instead of Isaac",
+          "Rams were the only animals with horns",
+          "Abraham blew it on the mountain"
+         ],
+         "answer": 0,
+         "why": "God says: sound a ram's horn, and **I will remember the binding of Isaac** for you.",
+         "wrong_why": [
+          null,
+          "Other animals have horns too; the Talmud gives a different reason.",
+          "The Torah doesn't say Abraham blew a horn."
+         ],
+         "look_again": 9,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rosh Hashanah 16a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Where is Isaac?",
+         "body": "At the end, \"**Abraham** returned to his servants\" (22:19). Isaac isn't mentioned. **Ibn Ezra** (12th-century Spain): he was there, in his father's care. Those who claim Isaac was actually slaughtered and revived, he says, **contradict the text**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Ibn Ezra on Genesis 22:19"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "isaac-missing",
+         "type": "why",
+         "q": "How does Ibn Ezra explain why Isaac isn't named in 22:19?",
+         "choices": [
+          "He was there, in Abraham's care",
+          "He had been slaughtered and revived",
+          "He had gone off on his own"
+         ],
+         "answer": 0,
+         "why": "He reads Isaac as **present and safe**, and rejects the idea that he died.",
+         "wrong_why": [
+          null,
+          "Ibn Ezra rejects that reading as contradicting Scripture.",
+          "That isn't Ibn Ezra's explanation."
+         ],
+         "look_again": 11,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Ibn Ezra on Genesis 22:19"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "The Talmud has this chapter read on the **second day of Rosh Hashanah**, to recall the binding on the day of judgment (Megillah 31a), and the **shofar** recalls it every year. Many congregations read it on Rosh Hashanah; check what CBB reads.",
+         "links": []
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Hineni means being fully present. Where in your life right now would you like to be able to say hineni?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "**Hineni**: here I am, said to God, Isaac and the angel.",
+          "Rashi: \"your son... your only one... whom you love... Isaac.\"",
+          "**The two walked together** (Rashi 22:6).",
+          "The ram's horn: **the shofar remembers the binding** (Rosh Hashanah 16a).",
+          "Ibn Ezra: Isaac was there, **safe**, at the end."
+         ]
+        }
+       ],
+       "season": null
       }
      ]
     },

@@ -1,0 +1,147 @@
+{
+ "fetched": "2026-11-09",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Akedah lesson). Cantillation and footnotes stripped, <br> to space, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 22:1-2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה וְהָאֱלֹהִים נִסָּה אֶת־אַבְרָהָם וַיֹּאמֶר אֵלָיו אַבְרָהָם וַיֹּאמֶר הִנֵּנִי",
+    "וַיֹּאמֶר קַח־נָא אֶת־בִּנְךָ אֶת־יְחִידְךָ אֲשֶׁר־אָהַבְתָּ אֶת־יִצְחָק וְלֶךְ־לְךָ אֶל־אֶרֶץ הַמֹּרִיָּה וְהַעֲלֵהוּ שָׁם לְעֹלָה עַל אַחַד הֶהָרִים אֲשֶׁר אֹמַר אֵלֶיךָ"
+   ],
+   "sha": [
+    "0a2cf313570a611d5b262045f6f70b3d15430b17e1bf9a67120e560426d130d3",
+    "0bf4758697b05ef7174b6f60fd115a5aceeb4fd1bd1901349c367a70423fe8e1"
+   ]
+  },
+  {
+   "ref": "Genesis 22:1-2",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Some time afterward, God put Abraham to the test, saying to him, “Abraham.” He answered, “Here I am.”",
+    "“Take your son, your favored one, Isaac, whom you love, and go to the land of Moriah, and offer him there as a burnt offering on one of the heights that I will point out to you.”"
+   ],
+   "sha": [
+    "e6501f224442d79b2b473bc8370b359eda0c2df5a85bfd334a3ad043b52ea19e",
+    "816d42a25620d1be4173cbbcf2018976113f60cea6b9bb35bd2de57f9023a602"
+   ]
+  },
+  {
+   "ref": "Genesis 22:6-8",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּקַּח אַבְרָהָם אֶת־עֲצֵי הָעֹלָה וַיָּשֶׂם עַל־יִצְחָק בְּנוֹ וַיִּקַּח בְּיָדוֹ אֶת־הָאֵשׁ וְאֶת־הַמַּאֲכֶלֶת וַיֵּלְכוּ שְׁנֵיהֶם יַחְדָּו",
+    "וַיֹּאמֶר יִצְחָק אֶל־אַבְרָהָם אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּי בְנִי וַיֹּאמֶר הִנֵּה הָאֵשׁ וְהָעֵצִים וְאַיֵּה הַשֶּׂה לְעֹלָה",
+    "וַיֹּאמֶר אַבְרָהָם אֱלֹהִים יִרְאֶה־לּוֹ הַשֶּׂה לְעֹלָה בְּנִי וַיֵּלְכוּ שְׁנֵיהֶם יַחְדָּו"
+   ],
+   "sha": [
+    "3a6ba8040423a8ab492b14d3303c35700170219df290f03863671a4dc58b4738",
+    "dc6075e67ab1949b916880caa2922d9731c01166a0e5dcc6bc2eab1aea5109c5",
+    "4e99cafd371192fca52e5d7bdb4882cc90ccea9c8f5ff311a800bef21f240d4a"
+   ]
+  },
+  {
+   "ref": "Genesis 22:6-8",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Abraham took the wood for the burnt offering and put it on his son Isaac. He himself took the firestone and the knife; and the two walked off together.",
+    "Then Isaac said to his father Abraham, “Father!” And he answered, “Yes, my son.” And he said, “Here are the firestone and the wood; but where is the sheep for the burnt offering?”",
+    "And Abraham said, “It is God who will see to the sheep for this burnt offering, my son.” And the two of them walked on together."
+   ],
+   "sha": [
+    "2aff08435f2f95df09e42cbd0dd2a71ddf75299b120e2cd7f68c974736ec821f",
+    "d1ad87557863b5a03296697528158d7d2935a74fd2e25800ad24fb1ede2d601f",
+    "a98ff6df7d3c8a8f4946118b6c53fec83dfac9da766ae47afae9d3b3cd90a9a5"
+   ]
+  },
+  {
+   "ref": "Genesis 22:11-12",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּקְרָא אֵלָיו מַלְאַךְ יְהֹוָה מִן־הַשָּׁמַיִם וַיֹּאמֶר אַבְרָהָם אַבְרָהָם וַיֹּאמֶר הִנֵּנִי",
+    "וַיֹּאמֶר אַל־תִּשְׁלַח יָדְךָ אֶל־הַנַּעַר וְאַל־תַּעַשׂ לוֹ מְאוּמָה כִּי עַתָּה יָדַעְתִּי כִּי־יְרֵא אֱלֹהִים אַתָּה וְלֹא חָשַׂכְתָּ אֶת־בִּנְךָ אֶת־יְחִידְךָ מִמֶּנִּי"
+   ],
+   "sha": [
+    "1839790374e2dff8bee3419e32b3b2f674e986cb5ad06a38283d2ee6f36cbf8e",
+    "b7f448d5e8007a8040f0fd5216f830a84e1853a35d6b395c4a065084c9a2c3ef"
+   ]
+  },
+  {
+   "ref": "Genesis 22:11-12",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then a messenger of יהוה called to him from heaven: “Abraham! Abraham!” And he answered, “Here I am.”",
+    "“Do not raise your hand against the boy, or do anything to him. For now I know that you fear God, since you have not withheld your son, your favored one, from Me.”"
+   ],
+   "sha": [
+    "3c50f20cf28183d52211073c8a09622d41aea0c13e2b60e0b275512cd03d93db",
+    "2d0e9fb9b1064c094ec026a3bee7f8e728571e7312c03e95a8d603f12b95d903"
+   ]
+  },
+  {
+   "ref": "Genesis 22:13-14",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּשָּׂא אַבְרָהָם אֶת־עֵינָיו וַיַּרְא וְהִנֵּה־אַיִל אַחַר נֶאֱחַז בַּסְּבַךְ בְּקַרְנָיו וַיֵּלֶךְ אַבְרָהָם וַיִּקַּח אֶת־הָאַיִל וַיַּעֲלֵהוּ לְעֹלָה תַּחַת בְּנוֹ",
+    "וַיִּקְרָא אַבְרָהָם שֵׁם־הַמָּקוֹם הַהוּא יְהֹוָה יִרְאֶה אֲשֶׁר יֵאָמֵר הַיּוֹם בְּהַר יְהֹוָה יֵרָאֶה"
+   ],
+   "sha": [
+    "a5e355abb1cf39bdcae818b35713d9a9601d1c24590d8bd2f60b98e0f0bc0e64",
+    "e3e29f833dc9bf59eedc0af177989165bb303ef622059ca2652077716b530bc3"
+   ]
+  },
+  {
+   "ref": "Genesis 22:13-14",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "When Abraham looked up, his eye fell upon a ram, caught in the thicket by its horns. So Abraham went and took the ram and offered it up as a burnt offering in place of his son.",
+    "And Abraham named that site Adonai-yireh, whence the present saying, “On the mount of יהוה there is vision.”"
+   ],
+   "sha": [
+    "ade7dcd7747e29b095685f8122a3bfb9976d2ed57c8dbbf0f90122a6fa367609",
+    "a3fe533b516445112daf7c181e2cbff70f0a7c7fe86bfac0fb2eec9c2e5a1c42"
+   ]
+  },
+  {
+   "ref": "Genesis 22:19",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיָּשׇׁב אַבְרָהָם אֶל־נְעָרָיו וַיָּקֻמוּ וַיֵּלְכוּ יַחְדָּו אֶל־בְּאֵר שָׁבַע וַיֵּשֶׁב אַבְרָהָם בִּבְאֵר שָׁבַע {פ}"
+   ],
+   "sha": [
+    "fb9975318b1b7f05fbdc280247895cb0ebae095042bf147a48fc0263a0fc75cc"
+   ]
+  },
+  {
+   "ref": "Genesis 22:19",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Abraham then returned to his servants, and they departed together for Beer-sheba; and Abraham stayed in Beer-sheba."
+   ],
+   "sha": [
+    "21a8b93faac52f09f0eeba4c43fc5485d85a6bdacab07329b1f7c11837f64230"
+   ]
+  }
+ ]
+}
