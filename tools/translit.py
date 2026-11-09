@@ -41,6 +41,8 @@ EXCEPT.update({"קָרְבָה": "korvah", "אָזְנָי": "oznai", "דָּכ�
                "וֶאֱמוּנָתְךָ": "ve-emunat'cha", "עָמְקוּ": "amku", "לְהִשָּׁמְדָם": "l'hishamdam", "אֹיְבֶיךָ": "oyvecha", "יִתְפָּרְדוּ": "yitpardu",
                "מָלָךְ": "malach", "נָשְׂאוּ": "nas'u", "לְבֵיתְךָ": "l'veit'cha", "גָּדְלוּ": "gadlu"})  # 11/01 Kabbalat Shabbat: kamatz katan in korvah, oznai, dochyam  # 10/30 Aleinu: sh'va after holam is vocal; kamatz katan
 
+EXCEPT.update({"יוֹנָה": "Yonah", "זְרֻבָּבֶל": "Z'rubavel", "וְנִינְוֵה": "v'Nin'veih", "רוּת": "Rut"})  # names (holiday stories, 11/09)
+
 def _letters(word):
     """Split a word into [letter, set(points)]."""
     out = []

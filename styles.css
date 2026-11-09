@@ -206,3 +206,11 @@ button.small { padding: 6px 14px; font-size: .9rem; }
 .row-btns > .primary, .row-btns > .secondary { margin-top: 10px; }
 .card.week { text-align: left; margin-bottom: 14px; border-color: var(--accent); }
 .xcard .line-he, .xcard .hint { white-space: pre-line; }
+
+/* trope */
+.big.mark { font-size: 6rem; line-height: 1.6; }
+.verse { font-family: var(--he); font-size: 1.7rem; line-height: 2.1; }
+.verse .hl { background: rgba(47,93,98,.18); border-radius: 6px; padding: 0 3px; }
+.verse .half1 { color: var(--accent); }
+.tc-text { text-align: left; margin: 12px 0 4px; }
+.melody-chip { display: inline-block; margin-top: 10px; padding: 3px 10px; border-radius: 999px; background: rgba(127,127,127,.15); color: var(--muted); font-size: .8rem; }

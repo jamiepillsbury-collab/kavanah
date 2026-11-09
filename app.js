@@ -298,6 +298,7 @@
   let run = null;
   function buildLesson(lesson) {
     if (lesson.prayer) return buildPrayerLesson(lesson);
+    if (lesson.trope) return buildTropeLesson(lesson);
     const steps = [], second = [];
     const syls = lesson.items.filter((id) => course.items[id].kind === "syllable");
     for (const id of lesson.items) {
@@ -326,6 +327,8 @@
     const out = shuffle(pick).map((id) => {
       const it = course.items[id], r = Math.random();
       if (it.kind === "line") return { id, mode: r < 0.5 ? "order" : "fill" };
+      if (it.kind === "mark") return { id, mode: "tmark" };
+      if (it.kind === "tq") return { id, mode: "tq" };
       if (it.kind === "word" && r > 0.85) return { id, mode: "type" };
       if (canHear(it) && r < 0.3) return { id, mode: "hear" };
       return { id, mode: it.kind === "vowel" || r < 0.65 ? "read" : "find" };
@@ -370,6 +373,10 @@
     const btn = (text, onclick, disabled) => h("button", { class: "primary", onclick, disabled }, text);
     view.replaceChildren(h("div", { class: "progress" }, h("i", { style: `width:${(i / steps.length) * 100}%` })));
 
+    if (step.mode === "tcard") return renderTCard(step.card, bar, next);
+    if (step.mode === "tq") return renderTQ(it, bar, next, step);
+    if (step.mode === "tintro") { view.append(markCard(it, rec(step.id) ? "Refresher" : "New mark"), bar); bar.append(btn("Continue", next)); return; }
+    if (step.mode === "tmark") return renderTMark(it, bar, next, step);
     if (step.mode === "intro" && it.kind === "word") { view.append(wordCard(it, step.id), bar); bar.append(btn("Continue", next)); speak(it); return; }
     if (step.mode === "about") return renderAbout(it, bar, next);
     if (step.mode === "line") return renderLine(it, bar, next, step.id);
@@ -452,6 +459,92 @@
       })),
       bar);
     if (step.mode === "hear") speak(it);
+  }
+
+
+  // ---------- trope (cantillation): data/trope.json, built by tools/gen_trope.py ----------
+  function addTrope(d) { Object.assign(course.items, d.items); course.units.push(...d.units); }
+  const melodyChip = () => h("span", { class: "melody-chip" }, "Melody: not recorded yet");
+  const roleText = (it) => (it.role === "ruler" ? "Ruler (disjunctive): marks a pause" : "Connector (conjunctive): joins to the next word");
+  function verseView(v) {
+    if (v.plain) return h("div", { class: "line-he verse", lang: "he", dir: "rtl" }, v.he);
+    const words = v.he_t.split(" "), et = v.split ? words.findIndex((w) => w.includes("֑")) : -1;
+    return h("div", { class: "line-he verse", lang: "he", dir: "rtl" }, words.map((w, n) => {
+      const cls = [];
+      if (et >= 0) cls.push(n <= et ? "half1" : "half2");
+      if (v.hi && [...v.hi].some((c) => w.includes(c))) cls.push("hl");
+      return [h("span", { class: cls.join(" ") || null }, w), " "];
+    }));
+  }
+  function buildTropeLesson(l) {
+    const steps = [];
+    for (const s of l.steps) {
+      if (s.t === "card") steps.push({ mode: "tcard", card: s });
+      else if (s.t === "q") steps.push({ id: s.id, mode: "tq" });
+      else if (s.t === "drill") {
+        for (const id of s.marks) if (!rec(id) || mastery(id) === 0) steps.push({ id, mode: "tintro" });
+        shuffle(s.marks).forEach((id) => steps.push({ id, mode: "tmark" }));
+      }
+    }
+    return steps;
+  }
+  function renderTCard(c, bar, next) {
+    view.append(h("div", { class: "card tcard" },
+      c.label ? h("p", { class: "prompt-label" }, c.label) : null,
+      c.verse ? verseView(c.verse) : null,
+      c.verse ? h("small", { class: "src" }, c.verse.ref + (c.verse.split ? " · first half colored" : "")) : null,
+      h("p", { class: "tc-text" }, c.text),
+      c.chip ? melodyChip() : null,
+      h("small", { class: "src" }, "Source: " + c.src)), bar);
+    bar.append(h("button", { class: "primary", onclick: next }, "Continue"));
+  }
+  function markCard(it, label) {
+    return h("div", { class: "card" },
+      label ? h("p", { class: "prompt-label" }, label) : null,
+      h("div", { class: "big mark", lang: "he" }, it.he),
+      h("div", { class: "name" }, it.name),
+      h("div", { class: "note" }, roleText(it) + ". Position: " + it.pos + "."),
+      it.note ? h("div", { class: "note" }, it.note) : null,
+      it.ex ? h("div", {}, verseView({ he_t: it.ex.word, hi: it.ch[0] }), h("small", { class: "src" }, "In " + it.ex.ref)) : null,
+      melodyChip(), h("small", { class: "src" }, it.src));
+  }
+  function choiceRow(keys, labelOf, onPick) {
+    return h("div", { class: "opts" }, keys.map((k) => {
+      const b = h("button", { class: "opt", "data-k": String(k) }, labelOf(k));
+      b.addEventListener("click", () => { onPick(k); for (const o of view.querySelectorAll(".opt")) o.classList.toggle("sel", o === b); });
+      return b;
+    }));
+  }
+  function gradeOpts(right, picked) {
+    for (const b of view.querySelectorAll(".opt")) {
+      b.disabled = true;
+      if (b.dataset.k === String(right)) b.classList.add("right");
+      else if (b.dataset.k === String(picked)) b.classList.add("wrong");
+    }
+  }
+  function renderTQ(it, bar, next, step) {
+    let picked = null;
+    const check = h("button", { class: "primary", disabled: true, onclick: () => {
+      gradeOpts(it.a, picked);
+      quizBar(step, picked === it.a, it, bar, next, [h("div", { class: "note" }, it.why), h("small", { class: "src" }, "Source: " + it.src)]);
+    } }, "Check");
+    view.append(h("div", { class: "card" }, h("p", { class: "prompt-label" }, "Check"), h("div", { class: "name" }, it.q)),
+      choiceRow(shuffle(it.opts.map((_, n) => n)), (n) => it.opts[n], (n) => { picked = n; check.disabled = false; }), bar);
+    bar.append(check);
+  }
+  function renderTMark(it, bar, next, step) {
+    // look-alikes the learner has met first, then other marks of this run, then unmet look-alikes; never a same-shape mark
+    const runMarks = run.lessonIds.filter((x) => course.items[x] && course.items[x].kind === "mark");
+    const ok = (x) => x !== step.id && !it.same.includes(x) && course.items[x];
+    const ds = [...new Set([...it.look.filter((x) => runMarks.includes(x)), ...shuffle(runMarks), ...it.look].filter(ok))].slice(0, 3);
+    let picked = null;
+    const check = h("button", { class: "primary", disabled: true, onclick: () => {
+      gradeOpts(step.id, picked);
+      quizBar(step, picked === step.id, it, bar, next, [h("div", { class: "fb-ans" }, `${it.name} · ${it.role}`), melodyChip()]);
+    } }, "Check");
+    view.append(h("div", { class: "card" }, h("p", { class: "prompt-label" }, "Name the mark"), h("div", { class: "big mark", lang: "he" }, it.he)),
+      choiceRow(shuffle([step.id, ...ds]), (x) => course.items[x].name, (x) => { picked = x; check.disabled = false; }), bar);
+    bar.append(check);
   }
 
   // ---------- words & blessings ----------
@@ -671,7 +764,7 @@
         h("summary", {}, `Lessons (${u.lessons.length})`),
         u.lessons.map((l) => {
           const pct = lessonPct(l);
-          const preview = l.prayer ? heWords(course.items[l.items[0]].he).slice(0, 2).join(" ") : l.items.filter((id) => course.items[id].kind !== "syllable").slice(0, 3).map((id) => course.items[id].he.replace("◌", "")).join(" ");
+          const preview = l.trope ? l.icon : l.prayer ? heWords(course.items[l.items[0]].he).slice(0, 2).join(" ") : l.items.filter((id) => course.items[id].kind !== "syllable").slice(0, 3).map((id) => course.items[id].he.replace("◌", "")).join(" ");
           return h("button", { class: "lesson" + (l === next ? " next" : ""), onclick: () => startRun(l.title, buildLesson(l), l.items) },
             h("span", { class: "he", lang: "he" }, preview),
             h("span", { class: "meta" }, l.subtitle ? `${l.title} · ${l.subtitle}` : l.title, h("small", {}, pct >= 0.99 ? "Mastered · tap to replay" : l === next ? "Up next" : l.items.some(isDue) ? "Fading · tap to refresh" : pct > 0 ? "Tap to replay" : `${l.items.length} items`),
@@ -762,6 +855,7 @@
       Object.assign(course.items, d.items);
     }
     try { addPrayers(await (await fetch("data/prayers.json")).json()); } catch (e) { console.warn("prayers", e); }
+    try { addTrope(await (await fetch("data/trope.json")).json()); } catch (e) { console.warn("trope", e); }
     try { strokes = await (await fetch("data/strokes.json")).json(); } catch (e) { strokes = null; }
     await X.load();
     showTab("learn");

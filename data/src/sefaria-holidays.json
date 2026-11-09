@@ -1,0 +1,121 @@
+{
+ "fetched": "2026-11-09",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Holiday stories). Cantillation and footnotes stripped, <br> to space, NFC. Per-line SHA-256 checked against the browser fetch (16-hex prefixes).",
+ "sources": [
+  {
+   "ref": "Ruth 1:16-17",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתֹּאמֶר רוּת אַל־תִּפְגְּעִי־בִי לְעׇזְבֵךְ לָשׁוּב מֵאַחֲרָיִךְ כִּי אֶל־אֲשֶׁר תֵּלְכִי אֵלֵךְ וּבַאֲשֶׁר תָּלִינִי אָלִין עַמֵּךְ עַמִּי וֵאלֹהַיִךְ אֱלֹהָֽי׃",
+    "בַּאֲשֶׁר תָּמוּתִי אָמוּת וְשָׁם אֶקָּבֵר כֹּה יַעֲשֶׂה יְהֹוָה לִי וְכֹה יוֹסִיף כִּי הַמָּוֶת יַפְרִיד בֵּינִי וּבֵינֵֽךְ׃"
+   ],
+   "sha": [
+    "3b54123efb06e64ae0579a821a7b7aa3939cfc6d8b673ffef30568bc3f89547e",
+    "b74724b2181549779386a7f6b0619b57a9b1e8fbbd1828241805ee4aa90200fd"
+   ]
+  },
+  {
+   "ref": "Ruth 1:16-17",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "But Ruth replied, “Do not urge me to leave you, to turn back and not follow you. For wherever you go, I will go; wherever you lodge, I will lodge; your people shall be my people, and your God my God.",
+    "Where you die, I will die, and there I will be buried. Thus and more may GOD do to me if anything but death parts me from you.”"
+   ],
+   "sha": [
+    "07a5a18ab71a9bd942b49f665a278ac5d1f4d289bc0bf683bceb2954a42948a1",
+    "b25c94f26c787ca81df5529e42297b5b3d706a475155f52365825b04ef070a37"
+   ]
+  },
+  {
+   "ref": "Ruth 3:9-10",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר מִי־אָתְּ וַתֹּאמֶר אָֽנֹכִי רוּת אֲמָתֶךָ וּפָרַשְׂתָּ כְנָפֶךָ עַל־אֲמָתְךָ כִּי גֹאֵל אָֽתָּה׃",
+    "וַיֹּאמֶר בְּרוּכָה אַתְּ לַֽיהֹוָה בִּתִּי הֵיטַבְתְּ חַסְדֵּךְ הָאַחֲרוֹן מִן־הָרִאשׁוֹן לְבִלְתִּי־לֶכֶת אַֽחֲרֵי הַבַּחוּרִים אִם־דַּל וְאִם־עָשִֽׁיר׃"
+   ],
+   "sha": [
+    "5f42371458bcbd1950cd7b1ca2e7fe2229246a10568b9606a3a4d382ec35bd65",
+    "b6d318f3258e9fe320df73f0b164c85f11b2c570bc29fc732672c0ada38b4fd2"
+   ]
+  },
+  {
+   "ref": "Numbers 7:84",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "זֹאת&thinsp;׀ חֲנֻכַּת הַמִּזְבֵּחַ בְּיוֹם הִמָּשַׁח אֹתוֹ מֵאֵת נְשִׂיאֵי יִשְׂרָאֵל קַעֲרֹת כֶּסֶף שְׁתֵּים עֶשְׂרֵה מִֽזְרְקֵי־כֶסֶף שְׁנֵים עָשָׂר כַּפּוֹת זָהָב שְׁתֵּים עֶשְׂרֵֽה׃"
+   ],
+   "sha": [
+    "49c5524e7265628078ff46177f753bbb4f336792dce0ebc634ec5be440f8e434"
+   ]
+  },
+  {
+   "ref": "Zechariah 4:6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּעַן וַיֹּאמֶר אֵלַי לֵאמֹר זֶה דְּבַר־יְהֹוָה אֶל־זְרֻבָּבֶל לֵאמֹר לֹא בְחַיִל וְלֹא בְכֹחַ כִּי אִם־בְּרוּחִי אָמַר יְהֹוָה צְבָאֽוֹת׃"
+   ],
+   "sha": [
+    "a5f65a3d8e1c3d88146b6470c7dc77e6faf0f5e93ae910c4ab8ef47cfeffdece"
+   ]
+  },
+  {
+   "ref": "Zechariah 4:6",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then he explained to me as follows: “This is the word of GOD to Zerubbabel: Not by might, nor by power, but by My spirit—said GOD of Hosts."
+   ],
+   "sha": [
+    "6edb9c6e549772fa2e59945e07c2ba47e21858353432ecbc035e167fd1e06609"
+   ]
+  },
+  {
+   "ref": "Jonah 3:4",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיָּחֶל יוֹנָה לָבוֹא בָעִיר מַהֲלַךְ יוֹם אֶחָד וַיִּקְרָא וַיֹּאמַר עוֹד אַרְבָּעִים יוֹם וְנִֽינְוֵה נֶהְפָּֽכֶת׃"
+   ],
+   "sha": [
+    "f6cc48e7571146b1c8a12c4fbe4b0f997749fc626b61a292e38e81c996edc2a5"
+   ]
+  },
+  {
+   "ref": "Jonah 3:4",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+   "text": [
+    "Jonah started out and made his way into the city the distance of one day’s walk, and proclaimed: “Forty days more, and Nineveh shall be overthrown!”"
+   ],
+   "sha": [
+    "5c7cb91023465cef6eb6d5f987807d226dd482f7e75fbd82ecdedef00120f365"
+   ]
+  },
+  {
+   "ref": "Jonah 3:10",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּרְא הָֽאֱלֹהִים אֶת־מַעֲשֵׂיהֶם כִּי־שָׁבוּ מִדַּרְכָּם הָרָעָה וַיִּנָּחֶם הָאֱלֹהִים עַל־הָרָעָה אֲשֶׁר־דִּבֶּר לַעֲשׂוֹת־לָהֶם וְלֹא עָשָֽׂה׃"
+   ],
+   "sha": [
+    "aa037ebd115895e034456d5a3ac84029f73e329b1766c9121d188cdeb2deac07"
+   ]
+  }
+ ]
+}

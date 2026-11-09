@@ -2131,6 +2131,22 @@
          }
         },
         {
+         "kind": "text",
+         "sefaria": "Ruth 1:16-17",
+         "ref": "Ruth 1:16-17",
+         "he": "וַתֹּאמֶר רוּת אַל־תִּפְגְּעִי־בִי לְעׇזְבֵךְ לָשׁוּב מֵאַחֲרָיִךְ כִּי אֶל־אֲשֶׁר תֵּלְכִי אֵלֵךְ וּבַאֲשֶׁר תָּלִינִי אָלִין עַמֵּךְ עַמִּי וֵאלֹהַיִךְ אֱלֹהָֽי׃\nבַּאֲשֶׁר תָּמוּתִי אָמוּת וְשָׁם אֶקָּבֵר כֹּה יַעֲשֶׂה יְיָ לִי וְכֹה יוֹסִיף כִּי הַמָּוֶת יַפְרִיד בֵּינִי וּבֵינֵֽךְ׃",
+         "en": "But Ruth replied, “Do not urge me to leave you, to turn back and not follow you. For wherever you go, I will go; wherever you lodge, I will lodge; your people shall be my people, and your God my God. Where you die, I will die, and there I will be buried. Thus and more may GOD do to me if anything but death parts me from you.”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Ruth 1:16-17"
+         },
+         "tl": "Vatomer Rut al tifg'i vi l'ozveich lashuv mei-acharayich ki el asher teilchi eileich uva-asher talini alin ameich ami veilohayich Elohai.\nBa-asher tamuti amut v'sham ekaveir ko ya-aseh Adonai li v'cho yosif ki hamavet yafrid beini uveineich.",
+         "tlf": true
+        },
+        {
          "kind": "concept",
          "title": "Gleaning",
          "body": "They reach Bethlehem as the **barley harvest** begins. Ruth goes out to **glean**, picking up the grain the reapers leave behind. The Torah tells farmers to leave the edges of the field and the fallen grain **for the poor and the stranger**. Ruth is both.",
@@ -2158,7 +2174,7 @@
           "Boaz only notices her after she is already gleaning. He never hires her.",
           "Naomi came home with nothing. She had no crop."
          ],
-         "look_again": 3,
+         "look_again": 4,
          "src": {
           "type": "torah",
           "ref": "Leviticus 19:9-10"
@@ -2183,6 +2199,16 @@
          }
         },
         {
+         "kind": "term",
+         "he": "כִּי גֹאֵל אָתָּה",
+         "tl": "Ki go-eil atah",
+         "gloss": "\"For you are a **redeemer**\" (3:9). Ruth asks Boaz to step in as **go'el**, the relative who takes responsibility for the family.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 3:9"
+         }
+        },
+        {
          "kind": "check",
          "id": "q2",
          "idea": "redeemer",
@@ -2200,7 +2226,7 @@
           "Boaz settles it at the town gate in front of elders, but as a relative, not as a judge.",
           "No priest appears anywhere in the book."
          ],
-         "look_again": 6,
+         "look_again": 7,
          "src": {
           "type": "tanakh",
           "ref": "Ruth 4:1-10"
@@ -2233,7 +2259,7 @@
           "Solomon is David's son, one generation further down.",
           "Samuel anoints David as king but isn't related to Ruth."
          ],
-         "look_again": 8,
+         "look_again": 10,
          "src": {
           "type": "tanakh",
           "ref": "Ruth 4:17"
@@ -2246,6 +2272,16 @@
          "src": {
           "type": "rabbinic",
           "ref": "Ruth Rabbah 2:14"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "הֵיטַבְתְּ חַסְדֵּךְ הָאַחֲרוֹן מִן־הָרִאשׁוֹן",
+         "tl": "Heitavt chasdeich ha-acharon min harishon",
+         "gloss": "\"Your latest **hesed** is greater than your first\" (3:10). Boaz praises Ruth's loyal kindness: first to Naomi, now to the whole family.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 3:10"
          }
         },
         {
@@ -2397,6 +2433,16 @@
          }
         },
         {
+         "kind": "term",
+         "he": "חֲנֻכַּת הַמִּזְבֵּחַ",
+         "tl": "Chanukat hamizbeiach",
+         "gloss": "\"The **dedication of the altar**\" (Numbers 7:84). The same word names the dedication of the Tabernacle's altar in the Torah. That chapter is the Torah reading during Hanukkah.",
+         "src": {
+          "type": "torah",
+          "ref": "Numbers 7:84"
+         }
+        },
+        {
          "kind": "check",
          "id": "q2",
          "idea": "dedication",
@@ -2447,7 +2493,7 @@
           "1 Maccabees has eight days of celebration but no oil miracle.",
           "Hanukkah happened long after the Torah was written."
          ],
-         "look_again": 9,
+         "look_again": 10,
          "src": {
           "type": "rabbinic",
           "ref": "Shabbat 21b"
@@ -2462,6 +2508,21 @@
           "ref": "Zechariah 4:6",
           "note": "Paraphrased. Haftarah: Zechariah 2:14-4:7."
          }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Zechariah 4:6",
+         "ref": "Zechariah 4:6",
+         "he": "וַיַּעַן וַיֹּאמֶר אֵלַי לֵאמֹר זֶה דְּבַר־יְיָ אֶל־זְרֻבָּבֶל לֵאמֹר לֹא בְחַיִל וְלֹא בְכֹחַ כִּי אִם־בְּרוּחִי אָמַר יְיָ צְבָאֽוֹת׃",
+         "en": "Then he explained to me as follows: “This is the word of GOD to Zerubbabel: Not by might, nor by power, but by My spirit—said GOD of Hosts.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Zechariah 4:6"
+         },
+         "tl": "Vaya-an vayomer eilai leimor zeh d'var Adonai el Z'rubavel leimor lo v'chayil v'lo v'choach ki im b'ruchi amar Adonai tz'va-ot."
         },
         {
          "kind": "check",
@@ -2590,12 +2651,37 @@
          }
         },
         {
+         "kind": "text",
+         "sefaria": "Jonah 3:4",
+         "ref": "Jonah 3:4",
+         "he": "וַיָּחֶל יוֹנָה לָבוֹא בָעִיר מַהֲלַךְ יוֹם אֶחָד וַיִּקְרָא וַיֹּאמַר עוֹד אַרְבָּעִים יוֹם וְנִֽינְוֵה נֶהְפָּֽכֶת׃",
+         "en": "Jonah started out and made his way into the city the distance of one day’s walk, and proclaimed: “Forty days more, and Nineveh shall be overthrown!”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Jonah 3:4"
+         },
+         "tl": "Vayachel Yonah lavo va-ir mahalach yom echad vayikra vayomar od arba-im yom v'Nin'veih nehpachet."
+        },
+        {
          "kind": "concept",
          "title": "A city turns",
          "body": "The people believe. **Everyone fasts and wears sackcloth**, from the king down, and the king orders even the **animals** to fast. They turn from violence, and God does not destroy the city.",
          "src": {
           "type": "tanakh",
           "ref": "Jonah 3:5-10"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "כִּי־שָׁבוּ מִדַּרְכָּם הָרָעָה",
+         "tl": "Ki shavu midarkam hara-ah",
+         "gloss": "\"They **turned** from their evil way\" (3:10). **Shavu**, they turned, comes from the same root as **teshuvah**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Jonah 3:10"
          }
         },
         {
@@ -2616,7 +2702,7 @@
           "The king leads, but his decree covers the whole city.",
           "The people start it, but the king's decree spreads it to everyone, animals included."
          ],
-         "look_again": 6,
+         "look_again": 7,
          "src": {
           "type": "tanakh",
           "ref": "Jonah 3:7-8"
@@ -2650,7 +2736,7 @@
           "The sailors' prayer asks not to be blamed for his death; it has different words.",
           "The king hopes God may relent, but Jonah's words come from Exodus."
          ],
-         "look_again": 8,
+         "look_again": 10,
          "src": {
           "type": "torah",
           "ref": "Exodus 34:6-7"

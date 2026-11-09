@@ -1,0 +1,883 @@
+{
+ "note": "Built by tools/gen_trope.py. Do not edit by hand.",
+ "units": [
+  {
+   "id": "u-trope1",
+   "title": "Trope 1: What trope is",
+   "subtitle": "Cantillation marks: what they are, why there are many melodies, rulers and connectors",
+   "tiles": false,
+   "lessons": [
+    {
+     "id": "tr-1",
+     "title": "Signs, not notes",
+     "subtitle": "what the marks are",
+     "icon": "◌֑",
+     "trope": true,
+     "items": [
+      "tq-t1-what",
+      "tq-t1-neh",
+      "tq-t1-meg"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Trope",
+       "text": "Look closely at a printed Torah verse. Besides the vowels, small marks sit above and below the words. These are the te'amim, the accents. In English and Yiddish they are usually called trope.",
+       "src": "Genesis 1:1. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA). Names: Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": {
+        "ref": "Genesis 1:1",
+        "he_t": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+        "he": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ"
+       },
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "The same verse with the trope taken out. The letters and vowels are exactly the same. The trope adds a layer on top.",
+       "src": "Genesis 1:1. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA)",
+       "verse": {
+        "ref": "Genesis 1:1",
+        "he_t": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+        "he": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+        "plain": true
+       },
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "The marks do three jobs. They show which syllable is stressed. They group words into phrases, like commas and periods. And each mark stands for a short tune.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "The Talmud finds the te'amim already in Ezra's public Torah reading. It reads the words \"and caused them to understand the reading\" (Nehemiah 8:8) as the cantillation that makes the verses clear.",
+       "src": "Talmud Nedarim 37b (William Davidson translation on Sefaria)",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "The written marks came later. Scholars called the Masoretes, working mostly in Tiberias, added vowels and te'amim to the text between about the 7th and 10th centuries CE. The Aleppo Codex, about 930 CE, is the best-known example.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ (scholarly dating)",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Chanting is part of learning, not decoration. The Talmud criticizes reading Torah without a melody. One reason it gives: the tune helps you remember what you learned.",
+       "src": "Talmud Megillah 32a (William Davidson translation on Sefaria)",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "A mark is not a single note. It names a short tune, and the tune depends on the book and the community. This app teaches each mark's name, shape and job. Melodies come only from real recordings, like your cantor's.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": true
+      },
+      {
+       "t": "q",
+       "id": "tq-t1-what"
+      },
+      {
+       "t": "q",
+       "id": "tq-t1-neh"
+      },
+      {
+       "t": "q",
+       "id": "tq-t1-meg"
+      }
+     ]
+    },
+    {
+     "id": "tr-2",
+     "title": "One set of marks, many melodies",
+     "subtitle": "Torah, Haftarah, scrolls",
+     "icon": "◌֖",
+     "trope": true,
+     "items": [
+      "tq-t2-haf",
+      "tq-t2-purim",
+      "tq-t2-comm"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Melodies",
+       "text": "The same marks are sung to different melodies, depending on what is read. Ashkenazi tradition has separate melodies for the Torah, the Haftarah, Esther, Lamentations, and the other three scrolls (Ruth, Song of Songs, Ecclesiastes). The Torah also has a special melody for the High Holy Days.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "The Haftarah is the reading from the Prophets after the Torah reading on Shabbat and festivals. Same marks as the Torah, a different tune. Its blessings are in this app's Torah service unit.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Esther is chanted on Purim and Lamentations (Eicha) on Tisha B'Av, each with its own melody.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Communities differ too. Ashkenazi, Sephardi, Yemenite and other communities sing different tunes, and some marks have different names. This app uses the Ashkenazi names.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Three books, Psalms, Proverbs and Job, use a different set of marks. This course covers the system used in the other 21 books of the Tanakh.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "So you learn each mark once: its name, its shape and its job. Its tune is a second layer, learned once per melody from a recording.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": true
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-haf"
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-purim"
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-comm"
+      }
+     ]
+    },
+    {
+     "id": "tr-3",
+     "title": "Rulers and connectors",
+     "subtitle": "sof pasuk, etnachta, tipcha, mercha",
+     "icon": "◌֥",
+     "trope": true,
+     "items": [
+      "tq-t3-et",
+      "tq-t3-mer",
+      "tm-sof_pasuk",
+      "tm-etnachta",
+      "tm-tipcha",
+      "tm-mercha"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Two kinds",
+       "text": "Trope marks come in two kinds. Disjunctive marks (mafsikim) mark a pause; they are often called kings or rulers. Conjunctive marks (m'shartim, \"servants\") join a word to the next one.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Every verse ends with sof pasuk, \"end of verse\": a short line called silluk under the stressed syllable of the last word, then two dots ׃ after it.",
+       "src": "Genesis 1:1. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA)",
+       "verse": {
+        "ref": "Genesis 1:1",
+        "he_t": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+        "he": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+        "hi": "׃"
+       },
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Most verses split into two halves at etnachta, the strongest pause inside a verse. Here the first half is the first three words. Of the 58 Genesis verses in this app, 57 have an etnachta.",
+       "src": "Genesis 1:1. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA). Count: this app's verses (Genesis 2:1 has none)",
+       "verse": {
+        "ref": "Genesis 1:1",
+        "he_t": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+        "he": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+        "split": true
+       },
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Each half is divided again by smaller rulers, and connectors lead into them. A verse works like a sentence with commas inside its two halves.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": {
+        "ref": "Genesis 1:27",
+        "he_t": "וַיִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽאָדָם֙ בְּצַלְמ֔וֹ בְּצֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑וֹ זָכָ֥ר וּנְקֵבָ֖ה בָּרָ֥א אֹתָֽם׃",
+        "he": "וַיִּבְרָא אֱלֹהִים אֶת־הָאָדָם בְּצַלְמוֹ בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ זָכָר וּנְקֵבָה בָּרָא אֹתָם",
+        "split": true
+       },
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Tipcha is a ruler that usually comes just before etnachta or sof pasuk. Mercha is a connector that often leads into tipcha. In this verse's second half: mercha, tipcha, mercha, then sof pasuk.",
+       "src": "Genesis 1:1. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA). Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": {
+        "ref": "Genesis 1:1",
+        "he_t": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+        "he": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+        "hi": "֥֖"
+       },
+       "chip": false
+      },
+      {
+       "t": "drill",
+       "marks": [
+        "tm-sof_pasuk",
+        "tm-etnachta",
+        "tm-tipcha",
+        "tm-mercha"
+       ]
+      },
+      {
+       "t": "q",
+       "id": "tq-t3-et"
+      },
+      {
+       "t": "q",
+       "id": "tq-t3-mer"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "items": {
+  "tm-sof_pasuk": {
+   "kind": "mark",
+   "name": "Sof pasuk (silluk)",
+   "ch": "ֽ׃",
+   "he": "◌ֽ׃",
+   "role": "ruler",
+   "pos": "below the stressed syllable of the last word, then ׃ after the word",
+   "family": "end",
+   "note": "Ends every verse. Silluk looks like the meteg, a small vertical line; the two dots ׃ make it certain.",
+   "look": [
+    "tm-etnachta",
+    "tm-tipcha",
+    "tm-mercha"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 1:1",
+    "w": 6,
+    "word": "הָאָֽרֶץ׃"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-etnachta": {
+   "kind": "mark",
+   "name": "Etnachta",
+   "ch": "֑",
+   "he": "◌֑",
+   "role": "ruler",
+   "pos": "below",
+   "family": "etnachta",
+   "note": "The main pause inside a verse: it splits most verses in two.",
+   "look": [
+    "tm-munach",
+    "tm-mahpach",
+    "tm-yetiv"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 1:1",
+    "w": 2,
+    "word": "אֱלֹהִ֑ים"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-tipcha": {
+   "kind": "mark",
+   "name": "Tipcha",
+   "ch": "֖",
+   "he": "◌֖",
+   "role": "ruler",
+   "pos": "below",
+   "family": "mercha-tipcha",
+   "note": "Usually comes just before etnachta or sof pasuk.",
+   "look": [
+    "tm-mercha",
+    "tm-darga",
+    "tm-tevir"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 1:1",
+    "w": 0,
+    "word": "בְּרֵאשִׁ֖ית"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-mercha": {
+   "kind": "mark",
+   "name": "Mercha",
+   "ch": "֥",
+   "he": "◌֥",
+   "role": "connector",
+   "pos": "below",
+   "family": "mercha-tipcha",
+   "note": "Often leads into tipcha, or into silluk at the end of a verse.",
+   "look": [
+    "tm-tipcha",
+    "tm-darga",
+    "tm-munach"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 1:1",
+    "w": 3,
+    "word": "אֵ֥ת"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-munach": {
+   "kind": "mark",
+   "name": "Munach",
+   "ch": "֣",
+   "he": "◌֣",
+   "role": "connector",
+   "pos": "below",
+   "family": "munach-zakef",
+   "note": null,
+   "look": [
+    "tm-mahpach",
+    "tm-etnachta",
+    "tm-mercha"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 1:1",
+    "w": 1,
+    "word": "בָּרָ֣א"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-zakef_katon": {
+   "kind": "mark",
+   "name": "Zakef katon",
+   "ch": "֔",
+   "he": "◌֔",
+   "role": "ruler",
+   "pos": "above",
+   "family": "munach-zakef",
+   "note": null,
+   "look": [
+    "tm-zakef_gadol",
+    "tm-revia",
+    "tm-segol"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 1:2",
+    "w": 3,
+    "word": "וָבֹ֔הוּ"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-zakef_gadol": {
+   "kind": "mark",
+   "name": "Zakef gadol",
+   "ch": "֕",
+   "he": "◌֕",
+   "role": "ruler",
+   "pos": "above",
+   "family": "zakef-gadol",
+   "note": null,
+   "look": [
+    "tm-zakef_katon",
+    "tm-revia",
+    "tm-shalshelet"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 2:9",
+    "w": 13,
+    "word": "וְעֵ֕ץ"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-revia": {
+   "kind": "mark",
+   "name": "Revia",
+   "ch": "֗",
+   "he": "◌֗",
+   "role": "ruler",
+   "pos": "above",
+   "family": "revia",
+   "note": null,
+   "look": [
+    "tm-zakef_katon",
+    "tm-segol",
+    "tm-geresh"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 1:2",
+    "w": 0,
+    "word": "וְהָאָ֗רֶץ"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-pashta": {
+   "kind": "mark",
+   "name": "Pashta",
+   "ch": "֙",
+   "he": "◌֙",
+   "role": "ruler",
+   "pos": "above, on the last letter of the word",
+   "family": "pashta-kadma",
+   "note": null,
+   "look": [
+    "tm-geresh",
+    "tm-telisha_ketana",
+    "tm-zarka"
+   ],
+   "same": [
+    "tm-kadma"
+   ],
+   "ex": {
+    "ref": "Genesis 1:2",
+    "w": 2,
+    "word": "תֹ֙הוּ֙"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-kadma": {
+   "kind": "mark",
+   "name": "Kadma",
+   "ch": "֨",
+   "he": "◌֨",
+   "role": "connector",
+   "pos": "above, on the stressed syllable",
+   "family": "pashta-kadma",
+   "note": null,
+   "look": [
+    "tm-geresh",
+    "tm-telisha_gedola",
+    "tm-gershayim"
+   ],
+   "same": [
+    "tm-pashta"
+   ],
+   "ex": {
+    "ref": "Genesis 1:26",
+    "w": 7,
+    "word": "בִדְגַ֨ת"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-mahpach": {
+   "kind": "mark",
+   "name": "Mahpach",
+   "ch": "֤",
+   "he": "◌֤",
+   "role": "connector",
+   "pos": "below",
+   "family": "pashta-kadma",
+   "note": null,
+   "look": [
+    "tm-munach",
+    "tm-etnachta",
+    "tm-yetiv"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 1:27",
+    "w": 1,
+    "word": "אֱלֹהִ֤ים"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-yetiv": {
+   "kind": "mark",
+   "name": "Yetiv",
+   "ch": "֚",
+   "he": "◌֚",
+   "role": "ruler",
+   "pos": "below, before the first letter",
+   "family": "pashta-kadma",
+   "note": null,
+   "look": [
+    "tm-mahpach",
+    "tm-munach",
+    "tm-etnachta"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 2:23",
+    "w": 4,
+    "word": "עֶ֚צֶם"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-tevir": {
+   "kind": "mark",
+   "name": "Tevir",
+   "ch": "֛",
+   "he": "◌֛",
+   "role": "ruler",
+   "pos": "below",
+   "family": "tevir-darga",
+   "note": null,
+   "look": [
+    "tm-darga",
+    "tm-tipcha",
+    "tm-mercha"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 1:26",
+    "w": 3,
+    "word": "אָדָ֛ם"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-darga": {
+   "kind": "mark",
+   "name": "Darga",
+   "ch": "֧",
+   "he": "◌֧",
+   "role": "connector",
+   "pos": "below",
+   "family": "tevir-darga",
+   "note": null,
+   "look": [
+    "tm-tevir",
+    "tm-mercha",
+    "tm-munach"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 2:8",
+    "w": 1,
+    "word": "יְהֹוָ֧ה"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-geresh": {
+   "kind": "mark",
+   "name": "Geresh",
+   "ch": "֜",
+   "he": "◌֜",
+   "role": "ruler",
+   "pos": "above",
+   "family": "geresh",
+   "note": null,
+   "look": [
+    "tm-gershayim",
+    "tm-pashta",
+    "tm-telisha_gedola"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 1:26",
+    "w": 8,
+    "word": "הַיָּ֜ם"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-gershayim": {
+   "kind": "mark",
+   "name": "Gershayim",
+   "ch": "֞",
+   "he": "◌֞",
+   "role": "ruler",
+   "pos": "above",
+   "family": "geresh",
+   "note": null,
+   "look": [
+    "tm-geresh",
+    "tm-kadma",
+    "tm-zakef_katon"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 2:8",
+    "w": 0,
+    "word": "וַיִּטַּ֞ע"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-segol": {
+   "kind": "mark",
+   "name": "Segol",
+   "ch": "֒",
+   "he": "◌֒",
+   "role": "ruler",
+   "pos": "above, on the last letter",
+   "family": "rare",
+   "note": null,
+   "look": [
+    "tm-revia",
+    "tm-zakef_katon",
+    "tm-gershayim"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 2:23",
+    "w": 1,
+    "word": "הָֽאָדָם֒"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-zarka": {
+   "kind": "mark",
+   "name": "Zarka",
+   "ch": "֮",
+   "he": "◌֮",
+   "role": "ruler",
+   "pos": "above, on the last letter",
+   "family": "rare",
+   "note": null,
+   "look": [
+    "tm-pashta",
+    "tm-telisha_ketana",
+    "tm-segol"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 2:23",
+    "w": 0,
+    "word": "וַיֹּ֘אמֶר֮"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-telisha_gedola": {
+   "kind": "mark",
+   "name": "Telisha gedola",
+   "ch": "֠",
+   "he": "◌֠",
+   "role": "ruler",
+   "pos": "above, on the first letter",
+   "family": "rare",
+   "note": null,
+   "look": [
+    "tm-telisha_ketana",
+    "tm-geresh",
+    "tm-kadma"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 6:22",
+    "w": 2,
+    "word": "כְּ֠כֹ֠ל"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-telisha_ketana": {
+   "kind": "mark",
+   "name": "Telisha ketana",
+   "ch": "֩",
+   "he": "◌֩",
+   "role": "connector",
+   "pos": "above, on the last letter",
+   "family": "rare",
+   "note": null,
+   "look": [
+    "tm-telisha_gedola",
+    "tm-pashta",
+    "tm-zarka"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 1:26",
+    "w": 6,
+    "word": "וְיִרְדּוּ֩"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-pazer": {
+   "kind": "mark",
+   "name": "Pazer",
+   "ch": "֡",
+   "he": "◌֡",
+   "role": "ruler",
+   "pos": "above",
+   "family": "rare",
+   "note": null,
+   "look": [
+    "tm-shalshelet",
+    "tm-gershayim",
+    "tm-geresh"
+   ],
+   "same": [],
+   "ex": {
+    "ref": "Genesis 3:6",
+    "w": 1,
+    "word": "הָֽאִשָּׁ֡ה"
+   },
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tm-shalshelet": {
+   "kind": "mark",
+   "name": "Shalshelet",
+   "ch": "֓",
+   "he": "◌֓",
+   "role": "ruler",
+   "pos": "above",
+   "family": "rare",
+   "note": null,
+   "look": [
+    "tm-pazer",
+    "tm-zakef_gadol",
+    "tm-revia"
+   ],
+   "same": [],
+   "ex": null,
+   "audio": null,
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑ page to check; Unicode encoding as in Sefaria's Masorah text"
+  },
+  "tq-t1-what": {
+   "kind": "tq",
+   "q": "What is trope?",
+   "opts": [
+    "The vowel dots under the letters",
+    "Marks that show stress, phrasing and a short tune",
+    "The scribe's crowns on the scroll letters"
+   ],
+   "a": 1,
+   "why": "Vowels are a separate system. Trope marks sit alongside them and do three jobs.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t1-neh": {
+   "kind": "tq",
+   "q": "Which verse does the Talmud read as including the te'amim?",
+   "opts": [
+    "Nehemiah 8:8",
+    "Genesis 1:1",
+    "Psalm 150:6"
+   ],
+   "a": 0,
+   "why": "Nehemiah 8:8 describes Ezra's reading; Nedarim 37b takes \"caused them to understand\" as the cantillation.",
+   "src": "Talmud Nedarim 37b",
+   "he": ""
+  },
+  "tq-t1-meg": {
+   "kind": "tq",
+   "q": "In Megillah 32a, what is one benefit of chanting?",
+   "opts": [
+    "It makes the reading shorter",
+    "It helps you remember what you learned",
+    "It replaces the vowels"
+   ],
+   "a": 1,
+   "why": "The Gemara explains that the tune helps the learner remember.",
+   "src": "Talmud Megillah 32a",
+   "he": ""
+  },
+  "tq-t2-haf": {
+   "kind": "tq",
+   "q": "Is the Haftarah chanted to the Torah melody?",
+   "opts": [
+    "Yes: same marks, same tune",
+    "Same marks, a different tune",
+    "The Haftarah has no trope"
+   ],
+   "a": 1,
+   "why": "The Prophets use the same marks as the Torah, sung to the Haftarah melody.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-purim": {
+   "kind": "tq",
+   "q": "Which book has its own melody for Purim?",
+   "opts": [
+    "Esther",
+    "Ruth",
+    "Jonah"
+   ],
+   "a": 0,
+   "why": "Esther is read on Purim with its own melody.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-comm": {
+   "kind": "tq",
+   "q": "What differs between Ashkenazi and Sephardi reading?",
+   "opts": [
+    "The tunes, and some mark names",
+    "The Hebrew words of the Torah",
+    "Nothing"
+   ],
+   "a": 0,
+   "why": "The text is shared. The tunes and some names of the marks differ.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t3-et": {
+   "kind": "tq",
+   "q": "What does etnachta do?",
+   "opts": [
+    "Splits the verse into two halves",
+    "Ends the verse",
+    "Joins a word to the next"
+   ],
+   "a": 0,
+   "why": "Etnachta is the main pause inside the verse.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t3-mer": {
+   "kind": "tq",
+   "q": "Is mercha a ruler or a connector?",
+   "opts": [
+    "A ruler: it marks a pause",
+    "A connector: it leads into the next word"
+   ],
+   "a": 1,
+   "why": "Mercha is a conjunctive mark, often leading into tipcha.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  }
+ }
+}
