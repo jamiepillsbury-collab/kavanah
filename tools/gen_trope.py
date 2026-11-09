@@ -122,6 +122,71 @@ units = [{"id": "u-trope1", "title": "Trope 1: What trope is", "subtitle": "Cant
   "lessons": [lesson("tr-1", "Signs, not notes", "what the marks are", "◌֑", L1),
               lesson("tr-2", "One set of marks, many melodies", "Torah, Haftarah, scrolls", "◌֖", L2),
               lesson("tr-3", "Rulers and connectors", "sof pasuk, etnachta, tipcha, mercha", "◌֥", L3)]}]
+
+# ---------- Unit 2: the marks, one lesson per family ----------
+C = {k: v[1][0] for k, v in MARKS.items()}
+def cnt(k): return sum(t["he_t"].count(C[k]) for t in VERSES.values())
+def seq(a, b):
+    for ref, v in VERSES.items():
+        w = v["he_t"].split(" ")
+        for i in range(len(w) - 1):
+            if C[a] in w[i] and C[b] in w[i + 1]: return ref
+def seqn(a, b): return sum(1 for v in VERSES.values() for w in [v["he_t"].split(" ")] for i in range(len(w) - 1) if C[a] in w[i] and C[b] in w[i + 1])
+N = len(VERSES)
+def count_src(): return f"Count: this app's {N} Genesis verses (Masorah text on Sefaria)"
+def drill(new, review): return {"t": "drill", "marks": ["tm-" + x for x in new + review]}
+rulers = sorted([k for k, v in MARKS.items() if v[2] == "ruler" and k != "sof_pasuk"], key=cnt, reverse=True)
+U2 = []
+U2.append(lesson("tr2-1", "Munach and zakef katon", "a medium pause", "◌֔", [
+ card("Zakef katon is a ruler written above the word: two dots, one over the other. Its pause is smaller than etnachta's. Each half of a verse is often split again at a zakef katon.", JAC + " ⚑", "Zakef katon"),
+ card(f"Munach is a connector written below the word, shaped like a corner. It often leads into zakef katon: in this app's verses that pair comes {seqn('munach','zakef_katon')} times.", f"{seq('munach','zakef_katon')}. {LIC}. {count_src()}", None, V(seq("munach", "zakef_katon"), hi=C["munach"] + C["zakef_katon"])),
+ card(f"Among the rulers inside a verse, only tipcha is more common here than zakef katon ({cnt('tipcha')} and {cnt('zakef_katon')} times).", count_src()),
+ drill(["munach", "zakef_katon"], ["etnachta", "tipcha"]),
+ mc("t2-1a", "Where is zakef katon written?", ["Above the word", "Below the word"], 0, "Zakef katon's two dots sit above the word.", JAC + " ⚑"),
+ mc("t2-1b", "Which connector often leads into zakef katon?", ["Munach", "Tipcha", "Etnachta"], 0, "Munach. Tipcha and etnachta are rulers, not connectors.", JAC + " ⚑")]))
+U2.append(lesson("tr2-2", "Zakef gadol", "zakef standing alone", "◌֕", [
+ card("Zakef gadol is a ruler above the word: the two dots of zakef katon with a short vertical line beside them. It stands in for zakef katon when no connector comes before it.", JAC + " ⚑", "Zakef gadol"),
+ card(f"It is rare: {cnt('zakef_gadol')} times in this app's verses. In every one, the word before it has no connector.", f"Genesis 2:9. {LIC}. {count_src()}", None, V("Genesis 2:9", hi=C["zakef_gadol"])),
+ drill(["zakef_gadol"], ["zakef_katon", "munach"]),
+ mc("t2-2a", "When does zakef gadol appear instead of zakef katon?", ["When no connector comes before it", "At the end of a verse", "On every first word"], 0, "Zakef gadol is the form of zakef used without a connector before it.", JAC + " ⚑")]))
+U2.append(lesson("tr2-3", "Revia", "a smaller pause", "◌֗", [
+ card("Revia is a ruler written above the word as a single diamond-shaped dot. Its pause is smaller than zakef katon's.", JAC + " ⚑", "Revia"),
+ card(f"Munach leads into revia too ({seqn('munach','revia')} times in this app's verses). The same connector can serve different rulers.", f"{seq('munach','revia')}. {LIC}. {count_src()}", None, V(seq("munach", "revia"), hi=C["munach"] + C["revia"])),
+ drill(["revia"], ["zakef_katon", "zakef_gadol", "munach"]),
+ mc("t2-3a", "How is revia written?", ["One diamond-shaped dot above", "Two dots above", "A corner shape below"], 0, "Two dots above is zakef katon; the corner below is munach.", JAC + " ⚑")]))
+U2.append(lesson("tr2-4", "Mahpach and pashta", "the pause before zakef", "◌֙", [
+ card("Pashta is a ruler written above the last letter of the word, slanting to the left. It often comes right before zakef katon.", f"{JAC} ⚑. {seqn('pashta','zakef_katon')} times in this app's verses", "Pashta"),
+ card(f"When the stress is not on the last syllable, pashta is written twice: once over the stressed syllable and once on the last letter. That happens {sum(t['he_t'].count(C['pashta']*1) and sum(w.count(C['pashta'])>1 for w in t['he_t'].split(' ')) for t in VERSES.values())} times in this app's verses.", JAC + " ⚑. " + count_src()),
+ card(f"Mahpach is a connector written below the word, shaped like a sideways V. It often leads into pashta ({seqn('mahpach','pashta')} times here).", f"{seq('mahpach','pashta')}. {LIC}. {count_src()}", None, V(seq("mahpach", "pashta"), hi=C["mahpach"] + C["pashta"])),
+ drill(["mahpach", "pashta"], ["munach", "zakef_katon"]),
+ mc("t2-4a", "Where does pashta sit?", ["On the last letter of the word", "Under the first letter", "Over the stressed syllable only"], 0, "Pashta goes on the last letter, and on the stressed syllable too when that isn't last.", JAC + " ⚑"),
+ mc("t2-4b", "Mahpach or munach: which is shaped like a sideways V?", ["Mahpach", "Munach"], 0, "Munach is the corner shape.", JAC + " ⚑")]))
+U2.append(lesson("tr2-5", "Yetiv", "pashta's short stand-in", "◌֚", [
+ card("Yetiv is a ruler written below the word, before its first letter. It takes pashta's place on some short words with no connector before them.", JAC + " ⚑", "Yetiv"),
+ card(f"Yetiv looks a lot like mahpach. The difference is where it sits: yetiv comes before the first letter. It appears {cnt('yetiv')} times in this app's verses.", f"{seq('yetiv','zakef_katon')}. {LIC}. {count_src()}", None, V(seq("yetiv", "zakef_katon"), hi=C["yetiv"])),
+ drill(["yetiv"], ["mahpach", "pashta", "munach"]),
+ mc("t2-5a", "Yetiv and mahpach look alike. How do you tell them apart?", ["Yetiv sits before the first letter", "Yetiv is above the word", "Yetiv is always the last word"], 0, "Yetiv is placed before the word's first letter.", JAC + " ⚑")]))
+U2.append(lesson("tr2-6", "Darga and tevir", "the pause before tipcha", "◌֛", [
+ card(f"Tevir is a ruler written below the word. It often comes before tipcha ({seqn('tevir','tipcha')} times in this app's verses).", f"{JAC} ⚑. {count_src()}", "Tevir"),
+ card(f"Darga is a connector below the word, shaped like a zigzag. It often leads into tevir ({seqn('darga','tevir')} times here). Mercha can lead into tevir too ({seqn('mercha','tevir')} times).", f"{seq('darga','tevir')}. {LIC}. {count_src()}", None, V(seq("darga", "tevir"), hi=C["darga"] + C["tevir"])),
+ drill(["darga", "tevir"], ["mercha", "tipcha"]),
+ mc("t2-6a", "Which ruler does tevir often come before?", ["Tipcha", "Zakef katon", "Revia"], 0, "Tevir usually precedes tipcha.", JAC + " ⚑. " + count_src()),
+ mc("t2-6b", "Is darga a ruler or a connector?", ["A connector", "A ruler"], 0, "Darga is a connector; it leads into tevir.", JAC + " ⚑")]))
+U2.append(lesson("tr2-7", "Kadma, geresh, gershayim", "kadma v'azla", "◌֜", [
+ card("Geresh is a ruler written above the word, one slanted stroke. Gershayim is the same with two strokes. Both mark small pauses, and geresh often comes before revia.", f"{JAC} ⚑. {seqn('geresh','revia')} geresh-revia pairs in this app's verses", "Geresh"),
+ card("Kadma is a connector with the same shape as pashta, but it sits over the stressed syllable, not the last letter. Kadma before geresh is a pair called kadma v'azla.", f"{seq('kadma','geresh')}. {LIC}. {JAC} ⚑", None, V(seq("kadma", "geresh"), hi=C["kadma"] + C["geresh"])),
+ drill(["kadma", "geresh", "gershayim"], ["revia", "pashta"]),
+ mc("t2-7a", "Kadma and pashta look the same. What tells them apart?", ["Where they sit: pashta on the last letter, kadma on the stressed syllable", "Kadma is below the word", "Pashta has two strokes"], 0, "Same shape, different position. Two strokes is gershayim.", JAC + " ⚑"),
+ mc("t2-7b", "What is the pair kadma v'azla?", ["Kadma followed by geresh", "Two kadmas in a row", "Kadma followed by sof pasuk"], 0, "In this pair the geresh is called azla.", JAC + " ⚑")]))
+U2.append(lesson("tr2-8", "Rarer marks", "segol, zarka, telishas, pazer, shalshelet", "◌֒", [
+ card(f"These marks appear less often than the ones so far (together {sum(cnt(k) for k in ['segol','zarka','telisha_gedola','telisha_ketana','pazer','shalshelet'])} times in this app's verses). Learn their shapes now; the tunes come later.", count_src(), "Rarer marks"),
+ card(f"Segol is a ruler of three dots above the last letter. Zarka, a zigzag above the last letter, often comes before it, as here.", f"{seq('zarka','segol')}. {LIC}. {JAC} ⚑", None, V(seq("zarka", "segol"), hi=C["zarka"] + C["segol"])),
+ card("Telisha gedola is a ruler above the first letter of the word. Telisha ketana has a similar shape but is a connector, above the last letter. Pazer is a ruler above the word.", JAC + " ⚑"),
+ card("Shalshelet, a zigzag above the word, is the rarest: it appears only four times in the Torah (Genesis 19:16, 24:12, 39:8 and Leviticus 8:23).", JAC + " ⚑"),
+ drill(["segol", "zarka", "telisha_gedola", "telisha_ketana", "pazer", "shalshelet"], []),
+ mc("t2-8a", "How many times does shalshelet appear in the Torah?", ["Four", "About forty", "Once"], 0, "Genesis 19:16, 24:12, 39:8 and Leviticus 8:23.", JAC + " ⚑"),
+ mc("t2-8b", "Telisha gedola and telisha ketana: which is the connector?", ["Telisha ketana", "Telisha gedola"], 0, "Ketana (small) connects; gedola (big) is a ruler.", JAC + " ⚑")]))
+units.append({"id": "u-trope2", "title": "Trope 2: The marks", "subtitle": "One lesson per family: shape, ruler or connector, and the marks it pairs with", "tiles": False, "lessons": U2})
 for u in units:
     for l in u["lessons"]:
         for i in l["items"]: assert i in items, i

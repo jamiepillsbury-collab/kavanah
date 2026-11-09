@@ -267,6 +267,475 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u-trope2",
+   "title": "Trope 2: The marks",
+   "subtitle": "One lesson per family: shape, ruler or connector, and the marks it pairs with",
+   "tiles": false,
+   "lessons": [
+    {
+     "id": "tr2-1",
+     "title": "Munach and zakef katon",
+     "subtitle": "a medium pause",
+     "icon": "◌֔",
+     "trope": true,
+     "items": [
+      "tq-t2-1a",
+      "tq-t2-1b",
+      "tm-munach",
+      "tm-zakef_katon",
+      "tm-etnachta",
+      "tm-tipcha"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Zakef katon",
+       "text": "Zakef katon is a ruler written above the word: two dots, one over the other. Its pause is smaller than etnachta's. Each half of a verse is often split again at a zakef katon.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Munach is a connector written below the word, shaped like a corner. It often leads into zakef katon: in this app's verses that pair comes 39 times.",
+       "src": "Genesis 1:2. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA). Count: this app's 58 Genesis verses (Masorah text on Sefaria)",
+       "verse": {
+        "ref": "Genesis 1:2",
+        "he_t": "וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃",
+        "he": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּיִם",
+        "hi": "֣֔"
+       },
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Among the rulers inside a verse, only tipcha is more common here than zakef katon (114 and 64 times).",
+       "src": "Count: this app's 58 Genesis verses (Masorah text on Sefaria)",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "drill",
+       "marks": [
+        "tm-munach",
+        "tm-zakef_katon",
+        "tm-etnachta",
+        "tm-tipcha"
+       ]
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-1a"
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-1b"
+      }
+     ]
+    },
+    {
+     "id": "tr2-2",
+     "title": "Zakef gadol",
+     "subtitle": "zakef standing alone",
+     "icon": "◌֕",
+     "trope": true,
+     "items": [
+      "tq-t2-2a",
+      "tm-zakef_gadol",
+      "tm-zakef_katon",
+      "tm-munach"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Zakef gadol",
+       "text": "Zakef gadol is a ruler above the word: the two dots of zakef katon with a short vertical line beside them. It stands in for zakef katon when no connector comes before it.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "It is rare: 4 times in this app's verses. In every one, the word before it has no connector.",
+       "src": "Genesis 2:9. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA). Count: this app's 58 Genesis verses (Masorah text on Sefaria)",
+       "verse": {
+        "ref": "Genesis 2:9",
+        "he_t": "וַיַּצְמַ֞ח יְהֹוָ֤ה אֱלֹהִים֙ מִן־הָ֣אֲדָמָ֔ה כׇּל־עֵ֛ץ נֶחְמָ֥ד לְמַרְאֶ֖ה וְט֣וֹב לְמַאֲכָ֑ל וְעֵ֤ץ הַֽחַיִּים֙ בְּת֣וֹךְ הַגָּ֔ן וְעֵ֕ץ הַדַּ֖עַת ט֥וֹב וָרָֽע׃",
+        "he": "וַיַּצְמַח יְהֹוָה אֱלֹהִים מִן־הָאֲדָמָה כׇּל־עֵץ נֶחְמָד לְמַרְאֶה וְטוֹב לְמַאֲכָל וְעֵץ הַחַיִּים בְּתוֹךְ הַגָּן וְעֵץ הַדַּעַת טוֹב וָרָע",
+        "hi": "֕"
+       },
+       "chip": false
+      },
+      {
+       "t": "drill",
+       "marks": [
+        "tm-zakef_gadol",
+        "tm-zakef_katon",
+        "tm-munach"
+       ]
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-2a"
+      }
+     ]
+    },
+    {
+     "id": "tr2-3",
+     "title": "Revia",
+     "subtitle": "a smaller pause",
+     "icon": "◌֗",
+     "trope": true,
+     "items": [
+      "tq-t2-3a",
+      "tm-revia",
+      "tm-zakef_katon",
+      "tm-zakef_gadol",
+      "tm-munach"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Revia",
+       "text": "Revia is a ruler written above the word as a single diamond-shaped dot. Its pause is smaller than zakef katon's.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Munach leads into revia too (10 times in this app's verses). The same connector can serve different rulers.",
+       "src": "Genesis 1:26. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA). Count: this app's 58 Genesis verses (Masorah text on Sefaria)",
+       "verse": {
+        "ref": "Genesis 1:26",
+        "he_t": "וַיֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּצַלְמֵ֖נוּ כִּדְמוּתֵ֑נוּ וְיִרְדּוּ֩ בִדְגַ֨ת הַיָּ֜ם וּבְע֣וֹף הַשָּׁמַ֗יִם וּבַבְּהֵמָה֙ וּבְכׇל־הָאָ֔רֶץ וּבְכׇל־הָרֶ֖מֶשׂ הָֽרֹמֵ֥שׂ עַל־הָאָֽרֶץ׃",
+        "he": "וַיֹּאמֶר אֱלֹהִים נַעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ וְיִרְדּוּ בִדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבַבְּהֵמָה וּבְכׇל־הָאָרֶץ וּבְכׇל־הָרֶמֶשׂ הָרֹמֵשׂ עַל־הָאָרֶץ",
+        "hi": "֣֗"
+       },
+       "chip": false
+      },
+      {
+       "t": "drill",
+       "marks": [
+        "tm-revia",
+        "tm-zakef_katon",
+        "tm-zakef_gadol",
+        "tm-munach"
+       ]
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-3a"
+      }
+     ]
+    },
+    {
+     "id": "tr2-4",
+     "title": "Mahpach and pashta",
+     "subtitle": "the pause before zakef",
+     "icon": "◌֙",
+     "trope": true,
+     "items": [
+      "tq-t2-4a",
+      "tq-t2-4b",
+      "tm-mahpach",
+      "tm-pashta",
+      "tm-munach",
+      "tm-zakef_katon"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Pashta",
+       "text": "Pashta is a ruler written above the last letter of the word, slanting to the left. It often comes right before zakef katon.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑. 22 times in this app's verses",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "When the stress is not on the last syllable, pashta is written twice: once over the stressed syllable and once on the last letter. That happens 9 times in this app's verses.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑. Count: this app's 58 Genesis verses (Masorah text on Sefaria)",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Mahpach is a connector written below the word, shaped like a sideways V. It often leads into pashta (22 times here).",
+       "src": "Genesis 1:31. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA). Count: this app's 58 Genesis verses (Masorah text on Sefaria)",
+       "verse": {
+        "ref": "Genesis 1:31",
+        "he_t": "וַיַּ֤רְא אֱלֹהִים֙ אֶת־כׇּל־אֲשֶׁ֣ר עָשָׂ֔ה וְהִנֵּה־ט֖וֹב מְאֹ֑ד וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם הַשִּׁשִּֽׁי׃ {פ}",
+        "he": "וַיַּרְא אֱלֹהִים אֶת־כׇּל־אֲשֶׁר עָשָׂה וְהִנֵּה־טוֹב מְאֹד וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם הַשִּׁשִּׁי {פ}",
+        "hi": "֤֙"
+       },
+       "chip": false
+      },
+      {
+       "t": "drill",
+       "marks": [
+        "tm-mahpach",
+        "tm-pashta",
+        "tm-munach",
+        "tm-zakef_katon"
+       ]
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-4a"
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-4b"
+      }
+     ]
+    },
+    {
+     "id": "tr2-5",
+     "title": "Yetiv",
+     "subtitle": "pashta's short stand-in",
+     "icon": "◌֚",
+     "trope": true,
+     "items": [
+      "tq-t2-5a",
+      "tm-yetiv",
+      "tm-mahpach",
+      "tm-pashta",
+      "tm-munach"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Yetiv",
+       "text": "Yetiv is a ruler written below the word, before its first letter. It takes pashta's place on some short words with no connector before them.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Yetiv looks a lot like mahpach. The difference is where it sits: yetiv comes before the first letter. It appears 9 times in this app's verses.",
+       "src": "Genesis 2:23. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA). Count: this app's 58 Genesis verses (Masorah text on Sefaria)",
+       "verse": {
+        "ref": "Genesis 2:23",
+        "he_t": "וַיֹּ֘אמֶר֮ הָֽאָדָם֒ זֹ֣את הַפַּ֗עַם עֶ֚צֶם מֵֽעֲצָמַ֔י וּבָשָׂ֖ר מִבְּשָׂרִ֑י לְזֹאת֙ יִקָּרֵ֣א אִשָּׁ֔ה כִּ֥י מֵאִ֖ישׁ לֻֽקְחָה־זֹּֽאת׃",
+        "he": "וַיֹּאמֶר הָאָדָם זֹאת הַפַּעַם עֶצֶם מֵעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת יִקָּרֵא אִשָּׁה כִּי מֵאִישׁ לֻקְחָה־זֹּאת",
+        "hi": "֚"
+       },
+       "chip": false
+      },
+      {
+       "t": "drill",
+       "marks": [
+        "tm-yetiv",
+        "tm-mahpach",
+        "tm-pashta",
+        "tm-munach"
+       ]
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-5a"
+      }
+     ]
+    },
+    {
+     "id": "tr2-6",
+     "title": "Darga and tevir",
+     "subtitle": "the pause before tipcha",
+     "icon": "◌֛",
+     "trope": true,
+     "items": [
+      "tq-t2-6a",
+      "tq-t2-6b",
+      "tm-darga",
+      "tm-tevir",
+      "tm-mercha",
+      "tm-tipcha"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Tevir",
+       "text": "Tevir is a ruler written below the word. It often comes before tipcha (11 times in this app's verses).",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑. Count: this app's 58 Genesis verses (Masorah text on Sefaria)",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Darga is a connector below the word, shaped like a zigzag. It often leads into tevir (7 times here). Mercha can lead into tevir too (10 times).",
+       "src": "Genesis 2:8. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA). Count: this app's 58 Genesis verses (Masorah text on Sefaria)",
+       "verse": {
+        "ref": "Genesis 2:8",
+        "he_t": "וַיִּטַּ֞ע יְהֹוָ֧ה אֱלֹהִ֛ים גַּן־בְּעֵ֖דֶן מִקֶּ֑דֶם וַיָּ֣שֶׂם שָׁ֔ם אֶת־הָֽאָדָ֖ם אֲשֶׁ֥ר יָצָֽר׃",
+        "he": "וַיִּטַּע יְהֹוָה אֱלֹהִים גַּן־בְּעֵדֶן מִקֶּדֶם וַיָּשֶׂם שָׁם אֶת־הָאָדָם אֲשֶׁר יָצָר",
+        "hi": "֧֛"
+       },
+       "chip": false
+      },
+      {
+       "t": "drill",
+       "marks": [
+        "tm-darga",
+        "tm-tevir",
+        "tm-mercha",
+        "tm-tipcha"
+       ]
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-6a"
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-6b"
+      }
+     ]
+    },
+    {
+     "id": "tr2-7",
+     "title": "Kadma, geresh, gershayim",
+     "subtitle": "kadma v'azla",
+     "icon": "◌֜",
+     "trope": true,
+     "items": [
+      "tq-t2-7a",
+      "tq-t2-7b",
+      "tm-kadma",
+      "tm-geresh",
+      "tm-gershayim",
+      "tm-revia",
+      "tm-pashta"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Geresh",
+       "text": "Geresh is a ruler written above the word, one slanted stroke. Gershayim is the same with two strokes. Both mark small pauses, and geresh often comes before revia.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑. 6 geresh-revia pairs in this app's verses",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Kadma is a connector with the same shape as pashta, but it sits over the stressed syllable, not the last letter. Kadma before geresh is a pair called kadma v'azla.",
+       "src": "Genesis 1:26. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA). Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": {
+        "ref": "Genesis 1:26",
+        "he_t": "וַיֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּצַלְמֵ֖נוּ כִּדְמוּתֵ֑נוּ וְיִרְדּוּ֩ בִדְגַ֨ת הַיָּ֜ם וּבְע֣וֹף הַשָּׁמַ֗יִם וּבַבְּהֵמָה֙ וּבְכׇל־הָאָ֔רֶץ וּבְכׇל־הָרֶ֖מֶשׂ הָֽרֹמֵ֥שׂ עַל־הָאָֽרֶץ׃",
+        "he": "וַיֹּאמֶר אֱלֹהִים נַעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ וְיִרְדּוּ בִדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבַבְּהֵמָה וּבְכׇל־הָאָרֶץ וּבְכׇל־הָרֶמֶשׂ הָרֹמֵשׂ עַל־הָאָרֶץ",
+        "hi": "֨֜"
+       },
+       "chip": false
+      },
+      {
+       "t": "drill",
+       "marks": [
+        "tm-kadma",
+        "tm-geresh",
+        "tm-gershayim",
+        "tm-revia",
+        "tm-pashta"
+       ]
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-7a"
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-7b"
+      }
+     ]
+    },
+    {
+     "id": "tr2-8",
+     "title": "Rarer marks",
+     "subtitle": "segol, zarka, telishas, pazer, shalshelet",
+     "icon": "◌֒",
+     "trope": true,
+     "items": [
+      "tq-t2-8a",
+      "tq-t2-8b",
+      "tm-segol",
+      "tm-zarka",
+      "tm-telisha_gedola",
+      "tm-telisha_ketana",
+      "tm-pazer",
+      "tm-shalshelet"
+     ],
+     "steps": [
+      {
+       "t": "card",
+       "label": "Rarer marks",
+       "text": "These marks appear less often than the ones so far (together 20 times in this app's verses). Learn their shapes now; the tunes come later.",
+       "src": "Count: this app's 58 Genesis verses (Masorah text on Sefaria)",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Segol is a ruler of three dots above the last letter. Zarka, a zigzag above the last letter, often comes before it, as here.",
+       "src": "Genesis 2:23. Hebrew: Miqra according to the Masorah (Sefaria, CC-BY-SA). Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": {
+        "ref": "Genesis 2:23",
+        "he_t": "וַיֹּ֘אמֶר֮ הָֽאָדָם֒ זֹ֣את הַפַּ֗עַם עֶ֚צֶם מֵֽעֲצָמַ֔י וּבָשָׂ֖ר מִבְּשָׂרִ֑י לְזֹאת֙ יִקָּרֵ֣א אִשָּׁ֔ה כִּ֥י מֵאִ֖ישׁ לֻֽקְחָה־זֹּֽאת׃",
+        "he": "וַיֹּאמֶר הָאָדָם זֹאת הַפַּעַם עֶצֶם מֵעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת יִקָּרֵא אִשָּׁה כִּי מֵאִישׁ לֻקְחָה־זֹּאת",
+        "hi": "֮֒"
+       },
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Telisha gedola is a ruler above the first letter of the word. Telisha ketana has a similar shape but is a connector, above the last letter. Pazer is a ruler above the word.",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "card",
+       "label": null,
+       "text": "Shalshelet, a zigzag above the word, is the rarest: it appears only four times in the Torah (Genesis 19:16, 24:12, 39:8 and Leviticus 8:23).",
+       "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+       "verse": null,
+       "chip": false
+      },
+      {
+       "t": "drill",
+       "marks": [
+        "tm-segol",
+        "tm-zarka",
+        "tm-telisha_gedola",
+        "tm-telisha_ketana",
+        "tm-pazer",
+        "tm-shalshelet"
+       ]
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-8a"
+      },
+      {
+       "t": "q",
+       "id": "tq-t2-8b"
+      }
+     ]
+    }
+   ]
   }
  ],
  "items": {
@@ -876,6 +1345,171 @@
    ],
    "a": 1,
    "why": "Mercha is a conjunctive mark, often leading into tipcha.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-1a": {
+   "kind": "tq",
+   "q": "Where is zakef katon written?",
+   "opts": [
+    "Above the word",
+    "Below the word"
+   ],
+   "a": 0,
+   "why": "Zakef katon's two dots sit above the word.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-1b": {
+   "kind": "tq",
+   "q": "Which connector often leads into zakef katon?",
+   "opts": [
+    "Munach",
+    "Tipcha",
+    "Etnachta"
+   ],
+   "a": 0,
+   "why": "Munach. Tipcha and etnachta are rulers, not connectors.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-2a": {
+   "kind": "tq",
+   "q": "When does zakef gadol appear instead of zakef katon?",
+   "opts": [
+    "When no connector comes before it",
+    "At the end of a verse",
+    "On every first word"
+   ],
+   "a": 0,
+   "why": "Zakef gadol is the form of zakef used without a connector before it.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-3a": {
+   "kind": "tq",
+   "q": "How is revia written?",
+   "opts": [
+    "One diamond-shaped dot above",
+    "Two dots above",
+    "A corner shape below"
+   ],
+   "a": 0,
+   "why": "Two dots above is zakef katon; the corner below is munach.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-4a": {
+   "kind": "tq",
+   "q": "Where does pashta sit?",
+   "opts": [
+    "On the last letter of the word",
+    "Under the first letter",
+    "Over the stressed syllable only"
+   ],
+   "a": 0,
+   "why": "Pashta goes on the last letter, and on the stressed syllable too when that isn't last.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-4b": {
+   "kind": "tq",
+   "q": "Mahpach or munach: which is shaped like a sideways V?",
+   "opts": [
+    "Mahpach",
+    "Munach"
+   ],
+   "a": 0,
+   "why": "Munach is the corner shape.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-5a": {
+   "kind": "tq",
+   "q": "Yetiv and mahpach look alike. How do you tell them apart?",
+   "opts": [
+    "Yetiv sits before the first letter",
+    "Yetiv is above the word",
+    "Yetiv is always the last word"
+   ],
+   "a": 0,
+   "why": "Yetiv is placed before the word's first letter.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-6a": {
+   "kind": "tq",
+   "q": "Which ruler does tevir often come before?",
+   "opts": [
+    "Tipcha",
+    "Zakef katon",
+    "Revia"
+   ],
+   "a": 0,
+   "why": "Tevir usually precedes tipcha.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑. Count: this app's 58 Genesis verses (Masorah text on Sefaria)",
+   "he": ""
+  },
+  "tq-t2-6b": {
+   "kind": "tq",
+   "q": "Is darga a ruler or a connector?",
+   "opts": [
+    "A connector",
+    "A ruler"
+   ],
+   "a": 0,
+   "why": "Darga is a connector; it leads into tevir.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-7a": {
+   "kind": "tq",
+   "q": "Kadma and pashta look the same. What tells them apart?",
+   "opts": [
+    "Where they sit: pashta on the last letter, kadma on the stressed syllable",
+    "Kadma is below the word",
+    "Pashta has two strokes"
+   ],
+   "a": 0,
+   "why": "Same shape, different position. Two strokes is gershayim.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-7b": {
+   "kind": "tq",
+   "q": "What is the pair kadma v'azla?",
+   "opts": [
+    "Kadma followed by geresh",
+    "Two kadmas in a row",
+    "Kadma followed by sof pasuk"
+   ],
+   "a": 0,
+   "why": "In this pair the geresh is called azla.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-8a": {
+   "kind": "tq",
+   "q": "How many times does shalshelet appear in the Torah?",
+   "opts": [
+    "Four",
+    "About forty",
+    "Once"
+   ],
+   "a": 0,
+   "why": "Genesis 19:16, 24:12, 39:8 and Leviticus 8:23.",
+   "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
+   "he": ""
+  },
+  "tq-t2-8b": {
+   "kind": "tq",
+   "q": "Telisha gedola and telisha ketana: which is the connector?",
+   "opts": [
+    "Telisha ketana",
+    "Telisha gedola"
+   ],
+   "a": 0,
+   "why": "Ketana (small) connects; gedola (big) is a ruler.",
    "src": "Joshua R. Jacobson, Chanting the Hebrew Bible (JPS, 2002) ⚑",
    "he": ""
   }
