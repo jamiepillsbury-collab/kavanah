@@ -1,0 +1,115 @@
+{
+ "fetched": "2026-11-09",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Jacob's ladder lesson). Cantillation and footnotes stripped, <br> to space, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 28:10-11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֵּצֵא יַעֲקֹב מִבְּאֵר שָׁבַע וַיֵּלֶךְ חָרָנָה",
+    "וַיִּפְגַּע בַּמָּקוֹם וַיָּלֶן שָׁם כִּי־בָא הַשֶּׁמֶשׁ וַיִּקַּח מֵאַבְנֵי הַמָּקוֹם וַיָּשֶׂם מְרַאֲשֹׁתָיו וַיִּשְׁכַּב בַּמָּקוֹם הַהוּא"
+   ],
+   "sha": [
+    "eabf41621c0795e063e38748e2bbc35192260107cd1cfdae8e879f9435a0e897",
+    "b3baa15d3caf16e23a00ae3624c28eb6bf6fe882799d351e3295c56755baf18b"
+   ]
+  },
+  {
+   "ref": "Genesis 28:10-11",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Jacob left Beer-sheba, and set out for Haran.",
+    "He came upon a certain place and stopped there for the night, for the sun had set. Taking one of the stones of that place, he put it under his head and lay down in that place."
+   ],
+   "sha": [
+    "e84436907c21aed0a00aa0cf40e7159e3b1bce3f10aa869a1d127e1f6783a366",
+    "6dc3aab7acaec1c8f33cac422e916deda188ce629893e96500b918b89a9b4ae3"
+   ]
+  },
+  {
+   "ref": "Genesis 28:12-13",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּחֲלֹם וְהִנֵּה סֻלָּם מֻצָּב אַרְצָה וְרֹאשׁוֹ מַגִּיעַ הַשָּׁמָיְמָה וְהִנֵּה מַלְאֲכֵי אֱלֹהִים עֹלִים וְיֹרְדִים בּוֹ",
+    "וְהִנֵּה יְהֹוָה נִצָּב עָלָיו וַיֹּאמַר אֲנִי יְהֹוָה אֱלֹהֵי אַבְרָהָם אָבִיךָ וֵאלֹהֵי יִצְחָק הָאָרֶץ אֲשֶׁר אַתָּה שֹׁכֵב עָלֶיהָ לְךָ אֶתְּנֶנָּה וּלְזַרְעֶךָ"
+   ],
+   "sha": [
+    "4eeedef0ed514f466d2c1baedd9ed72f8f90fdb8dff7ee79b0d27b783dfdcc4c",
+    "fa95a4fbebada74c06accb2c6e5bfa61c67915682b59595809858f9b997d7d66"
+   ]
+  },
+  {
+   "ref": "Genesis 28:12-13",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "He had a dream; a stairway was set on the ground and its top reached to the sky, and messengers of God were going up and down on it.",
+    "And standing beside him was יהוה, who said, “I am יהוה, the God of your father Abraham’s [house] and the God of Isaac’s [house]: the ground on which you are lying I will assign to you and to your offspring."
+   ],
+   "sha": [
+    "841b79872e65c9bcf0eadc9feed61278fe78f2a298bc234a2759cf44cbd4ac0b",
+    "e33b5fc6f2cc603b396e160ba049f8483457e5fd7b93040726aed92682f7ea4d"
+   ]
+  },
+  {
+   "ref": "Genesis 28:15",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְהִנֵּה אָנֹכִי עִמָּךְ וּשְׁמַרְתִּיךָ בְּכֹל אֲשֶׁר־תֵּלֵךְ וַהֲשִׁבֹתִיךָ אֶל־הָאֲדָמָה הַזֹּאת כִּי לֹא אֶעֱזׇבְךָ עַד אֲשֶׁר אִם־עָשִׂיתִי אֵת אֲשֶׁר־דִּבַּרְתִּי לָךְ"
+   ],
+   "sha": [
+    "4ac439f7adf5bdb346c1a5278867c37f14d084a6bbc6b3b82c73dfb301af3ff0"
+   ]
+  },
+  {
+   "ref": "Genesis 28:15",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Remember, I am with you: I will protect you wherever you go and will bring you back to this land. I will not leave you until I have done what I have promised you.”"
+   ],
+   "sha": [
+    "5641fd86b9d4660577dac7f6456ade6ad1578d74ca03e9c50043ca64b73f2457"
+   ]
+  },
+  {
+   "ref": "Genesis 28:16-17",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּיקַץ יַעֲקֹב מִשְּׁנָתוֹ וַיֹּאמֶר אָכֵן יֵשׁ יְהֹוָה בַּמָּקוֹם הַזֶּה וְאָנֹכִי לֹא יָדָעְתִּי",
+    "וַיִּירָא וַיֹּאמַר מַה־נּוֹרָא הַמָּקוֹם הַזֶּה אֵין זֶה כִּי אִם־בֵּית אֱלֹהִים וְזֶה שַׁעַר הַשָּׁמָיִם"
+   ],
+   "sha": [
+    "bd17f0147a9c72ba8d410b75727341864950b38388b70145d3ec694910f593f9",
+    "185c9d7c400bbfa294091fb7d39d236fb12cfbbce0228dea8d48ead26b0eac3a"
+   ]
+  },
+  {
+   "ref": "Genesis 28:16-17",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Jacob awoke from his sleep and said, “Surely יהוה is present in this place, and I did not know it!”",
+    "Shaken, he said, “How awesome is this place! This is none other than the abode of God, and that is the gateway to heaven.”"
+   ],
+   "sha": [
+    "d5aa3847f57c905a209a5c243edabde84fd3790e9ca49bd787476e88c1c03cc1",
+    "917a32bc841d2cf34546340c0be7a35067d63705d38e3c5e356276d6843015f2"
+   ]
+  }
+ ]
+}

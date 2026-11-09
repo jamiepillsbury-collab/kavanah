@@ -2,6 +2,8 @@
 
 ## START HERE (next session, written 11/07)
 Read this block + BRIEF.md. Don't re-audit anything below.
+DONE 11/09 (v44): Jacob (3): The ladder, Explore lesson x-st-gen-18 (draft, 16 cards, Vayetzei): vayifga bamakom = Ma'ariv (Berakhot 26b), stones made one (Rashi 28:11), angels up then down (Rashi 28:12), "I am with you" 28:15, "Adonai is in this place" (Rashi 28:16), HaMakom (BR 68:9) -> prayer:maariv_aravim, hashkiveinu. data/src/sefaria-ladder.json (14 lines hash-verified); tools/add_story_ladder.py. Headless: runs to Done.
+NEXT (Genesis, ask first): Jacob, Rachel and Leah (Gen 29), wrestling the angel / Israel (Gen 32), Joseph cycle.
 DONE 11/09 (v43): Jacob and Esau (2): The stolen blessing, Explore lesson x-st-gen-17 (draft, 16 cards, Toldot): Isaac's blindness (Rashi 27:1), "anochi Esav" split (Rashi 27:19), voice/hands (Rashi 27:22), "have you but one blessing", Esau's cry -> Mordecai (BR 67:4). data/src/sefaria-blessing.json (30 lines hash-verified; 27:36 fetched, unused); tools/add_story_toldot2.py. Headless: runs to Done.
 NEXT: Jacob's ladder (Gen 28:10-22, Vayetzei; Berakhot 26b: Jacob began Ma'ariv).
 DONE 11/09 (v42): Jacob and Esau (1): Twins and the birthright, Explore lesson x-st-gen-16 (draft, 16 cards, Toldot): lamah zeh anochi + lidrosh, Rashi 25:22 (BR 63:6), ish tam yoshev ohalim (Rashi 25:27; CT says "raising livestock"), lentils as mourner's meal (Rashi 25:30, Bava Batra 16b), vayivez Esav -> prayer:m_mah_tovu. data/src/sefaria-toldot.json (22 lines hash-verified); tools/add_story_toldot1.py. build_explore.py clean_he now reads qere for "(ketiv) [qere]" (no other lesson changed). Headless: runs to Done.

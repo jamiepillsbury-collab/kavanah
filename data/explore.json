@@ -3880,6 +3880,249 @@
         }
        ],
        "season": null
+      },
+      {
+       "id": "x-st-gen-18",
+       "title": "Jacob (3): The ladder",
+       "parashah": [
+        "Vayetzei"
+       ],
+       "status": "draft",
+       "related": [
+        "prayer:maariv_aravim",
+        "prayer:hashkiveinu"
+       ],
+       "check_note": "My summaries of Berakhot 26b, Rashi on Genesis 28:11, 28:12 and 28:16, Bereshit Rabbah 68:9 (read on Sefaria 11/09).",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A night on the road",
+         "body": "Jacob is **running from Esau**. At sunset he stops, puts a **stone** under his head, and sleeps in the open. Then he **dreams** (28:10-12).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 28:10-12"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "In Jacob's dream, which way do the angels move first?",
+         "choices": [
+          "Up, then down",
+          "Down, then up",
+          "Only down",
+          "They stand still"
+         ],
+         "answer": 0,
+         "why": "\"**Going up and down**\" (28:12): up first. Rashi asks why.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 28:10-12"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 28:10-11",
+         "ref": "Genesis 28:10-11",
+         "he": "וַיֵּצֵא יַעֲקֹב מִבְּאֵר שָׁבַע וַיֵּלֶךְ חָרָנָה\nוַיִּפְגַּע בַּמָּקוֹם וַיָּלֶן שָׁם כִּי־בָא הַשֶּׁמֶשׁ וַיִּקַּח מֵאַבְנֵי הַמָּקוֹם וַיָּשֶׂם מְרַאֲשֹׁתָיו וַיִּשְׁכַּב בַּמָּקוֹם הַהוּא",
+         "en": "Jacob left Beer-sheba, and set out for Haran. He came upon a certain place and stopped there for the night, for the sun had set. Taking one of the stones of that place, he put it under his head and lay down in that place.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 28:10-11"
+         },
+         "tl": "Vayeitzei Yaakov mib'eir shava vayeilech charanah\nVayifga bamakom vayalen sham ki va hashemesh vayikach mei-avnei hamakom vayasem m'ra-ashotav vayishkav bamakom hahu"
+        },
+        {
+         "kind": "term",
+         "he": "וַיִּפְגַּע בַּמָּקוֹם",
+         "tl": "Vayifga bamakom",
+         "gloss": "**Vayifga bamakom**, \"he came upon a certain place\" (28:11). The Talmud reads **pegiah**, encountering, as **prayer**: Jacob began **Ma'ariv**, the evening prayer. With Abraham's morning prayer and Isaac's afternoon prayer, that makes **three daily prayers**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 26b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "maariv",
+         "type": "pick",
+         "q": "According to Berakhot 26b, which prayer did Jacob begin?",
+         "choices": [
+          "Ma'ariv, the evening prayer",
+          "Shacharit, the morning prayer",
+          "Minchah, the afternoon prayer"
+         ],
+         "answer": 0,
+         "why": "The sun had set (28:11): Jacob's prayer is the **evening** one.",
+         "wrong_why": [
+          null,
+          "The Talmud credits Abraham with the morning.",
+          "That was Isaac's, toward evening in the field."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 26b"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "The stones that argued",
+         "body": "Jacob takes \"one of the stones\" (28:11), but in the morning he lifts \"**the** stone\" (28:18). **Rashi** quotes a midrash: he set several stones around his head, and they argued over who would hold the righteous man's head, so God **made them one**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 28:11",
+          "note": "from Bereshit Rabbah 68:11"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 28:12-13",
+         "ref": "Genesis 28:12-13",
+         "he": "וַיַּחֲלֹם וְהִנֵּה סֻלָּם מֻצָּב אַרְצָה וְרֹאשׁוֹ מַגִּיעַ הַשָּׁמָיְמָה וְהִנֵּה מַלְאֲכֵי אֱלֹהִים עֹלִים וְיֹרְדִים בּוֹ\nוְהִנֵּה יְיָ נִצָּב עָלָיו וַיֹּאמַר אֲנִי יְיָ אֱלֹהֵי אַבְרָהָם אָבִיךָ וֵאלֹהֵי יִצְחָק הָאָרֶץ אֲשֶׁר אַתָּה שֹׁכֵב עָלֶיהָ לְךָ אֶתְּנֶנָּה וּלְזַרְעֶךָ",
+         "en": "He had a dream; a stairway was set on the ground and its top reached to the sky, and messengers of God were going up and down on it. And standing beside him was יהוה, who said, “I am יהוה, the God of your father Abraham’s [house] and the God of Isaac’s [house]: the ground on which you are lying I will assign to you and to your offspring.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 28:12-13"
+         },
+         "tl": "Vayachalom v'hinei sulam mutzav artzah v'rosho magia hashamaymah v'hinei mal'achei Elohim olim v'yordim bo\nV'hinei Adonai nitzav alav vayomar ani Adonai Elohei Avraham avicha v'Elohei Yitzchak ha-aretz asher atah shocheiv aleha l'cha et'nenah ul'zar'echa",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Up first, then down",
+         "body": "Why do the angels go **up** before they come down? **Rashi**: the angels who had escorted Jacob in the Land could not leave it, so they **went up**; angels for the journey abroad **came down** to accompany him.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 28:12",
+          "note": "from Bereshit Rabbah 68:12"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "angels",
+         "type": "why",
+         "q": "Why, in Rashi's reading, do the angels go up first?",
+         "choices": [
+          "The Land's escort leaves and a new escort comes down",
+          "They were bringing Jacob's prayers to heaven",
+          "The ladder only went one way"
+         ],
+         "answer": 0,
+         "why": "One group of escorts **goes up**, another **comes down** to travel with him.",
+         "wrong_why": [
+          null,
+          "That's a lovely idea, but not Rashi's here.",
+          "The verse says they went both ways."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 28:12",
+          "note": "from Bereshit Rabbah 68:12"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "וְהִנֵּה אָנֹכִי עִמָּךְ וּשְׁמַרְתִּיךָ בְּכֹל אֲשֶׁר־תֵּלֵךְ",
+         "tl": "V'hinei anochi imach ush'marticha b'chol asher teileich",
+         "gloss": "**V'hinei anochi imach ush'marticha b'chol asher teilech**, \"I am with you: I will protect you **wherever you go**\" (28:15). God's promise to a man alone, at night, on the road.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 28:15"
+         },
+         "tlf": true
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 28:16-17",
+         "ref": "Genesis 28:16-17",
+         "he": "וַיִּיקַץ יַעֲקֹב מִשְּׁנָתוֹ וַיֹּאמֶר אָכֵן יֵשׁ יְיָ בַּמָּקוֹם הַזֶּה וְאָנֹכִי לֹא יָדָעְתִּי\nוַיִּירָא וַיֹּאמַר מַה־נּוֹרָא הַמָּקוֹם הַזֶּה אֵין זֶה כִּי אִם־בֵּית אֱלֹהִים וְזֶה שַׁעַר הַשָּׁמָיִם",
+         "en": "Jacob awoke from his sleep and said, “Surely יהוה is present in this place, and I did not know it!” Shaken, he said, “How awesome is this place! This is none other than the abode of God, and that is the gateway to heaven.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 28:16-17"
+         },
+         "tl": "Vayikatz Yaakov mish'nato vayomer achein yeish Adonai bamakom hazeh v'anochi lo yadati\nVayira vayomar ma nora hamakom hazeh ein zeh ki im beit Elohim v'zeh sha-ar hashamayim",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "אָכֵן יֵשׁ יְיָ בַּמָּקוֹם הַזֶּה וְאָנֹכִי לֹא יָדָעְתִּי",
+         "tl": "Achein yeish Adonai bamakom hazeh v'anochi lo yadati",
+         "gloss": "**Achen yesh Adonai bamakom hazeh v'anochi lo yadati**, \"Surely Adonai is present in this place, and I did not know it!\" (28:16). **Rashi**: had I known, I would not have slept in so holy a place.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 28:16"
+         },
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "God, the Place",
+         "body": "The word **makom**, place, appears again and again in this story. The Rabbis call God **HaMakom**, the Place. **Bereshit Rabbah**: God is the place of the world, but the world is **not God's place**: the world is held in God, not the other way around.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bereshit Rabbah 68:9"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "makom",
+         "type": "why",
+         "q": "What does Bereshit Rabbah 68:9 mean by calling God \"the Place\"?",
+         "choices": [
+          "The world exists within God, not God within the world",
+          "God lives only in Beth-el",
+          "God is found only in holy buildings"
+         ],
+         "answer": 0,
+         "why": "**God is the place of the world**; the world does not contain God.",
+         "wrong_why": [
+          null,
+          "The midrash says the opposite: no place contains God.",
+          "The point is that God is everywhere, holding the world."
+         ],
+         "look_again": 12,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bereshit Rabbah 68:9"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "Friday night you pray **Ma'ariv Aravim**, \"who brings on the evening,\" and **Hashkiveinu**, \"help us lie down in peace.\" The Talmud traces the evening prayer to **Jacob's night** in this place.",
+         "links": [
+          "prayer:maariv_aravim",
+          "prayer:hashkiveinu"
+         ]
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "**Vayifga bamakom**: Jacob begins **Ma'ariv** (Berakhot 26b).",
+          "The stones argued, and God **made them one** (Rashi 28:11).",
+          "Angels **up, then down**: a change of escort (Rashi 28:12).",
+          "\"**I am with you** wherever you go\" (28:15).",
+          "\"Surely Adonai is in this place\"; **HaMakom**, God as the Place (Bereshit Rabbah 68:9)."
+         ]
+        }
+       ],
+       "season": null
       }
      ]
     },
