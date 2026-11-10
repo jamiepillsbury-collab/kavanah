@@ -1,0 +1,339 @@
+{
+ "fetched": "2026-11-09",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Jacob, Rachel and Leah lessons). Cantillation and footnotes stripped, <br> to space, NFC. Jeremiah English: JPS Tanakh gender-sensitive. Per-line SHA-256 verified browser vs Python. 'Jeremiah 31:15-16' = lines 2-3 of the 31:14-16 fetch (same per-line sha).",
+ "sources": [
+  {
+   "ref": "Genesis 29:9-11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "עוֹדֶנּוּ מְדַבֵּר עִמָּם וְרָחֵל בָּאָה עִם־הַצֹּאן אֲשֶׁר לְאָבִיהָ כִּי רֹעָה הִוא",
+    "וַיְהִי כַּאֲשֶׁר רָאָה יַעֲקֹב אֶת־רָחֵל בַּת־לָבָן אֲחִי אִמּוֹ וְאֶת־צֹאן לָבָן אֲחִי אִמּוֹ וַיִּגַּשׁ יַעֲקֹב וַיָּגֶל אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וַיַּשְׁקְ אֶת־צֹאן לָבָן אֲחִי אִמּוֹ",
+    "וַיִּשַּׁק יַעֲקֹב לְרָחֵל וַיִּשָּׂא אֶת־קֹלוֹ וַיֵּבְךְּ"
+   ],
+   "sha": [
+    "a630003ff48d4b651d52aec363f7dee05e10b566ee5b230c7d7ce26a59c274c9",
+    "6e04f36b314eff1adeab15fbc1ef11a665d6669de9fbc59b81212dd9445ab7f2",
+    "8ae2b0bba2db9a02f4c2fa34e3ebee2d5728b38201c32193d54095de6668b450"
+   ]
+  },
+  {
+   "ref": "Genesis 29:9-11",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "While he was still speaking with them, Rachel came with her father’s flock—for she was its shepherd.",
+    "And when Jacob saw Rachel, the daughter of his uncle Laban, and the flock of his uncle Laban, Jacob went up and rolled the stone off the mouth of the well, and watered the flock of his uncle Laban.",
+    "Then Jacob kissed Rachel, and broke into tears."
+   ],
+   "sha": [
+    "47f72fa21fdea152d146968ae05558a2bf1d1f198922e4a21c33c48c3c3c543e",
+    "70891428541046dfec67860d0a6a34753be7514ab5731aee35a467d6407ce0c0",
+    "9440829f29ae209698f8a855c3a6a7d4e839c44c1850329d1c00f25725075481"
+   ]
+  },
+  {
+   "ref": "Genesis 29:16-18",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וּלְלָבָן שְׁתֵּי בָנוֹת שֵׁם הַגְּדֹלָה לֵאָה וְשֵׁם הַקְּטַנָּה רָחֵל",
+    "וְעֵינֵי לֵאָה רַכּוֹת וְרָחֵל הָיְתָה יְפַת־תֹּאַר וִיפַת מַרְאֶה",
+    "וַיֶּאֱהַב יַעֲקֹב אֶת־רָחֵל וַיֹּאמֶר אֶעֱבׇדְךָ שֶׁבַע שָׁנִים בְּרָחֵל בִּתְּךָ הַקְּטַנָּה"
+   ],
+   "sha": [
+    "05ff10823028f894b8d02513ff7edc0fe741d79a4e80102b2aa6ee033c2d8229",
+    "2170992b4a29c538d57f24f873b142d13245ba796bc8b37d4f02f7928c291d02",
+    "47072bac9df26b23212f3ca7ed463d871f9f2f04dbcec520c455eebecf95c856"
+   ]
+  },
+  {
+   "ref": "Genesis 29:16-18",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Now Laban had two daughters; the name of the older one was Leah, and the name of the younger was Rachel.",
+    "Leah had weak eyes; Rachel was shapely and beautiful.",
+    "Jacob loved Rachel; so he answered, “I will serve you seven years for your younger daughter Rachel.”"
+   ],
+   "sha": [
+    "414a8949991fc1593bfcd66e4fa3f94fed3972142702a26f1af14548319235d9",
+    "9e71f0a482b903f3c56059d425bee2d26661f1784fbc629647816caac6776510",
+    "da7319a5c055b1708612bbdd090ecf46f04b1c9ed804d0bbcbfceed3b248253e"
+   ]
+  },
+  {
+   "ref": "Genesis 29:20",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּעֲבֹד יַעֲקֹב בְּרָחֵל שֶׁבַע שָׁנִים וַיִּהְיוּ בְעֵינָיו כְּיָמִים אֲחָדִים בְּאַהֲבָתוֹ אֹתָהּ"
+   ],
+   "sha": [
+    "9004b1c6c5ada95da0bdd40acefc2c92b989342e5a1f125cfc0ee86f7785634f"
+   ]
+  },
+  {
+   "ref": "Genesis 29:20",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "So Jacob served seven years for Rachel and they seemed to him but a few days because of his love for her."
+   ],
+   "sha": [
+    "b417a4df4699eeb07b20e5e1077f2678434ad220587d9bf474ed209101262696"
+   ]
+  },
+  {
+   "ref": "Genesis 29:23-26",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי בָעֶרֶב וַיִּקַּח אֶת־לֵאָה בִתּוֹ וַיָּבֵא אֹתָהּ אֵלָיו וַיָּבֹא אֵלֶיהָ",
+    "וַיִּתֵּן לָבָן לָהּ אֶת־זִלְפָּה שִׁפְחָתוֹ לְלֵאָה בִתּוֹ שִׁפְחָה",
+    "וַיְהִי בַבֹּקֶר וְהִנֵּה־הִוא לֵאָה וַיֹּאמֶר אֶל־לָבָן מַה־זֹּאת עָשִׂיתָ לִּי הֲלֹא בְרָחֵל עָבַדְתִּי עִמָּךְ וְלָמָּה רִמִּיתָנִי",
+    "וַיֹּאמֶר לָבָן לֹא־יֵעָשֶׂה כֵן בִּמְקוֹמֵנוּ לָתֵת הַצְּעִירָה לִפְנֵי הַבְּכִירָה"
+   ],
+   "sha": [
+    "bd4df06b3e7be349bea316473eb85fdf482376ea8af27f0902a3efc932a8ca81",
+    "8a72f223979587598d7e47d0c72de40665f45ea69f34d9f411a9ce65e33fbb91",
+    "74862fd07487bd01dee72666670ec6e3b5fbebdf04076a2419eb151ea711afba",
+    "8d094682ea144dba03a7a50f4ea13c5d607979956a53adb2a3ea7cfcb9e2fc1b"
+   ]
+  },
+  {
+   "ref": "Genesis 29:23-26",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "When evening came, he took his daughter Leah and brought her to him; and he cohabited with her.—",
+    "Laban had given his maidservant Zilpah to his daughter Leah as her maid.—",
+    "When morning came, there was Leah! So he said to Laban, “What is this you have done to me? I was in your service for Rachel! Why did you deceive me?”",
+    "Laban said, “It is not the practice in our place to marry off the younger before the older."
+   ],
+   "sha": [
+    "138f1d299356ba06c6a2aaaa5750602a5d40916cde1396f98ddec30333cd4e56",
+    "8115572cbd08f79dd2f94f701f85e40aac1ba6b36a6a180321df083fb4e3cc23",
+    "1fdbc305b8d527abef41516797c2447b902e3775976b8e35d47fe2c985b88c8d",
+    "099921e1be90f0b37029c2aaf84d599090649302b22ab952cd9271456be393db"
+   ]
+  },
+  {
+   "ref": "Genesis 29:31",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּרְא יְהֹוָה כִּי־שְׂנוּאָה לֵאָה וַיִּפְתַּח אֶת־רַחְמָהּ וְרָחֵל עֲקָרָה"
+   ],
+   "sha": [
+    "9cb3c704e5a60e348997ff57fb838ac054ee8b0a6295fbfcdd4832998a5bae02"
+   ]
+  },
+  {
+   "ref": "Genesis 29:31",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Seeing that Leah was unloved, יהוה opened her womb; but Rachel was barren."
+   ],
+   "sha": [
+    "2d018b63f7b60e210b38fe3e967c3bedb6d536233706463c2e25762d8456f27b"
+   ]
+  },
+  {
+   "ref": "Genesis 29:35",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתַּהַר עוֹד וַתֵּלֶד בֵּן וַתֹּאמֶר הַפַּעַם אוֹדֶה אֶת־יְהֹוָה עַל־כֵּן קָרְאָה שְׁמוֹ יְהוּדָה וַתַּעֲמֹד מִלֶּדֶת"
+   ],
+   "sha": [
+    "ce0f03277cfbb7f4ec72fcc051c404c7a61d2ff3ba910ca61982a2823757556d"
+   ]
+  },
+  {
+   "ref": "Genesis 29:35",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "She conceived again and bore a son, and declared, “This time I will praise יהוה.” Therefore she named him Judah. Then she stopped bearing."
+   ],
+   "sha": [
+    "f35c3ced64a3ca440aae67c5a9516353cf9834bdb0fbe422ab14cdbc9e16ce30"
+   ]
+  },
+  {
+   "ref": "Genesis 30:1-2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתֵּרֶא רָחֵל כִּי לֹא יָלְדָה לְיַעֲקֹב וַתְּקַנֵּא רָחֵל בַּאֲחֹתָהּ וַתֹּאמֶר אֶל־יַעֲקֹב הָבָה־לִּי בָנִים וְאִם־אַיִן מֵתָה אָנֹכִי",
+    "וַיִּחַר־אַף יַעֲקֹב בְּרָחֵל וַיֹּאמֶר הֲתַחַת אֱלֹהִים אָנֹכִי אֲשֶׁר־מָנַע מִמֵּךְ פְּרִי־בָטֶן"
+   ],
+   "sha": [
+    "bc48ebd3e08bce71b3047da64922d4ddb4f10053b3cb5be60315a64f77a9eb60",
+    "b23ddf1fd8ef15d6b8aeddef3a0037d75b90fa5e71ea131d4b0b7b1398223ecb"
+   ]
+  },
+  {
+   "ref": "Genesis 30:1-2",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "When Rachel saw that she had borne Jacob no children, she became envious of her sister; and Rachel said to Jacob, “Give me children, or I shall die.”",
+    "Jacob was incensed at Rachel, and said, “Can I take the place of God, who has denied you fruit of the womb?”"
+   ],
+   "sha": [
+    "25dbf448b2ad4f8651c56108e4f6ab9fda4a7a4a67f0333324b28e97d7403d16",
+    "d7d8af8f29372e0c0f7b4feedba8502321e8773c411c8d164eaf963a8f812d11"
+   ]
+  },
+  {
+   "ref": "Genesis 30:22-24",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּזְכֹּר אֱלֹהִים אֶת־רָחֵל וַיִּשְׁמַע אֵלֶיהָ אֱלֹהִים וַיִּפְתַּח אֶת־רַחְמָהּ",
+    "וַתַּהַר וַתֵּלֶד בֵּן וַתֹּאמֶר אָסַף אֱלֹהִים אֶת־חֶרְפָּתִי",
+    "וַתִּקְרָא אֶת־שְׁמוֹ יוֹסֵף לֵאמֹר יֹסֵף יְהֹוָה לִי בֵּן אַחֵר"
+   ],
+   "sha": [
+    "ac0c2a354cfea8b9dc04b0ffbbc28ba226930eadf38a5aab40f09f043c480ad1",
+    "4f10eb536df15db6f9c02dc53a2a1fc2d0c04f6100bbadefc9d54e1f31bef006",
+    "87e465968a05c27e634458160947f0078025587f695e4e8676326a56bf781957"
+   ]
+  },
+  {
+   "ref": "Genesis 30:22-24",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Now God remembered Rachel; God heeded her and opened her womb.",
+    "She conceived and bore a son, and said, “God has taken away my disgrace.”",
+    "So she named him Joseph, which is to say, “May יהוה add another son for me.”"
+   ],
+   "sha": [
+    "61dca3c5c7b6a302a59d907dea6e1971f2fee4e42775ba9d9dcb3779dd972902",
+    "e9065d629fb04f9d6be1831a9d52584274985bc564b85034edc4b01ac824e092",
+    "ba6815813a123d260b9be64e94221be08a2bbc7bbd9ea095d217ce60233996f5"
+   ]
+  },
+  {
+   "ref": "Genesis 35:16-20",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּסְעוּ מִבֵּית אֵל וַיְהִי־עוֹד כִּבְרַת־הָאָרֶץ לָבוֹא אֶפְרָתָה וַתֵּלֶד רָחֵל וַתְּקַשׁ בְּלִדְתָּהּ",
+    "וַיְהִי בְהַקְשֹׁתָהּ בְּלִדְתָּהּ וַתֹּאמֶר לָהּ הַמְיַלֶּדֶת אַל־תִּירְאִי כִּי־גַם־זֶה לָךְ בֵּן",
+    "וַיְהִי בְּצֵאת נַפְשָׁהּ כִּי מֵתָה וַתִּקְרָא שְׁמוֹ בֶּן־אוֹנִי וְאָבִיו קָרָא־לוֹ בִנְיָמִין",
+    "וַתָּמׇת רָחֵל וַתִּקָּבֵר בְּדֶרֶךְ אֶפְרָתָה הִוא בֵּית לָחֶם",
+    "וַיַּצֵּב יַעֲקֹב מַצֵּבָה עַל־קְבֻרָתָהּ הִוא מַצֶּבֶת קְבֻרַת־רָחֵל עַד־הַיּוֹם"
+   ],
+   "sha": [
+    "cf1f5019bed9bd00eee497ec9400df2e9ce3a1cfbe4aa3ce885ebfbb1a2b8a61",
+    "c28b9391542d0cff7237d2fa817cf5786e1e4be006c8647edf44ff7941d23237",
+    "b402f89c43f5acd7f88a9c4a31ee52ecbd42c4843775ced157e0cdf00e80c074",
+    "468cc9fdbe135f236d501e11fe3dc391680c22092ab2dfc2a69b246828c3ae55",
+    "64feabc9e1708975dfa6c0fee590d122b61b6e540ef94ed344576128bbe03d6e"
+   ]
+  },
+  {
+   "ref": "Genesis 35:16-20",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "They set out from Bethel; but when they were still some distance short of Ephrath, Rachel was in childbirth, and she had hard labor.",
+    "When her labor was at its hardest, the midwife said to her, “Have no fear, for it is another boy for you.”",
+    "But as she breathed her last—for she was dying—she named him Ben-oni; but his father called him Benjamin.",
+    "Thus Rachel died. She was buried on the road to Ephrath—now Bethlehem.",
+    "Over her grave Jacob set up a pillar; it is the pillar at Rachel’s grave to this day."
+   ],
+   "sha": [
+    "49d408490e9c149490879931afddc93466dcceecb42314826dce0704518432f3",
+    "51334f9508a370ef54121fe090f86b01f390af37807741d45c75f6cd6eb70900",
+    "46c14773c342968d15d5ba243475378b598795fe20513c35c891d736117417cd",
+    "b017509638c8e5ffb5be6934d7f768f037375aa5e0127f1c8fd9808963f45e9e",
+    "dbab2084ff4838a7225dc69897c372f165c91f4379bbf4772c9d4a4820927a0f"
+   ]
+  },
+  {
+   "ref": "Jeremiah 31:14-16",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְרִוֵּיתִי נֶפֶשׁ הַכֹּהֲנִים דָּשֶׁן וְעַמִּי אֶת־טוּבִי יִשְׂבָּעוּ נְאֻם־יְהֹוָה {פ}",
+    "כֹּה אָמַר יְהֹוָה קוֹל בְּרָמָה נִשְׁמָע נְהִי בְּכִי תַמְרוּרִים רָחֵל מְבַכָּה עַל־בָּנֶיהָ מֵאֲנָה לְהִנָּחֵם עַל־בָּנֶיהָ כִּי אֵינֶנּוּ {ס}",
+    "כֹּה אָמַר יְהֹוָה מִנְעִי קוֹלֵךְ מִבֶּכִי וְעֵינַיִךְ מִדִּמְעָה כִּי יֵשׁ שָׂכָר לִפְעֻלָּתֵךְ נְאֻם־יְהֹוָה וְשָׁבוּ מֵאֶרֶץ אוֹיֵב"
+   ],
+   "sha": [
+    "c06a72cc5493558f8174c83e16129bbf2eb4358e763f3304bb07853e44b61760",
+    "e5ebc4fb15d37bc18e1491b59de93fcf406c4823cf93790ef51650009fb73ef3",
+    "cef5ba4d00cf4bf5e76f4dd04fa358082f03acd44283d6f38c4068187b41ccec"
+   ]
+  },
+  {
+   "ref": "Jeremiah 31:14-16",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "I will give the priests their fill of fatness, And My people shall enjoy My full bounty —declares GOD.",
+    "Thus said GOD: A cry is heard in Ramah— Wailing, bitter weeping— Rachel weeping for her children. She refuses to be comforted For her children, who are gone.",
+    "Thus said GOD: Restrain your voice from weeping, Your eyes from shedding tears; For there is a reward for your labor —declares GOD: They shall return from the enemy’s land."
+   ],
+   "sha": [
+    "6e6678f8c3e70e49a370553633353b8e2d8f9ab4761200f062ae312583fc7e8b",
+    "cf653f39c80765046e9dd866d62e0edb41da796d53bcc29adb504568f4b46a54",
+    "64a4ea26157ab21ca8b10beffe95b567e521aa8f9e251fddaf3fbc0c2582d4c7"
+   ]
+  },
+  {
+   "ref": "Jeremiah 31:15-16",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "כֹּה אָמַר יְהֹוָה קוֹל בְּרָמָה נִשְׁמָע נְהִי בְּכִי תַמְרוּרִים רָחֵל מְבַכָּה עַל־בָּנֶיהָ מֵאֲנָה לְהִנָּחֵם עַל־בָּנֶיהָ כִּי אֵינֶנּוּ {ס}",
+    "כֹּה אָמַר יְהֹוָה מִנְעִי קוֹלֵךְ מִבֶּכִי וְעֵינַיִךְ מִדִּמְעָה כִּי יֵשׁ שָׂכָר לִפְעֻלָּתֵךְ נְאֻם־יְהֹוָה וְשָׁבוּ מֵאֶרֶץ אוֹיֵב"
+   ],
+   "sha": [
+    "e5ebc4fb15d37bc18e1491b59de93fcf406c4823cf93790ef51650009fb73ef3",
+    "cef5ba4d00cf4bf5e76f4dd04fa358082f03acd44283d6f38c4068187b41ccec"
+   ]
+  },
+  {
+   "ref": "Jeremiah 31:15-16",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Thus said GOD: A cry is heard in Ramah— Wailing, bitter weeping— Rachel weeping for her children. She refuses to be comforted For her children, who are gone.",
+    "Thus said GOD: Restrain your voice from weeping, Your eyes from shedding tears; For there is a reward for your labor —declares GOD: They shall return from the enemy’s land."
+   ],
+   "sha": [
+    "cf653f39c80765046e9dd866d62e0edb41da796d53bcc29adb504568f4b46a54",
+    "64a4ea26157ab21ca8b10beffe95b567e521aa8f9e251fddaf3fbc0c2582d4c7"
+   ]
+  }
+ ]
+}
