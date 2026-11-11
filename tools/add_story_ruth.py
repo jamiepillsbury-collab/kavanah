@@ -1,7 +1,7 @@
 """Write data/src/x-stories_ruth.json: the Ruth unit (x-st-ruth, 4 lessons). Hebrew sliced by word index from data/src/sefaria-ruth.json."""
 import json, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = {(s["ref"], s["lang"]): s["text"] for s in json.load(open(os.path.join(ROOT, "data/src/sefaria-ruth.json"), encoding="utf-8"))["sources"]}
+SRC = {(s["ref"], s["lang"]): s["text"] for f in ("sefaria-ruth.json", "sefaria-ruth-esther.json") for s in json.load(open(os.path.join(ROOT, "data/src", f), encoding="utf-8"))["sources"]}
 def S(ref, a, b): return " ".join(" ".join(SRC[(ref, "he")]).split()[a:b]).replace("יְהֹוָה", "יְיָ")
 TN = lambda ref: {"type": "tanakh", "ref": ref}
 R = lambda ref, note=None: {"type": "rabbinic", "ref": ref, **({"note": note} if note else {})}
@@ -83,7 +83,45 @@ R4 = {"id": "x-st-ruth-04", "title": "Ruth (4): A son for Naomi", "status": "dra
       "**Solomon**, son of David, her great-great-grandson.", ["Saul was not of her line.", "Moses lived long before Ruth."], look_again=5),
   {"kind": "reflect", "prompt": "The line of David begins with a woman who chose to belong. What does that say to you about who belongs?"},
   {"kind": "recap", "points": ["\"**A son is born to Naomi!**\"", "Naomi, **empty**, is made **full** again.", "Obed, Jesse, **David**.", "Bava Batra 91b: Ruth **saw Solomon's kingship**."]}]}
-LS = (R1, R2, R3, R4)
+
+R5 = {"id": "x-st-ruth-05", "title": "Ruth (3): The night at the threshing floor", "status": "draft", "related": [],
+ "check_note": "Sanhedrin 19b read on Sefaria 11/11. Eshet chayil: Ruth 3:11 and Proverbs 31:10.",
+ "cards": [
+  {"kind": "hook", "title": "Naomi's plan", "body": "Naomi, who once said she came back empty, now makes a plan: \"Daughter, I must seek a home for you, where you may be happy\" (3:1). She sends Ruth to the threshing floor, at night, to Boaz (3:1-4).", "src": TN("Ruth 3:1-4")},
+  {"kind": "check", "id": "pre", "pretest": True, "type": "tf", "q": "Boaz calls Ruth an eshet chayil, the phrase that opens the poem in Proverbs 31.", "answer": True,
+   "why": "**Eshet chayil** (3:11), the same words as Proverbs 31:10."},
+  text("Ruth 3:1"),
+  text("Ruth 3:8"),
+  concept("Stronger than Joseph", "At midnight Boaz wakes to find a woman at his feet, and he acts with complete honor. **Rabbi Yochanan**: what Joseph is praised for, resisting temptation, was for Boaz **a small thing**, his humility. (And Palti son of Laish, he adds, was greater still.)", R("Sanhedrin 19b")),
+  chk("q1", "restraint", "why", "How does Rabbi Yochanan compare Boaz to Joseph?", ["What was Joseph's great strength was a small thing for Boaz", "Boaz was weaker than Joseph", "They never faced the same test"],
+      "Joseph's **power** is Boaz's **humility**: the same restraint, held more lightly.", ["He says the opposite.", "He compares them precisely because they did."], look_again=4),
+  text("Ruth 3:11"),
+  term(S("Ruth 3:11", 11, 14), "\"what a fine woman you are\" (3:11). The Hebrew is **eshet chayil**, the words that open the poem of Proverbs 31 (31:10), which many families sing at the Friday night table.", {"type": "tradition", "ref": "Ruth 3:11; Proverbs 31:10"}),
+  chk("q2", "chayil", "pick", "What Hebrew phrase does Boaz use for Ruth in 3:11?", ["Eshet chayil", "Go'el", "Peloni almoni"],
+      "**Eshet chayil**, a woman of valor.", ["Go'el, redeemer, is Boaz's role.", "That's the unnamed relative in chapter 4."], look_again=7),
+  {"kind": "recap", "points": ["Naomi: \"**I must seek a home for you.**\"", "Midnight at the threshing floor: Boaz acts with honor.", "Sanhedrin 19b: Joseph's strength was **Boaz's humility**.", "Ruth, an **eshet chayil**."]}]}
+
+R6 = {"id": "x-st-ruth-06", "title": "Ruth (4): At the city gate", "status": "draft", "related": [],
+ "check_note": "Ruth Rabbah 7:7 read on Sefaria 11/11.",
+ "cards": [
+  {"kind": "hook", "title": "So-and-so", "body": "Boaz goes to the town gate, where business was done in public, and calls over the relative who has the first right to redeem: \"Come over and sit down here, **So-and-so**!\" (4:1). The book never gives his name.", "src": TN("Ruth 4:1")},
+  {"kind": "check", "id": "pre", "pretest": True, "type": "pick", "q": "What is the closer redeemer's name in the Book of Ruth?", "choices": ["He has none: he is only \"So-and-so\"", "Elimelech", "Obed", "Mahlon"], "answer": 0,
+   "why": "**Peloni almoni**, So-and-so (4:1)."},
+  text("Ruth 4:1"),
+  concept("The man with no name", "Why no name? In the midrash, **Rabbi Yehoshua** says Peloni Almoni really was his name. **Rabbi Shmuel bar Nachman**: he was **mute from matters of Torah**. Afraid that marrying Ruth had doomed Naomi's sons, he refused her.", R("Ruth Rabbah 7:7")),
+  chk("q1", "noname", "why", "What does Rabbi Shmuel bar Nachman say about the unnamed redeemer?", ["He was mute from matters of Torah, and refused Ruth out of fear", "He was a stranger to Bethlehem", "He was Boaz's brother"],
+      "**Mute in matters of Torah**: afraid of what happened to Naomi's sons, he walked away from Ruth.", ["He was a relative of Elimelech.", "The midrash doesn't say that."], look_again=3),
+  text("Ruth 4:7"),
+  concept("The sandal", "To seal the deal, one man **takes off a sandal** and hands it to the other (4:7-8). The book stops to explain the custom, as if writing for readers who had forgotten it.", TN("Ruth 4:7-8")),
+  text("Ruth 4:11"),
+  term(S("Ruth 4:11", 10, 17), "\"like Rachel and Leah, both of whom built up the House of Israel!\" (4:11). The elders bless Ruth, a woman from Moab, by **the two sisters** you met in Genesis.", TN("Ruth 4:11")),
+  chk("q2", "rachel-leah", "pick", "Which two women do the elders name when they bless Ruth?", ["Rachel and Leah", "Sarah and Rebekah", "Naomi and Orpah"],
+      "\"**Like Rachel and Leah**, both of whom built up the House of Israel.\"", ["They're matriarchs too, but not the ones named here.", "Naomi and Orpah are in Ruth's own story."], look_again=8),
+  {"kind": "recap", "points": ["\"**So-and-so**\": the redeemer without a name.", "Ruth Rabbah 7:7: \"mute from matters of Torah,\" he **refused Ruth**.", "A **sandal** seals the deal.", "The elders bless Ruth: **like Rachel and Leah**."]}]}
+
+for L, t in ((R1, "Ruth (1)"), (R2, "Ruth (2)"), (R4, "Ruth (5)"), (R3, "Ruth (6)")):
+    L["title"] = t + L["title"][L["title"].index(":"):]
+LS = (R1, R2, R5, R6, R4, R3)
 for L in LS:
     for c in L["cards"]:
         if c["kind"] == "check" and "src" not in c: c["src"] = L["cards"][c.get("look_again", 0)]["src"]

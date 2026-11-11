@@ -5315,8 +5315,154 @@
        "season": null
       },
       {
+       "id": "x-st-gen-29",
+       "title": "Joseph (2): Judah and Tamar",
+       "parashah": [
+        "Vayeshev"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "Sotah 10b read on Sefaria 11/11. 'Haker na' in 37:32 and 38:25: same Hebrew words, checked in the Masorah text.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A detour to Judah",
+         "body": "In the middle of Joseph's story, the Torah turns to **Judah**. His widowed daughter-in-law **Tamar** is denied the marriage she was promised. When she is found pregnant and condemned, she quietly sends Judah his own **seal, cord and staff** (38:24-25).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 38:24-25"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "Tamar publicly names Judah as the father.",
+         "answer": 1,
+         "why": "She only sends a message: \"Examine these: whose seal and cord and staff are these?\" (38:25). Judah must decide whether to speak.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 38:24-25"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 38:25-26",
+         "ref": "Genesis 38:25-26",
+         "he": "הִוא מוּצֵאת וְהִיא שָׁלְחָה אֶל־חָמִיהָ לֵאמֹר לְאִישׁ אֲשֶׁר־אֵלֶּה לּוֹ אָנֹכִי הָרָה וַתֹּאמֶר הַכֶּר־נָא לְמִי הַחֹתֶמֶת וְהַפְּתִילִים וְהַמַּטֶּה הָאֵלֶּה\nוַיַּכֵּר יְהוּדָה וַיֹּאמֶר צָדְקָה מִמֶּנִּי כִּי־עַל־כֵּן לֹא־נְתַתִּיהָ לְשֵׁלָה בְנִי וְלֹא־יָסַף עוֹד לְדַעְתָּהּ",
+         "en": "As she was being brought out, she sent this message to her father-in-law, “It’s by the man to whom these belong that I’m pregnant.” And she added, “Examine these: whose seal and cord and staff are these?” Judah recognized them, and said, “She is more in the right than I, inasmuch as I did not give her to my son Shelah.” And he was not intimate with her again.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 38:25-26"
+         },
+         "tl": "Hi mutzeit v'hi shalchah el chamiha leimor l'ish asher eileh lo anochi harah vatomer haker na l'mi hachotemet v'hap'tilim v'hamateh ha-eileh\nVayakeir Y'hudah vayomer tzadkah mimeni ki al kein lo n'tatiha l'sheilah v'ni v'lo yasaf od l'datah",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Better a furnace than shaming another",
+         "body": "The Talmud learns from Tamar: she was ready to be **burned** rather than **humiliate Judah in public**. So it is better to throw yourself into a fiery furnace than to shame another person publicly.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 10b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "shame",
+         "type": "why",
+         "q": "What does Sotah 10b learn from Tamar?",
+         "choices": [
+          "Never shame another person in public, even at great cost",
+          "Always defend yourself first",
+          "Keep evidence secret"
+         ],
+         "answer": 0,
+         "why": "Tamar risked her life **rather than shame Judah**.",
+         "wrong_why": [
+          null,
+          "She did the opposite, protecting Judah's dignity.",
+          "She sent the evidence, but privately."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 10b"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "צָדְקָה מִמֶּנִּי",
+         "tl": "Tzadkah mimeni",
+         "gloss": "\"She is more in the right than I\" (38:26). **Judah's first admission** of wrong, long before he offers himself in Benjamin's place.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 38:26"
+         },
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "הַכֶּר־נָא",
+         "tl": "Haker na",
+         "gloss": "\"Examine these\" (38:25). In Hebrew it is the very phrase the brothers used when they showed Jacob Joseph's bloodied tunic (37:32). The deceiver is now the one asked **to recognize**.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 37:32, 38:25"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "haker",
+         "type": "why",
+         "q": "Why does Tamar's \"examine these\" echo chapter 37?",
+         "choices": [
+          "The brothers said the same words to Jacob about Joseph's tunic",
+          "Joseph said it to Pharaoh",
+          "It is the name of Judah's son"
+         ],
+         "answer": 0,
+         "why": "The words that deceived Jacob now confront Judah.",
+         "wrong_why": [
+          null,
+          "Not those words in Pharaoh's court.",
+          "His sons are Er, Onan and Shelah."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 37:32, 38:25"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Tamar chose not to shame Judah, and Judah chose to tell the truth. Which of those two choices is harder for you?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Tamar sends Judah his **seal, cord and staff**, privately.",
+          "Sotah 10b: **better a furnace** than shaming someone in public.",
+          "\"**She is more in the right than I**\": Judah's first teshuvah.",
+          "\"Examine these\": the words of the tunic, **returned**."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
        "id": "x-st-gen-25",
-       "title": "Joseph (2): Adonai was with Joseph",
+       "title": "Joseph (3): Adonai was with Joseph",
        "parashah": [
         "Vayeshev"
        ],
@@ -5495,7 +5641,7 @@
       },
       {
        "id": "x-st-gen-26",
-       "title": "Joseph (3): Pharaoh's dreams",
+       "title": "Joseph (4): Pharaoh's dreams",
        "parashah": [
         "Miketz"
        ],
@@ -5622,7 +5768,7 @@
       },
       {
        "id": "x-st-gen-27",
-       "title": "Joseph (4): The brothers and Judah",
+       "title": "Joseph (5): The brothers and Judah",
        "parashah": [
         "Miketz",
         "Vayigash"
@@ -5768,7 +5914,7 @@
       },
       {
        "id": "x-st-gen-28",
-       "title": "Joseph (5): I am Joseph",
+       "title": "Joseph (6): I am Joseph",
        "parashah": [
         "Vayigash",
         "Vayechi"
@@ -5926,6 +6072,868 @@
          ]
         }
        ],
+       "season": null
+      },
+      {
+       "id": "x-st-gen-30",
+       "title": "Joseph (7): Going down to Egypt",
+       "parashah": [
+        "Vayigash"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "Megillah 29a read on Sefaria 11/11.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A night vision on the way",
+         "body": "Joseph is alive. Old Jacob sets out for Egypt, and at night God speaks to him one last time: \"Jacob! Jacob!\" (46:1-2).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 46:1-2"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "What does God promise Jacob about going down to Egypt?",
+         "choices": [
+          "\"I Myself will go down with you\"",
+          "\"You will never see Joseph\"",
+          "\"Stay where you are\"",
+          "\"Egypt will make you a king\""
+         ],
+         "answer": 0,
+         "why": "\"**I Myself will go down with you** to Egypt, and I Myself will also bring you back\" (46:4).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 46:1-2"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 46:2-4",
+         "ref": "Genesis 46:2-4",
+         "he": "וַיֹּאמֶר אֱלֹהִים לְיִשְׂרָאֵל בְּמַרְאֹת הַלַּיְלָה וַיֹּאמֶר יַעֲקֹב יַעֲקֹב וַיֹּאמֶר הִנֵּנִי\nוַיֹּאמֶר אָנֹכִי הָאֵל אֱלֹהֵי אָבִיךָ אַל־תִּירָא מֵרְדָה מִצְרַיְמָה כִּי־לְגוֹי גָּדוֹל אֲשִׂימְךָ שָׁם\nאָנֹכִי אֵרֵד עִמְּךָ מִצְרַיְמָה וְאָנֹכִי אַעַלְךָ גַם־עָלֹה וְיוֹסֵף יָשִׁית יָדוֹ עַל־עֵינֶיךָ",
+         "en": "God called to Israel in a vision by night: “Jacob! Jacob!” He answered, “Here.” “I am God, the God of your father’s [house]. Fear not to go down to Egypt, for I will make you there into a great nation. I Myself will go down with you to Egypt, and I Myself will also bring you back; and Joseph’s hand shall close your eyes.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 46:2-4"
+         },
+         "tl": "Vayomer Elohim l'yisra-eil b'mar'ot halaylah vayomer Yaakov Yaakov vayomer hineini\nVayomer anochi ha-eil Elohei avicha al tira meirdah mitzraymah ki l'goi gadol asimcha sham\nAnochi eireid im'cha mitzraymah v'anochi a-alcha gam alo v'yoseif yashit yado al einecha",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "The Shechinah in exile",
+         "body": "**Rabbi Shimon bar Yochai**: see how beloved Israel is: **wherever they were exiled, the Divine Presence went with them**. To Egypt, to Babylonia, and beyond. God doesn't stay home while the people suffer.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Megillah 29a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "shechinah",
+         "type": "why",
+         "q": "What does Megillah 29a teach about exile?",
+         "choices": [
+          "The Divine Presence goes into exile with the people",
+          "Exile means God has left",
+          "Only Egypt counts as exile"
+         ],
+         "answer": 0,
+         "why": "\"**I Myself will go down with you**\": the Shechinah shares every exile.",
+         "wrong_why": [
+          null,
+          "Megillah 29a teaches the opposite.",
+          "It names Egypt, Babylonia and more."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Megillah 29a"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 47:9",
+         "ref": "Genesis 47:9",
+         "he": "וַיֹּאמֶר יַעֲקֹב אֶל־פַּרְעֹה יְמֵי שְׁנֵי מְגוּרַי שְׁלֹשִׁים וּמְאַת שָׁנָה מְעַט וְרָעִים הָיוּ יְמֵי שְׁנֵי חַיַּי וְלֹא הִשִּׂיגוּ אֶת־יְמֵי שְׁנֵי חַיֵּי אֲבֹתַי בִּימֵי מְגוּרֵיהֶם",
+         "en": "And Jacob answered Pharaoh, “The years of my sojourn [on earth] are one hundred and thirty. Few and hard have been the years of my life, nor do they come up to the life spans of my ancestors during their sojourns.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 47:9"
+         },
+         "tl": "Vayomer Yaakov el par'o y'mei sh'nei m'gurai sh'loshim um'at shanah m'at v'ra-im hayu y'mei sh'nei chayai v'lo hisigu et y'mei sh'nei chayei avotai bimei m'gureihem"
+        },
+        {
+         "kind": "concept",
+         "title": "Few and hard",
+         "body": "Pharaoh asks Jacob his age. Jacob answers: \"Few and hard have been the years of my life\" (47:9). A brother who wanted him dead, a deceiving uncle, Rachel lost on the road, a son lost for more than twenty years. The Torah lets the patriarch **say it plainly**.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 47:9"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Jacob calls his years few and hard, and still God goes down with him. Where have you felt accompanied in a hard place? It's fine to skip this one."
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**I Myself will go down with you.**\"",
+          "Megillah 29a: **the Shechinah goes into exile** with the people.",
+          "Jacob: \"**Few and hard** have been the years of my life.\""
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-gen-31",
+       "title": "Joseph (8): Blessings and bones",
+       "parashah": [
+        "Vayechi"
+       ],
+       "status": "draft",
+       "related": [
+        "prayer:shma"
+       ],
+       "check_note": "Pesachim 56a and Sotah 13a read on Sefaria 11/11.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "The last blessings",
+         "body": "Before he dies, Jacob blesses **Joseph's sons**, then gathers **his own twelve** (48-49). Then Joseph, too, grows old.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 48-50"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "In the Talmud's story, the line \"Blessed be the name of His glorious kingdom\" first came from Jacob.",
+         "answer": 0,
+         "why": "**Pesachim 56a**: Jacob said it on his deathbed, answering his sons' Sh'ma.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 48-50"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 48:20",
+         "ref": "Genesis 48:20",
+         "he": "וַיְבָרְכֵם בַּיּוֹם הַהוּא לֵאמוֹר בְּךָ יְבָרֵךְ יִשְׂרָאֵל לֵאמֹר יְשִׂמְךָ אֱלֹהִים כְּאֶפְרַיִם וְכִמְנַשֶּׁה וַיָּשֶׂם אֶת־אֶפְרַיִם לִפְנֵי מְנַשֶּׁה",
+         "en": "So he blessed them that day, saying, “By you shall Israel invoke blessings, saying: God make you like Ephraim and Manasseh.” Thus he put Ephraim before Manasseh.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 48:20"
+         },
+         "tl": "Vayvarcheim bayom hahu leimor b'cha y'vareich Yisrael leimor y'simcha Elohim k'efrayim v'chimnasheh vayasem et efrayim lifnei m'nasheh",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Ephraim before Manasseh",
+         "body": "Jacob crosses his hands and puts **the younger before the older** (48:20), one more time in Genesis. His words are still how parents bless their sons on Friday night: \"God make you like Ephraim and Manasseh.\"",
+         "src": {
+          "type": "tradition",
+          "ref": "Genesis 48:20"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 49:1-2",
+         "ref": "Genesis 49:1-2",
+         "he": "וַיִּקְרָא יַעֲקֹב אֶל־בָּנָיו וַיֹּאמֶר הֵאָסְפוּ וְאַגִּידָה לָכֶם אֵת אֲשֶׁר־יִקְרָא אֶתְכֶם בְּאַחֲרִית הַיָּמִים\nהִקָּבְצוּ וְשִׁמְעוּ בְּנֵי יַעֲקֹב וְשִׁמְעוּ אֶל־יִשְׂרָאֵל אֲבִיכֶם",
+         "en": "And Jacob called his sons and said, “Come together that I may tell you what is to befall you in days to come. Assemble and hearken, O sons of Jacob; Hearken to Israel your father:",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 49:1-2"
+         },
+         "tl": "Vayikra Yaakov el banav vayomer hei-asfu v'agidah lachem eit asher yikra etchem b'acharit hayamim\nHikavtzu v'shim'u b'nei Yaakov v'shim'u el Yisrael avichem",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Sh'ma, our father Israel",
+         "body": "Jacob wants to reveal **the end of days**, but the Divine Presence leaves him. He fears one of his sons is unfit, as Ishmael and Esau were. His sons answer: **\"Hear, Israel\"** (their father's name) **\"the Lord is our God, the Lord is One.\"** Jacob answers: **\"Blessed be the name of His glorious kingdom for ever and ever.\"**",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Pesachim 56a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "shma",
+         "type": "why",
+         "q": "In Pesachim 56a, why do Jacob's sons say \"Hear, Israel\"?",
+         "choices": [
+          "To reassure their father, Israel, that they all share his one God",
+          "To start a prayer service",
+          "To ask him to bless them"
+         ],
+         "answer": 0,
+         "why": "As there is one God in their father's heart, so there is in theirs. Jacob answers with **Baruch shem**.",
+         "wrong_why": [
+          null,
+          "The setting is a deathbed, not a service.",
+          "They reassure him; he already blessed them."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Pesachim 56a"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 50:24-25",
+         "ref": "Genesis 50:24-25",
+         "he": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו אָנֹכִי מֵת וֵאלֹהִים פָּקֹד יִפְקֹד אֶתְכֶם וְהֶעֱלָה אֶתְכֶם מִן־הָאָרֶץ הַזֹּאת אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּע לְאַבְרָהָם לְיִצְחָק וּלְיַעֲקֹב\nוַיַּשְׁבַּע יוֹסֵף אֶת־בְּנֵי יִשְׂרָאֵל לֵאמֹר פָּקֹד יִפְקֹד אֱלֹהִים אֶתְכֶם וְהַעֲלִתֶם אֶת־עַצְמֹתַי מִזֶּה",
+         "en": "At length, Joseph said to his brothers, “I am about to die. God will surely take notice of you and bring you up from this land to the land promised on oath to Abraham, to Isaac, and to Jacob.” So Joseph made the sons of Israel swear, saying, “When God has taken notice of you, you shall carry up my bones from here.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 50:24-25"
+         },
+         "tl": "Vayomer yoseif el echav anochi meit veilohim pakod yifkod etchem v'he-elah etchem min ha-aretz hazot el ha-aretz asher nishba l'avraham l'yitzchak ul'ya-akov\nVayashba yoseif et b'nei Yisrael leimor pakod yifkod Elohim etchem v'ha-alitem et atzmotai mizeh"
+        },
+        {
+         "kind": "concept",
+         "title": "Carry up my bones",
+         "body": "Joseph makes his brothers swear: \"you shall carry up my bones from here\" (50:25). Generations later, while all Israel gathered **Egypt's riches** at the Exodus, **Moses** busied himself with **Joseph's coffin**. The Talmud: see how beloved mitzvot are to Moses.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 13a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "bones",
+         "type": "why",
+         "q": "What was Moses doing, according to Sotah 13a, while the people took Egypt's riches?",
+         "choices": [
+          "Carrying Joseph's coffin",
+          "Counting the people",
+          "Writing the Torah"
+         ],
+         "answer": 0,
+         "why": "**Keeping the oath** to Joseph: a mitzvah over treasure.",
+         "wrong_why": [
+          null,
+          "The Talmud highlights the coffin.",
+          "Not at that moment."
+         ],
+         "look_again": 8,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 13a"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "Every time you say **Sh'ma Yisrael** and the quiet **Baruch shem k'vod malchuto**, you echo Jacob's sons and Jacob's answer.",
+         "links": [
+          "prayer:shma"
+         ]
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**God make you like Ephraim and Manasseh.**\"",
+          "Pesachim 56a: Jacob's sons say **Sh'ma**, Jacob answers **Baruch shem**.",
+          "\"**Carry up my bones.**\"",
+          "Sotah 13a: Moses chose **the coffin over the treasure**."
+         ]
+        }
+       ],
+       "season": null
+      }
+     ]
+    },
+    {
+     "id": "x-st-esther",
+     "title": "Esther",
+     "subtitle": "The hidden face of God, and a woman who stops hiding",
+     "lessons": [
+      {
+       "id": "x-st-esther-01",
+       "title": "Esther (1): Hidden",
+       "status": "draft",
+       "related": [],
+       "check_note": "Megillah 13a and Chullin 139b read on Sefaria 11/11. English: JPS Tanakh gender-sensitive.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A book without God's name",
+         "body": "The Book of Esther **never names God**, not once. Its heroine hides too: a Jewish orphan in the Persian king's palace who keeps her people **secret** (2:7-10).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 2:7-10"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "God's name appears in the Book of Esther.",
+         "answer": 1,
+         "why": "Not once. The Rabbis found God **hidden** in the book instead.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 2:7-10"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Esther 2:7",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 2:7"
+         },
+         "ref": "Esther 2:7",
+         "he": "וַיְהִי אֹמֵן אֶת־הֲדַסָּה הִיא אֶסְתֵּר בַּת־דֹּדוֹ כִּי אֵין לָהּ אָב וָאֵם וְהַנַּעֲרָה יְפַת־תֹּאַר וְטוֹבַת מַרְאֶה וּבְמוֹת אָבִיהָ וְאִמָּהּ לְקָחָהּ מׇרְדֳּכַי לוֹ לְבַת",
+         "en": "He was foster father to Hadassah—that is, Esther—his uncle’s daughter, for she had neither father nor mother. The maiden was shapely and beautiful; and when her father and mother died, Mordecai adopted her as his own daughter.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vay'hi omein et hadasah hi esteir bat dodo ki ein lah av va-eim v'hana-arah y'fat to-ar v'tovat mar'eh uv'mot aviha v'imah l'kachah mordochai lo l'vat"
+        },
+        {
+         "kind": "text",
+         "sefaria": "Esther 2:10",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 2:10"
+         },
+         "ref": "Esther 2:10",
+         "he": "לֹא־הִגִּידָה אֶסְתֵּר אֶת־עַמָּהּ וְאֶת־מוֹלַדְתָּהּ כִּי מׇרְדֳּכַי צִוָּה עָלֶיהָ אֲשֶׁר לֹא־תַגִּיד",
+         "en": "Esther did not reveal her people or her kindred, for Mordecai had told her not to reveal it.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Lo higidah esteir et amah v'et moladtah ki mordochai tzivah aleha asher lo tagid"
+        },
+        {
+         "kind": "concept",
+         "title": "Why \"Esther\"?",
+         "body": "Her Hebrew name was **Hadassah**. Why call her Esther? **Rabbi Yehuda**: because she **concealed** (masteret) the truth about herself, as the verse says, she did not reveal her people.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Megillah 13a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "name",
+         "type": "why",
+         "q": "According to Rabbi Yehuda, why was Hadassah called Esther?",
+         "choices": [
+          "Because she concealed who she was",
+          "Because it means star",
+          "Because the king chose it"
+         ],
+         "answer": 0,
+         "why": "**Esther** sounds like **masteret**, concealing: she hid her people (2:10).",
+         "wrong_why": [
+          null,
+          "That's another opinion in the same passage, not Rabbi Yehuda's.",
+          "The Talmud doesn't say so."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Megillah 13a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Hidden in the Torah",
+         "body": "The Talmud asks: where is Esther hinted at in the Torah? In God's warning, \"**I will hide My face**\" (Deuteronomy 31:18). In Hebrew, **haster astir**: \"Esther\" is hidden inside \"I will hide.\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Chullin 139b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "hester",
+         "type": "why",
+         "q": "How does Chullin 139b find Esther in the Torah?",
+         "choices": [
+          "In the words \"I will hide My face\" (haster astir)",
+          "In Esther's genealogy in Genesis",
+          "It says she isn't hinted at"
+         ],
+         "answer": 0,
+         "why": "**Haster astir**: God's hidden face, and Esther's name.",
+         "wrong_why": [
+          null,
+          "She has no genealogy in the Torah.",
+          "The Talmud finds a hint."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Chullin 139b"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Esther hides who she is, and God is hidden in her book. When have you had to hide part of yourself, and what did it cost?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Esther **never names God**.",
+          "Hadassah, called **Esther** because she **concealed** (Megillah 13a).",
+          "\"**I will hide My face**\": haster astir (Chullin 139b)."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-esther-02",
+       "title": "Esther (2): Mordecai would not bow",
+       "status": "draft",
+       "related": [],
+       "check_note": "Megillah 13b read on Sefaria 11/11.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "One man standing",
+         "body": "Every courtier at the palace gate **bows to Haman**, by royal order. **Mordecai** does not (3:2). Haman's fury turns into a plan to destroy all the Jews.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 3:2-6"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Why was Haman glad when the lot fell on the month of Adar, according to the Talmud?",
+         "choices": [
+          "Moses died in Adar, so it seemed an unlucky month for the Jews",
+          "Adar was the king's birthday",
+          "It was the shortest month",
+          "It was harvest time"
+         ],
+         "answer": 0,
+         "why": "He knew Moses died in Adar. He didn't know Moses was also **born** in Adar.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 3:2-6"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Esther 3:2",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 3:2"
+         },
+         "ref": "Esther 3:2",
+         "he": "וְכׇל־עַבְדֵי הַמֶּלֶךְ אֲשֶׁר־בְּשַׁעַר הַמֶּלֶךְ כֹּרְעִים וּמִשְׁתַּחֲוִים לְהָמָן כִּי־כֵן צִוָּה־לוֹ הַמֶּלֶךְ וּמׇרְדֳּכַי לֹא יִכְרַע וְלֹא יִשְׁתַּחֲוֶה",
+         "en": "All the king’s courtiers in the palace gate knelt and bowed low to Haman, for such was the king’s order concerning him; but Mordecai would not kneel or bow low.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "V'chol avdei hamelech asher b'sha-ar hamelech kor'im umishtachavim l'haman ki chein tzivah lo hamelech umordochai lo yichra v'lo yishtachaveh",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "וּמׇרְדֳּכַי לֹא יִכְרַע וְלֹא יִשְׁתַּחֲוֶה",
+         "tl": "Umordochai lo yichra v'lo yishtachaveh",
+         "gloss": "\"but Mordecai would not kneel or bow low\" (3:2). One man refuses, and the whole story turns on it.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 3:2"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "The lot in Adar",
+         "body": "Haman casts **pur**, a lot, for the date (3:7). It falls on **Adar**, and he rejoices: Moses died in Adar, a month of calamity for the Jews. **But he did not know** that Moses was also **born** in Adar.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Megillah 13b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "adar",
+         "type": "why",
+         "q": "What did Haman not know about Adar, according to Megillah 13b?",
+         "choices": [
+          "Moses was also born in Adar",
+          "Adar has two months in some years",
+          "The king was born in Adar"
+         ],
+         "answer": 0,
+         "why": "A month of loss is also a month of birth: the turn is already hidden in the date.",
+         "wrong_why": [
+          null,
+          "That's true of the calendar, but not the Talmud's point.",
+          "The Talmud speaks of Moses."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Megillah 13b"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Mordecai would not bow, and Haman saw only the death in Adar, not the birth. Where might a hard date or season hold something you can't see yet?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Everyone bows; **Mordecai will not**.",
+          "Pur, the lot, falls on **Adar**.",
+          "Megillah 13b: Moses **died and was born** in Adar."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-esther-03",
+       "title": "Esther (3): For just such a crisis",
+       "status": "draft",
+       "related": [],
+       "check_note": "Esther 5:4 initials checked by script on the Masorah text. Makom as a name of God: Bereshit Rabbah 68:9 (read 11/09, see the Jacob's ladder lesson).",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Who knows?",
+         "body": "Esther hesitates: going to the king unbidden can mean death. Mordecai answers with the book's most famous words (4:13-14).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 4:13-14"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "What does Mordecai say might be the reason Esther became queen?",
+         "choices": [
+          "\"For just such a crisis\"",
+          "Her beauty",
+          "The king's whim",
+          "To punish Haman"
+         ],
+         "answer": 0,
+         "why": "\"**Perhaps you have attained to royal position for just such a crisis**\" (4:14).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 4:13-14"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Esther 4:13-14",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 4:13-14"
+         },
+         "ref": "Esther 4:13-14",
+         "he": "וַיֹּאמֶר מׇרְדֳּכַי לְהָשִׁיב אֶל־אֶסְתֵּר אַל־תְּדַמִּי בְנַפְשֵׁךְ לְהִמָּלֵט בֵּית־הַמֶּלֶךְ מִכׇּל־הַיְּהוּדִים\nכִּי אִם־הַחֲרֵשׁ תַּחֲרִישִׁי בָּעֵת הַזֹּאת רֶוַח וְהַצָּלָה יַעֲמוֹד לַיְּהוּדִים מִמָּקוֹם אַחֵר וְאַתְּ וּבֵית־אָבִיךְ תֹּאבֵדוּ וּמִי יוֹדֵעַ אִם־לְעֵת כָּזֹאת הִגַּעַתְּ לַמַּלְכוּת",
+         "en": "Mordecai had this message delivered to Esther: “Do not imagine that you, of all the Jews, will escape with your life by being in the king’s palace. On the contrary, if you keep silent in this crisis, relief and deliverance will come to the Jews from another quarter, while you and your father’s house will perish. And who knows, perhaps you have attained to royal position for just such a crisis.”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomer mordochai l'hashiv el esteir al t'dami v'nafsheich l'himaleit beit hamelech mikol hay'hudim\nKi im hachareish tacharishi ba-eit hazot revach v'hatzalah ya-amod lay'hudim mimakom acheir v'at uveit avich toveidu umi yodeia im l'eit kazot higa-at lamalchut"
+        },
+        {
+         "kind": "term",
+         "he": "מִמָּקוֹם אַחֵר",
+         "tl": "Mimakom acheir",
+         "gloss": "\"from another quarter\" (4:14). In Hebrew, **mimakom acher**, from another **place**. **Makom**, place, is also a name the Rabbis gave to God: God is the place of the world. In a book that never names God, Mordecai speaks of help from \"another place.\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Esther 4:14; Bereshit Rabbah 68:9"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Esther 4:16",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 4:16"
+         },
+         "ref": "Esther 4:16",
+         "he": "לֵךְ כְּנוֹס אֶת־כׇּל־הַיְּהוּדִים הַנִּמְצְאִים בְּשׁוּשָׁן וְצוּמוּ עָלַי וְאַל־תֹּאכְלוּ וְאַל־תִּשְׁתּוּ שְׁלֹשֶׁת יָמִים לַיְלָה וָיוֹם גַּם־אֲנִי וְנַעֲרֹתַי אָצוּם כֵּן וּבְכֵן אָבוֹא אֶל־הַמֶּלֶךְ אֲשֶׁר לֹא־כַדָּת וְכַאֲשֶׁר אָבַדְתִּי אָבָדְתִּי",
+         "en": "“Go, assemble all the Jews who live in Shushan, and fast in my behalf; do not eat or drink for three days, night or day. I and my maids will observe the same fast. Then I shall go to the king, though it is contrary to the law; and if I am to perish, I shall perish!”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Leich k'nos et kol hay'hudim hanimtz'im b'shushan v'tzumu alai v'al tochlu v'al tishtu sh'loshet yamim laylah vayom gam ani v'na-arotai atzum kein uv'chein avo el hamelech asher lo chadat v'cha-asher avadti avadti",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "If I perish, I perish",
+         "body": "Esther asks all the Jews of Shushan to **fast for her three days**, and she and her maids will fast too. Then: \"I shall go to the king, though it is contrary to the law; and if I am to perish, I shall perish!\" (4:16). The orphan who hid becomes **the one who acts**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 4:16"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "act",
+         "type": "why",
+         "q": "What changes in Esther in 4:16?",
+         "choices": [
+          "She chooses to risk her life and act",
+          "She reveals that she is Persian",
+          "She leaves the palace"
+         ],
+         "answer": 0,
+         "why": "From hiding to acting: \"**If I am to perish, I shall perish.**\"",
+         "wrong_why": [
+          null,
+          "She is Jewish, and soon reveals it.",
+          "She goes toward the king, not away."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 4:16"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "יָבוֹא הַמֶּלֶךְ וְהָמָן הַיּוֹם",
+         "tl": "Yavo hamelech v'haman hayom",
+         "gloss": "\"let Your Majesty and Haman come today\" (5:4). Esther's invitation, and the **first letters** of these four Hebrew words: yod, heh, vav, heh, **the four-letter Name**. God is present at the very moment Esther acts.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 5:4"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "name",
+         "type": "why",
+         "q": "Where is God's Name hidden in Esther 5:4?",
+         "choices": [
+          "In the first letters of four words of Esther's invitation",
+          "In the king's name",
+          "In Mordecai's speech"
+         ],
+         "answer": 0,
+         "why": "Yod, heh, vav, heh: hidden **in the words of Esther's own brave act**.",
+         "wrong_why": [
+          null,
+          "Not in Ahasuerus's name.",
+          "This verse is Esther speaking."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 5:4"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "God's Name appears, hidden, in the words Esther speaks when she finally acts. Is there a moment you are being asked to act \"for just such a crisis\"?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**Who knows**, perhaps you have attained to royal position for just such a crisis.\"",
+          "**Mimakom acher**: help from \"another place\", and Makom is a name for God.",
+          "\"**If I am to perish, I shall perish.**\"",
+          "The Name hidden in **Esther's invitation** (5:4)."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-esther-04",
+       "title": "Esther (4): Turned upside down",
+       "status": "draft",
+       "related": [],
+       "check_note": "Tikkunei Zohar 57b read on Sefaria 11/11.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "The day it flipped",
+         "body": "On the very day the Jews' enemies expected to destroy them, \"**the opposite happened**\" (9:1). Grief becomes celebration, and Purim is born.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 9:1"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Besides feasting, what does Esther 9:22 tell people to do on Purim?",
+         "choices": [
+          "Send gifts to one another and presents to the poor",
+          "Fast all day",
+          "Stay home",
+          "Read the Torah twice"
+         ],
+         "answer": 0,
+         "why": "\"Sending gifts to one another and **presents to the poor**\" (9:22).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 9:1"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Esther 9:1",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 9:1"
+         },
+         "ref": "Esther 9:1",
+         "he": "וּבִשְׁנֵים עָשָׂר חֹדֶשׁ הוּא־חֹדֶשׁ אֲדָר בִּשְׁלוֹשָׁה עָשָׂר יוֹם בּוֹ אֲשֶׁר הִגִּיעַ דְּבַר־הַמֶּלֶךְ וְדָתוֹ לְהֵעָשׂוֹת בַּיּוֹם אֲשֶׁר שִׂבְּרוּ אֹיְבֵי הַיְּהוּדִים לִשְׁלוֹט בָּהֶם וְנַהֲפוֹךְ הוּא אֲשֶׁר יִשְׁלְטוּ הַיְּהוּדִים הֵמָּה בְּשֹׂנְאֵיהֶם",
+         "en": "And so, on the thirteenth day of the twelfth month—that is, the month of Adar—when the king’s command and decree were to be executed, the very day on which the enemies of the Jews had expected to get them in their power, the opposite happened, and the Jews got their enemies in their power.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Uvishneim asar chodesh hu chodesh adar bishloshah asar yom bo asher higia d'var hamelech v'dato l'hei-asot bayom asher sib'ru oyvei hay'hudim lishlot bahem v'nahafoch hu asher yishl'tu hay'hudim heimah b'son'eihem",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "וְנַהֲפוֹךְ הוּא",
+         "tl": "V'nahafoch hu",
+         "gloss": "\"the opposite happened\" (9:1). In Hebrew, **v'nahafoch hu**, from the verb for turning over. Purim celebrations still quote it.",
+         "src": {
+          "type": "tradition",
+          "ref": "Esther 9:1"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Esther 9:22",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 9:22"
+         },
+         "ref": "Esther 9:22",
+         "he": "כַּיָּמִים אֲשֶׁר־נָחוּ בָהֶם הַיְּהוּדִים מֵאֹיְבֵיהֶם וְהַחֹדֶשׁ אֲשֶׁר נֶהְפַּךְ לָהֶם מִיָּגוֹן לְשִׂמְחָה וּמֵאֵבֶל לְיוֹם טוֹב לַעֲשׂוֹת אוֹתָם יְמֵי מִשְׁתֶּה וְשִׂמְחָה וּמִשְׁלֹחַ מָנוֹת אִישׁ לְרֵעֵהוּ וּמַתָּנוֹת לָאֶבְיֹנִים",
+         "en": "the same days on which the Jews enjoyed relief from their foes and the same month that had been transformed for them from one of grief and mourning to one of festive joy. They were to observe them as days of feasting and merrymaking, and as an occasion for sending gifts to one another and presents to the poor.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Kayamim asher nachu vahem hay'hudim mei-oyveihem v'hachodesh asher nehpach lahem miyagon l'simchah umei-eivel l'yom tov la-asot otam y'mei mishteh v'simchah umishloach manot ish l'rei-eihu umatanot la-evyonim",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Joy that includes the poor",
+         "body": "The holiday is fixed as \"days of feasting and merrymaking,\" with gifts to one another **and presents to the poor** (9:22). Purim's joy isn't complete until it reaches **those who have least**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 9:22"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A day like Purim",
+         "body": "The mystical **Tikkunei Zohar** hears **Purim** inside the name of the Day of Atonement, **Yom haKiPURIM**: the holiest fast and the most joyful feast are linked, and the day is destined to **change affliction into delight**.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Tikkunei Zohar 57b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "kippurim",
+         "type": "why",
+         "q": "How does the Tikkunei Zohar connect Purim and Yom Kippur?",
+         "choices": [
+          "It hears Purim in the name Yom haKippurim",
+          "Both are fasts",
+          "Both are in Adar"
+         ],
+         "answer": 0,
+         "why": "**Yom haKiPURIM**: the fast and the feast share a name, and both turn affliction into delight.",
+         "wrong_why": [
+          null,
+          "Purim is a feast, not a fast.",
+          "Yom Kippur is in Tishrei."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "kabbalah",
+          "ref": "Tikkunei Zohar 57b"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "In Ruth and Esther, God's hand is hidden and people act: Ruth's loyalty, Boaz's generosity, Esther's courage. Where is something in your life waiting to be turned around?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "**V'nahafoch hu**: the day turned upside down.",
+          "Purim joy includes **presents to the poor**.",
+          "Tikkunei Zohar: Purim is heard in **Yom haKippurim**."
+         ]
+        }
+       ],
+       "parashah": [],
        "season": null
       }
      ]
@@ -6990,8 +7998,470 @@
        "season": null
       },
       {
+       "id": "x-st-ruth-05",
+       "title": "Ruth (3): The night at the threshing floor",
+       "status": "draft",
+       "related": [],
+       "check_note": "Sanhedrin 19b read on Sefaria 11/11. Eshet chayil: Ruth 3:11 and Proverbs 31:10.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Naomi's plan",
+         "body": "Naomi, who once said she came back empty, now makes a plan: \"Daughter, I must seek a home for you, where you may be happy\" (3:1). She sends Ruth to the threshing floor, at night, to Boaz (3:1-4).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 3:1-4"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "Boaz calls Ruth an eshet chayil, the phrase that opens the poem in Proverbs 31.",
+         "answer": 0,
+         "why": "**Eshet chayil** (3:11), the same words as Proverbs 31:10.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 3:1-4"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 3:1",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 3:1"
+         },
+         "ref": "Ruth 3:1",
+         "he": "וַתֹּאמֶר לָהּ נׇעֳמִי חֲמוֹתָהּ בִּתִּי הֲלֹא אֲבַקֶּשׁ־לָךְ מָנוֹחַ אֲשֶׁר יִיטַב־לָךְ",
+         "en": "Naomi, her mother-in-law, said to her, “Daughter, I must seek a home for you, where you may be happy.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vatomer lah no-omi chamotah biti halo avakesh lach manoach asher yitav lach"
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 3:8",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 3:8"
+         },
+         "ref": "Ruth 3:8",
+         "he": "וַיְהִי בַּחֲצִי הַלַּיְלָה וַיֶּחֱרַד הָאִישׁ וַיִּלָּפֵת וְהִנֵּה אִשָּׁה שֹׁכֶבֶת מַרְגְּלֹתָיו",
+         "en": "In the middle of the night, the man gave a start and pulled back—there was a woman lying at his feet!",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vay'hi bachatzi halaylah vayecherad ha-ish vayilafeit v'hinei ishah shochevet marg'lotav"
+        },
+        {
+         "kind": "concept",
+         "title": "Stronger than Joseph",
+         "body": "At midnight Boaz wakes to find a woman at his feet, and he acts with complete honor. **Rabbi Yochanan**: what Joseph is praised for, resisting temptation, was for Boaz **a small thing**, his humility. (And Palti son of Laish, he adds, was greater still.)",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sanhedrin 19b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "restraint",
+         "type": "why",
+         "q": "How does Rabbi Yochanan compare Boaz to Joseph?",
+         "choices": [
+          "What was Joseph's great strength was a small thing for Boaz",
+          "Boaz was weaker than Joseph",
+          "They never faced the same test"
+         ],
+         "answer": 0,
+         "why": "Joseph's **power** is Boaz's **humility**: the same restraint, held more lightly.",
+         "wrong_why": [
+          null,
+          "He says the opposite.",
+          "He compares them precisely because they did."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sanhedrin 19b"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 3:11",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 3:11"
+         },
+         "ref": "Ruth 3:11",
+         "he": "וְעַתָּה בִּתִּי אַל־תִּירְאִי כֹּל אֲשֶׁר־תֹּאמְרִי אֶעֱשֶׂה־לָּךְ כִּי יוֹדֵעַ כׇּל־שַׁעַר עַמִּי כִּי אֵשֶׁת חַיִל אָתְּ",
+         "en": "And now, daughter, have no fear. I will do in your behalf whatever you ask, for all the elders of my town know what a fine woman you are.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "V'atah biti al tir'i kol asher tomri e-eseh lach ki yodeia kol sha-ar ami ki eishet chayil at",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "אֵשֶׁת חַיִל אָתְּ",
+         "tl": "Eishet chayil at",
+         "gloss": "\"what a fine woman you are\" (3:11). The Hebrew is **eshet chayil**, the words that open the poem of Proverbs 31 (31:10), which many families sing at the Friday night table.",
+         "src": {
+          "type": "tradition",
+          "ref": "Ruth 3:11; Proverbs 31:10"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "chayil",
+         "type": "pick",
+         "q": "What Hebrew phrase does Boaz use for Ruth in 3:11?",
+         "choices": [
+          "Eshet chayil",
+          "Go'el",
+          "Peloni almoni"
+         ],
+         "answer": 0,
+         "why": "**Eshet chayil**, a woman of valor.",
+         "wrong_why": [
+          null,
+          "Go'el, redeemer, is Boaz's role.",
+          "That's the unnamed relative in chapter 4."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "tradition",
+          "ref": "Ruth 3:11; Proverbs 31:10"
+         }
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Naomi: \"**I must seek a home for you.**\"",
+          "Midnight at the threshing floor: Boaz acts with honor.",
+          "Sanhedrin 19b: Joseph's strength was **Boaz's humility**.",
+          "Ruth, an **eshet chayil**."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-ruth-06",
+       "title": "Ruth (4): At the city gate",
+       "status": "draft",
+       "related": [],
+       "check_note": "Ruth Rabbah 7:7 read on Sefaria 11/11.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "So-and-so",
+         "body": "Boaz goes to the town gate, where business was done in public, and calls over the relative who has the first right to redeem: \"Come over and sit down here, **So-and-so**!\" (4:1). The book never gives his name.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:1"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "What is the closer redeemer's name in the Book of Ruth?",
+         "choices": [
+          "He has none: he is only \"So-and-so\"",
+          "Elimelech",
+          "Obed",
+          "Mahlon"
+         ],
+         "answer": 0,
+         "why": "**Peloni almoni**, So-and-so (4:1).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:1"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 4:1",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:1"
+         },
+         "ref": "Ruth 4:1",
+         "he": "וּבֹעַז עָלָה הַשַּׁעַר וַיֵּשֶׁב שָׁם וְהִנֵּה הַגֹּאֵל עֹבֵר אֲשֶׁר דִּבֶּר־בֹּעַז וַיֹּאמֶר סוּרָה שְׁבָה־פֹּה פְּלֹנִי אַלְמֹנִי וַיָּסַר וַיֵּשֵׁב",
+         "en": "Meanwhile, Boaz had gone to the gate and sat down there. And now the redeemer whom Boaz had mentioned passed by. He called, “Come over and sit down here, So-and-so!” And he came over and sat down.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Uvo-az alah hasha-ar vayeishev sham v'hinei hago-eil oveir asher diber bo-az vayomer surah sh'vah po p'loni almoni vayasar vayeisheiv"
+        },
+        {
+         "kind": "concept",
+         "title": "The man with no name",
+         "body": "Why no name? In the midrash, **Rabbi Yehoshua** says Peloni Almoni really was his name. **Rabbi Shmuel bar Nachman**: he was **mute from matters of Torah**. Afraid that marrying Ruth had doomed Naomi's sons, he refused her.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Ruth Rabbah 7:7"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "noname",
+         "type": "why",
+         "q": "What does Rabbi Shmuel bar Nachman say about the unnamed redeemer?",
+         "choices": [
+          "He was mute from matters of Torah, and refused Ruth out of fear",
+          "He was a stranger to Bethlehem",
+          "He was Boaz's brother"
+         ],
+         "answer": 0,
+         "why": "**Mute in matters of Torah**: afraid of what happened to Naomi's sons, he walked away from Ruth.",
+         "wrong_why": [
+          null,
+          "He was a relative of Elimelech.",
+          "The midrash doesn't say that."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Ruth Rabbah 7:7"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 4:7",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:7"
+         },
+         "ref": "Ruth 4:7",
+         "he": "וְזֹאת לְפָנִים בְּיִשְׂרָאֵל עַל־הַגְּאֻלָּה וְעַל־הַתְּמוּרָה לְקַיֵּם כׇּל־דָּבָר שָׁלַף אִישׁ נַעֲלוֹ וְנָתַן לְרֵעֵהוּ וְזֹאת הַתְּעוּדָה בְּיִשְׂרָאֵל",
+         "en": "Now this was formerly done in Israel in cases of redemption or exchange: to validate any transaction, one party would take off a sandal and hand it to the other. Such was the practice in Israel.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "V'zot l'fanim b'Yisrael al hag'ulah v'al hat'murah l'kayeim kol davar shalaf ish na-alo v'natan l'rei-eihu v'zot hat'udah b'Yisrael"
+        },
+        {
+         "kind": "concept",
+         "title": "The sandal",
+         "body": "To seal the deal, one man **takes off a sandal** and hands it to the other (4:7-8). The book stops to explain the custom, as if writing for readers who had forgotten it.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:7-8"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 4:11",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:11"
+         },
+         "ref": "Ruth 4:11",
+         "he": "וַיֹּאמְרוּ כׇּל־הָעָם אֲשֶׁר־בַּשַּׁעַר וְהַזְּקֵנִים עֵדִים יִתֵּן יְיָ אֶת־הָאִשָּׁה הַבָּאָה אֶל־בֵּיתֶךָ כְּרָחֵל וּכְלֵאָה אֲשֶׁר בָּנוּ שְׁתֵּיהֶם אֶת־בֵּית יִשְׂרָאֵל וַעֲשֵׂה־חַיִל בְּאֶפְרָתָה וּקְרָא־שֵׁם בְּבֵית לָחֶם",
+         "en": "All the people at the gate and the elders answered, “We are. May GOD make the woman who is coming into your house like Rachel and Leah, both of whom built up the House of Israel! Prosper in Ephrathah and perpetuate your name in Bethlehem!",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomru kol ha-am asher basha-ar v'haz'keinim eidim yitein Adonai et ha-ishah haba-ah el beitecha k'racheil uch'lei-ah asher banu sh'teihem et beit Yisrael va-asei chayil b'efratah uk'ra sheim b'veit lachem",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "כְּרָחֵל וּכְלֵאָה אֲשֶׁר בָּנוּ שְׁתֵּיהֶם אֶת־בֵּית יִשְׂרָאֵל",
+         "tl": "K'racheil uch'lei-ah asher banu sh'teihem et beit Yisrael",
+         "gloss": "\"like Rachel and Leah, both of whom built up the House of Israel!\" (4:11). The elders bless Ruth, a woman from Moab, by **the two sisters** you met in Genesis.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:11"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "rachel-leah",
+         "type": "pick",
+         "q": "Which two women do the elders name when they bless Ruth?",
+         "choices": [
+          "Rachel and Leah",
+          "Sarah and Rebekah",
+          "Naomi and Orpah"
+         ],
+         "answer": 0,
+         "why": "\"**Like Rachel and Leah**, both of whom built up the House of Israel.\"",
+         "wrong_why": [
+          null,
+          "They're matriarchs too, but not the ones named here.",
+          "Naomi and Orpah are in Ruth's own story."
+         ],
+         "look_again": 8,
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:11"
+         }
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**So-and-so**\": the redeemer without a name.",
+          "Ruth Rabbah 7:7: \"mute from matters of Torah,\" he **refused Ruth**.",
+          "A **sandal** seals the deal.",
+          "The elders bless Ruth: **like Rachel and Leah**."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-ruth-04",
+       "title": "Ruth (5): A son for Naomi",
+       "status": "draft",
+       "related": [],
+       "check_note": "Bava Batra 91b read on Sefaria 11/11.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Full again",
+         "body": "Boaz marries Ruth, and she bears a son. The neighbors don't say \"a son is born to Ruth.\" They say: \"**A son is born to Naomi!**\" (4:13-17).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:13-17"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Who do the neighbors say the baby is born to?",
+         "choices": [
+          "Naomi",
+          "Ruth",
+          "Boaz",
+          "Orpah"
+         ],
+         "answer": 0,
+         "why": "\"**A son is born to Naomi!**\" (4:17).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:13-17"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 4:17",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:17"
+         },
+         "ref": "Ruth 4:17",
+         "he": "וַתִּקְרֶאנָה לוֹ הַשְּׁכֵנוֹת שֵׁם לֵאמֹר יֻלַּד־בֵּן לְנׇעֳמִי וַתִּקְרֶאנָה שְׁמוֹ עוֹבֵד הוּא אֲבִי־יִשַׁי אֲבִי דָוִד",
+         "en": "and the women neighbors gave him a name, saying, “A son is born to Naomi!” They named him Obed; he was the father of Jesse, father of David.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vatikrenah lo hash'cheinot sheim leimor yulad bein l'no-omi vatikrenah sh'mo oveid hu avi yishai avi david"
+        },
+        {
+         "kind": "concept",
+         "title": "Empty, then full",
+         "body": "In chapter 1 Naomi said, \"I went away full, and Adonai has brought me back empty\" (1:21). Now a child is placed in her lap, and the women name him **Obed**, father of Jesse, **father of David**. Her emptiness is filled through Ruth's loyalty.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:21, 4:16-17"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "naomi",
+         "type": "why",
+         "q": "Why do the neighbors call Ruth's son Naomi's?",
+         "choices": [
+          "Naomi, who came back empty, is made full again",
+          "Naomi adopted him legally",
+          "Ruth had left"
+         ],
+         "answer": 0,
+         "why": "The story ends where Naomi's grief began, **reversed**.",
+         "wrong_why": [
+          null,
+          "The text speaks of joy, not law.",
+          "Ruth is still there; she is the one who gave Naomi this."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:21, 4:16-17"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Ruth saw Solomon",
+         "body": "The Talmud says **Ruth the Moabite lived to see the kingship of Solomon**: the stranger who chose to belong saw her great-great-grandson on the throne.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Batra 91b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "solomon",
+         "type": "pick",
+         "q": "According to Bava Batra 91b, whose reign did Ruth live to see?",
+         "choices": [
+          "Solomon's",
+          "Saul's",
+          "Moses'"
+         ],
+         "answer": 0,
+         "why": "**Solomon**, son of David, her great-great-grandson.",
+         "wrong_why": [
+          null,
+          "Saul was not of her line.",
+          "Moses lived long before Ruth."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Batra 91b"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "The line of David begins with a woman who chose to belong. What does that say to you about who belongs?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**A son is born to Naomi!**\"",
+          "Naomi, **empty**, is made **full** again.",
+          "Obed, Jesse, **David**.",
+          "Bava Batra 91b: Ruth **saw Solomon's kingship**."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
        "id": "x-st-ruth-03",
-       "title": "Ruth (3): Where is God in Ruth?",
+       "title": "Ruth (6): Where is God in Ruth?",
        "status": "draft",
        "related": [],
        "check_note": "Count of the narrator's statements about God from the full JPS text of Ruth on Sefaria (1:6, 4:13). Ruth Rabbah 2:14 and Chullin 139b read on Sefaria 11/11. Esther 5:4 initials checked by script on the Masorah text.",
@@ -7152,139 +8622,6 @@
           "Ruth Rabbah 2:14: written **to teach the reward of chesed**.",
           "Esther: God **never named**, the Name **hidden** in Esther 5:4 (Chullin 139b).",
           "Your rabbi: a people growing up, God present **in our moral choices**."
-         ]
-        }
-       ],
-       "parashah": [],
-       "season": null
-      },
-      {
-       "id": "x-st-ruth-04",
-       "title": "Ruth (4): A son for Naomi",
-       "status": "draft",
-       "related": [],
-       "check_note": "Bava Batra 91b read on Sefaria 11/11.",
-       "cards": [
-        {
-         "kind": "hook",
-         "title": "Full again",
-         "body": "Boaz marries Ruth, and she bears a son. The neighbors don't say \"a son is born to Ruth.\" They say: \"**A son is born to Naomi!**\" (4:13-17).",
-         "src": {
-          "type": "tanakh",
-          "ref": "Ruth 4:13-17"
-         }
-        },
-        {
-         "kind": "check",
-         "id": "pre",
-         "pretest": true,
-         "type": "pick",
-         "q": "Who do the neighbors say the baby is born to?",
-         "choices": [
-          "Naomi",
-          "Ruth",
-          "Boaz",
-          "Orpah"
-         ],
-         "answer": 0,
-         "why": "\"**A son is born to Naomi!**\" (4:17).",
-         "src": {
-          "type": "tanakh",
-          "ref": "Ruth 4:13-17"
-         }
-        },
-        {
-         "kind": "text",
-         "sefaria": "Ruth 4:17",
-         "src": {
-          "type": "tanakh",
-          "ref": "Ruth 4:17"
-         },
-         "ref": "Ruth 4:17",
-         "he": "וַתִּקְרֶאנָה לוֹ הַשְּׁכֵנוֹת שֵׁם לֵאמֹר יֻלַּד־בֵּן לְנׇעֳמִי וַתִּקְרֶאנָה שְׁמוֹ עוֹבֵד הוּא אֲבִי־יִשַׁי אֲבִי דָוִד",
-         "en": "and the women neighbors gave him a name, saying, “A son is born to Naomi!” They named him Obed; he was the father of Jesse, father of David.",
-         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
-         "license": "CC-BY-NC",
-         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
-         "tl": "Vatikrenah lo hash'cheinot sheim leimor yulad bein l'no-omi vatikrenah sh'mo oveid hu avi yishai avi david"
-        },
-        {
-         "kind": "concept",
-         "title": "Empty, then full",
-         "body": "In chapter 1 Naomi said, \"I went away full, and Adonai has brought me back empty\" (1:21). Now a child is placed in her lap, and the women name him **Obed**, father of Jesse, **father of David**. Her emptiness is filled through Ruth's loyalty.",
-         "src": {
-          "type": "tanakh",
-          "ref": "Ruth 1:21, 4:16-17"
-         }
-        },
-        {
-         "kind": "check",
-         "id": "q1",
-         "idea": "naomi",
-         "type": "why",
-         "q": "Why do the neighbors call Ruth's son Naomi's?",
-         "choices": [
-          "Naomi, who came back empty, is made full again",
-          "Naomi adopted him legally",
-          "Ruth had left"
-         ],
-         "answer": 0,
-         "why": "The story ends where Naomi's grief began, **reversed**.",
-         "wrong_why": [
-          null,
-          "The text speaks of joy, not law.",
-          "Ruth is still there; she is the one who gave Naomi this."
-         ],
-         "look_again": 3,
-         "src": {
-          "type": "tanakh",
-          "ref": "Ruth 1:21, 4:16-17"
-         }
-        },
-        {
-         "kind": "concept",
-         "title": "Ruth saw Solomon",
-         "body": "The Talmud says **Ruth the Moabite lived to see the kingship of Solomon**: the stranger who chose to belong saw her great-great-grandson on the throne.",
-         "src": {
-          "type": "rabbinic",
-          "ref": "Bava Batra 91b"
-         }
-        },
-        {
-         "kind": "check",
-         "id": "q2",
-         "idea": "solomon",
-         "type": "pick",
-         "q": "According to Bava Batra 91b, whose reign did Ruth live to see?",
-         "choices": [
-          "Solomon's",
-          "Saul's",
-          "Moses'"
-         ],
-         "answer": 0,
-         "why": "**Solomon**, son of David, her great-great-grandson.",
-         "wrong_why": [
-          null,
-          "Saul was not of her line.",
-          "Moses lived long before Ruth."
-         ],
-         "look_again": 5,
-         "src": {
-          "type": "rabbinic",
-          "ref": "Bava Batra 91b"
-         }
-        },
-        {
-         "kind": "reflect",
-         "prompt": "The line of David begins with a woman who chose to belong. What does that say to you about who belongs?"
-        },
-        {
-         "kind": "recap",
-         "points": [
-          "\"**A son is born to Naomi!**\"",
-          "Naomi, **empty**, is made **full** again.",
-          "Obed, Jesse, **David**.",
-          "Bava Batra 91b: Ruth **saw Solomon's kingship**."
          ]
         }
        ],

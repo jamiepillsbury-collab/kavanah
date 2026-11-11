@@ -34,7 +34,7 @@ L24 = {"id": "x-st-gen-24", "title": "Joseph (1): The tunic, the dreams and the 
       "Comfort comes for **the dead**, who fade from the heart. Joseph was **alive**.", ["\"All his sons and daughters sought to comfort him\" (37:35).", "Rashi gives a different reason."], look_again=11),
   {"kind": "recap", "points": ["A favorite son, **an ornamented tunic**, and dreams.", "Rashi: the man in the field was **Gabriel**.", "\"**I am looking for my brothers.**\"", "The pit: no water, but **snakes and scorpions** (Rashi).", "Jacob **refuses comfort**: Joseph is alive (Rashi 37:35)."]}]}
 
-L25 = {"id": "x-st-gen-25", "title": "Joseph (2): Adonai was with Joseph", "parashah": ["Vayeshev"], "status": "draft", "related": [],
+L25 = {"id": "x-st-gen-25", "title": "Joseph (3): Adonai was with Joseph", "parashah": ["Vayeshev"], "status": "draft", "related": [],
  "check_note": "My summaries of Rashi on Genesis 39:3 (from Tanchuma) and Sotah 36b (cited by Rashi on 39:11), read on Sefaria 11/11.",
  "cards": [
   {"kind": "hook", "title": "A slave in Egypt", "body": "Sold by his brothers, Joseph becomes a slave in the house of Potiphar, an Egyptian official. Yet the Torah says, \"Adonai was with Joseph\" (39:2).", "src": T("Genesis 39:1-2")},
@@ -53,7 +53,7 @@ L25 = {"id": "x-st-gen-25", "title": "Joseph (2): Adonai was with Joseph", "para
   {"kind": "reflect", "prompt": "Joseph is a slave, then a prisoner, and still the Torah says God was with him. In this story, where does God's presence actually show up?"},
   {"kind": "recap", "points": ["\"**Adonai was with Joseph**,\" even as a slave.", "Rashi: God's name was **always on his lips**.", "Sotah 36b: **his father's face** in the window.", "\"**Surely God can interpret!**\""]}]}
 
-L26 = {"id": "x-st-gen-26", "title": "Joseph (3): Pharaoh's dreams", "parashah": ["Miketz"], "status": "draft", "related": [],
+L26 = {"id": "x-st-gen-26", "title": "Joseph (4): Pharaoh's dreams", "parashah": ["Miketz"], "status": "draft", "related": [],
  "check_note": "Torah text only, plus the custom of blessing children with Ephraim and Manasseh (Genesis 48:20).",
  "cards": [
   {"kind": "hook", "title": "From prison to palace", "body": "Pharaoh dreams of **seven fat cows and seven lean ones**, and no one can explain it. Joseph is brought **straight from prison** (41:1-15).", "src": T("Genesis 41:1-15")},
@@ -68,7 +68,7 @@ L26 = {"id": "x-st-gen-26", "title": "Joseph (3): Pharaoh's dreams", "parashah":
   {"kind": "reflect", "prompt": "Ephraim: \"fertile in the land of my affliction.\" Has anything grown for you in a hard place? It's fine to skip this one."},
   {"kind": "recap", "points": ["Joseph goes **from prison to Pharaoh**.", "\"**Not I!** God will see to Pharaoh's welfare.\"", "**Manasseh** and **Ephraim**: forgetting hardship, and growing in it.", "Children are still blessed **to be like Ephraim and Manasseh**."]}]}
 
-L27 = {"id": "x-st-gen-27", "title": "Joseph (4): The brothers and Judah", "parashah": ["Miketz", "Vayigash"], "status": "draft", "related": [],
+L27 = {"id": "x-st-gen-27", "title": "Joseph (5): The brothers and Judah", "parashah": ["Miketz", "Vayigash"], "status": "draft", "related": [],
  "check_note": "Rambam, Mishneh Torah, Repentance 2:1 (Touger translation on Sefaria), read 11/11. The observation that Genesis 37 records no plea from Joseph is from the text itself.",
  "cards": [
   {"kind": "hook", "title": "Bowing to a stranger", "body": "Famine drives Joseph's brothers to Egypt. They **bow** to the governor, as in Joseph's dream. Joseph recognizes them; **they do not recognize him** (42:6-8).", "src": T("Genesis 42:6-8")},
@@ -84,7 +84,7 @@ L27 = {"id": "x-st-gen-27", "title": "Joseph (4): The brothers and Judah", "para
       "Same test, a brother at risk, and **this time he protects him**.", ["Rambam asks for more than words.", "Gifts aren't the measure here."], look_again=6),
   {"kind": "recap", "points": ["The brothers **bow**, and don't recognize Joseph.", "Joseph's plea from the pit is heard **only in their guilt** (42:21).", "**Judah** offers himself for Benjamin.", "Rambam: complete teshuvah is choosing differently **in the same situation**."]}]}
 
-L28 = {"id": "x-st-gen-28", "title": "Joseph (5): I am Joseph", "parashah": ["Vayigash", "Vayechi"], "status": "draft", "related": [],
+L28 = {"id": "x-st-gen-28", "title": "Joseph (6): I am Joseph", "parashah": ["Vayigash", "Vayechi"], "status": "draft", "related": [],
  "check_note": "My summaries of Bereshit Rabbah 93:10 and Zohar, Miketz 11:182 (Soncino translation on Sefaria), read 11/11.",
  "cards": [
   {"kind": "hook", "title": "He could no longer hold back", "body": "Judah's plea breaks Joseph open. He sends everyone else out and says: \"I am Joseph. Is my father still well?\" (45:1-3).", "src": T("Genesis 45:1-3")},

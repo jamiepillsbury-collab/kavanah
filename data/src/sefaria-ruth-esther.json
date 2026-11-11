@@ -1,0 +1,323 @@
+{
+ "fetched": "2026-11-11",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Ruth (chapters 3-4) and Esther). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Ruth 3:1",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתֹּאמֶר לָהּ נׇעֳמִי חֲמוֹתָהּ בִּתִּי הֲלֹא אֲבַקֶּשׁ־לָךְ מָנוֹחַ אֲשֶׁר יִיטַב־לָךְ"
+   ],
+   "sha": [
+    "e0d218dbbcbf29ee8ae1944101367303bc0fdfce1aeb13a2462eb6569cdb85ba"
+   ]
+  },
+  {
+   "ref": "Ruth 3:1",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Naomi, her mother-in-law, said to her, “Daughter, I must seek a home for you, where you may be happy."
+   ],
+   "sha": [
+    "c60665c9462d05582b9819878604dd2db17259cf41c3791339e01661bc60a58e"
+   ]
+  },
+  {
+   "ref": "Ruth 3:8",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי בַּחֲצִי הַלַּיְלָה וַיֶּחֱרַד הָאִישׁ וַיִּלָּפֵת וְהִנֵּה אִשָּׁה שֹׁכֶבֶת מַרְגְּלֹתָיו"
+   ],
+   "sha": [
+    "5afd8bc718073ae375462e5fb65b47e9f75deb70075d0a849d2080dc908c69fa"
+   ]
+  },
+  {
+   "ref": "Ruth 3:8",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "In the middle of the night, the man gave a start and pulled back—there was a woman lying at his feet!"
+   ],
+   "sha": [
+    "587db7e3223169fabe2831d6067a9ef9d16a58469e34182877ea4b5cdbe8ffb2"
+   ]
+  },
+  {
+   "ref": "Ruth 3:11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְעַתָּה בִּתִּי אַל־תִּירְאִי כֹּל אֲשֶׁר־תֹּאמְרִי אֶעֱשֶׂה־לָּךְ כִּי יוֹדֵעַ כׇּל־שַׁעַר עַמִּי כִּי אֵשֶׁת חַיִל אָתְּ"
+   ],
+   "sha": [
+    "8319cb67d9d8bc793a5f60fad341941df5ccbc7046e13c6e12a5b2d3a4b79d30"
+   ]
+  },
+  {
+   "ref": "Ruth 3:11",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "And now, daughter, have no fear. I will do in your behalf whatever you ask, for all the elders of my town know what a fine woman you are."
+   ],
+   "sha": [
+    "3689b404770ea1bbbea6c6657dd21e059a5b9633057ee0dc1292312e40348996"
+   ]
+  },
+  {
+   "ref": "Ruth 4:1",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וּבֹעַז עָלָה הַשַּׁעַר וַיֵּשֶׁב שָׁם וְהִנֵּה הַגֹּאֵל עֹבֵר אֲשֶׁר דִּבֶּר־בֹּעַז וַיֹּאמֶר סוּרָה שְׁבָה־פֹּה פְּלֹנִי אַלְמֹנִי וַיָּסַר וַיֵּשֵׁב"
+   ],
+   "sha": [
+    "19eda18a99635a6a64d140a978f3945e955647751a8efc4047e051d992efd483"
+   ]
+  },
+  {
+   "ref": "Ruth 4:1",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Meanwhile, Boaz had gone to the gate and sat down there. And now the redeemer whom Boaz had mentioned passed by. He called, “Come over and sit down here, So-and-so!” And he came over and sat down."
+   ],
+   "sha": [
+    "bacb2583d999502e90dbcaeb0c552fb5b52ef40fccddd9294f64c57db7202b03"
+   ]
+  },
+  {
+   "ref": "Ruth 4:7",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְזֹאת לְפָנִים בְּיִשְׂרָאֵל עַל־הַגְּאֻלָּה וְעַל־הַתְּמוּרָה לְקַיֵּם כׇּל־דָּבָר שָׁלַף אִישׁ נַעֲלוֹ וְנָתַן לְרֵעֵהוּ וְזֹאת הַתְּעוּדָה בְּיִשְׂרָאֵל"
+   ],
+   "sha": [
+    "dbd1a732b453c957556ebd5fa09da6e4a8fff1e5b75c9b34cb936aaa646ac66e"
+   ]
+  },
+  {
+   "ref": "Ruth 4:7",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Now this was formerly done in Israel in cases of redemption or exchange: to validate any transaction, one party would take off a sandal and hand it to the other. Such was the practice in Israel."
+   ],
+   "sha": [
+    "1a2646140ad3c370c2c8e9390f644d7490f44065da290be78f39719266405f9a"
+   ]
+  },
+  {
+   "ref": "Ruth 4:11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמְרוּ כׇּל־הָעָם אֲשֶׁר־בַּשַּׁעַר וְהַזְּקֵנִים עֵדִים יִתֵּן יְהֹוָה אֶת־הָאִשָּׁה הַבָּאָה אֶל־בֵּיתֶךָ כְּרָחֵל וּכְלֵאָה אֲשֶׁר בָּנוּ שְׁתֵּיהֶם אֶת־בֵּית יִשְׂרָאֵל וַעֲשֵׂה־חַיִל בְּאֶפְרָתָה וּקְרָא־שֵׁם בְּבֵית לָחֶם"
+   ],
+   "sha": [
+    "92b98993b06a89d31669558439535665100fbd4977434d57080a1a71cdbbc655"
+   ]
+  },
+  {
+   "ref": "Ruth 4:11",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "All the people at the gate and the elders answered, “We are. May GOD make the woman who is coming into your house like Rachel and Leah, both of whom built up the House of Israel! Prosper in Ephrathah and perpetuate your name in Bethlehem!"
+   ],
+   "sha": [
+    "b59d775dec92e165be83c83b5de32379b6adace0ff878372686313495577dae0"
+   ]
+  },
+  {
+   "ref": "Esther 2:7",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי אֹמֵן אֶת־הֲדַסָּה הִיא אֶסְתֵּר בַּת־דֹּדוֹ כִּי אֵין לָהּ אָב וָאֵם וְהַנַּעֲרָה יְפַת־תֹּאַר וְטוֹבַת מַרְאֶה וּבְמוֹת אָבִיהָ וְאִמָּהּ לְקָחָהּ מׇרְדֳּכַי לוֹ לְבַת"
+   ],
+   "sha": [
+    "66394b863d8fcf1d98d2fce084e4cee590e59fc03a743d75c886f72484f59011"
+   ]
+  },
+  {
+   "ref": "Esther 2:7",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "He was foster father to Hadassah—that is, Esther—his uncle’s daughter, for she had neither father nor mother. The maiden was shapely and beautiful; and when her father and mother died, Mordecai adopted her as his own daughter."
+   ],
+   "sha": [
+    "036e110fc00d615fc540929b1ba92fd4aecb367a4cf8c246071c161b99e9ac98"
+   ]
+  },
+  {
+   "ref": "Esther 2:10",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "לֹא־הִגִּידָה אֶסְתֵּר אֶת־עַמָּהּ וְאֶת־מוֹלַדְתָּהּ כִּי מׇרְדֳּכַי צִוָּה עָלֶיהָ אֲשֶׁר לֹא־תַגִּיד {ס}"
+   ],
+   "sha": [
+    "529ced1a369bfcc3ff1782cc6000926fbec67d6a7403c3c7a095e166d6d19b3c"
+   ]
+  },
+  {
+   "ref": "Esther 2:10",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Esther did not reveal her people or her kindred, for Mordecai had told her not to reveal it."
+   ],
+   "sha": [
+    "8c5ab40e066b129b9859cce0859f72e3c5aa2a5a4858a77ddd4ed777c32a86d7"
+   ]
+  },
+  {
+   "ref": "Esther 3:2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְכׇל־עַבְדֵי הַמֶּלֶךְ אֲשֶׁר־בְּשַׁעַר הַמֶּלֶךְ כֹּרְעִים וּמִשְׁתַּחֲוִים לְהָמָן כִּי־כֵן צִוָּה־לוֹ הַמֶּלֶךְ וּמׇרְדֳּכַי לֹא יִכְרַע וְלֹא יִשְׁתַּחֲוֶה"
+   ],
+   "sha": [
+    "70f5228155316cca4ecee901321466b63712be642e9a1496d0583d6c5382775f"
+   ]
+  },
+  {
+   "ref": "Esther 3:2",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "All the king’s courtiers in the palace gate knelt and bowed low to Haman, for such was the king’s order concerning him; but Mordecai would not kneel or bow low."
+   ],
+   "sha": [
+    "c223aed4bf279b832460d8d6f614d0d8f2ef7f7d175bc21ac920a4c2fae3af99"
+   ]
+  },
+  {
+   "ref": "Esther 4:13-14",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר מׇרְדֳּכַי לְהָשִׁיב אֶל־אֶסְתֵּר אַל־תְּדַמִּי בְנַפְשֵׁךְ לְהִמָּלֵט בֵּית־הַמֶּלֶךְ מִכׇּל־הַיְּהוּדִים",
+    "כִּי אִם־הַחֲרֵשׁ תַּחֲרִישִׁי בָּעֵת הַזֹּאת רֶוַח וְהַצָּלָה יַעֲמוֹד לַיְּהוּדִים מִמָּקוֹם אַחֵר וְאַתְּ וּבֵית־אָבִיךְ תֹּאבֵדוּ וּמִי יוֹדֵעַ אִם־לְעֵת כָּזֹאת הִגַּעַתְּ לַמַּלְכוּת"
+   ],
+   "sha": [
+    "9f6da9704107bf1885c967f6e3cdbbe743fceb2e2290cea3e48f0c6e8f984f2b",
+    "3967e47c224640d9de5c867181ce1e0327eb456cc96f248c19f548a48d017b96"
+   ]
+  },
+  {
+   "ref": "Esther 4:13-14",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Mordecai had this message delivered to Esther: “Do not imagine that you, of all the Jews, will escape with your life by being in the king’s palace.",
+    "On the contrary, if you keep silent in this crisis, relief and deliverance will come to the Jews from another quarter, while you and your father’s house will perish. And who knows, perhaps you have attained to royal position for just such a crisis.”"
+   ],
+   "sha": [
+    "efbba7612913cf7a97f31b2a5da1705d474ccacbaf5cfef20d651eaccc260e10",
+    "b8330cfd81511d8efc79048e78834641e7aa825fb76e1e86ed512258c2699f55"
+   ]
+  },
+  {
+   "ref": "Esther 4:16",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "לֵךְ כְּנוֹס אֶת־כׇּל־הַיְּהוּדִים הַנִּמְצְאִים בְּשׁוּשָׁן וְצוּמוּ עָלַי וְאַל־תֹּאכְלוּ וְאַל־תִּשְׁתּוּ שְׁלֹשֶׁת יָמִים לַיְלָה וָיוֹם גַּם־אֲנִי וְנַעֲרֹתַי אָצוּם כֵּן וּבְכֵן אָבוֹא אֶל־הַמֶּלֶךְ אֲשֶׁר לֹא־כַדָּת וְכַאֲשֶׁר אָבַדְתִּי אָבָדְתִּי"
+   ],
+   "sha": [
+    "a4b453461b668bdfa8beb85626a4db2272d00e0eb022bfc2b53e732194694acf"
+   ]
+  },
+  {
+   "ref": "Esther 4:16",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "“Go, assemble all the Jews who live in Shushan, and fast in my behalf; do not eat or drink for three days, night or day. I and my maids will observe the same fast. Then I shall go to the king, though it is contrary to the law; and if I am to perish, I shall perish!”"
+   ],
+   "sha": [
+    "98b390c89b34ab79c3cf713368c0d8acb2ecca6beea19a06d86ec8d5f3f6fdd7"
+   ]
+  },
+  {
+   "ref": "Esther 9:1",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וּבִשְׁנֵים עָשָׂר חֹדֶשׁ הוּא־חֹדֶשׁ אֲדָר בִּשְׁלוֹשָׁה עָשָׂר יוֹם בּוֹ אֲשֶׁר הִגִּיעַ דְּבַר־הַמֶּלֶךְ וְדָתוֹ לְהֵעָשׂוֹת בַּיּוֹם אֲשֶׁר שִׂבְּרוּ אֹיְבֵי הַיְּהוּדִים לִשְׁלוֹט בָּהֶם וְנַהֲפוֹךְ הוּא אֲשֶׁר יִשְׁלְטוּ הַיְּהוּדִים הֵמָּה בְּשֹׂנְאֵיהֶם"
+   ],
+   "sha": [
+    "365d72fd6f87e4c1f7d71ad97587fca2d0cdad4f97334b194bbcf4ad46697c58"
+   ]
+  },
+  {
+   "ref": "Esther 9:1",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "And so, on the thirteenth day of the twelfth month—that is, the month of Adar—when the king’s command and decree were to be executed, the very day on which the enemies of the Jews had expected to get them in their power, the opposite happened, and the Jews got their enemies in their power."
+   ],
+   "sha": [
+    "3b94f99602562d4c110f25a45dcb02ee24d794e8da52c2f11c00a65b70223f66"
+   ]
+  },
+  {
+   "ref": "Esther 9:22",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "כַּיָּמִים אֲשֶׁר־נָחוּ בָהֶם הַיְּהוּדִים מֵאֹיְבֵיהֶם וְהַחֹדֶשׁ אֲשֶׁר נֶהְפַּךְ לָהֶם מִיָּגוֹן לְשִׂמְחָה וּמֵאֵבֶל לְיוֹם טוֹב לַעֲשׂוֹת אוֹתָם יְמֵי מִשְׁתֶּה וְשִׂמְחָה וּמִשְׁלֹחַ מָנוֹת אִישׁ לְרֵעֵהוּ וּמַתָּנוֹת לָאֶבְיֹנִים"
+   ],
+   "sha": [
+    "19267f1df1e30d2530f51a2ae18069d50b6c83f8c531c907f22df751a5bb0257"
+   ]
+  },
+  {
+   "ref": "Esther 9:22",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "the same days on which the Jews enjoyed relief from their foes and the same month that had been transformed for them from one of grief and mourning to one of festive joy. They were to observe them as days of feasting and merrymaking, and as an occasion for sending gifts to one another and presents to the poor."
+   ],
+   "sha": [
+    "4286a077ca59a9c39cdd2c98fb2b47424920a3efdc558b69275be8824f11f4f8"
+   ]
+  }
+ ]
+}

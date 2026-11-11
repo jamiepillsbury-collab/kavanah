@@ -4444,8 +4444,136 @@
      ]
     },
     {
+     "id": "x-st-gen-29",
+     "title": "Joseph (2): Judah and Tamar",
+     "parashah": [
+      "Vayeshev"
+     ],
+     "status": "draft",
+     "related": [],
+     "check_note": "Sotah 10b read on Sefaria 11/11. 'Haker na' in 37:32 and 38:25: same Hebrew words, checked in the Masorah text.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "A detour to Judah",
+       "body": "In the middle of Joseph's story, the Torah turns to **Judah**. His widowed daughter-in-law **Tamar** is denied the marriage she was promised. When she is found pregnant and condemned, she quietly sends Judah his own **seal, cord and staff** (38:24-25).",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 38:24-25"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "Tamar publicly names Judah as the father.",
+       "answer": false,
+       "why": "She only sends a message: \"Examine these: whose seal and cord and staff are these?\" (38:25). Judah must decide whether to speak.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 38:24-25"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 38:25-26"
+      },
+      {
+       "kind": "concept",
+       "title": "Better a furnace than shaming another",
+       "body": "The Talmud learns from Tamar: she was ready to be **burned** rather than **humiliate Judah in public**. So it is better to throw yourself into a fiery furnace than to shame another person publicly.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Sotah 10b"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "shame",
+       "type": "why",
+       "q": "What does Sotah 10b learn from Tamar?",
+       "choices": [
+        "Never shame another person in public, even at great cost",
+        "Always defend yourself first",
+        "Keep evidence secret"
+       ],
+       "answer": 0,
+       "why": "Tamar risked her life **rather than shame Judah**.",
+       "wrong_why": [
+        null,
+        "She did the opposite, protecting Judah's dignity.",
+        "She sent the evidence, but privately."
+       ],
+       "look_again": 3,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Sotah 10b"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "צָדְקָה מִמֶּנִּי",
+       "tl": null,
+       "gloss": "\"She is more in the right than I\" (38:26). **Judah's first admission** of wrong, long before he offers himself in Benjamin's place.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 38:26"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "הַכֶּר־נָא",
+       "tl": null,
+       "gloss": "\"Examine these\" (38:25). In Hebrew it is the very phrase the brothers used when they showed Jacob Joseph's bloodied tunic (37:32). The deceiver is now the one asked **to recognize**.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 37:32, 38:25"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "haker",
+       "type": "why",
+       "q": "Why does Tamar's \"examine these\" echo chapter 37?",
+       "choices": [
+        "The brothers said the same words to Jacob about Joseph's tunic",
+        "Joseph said it to Pharaoh",
+        "It is the name of Judah's son"
+       ],
+       "answer": 0,
+       "why": "The words that deceived Jacob now confront Judah.",
+       "wrong_why": [
+        null,
+        "Not those words in Pharaoh's court.",
+        "His sons are Er, Onan and Shelah."
+       ],
+       "look_again": 6,
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 37:32, 38:25"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Tamar chose not to shame Judah, and Judah chose to tell the truth. Which of those two choices is harder for you?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Tamar sends Judah his **seal, cord and staff**, privately.",
+        "Sotah 10b: **better a furnace** than shaming someone in public.",
+        "\"**She is more in the right than I**\": Judah's first teshuvah.",
+        "\"Examine these\": the words of the tunic, **returned**."
+       ]
+      }
+     ]
+    },
+    {
      "id": "x-st-gen-25",
-     "title": "Joseph (2): Adonai was with Joseph",
+     "title": "Joseph (3): Adonai was with Joseph",
      "parashah": [
       "Vayeshev"
      ],
@@ -4584,7 +4712,7 @@
     },
     {
      "id": "x-st-gen-26",
-     "title": "Joseph (3): Pharaoh's dreams",
+     "title": "Joseph (4): Pharaoh's dreams",
      "parashah": [
       "Miketz"
      ],
@@ -4688,7 +4816,7 @@
     },
     {
      "id": "x-st-gen-27",
-     "title": "Joseph (4): The brothers and Judah",
+     "title": "Joseph (5): The brothers and Judah",
      "parashah": [
       "Miketz",
       "Vayigash"
@@ -4806,7 +4934,7 @@
     },
     {
      "id": "x-st-gen-28",
-     "title": "Joseph (5): I am Joseph",
+     "title": "Joseph (6): I am Joseph",
      "parashah": [
       "Vayigash",
       "Vayechi"
@@ -4938,6 +5066,247 @@
         "Bereshit Rabbah 93:10: **the day of rebuke**.",
         "\"You intended me harm, **God intended it for good**.\"",
         "Zohar: Joseph the righteous **did not repay evil**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-gen-30",
+     "title": "Joseph (7): Going down to Egypt",
+     "parashah": [
+      "Vayigash"
+     ],
+     "status": "draft",
+     "related": [],
+     "check_note": "Megillah 29a read on Sefaria 11/11.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "A night vision on the way",
+       "body": "Joseph is alive. Old Jacob sets out for Egypt, and at night God speaks to him one last time: \"Jacob! Jacob!\" (46:1-2).",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 46:1-2"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "What does God promise Jacob about going down to Egypt?",
+       "choices": [
+        "\"I Myself will go down with you\"",
+        "\"You will never see Joseph\"",
+        "\"Stay where you are\"",
+        "\"Egypt will make you a king\""
+       ],
+       "answer": 0,
+       "why": "\"**I Myself will go down with you** to Egypt, and I Myself will also bring you back\" (46:4).",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 46:1-2"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 46:2-4"
+      },
+      {
+       "kind": "concept",
+       "title": "The Shechinah in exile",
+       "body": "**Rabbi Shimon bar Yochai**: see how beloved Israel is: **wherever they were exiled, the Divine Presence went with them**. To Egypt, to Babylonia, and beyond. God doesn't stay home while the people suffer.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 29a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "shechinah",
+       "type": "why",
+       "q": "What does Megillah 29a teach about exile?",
+       "choices": [
+        "The Divine Presence goes into exile with the people",
+        "Exile means God has left",
+        "Only Egypt counts as exile"
+       ],
+       "answer": 0,
+       "why": "\"**I Myself will go down with you**\": the Shechinah shares every exile.",
+       "wrong_why": [
+        null,
+        "Megillah 29a teaches the opposite.",
+        "It names Egypt, Babylonia and more."
+       ],
+       "look_again": 3,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 29a"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 47:9"
+      },
+      {
+       "kind": "concept",
+       "title": "Few and hard",
+       "body": "Pharaoh asks Jacob his age. Jacob answers: \"Few and hard have been the years of my life\" (47:9). A brother who wanted him dead, a deceiving uncle, Rachel lost on the road, a son lost for more than twenty years. The Torah lets the patriarch **say it plainly**.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 47:9"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Jacob calls his years few and hard, and still God goes down with him. Where have you felt accompanied in a hard place? It's fine to skip this one."
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "\"**I Myself will go down with you.**\"",
+        "Megillah 29a: **the Shechinah goes into exile** with the people.",
+        "Jacob: \"**Few and hard** have been the years of my life.\""
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-gen-31",
+     "title": "Joseph (8): Blessings and bones",
+     "parashah": [
+      "Vayechi"
+     ],
+     "status": "draft",
+     "related": [
+      "prayer:shma"
+     ],
+     "check_note": "Pesachim 56a and Sotah 13a read on Sefaria 11/11.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "The last blessings",
+       "body": "Before he dies, Jacob blesses **Joseph's sons**, then gathers **his own twelve** (48-49). Then Joseph, too, grows old.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 48-50"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "In the Talmud's story, the line \"Blessed be the name of His glorious kingdom\" first came from Jacob.",
+       "answer": true,
+       "why": "**Pesachim 56a**: Jacob said it on his deathbed, answering his sons' Sh'ma.",
+       "src": {
+        "type": "torah",
+        "ref": "Genesis 48-50"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 48:20"
+      },
+      {
+       "kind": "concept",
+       "title": "Ephraim before Manasseh",
+       "body": "Jacob crosses his hands and puts **the younger before the older** (48:20), one more time in Genesis. His words are still how parents bless their sons on Friday night: \"God make you like Ephraim and Manasseh.\"",
+       "src": {
+        "type": "tradition",
+        "ref": "Genesis 48:20"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 49:1-2"
+      },
+      {
+       "kind": "concept",
+       "title": "Sh'ma, our father Israel",
+       "body": "Jacob wants to reveal **the end of days**, but the Divine Presence leaves him. He fears one of his sons is unfit, as Ishmael and Esau were. His sons answer: **\"Hear, Israel\"** (their father's name) **\"the Lord is our God, the Lord is One.\"** Jacob answers: **\"Blessed be the name of His glorious kingdom for ever and ever.\"**",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Pesachim 56a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "shma",
+       "type": "why",
+       "q": "In Pesachim 56a, why do Jacob's sons say \"Hear, Israel\"?",
+       "choices": [
+        "To reassure their father, Israel, that they all share his one God",
+        "To start a prayer service",
+        "To ask him to bless them"
+       ],
+       "answer": 0,
+       "why": "As there is one God in their father's heart, so there is in theirs. Jacob answers with **Baruch shem**.",
+       "wrong_why": [
+        null,
+        "The setting is a deathbed, not a service.",
+        "They reassure him; he already blessed them."
+       ],
+       "look_again": 5,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Pesachim 56a"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Genesis 50:24-25"
+      },
+      {
+       "kind": "concept",
+       "title": "Carry up my bones",
+       "body": "Joseph makes his brothers swear: \"you shall carry up my bones from here\" (50:25). Generations later, while all Israel gathered **Egypt's riches** at the Exodus, **Moses** busied himself with **Joseph's coffin**. The Talmud: see how beloved mitzvot are to Moses.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Sotah 13a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "bones",
+       "type": "why",
+       "q": "What was Moses doing, according to Sotah 13a, while the people took Egypt's riches?",
+       "choices": [
+        "Carrying Joseph's coffin",
+        "Counting the people",
+        "Writing the Torah"
+       ],
+       "answer": 0,
+       "why": "**Keeping the oath** to Joseph: a mitzvah over treasure.",
+       "wrong_why": [
+        null,
+        "The Talmud highlights the coffin.",
+        "Not at that moment."
+       ],
+       "look_again": 8,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Sotah 13a"
+       }
+      },
+      {
+       "kind": "relevance",
+       "body": "Every time you say **Sh'ma Yisrael** and the quiet **Baruch shem k'vod malchuto**, you echo Jacob's sons and Jacob's answer.",
+       "links": [
+        "prayer:shma"
+       ]
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "\"**God make you like Ephraim and Manasseh.**\"",
+        "Pesachim 56a: Jacob's sons say **Sh'ma**, Jacob answers **Baruch shem**.",
+        "\"**Carry up my bones.**\"",
+        "Sotah 13a: Moses chose **the coffin over the treasure**."
        ]
       }
      ]

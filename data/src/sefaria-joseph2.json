@@ -1,0 +1,171 @@
+{
+ "fetched": "2026-11-11",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Joseph lessons 2). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 38:25-26",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "הִוא מוּצֵאת וְהִיא שָׁלְחָה אֶל־חָמִיהָ לֵאמֹר לְאִישׁ אֲשֶׁר־אֵלֶּה לּוֹ אָנֹכִי הָרָה וַתֹּאמֶר הַכֶּר־נָא לְמִי הַחֹתֶמֶת וְהַפְּתִילִים וְהַמַּטֶּה הָאֵלֶּה",
+    "וַיַּכֵּר יְהוּדָה וַיֹּאמֶר צָדְקָה מִמֶּנִּי כִּי־עַל־כֵּן לֹא־נְתַתִּיהָ לְשֵׁלָה בְנִי וְלֹא־יָסַף עוֹד לְדַעְתָּהּ"
+   ],
+   "sha": [
+    "68faf09834e14318adbc72d91dc55e6d39fd510a8e94c0d68bc0576cf876a3c0",
+    "479c7198b6731fe361b2e6f052100cc69630e20f3a3e76e698d2665a20116b61"
+   ]
+  },
+  {
+   "ref": "Genesis 38:25-26",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "As she was being brought out, she sent this message to her father-in-law, “It’s by the man to whom these belong that I’m pregnant.” And she added, “Examine these: whose seal and cord and staff are these?”",
+    "Judah recognized them, and said, “She is more in the right than I, inasmuch as I did not give her to my son Shelah.” And he was not intimate with her again."
+   ],
+   "sha": [
+    "897547ccac222eea9bfaa258634cd7ff349b58e79c051d007a328ff82c16c8cc",
+    "956e3ec414e5987e66129ae877fcdf8918cb1bcf73815535be534473e362c4df"
+   ]
+  },
+  {
+   "ref": "Genesis 46:2-4",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר אֱלֹהִים לְיִשְׂרָאֵל בְּמַרְאֹת הַלַּיְלָה וַיֹּאמֶר יַעֲקֹב יַעֲקֹב וַיֹּאמֶר הִנֵּנִי",
+    "וַיֹּאמֶר אָנֹכִי הָאֵל אֱלֹהֵי אָבִיךָ אַל־תִּירָא מֵרְדָה מִצְרַיְמָה כִּי־לְגוֹי גָּדוֹל אֲשִׂימְךָ שָׁם",
+    "אָנֹכִי אֵרֵד עִמְּךָ מִצְרַיְמָה וְאָנֹכִי אַעַלְךָ גַם־עָלֹה וְיוֹסֵף יָשִׁית יָדוֹ עַל־עֵינֶיךָ"
+   ],
+   "sha": [
+    "06603562ae2332ef36c9365508e39421c12e02444b825c351262650eb561e5a7",
+    "0e07b1b73c6ef0cf489190a881842b7be24bad3ad476f4f086afbd19f6edfc95",
+    "aac498dd8009cec551efc8653b96a024fcb515edbf3160d078d6e067a7cb8ead"
+   ]
+  },
+  {
+   "ref": "Genesis 46:2-4",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "God called to Israel in a vision by night: “Jacob! Jacob!” He answered, “Here.”",
+    "“I am God, the God of your father’s [house]. Fear not to go down to Egypt, for I will make you there into a great nation.",
+    "I Myself will go down with you to Egypt, and I Myself will also bring you back; and Joseph’s hand shall close your eyes.”"
+   ],
+   "sha": [
+    "0b76a30d3ce454ef9c7f1d8d75868b8528f219c126d9c2b7dcb1df6ac81696c8",
+    "166beb606a8c33337473caff2b2ae9b24b742560a09bca09a5fb111a53a953a9",
+    "eeeeb3af9888e0c69c05514e0a32f972bfea71dbed8d003f9b4b366b73700c19"
+   ]
+  },
+  {
+   "ref": "Genesis 47:9",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יַעֲקֹב אֶל־פַּרְעֹה יְמֵי שְׁנֵי מְגוּרַי שְׁלֹשִׁים וּמְאַת שָׁנָה מְעַט וְרָעִים הָיוּ יְמֵי שְׁנֵי חַיַּי וְלֹא הִשִּׂיגוּ אֶת־יְמֵי שְׁנֵי חַיֵּי אֲבֹתַי בִּימֵי מְגוּרֵיהֶם"
+   ],
+   "sha": [
+    "48926fb174dbc4a9775085136e4d9ac303c9d4eaa0cfc9b63dc2b71b576a0934"
+   ]
+  },
+  {
+   "ref": "Genesis 47:9",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And Jacob answered Pharaoh, “The years of my sojourn [on earth] are one hundred and thirty. Few and hard have been the years of my life, nor do they come up to the life spans of my ancestors during their sojourns.”"
+   ],
+   "sha": [
+    "79d2379906fc80d674a030530228ce74bbe613a89ae8d20c91bb31a0b551ebcd"
+   ]
+  },
+  {
+   "ref": "Genesis 48:20",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְבָרְכֵם בַּיּוֹם הַהוּא לֵאמוֹר בְּךָ יְבָרֵךְ יִשְׂרָאֵל לֵאמֹר יְשִׂמְךָ אֱלֹהִים כְּאֶפְרַיִם וְכִמְנַשֶּׁה וַיָּשֶׂם אֶת־אֶפְרַיִם לִפְנֵי מְנַשֶּׁה"
+   ],
+   "sha": [
+    "2598c560247cef1df38c1f63b5af97e1a03aa6437d191320ea33a4a112f47c77"
+   ]
+  },
+  {
+   "ref": "Genesis 48:20",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "So he blessed them that day, saying, “By you shall Israel invoke blessings, saying: God make you like Ephraim and Manasseh.” Thus he put Ephraim before Manasseh."
+   ],
+   "sha": [
+    "916c89b04ff9e22e284721f0cd78c71e84679c8ba51f782cf707f2055ac8a3fc"
+   ]
+  },
+  {
+   "ref": "Genesis 49:1-2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּקְרָא יַעֲקֹב אֶל־בָּנָיו וַיֹּאמֶר הֵאָסְפוּ וְאַגִּידָה לָכֶם אֵת אֲשֶׁר־יִקְרָא אֶתְכֶם בְּאַחֲרִית הַיָּמִים",
+    "הִקָּבְצוּ וְשִׁמְעוּ בְּנֵי יַעֲקֹב וְשִׁמְעוּ אֶל־יִשְׂרָאֵל אֲבִיכֶם"
+   ],
+   "sha": [
+    "0cde856dad0cbf7bcdbedc00919255a221173cca38d69a92eca81ef6c45a7672",
+    "1c7d204b09277167f82bcc9db2e026c6a080417153a8043b1ad3c2f5a4567e93"
+   ]
+  },
+  {
+   "ref": "Genesis 49:1-2",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And Jacob called his sons and said, “Come together that I may tell you what is to befall you in days to come.",
+    "Assemble and hearken, O sons of Jacob; Hearken to Israel your father:"
+   ],
+   "sha": [
+    "d83886e8c53868f2222f4ed37e0cdef0ec893c177114dd93beb27cc907b83133",
+    "ee4c148ab06fc6b6ae21c09f96383346f029af14947a175ef8eecf6992cdeb9b"
+   ]
+  },
+  {
+   "ref": "Genesis 50:24-25",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו אָנֹכִי מֵת וֵאלֹהִים פָּקֹד יִפְקֹד אֶתְכֶם וְהֶעֱלָה אֶתְכֶם מִן־הָאָרֶץ הַזֹּאת אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּע לְאַבְרָהָם לְיִצְחָק וּלְיַעֲקֹב",
+    "וַיַּשְׁבַּע יוֹסֵף אֶת־בְּנֵי יִשְׂרָאֵל לֵאמֹר פָּקֹד יִפְקֹד אֱלֹהִים אֶתְכֶם וְהַעֲלִתֶם אֶת־עַצְמֹתַי מִזֶּה"
+   ],
+   "sha": [
+    "7075af00f89767a74cae17de0ea0cb3c14c86d5a29aff5733057e2e2d39b4c5e",
+    "1143a1be3ffdb4f1f6f74a67cc8c25c31ae62369d370bb72cda15438c8b75156"
+   ]
+  },
+  {
+   "ref": "Genesis 50:24-25",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "At length, Joseph said to his brothers, “I am about to die. God will surely take notice of you and bring you up from this land to the land promised on oath to Abraham, to Isaac, and to Jacob.”",
+    "So Joseph made the sons of Israel swear, saying, “When God has taken notice of you, you shall carry up my bones from here.”"
+   ],
+   "sha": [
+    "dd1f6ddbf26c76b00a3d5d81e3b1a46358cd09b38585806eb77dd82fed3032f4",
+    "b99a2616f8032fae01b302fdb422631ddf145424dd0790f00b35a77be3cb7457"
+   ]
+  }
+ ]
+}

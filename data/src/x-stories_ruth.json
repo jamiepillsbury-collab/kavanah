@@ -291,8 +291,409 @@
      ]
     },
     {
+     "id": "x-st-ruth-05",
+     "title": "Ruth (3): The night at the threshing floor",
+     "status": "draft",
+     "related": [],
+     "check_note": "Sanhedrin 19b read on Sefaria 11/11. Eshet chayil: Ruth 3:11 and Proverbs 31:10.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Naomi's plan",
+       "body": "Naomi, who once said she came back empty, now makes a plan: \"Daughter, I must seek a home for you, where you may be happy\" (3:1). She sends Ruth to the threshing floor, at night, to Boaz (3:1-4).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 3:1-4"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "Boaz calls Ruth an eshet chayil, the phrase that opens the poem in Proverbs 31.",
+       "answer": true,
+       "why": "**Eshet chayil** (3:11), the same words as Proverbs 31:10.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 3:1-4"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Ruth 3:1",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 3:1"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Ruth 3:8",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 3:8"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Stronger than Joseph",
+       "body": "At midnight Boaz wakes to find a woman at his feet, and he acts with complete honor. **Rabbi Yochanan**: what Joseph is praised for, resisting temptation, was for Boaz **a small thing**, his humility. (And Palti son of Laish, he adds, was greater still.)",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Sanhedrin 19b"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "restraint",
+       "type": "why",
+       "q": "How does Rabbi Yochanan compare Boaz to Joseph?",
+       "choices": [
+        "What was Joseph's great strength was a small thing for Boaz",
+        "Boaz was weaker than Joseph",
+        "They never faced the same test"
+       ],
+       "answer": 0,
+       "why": "Joseph's **power** is Boaz's **humility**: the same restraint, held more lightly.",
+       "wrong_why": [
+        null,
+        "He says the opposite.",
+        "He compares them precisely because they did."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Sanhedrin 19b"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Ruth 3:11",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 3:11"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "אֵשֶׁת חַיִל אָתְּ",
+       "tl": null,
+       "gloss": "\"what a fine woman you are\" (3:11). The Hebrew is **eshet chayil**, the words that open the poem of Proverbs 31 (31:10), which many families sing at the Friday night table.",
+       "src": {
+        "type": "tradition",
+        "ref": "Ruth 3:11; Proverbs 31:10"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "chayil",
+       "type": "pick",
+       "q": "What Hebrew phrase does Boaz use for Ruth in 3:11?",
+       "choices": [
+        "Eshet chayil",
+        "Go'el",
+        "Peloni almoni"
+       ],
+       "answer": 0,
+       "why": "**Eshet chayil**, a woman of valor.",
+       "wrong_why": [
+        null,
+        "Go'el, redeemer, is Boaz's role.",
+        "That's the unnamed relative in chapter 4."
+       ],
+       "look_again": 7,
+       "src": {
+        "type": "tradition",
+        "ref": "Ruth 3:11; Proverbs 31:10"
+       }
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Naomi: \"**I must seek a home for you.**\"",
+        "Midnight at the threshing floor: Boaz acts with honor.",
+        "Sanhedrin 19b: Joseph's strength was **Boaz's humility**.",
+        "Ruth, an **eshet chayil**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-ruth-06",
+     "title": "Ruth (4): At the city gate",
+     "status": "draft",
+     "related": [],
+     "check_note": "Ruth Rabbah 7:7 read on Sefaria 11/11.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "So-and-so",
+       "body": "Boaz goes to the town gate, where business was done in public, and calls over the relative who has the first right to redeem: \"Come over and sit down here, **So-and-so**!\" (4:1). The book never gives his name.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 4:1"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "What is the closer redeemer's name in the Book of Ruth?",
+       "choices": [
+        "He has none: he is only \"So-and-so\"",
+        "Elimelech",
+        "Obed",
+        "Mahlon"
+       ],
+       "answer": 0,
+       "why": "**Peloni almoni**, So-and-so (4:1).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 4:1"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Ruth 4:1",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 4:1"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "The man with no name",
+       "body": "Why no name? In the midrash, **Rabbi Yehoshua** says Peloni Almoni really was his name. **Rabbi Shmuel bar Nachman**: he was **mute from matters of Torah**. Afraid that marrying Ruth had doomed Naomi's sons, he refused her.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Ruth Rabbah 7:7"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "noname",
+       "type": "why",
+       "q": "What does Rabbi Shmuel bar Nachman say about the unnamed redeemer?",
+       "choices": [
+        "He was mute from matters of Torah, and refused Ruth out of fear",
+        "He was a stranger to Bethlehem",
+        "He was Boaz's brother"
+       ],
+       "answer": 0,
+       "why": "**Mute in matters of Torah**: afraid of what happened to Naomi's sons, he walked away from Ruth.",
+       "wrong_why": [
+        null,
+        "He was a relative of Elimelech.",
+        "The midrash doesn't say that."
+       ],
+       "look_again": 3,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Ruth Rabbah 7:7"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Ruth 4:7",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 4:7"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "The sandal",
+       "body": "To seal the deal, one man **takes off a sandal** and hands it to the other (4:7-8). The book stops to explain the custom, as if writing for readers who had forgotten it.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 4:7-8"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Ruth 4:11",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 4:11"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "כְּרָחֵל וּכְלֵאָה אֲשֶׁר בָּנוּ שְׁתֵּיהֶם אֶת־בֵּית יִשְׂרָאֵל",
+       "tl": null,
+       "gloss": "\"like Rachel and Leah, both of whom built up the House of Israel!\" (4:11). The elders bless Ruth, a woman from Moab, by **the two sisters** you met in Genesis.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 4:11"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "rachel-leah",
+       "type": "pick",
+       "q": "Which two women do the elders name when they bless Ruth?",
+       "choices": [
+        "Rachel and Leah",
+        "Sarah and Rebekah",
+        "Naomi and Orpah"
+       ],
+       "answer": 0,
+       "why": "\"**Like Rachel and Leah**, both of whom built up the House of Israel.\"",
+       "wrong_why": [
+        null,
+        "They're matriarchs too, but not the ones named here.",
+        "Naomi and Orpah are in Ruth's own story."
+       ],
+       "look_again": 8,
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 4:11"
+       }
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "\"**So-and-so**\": the redeemer without a name.",
+        "Ruth Rabbah 7:7: \"mute from matters of Torah,\" he **refused Ruth**.",
+        "A **sandal** seals the deal.",
+        "The elders bless Ruth: **like Rachel and Leah**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-ruth-04",
+     "title": "Ruth (5): A son for Naomi",
+     "status": "draft",
+     "related": [],
+     "check_note": "Bava Batra 91b read on Sefaria 11/11.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Full again",
+       "body": "Boaz marries Ruth, and she bears a son. The neighbors don't say \"a son is born to Ruth.\" They say: \"**A son is born to Naomi!**\" (4:13-17).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 4:13-17"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "Who do the neighbors say the baby is born to?",
+       "choices": [
+        "Naomi",
+        "Ruth",
+        "Boaz",
+        "Orpah"
+       ],
+       "answer": 0,
+       "why": "\"**A son is born to Naomi!**\" (4:17).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 4:13-17"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Ruth 4:17",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 4:17"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Empty, then full",
+       "body": "In chapter 1 Naomi said, \"I went away full, and Adonai has brought me back empty\" (1:21). Now a child is placed in her lap, and the women name him **Obed**, father of Jesse, **father of David**. Her emptiness is filled through Ruth's loyalty.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 1:21, 4:16-17"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "naomi",
+       "type": "why",
+       "q": "Why do the neighbors call Ruth's son Naomi's?",
+       "choices": [
+        "Naomi, who came back empty, is made full again",
+        "Naomi adopted him legally",
+        "Ruth had left"
+       ],
+       "answer": 0,
+       "why": "The story ends where Naomi's grief began, **reversed**.",
+       "wrong_why": [
+        null,
+        "The text speaks of joy, not law.",
+        "Ruth is still there; she is the one who gave Naomi this."
+       ],
+       "look_again": 3,
+       "src": {
+        "type": "tanakh",
+        "ref": "Ruth 1:21, 4:16-17"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Ruth saw Solomon",
+       "body": "The Talmud says **Ruth the Moabite lived to see the kingship of Solomon**: the stranger who chose to belong saw her great-great-grandson on the throne.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Bava Batra 91b"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "solomon",
+       "type": "pick",
+       "q": "According to Bava Batra 91b, whose reign did Ruth live to see?",
+       "choices": [
+        "Solomon's",
+        "Saul's",
+        "Moses'"
+       ],
+       "answer": 0,
+       "why": "**Solomon**, son of David, her great-great-grandson.",
+       "wrong_why": [
+        null,
+        "Saul was not of her line.",
+        "Moses lived long before Ruth."
+       ],
+       "look_again": 5,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Bava Batra 91b"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "The line of David begins with a woman who chose to belong. What does that say to you about who belongs?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "\"**A son is born to Naomi!**\"",
+        "Naomi, **empty**, is made **full** again.",
+        "Obed, Jesse, **David**.",
+        "Bava Batra 91b: Ruth **saw Solomon's kingship**."
+       ]
+      }
+     ]
+    },
+    {
      "id": "x-st-ruth-03",
-     "title": "Ruth (3): Where is God in Ruth?",
+     "title": "Ruth (6): Where is God in Ruth?",
      "status": "draft",
      "related": [],
      "check_note": "Count of the narrator's statements about God from the full JPS text of Ruth on Sefaria (1:6, 4:13). Ruth Rabbah 2:14 and Chullin 139b read on Sefaria 11/11. Esther 5:4 initials checked by script on the Masorah text.",
@@ -438,130 +839,6 @@
         "Ruth Rabbah 2:14: written **to teach the reward of chesed**.",
         "Esther: God **never named**, the Name **hidden** in Esther 5:4 (Chullin 139b).",
         "Your rabbi: a people growing up, God present **in our moral choices**."
-       ]
-      }
-     ]
-    },
-    {
-     "id": "x-st-ruth-04",
-     "title": "Ruth (4): A son for Naomi",
-     "status": "draft",
-     "related": [],
-     "check_note": "Bava Batra 91b read on Sefaria 11/11.",
-     "cards": [
-      {
-       "kind": "hook",
-       "title": "Full again",
-       "body": "Boaz marries Ruth, and she bears a son. The neighbors don't say \"a son is born to Ruth.\" They say: \"**A son is born to Naomi!**\" (4:13-17).",
-       "src": {
-        "type": "tanakh",
-        "ref": "Ruth 4:13-17"
-       }
-      },
-      {
-       "kind": "check",
-       "id": "pre",
-       "pretest": true,
-       "type": "pick",
-       "q": "Who do the neighbors say the baby is born to?",
-       "choices": [
-        "Naomi",
-        "Ruth",
-        "Boaz",
-        "Orpah"
-       ],
-       "answer": 0,
-       "why": "\"**A son is born to Naomi!**\" (4:17).",
-       "src": {
-        "type": "tanakh",
-        "ref": "Ruth 4:13-17"
-       }
-      },
-      {
-       "kind": "text",
-       "sefaria": "Ruth 4:17",
-       "src": {
-        "type": "tanakh",
-        "ref": "Ruth 4:17"
-       }
-      },
-      {
-       "kind": "concept",
-       "title": "Empty, then full",
-       "body": "In chapter 1 Naomi said, \"I went away full, and Adonai has brought me back empty\" (1:21). Now a child is placed in her lap, and the women name him **Obed**, father of Jesse, **father of David**. Her emptiness is filled through Ruth's loyalty.",
-       "src": {
-        "type": "tanakh",
-        "ref": "Ruth 1:21, 4:16-17"
-       }
-      },
-      {
-       "kind": "check",
-       "id": "q1",
-       "idea": "naomi",
-       "type": "why",
-       "q": "Why do the neighbors call Ruth's son Naomi's?",
-       "choices": [
-        "Naomi, who came back empty, is made full again",
-        "Naomi adopted him legally",
-        "Ruth had left"
-       ],
-       "answer": 0,
-       "why": "The story ends where Naomi's grief began, **reversed**.",
-       "wrong_why": [
-        null,
-        "The text speaks of joy, not law.",
-        "Ruth is still there; she is the one who gave Naomi this."
-       ],
-       "look_again": 3,
-       "src": {
-        "type": "tanakh",
-        "ref": "Ruth 1:21, 4:16-17"
-       }
-      },
-      {
-       "kind": "concept",
-       "title": "Ruth saw Solomon",
-       "body": "The Talmud says **Ruth the Moabite lived to see the kingship of Solomon**: the stranger who chose to belong saw her great-great-grandson on the throne.",
-       "src": {
-        "type": "rabbinic",
-        "ref": "Bava Batra 91b"
-       }
-      },
-      {
-       "kind": "check",
-       "id": "q2",
-       "idea": "solomon",
-       "type": "pick",
-       "q": "According to Bava Batra 91b, whose reign did Ruth live to see?",
-       "choices": [
-        "Solomon's",
-        "Saul's",
-        "Moses'"
-       ],
-       "answer": 0,
-       "why": "**Solomon**, son of David, her great-great-grandson.",
-       "wrong_why": [
-        null,
-        "Saul was not of her line.",
-        "Moses lived long before Ruth."
-       ],
-       "look_again": 5,
-       "src": {
-        "type": "rabbinic",
-        "ref": "Bava Batra 91b"
-       }
-      },
-      {
-       "kind": "reflect",
-       "prompt": "The line of David begins with a woman who chose to belong. What does that say to you about who belongs?"
-      },
-      {
-       "kind": "recap",
-       "points": [
-        "\"**A son is born to Naomi!**\"",
-        "Naomi, **empty**, is made **full** again.",
-        "Obed, Jesse, **David**.",
-        "Bava Batra 91b: Ruth **saw Solomon's kingship**."
        ]
       }
      ]
