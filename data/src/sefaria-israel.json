@@ -1,0 +1,211 @@
+{
+ "fetched": "2026-11-10",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Jacob wrestles / meets Esau). Cantillation and footnotes stripped, <br> to space, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 32:8",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּירָא יַעֲקֹב מְאֹד וַיֵּצֶר לוֹ וַיַּחַץ אֶת־הָעָם אֲשֶׁר־אִתּוֹ וְאֶת־הַצֹּאן וְאֶת־הַבָּקָר וְהַגְּמַלִּים לִשְׁנֵי מַחֲנוֹת"
+   ],
+   "sha": [
+    "7228ad99a5d5fef358094690930dc22e076c8f04b98f15bdd6d5fd251ac0b0c5"
+   ]
+  },
+  {
+   "ref": "Genesis 32:8",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Jacob was greatly frightened; in his anxiety, he divided the people with him, and the flocks and herds and camels, into two camps,"
+   ],
+   "sha": [
+    "021d7f3c23f8fd9feab497abf4ce63d1551debc66a72254439622c74a44ce097"
+   ]
+  },
+  {
+   "ref": "Genesis 32:10-11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יַעֲקֹב אֱלֹהֵי אָבִי אַבְרָהָם וֵאלֹהֵי אָבִי יִצְחָק יְהֹוָה הָאֹמֵר אֵלַי שׁוּב לְאַרְצְךָ וּלְמוֹלַדְתְּךָ וְאֵיטִיבָה עִמָּךְ",
+    "קָטֹנְתִּי מִכֹּל הַחֲסָדִים וּמִכׇּל־הָאֱמֶת אֲשֶׁר עָשִׂיתָ אֶת־עַבְדֶּךָ כִּי בְמַקְלִי עָבַרְתִּי אֶת־הַיַּרְדֵּן הַזֶּה וְעַתָּה הָיִיתִי לִשְׁנֵי מַחֲנוֹת"
+   ],
+   "sha": [
+    "d0120d60769e0486b33217dbc62160abd6e804a0c6fe1ef1b434b6e30e157d94",
+    "8c0796a7c0bf41405d02b103d3a1748ac73453c263268babe4153bc7d07b0427"
+   ]
+  },
+  {
+   "ref": "Genesis 32:10-11",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then Jacob said, “O God of my father Abraham’s [house] and God of my father Isaac’s [house], O יהוה, who said to me, ‘Return to your native land and I will deal bountifully with you’!",
+    "I am unworthy of all the kindness that You have so steadfastly shown Your servant: with my staff alone I crossed this Jordan, and now I have become two camps."
+   ],
+   "sha": [
+    "fcb478a4566cc67593fedb4ac8e80da663ce8774bc11f7635825e891df42aeca",
+    "2e01a4a162a45b61b959aea64e921447020712462639ff76a3a010b60301e23f"
+   ]
+  },
+  {
+   "ref": "Genesis 32:25-27",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּוָּתֵר יַעֲקֹב לְבַדּוֹ וַיֵּאָבֵק אִישׁ עִמּוֹ עַד עֲלוֹת הַשָּׁחַר",
+    "וַיַּרְא כִּי לֹא יָכֹל לוֹ וַיִּגַּע בְּכַף־יְרֵכוֹ וַתֵּקַע כַּף־יֶרֶךְ יַעֲקֹב בְּהֵאָבְקוֹ עִמּוֹ",
+    "וַיֹּאמֶר שַׁלְּחֵנִי כִּי עָלָה הַשָּׁחַר וַיֹּאמֶר לֹא אֲשַׁלֵּחֲךָ כִּי אִם־בֵּרַכְתָּנִי"
+   ],
+   "sha": [
+    "c7b436d33aff8682786c5a57f595209ba0e13f6177f8e17e957150a4b8cbf485",
+    "70e3d8cd598587a405107f33f61485e1d77359a508265e661cbb0279bdb91d2e",
+    "dfbc0d1a5d17ddbc9f3bb4ffdac7bd6124726f956b63353e2214164d55a2efb4"
+   ]
+  },
+  {
+   "ref": "Genesis 32:25-27",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Jacob was left alone. And a figure wrestled with him until the break of dawn.",
+    "When he saw that he had not prevailed against him, he wrenched Jacob’s hip at its socket, so that the socket of his hip was strained as he wrestled with him.",
+    "Then he said, “Let me go, for dawn is breaking.” But he answered, “I will not let you go, unless you bless me.”"
+   ],
+   "sha": [
+    "6229e02ea44f97aad0c0ff51f3607fc06cd2a278b34d5318405c56746462c2ca",
+    "4c63ae9886826531ba61ac58376b92343f67f4a875def34bc7a88549763927ad",
+    "34aea4f9c8d038f145dd9115e818d5d75864054ecfa0a5c34a0987963ff328e3"
+   ]
+  },
+  {
+   "ref": "Genesis 32:28-30",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר אֵלָיו מַה־שְּׁמֶךָ וַיֹּאמֶר יַעֲקֹב",
+    "וַיֹּאמֶר לֹא יַעֲקֹב יֵאָמֵר עוֹד שִׁמְךָ כִּי אִם־יִשְׂרָאֵל כִּי־שָׂרִיתָ עִם־אֱלֹהִים וְעִם־אֲנָשִׁים וַתּוּכָל",
+    "וַיִּשְׁאַל יַעֲקֹב וַיֹּאמֶר הַגִּידָה־נָּא שְׁמֶךָ וַיֹּאמֶר לָמָּה זֶּה תִּשְׁאַל לִשְׁמִי וַיְבָרֶךְ אֹתוֹ שָׁם"
+   ],
+   "sha": [
+    "e188393d0e76c4d17b4deb8cb8c4d38edfb62d7cb3484b171b7a483330380048",
+    "8fef6be36dbabc46c04571a1a0ca86bbdd1aa95555a09c5fb46b6e60687b5ed9",
+    "8764c261ef3bd433bcd9dd8b093524d192904f822025b318a6a74161c58c9810"
+   ]
+  },
+  {
+   "ref": "Genesis 32:28-30",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Said the other, “What is your name?” He replied, “Jacob.”",
+    "Said he, “Your name shall no longer be Jacob, but Israel, for you have striven with beings divine and human, and have prevailed.”",
+    "Jacob asked, “Pray tell me your name.” But he said, “You must not ask my name!” And he took leave of him there."
+   ],
+   "sha": [
+    "618fd99ecc6a3fd6946fb7aa37945c75192af2a9a3c515d5c46be4f8587d77e4",
+    "c942cb958cb793ffcabdb1564d409d469684f2f580cac242edf389f317f43c06",
+    "308fd2a0ab0771e3be1fc4fb8c835f55026a98b528ccde528f6ab4e1f38ce01b"
+   ]
+  },
+  {
+   "ref": "Genesis 32:31-32",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּקְרָא יַעֲקֹב שֵׁם הַמָּקוֹם פְּנִיאֵל כִּי־רָאִיתִי אֱלֹהִים פָּנִים אֶל־פָּנִים וַתִּנָּצֵל נַפְשִׁי",
+    "וַיִּזְרַח־לוֹ הַשֶּׁמֶשׁ כַּאֲשֶׁר עָבַר אֶת־פְּנוּאֵל וְהוּא צֹלֵעַ עַל־יְרֵכוֹ"
+   ],
+   "sha": [
+    "775fde411c4e705264f640db1471e8eced2b3f752462763f396e04c146fa97eb",
+    "a33cfc0efc7c6920fff99698890fe132e5aaa1870735697c7bfc2e7543cbcf2d"
+   ]
+  },
+  {
+   "ref": "Genesis 32:31-32",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "So Jacob named the place Peniel, meaning, “I have seen a divine being face to face, yet my life has been preserved.”",
+    "The sun rose upon him as he passed Penuel, limping on his hip."
+   ],
+   "sha": [
+    "243fff845f8a9efd00afd40f376172b1ba474c1884860a5d5834ef8c25084663",
+    "1229968ca664b9dad00be1f581b565f4f058d462b9c86c2b93306f9f3dadeb8b"
+   ]
+  },
+  {
+   "ref": "Genesis 33:1-4",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּשָּׂא יַעֲקֹב עֵינָיו וַיַּרְא וְהִנֵּה עֵשָׂו בָּא וְעִמּוֹ אַרְבַּע מֵאוֹת אִישׁ וַיַּחַץ אֶת־הַיְלָדִים עַל־לֵאָה וְעַל־רָחֵל וְעַל שְׁתֵּי הַשְּׁפָחוֹת",
+    "וַיָּשֶׂם אֶת־הַשְּׁפָחוֹת וְאֶת־יַלְדֵיהֶן רִאשֹׁנָה וְאֶת־לֵאָה וִילָדֶיהָ אַחֲרֹנִים וְאֶת־רָחֵל וְאֶת־יוֹסֵף אַחֲרֹנִים",
+    "וְהוּא עָבַר לִפְנֵיהֶם וַיִּשְׁתַּחוּ אַרְצָה שֶׁבַע פְּעָמִים עַד־גִּשְׁתּוֹ עַד־אָחִיו",
+    "וַיָּרׇץ עֵשָׂו לִקְרָאתוֹ וַיְחַבְּקֵהוּ וַיִּפֹּל עַל־צַוָּארָו וַׄיִּׄשָּׁׄקֵׄהׄוּׄ וַיִּבְכּוּ"
+   ],
+   "sha": [
+    "ce5371a76668e39948528e673f285dda02e890a1a329137262a3889399a499f2",
+    "78b552e1e7ca706506dc4b77fae132d5e682dea864cc875063d6b4a26e880d7e",
+    "e2bce7b0aed5fa2001f41bb0ca905a3eacaaafc0d3b050d9c9b454ffcf18761e",
+    "11deb7983ccf91889ec54e721674110de0ac50cab9c2175c0775672e19848cb7"
+   ]
+  },
+  {
+   "ref": "Genesis 33:1-4",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Looking up, Jacob saw Esau coming, with a retinue of four hundred. He divided the children among Leah, Rachel, and the two maids,",
+    "putting the maids and their children first, Leah and her children next, and Rachel and Joseph last.",
+    "He himself went on ahead and bowed low to the ground seven times until he was near his brother.",
+    "Esau ran to greet him. He embraced him and, falling on his neck, he kissed him; and they wept."
+   ],
+   "sha": [
+    "5e4f909bc784214229eaa651697c1353865e83ab2b91b1cb6e107dca1eda4cdc",
+    "a1c332caf0d4db041e94f456e6303a6168995f424dfa094e6979199a768789c7",
+    "33fc04d925af2ceabb129c4974661d7d43bcc30f3cc022879a7b2227674ef054",
+    "4b6d0b6e1f2cb207f2fdb2eff506f9a880c2e0e0316104a17c3dd3dad8e17759"
+   ]
+  },
+  {
+   "ref": "Genesis 33:10",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יַעֲקֹב אַל־נָא אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ וְלָקַחְתָּ מִנְחָתִי מִיָּדִי כִּי עַל־כֵּן רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים וַתִּרְצֵנִי"
+   ],
+   "sha": [
+    "973b94da228d9d986d555b823ebde7d2a14548ffdf6146e4cfdfec61bacfafd5"
+   ]
+  },
+  {
+   "ref": "Genesis 33:10",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "But Jacob said, “No, I pray you; if you would do me this favor, accept from me this gift; for to see your face is like seeing the face of God, and you have received me favorably."
+   ],
+   "sha": [
+    "b5f80692fffb51955d2753ea7aaa665cbee8fa14170aac4bae241c7c972200e2"
+   ]
+  }
+ ]
+}

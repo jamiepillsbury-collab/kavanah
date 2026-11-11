@@ -4697,6 +4697,388 @@
         }
        ],
        "season": null
+      },
+      {
+       "id": "x-st-gen-22",
+       "title": "Jacob (7): Wrestling until dawn",
+       "parashah": [
+        "Vayishlach"
+       ],
+       "status": "draft",
+       "related": [
+        "prayer:shma"
+       ],
+       "check_note": "My summaries of Rashi on Genesis 32:8, 32:11, 32:25 and 32:29 (read on Sefaria 11/10).",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Alone at night",
+         "body": "Twenty years after the stolen blessing, Jacob is about to meet **Esau** again. He is afraid. He prays, sends everyone across the river, and is **left alone**. A figure wrestles with him **until dawn** (32:8-25).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 32:8-25"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "What new name does Jacob receive that night?",
+         "choices": [
+          "Israel",
+          "Abraham",
+          "Judah",
+          "Peniel"
+         ],
+         "answer": 0,
+         "why": "**Israel**, \"for you have striven with beings divine and human, and have prevailed\" (32:29).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 32:8-25"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Two fears",
+         "body": "\"Jacob was greatly frightened; in his anxiety...\" (32:8). Why two words? **Rashi**: he was afraid **he would be killed**, and distressed that **he might have to kill** someone.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 32:8",
+          "note": "from Bereshit Rabbah 76:2"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 32:10-11",
+         "ref": "Genesis 32:10-11",
+         "he": "וַיֹּאמֶר יַעֲקֹב אֱלֹהֵי אָבִי אַבְרָהָם וֵאלֹהֵי אָבִי יִצְחָק יְיָ הָאֹמֵר אֵלַי שׁוּב לְאַרְצְךָ וּלְמוֹלַדְתְּךָ וְאֵיטִיבָה עִמָּךְ\nקָטֹנְתִּי מִכֹּל הַחֲסָדִים וּמִכׇּל־הָאֱמֶת אֲשֶׁר עָשִׂיתָ אֶת־עַבְדֶּךָ כִּי בְמַקְלִי עָבַרְתִּי אֶת־הַיַּרְדֵּן הַזֶּה וְעַתָּה הָיִיתִי לִשְׁנֵי מַחֲנוֹת",
+         "en": "Then Jacob said, “O God of my father Abraham’s [house] and God of my father Isaac’s [house], O יהוה, who said to me, ‘Return to your native land and I will deal bountifully with you’! I am unworthy of all the kindness that You have so steadfastly shown Your servant: with my staff alone I crossed this Jordan, and now I have become two camps.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 32:10-11"
+         },
+         "tl": "Vayomer Yaakov Elohei avi Avraham v'Elohei avi Yitzchak Adonai ha-omeir eilai shuv l'artz'cha ul'moladt'cha v'eitivah imach\nKatonti mikol hachasadim umikol ha-emet asher asita et avdecha ki v'makli avarti et hayardein hazeh v'atah hayiti lishnei machanot",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "קָטֹנְתִּי מִכֹּל הַחֲסָדִים וּמִכׇּל־הָאֱמֶת",
+         "tl": "Katonti mikol hachasadim umikol ha-emet",
+         "gloss": "\"I am unworthy of all the kindness that You have so steadfastly shown Your servant\" (32:11). **Rashi**: my merits are **diminished** by all the kindness You have already shown me.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 32:11"
+         },
+         "tlf": true
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "fear",
+         "type": "why",
+         "q": "In Rashi's reading of 32:8, what was Jacob's second fear?",
+         "choices": [
+          "That he might have to kill someone",
+          "That Esau would take his flocks",
+          "That Rachel would leave him"
+         ],
+         "answer": 0,
+         "why": "Afraid of **being killed**, and distressed at the thought of **killing**.",
+         "wrong_why": [
+          null,
+          "Rashi says nothing about the flocks here.",
+          "Rachel isn't part of Rashi's reading."
+         ],
+         "look_again": 2,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 32:8",
+          "note": "from Bereshit Rabbah 76:2"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 32:25-27",
+         "ref": "Genesis 32:25-27",
+         "he": "וַיִּוָּתֵר יַעֲקֹב לְבַדּוֹ וַיֵּאָבֵק אִישׁ עִמּוֹ עַד עֲלוֹת הַשָּׁחַר\nוַיַּרְא כִּי לֹא יָכֹל לוֹ וַיִּגַּע בְּכַף־יְרֵכוֹ וַתֵּקַע כַּף־יֶרֶךְ יַעֲקֹב בְּהֵאָבְקוֹ עִמּוֹ\nוַיֹּאמֶר שַׁלְּחֵנִי כִּי עָלָה הַשָּׁחַר וַיֹּאמֶר לֹא אֲשַׁלֵּחֲךָ כִּי אִם־בֵּרַכְתָּנִי",
+         "en": "Jacob was left alone. And a figure wrestled with him until the break of dawn. When he saw that he had not prevailed against him, he wrenched Jacob’s hip at its socket, so that the socket of his hip was strained as he wrestled with him. Then he said, “Let me go, for dawn is breaking.” But he answered, “I will not let you go, unless you bless me.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 32:25-27"
+         },
+         "tl": "Vayivateir Yaakov l'vado vayei-aveik ish imo ad alot hashachar\nVayar ki lo yachol lo vayiga b'chaf y'reicho vateika kaf yerech Yaakov b'hei-avko imo\nVayomer shal'cheini ki alah hashachar vayomer lo ashaleichacha ki im beirachtani",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Who was the figure?",
+         "body": "The Torah says only **\"a figure\"** (in Hebrew, a man). **Rashi**: the Rabbis explained he was **Esau's guardian angel**. By morning Jacob says he has seen **a divine being face to face** (32:31).",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 32:25",
+          "note": "from Bereshit Rabbah 77:3"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "לֹא אֲשַׁלֵּחֲךָ כִּי אִם־בֵּרַכְתָּנִי",
+         "tl": "Lo ashaleichacha ki im beirachtani",
+         "gloss": "\"I will not let you go, unless you bless me\" (32:27). Wounded at the hip, Jacob **holds on**.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 32:27"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 32:28-30",
+         "ref": "Genesis 32:28-30",
+         "he": "וַיֹּאמֶר אֵלָיו מַה־שְּׁמֶךָ וַיֹּאמֶר יַעֲקֹב\nוַיֹּאמֶר לֹא יַעֲקֹב יֵאָמֵר עוֹד שִׁמְךָ כִּי אִם־יִשְׂרָאֵל כִּי־שָׂרִיתָ עִם־אֱלֹהִים וְעִם־אֲנָשִׁים וַתּוּכָל\nוַיִּשְׁאַל יַעֲקֹב וַיֹּאמֶר הַגִּידָה־נָּא שְׁמֶךָ וַיֹּאמֶר לָמָּה זֶּה תִּשְׁאַל לִשְׁמִי וַיְבָרֶךְ אֹתוֹ שָׁם",
+         "en": "Said the other, “What is your name?” He replied, “Jacob.” Said he, “Your name shall no longer be Jacob, but Israel, for you have striven with beings divine and human, and have prevailed.” Jacob asked, “Pray tell me your name.” But he said, “You must not ask my name!” And he took leave of him there.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 32:28-30"
+         },
+         "tl": "Vayomer eilav ma sh'mecha vayomer Yaakov\nVayomer lo Yaakov yei-ameir od shimcha ki im Yisrael ki sarita im Elohim v'im anashim vatuchol\nVayish'al Yaakov vayomer hagidah na sh'mecha vayomer lamah zeh tish'al lishmi vay'varech oto sham"
+        },
+        {
+         "kind": "term",
+         "he": "כִּי אִם־יִשְׂרָאֵל כִּי־שָׂרִיתָ עִם־אֱלֹהִים וְעִם־אֲנָשִׁים וַתּוּכָל",
+         "tl": "Ki im Yisrael ki sarita im Elohim v'im anashim vatuchol",
+         "gloss": "\"...but Israel, for you have striven with beings divine and human, and have prevailed\" (32:29). **Rashi**: no longer will it be said that the blessings came to you **by supplanting**, but by **noble conduct**, in the open.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 32:29"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "israel",
+         "type": "why",
+         "q": "According to Rashi, what does the change from Jacob to Israel mean?",
+         "choices": [
+          "His blessings now come openly, not by supplanting",
+          "He has become a king",
+          "He is forbidden to use the name Jacob"
+         ],
+         "answer": 0,
+         "why": "**Yaakov** echoes the heel and supplanting; **Yisrael**, striving and prevailing in the open.",
+         "wrong_why": [
+          null,
+          "Rashi doesn't speak of kingship.",
+          "The Torah keeps calling him Jacob too; Rashi's point is how his blessings are earned."
+         ],
+         "look_again": 10,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 32:29"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Limping into the sunrise",
+         "body": "Jacob names the place **Peniel**: \"I have seen a divine being face to face, yet my life has been preserved.\" Then \"the sun rose upon him\" as he passed, **limping on his hip** (32:31-32).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 32:31-32"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "Every time you say **Sh'ma Yisrael**, you use the name Jacob earned that night.",
+         "links": [
+          "prayer:shma"
+         ]
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Jacob won't let go until he's blessed, and walks away limping. Is there a struggle you've come through changed? It's fine to skip this one."
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Rashi 32:8: afraid **to be killed**, and **to kill**.",
+          "\"**I am unworthy** of all the kindness\" (32:11).",
+          "A figure, Rashi: **Esau's guardian angel**.",
+          "\"**I will not let you go, unless you bless me.**\"",
+          "**Israel**: blessings won in the open (Rashi 32:29); Jacob limps into the sunrise."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-gen-23",
+       "title": "Jacob (8): Esau runs to meet him",
+       "parashah": [
+        "Vayishlach"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "My summaries of Rashi on Genesis 33:4 (from Bereshit Rabbah 78:8 and Sifrei Bamidbar 69), read on Sefaria 11/10. The dots over vayishakehu are in Sefaria's Masorah text.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Four hundred men",
+         "body": "Jacob sees **Esau coming with four hundred men**. He places his family in rows, **Rachel and Joseph last**, walks ahead, and **bows to the ground seven times** (33:1-3).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 33:1-3"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "When they meet, Esau attacks Jacob.",
+         "answer": 1,
+         "why": "\"Esau **ran** to greet him. He **embraced** him and, falling on his neck, he **kissed** him; and **they wept**\" (33:4).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 33:1-3"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 33:1-4",
+         "ref": "Genesis 33:1-4",
+         "he": "וַיִּשָּׂא יַעֲקֹב עֵינָיו וַיַּרְא וְהִנֵּה עֵשָׂו בָּא וְעִמּוֹ אַרְבַּע מֵאוֹת אִישׁ וַיַּחַץ אֶת־הַיְלָדִים עַל־לֵאָה וְעַל־רָחֵל וְעַל שְׁתֵּי הַשְּׁפָחוֹת\nוַיָּשֶׂם אֶת־הַשְּׁפָחוֹת וְאֶת־יַלְדֵיהֶן רִאשֹׁנָה וְאֶת־לֵאָה וִילָדֶיהָ אַחֲרֹנִים וְאֶת־רָחֵל וְאֶת־יוֹסֵף אַחֲרֹנִים\nוְהוּא עָבַר לִפְנֵיהֶם וַיִּשְׁתַּחוּ אַרְצָה שֶׁבַע פְּעָמִים עַד־גִּשְׁתּוֹ עַד־אָחִיו\nוַיָּרׇץ עֵשָׂו לִקְרָאתוֹ וַיְחַבְּקֵהוּ וַיִּפֹּל עַל־צַוָּארָו וַׄיִּׄשָּׁׄקֵׄהׄוּׄ וַיִּבְכּוּ",
+         "en": "Looking up, Jacob saw Esau coming, with a retinue of four hundred. He divided the children among Leah, Rachel, and the two maids, putting the maids and their children first, Leah and her children next, and Rachel and Joseph last. He himself went on ahead and bowed low to the ground seven times until he was near his brother. Esau ran to greet him. He embraced him and, falling on his neck, he kissed him; and they wept.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 33:1-4"
+         },
+         "tl": "Vayisa Yaakov einav vayar v'hinei eisav ba v'imo arba mei-ot ish vayachatz et hayladim al Leah v'al Rachel v'al sh'tei hash'fachot\nVayasem et hash'fachot v'et yaldeihen rishonah v'et Leah viladeha acharonim v'et Rachel v'et yoseif acharonim\nV'hu avar lifneihem vayishtachu artzah sheva p'amim ad gishto ad achiv\nVayarotz eisav likrato vaychab'keihu vayipol al tzavarav vayishakeihu vayivku"
+        },
+        {
+         "kind": "term",
+         "he": "וַׄיִּׄשָּׁׄקֵׄהׄוּׄ",
+         "tl": "Vayishakeihu",
+         "gloss": "\"he kissed him\" (33:4). In the Masoretic text this word carries **dots over its letters**. **Rashi**: the sages disagreed. Some say Esau **did not kiss him wholeheartedly**. **Rabbi Shimon bar Yochai**: Esau hated Jacob, but at that moment his **pity was truly aroused**, and he kissed him **with his whole heart**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 33:4",
+          "note": "from Sifrei Bamidbar 69"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "dots",
+         "type": "why",
+         "q": "What does Rabbi Shimon bar Yochai learn from the dots over \"he kissed him\"?",
+         "choices": [
+          "At that moment Esau kissed him with his whole heart",
+          "Esau's kiss was fake",
+          "The word should be erased"
+         ],
+         "answer": 0,
+         "why": "Despite the old hatred, **in that moment** Esau's pity was real.",
+         "wrong_why": [
+          null,
+          "That's the other opinion Rashi reports.",
+          "No one suggests erasing it; the dots invite interpretation."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 33:4",
+          "note": "from Sifrei Bamidbar 69"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Why he embraced him",
+         "body": "**Rashi**: Esau's pity was aroused when he saw Jacob **bowing to the ground so many times**. Seven bows, and a twenty-year grudge gives way.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 33:4",
+          "note": "from Bereshit Rabbah 78:8"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 33:10",
+         "ref": "Genesis 33:10",
+         "he": "וַיֹּאמֶר יַעֲקֹב אַל־נָא אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ וְלָקַחְתָּ מִנְחָתִי מִיָּדִי כִּי עַל־כֵּן רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים וַתִּרְצֵנִי",
+         "en": "But Jacob said, “No, I pray you; if you would do me this favor, accept from me this gift; for to see your face is like seeing the face of God, and you have received me favorably.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 33:10"
+         },
+         "tl": "Vayomer Yaakov al na im na matzati chein b'einecha v'lakachta minchati miyadi ki al kein ra-iti fanecha kir'ot p'nei Elohim vatirtzeini"
+        },
+        {
+         "kind": "term",
+         "he": "רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים",
+         "tl": "Ra-iti fanecha kir'ot p'nei Elohim",
+         "gloss": "\"to see your face is like seeing the face of God\" (33:10). The night before, Jacob saw a divine being **face to face** (32:31). Now he sees God in **his brother's face**.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 32:31, 33:10"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "face",
+         "type": "pick",
+         "q": "What does Jacob tell Esau seeing his face is like?",
+         "choices": [
+          "Seeing the face of God",
+          "Seeing their father again",
+          "Looking in a mirror"
+         ],
+         "answer": 0,
+         "why": "\"To see your face is like **seeing the face of God**\" (33:10).",
+         "wrong_why": [
+          null,
+          "Isaac isn't mentioned here.",
+          "Not in the text."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 32:31, 33:10"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Twenty years after the stolen blessing, Esau runs to his brother. What do you think made this meeting possible?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Jacob bows **seven times**; Esau **runs** to him.",
+          "Dots over \"he kissed him\": Rabbi Shimon bar Yochai, **with his whole heart** (Rashi 33:4).",
+          "Esau's pity was aroused by Jacob's bowing.",
+          "\"To see your face is like seeing **the face of God**.\""
+         ]
+        }
+       ],
+       "season": null
       }
      ]
     },
