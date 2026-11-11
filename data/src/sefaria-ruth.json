@@ -1,0 +1,239 @@
+{
+ "fetched": "2026-11-11",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Ruth unit; Esther 5:4 for the hidden-Name contrast). he Masorah; en JPS Tanakh gender-sensitive. Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Ruth 1:6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתָּקׇם הִיא וְכַלֹּתֶיהָ וַתָּשׇׁב מִשְּׂדֵי מוֹאָב כִּי שָׁמְעָה בִּשְׂדֵה מוֹאָב כִּי־פָקַד יְהֹוָה אֶת־עַמּוֹ לָתֵת לָהֶם לָחֶם"
+   ],
+   "sha": [
+    "131a72fba75923471532c3907a442b498d38c6f1f329cba6ed331774783509da"
+   ]
+  },
+  {
+   "ref": "Ruth 1:6",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "She started out with her daughters-in-law to return from the country of Moab; for in the country of Moab she had heard that GOD had taken note of the people [of Israel] and given them food."
+   ],
+   "sha": [
+    "0705506df05215b6aeb45914f0f2c395f65efe05673186b83eb723c8e9b36be2"
+   ]
+  },
+  {
+   "ref": "Ruth 1:16-18",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתֹּאמֶר רוּת אַל־תִּפְגְּעִי־בִי לְעׇזְבֵךְ לָשׁוּב מֵאַחֲרָיִךְ כִּי אֶל־אֲשֶׁר תֵּלְכִי אֵלֵךְ וּבַאֲשֶׁר תָּלִינִי אָלִין עַמֵּךְ עַמִּי וֵאלֹהַיִךְ אֱלֹהָי",
+    "בַּאֲשֶׁר תָּמוּתִי אָמוּת וְשָׁם אֶקָּבֵר כֹּה יַעֲשֶׂה יְהֹוָה לִי וְכֹה יוֹסִיף כִּי הַמָּוֶת יַפְרִיד בֵּינִי וּבֵינֵךְ",
+    "וַתֵּרֶא כִּי־מִתְאַמֶּצֶת הִיא לָלֶכֶת אִתָּהּ וַתֶּחְדַּל לְדַבֵּר אֵלֶיהָ"
+   ],
+   "sha": [
+    "b28c01f70474f2d630eb524f85964535337587072805ad48f29fb170538d66d6",
+    "c054b84b6d33e5d3b904dd269d560b6c3fb1f9f4cd11b9d2eb8307f48493582f",
+    "b65c117978663f29154336f87428110d31a7534200fd696ff30711c5f48d7eb1"
+   ]
+  },
+  {
+   "ref": "Ruth 1:16-18",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "But Ruth replied, “Do not urge me to leave you, to turn back and not follow you. For wherever you go, I will go; wherever you lodge, I will lodge; your people shall be my people, and your God my God.",
+    "Where you die, I will die, and there I will be buried. Thus and more may GOD do to me if anything but death parts me from you.”",
+    "When [Naomi] saw how determined she was to go with her, she ceased to argue with her;"
+   ],
+   "sha": [
+    "07a5a18ab71a9bd942b49f665a278ac5d1f4d289bc0bf683bceb2954a42948a1",
+    "b25c94f26c787ca81df5529e42297b5b3d706a475155f52365825b04ef070a37",
+    "ba2da81149e327128f7e9001fb174740d242dc99ef311f85bed7ca1535a35788"
+   ]
+  },
+  {
+   "ref": "Ruth 1:20-21",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתֹּאמֶר אֲלֵיהֶן אַל־תִּקְרֶאנָה לִי נׇעֳמִי קְרֶאןָ לִי מָרָא כִּי־הֵמַר שַׁדַּי לִי מְאֹד",
+    "אֲנִי מְלֵאָה הָלַכְתִּי וְרֵיקָם הֱשִׁיבַנִי יְהֹוָה לָמָּה תִקְרֶאנָה לִי נׇעֳמִי וַיהֹוָה עָנָה בִי וְשַׁדַּי הֵרַע לִי"
+   ],
+   "sha": [
+    "d28da66eaccd840beb5873f0a43843a54e0be9bc96b3c4f5fd5182198e5f4a2c",
+    "bc402acdbe3949fd170b42cb6d7ba799b37428c31af28ef5c20d0d945c4c1737"
+   ]
+  },
+  {
+   "ref": "Ruth 1:20-21",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "“Do not call me Naomi,” she replied. “Call me Mara, for Shaddai has made my lot very bitter.",
+    "I went away full, and GOD has brought me back empty. How can you call me Naomi, when GOD has dealt harshly with me, when Shaddai has brought misfortune upon me!”"
+   ],
+   "sha": [
+    "769d6f10edba18cccd9cbc75ef68b66c384b1f83bd49ccf3ea2fbfadb595fb75",
+    "2daa92cb1efea12709df52f2536c6f25cf4a5a2dba4a3eb5fd78cf8afe4d846e"
+   ]
+  },
+  {
+   "ref": "Ruth 2:4",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְהִנֵּה־בֹעַז בָּא מִבֵּית לֶחֶם וַיֹּאמֶר לַקּוֹצְרִים יְהֹוָה עִמָּכֶם וַיֹּאמְרוּ לוֹ יְבָרֶכְךָ יְהֹוָה"
+   ],
+   "sha": [
+    "86fa43a2b7051de81cd73b8990d1bae6ae168c20a4a19494d330583f412b23c1"
+   ]
+  },
+  {
+   "ref": "Ruth 2:4",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Presently Boaz arrived from Bethlehem. He greeted the reapers, “GOD be with you!” And they responded, “GOD bless you!”"
+   ],
+   "sha": [
+    "47640aba3d4d003f4a60de729ef1921b1b1a0e693a11da7a6129be4888da5ca8"
+   ]
+  },
+  {
+   "ref": "Ruth 2:12",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "יְשַׁלֵּם יְהֹוָה פׇּעֳלֵךְ וּתְהִי מַשְׂכֻּרְתֵּךְ שְׁלֵמָה מֵעִם יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר־בָּאת לַחֲסוֹת תַּחַת־כְּנָפָיו"
+   ],
+   "sha": [
+    "87c359d6387c1c56274184c820c27999b9e0aa1a22a7ff024a66a42a3a7d2420"
+   ]
+  },
+  {
+   "ref": "Ruth 2:12",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "May GOD reward your deeds. May you have a full recompense from the ETERNAL, the God of Israel, under whose wings you have sought refuge!”"
+   ],
+   "sha": [
+    "a9bdcd5b06b433c4f04be16fb8f942d0e5fda95af727c819978135b1a9cf4c0e"
+   ]
+  },
+  {
+   "ref": "Ruth 3:9-10",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר מִי־אָתְּ וַתֹּאמֶר אָנֹכִי רוּת אֲמָתֶךָ וּפָרַשְׂתָּ כְנָפֶךָ עַל־אֲמָתְךָ כִּי גֹאֵל אָתָּה",
+    "וַיֹּאמֶר בְּרוּכָה אַתְּ לַיהֹוָה בִּתִּי הֵיטַבְתְּ חַסְדֵּךְ הָאַחֲרוֹן מִן־הָרִאשׁוֹן לְבִלְתִּי־לֶכֶת אַחֲרֵי הַבַּחוּרִים אִם־דַּל וְאִם־עָשִׁיר"
+   ],
+   "sha": [
+    "05d967e02c31027d875eb3fb328ec0fbae51f55f205fac9fc7051f3f7429a237",
+    "1ae8e7478aca5746791a3bb9a90b91c699701ef83924d376f34052563d90b559"
+   ]
+  },
+  {
+   "ref": "Ruth 3:9-10",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "“Who are you?” he asked. And she replied, “I am your handmaid Ruth. Spread your robe over your handmaid, for you are a redeeming kinsman.”",
+    "He exclaimed, “Be blessed of GOD, daughter! Your latest deed of loyalty is greater than the first, in that you have not turned to younger men, whether poor or rich."
+   ],
+   "sha": [
+    "eaffea711e5f4618783c1c7e0a012811a250cd95c2c0aa3c4a63cef4ddfdfe6a",
+    "337d25077d3ecd2970193766f4ec0989a3de22ce930c70d0247eff2dc44d27a8"
+   ]
+  },
+  {
+   "ref": "Ruth 4:13",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּקַּח בֹּעַז אֶת־רוּת וַתְּהִי־לוֹ לְאִשָּׁה וַיָּבֹא אֵלֶיהָ וַיִּתֵּן יְהֹוָה לָהּ הֵרָיוֹן וַתֵּלֶד בֵּן"
+   ],
+   "sha": [
+    "d990607ea25ca57275ca4b6d62adc225823c86589ccc1ff3654f7e08eb1af3e8"
+   ]
+  },
+  {
+   "ref": "Ruth 4:13",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "So Boaz married Ruth; she became his wife, and he cohabited with her. GOD let her conceive, and she bore a son."
+   ],
+   "sha": [
+    "0cd8c7dca52fa5489935e88dbcd2b7d21c0414f6c06707eeeb6e14af3166ea5d"
+   ]
+  },
+  {
+   "ref": "Ruth 4:17",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתִּקְרֶאנָה לוֹ הַשְּׁכֵנוֹת שֵׁם לֵאמֹר יֻלַּד־בֵּן לְנׇעֳמִי וַתִּקְרֶאנָה שְׁמוֹ עוֹבֵד הוּא אֲבִי־יִשַׁי אֲבִי דָוִד {פ}"
+   ],
+   "sha": [
+    "6ddc693ff6761644f2eba548efaf0cec0c5c8a5ae2ac52ff8ef2936e57e7797a"
+   ]
+  },
+  {
+   "ref": "Ruth 4:17",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "and the women neighbors gave him a name, saying, “A son is born to Naomi!” They named him Obed; he was the father of Jesse, father of David."
+   ],
+   "sha": [
+    "8848bc2359405772e40fbcdd80b1802df81c6ca36ca8481ed87cea2b852e07e5"
+   ]
+  },
+  {
+   "ref": "Esther 5:4",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתֹּאמֶר אֶסְתֵּר אִם־עַל־הַמֶּלֶךְ טוֹב יָבוֹא הַמֶּלֶךְ וְהָמָן הַיּוֹם אֶל־הַמִּשְׁתֶּה אֲשֶׁר־עָשִׂיתִי לוֹ"
+   ],
+   "sha": [
+    "4f5f8f93bf72900044be2d8452e945546b4b4836446a733aa53dda07ff6ca4ca"
+   ]
+  },
+  {
+   "ref": "Esther 5:4",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "“If it please Your Majesty,” Esther replied, “let Your Majesty and Haman come today to the feast that I have prepared for him.”"
+   ],
+   "sha": [
+    "7f459d5ad4842142873226b788a89a665f1960096db13cfbf3d37380f4705b48"
+   ]
+  }
+ ]
+}
