@@ -4,7 +4,7 @@
   {
    "id": "x-st-exodus",
    "title": "Exodus",
-   "subtitle": "Moses, from the river to the Sea",
+   "subtitle": "Moses, from the river to Sinai",
    "lessons": [
     {
      "id": "x-st-exo-01",
@@ -670,6 +670,559 @@
         "**Nahshon** went in first (Sotah 37a).",
         "**Mi Chamocha** comes from the Sea (15:11).",
         "God **does not rejoice** at the drowning (Megillah 10b)."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-exo-05",
+     "title": "Moses (5): At the foot of the mountain",
+     "status": "draft",
+     "related": [],
+     "parashah": [
+      "Yitro",
+      "Mishpatim"
+     ],
+     "check_note": "Shabbat 88a and Shemot Rabbah 29:9 read 11/11.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Sinai",
+       "body": "Three months out of Egypt, the people camp at the mountain. Thunder, lightning, a cloud, and **the blast of a shofar**. Moses leads them out to meet God.",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 19:16-19"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "According to the Talmud, Israel promised to do the commandments before promising to hear them.",
+       "answer": true,
+       "why": "They said \"**We will do**\" before \"**We will hear**,\" and the Talmud calls it the angels' secret.",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 19:16-19"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Exodus 19:17",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 19:17"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וַיִּתְיַצְּבוּ בְּתַחְתִּית הָהָר",
+       "tl": null,
+       "gloss": "\"they took their places at the foot of the mountain\" (19:17). The Hebrew can also be read as **under** the mountain, and the Talmud reads it that way.",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 19:17"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "A mountain held overhead",
+       "body": "**Rabbi Avdimi**: God held the mountain over them **like a tub**: accept the Torah, or this will be your burial. But a covenant accepted under force is weak. **Rava** answers: they **accepted it again, willingly**, in the days of Ahasuerus, as Esther says, \"The Jews ordained, and took upon them\" (Esther 9:27).",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Shabbat 88a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "tub",
+       "type": "why",
+       "q": "According to Rava in Shabbat 88a, when did Israel accept the Torah freely?",
+       "choices": [
+        "In the days of Ahasuerus, in the Purim story",
+        "At the moment of the Ten Commandments",
+        "When Moses died"
+       ],
+       "answer": 0,
+       "why": "At Sinai, under the mountain; in **Esther's** time, by choice. A people grown up enough to choose.",
+       "wrong_why": [
+        null,
+        "The Talmud reads Sinai as under compulsion.",
+        "Not in this passage."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Shabbat 88a"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Exodus 20:2",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 20:2"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Silence",
+       "body": "**Rabbi Abbahu** in the name of **Rabbi Yochanan**: when God gave the Torah, no bird sang, no ox lowed, the sea did not stir, the angels did not say \"Holy.\" The entire world was quiet and silent, and **the voice** went out: \"I am the Lord your God.\"",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Shemot Rabbah 29:9"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Exodus 24:7",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 24:7"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "נַעֲשֶׂה וְנִשְׁמָע",
+       "tl": null,
+       "gloss": "Two Hebrew verbs, which the Contemporary Torah renders together as \"we will faithfully do\" (24:7). The Talmud's English hears them one at a time: \"We will do\" and \"We will hear.\"",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Exodus 24:7; Shabbat 88a"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "The angels' secret",
+       "body": "**Rabbi Simai**: because Israel put \"We will do\" before \"We will hear,\" **600,000 angels** tied **two crowns** on each person, one for each promise. **Rabbi Elazar**: a heavenly voice asked, \"Who revealed to my children this secret that the ministering angels use?\" Angels **act first, then listen**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Shabbat 88a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "naaseh",
+       "type": "why",
+       "q": "Why does the Talmud call putting \"We will do\" before \"We will hear\" the angels' secret?",
+       "choices": [
+        "Angels act on God's word first, and understand after",
+        "Angels never speak",
+        "Only angels heard the Ten Commandments"
+       ],
+       "answer": 0,
+       "why": "Doing first, understanding after: **na'aseh v'nishma**.",
+       "wrong_why": [
+        null,
+        "Not the Talmud's point.",
+        "Not the Talmud's point."
+       ],
+       "look_again": 10,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Shabbat 88a"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "The people promise to do before they understand. Where in your practice has doing come before understanding, and what did the doing teach you?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "At **the foot of the mountain**, or under it (Shabbat 88a).",
+        "Accepted again, **freely**, in Esther's time (Rava).",
+        "The world fell **silent** for \"I am\" (Shemot Rabbah 29:9).",
+        "**Na'aseh v'nishma**: the angels' secret."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-exo-06",
+     "title": "Moses (6): V'shamru",
+     "status": "draft",
+     "related": [
+      "prayer:vshamru"
+     ],
+     "parashah": [
+      "Ki Tisa"
+     ],
+     "check_note": "Beitzah 16a read 11/11.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "A pause in the building",
+       "body": "God is giving Moses detailed plans for the **Tabernacle**. Then, before the work begins, the Torah stops for **Shabbat**.",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 31:12-17"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "According to Resh Lakish, what does God give each person on Shabbat eve?",
+       "choices": [
+        "An additional soul",
+        "A double portion of manna",
+        "A new name",
+        "A guardian angel"
+       ],
+       "answer": 0,
+       "why": "A **neshamah yeteirah**, an additional soul, taken back when Shabbat ends.",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 31:12-17"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Exodus 31:16-17",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 31:16-17"
+       }
+      },
+      {
+       "kind": "relevance",
+       "body": "These are the words of **V'shamru**, which we sing on Shabbat.",
+       "links": [
+        "prayer:vshamru"
+       ]
+      },
+      {
+       "kind": "term",
+       "he": "שָׁבַת וַיִּנָּפַשׁ",
+       "tl": null,
+       "gloss": "\"[God] ceased from work and was refreshed\" (31:17). The last word, **vayinafash**, shares its root with **nefesh**, soul.",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 31:17"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "An additional soul",
+       "body": "**Resh Lakish**: God gives a person **an additional soul** on Shabbat eve and takes it back when Shabbat ends. He reads **vayinafash** as **vai, nefesh**: woe for the soul that is lost.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Beitzah 16a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "neshamah",
+       "type": "why",
+       "q": "How does Resh Lakish read the word vayinafash?",
+       "choices": [
+        "As vai, nefesh: \"woe for the additional soul that is lost\" when Shabbat ends",
+        "As a word for rest, and nothing more",
+        "As a command to sleep"
+       ],
+       "answer": 0,
+       "why": "**Vai, nefesh**: the additional soul leaves as Shabbat goes out.",
+       "wrong_why": [
+        null,
+        "He finds more in the word.",
+        "Not his reading."
+       ],
+       "look_again": 5,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Beitzah 16a"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Resh Lakish says Shabbat brings you an additional soul, and its leaving is felt. What in you feels larger on Shabbat?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "The Torah pauses the building **for Shabbat**.",
+        "**V'shamru**: a sign between God and Israel (31:16-17).",
+        "Beitzah 16a: **an additional soul** on Shabbat."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-exo-07",
+     "title": "Moses (7): Broken tablets",
+     "status": "draft",
+     "related": [],
+     "parashah": [
+      "Ki Tisa"
+     ],
+     "check_note": "Shabbat 87a and Berakhot 8b read 11/11.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Forty days",
+       "body": "Moses has been on the mountain forty days. Below, the people lose hope and make **a golden calf**. Moses comes down carrying the tablets.",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 32:1-19"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "According to the Talmud, what was kept in the Ark with the second tablets?",
+       "choices": [
+        "The broken pieces of the first tablets",
+        "The golden calf's ashes",
+        "Moses' staff",
+        "Nothing else"
+       ],
+       "answer": 0,
+       "why": "**Both** the whole tablets and the **broken** ones (Berakhot 8b).",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 32:1-19"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Exodus 32:19",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 32:19"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "God agreed",
+       "body": "Moses did **three things on his own judgment**, and God agreed with him. One was **breaking the tablets**. His reasoning: if one who has turned from God may not eat even the Passover lamb, one mitzvah, how could a people worshipping a calf receive **the whole Torah**?",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Shabbat 87a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "agreed",
+       "type": "why",
+       "q": "In Shabbat 87a, how did God respond to Moses breaking the tablets?",
+       "choices": [
+        "God agreed with him",
+        "God punished him",
+        "God was silent"
+       ],
+       "answer": 0,
+       "why": "One of three things Moses did **on his own**, and God **agreed**.",
+       "wrong_why": [
+        null,
+        "The Talmud says the opposite.",
+        "The Talmud says God agreed."
+       ],
+       "look_again": 3,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Shabbat 87a"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Exodus 34:1",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 34:1"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Whole and broken, side by side",
+       "body": "**Both the whole tablets and the broken tablets** were placed in the Ark. So, says **Rabbi Yehoshua ben Levi**, honor an elder who has forgotten their learning through no fault of their own: like the broken tablets, they are still holy.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 8b"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "broken",
+       "type": "why",
+       "q": "What lesson does Berakhot 8b draw from the broken tablets?",
+       "choices": [
+        "Honor an elder who has lost their learning; what is broken is still holy",
+        "Broken things should be buried",
+        "Never break a promise"
+       ],
+       "answer": 0,
+       "why": "The broken tablets stayed **in the Ark**, beside the whole ones.",
+       "wrong_why": [
+        null,
+        "The Talmud says they were kept, not buried.",
+        "Not the Talmud's lesson here."
+       ],
+       "look_again": 6,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 8b"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "The broken tablets were kept in the Ark beside the whole ones. What broken piece do you carry, and does it still deserve a holy place?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Moses **shattered** the tablets (32:19).",
+        "Shabbat 87a: **God agreed** with him.",
+        "Berakhot 8b: **whole and broken** together in the Ark."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-exo-08",
+     "title": "Moses (8): Thirteen attributes",
+     "status": "draft",
+     "related": [],
+     "parashah": [
+      "Ki Tisa"
+     ],
+     "check_note": "Rosh Hashanah 17b read 11/11. Liturgy card: CHECK with cantor where Mishkan HaNefesh and CBB use the Thirteen Attributes.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Show me",
+       "body": "After the calf, Moses asks to see God's presence. God answers: you cannot see My face, but I will **pass before you** and proclaim My name.",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 33:18-23"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "In the Talmud, God appears to Moses wrapped in a tallit, like a prayer leader.",
+       "answer": true,
+       "why": "Rabbi Yochanan: \"were it not explicitly written\" it would be impossible to say.",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 33:18-23"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Exodus 34:6-7",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 34:6-7"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "אֵל רַחוּם וְחַנּוּן אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד",
+       "tl": null,
+       "gloss": "\"a God compassionate and gracious, slow to anger, abounding in kindness\" (34:6). The opening of the **Thirteen Attributes of Mercy**.",
+       "src": {
+        "type": "torah",
+        "ref": "Exodus 34:6"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "God in a tallit",
+       "body": "**Rabbi Yochanan**: were it not written, it would be impossible to say it. God **wrapped in a tallit like a prayer leader** and showed Moses the order of prayer: whenever Israel sins, let them recite **the thirteen attributes** before Me, and I will forgive them. **Rav Yehuda**: there is a covenant that they **never return empty-handed**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rosh Hashanah 17b"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "tallit",
+       "type": "why",
+       "q": "In Rosh Hashanah 17b, what did God teach Moses?",
+       "choices": [
+        "An order of prayer: recite the Thirteen Attributes when Israel sins",
+        "How to build the Ark",
+        "The melody for the shofar"
+       ],
+       "answer": 0,
+       "why": "God as **prayer leader**, teaching the words that bring forgiveness.",
+       "wrong_why": [
+        null,
+        "Not in this passage.",
+        "Not in this passage."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rosh Hashanah 17b"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Truth, then kindness",
+       "body": "The verse says both \"abounding in **kindness**\" and \"**faithfulness**,\" which the Talmud reads as **truth**, strict justice. **Ilfa**: God begins with justice, but seeing that **the world cannot survive on judgment alone**, turns to kindness.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rosh Hashanah 17b"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "kindness",
+       "type": "why",
+       "q": "According to Ilfa, why does kindness win out over strict justice?",
+       "choices": [
+        "The world could not survive on judgment alone",
+        "Moses argued for it",
+        "Justice is less important"
+       ],
+       "answer": 0,
+       "why": "Judgment first, then **mercy**, because without it the world could not stand.",
+       "wrong_why": [
+        null,
+        "Not Ilfa's reason.",
+        "Ilfa keeps both."
+       ],
+       "look_again": 6,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rosh Hashanah 17b"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "In the prayer book",
+       "body": "These words return in Jewish prayer on **festivals and the High Holy Days**, often as the Ark is opened.",
+       "src": {
+        "type": "tradition",
+        "ref": "Exodus 34:6-7 in festival and High Holy Day liturgy"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "In the Talmud, God gives Moses words to pray when the people have failed. When you have fallen short, what words help you begin again?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "God **passes before** Moses and proclaims (34:6-7).",
+        "God in **a tallit**, teaching an order of prayer (Rosh Hashanah 17b).",
+        "The Thirteen Attributes **never return empty**.",
+        "Justice first, then **kindness**."
        ]
       }
      ]

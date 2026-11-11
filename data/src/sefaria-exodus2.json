@@ -1,0 +1,183 @@
+{
+ "fetched": "2026-11-11",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Exodus lessons 2). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Exodus 19:17",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיּוֹצֵא מֹשֶׁה אֶת־הָעָם לִקְרַאת הָאֱלֹהִים מִן־הַמַּחֲנֶה וַיִּתְיַצְּבוּ בְּתַחְתִּית הָהָר"
+   ],
+   "sha": [
+    "87f6b26eea36a509962034740e128d845f062872d56578e3afea2417ddc7f66d"
+   ]
+  },
+  {
+   "ref": "Exodus 19:17",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Moses led the people out of the camp toward God, and they took their places at the foot of the mountain."
+   ],
+   "sha": [
+    "aa8ecbc418614219df62c85e2bd4bd82df5fb5020557b3a8f7ad08aa6e6f3278"
+   ]
+  },
+  {
+   "ref": "Exodus 20:2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "אָנֹכִי יְהֹוָה אֱלֹהֶיךָ אֲשֶׁר הוֹצֵאתִיךָ מֵאֶרֶץ מִצְרַיִם מִבֵּית עֲבָדִ͏ים"
+   ],
+   "sha": [
+    "71e10efd003f62f0c0e28a6eb69ee6004b575833da29644922feee83bd852c4d"
+   ]
+  },
+  {
+   "ref": "Exodus 20:2",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "I יהוה am your God who brought you out of the land of Egypt, the house of bondage:"
+   ],
+   "sha": [
+    "0fc2237b64d399570de8612d587dc7730a61c33d0ed95517744da94e598037a9"
+   ]
+  },
+  {
+   "ref": "Exodus 24:7",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּקַּח סֵפֶר הַבְּרִית וַיִּקְרָא בְּאׇזְנֵי הָעָם וַיֹּאמְרוּ כֹּל אֲשֶׁר־דִּבֶּר יְהֹוָה נַעֲשֶׂה וְנִשְׁמָע"
+   ],
+   "sha": [
+    "66b721385f9711c0e8bdbcdfddc174f2e66c155846b13dc9efa25f11256c0d0d"
+   ]
+  },
+  {
+   "ref": "Exodus 24:7",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then he took the record of the covenant and read it aloud to the people. And they said, “All that יהוה has spoken we will faithfully do!”"
+   ],
+   "sha": [
+    "18544145f09b81d9053eff3f31b583d0675b546eacc65c1ae9d340e9a54922ab"
+   ]
+  },
+  {
+   "ref": "Exodus 31:16-17",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְשָׁמְרוּ בְנֵי־יִשְׂרָאֵל אֶת־הַשַּׁבָּת לַעֲשׂוֹת אֶת־הַשַּׁבָּת לְדֹרֹתָם בְּרִית עוֹלָם",
+    "בֵּינִי וּבֵין בְּנֵי יִשְׂרָאֵל אוֹת הִוא לְעֹלָם כִּי־שֵׁשֶׁת יָמִים עָשָׂה יְהֹוָה אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ וּבַיּוֹם הַשְּׁבִיעִי שָׁבַת וַיִּנָּפַשׁ {ס}"
+   ],
+   "sha": [
+    "7612af05f8f1e5f1048a16a5e704fbf97fd9d4a9b469aa82e20507127acc2388",
+    "18d746d580298a52e4a33fa8f9750f5f1323d84350025f6da97e39466c4a9a0d"
+   ]
+  },
+  {
+   "ref": "Exodus 31:16-17",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "The Israelite people shall keep the sabbath, observing the sabbath throughout the ages as a covenant for all time:",
+    "it shall be a sign for all time between Me and the people of Israel. For in six days יהוה made heaven and earth, and on the seventh day [God] ceased from work and was refreshed."
+   ],
+   "sha": [
+    "f7e74f3e60857649b83ba1b47b8b914f2e8ff4c8dc5dd098ebae78c33423a6db",
+    "fc41c8a5b75b2f32ad55df6d7054304f3116000c01dfc98b0b0aa2acdc068e9a"
+   ]
+  },
+  {
+   "ref": "Exodus 32:19",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי כַּאֲשֶׁר קָרַב אֶל־הַמַּחֲנֶה וַיַּרְא אֶת־הָעֵגֶל וּמְחֹלֹת וַיִּחַר־אַף מֹשֶׁה וַיַּשְׁלֵךְ מִיָּדָו אֶת־הַלֻּחֹת וַיְשַׁבֵּר אֹתָם תַּחַת הָהָר"
+   ],
+   "sha": [
+    "fbc90a9809e6f91db8f9536af9dd17d434b93823dd6600f5fb2b729f6b940872"
+   ]
+  },
+  {
+   "ref": "Exodus 32:19",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "As soon as Moses came near the camp and saw the calf and the dancing, he became enraged; and he hurled the tablets from his hands and shattered them at the foot of the mountain."
+   ],
+   "sha": [
+    "cb84081b52c361346ddf69f2aa009df2050684dc87fb8ceec6b4b49b97157b62"
+   ]
+  },
+  {
+   "ref": "Exodus 34:1",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יְהֹוָה אֶל־מֹשֶׁה פְּסׇל־לְךָ שְׁנֵי־לֻחֹת אֲבָנִים כָּרִאשֹׁנִים וְכָתַבְתִּי עַל־הַלֻּחֹת אֶת־הַדְּבָרִים אֲשֶׁר הָיוּ עַל־הַלֻּחֹת הָרִאשֹׁנִים אֲשֶׁר שִׁבַּרְתָּ"
+   ],
+   "sha": [
+    "198715d31ce01a560dbdc8bad862e201475f6022811187afa982fa5d5e708b0d"
+   ]
+  },
+  {
+   "ref": "Exodus 34:1",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "יהוה said to Moses: “Carve two tablets of stone like the first, and I will inscribe upon the tablets the words that were on the first tablets, which you shattered."
+   ],
+   "sha": [
+    "9fecf48901cc5d42d79caaae0c372c6144b7db5183a797e547fb666dca7357d4"
+   ]
+  },
+  {
+   "ref": "Exodus 34:6-7",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּעֲבֹר יְהֹוָה  עַל־פָּנָיו וַיִּקְרָא יְהֹוָה  יְהֹוָה אֵל רַחוּם וְחַנּוּן אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד וֶאֱמֶת",
+    "נֹצֵר חֶסֶד לָאֲלָפִים נֹשֵׂא עָוֺן וָפֶשַׁע וְחַטָּאָה וְנַקֵּה לֹא יְנַקֶּה פֹּקֵד  עֲוֺן אָבוֹת עַל־בָּנִים וְעַל־בְּנֵי בָנִים עַל־שִׁלֵּשִׁים וְעַל־רִבֵּעִים"
+   ],
+   "sha": [
+    "04f6d554c021a8b2ea78bfd7b296496ccc376020c423321caa4caa6952b19a9a",
+    "cd6fe936dddcaeb5e637d545526ed0fd0a642f08a1fbef5490c6a91aacd55b65"
+   ]
+  },
+  {
+   "ref": "Exodus 34:6-7",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "יהוה passed before him and proclaimed: “!יהוה! יהוה a God compassionate and gracious, slow to anger, abounding in kindness and faithfulness,",
+    "extending kindness to the thousandth generation, forgiving iniquity, transgression, and sin—yet not remitting all punishment, but visiting the iniquity of parents upon children and children’s children, upon the third and fourth generations.”"
+   ],
+   "sha": [
+    "ea8eaf50a97ec60cded9f5cd2bf13ea3bbded2156b05d1ed1726ead2536f2f60",
+    "c943aa82ad51b87ee2d37b048dff66d473dc9047673cee7f41d17f6f0f2e957a"
+   ]
+  }
+ ]
+}
