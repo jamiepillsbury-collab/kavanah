@@ -44,3 +44,6 @@ Goal: everything a young Jew learns for bar/bat mitzvah, Duolingo-style. Plus tw
 - **Torah stories**: the Five Books, plus the other stories central to tradition and holidays: Ruth (Shavuot), Esther (Purim), Jonah (Yom Kippur), Hannah (Rosh Hashanah haftarah), prophets, and post-biblical ones like Hanukkah (Books of Maccabees, Talmud). Label each story's source.
 - **Kabbalah**: core ideas (Ein Sof, sefirot, tzimtzum, tikkun olam, etc.), framed for a Reform learner.
 Open: bar/bat mitzvah prep traditionally includes Torah/haftarah trope (cantillation), which the app currently strips; decide if/when to add it. History/Kabbalah explanations are original writing; cite sources and mark scholarly vs traditional accounts.
+
+## Story lessons: approach (Jamie, 2026-11-11)
+Include the esoteric/mystical layer too (Zohar, Hasidic, deeper midrash) when found on Sefaria. Jamie's rabbi's two framing teachings (cards in Creation (1) and Ruth (3)): the Torah as a people growing up, from a child's hero-God to God present in our moral choices; and science/religion as two questions (the tea story), not a binary.

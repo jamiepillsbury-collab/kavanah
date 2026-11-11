@@ -211,6 +211,26 @@
          }
         },
         {
+         "kind": "concept",
+         "title": "A people growing up",
+         "body": "A teaching from your rabbi: read the Torah as a people **growing up spiritually**. Early on, God is like a child's picture of a parent, a hero who fixes everything. Later the relationship gets strained and complicated. In maturity, God is felt less as a hand moving things and more as the love present **when we act rightly**. Rambam made a related point: people can't move **suddenly from one extreme to the other**, so the Torah meets them where they are. The Talmud: \"The Torah spoke in the language of men.\"",
+         "src": {
+          "type": "reform",
+          "ref": "Teaching from Jamie's rabbi (oral, as Jamie retold it); Guide for the Perplexed 3:32; Berakhot 31b; Richard Elliott Friedman, The Hidden Face of God (1995)",
+          "note": "Rambam and Berakhot read on Sefaria 11/11; Friedman: check"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Two questions, one cup of tea",
+         "body": "A teaching from your rabbi, a scientist before he was a rabbi: a husband sees his wife is ill and makes her tea. **Why did the water boil?** Because heat was applied: that's true. And because **he loves her**: without that, the water never boils either. Two true answers to two different questions, not a contest. Rabbi Jonathan Sacks put it this way: \"Science takes things apart to see how they work\"; religion puts them together to see **what they mean**.",
+         "src": {
+          "type": "reform",
+          "ref": "Teaching from Jamie's rabbi (oral, as Jamie retold it); Jonathan Sacks, The Great Partnership (2011)",
+          "note": "check page"
+         }
+        },
+        {
          "kind": "relevance",
          "body": "Every Friday night, the **Ma'ariv Aravim** blessing praises God who creates day and night and rolls light away before darkness. That is day 1 of this chapter, turned into prayer.",
          "links": [
@@ -6625,6 +6645,646 @@
           "**Five words**, and the whole city repents, animals too.",
           "Jonah is angry that God is **gracious and compassionate** (Exodus 34).",
           "The book ends with **God's question**, unanswered."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      }
+     ]
+    },
+    {
+     "id": "x-st-ruth",
+     "title": "Ruth",
+     "subtitle": "The scroll of chesed: choosing, sheltering, and a God found in human kindness",
+     "lessons": [
+      {
+       "id": "x-st-ruth-01",
+       "title": "Ruth (1): Your people, my people",
+       "status": "draft",
+       "related": [],
+       "check_note": "Yevamot 47b and Berakhot 7b read on Sefaria 11/11. English: JPS Tanakh gender-sensitive.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Three widows on the road",
+         "body": "In Moab, **Naomi** has lost her husband and both sons. She hears that Adonai \"had taken note of the people\" back home, and sets out with her two Moabite daughters-in-law, **Orpah and Ruth** (1:1-6).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:1-6"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "What happens when Naomi tells Ruth to go back to her own people?",
+         "choices": [
+          "Ruth refuses and binds herself to Naomi",
+          "Ruth goes back, like Orpah",
+          "Ruth asks Boaz for advice",
+          "Ruth stays silent"
+         ],
+         "answer": 0,
+         "why": "Orpah kisses her goodbye; **Ruth clings to her** and refuses to leave (1:14-17).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:1-6"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 1:16-18",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:16-18"
+         },
+         "ref": "Ruth 1:16-18",
+         "he": "וַתֹּאמֶר רוּת אַל־תִּפְגְּעִי־בִי לְעׇזְבֵךְ לָשׁוּב מֵאַחֲרָיִךְ כִּי אֶל־אֲשֶׁר תֵּלְכִי אֵלֵךְ וּבַאֲשֶׁר תָּלִינִי אָלִין עַמֵּךְ עַמִּי וֵאלֹהַיִךְ אֱלֹהָי\nבַּאֲשֶׁר תָּמוּתִי אָמוּת וְשָׁם אֶקָּבֵר כֹּה יַעֲשֶׂה יְיָ לִי וְכֹה יוֹסִיף כִּי הַמָּוֶת יַפְרִיד בֵּינִי וּבֵינֵךְ\nוַתֵּרֶא כִּי־מִתְאַמֶּצֶת הִיא לָלֶכֶת אִתָּהּ וַתֶּחְדַּל לְדַבֵּר אֵלֶיהָ",
+         "en": "But Ruth replied, “Do not urge me to leave you, to turn back and not follow you. For wherever you go, I will go; wherever you lodge, I will lodge; your people shall be my people, and your God my God. Where you die, I will die, and there I will be buried. Thus and more may GOD do to me if anything but death parts me from you.” When [Naomi] saw how determined she was to go with her, she ceased to argue with her;",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vatomer Rut al tifg'i vi l'ozveich lashuv mei-acharayich ki el asher teilchi eileich uva-asher talini alin ameich ami veilohayich Elohai\nBa-asher tamuti amut v'sham ekaveir ko ya-aseh Adonai li v'cho yosif ki hamavet yafrid beini uveineich\nVateire ki mit'ametzet hi lalechet itah vatechdal l'dabeir eileha",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "עַמֵּךְ עַמִּי וֵאלֹהַיִךְ אֱלֹהָי",
+         "tl": "Ameich ami veilohayich Elohai",
+         "gloss": "\"your people shall be my people, and your God my God\" (1:16): four Hebrew words that change the history of Israel.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:16"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "When Naomi stopped arguing",
+         "body": "\"When [Naomi] saw how determined she was to go with her, she ceased to argue with her\" (1:18). **Rabbi Elazar** learns from this how to receive someone who wants to become a Jew: you may test their resolve, but once it is clear, **you stop arguing**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Yevamot 47b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "convert",
+         "type": "why",
+         "q": "What does the Talmud learn from Naomi falling silent (1:18)?",
+         "choices": [
+          "Once a person's resolve to join is clear, you stop dissuading them",
+          "Converts should never be questioned",
+          "Naomi didn't want Ruth to come"
+         ],
+         "answer": 0,
+         "why": "Ruth becomes **the model** for choosing to join the Jewish people.",
+         "wrong_why": [
+          null,
+          "Naomi did test her first; the point is when to stop.",
+          "The verse says Naomi saw her determination."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Yevamot 47b"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "What's in the name Ruth?",
+         "body": "**Rabbi Yochanan**: she was called Rut because from her came **David**, who **saturated** (riva) the Holy One with songs and praises.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 7b"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 1:20-21",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:20-21"
+         },
+         "ref": "Ruth 1:20-21",
+         "he": "וַתֹּאמֶר אֲלֵיהֶן אַל־תִּקְרֶאנָה לִי נׇעֳמִי קְרֶאןָ לִי מָרָא כִּי־הֵמַר שַׁדַּי לִי מְאֹד\nאֲנִי מְלֵאָה הָלַכְתִּי וְרֵיקָם הֱשִׁיבַנִי יְיָ לָמָּה תִקְרֶאנָה לִי נׇעֳמִי וַיהֹוָה עָנָה בִי וְשַׁדַּי הֵרַע לִי",
+         "en": "“Do not call me Naomi,” she replied. “Call me Mara, for Shaddai has made my lot very bitter. I went away full, and GOD has brought me back empty. How can you call me Naomi, when GOD has dealt harshly with me, when Shaddai has brought misfortune upon me!”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vatomer aleihen al tikrenah li no-omi k'rena li mara ki heimar shadai li m'od\nAni m'lei-ah halachti v'reikam heshivani Adonai lamah tikrenah li no-omi vaihovah anah vi v'shadai heira li"
+        },
+        {
+         "kind": "term",
+         "he": "קְרֶאןָ לִי מָרָא",
+         "tl": "K'rena li mara",
+         "gloss": "\"Call me Mara\" (1:20), bitterness. Naomi says it plainly: \"I went away full, and Adonai has brought me back empty.\" The book lets her say it.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:20-21"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "mara",
+         "type": "pick",
+         "q": "What name does Naomi ask to be called?",
+         "choices": [
+          "Mara, bitterness",
+          "Ruth",
+          "Orpah"
+         ],
+         "answer": 0,
+         "why": "**Mara**: \"for Shaddai has made my lot very bitter\" (1:20).",
+         "wrong_why": [
+          null,
+          "Ruth is her daughter-in-law.",
+          "Orpah went back to Moab."
+         ],
+         "look_again": 8,
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:20-21"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "In the same scene, Ruth binds herself to a people and a God before anything has gone well, and Naomi names her bitterness out loud. Which voice do you recognize today?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**Your people shall be my people, and your God my God.**\"",
+          "Yevamot 47b: when resolve is clear, **stop arguing**.",
+          "Berakhot 7b: Ruth, ancestor of David who **saturated God with song**.",
+          "Naomi: \"**Call me Mara.**\""
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-ruth-02",
+       "title": "Ruth (2): Under whose wings",
+       "status": "draft",
+       "related": [],
+       "check_note": "Mishnah Berakhot 9:5 read on Sefaria 11/11. The kanaf link between 2:12 and 3:9 is in the Hebrew text itself.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A field of strangers",
+         "body": "Ruth goes out to **glean** behind the reapers, and happens to come to the field of **Boaz**, a relative of Naomi's husband (2:1-3).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 2:1-3"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "The Mishnah learns from Boaz to greet people with God's name.",
+         "answer": 0,
+         "why": "**Mishnah Berakhot 9:5**, from Boaz's \"Adonai be with you!\" (2:4).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 2:1-3"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 2:4",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 2:4"
+         },
+         "ref": "Ruth 2:4",
+         "he": "וְהִנֵּה־בֹעַז בָּא מִבֵּית לֶחֶם וַיֹּאמֶר לַקּוֹצְרִים יְיָ עִמָּכֶם וַיֹּאמְרוּ לוֹ יְבָרֶכְךָ יְיָ",
+         "en": "Presently Boaz arrived from Bethlehem. He greeted the reapers, “GOD be with you!” And they responded, “GOD bless you!”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "V'hinei vo-az ba mibeit lechem vayomer lakotzrim Adonai imachem vayomru lo y'varech'cha Adonai",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "A blessing for hello",
+         "body": "Boaz greets his workers, \"Adonai be with you!\" and they answer, \"Adonai bless you!\" The **Mishnah**: from this the Sages instituted that people **greet one another using God's name**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishnah Berakhot 9:5"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 2:12",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 2:12"
+         },
+         "ref": "Ruth 2:12",
+         "he": "יְשַׁלֵּם יְיָ פׇּעֳלֵךְ וּתְהִי מַשְׂכֻּרְתֵּךְ שְׁלֵמָה מֵעִם יְיָ אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר־בָּאת לַחֲסוֹת תַּחַת־כְּנָפָיו",
+         "en": "May GOD reward your deeds. May you have a full recompense from the ETERNAL, the God of Israel, under whose wings you have sought refuge!”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Y'shaleim Adonai po-oleich ut'hi maskurteich sh'leimah mei-im Adonai Elohei Yisrael asher bat lachasot tachat k'nafav"
+        },
+        {
+         "kind": "term",
+         "he": "תַּחַת־כְּנָפָיו",
+         "tl": "Tachat k'nafav",
+         "gloss": "\"under whose wings you have sought refuge\" (2:12). Boaz prays that **God** will shelter Ruth, the stranger in his field.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 2:12"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 3:9-10",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 3:9-10"
+         },
+         "ref": "Ruth 3:9-10",
+         "he": "וַיֹּאמֶר מִי־אָתְּ וַתֹּאמֶר אָנֹכִי רוּת אֲמָתֶךָ וּפָרַשְׂתָּ כְנָפֶךָ עַל־אֲמָתְךָ כִּי גֹאֵל אָתָּה\nוַיֹּאמֶר בְּרוּכָה אַתְּ לַיהֹוָה בִּתִּי הֵיטַבְתְּ חַסְדֵּךְ הָאַחֲרוֹן מִן־הָרִאשׁוֹן לְבִלְתִּי־לֶכֶת אַחֲרֵי הַבַּחוּרִים אִם־דַּל וְאִם־עָשִׁיר",
+         "en": "“Who are you?” he asked. And she replied, “I am your handmaid Ruth. Spread your robe over your handmaid, for you are a redeeming kinsman.” He exclaimed, “Be blessed of GOD, daughter! Your latest deed of loyalty is greater than the first, in that you have not turned to younger men, whether poor or rich.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomer mi at vatomer anochi Rut amatecha ufarasta ch'nafecha al amatcha ki go-eil atah\nVayomer b'ruchah at laihovah biti heitavt chasdeich ha-acharon min harishon l'vilti lechet acharei habachurim im dal v'im ashir",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "וּפָרַשְׂתָּ כְנָפֶךָ עַל־אֲמָתְךָ",
+         "tl": "Ufarasta ch'nafecha al amatcha",
+         "gloss": "\"Spread your robe over your handmaid\" (3:9). In Hebrew, \"robe\" here is **kanaf**, the very word for God's **wings** in 2:12. Boaz prayed for God to shelter Ruth; now Ruth asks **Boaz** to be that shelter.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 2:12, 3:9"
+         },
+         "tlf": true
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "kanaf",
+         "type": "why",
+         "q": "What links Boaz's blessing (2:12) to Ruth's request (3:9)?",
+         "choices": [
+          "The same Hebrew word, kanaf: wings, or the corner of a robe",
+          "Both mention Naomi",
+          "Both happen at the city gate"
+         ],
+         "answer": 0,
+         "why": "God's **wings** and Boaz's **robe** are one word. Boaz becomes **the answer to his own prayer**.",
+         "wrong_why": [
+          null,
+          "Naomi isn't named in either verse.",
+          "2:12 is in the field and 3:9 at the threshing floor."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 2:12, 3:9"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "הֵיטַבְתְּ חַסְדֵּךְ הָאַחֲרוֹן מִן־הָרִאשׁוֹן",
+         "tl": "Heitavt chasdeich ha-acharon min harishon",
+         "gloss": "\"Your latest deed of loyalty is greater than the first\" (3:10). The Hebrew word for loyalty is **chesed**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 3:10"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Boaz becomes the answer to his own prayer. Is there a prayer of yours that you could help answer?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Boaz's \"Adonai be with you\": greeting with God's name (Mishnah Berakhot 9:5).",
+          "\"**Under whose wings** you have sought refuge.\"",
+          "\"**Spread your robe**\": the same word, kanaf.",
+          "Boaz becomes **the answer to his own prayer**.",
+          "**Chesed**, loyalty, greater the second time."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-ruth-03",
+       "title": "Ruth (3): Where is God in Ruth?",
+       "status": "draft",
+       "related": [],
+       "check_note": "Count of the narrator's statements about God from the full JPS text of Ruth on Sefaria (1:6, 4:13). Ruth Rabbah 2:14 and Chullin 139b read on Sefaria 11/11. Esther 5:4 initials checked by script on the Masorah text.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "God's name, God's hand",
+         "body": "People in Ruth say God's name often: in blessings, in oaths, in Naomi's grief. But the **narrator** says God **did** something only **twice**: gave the people food (1:6) and let Ruth conceive (4:13). Everything else that saves anyone is **a human act**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:6, 4:13"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "How many times does the narrator of Ruth say God acted?",
+         "choices": [
+          "Twice",
+          "Never",
+          "In every chapter",
+          "Once"
+         ],
+         "answer": 0,
+         "why": "**Twice**: 1:6 and 4:13. The rest is human loyalty, generosity and courage.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:6, 4:13"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 1:6",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:6"
+         },
+         "ref": "Ruth 1:6",
+         "he": "וַתָּקׇם הִיא וְכַלֹּתֶיהָ וַתָּשׇׁב מִשְּׂדֵי מוֹאָב כִּי שָׁמְעָה בִּשְׂדֵה מוֹאָב כִּי־פָקַד יְיָ אֶת־עַמּוֹ לָתֵת לָהֶם לָחֶם",
+         "en": "She started out with her daughters-in-law to return from the country of Moab; for in the country of Moab she had heard that GOD had taken note of the people [of Israel] and given them food.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vatakom hi v'chaloteha vatashov mis'dei mo-av ki sham'ah bisdei mo-av ki fakad Adonai et amo lateit lahem lachem",
+         "tlf": true
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 4:13",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:13"
+         },
+         "ref": "Ruth 4:13",
+         "he": "וַיִּקַּח בֹּעַז אֶת־רוּת וַתְּהִי־לוֹ לְאִשָּׁה וַיָּבֹא אֵלֶיהָ וַיִּתֵּן יְיָ לָהּ הֵרָיוֹן וַתֵּלֶד בֵּן",
+         "en": "So Boaz married Ruth; she became his wife, and he cohabited with her. GOD let her conceive, and she bore a son.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayikach bo-az et Rut vat'hi lo l'ishah vayavo eileha vayitein Adonai lah heirayon vateiled bein"
+        },
+        {
+         "kind": "concept",
+         "title": "Written to teach chesed",
+         "body": "**Rabbi Ze'eira**: this scroll contains no laws of purity or impurity, nothing forbidden or permitted. Why was it written? **To teach how great the reward is for those who do chesed**, acts of loving-kindness.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Ruth Rabbah 2:14"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "chesed",
+         "type": "why",
+         "q": "According to Rabbi Ze'eira, why was the Book of Ruth written?",
+         "choices": [
+          "To teach the reward of loving-kindness",
+          "To teach the laws of gleaning",
+          "To record the history of Moab"
+         ],
+         "answer": 0,
+         "why": "No laws at all: **chesed** is the whole point.",
+         "wrong_why": [
+          null,
+          "He says the scroll has no laws in it.",
+          "That's not his answer."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Ruth Rabbah 2:14"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "The hidden face",
+         "body": "Ruth's neighbor in the Writings goes further: the Book of **Esther never names God at all**. The Talmud asks where Esther is hinted at in the Torah, and answers with God's warning, \"I will hide My face\" (Deuteronomy 31:18): **haster astir** sounds like **Esther**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Chullin 139b"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "יָבוֹא הַמֶּלֶךְ וְהָמָן הַיּוֹם",
+         "tl": "Yavo hamelech v'haman hayom",
+         "gloss": "\"let Your Majesty and Haman come today\" (Esther 5:4). Read only the **first letters** of these four Hebrew words: yod, heh, vav, heh, the **four-letter Name**. God is in the story, hidden inside an ordinary sentence.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 5:4"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "hidden",
+         "type": "why",
+         "q": "What is hidden in the first letters of four words in Esther 5:4?",
+         "choices": [
+          "The four-letter Name of God",
+          "Esther's Hebrew name",
+          "The word chesed"
+         ],
+         "answer": 0,
+         "why": "Yod, heh, vav, heh: **God's Name**, hidden in a dinner invitation.",
+         "wrong_why": [
+          null,
+          "Esther's Hebrew name, Hadassah, isn't there.",
+          "Chesed isn't spelled there."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "tanakh",
+          "ref": "Esther 5:4"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A people growing up",
+         "body": "A teaching from your rabbi: the Torah can be read as a people **growing up spiritually**. First, God is a child's hero who fixes everything. Then the relationship becomes strained and complicated. In maturity, God is no longer a hand moving events, but a love that becomes **present when we make great moral choices**. Ruth is that last stage: God's shelter arrives as Boaz's robe, and God's chesed as Ruth's. The Bible scholar **Richard Elliott Friedman** traces a similar arc: God's visible presence fades across the Bible until Esther, where God is never named.",
+         "src": {
+          "type": "reform",
+          "ref": "Teaching from Jamie's rabbi (oral, as Jamie retold it); Richard Elliott Friedman, The Hidden Face of God (1995)",
+          "note": "Friedman: check"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "If God is present in the moments when people choose chesed, where did you meet God this week?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "The narrator says God acted **twice**; everything else is **human chesed**.",
+          "Ruth Rabbah 2:14: written **to teach the reward of chesed**.",
+          "Esther: God **never named**, the Name **hidden** in Esther 5:4 (Chullin 139b).",
+          "Your rabbi: a people growing up, God present **in our moral choices**."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-ruth-04",
+       "title": "Ruth (4): A son for Naomi",
+       "status": "draft",
+       "related": [],
+       "check_note": "Bava Batra 91b read on Sefaria 11/11.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Full again",
+         "body": "Boaz marries Ruth, and she bears a son. The neighbors don't say \"a son is born to Ruth.\" They say: \"**A son is born to Naomi!**\" (4:13-17).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:13-17"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Who do the neighbors say the baby is born to?",
+         "choices": [
+          "Naomi",
+          "Ruth",
+          "Boaz",
+          "Orpah"
+         ],
+         "answer": 0,
+         "why": "\"**A son is born to Naomi!**\" (4:17).",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:13-17"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Ruth 4:17",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 4:17"
+         },
+         "ref": "Ruth 4:17",
+         "he": "וַתִּקְרֶאנָה לוֹ הַשְּׁכֵנוֹת שֵׁם לֵאמֹר יֻלַּד־בֵּן לְנׇעֳמִי וַתִּקְרֶאנָה שְׁמוֹ עוֹבֵד הוּא אֲבִי־יִשַׁי אֲבִי דָוִד",
+         "en": "and the women neighbors gave him a name, saying, “A son is born to Naomi!” They named him Obed; he was the father of Jesse, father of David.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vatikrenah lo hash'cheinot sheim leimor yulad bein l'no-omi vatikrenah sh'mo oveid hu avi yishai avi david"
+        },
+        {
+         "kind": "concept",
+         "title": "Empty, then full",
+         "body": "In chapter 1 Naomi said, \"I went away full, and Adonai has brought me back empty\" (1:21). Now a child is placed in her lap, and the women name him **Obed**, father of Jesse, **father of David**. Her emptiness is filled through Ruth's loyalty.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:21, 4:16-17"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "naomi",
+         "type": "why",
+         "q": "Why do the neighbors call Ruth's son Naomi's?",
+         "choices": [
+          "Naomi, who came back empty, is made full again",
+          "Naomi adopted him legally",
+          "Ruth had left"
+         ],
+         "answer": 0,
+         "why": "The story ends where Naomi's grief began, **reversed**.",
+         "wrong_why": [
+          null,
+          "The text speaks of joy, not law.",
+          "Ruth is still there; she is the one who gave Naomi this."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "tanakh",
+          "ref": "Ruth 1:21, 4:16-17"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Ruth saw Solomon",
+         "body": "The Talmud says **Ruth the Moabite lived to see the kingship of Solomon**: the stranger who chose to belong saw her great-great-grandson on the throne.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Batra 91b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "solomon",
+         "type": "pick",
+         "q": "According to Bava Batra 91b, whose reign did Ruth live to see?",
+         "choices": [
+          "Solomon's",
+          "Saul's",
+          "Moses'"
+         ],
+         "answer": 0,
+         "why": "**Solomon**, son of David, her great-great-grandson.",
+         "wrong_why": [
+          null,
+          "Saul was not of her line.",
+          "Moses lived long before Ruth."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Batra 91b"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "The line of David begins with a woman who chose to belong. What does that say to you about who belongs?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**A son is born to Naomi!**\"",
+          "Naomi, **empty**, is made **full** again.",
+          "Obed, Jesse, **David**.",
+          "Bava Batra 91b: Ruth **saw Solomon's kingship**."
          ]
         }
        ],
