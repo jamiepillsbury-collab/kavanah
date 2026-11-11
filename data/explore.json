@@ -5079,6 +5079,834 @@
         }
        ],
        "season": null
+      },
+      {
+       "id": "x-st-gen-24",
+       "title": "Joseph (1): The tunic, the dreams and the pit",
+       "parashah": [
+        "Vayeshev"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "My summaries of Rashi on Genesis 37:15, 37:24 and 37:35 (read on Sefaria 11/11). 'Coat of many colours' is the King James rendering.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "The favorite son",
+         "body": "\"Israel loved Joseph best of all his sons\" and gave him **an ornamented tunic**. His brothers **hated him**, and then Joseph told them **his dreams** (37:3-7).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 37:3-7"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "\"The pit was empty; there was no water in it\" (37:24). According to Rashi, what was in it?",
+         "choices": [
+          "Snakes and scorpions",
+          "Grain",
+          "Water after all",
+          "Nothing at all"
+         ],
+         "answer": 0,
+         "why": "Why add \"no water\" if it was empty? **Rashi**: no water, but **snakes and scorpions**.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 37:3-7"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 37:3-4",
+         "ref": "Genesis 37:3-4",
+         "he": "וְיִשְׂרָאֵל אָהַב אֶת־יוֹסֵף מִכׇּל־בָּנָיו כִּי־בֶן־זְקֻנִים הוּא לוֹ וְעָשָׂה לוֹ כְּתֹנֶת פַּסִּים\nוַיִּרְאוּ אֶחָיו כִּי־אֹתוֹ אָהַב אֲבִיהֶם מִכׇּל־אֶחָיו וַיִּשְׂנְאוּ אֹתוֹ וְלֹא יָכְלוּ דַּבְּרוֹ לְשָׁלֹם",
+         "en": "Now Israel loved Joseph best of all his sons—he was his “child of old age”; and he had made him an ornamented tunic. And when his brothers saw that their father loved him more than any of his brothers, they hated him so that they could not speak a friendly word to him.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 37:3-4"
+         },
+         "tl": "V'Yisrael ahav et yoseif mikol banav ki ven z'kunim hu lo v'asah lo k'tonet pasim\nVayir'u echav ki oto ahav avihem mikol echav vayisn'u oto v'lo yachlu dab'ro l'shalom",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "כְּתֹנֶת פַּסִּים",
+         "tl": "K'tonet pasim",
+         "gloss": "\"an ornamented tunic\" (37:3). The rare Hebrew word for its decoration has been translated many ways; the King James Bible made it the famous \"coat of many colours.\"",
+         "src": {
+          "type": "scholarly",
+          "ref": "Genesis 37:3; King James Version"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 37:5-7",
+         "ref": "Genesis 37:5-7",
+         "he": "וַיַּחֲלֹם יוֹסֵף חֲלוֹם וַיַּגֵּד לְאֶחָיו וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ\nוַיֹּאמֶר אֲלֵיהֶם שִׁמְעוּ־נָא הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָמְתִּי\nוְהִנֵּה אֲנַחְנוּ מְאַלְּמִים אֲלֻמִּים בְּתוֹךְ הַשָּׂדֶה וְהִנֵּה קָמָה אֲלֻמָּתִי וְגַם־נִצָּבָה וְהִנֵּה תְסֻבֶּינָה אֲלֻמֹּתֵיכֶם וַתִּשְׁתַּחֲוֶיןָ לַאֲלֻמָּתִי",
+         "en": "Once Joseph had a dream which he told to his brothers; and they hated him even more. He said to them, “Hear this dream which I have dreamed: There we were binding sheaves in the field, when suddenly my sheaf stood up and remained upright; then your sheaves gathered around and bowed low to my sheaf.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 37:5-7"
+         },
+         "tl": "Vayachalom yoseif chalom vayageid l'echav vayosifu od s'no oto\nVayomer aleihem shim'u na hachalom hazeh asher chalamti\nV'hinei anachnu m'al'mim alumim b'toch hasadeh v'hinei kamah alumati v'gam nitzavah v'hinei t'subenah alumoteichem vatishtachavena la-alumati",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "The man in the field",
+         "body": "On his way to his brothers, \"a man came upon him wandering in the fields\" (37:15). An ordinary stranger? **Rashi**: this was **the angel Gabriel**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 37:15",
+          "note": "from Bereshit Rabbah 84:14 and Tanchuma"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ",
+         "tl": "Et achai anochi m'vakeish",
+         "gloss": "\"I am looking for my brothers\" (37:16): said by the boy his brothers hate, on his way to find them.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 37:16"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "gabriel",
+         "type": "why",
+         "q": "Who does Rashi say the \"man\" in the field was?",
+         "choices": [
+          "The angel Gabriel",
+          "One of Joseph's brothers",
+          "A local shepherd"
+         ],
+         "answer": 0,
+         "why": "**Gabriel**: a hidden messenger who keeps the story moving.",
+         "wrong_why": [
+          null,
+          "The brothers were already gone to Dothan.",
+          "That's the plain reading; Rashi brings the midrash."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 37:15",
+          "note": "from Bereshit Rabbah 84:14 and Tanchuma"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 37:23-24",
+         "ref": "Genesis 37:23-24",
+         "he": "וַיְהִי כַּאֲשֶׁר־בָּא יוֹסֵף אֶל־אֶחָיו וַיַּפְשִׁיטוּ אֶת־יוֹסֵף אֶת־כֻּתׇּנְתּוֹ אֶת־כְּתֹנֶת הַפַּסִּים אֲשֶׁר עָלָיו\nוַיִּקָּחֻהוּ וַיַּשְׁלִכוּ אֹתוֹ הַבֹּרָה וְהַבּוֹר רֵק אֵין בּוֹ מָיִם",
+         "en": "When Joseph came up to his brothers, they stripped Joseph of his tunic, the ornamented tunic that he was wearing, and took him and cast him into the pit. The pit was empty; there was no water in it.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 37:23-24"
+         },
+         "tl": "Vay'hi ka-asher ba yoseif el echav vayafshitu et yoseif et kutonto et k'tonet hapasim asher alav\nVayikachuhu vayashlichu oto haborah v'habor reik ein bo mayim"
+        },
+        {
+         "kind": "concept",
+         "title": "Empty, but not empty",
+         "body": "\"The pit was **empty**; there was **no water** in it.\" Why say both? **Rashi**, from the Talmud: there was no water, but there were **snakes and scorpions**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 37:24",
+          "note": "from Shabbat 22a"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 37:34-35",
+         "ref": "Genesis 37:34-35",
+         "he": "וַיִּקְרַע יַעֲקֹב שִׂמְלֹתָיו וַיָּשֶׂם שַׂק בְּמׇתְנָיו וַיִּתְאַבֵּל עַל־בְּנוֹ יָמִים רַבִּים\nוַיָּקֻמוּ כׇל־בָּנָיו וְכׇל־בְּנֹתָיו לְנַחֲמוֹ וַיְמָאֵן לְהִתְנַחֵם וַיֹּאמֶר כִּי־אֵרֵד אֶל־בְּנִי אָבֵל שְׁאֹלָה וַיֵּבְךְּ אֹתוֹ אָבִיו",
+         "en": "Jacob rent his clothes, put sackcloth on his loins, and observed mourning for his son many days. All his sons and daughters sought to comfort him; but he refused to be comforted, saying, “No, I will go down mourning to my son in Sheol.” Thus his father bewailed him.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 37:34-35"
+         },
+         "tl": "Vayikra Yaakov simlotav vayasem sak b'motnav vayit'abeil al b'no yamim rabim\nVayakumu chol banav v'chol b'notav l'nachamo vayma-ein l'hitnacheim vayomer ki eireid el b'ni aveil sh'olah vayeivk oto aviv",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "He refused to be comforted",
+         "body": "Jacob mourns and **refuses to be comforted** (37:35). **Rashi**: no one can be comforted over someone **still alive** who is thought dead. It is decreed that the dead are slowly forgotten from the heart, but not the living. Joseph is alive.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 37:35",
+          "note": "from Bereshit Rabbah 84:20"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "comfort",
+         "type": "why",
+         "q": "Why, in Rashi's reading, could Jacob not be comforted?",
+         "choices": [
+          "Joseph was still alive",
+          "His sons didn't try",
+          "He blamed himself for the tunic"
+         ],
+         "answer": 0,
+         "why": "Comfort comes for **the dead**, who fade from the heart. Joseph was **alive**.",
+         "wrong_why": [
+          null,
+          "\"All his sons and daughters sought to comfort him\" (37:35).",
+          "Rashi gives a different reason."
+         ],
+         "look_again": 11,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 37:35",
+          "note": "from Bereshit Rabbah 84:20"
+         }
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "A favorite son, **an ornamented tunic**, and dreams.",
+          "Rashi: the man in the field was **Gabriel**.",
+          "\"**I am looking for my brothers.**\"",
+          "The pit: no water, but **snakes and scorpions** (Rashi).",
+          "Jacob **refuses comfort**: Joseph is alive (Rashi 37:35)."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-gen-25",
+       "title": "Joseph (2): Adonai was with Joseph",
+       "parashah": [
+        "Vayeshev"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "My summaries of Rashi on Genesis 39:3 (from Tanchuma) and Sotah 36b (cited by Rashi on 39:11), read on Sefaria 11/11.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A slave in Egypt",
+         "body": "Sold by his brothers, Joseph becomes a slave in the house of Potiphar, an Egyptian official. Yet the Torah says, \"Adonai was with Joseph\" (39:2).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 39:1-2"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "Joseph's Egyptian master could tell that God was with him.",
+         "answer": 0,
+         "why": "\"His master saw that Adonai was with him\" (39:3). Rashi explains **how** he could see it.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 39:1-2"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 39:2-3",
+         "ref": "Genesis 39:2-3",
+         "he": "וַיְהִי יְיָ אֶת־יוֹסֵף וַיְהִי אִישׁ מַצְלִיחַ וַיְהִי בְּבֵית אֲדֹנָיו הַמִּצְרִי\nוַיַּרְא אֲדֹנָיו כִּי יְיָ אִתּוֹ וְכֹל אֲשֶׁר־הוּא עֹשֶׂה יְיָ מַצְלִיחַ בְּיָדוֹ",
+         "en": "יהוה was with Joseph, and he was a successful man; and he stayed in the house of his Egyptian master. And when his master saw that יהוה was with him and that יהוה lent success to everything he undertook,",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 39:2-3"
+         },
+         "tl": "Vay'hi Adonai et yoseif vay'hi ish matzliach vay'hi b'veit adonav hamitzri\nVayar adonav ki Adonai ito v'chol asher hu oseh Adonai matzliach b'yado"
+        },
+        {
+         "kind": "concept",
+         "title": "God's name in his mouth",
+         "body": "How could an Egyptian **see** that God was with Joseph? **Rashi**: the name of God was **always on his lips**. God's presence showed in how Joseph spoke and acted.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 39:3",
+          "note": "from Midrash Tanchuma, Vayeshev 8"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "name",
+         "type": "why",
+         "q": "According to Rashi, how did Potiphar see that God was with Joseph?",
+         "choices": [
+          "God's name was always on Joseph's lips",
+          "Joseph performed miracles",
+          "Joseph told him about his dreams"
+         ],
+         "answer": 0,
+         "why": "Not miracles: **Joseph's own speech** made God visible.",
+         "wrong_why": [
+          null,
+          "The Torah describes no miracles here.",
+          "The dreams aren't part of Rashi's answer."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Rashi on Genesis 39:3",
+          "note": "from Midrash Tanchuma, Vayeshev 8"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 39:8-9",
+         "ref": "Genesis 39:8-9",
+         "he": "וַיְמָאֵן וַיֹּאמֶר אֶל־אֵשֶׁת אֲדֹנָיו הֵן אֲדֹנִי לֹא־יָדַע אִתִּי מַה־בַּבָּיִת וְכֹל אֲשֶׁר־יֶשׁ־לוֹ נָתַן בְּיָדִי\nאֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹא־חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם־אוֹתָךְ בַּאֲשֶׁר אַתְּ־אִשְׁתּוֹ וְאֵיךְ אֶעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵאלֹהִים",
+         "en": "But he refused. He said to his master’s wife, “Look, with me here, my master gives no thought to anything in this house, and all that he owns he has placed in my hands. He wields no more authority in this house than I, and he has withheld nothing from me except yourself, since you are his wife. How then could I do this most wicked thing, and sin before God?”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 39:8-9"
+         },
+         "tl": "Vayma-ein vayomer el eishet adonav hein adoni lo yada iti ma babayit v'chol asher yesh lo natan b'yadi\nEinenu gadol babayit hazeh mimeni v'lo chasach mimeni m'umah ki im otach ba-asher at ishto v'eich e-eseh hara-ah hag'dolah hazot v'chatati leilohim",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "His father's face",
+         "body": "Potiphar's wife tries again and again to seduce Joseph. The Talmud: at the moment of greatest temptation, **his father's image appeared to him in the window**, and reminded him of **his place among his brothers**. Joseph fled.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 36b",
+          "note": "cited by Rashi on Genesis 39:11"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "father",
+         "type": "why",
+         "q": "In Sotah 36b, what helped Joseph resist?",
+         "choices": [
+          "His father's image appeared to him",
+          "A servant walked in",
+          "He was afraid of Potiphar"
+         ],
+         "answer": 0,
+         "why": "**Jacob's face**, and the memory of who Joseph was meant to be.",
+         "wrong_why": [
+          null,
+          "The Talmud's answer is more inward than that.",
+          "His own words (39:9) are about loyalty and sin, not fear."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 36b",
+          "note": "cited by Rashi on Genesis 39:11"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 40:8",
+         "ref": "Genesis 40:8",
+         "he": "וַיֹּאמְרוּ אֵלָיו חֲלוֹם חָלַמְנוּ וּפֹתֵר אֵין אֹתוֹ וַיֹּאמֶר אֲלֵהֶם יוֹסֵף הֲלוֹא לֵאלֹהִים פִּתְרֹנִים סַפְּרוּ־נָא לִי",
+         "en": "And they said to him, “We had dreams, and there is no one to interpret them.” So Joseph said to them, “Surely God can interpret! Tell me [your dreams].”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 40:8"
+         },
+         "tl": "Vayomru eilav chalom chalamnu ufoteir ein oto vayomer aleihem yoseif halo leilohim pitronim sap'ru na li",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "הֲלוֹא לֵאלֹהִים פִּתְרֹנִים",
+         "tl": "Halo leilohim pitronim",
+         "gloss": "\"Surely God can interpret!\" (40:8). In prison, Joseph gives the credit away before he even hears the dreams.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 40:8"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Joseph is a slave, then a prisoner, and still the Torah says God was with him. In this story, where does God's presence actually show up?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**Adonai was with Joseph**,\" even as a slave.",
+          "Rashi: God's name was **always on his lips**.",
+          "Sotah 36b: **his father's face** in the window.",
+          "\"**Surely God can interpret!**\""
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-gen-26",
+       "title": "Joseph (3): Pharaoh's dreams",
+       "parashah": [
+        "Miketz"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "Torah text only, plus the custom of blessing children with Ephraim and Manasseh (Genesis 48:20).",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "From prison to palace",
+         "body": "Pharaoh dreams of **seven fat cows and seven lean ones**, and no one can explain it. Joseph is brought **straight from prison** (41:1-15).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 41:1-15"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Pharaoh says Joseph can interpret any dream. What does Joseph answer?",
+         "choices": [
+          "\"Not I! God will see to Pharaoh's welfare.\"",
+          "\"Yes, it is my gift.\"",
+          "\"Only if you free me.\"",
+          "He says nothing."
+         ],
+         "answer": 0,
+         "why": "\"**Not I!**\" (41:16). Again Joseph points away from himself.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 41:1-15"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 41:15-16",
+         "ref": "Genesis 41:15-16",
+         "he": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף חֲלוֹם חָלַמְתִּי וּפֹתֵר אֵין אֹתוֹ וַאֲנִי שָׁמַעְתִּי עָלֶיךָ לֵאמֹר תִּשְׁמַע חֲלוֹם לִפְתֹּר אֹתוֹ\nוַיַּעַן יוֹסֵף אֶת־פַּרְעֹה לֵאמֹר בִּלְעָדָי אֱלֹהִים יַעֲנֶה אֶת־שְׁלוֹם פַּרְעֹה",
+         "en": "And Pharaoh said to Joseph, “I have had a dream, but no one can interpret it. Now I have heard it said of you that for you to hear a dream is to tell its meaning.” Joseph answered Pharaoh, saying, “Not I! God will see to Pharaoh’s welfare.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 41:15-16"
+         },
+         "tl": "Vayomer par'o el yoseif chalom chalamti ufoteir ein oto va-ani shamati alecha leimor tishma chalom liftor oto\nVaya-an yoseif et par'o leimor bil'adai Elohim ya-aneh et sh'lom par'o"
+        },
+        {
+         "kind": "term",
+         "he": "בִּלְעָדָי אֱלֹהִים יַעֲנֶה אֶת־שְׁלוֹם פַּרְעֹה",
+         "tl": "Bil'adai Elohim ya-aneh et sh'lom par'o",
+         "gloss": "\"Not I! God will see to Pharaoh's welfare\" (41:16). Before he names God, Joseph answers in **a single Hebrew word**.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 41:16"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 41:51-52",
+         "ref": "Genesis 41:51-52",
+         "he": "וַיִּקְרָא יוֹסֵף אֶת־שֵׁם הַבְּכוֹר מְנַשֶּׁה כִּי־נַשַּׁנִי אֱלֹהִים אֶת־כׇּל־עֲמָלִי וְאֵת כׇּל־בֵּית אָבִי\nוְאֵת שֵׁם הַשֵּׁנִי קָרָא אֶפְרָיִם כִּי־הִפְרַנִי אֱלֹהִים בְּאֶרֶץ עׇנְיִי",
+         "en": "Joseph named the first-born Manasseh, meaning, “God has made me forget completely my hardship and my parental home.” And the second he named Ephraim, meaning, “God has made me fertile in the land of my affliction.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 41:51-52"
+         },
+         "tl": "Vayikra yoseif et sheim hab'chor m'nasheh ki nashani Elohim et kol amali v'eit kol beit avi\nV'eit sheim hasheini kara efrayim ki hifrani Elohim b'eretz onyi"
+        },
+        {
+         "kind": "concept",
+         "title": "Two names",
+         "body": "Joseph names his sons **Manasseh**, \"God has made me forget completely my hardship,\" and **Ephraim**, \"God has made me fertile in the land of my affliction\" (41:51-52). Jacob later blesses them, and Jewish parents still bless their sons on Friday night to be like **Ephraim and Manasseh** (48:20).",
+         "src": {
+          "type": "tradition",
+          "ref": "Genesis 41:51-52, 48:20"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "names",
+         "type": "pick",
+         "q": "What does the name Ephraim say?",
+         "choices": [
+          "God made me fertile in the land of my affliction",
+          "God made me forget my father's house",
+          "God made me ruler over Egypt"
+         ],
+         "answer": 0,
+         "why": "**Ephraim**: fruitful **in the land of affliction** (41:52).",
+         "wrong_why": [
+          null,
+          "That's Manasseh's name.",
+          "Neither name says that."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "tradition",
+          "ref": "Genesis 41:51-52, 48:20"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Ephraim: \"fertile in the land of my affliction.\" Has anything grown for you in a hard place? It's fine to skip this one."
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Joseph goes **from prison to Pharaoh**.",
+          "\"**Not I!** God will see to Pharaoh's welfare.\"",
+          "**Manasseh** and **Ephraim**: forgetting hardship, and growing in it.",
+          "Children are still blessed **to be like Ephraim and Manasseh**."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-gen-27",
+       "title": "Joseph (4): The brothers and Judah",
+       "parashah": [
+        "Miketz",
+        "Vayigash"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "Rambam, Mishneh Torah, Repentance 2:1 (Touger translation on Sefaria), read 11/11. The observation that Genesis 37 records no plea from Joseph is from the text itself.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Bowing to a stranger",
+         "body": "Famine drives Joseph's brothers to Egypt. They **bow** to the governor, as in Joseph's dream. Joseph recognizes them; **they do not recognize him** (42:6-8).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 42:6-8"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "When the brothers come to Egypt, they recognize Joseph.",
+         "answer": 1,
+         "why": "Joseph **recognized them**, but **they did not recognize him** (42:8).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 42:6-8"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 42:21",
+         "ref": "Genesis 42:21",
+         "he": "וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו אֲבָל אֲשֵׁמִים אֲנַחְנוּ עַל־אָחִינוּ אֲשֶׁר רָאִינוּ צָרַת נַפְשׁוֹ בְּהִתְחַנְנוֹ אֵלֵינוּ וְלֹא שָׁמָעְנוּ עַל־כֵּן בָּאָה אֵלֵינוּ הַצָּרָה הַזֹּאת",
+         "en": "They said to one another, “Alas, we are being punished on account of our brother, because we looked on at his anguish, yet paid no heed as he pleaded with us. That is why this distress has come upon us.”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 42:21"
+         },
+         "tl": "Vayomru ish el achiv aval asheimim anachnu al achinu asher ra-inu tzarat nafsho b'hitchan'no eileinu v'lo shamanu al kein ba-ah eileinu hatzarah hazot",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "We looked on at his anguish",
+         "body": "Years later, the brothers say they **watched his anguish** and ignored him **as he pleaded** (42:21). Chapter 37 never mentions Joseph pleading. We hear his cry only now, **through their guilt**.",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 37:23-28, 42:21"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "guilt",
+         "type": "why",
+         "q": "What do we first learn in 42:21 that chapter 37 didn't tell us?",
+         "choices": [
+          "Joseph pleaded with his brothers from the pit",
+          "Joseph had a third dream",
+          "Reuben sold Joseph"
+         ],
+         "answer": 0,
+         "why": "The plea is told **only in memory**, when the brothers' guilt surfaces.",
+         "wrong_why": [
+          null,
+          "There's no third dream.",
+          "Reuben wanted to save him (37:22)."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 37:23-28, 42:21"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 44:33-34",
+         "ref": "Genesis 44:33-34",
+         "he": "וְעַתָּה יֵשֶׁב־נָא עַבְדְּךָ תַּחַת הַנַּעַר עֶבֶד לַאדֹנִי וְהַנַּעַר יַעַל עִם־אֶחָיו\nכִּי־אֵיךְ אֶעֱלֶה אֶל־אָבִי וְהַנַּעַר אֵינֶנּוּ אִתִּי פֶּן אֶרְאֶה בָרָע אֲשֶׁר יִמְצָא אֶת־אָבִי",
+         "en": "Therefore, please let your servant remain as a slave to my lord instead of the boy, and let the boy go back with his brothers. For how can I go back to my father unless the boy is with me? Let me not be witness to the woe that would overtake my father!”",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 44:33-34"
+         },
+         "tl": "V'atah yeishev na avd'cha tachat hana-ar eved ladoni v'hana-ar ya-al im echav\nKi eich e-eleh el avi v'hana-ar einenu iti pen er'eh vara asher yimtza et avi"
+        },
+        {
+         "kind": "concept",
+         "title": "Complete teshuvah",
+         "body": "Long ago, **Judah** proposed selling Joseph (37:26-27). Now Joseph tests them with Benjamin, Rachel's other son, and Judah offers to **stay as a slave in his place** (44:33). **Rambam**: complete teshuvah is when you face **the same situation** again and choose differently, not out of fear or weakness.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishneh Torah, Repentance 2:1"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "teshuvah",
+         "type": "why",
+         "q": "Why is Judah's offer a model of complete teshuvah, in Rambam's terms?",
+         "choices": [
+          "He faces the same situation and chooses differently",
+          "He apologizes in words",
+          "He gives a large gift"
+         ],
+         "answer": 0,
+         "why": "Same test, a brother at risk, and **this time he protects him**.",
+         "wrong_why": [
+          null,
+          "Rambam asks for more than words.",
+          "Gifts aren't the measure here."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishneh Torah, Repentance 2:1"
+         }
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "The brothers **bow**, and don't recognize Joseph.",
+          "Joseph's plea from the pit is heard **only in their guilt** (42:21).",
+          "**Judah** offers himself for Benjamin.",
+          "Rambam: complete teshuvah is choosing differently **in the same situation**."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-gen-28",
+       "title": "Joseph (5): I am Joseph",
+       "parashah": [
+        "Vayigash",
+        "Vayechi"
+       ],
+       "status": "draft",
+       "related": [],
+       "check_note": "My summaries of Bereshit Rabbah 93:10 and Zohar, Miketz 11:182 (Soncino translation on Sefaria), read 11/11.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "He could no longer hold back",
+         "body": "Judah's plea breaks Joseph open. He sends everyone else out and says: \"I am Joseph. Is my father still well?\" (45:1-3).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 45:1-3"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "After \"I am Joseph,\" what does Joseph ask first?",
+         "choices": [
+          "\"Is my father still well?\"",
+          "\"Why did you sell me?\"",
+          "\"Where is Benjamin?\"",
+          "\"Do you remember my dreams?\""
+         ],
+         "answer": 0,
+         "why": "His first question is about **his father** (45:3).",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 45:1-3"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 45:3-5",
+         "ref": "Genesis 45:3-5",
+         "he": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו אֲנִי יוֹסֵף הַעוֹד אָבִי חָי וְלֹא־יָכְלוּ אֶחָיו לַעֲנוֹת אֹתוֹ כִּי נִבְהֲלוּ מִפָּנָיו\nוַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו גְּשׁוּ־נָא אֵלַי וַיִּגָּשׁוּ וַיֹּאמֶר אֲנִי יוֹסֵף אֲחִיכֶם אֲשֶׁר־מְכַרְתֶּם אֹתִי מִצְרָיְמָה\nוְעַתָּה אַל־תֵּעָצְבוּ וְאַל־יִחַר בְּעֵינֵיכֶם כִּי־מְכַרְתֶּם אֹתִי הֵנָּה כִּי לְמִחְיָה שְׁלָחַנִי אֱלֹהִים לִפְנֵיכֶם",
+         "en": "Joseph said to his brothers, “I am Joseph. Is my father still well?” But his brothers could not answer him, so dumbfounded were they on account of him. Then Joseph said to his brothers, “Come forward to me.” And when they came forward, he said, “I am your brother Joseph, he whom you sold into Egypt. Now, do not be distressed or reproach yourselves because you sold me hither; it was to save life that God sent me ahead of you.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 45:3-5"
+         },
+         "tl": "Vayomer yoseif el echav ani yoseif ha-od avi chai v'lo yachlu echav la-anot oto ki nivhalu mipanav\nVayomer yoseif el echav g'shu na eilai vayigashu vayomer ani yoseif achichem asher m'chartem oti mitzraymah\nV'atah al tei-atzvu v'al yichar b'eineichem ki m'chartem oti heinah ki l'michyah sh'lachani Elohim lifneichem",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "The day of rebuke",
+         "body": "\"His brothers could not answer him.\" **Abba Kohen Bardela**: woe to us on **the day of rebuke**. Joseph was the youngest, and his brothers **could not withstand his rebuke**. How much more, when **God** comes to rebuke each person **according to who they are**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bereshit Rabbah 93:10"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "rebuke",
+         "type": "why",
+         "q": "What does Abba Kohen Bardela learn from the brothers' silence?",
+         "choices": [
+          "If they couldn't face Joseph, how much harder to face God's judgment",
+          "The brothers had forgotten Hebrew",
+          "Joseph spoke too softly"
+         ],
+         "answer": 0,
+         "why": "\"I am Joseph\" was rebuke enough. **The day of judgment** will be harder.",
+         "wrong_why": [
+          null,
+          "The midrash isn't about language.",
+          "The midrash reads the silence as shame, not mishearing."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bereshit Rabbah 93:10"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Genesis 50:19-20",
+         "ref": "Genesis 50:19-20",
+         "he": "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָנִי\nוְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָב",
+         "en": "But Joseph said to them, “Have no fear! Am I a substitute for God? Besides, although you intended me harm, God intended it for good, so as to bring about the present result—the survival of many people.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 50:19-20"
+         },
+         "tl": "Vayomer aleihem yoseif al tira-u ki hatachat Elohim ani\nV'atem chashavtem alai ra-ah Elohim chashavah l'tovah l'ma-an aso kayom hazeh l'hachayot am rav"
+        },
+        {
+         "kind": "term",
+         "he": "וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה",
+         "tl": "V'atem chashavtem alai ra-ah Elohim chashavah l'tovah",
+         "gloss": "\"although you intended me harm, God intended it for good\" (50:20). After Jacob dies, the brothers fear revenge. Joseph answers: \"Have no fear! Am I a substitute for God?\"",
+         "src": {
+          "type": "torah",
+          "ref": "Genesis 50:19-20"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Not repaying evil",
+         "body": "The **Zohar** holds up \"Joseph the righteous\" as the model of one who **does not repay evil**: when his brothers fell into his hands, he told himself, \"wait for the Lord, and he will save thee\" (Proverbs 20:22).",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Zohar, Miketz 11:182"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "zohar",
+         "type": "why",
+         "q": "Why does the Zohar call Joseph \"the righteous\" here?",
+         "choices": [
+          "He had his brothers in his power and did not repay evil",
+          "He interpreted dreams",
+          "He became ruler of Egypt"
+         ],
+         "answer": 0,
+         "why": "Power over those who hurt him, and **he chose not to use it**.",
+         "wrong_why": [
+          null,
+          "The Zohar's point here is restraint, not dreams.",
+          "Power alone isn't righteousness; how he used it is."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "kabbalah",
+          "ref": "Zohar, Miketz 11:182"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Joseph says God meant it for good, but it's Joseph who chooses to forgive. Where do you see God in that choice?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**I am Joseph.** Is my father still well?\"",
+          "Bereshit Rabbah 93:10: **the day of rebuke**.",
+          "\"You intended me harm, **God intended it for good**.\"",
+          "Zohar: Joseph the righteous **did not repay evil**."
+         ]
+        }
+       ],
+       "season": null
       }
      ]
     },

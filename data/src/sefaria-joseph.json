@@ -1,0 +1,403 @@
+{
+ "fetched": "2026-11-11",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Joseph lessons). Cantillation and footnotes stripped, <br> to space, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 37:3-4",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְיִשְׂרָאֵל אָהַב אֶת־יוֹסֵף מִכׇּל־בָּנָיו כִּי־בֶן־זְקֻנִים הוּא לוֹ וְעָשָׂה לוֹ כְּתֹנֶת פַּסִּים",
+    "וַיִּרְאוּ אֶחָיו כִּי־אֹתוֹ אָהַב אֲבִיהֶם מִכׇּל־אֶחָיו וַיִּשְׂנְאוּ אֹתוֹ וְלֹא יָכְלוּ דַּבְּרוֹ לְשָׁלֹם"
+   ],
+   "sha": [
+    "dde1f9214dc794fd2e160047579b11e1c39887783f418f5b7cd2b69a5502b9dd",
+    "4b70bcbc50203a7bb48d95376bc1a397c49beec3436e71c5b3ef6e1d4c73a06a"
+   ]
+  },
+  {
+   "ref": "Genesis 37:3-4",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Now Israel loved Joseph best of all his sons—he was his “child of old age”; and he had made him an ornamented tunic.",
+    "And when his brothers saw that their father loved him more than any of his brothers, they hated him so that they could not speak a friendly word to him."
+   ],
+   "sha": [
+    "189a80809853fe469900993fa69295dc1c024bf5cf81f28f50a1bc69c506b396",
+    "30696db21b33479e122c4ece0dba37bd82dc61b96c74f02ad16ebef8a28e07f6"
+   ]
+  },
+  {
+   "ref": "Genesis 37:5-7",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּחֲלֹם יוֹסֵף חֲלוֹם וַיַּגֵּד לְאֶחָיו וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ",
+    "וַיֹּאמֶר אֲלֵיהֶם שִׁמְעוּ־נָא הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָמְתִּי",
+    "וְהִנֵּה אֲנַחְנוּ מְאַלְּמִים אֲלֻמִּים בְּתוֹךְ הַשָּׂדֶה וְהִנֵּה קָמָה אֲלֻמָּתִי וְגַם־נִצָּבָה וְהִנֵּה תְסֻבֶּינָה אֲלֻמֹּתֵיכֶם וַתִּשְׁתַּחֲוֶיןָ לַאֲלֻמָּתִי"
+   ],
+   "sha": [
+    "9d5279fbe0f24f95fd85179d20f3a8cf918749b1ed28d25f29343cb167482acf",
+    "348516cc37e0e37f6db0b347c54f274dd67755e960b1fb99b4f3c856d8d2f389",
+    "4e08d85f823b9df7ddf32294342be74f3ec87407df6bff739a4a7f952946709c"
+   ]
+  },
+  {
+   "ref": "Genesis 37:5-7",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Once Joseph had a dream which he told to his brothers; and they hated him even more.",
+    "He said to them, “Hear this dream which I have dreamed:",
+    "There we were binding sheaves in the field, when suddenly my sheaf stood up and remained upright; then your sheaves gathered around and bowed low to my sheaf.”"
+   ],
+   "sha": [
+    "d8ba3536e9bc42e4621ee7d4750e69b396d6727f9f17d219ec6c738ab94e3914",
+    "75c99872270912955df70284b7cc8f0312123ea855c96e0b1b2e812e681c5415",
+    "61e2193d3791399fb27ca3eb280bf3ba12cb62ecd223cbc823edf6d1ccc579eb"
+   ]
+  },
+  {
+   "ref": "Genesis 37:15-17",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּמְצָאֵהוּ אִישׁ וְהִנֵּה תֹעֶה בַּשָּׂדֶה וַיִּשְׁאָלֵהוּ הָאִישׁ לֵאמֹר מַה־תְּבַקֵּשׁ",
+    "וַיֹּאמֶר אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּידָה־נָּא לִי אֵיפֹה הֵם רֹעִים",
+    "וַיֹּאמֶר הָאִישׁ נָסְעוּ מִזֶּה כִּי שָׁמַעְתִּי אֹמְרִים נֵלְכָה דֹּתָיְנָה וַיֵּלֶךְ יוֹסֵף אַחַר אֶחָיו וַיִּמְצָאֵם בְּדֹתָן"
+   ],
+   "sha": [
+    "484e9847ab2a2e8b2e18db459165715e75b7a53e81429defdb33ea16e40e727d",
+    "60af09ec9a32f2f1e6c77330975bb5f9c7961d464d52d03b907e1bdac016fcf5",
+    "1da7ce95e9f33e0027b1fb3e861b678b321c3dcf6165a19e65c7fd0d35653101"
+   ]
+  },
+  {
+   "ref": "Genesis 37:15-17",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "a man came upon him wandering in the fields. The man asked him, “What are you looking for?”",
+    "He answered, “I am looking for my brothers. Could you tell me where they are pasturing?”",
+    "The man said, “They have gone from here, for I heard them say: Let us go to Dothan.” So Joseph followed his brothers and found them at Dothan."
+   ],
+   "sha": [
+    "b98497315c99f55f0fefa1ba1df6b2c408a1079d0134c23d37f150d1415e0f4f",
+    "ff710d295ef9eb7d57dfb1564e254cee6d70e884734a646eb67f74fd688ce23d",
+    "72483610a66130ca7b819f5a9bd31e266fcda79e3eed5b6f6993cbb40af92442"
+   ]
+  },
+  {
+   "ref": "Genesis 37:23-24",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי כַּאֲשֶׁר־בָּא יוֹסֵף אֶל־אֶחָיו וַיַּפְשִׁיטוּ אֶת־יוֹסֵף אֶת־כֻּתׇּנְתּוֹ אֶת־כְּתֹנֶת הַפַּסִּים אֲשֶׁר עָלָיו",
+    "וַיִּקָּחֻהוּ וַיַּשְׁלִכוּ אֹתוֹ הַבֹּרָה וְהַבּוֹר רֵק אֵין בּוֹ מָיִם"
+   ],
+   "sha": [
+    "cfed24e59991b2f8978bb5c2e245e987d54c414600d7956e640e35f4d915f0b9",
+    "0515a503a5f72c2a961314711f1180f18a8676acf82fe4e71a2b7c6e29638ed7"
+   ]
+  },
+  {
+   "ref": "Genesis 37:23-24",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "When Joseph came up to his brothers, they stripped Joseph of his tunic, the ornamented tunic that he was wearing,",
+    "and took him and cast him into the pit. The pit was empty; there was no water in it."
+   ],
+   "sha": [
+    "4bc812e9d53c34a63bafaf78c387184983df8af6fd30053359d7d44b08d63e46",
+    "3eee7b7b1d7d35d284c1e2586d0cd34b01c62437c4d11866e8a90e9e458c265d"
+   ]
+  },
+  {
+   "ref": "Genesis 37:34-35",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּקְרַע יַעֲקֹב שִׂמְלֹתָיו וַיָּשֶׂם שַׂק בְּמׇתְנָיו וַיִּתְאַבֵּל עַל־בְּנוֹ יָמִים רַבִּים",
+    "וַיָּקֻמוּ כׇל־בָּנָיו וְכׇל־בְּנֹתָיו לְנַחֲמוֹ וַיְמָאֵן לְהִתְנַחֵם וַיֹּאמֶר כִּי־אֵרֵד אֶל־בְּנִי אָבֵל שְׁאֹלָה וַיֵּבְךְּ אֹתוֹ אָבִיו"
+   ],
+   "sha": [
+    "20f36abd3c89a51de90d47e591cd67a127382d574c0fcb92bb21137f29f76df1",
+    "9e102fbf775e7400b8c70edfe2bb1c94b7fa5dea060634f7c198de0f0d4c09cc"
+   ]
+  },
+  {
+   "ref": "Genesis 37:34-35",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Jacob rent his clothes, put sackcloth on his loins, and observed mourning for his son many days.",
+    "All his sons and daughters sought to comfort him; but he refused to be comforted, saying, “No, I will go down mourning to my son in Sheol.” Thus his father bewailed him."
+   ],
+   "sha": [
+    "89ee9db366bda8d4ee32575ba51bc56ca698ead6afda6b74187c095319728d90",
+    "0bc48b103b1fee7cebd073ec24c0c8b90d41bcfb7f4020f84da08c971a190d16"
+   ]
+  },
+  {
+   "ref": "Genesis 39:2-3",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי יְהֹוָה אֶת־יוֹסֵף וַיְהִי אִישׁ מַצְלִיחַ וַיְהִי בְּבֵית אֲדֹנָיו הַמִּצְרִי",
+    "וַיַּרְא אֲדֹנָיו כִּי יְהֹוָה אִתּוֹ וְכֹל אֲשֶׁר־הוּא עֹשֶׂה יְהֹוָה מַצְלִיחַ בְּיָדוֹ"
+   ],
+   "sha": [
+    "670670ce8a3497dfe47d76e96e20b4a9e8f3f62d8e747917c98c3d59c3bc4c91",
+    "f5cacb37f6bd9f79f5220c802c672bd78ebfe385e9a0a942a5b9e0dd0d556dc4"
+   ]
+  },
+  {
+   "ref": "Genesis 39:2-3",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "יהוה was with Joseph, and he was a successful man; and he stayed in the house of his Egyptian master.",
+    "And when his master saw that יהוה was with him and that יהוה lent success to everything he undertook,"
+   ],
+   "sha": [
+    "cf7640537f5b89a599557f721827a1c8150c6791a141b765eec93dc225b85a43",
+    "d9ace21d419576e205aa87029102a59bda06395a9379861d0bcac399fa1bb43e"
+   ]
+  },
+  {
+   "ref": "Genesis 39:8-9",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְמָאֵן וַיֹּאמֶר אֶל־אֵשֶׁת אֲדֹנָיו הֵן אֲדֹנִי לֹא־יָדַע אִתִּי מַה־בַּבָּיִת וְכֹל אֲשֶׁר־יֶשׁ־לוֹ נָתַן בְּיָדִי",
+    "אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹא־חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם־אוֹתָךְ בַּאֲשֶׁר אַתְּ־אִשְׁתּוֹ וְאֵיךְ אֶעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵאלֹהִים"
+   ],
+   "sha": [
+    "99b9d4069373d1197fc4baae4d29271e70036264307649cffb85e8ae7b8986ec",
+    "f9b9301dbc89a89b986eca8f5ccf14eb562614b5e631bbb4a875d757df37ab8d"
+   ]
+  },
+  {
+   "ref": "Genesis 39:8-9",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "But he refused. He said to his master’s wife, “Look, with me here, my master gives no thought to anything in this house, and all that he owns he has placed in my hands.",
+    "He wields no more authority in this house than I, and he has withheld nothing from me except yourself, since you are his wife. How then could I do this most wicked thing, and sin before God?”"
+   ],
+   "sha": [
+    "e634920bbe7a5fcd1ebec22fe44d788c3914d42cd5a65dd1d39d7cc4e83001c8",
+    "8b8a032034b353322a2407782bce8414e080489f00c315882977da2981b275c0"
+   ]
+  },
+  {
+   "ref": "Genesis 40:8",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמְרוּ אֵלָיו חֲלוֹם חָלַמְנוּ וּפֹתֵר אֵין אֹתוֹ וַיֹּאמֶר אֲלֵהֶם יוֹסֵף הֲלוֹא לֵאלֹהִים פִּתְרֹנִים סַפְּרוּ־נָא לִי"
+   ],
+   "sha": [
+    "bf2d70492a3a3bbb3505ca66258c1a5259e855b0071ff7572b938fdc6ea70d03"
+   ]
+  },
+  {
+   "ref": "Genesis 40:8",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And they said to him, “We had dreams, and there is no one to interpret them.” So Joseph said to them, “Surely God can interpret! Tell me [your dreams].”"
+   ],
+   "sha": [
+    "d44944207b6d79fc25a222513e62ab16657fbd907b1ce2a2780c0242dc0f910c"
+   ]
+  },
+  {
+   "ref": "Genesis 41:15-16",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף חֲלוֹם חָלַמְתִּי וּפֹתֵר אֵין אֹתוֹ וַאֲנִי שָׁמַעְתִּי עָלֶיךָ לֵאמֹר תִּשְׁמַע חֲלוֹם לִפְתֹּר אֹתוֹ",
+    "וַיַּעַן יוֹסֵף אֶת־פַּרְעֹה לֵאמֹר בִּלְעָדָי אֱלֹהִים יַעֲנֶה אֶת־שְׁלוֹם פַּרְעֹה"
+   ],
+   "sha": [
+    "3ef1b795b865381a32b972568a56c1569be56e420ac915c09e69bbfe6925f6fe",
+    "9b362bd4fcb62ccca090c6bff7072abb13c1ddd5a5d89a2ca24aa960db3dcae7"
+   ]
+  },
+  {
+   "ref": "Genesis 41:15-16",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And Pharaoh said to Joseph, “I have had a dream, but no one can interpret it. Now I have heard it said of you that for you to hear a dream is to tell its meaning.”",
+    "Joseph answered Pharaoh, saying, “Not I! God will see to Pharaoh’s welfare.”"
+   ],
+   "sha": [
+    "7733d2e485326a890ad9279369ebabaf82ac2848917d1239b2ae8a0874cdd623",
+    "58f13f2e5326991abaad571a92e4372a0c6e595c114598acc867e60e1e0f49ea"
+   ]
+  },
+  {
+   "ref": "Genesis 41:51-52",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּקְרָא יוֹסֵף אֶת־שֵׁם הַבְּכוֹר מְנַשֶּׁה כִּי־נַשַּׁנִי אֱלֹהִים אֶת־כׇּל־עֲמָלִי וְאֵת כׇּל־בֵּית אָבִי",
+    "וְאֵת שֵׁם הַשֵּׁנִי קָרָא אֶפְרָיִם כִּי־הִפְרַנִי אֱלֹהִים בְּאֶרֶץ עׇנְיִי"
+   ],
+   "sha": [
+    "ff1c3df470c990a57afc1cb7a860189f1d8d69efd8766d058e0e6e6a66b52420",
+    "79bdb3998296b3a71b8232a34535364bd68d1b0402a63ab9d8b87c38f3cd4113"
+   ]
+  },
+  {
+   "ref": "Genesis 41:51-52",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Joseph named the first-born Manasseh, meaning, “God has made me forget completely my hardship and my parental home.”",
+    "And the second he named Ephraim, meaning, “God has made me fertile in the land of my affliction.”"
+   ],
+   "sha": [
+    "8bb0b34c117dae1d0634d9fe2436e2df1924f2ee1780a239c823cc45ac92bd12",
+    "53e22076db3f629c896b61d3d30b4a2814fcfb40003cf9985a73820c1f85df16"
+   ]
+  },
+  {
+   "ref": "Genesis 42:21",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו אֲבָל אֲשֵׁמִים אֲנַחְנוּ עַל־אָחִינוּ אֲשֶׁר רָאִינוּ צָרַת נַפְשׁוֹ בְּהִתְחַנְנוֹ אֵלֵינוּ וְלֹא שָׁמָעְנוּ עַל־כֵּן בָּאָה אֵלֵינוּ הַצָּרָה הַזֹּאת"
+   ],
+   "sha": [
+    "c9dc1344662d6dd96fd37e232c43aa6e9780c8115ca90c7f1e881c79aed61aa8"
+   ]
+  },
+  {
+   "ref": "Genesis 42:21",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "They said to one another, “Alas, we are being punished on account of our brother, because we looked on at his anguish, yet paid no heed as he pleaded with us. That is why this distress has come upon us.”"
+   ],
+   "sha": [
+    "35fdea54ffd4482afde2022ed8799ae4d47201269c27fb76d65f87ee0703ffc3"
+   ]
+  },
+  {
+   "ref": "Genesis 44:33-34",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְעַתָּה יֵשֶׁב־נָא עַבְדְּךָ תַּחַת הַנַּעַר עֶבֶד לַאדֹנִי וְהַנַּעַר יַעַל עִם־אֶחָיו",
+    "כִּי־אֵיךְ אֶעֱלֶה אֶל־אָבִי וְהַנַּעַר אֵינֶנּוּ אִתִּי פֶּן אֶרְאֶה בָרָע אֲשֶׁר יִמְצָא אֶת־אָבִי"
+   ],
+   "sha": [
+    "5ac34611b315d0e69ee292048d11c87834052699135314f531b20ee1c587234c",
+    "aa62e09ced21d620a3df155100ba238d59905d29475d7894c32d4e0026067cf5"
+   ]
+  },
+  {
+   "ref": "Genesis 44:33-34",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Therefore, please let your servant remain as a slave to my lord instead of the boy, and let the boy go back with his brothers.",
+    "For how can I go back to my father unless the boy is with me? Let me not be witness to the woe that would overtake my father!”"
+   ],
+   "sha": [
+    "5cfe15492926c996f43ba14be740f28cc6025bace985729387acc952bbc37595",
+    "cdfce5ef3faf4fec7f30a3e595137ae0f7dec410feb42eafb8e0260220f87f83"
+   ]
+  },
+  {
+   "ref": "Genesis 45:3-5",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו אֲנִי יוֹסֵף הַעוֹד אָבִי חָי וְלֹא־יָכְלוּ אֶחָיו לַעֲנוֹת אֹתוֹ כִּי נִבְהֲלוּ מִפָּנָיו",
+    "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו גְּשׁוּ־נָא אֵלַי וַיִּגָּשׁוּ וַיֹּאמֶר אֲנִי יוֹסֵף אֲחִיכֶם אֲשֶׁר־מְכַרְתֶּם אֹתִי מִצְרָיְמָה",
+    "וְעַתָּה אַל־תֵּעָצְבוּ וְאַל־יִחַר בְּעֵינֵיכֶם כִּי־מְכַרְתֶּם אֹתִי הֵנָּה כִּי לְמִחְיָה שְׁלָחַנִי אֱלֹהִים לִפְנֵיכֶם"
+   ],
+   "sha": [
+    "6342cd51654978a5ab52717b3f14fa731c4b964727f5720afe2cf51c3bc58e46",
+    "e8b620383a7b8cb19ca69b9af129c877c02ea84f71bd3bfd83ef9c1f51a9f8b4",
+    "58a8c4ac902d4106232b46852617e760a30b90b3dbb607b54ae45e0efaf5ed9a"
+   ]
+  },
+  {
+   "ref": "Genesis 45:3-5",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Joseph said to his brothers, “I am Joseph. Is my father still well?” But his brothers could not answer him, so dumbfounded were they on account of him.",
+    "Then Joseph said to his brothers, “Come forward to me.” And when they came forward, he said, “I am your brother Joseph, he whom you sold into Egypt.",
+    "Now, do not be distressed or reproach yourselves because you sold me hither; it was to save life that God sent me ahead of you."
+   ],
+   "sha": [
+    "dfce8e8f8c7c97350ea49835fb7fba1adf3e1313ad82337a4aa96f627d54340c",
+    "50f93133327a49988d679986632cff661f05e79ef35147b391dffca25f1e81ab",
+    "bd004447ff373edc4da5f1550eb876dd5e5053dad37e5a693cc7c5f8c2256d4b"
+   ]
+  },
+  {
+   "ref": "Genesis 50:19-20",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָנִי",
+    "וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָב"
+   ],
+   "sha": [
+    "1d01da7363d08ff855a2cc22e150a542ff975a9cb714c60399e215072f2be4ca",
+    "bbdfc68d8cb948a4f19457d1f74aa79d6711b62be072b1e815a37076650842e0"
+   ]
+  },
+  {
+   "ref": "Genesis 50:19-20",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "But Joseph said to them, “Have no fear! Am I a substitute for God?",
+    "Besides, although you intended me harm, God intended it for good, so as to bring about the present result—the survival of many people."
+   ],
+   "sha": [
+    "6da8786aa5066679960407eddf2bbb02182b062cebe535fb054775c09f9e2185",
+    "fb3180c0f439ff47062f2f4027456f9f883432b53cb73d8660c5bf166993573e"
+   ]
+  }
+ ]
+}
