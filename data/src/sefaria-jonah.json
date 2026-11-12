@@ -1,0 +1,267 @@
+{
+ "fetched": "2026-11-12",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Jonah unit). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Jonah 1:1-3",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַֽיְהִי דְּבַר־יְהֹוָה אֶל־יוֹנָה בֶן־אֲמִתַּי לֵאמֹֽר׃",
+    "קוּם לֵךְ אֶל־נִֽינְוֵה הָעִיר הַגְּדוֹלָה וּקְרָא עָלֶיהָ כִּֽי־עָלְתָה רָעָתָם לְפָנָֽי׃",
+    "וַיָּקׇם יוֹנָה לִבְרֹחַ תַּרְשִׁישָׁה מִלִּפְנֵי יְהֹוָה וַיֵּרֶד יָפוֹ וַיִּמְצָא אֳנִיָּה&thinsp;׀ בָּאָה תַרְשִׁישׁ וַיִּתֵּן שְׂכָרָהּ וַיֵּרֶד בָּהּ לָבוֹא עִמָּהֶם תַּרְשִׁישָׁה מִלִּפְנֵי יְהֹוָֽה׃"
+   ],
+   "sha": [
+    "a5fcf4fe77813303265a5ba9db208f5960b2f391f6323aae1096a7a8b33b9ca7",
+    "6cea06aba662ec87978afbcdb302eb24fb9552ffc2107cb78e591d41c004f892",
+    "e1c4dca2ed00c5a3c77b7d252cb73139e23e58bc517499e16edfbf151157ca72"
+   ]
+  },
+  {
+   "ref": "Jonah 1:1-3",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+   "text": [
+    "The word of GOD came to Jonah son of Amittai:",
+    "Go at once to Nineveh, that great city, and proclaim judgment upon it; for their wickedness has come before Me.",
+    "Jonah, however, started out to flee to Tarshish from GOD’s service. He went down to Joppa and found a ship going to Tarshish. He paid the fare and went aboard to sail with the others to Tarshish, away from GOD’s service."
+   ],
+   "sha": [
+    "b29aa35de8c99e9dd0652e3781cfb60b47673591ec308a85a54507dd9a354616",
+    "cea1ac82f4b988e8573bd5a71415d1cfea9995c8a3ee4c92a6ab747e8280a0b6",
+    "af500d640b3575dfc84ec2be8f787d2a67238864f94f82dae7acab82b9e1462b"
+   ]
+  },
+  {
+   "ref": "Jonah 1:5-6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּֽירְאוּ הַמַּלָּחִים וַֽיִּזְעֲקוּ אִישׁ אֶל־אֱלֹהָיו וַיָּטִלוּ אֶת־הַכֵּלִים אֲשֶׁר בָּֽאֳנִיָּה אֶל־הַיָּם לְהָקֵל מֵֽעֲלֵיהֶם וְיוֹנָה יָרַד אֶל־יַרְכְּתֵי הַסְּפִינָה וַיִּשְׁכַּב וַיֵּרָדַֽם׃",
+    "וַיִּקְרַב אֵלָיו רַב הַחֹבֵל וַיֹּאמֶר לוֹ מַה־לְּךָ נִרְדָּם קוּם קְרָא אֶל־אֱלֹהֶיךָ אוּלַי יִתְעַשֵּׁת הָאֱלֹהִים לָנוּ וְלֹא נֹאבֵֽד׃"
+   ],
+   "sha": [
+    "fb2eadcf39f242f50a849d46129aba72f9dabd88dfcb17da509526fa7e873074",
+    "b5d030d49e45bc1e74458b9642d454057f38af5429577ce5100cabbdd7987125"
+   ]
+  },
+  {
+   "ref": "Jonah 1:5-6",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+   "text": [
+    "In their fright, the sailors cried out, each to his own god; and they flung the ship’s cargo overboard to make it lighter for them. Jonah, meanwhile, had gone down into the hold of the vessel where he lay down and fell asleep.",
+    "The captain went over to him and cried out, “How can you be sleeping so soundly! Up, call upon your god! Perhaps the god will be kind to us and we will not perish.”"
+   ],
+   "sha": [
+    "2a61400ba9d7687053b2afd3e6c4e5fc110fbe84590c1be53b9779d427345546",
+    "810bc4c24c6f27b091bf1adec1c75af2ed31fad5575b010db1631ecb1f442dbf"
+   ]
+  },
+  {
+   "ref": "Jonah 1:9",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר אֲלֵיהֶם עִבְרִי אָנֹכִי וְאֶת־יְהֹוָה אֱלֹהֵי הַשָּׁמַיִם אֲנִי יָרֵא אֲשֶׁר־עָשָׂה אֶת־הַיָּם וְאֶת־הַיַּבָּשָֽׁה׃"
+   ],
+   "sha": [
+    "7d2ae2e5df5fa82eb74896f6d1d52e6f3f7fecd3cfb9c43cdfbbaac915a8f392"
+   ]
+  },
+  {
+   "ref": "Jonah 1:9",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+   "text": [
+    "“I am a Hebrew,” he replied. “I worship the ETERNAL, the God of Heaven, who made both sea and land.”"
+   ],
+   "sha": [
+    "015cb0c03b573f049ec9d655993afadec4deb17ee8b094963c28a3d05640ea7c"
+   ]
+  },
+  {
+   "ref": "Jonah 1:12",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר אֲלֵיהֶם שָׂאוּנִי וַהֲטִילֻנִי אֶל־הַיָּם וְיִשְׁתֹּק הַיָּם מֵֽעֲלֵיכֶם כִּי יוֹדֵעַ אָנִי כִּי בְשֶׁלִּי הַסַּעַר הַגָּדוֹל הַזֶּה עֲלֵיכֶֽם׃"
+   ],
+   "sha": [
+    "0fb80e4700be99459e749147b701d22eb70dc1e083a247a42aef2642c1ac2450"
+   ]
+  },
+  {
+   "ref": "Jonah 1:12",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+   "text": [
+    "He answered, “Heave me overboard, and the sea will calm down for you; for I know that this terrible storm came upon you on my account.”"
+   ],
+   "sha": [
+    "5fb2ad99e8207a0257e2f6905c92b081cbe8e5bf00800d9270e8c8ec60e2342b"
+   ]
+  },
+  {
+   "ref": "Jonah 2:1-2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְמַן יְהֹוָה דָּג גָּדוֹל לִבְלֹעַ אֶת־יוֹנָה וַיְהִי יוֹנָה בִּמְעֵי הַדָּג שְׁלֹשָׁה יָמִים וּשְׁלֹשָׁה לֵילֽוֹת׃",
+    "וַיִּתְפַּלֵּל יוֹנָה אֶל־יְהֹוָה אֱלֹהָיו מִמְּעֵי הַדָּגָֽה׃"
+   ],
+   "sha": [
+    "91cf96ec233fb5ac85183cf00e3f2d6b73b42984492b288820bc9ec35bfbe31b",
+    "f35f37e82071da73be849fa0889e64fcd921f025d2605a3fe5584722287beecc"
+   ]
+  },
+  {
+   "ref": "Jonah 2:1-2",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+   "text": [
+    "GOD provided a huge fish to swallow Jonah; and Jonah remained in the fish’s belly three days and three nights.",
+    "Jonah prayed to the ETERNAL his God from the belly of the fish."
+   ],
+   "sha": [
+    "1ed79cf1112595f7a659cf27e3853a5a09c4b63d8ebe66510ede4ff18f1ccb35",
+    "7342d062fbb8bfc67c1b1f559d4af6ee615a4589609e81089e03f80f30148c95"
+   ]
+  },
+  {
+   "ref": "Jonah 2:11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יְהֹוָה לַדָּג וַיָּקֵא אֶת־יוֹנָה אֶל־הַיַּבָּשָֽׁה׃ {ס}"
+   ],
+   "sha": [
+    "f4ff3ee6becf2ca9d8da47fa2d73e300271f97aebe9538e506551a2a07d7e13b"
+   ]
+  },
+  {
+   "ref": "Jonah 2:11",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+   "text": [
+    "GOD commanded the fish, and it spewed Jonah out upon dry land."
+   ],
+   "sha": [
+    "deb3d272623bc34f1efb7e56de4f0182720442441da6e897fdf937727e3f1241"
+   ]
+  },
+  {
+   "ref": "Jonah 3:8",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְיִתְכַּסּוּ שַׂקִּים הָֽאָדָם וְהַבְּהֵמָה וְיִקְרְאוּ אֶל־אֱלֹהִים בְּחׇזְקָה וְיָשֻׁבוּ אִישׁ מִדַּרְכּוֹ הָֽרָעָה וּמִן־הֶחָמָס אֲשֶׁר בְּכַפֵּיהֶֽם׃"
+   ],
+   "sha": [
+    "ae04181140d12032f945bfc31d61da524e1ee5ce4f63ca661fa3d8396a0206bc"
+   ]
+  },
+  {
+   "ref": "Jonah 3:8",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+   "text": [
+    "They shall be covered with sackcloth—human and animal—and shall cry mightily to God. Let everyone turn back from their own evil ways and from the injustice of which they are guilty."
+   ],
+   "sha": [
+    "1e166966b9ad2050bef776d060c609b35d7ec011692d5010e56cba8fcde3128e"
+   ]
+  },
+  {
+   "ref": "Jonah 3:10",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּרְא הָֽאֱלֹהִים אֶת־מַעֲשֵׂיהֶם כִּי־שָׁבוּ מִדַּרְכָּם הָרָעָה וַיִּנָּחֶם הָאֱלֹהִים עַל־הָרָעָה אֲשֶׁר־דִּבֶּר לַעֲשׂוֹת־לָהֶם וְלֹא עָשָֽׂה׃"
+   ],
+   "sha": [
+    "aa037ebd115895e034456d5a3ac84029f73e329b1766c9121d188cdeb2deac07"
+   ]
+  },
+  {
+   "ref": "Jonah 3:10",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+   "text": [
+    "God saw what they did, how they were turning back from their evil ways. And God renounced the punishment that had been planned for them, and did not carry it out."
+   ],
+   "sha": [
+    "9d79a7138a26114910933fcaf58341a497ae6f88fca62f98e83515ae2f8af5d0"
+   ]
+  },
+  {
+   "ref": "Jonah 4:2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּתְפַּלֵּל אֶל־יְהֹוָה וַיֹּאמַר אָנָּה יְהֹוָה הֲלוֹא־זֶה דְבָרִי עַד־הֱיוֹתִי עַל־אַדְמָתִי עַל־כֵּן קִדַּמְתִּי לִבְרֹחַ תַּרְשִׁישָׁה כִּי יָדַעְתִּי כִּי אַתָּה אֵֽל־חַנּוּן וְרַחוּם אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד וְנִחָם עַל־הָרָעָֽה׃"
+   ],
+   "sha": [
+    "6b49781c6aa55c03c3156b57521ec048f7a61cc79774cfa62679178dde79efaa"
+   ]
+  },
+  {
+   "ref": "Jonah 4:2",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+   "text": [
+    "He prayed to GOD, saying, “O ETERNAL One! Isn’t this just what I said when I was still in my own country? That is why I fled beforehand to Tarshish. For I know that You are a compassionate and gracious God, slow to anger, abounding in kindness, renouncing punishment."
+   ],
+   "sha": [
+    "91b8cba1cb4f7c8522b77ef9284b8ac7f9ab88ee89e094dc12da9006d25d3cc2"
+   ]
+  },
+  {
+   "ref": "Jonah 4:10-11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יְהֹוָה אַתָּה חַסְתָּ עַל־הַקִּיקָיוֹן אֲשֶׁר לֹא־עָמַלְתָּ בּוֹ וְלֹא גִדַּלְתּוֹ שֶׁבִּן־לַיְלָה הָיָה וּבִן־לַיְלָה אָבָֽד׃",
+    "וַֽאֲנִי לֹא אָחוּס עַל־נִינְוֵה הָעִיר הַגְּדוֹלָה אֲשֶׁר יֶשׁ־בָּהּ הַרְבֵּה מִֽשְׁתֵּים־עֶשְׂרֵה רִבּוֹ אָדָם אֲשֶׁר לֹֽא־יָדַע בֵּין־יְמִינוֹ לִשְׂמֹאלוֹ וּבְהֵמָה רַבָּֽה׃"
+   ],
+   "sha": [
+    "d1c8603246654b82c24aa483a4e9ebe91c5637945dfda664a13ac21568dc8ea1",
+    "f5dba717acb82f58e7cc01eb032ec831bd2506cf7d630b12aa8fafe611047089"
+   ]
+  },
+  {
+   "ref": "Jonah 4:10-11",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC (Sefaria lists 'unknown' for Jonah; same edition as Ruth and Zechariah)",
+   "text": [
+    "Then GOD said: “You cared about the plant, which you did not work for and which you did not grow, which appeared overnight and perished overnight.",
+    "And should not I care about Nineveh, that great city, in which there are more than a hundred and twenty thousand persons who do not yet know their right hand from their left, and many animals as well!”"
+   ],
+   "sha": [
+    "c12b99e271b99c06ac50d3783ae80987ef8a6ef6500289ececf65da2c9db0a82",
+    "9bc99a4c95646e633a31d4e0510b4e2f0160776d9b07d13f2ecf9fa01718ca72"
+   ]
+  }
+ ]
+}

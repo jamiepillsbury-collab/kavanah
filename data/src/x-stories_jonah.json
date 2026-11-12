@@ -1,0 +1,715 @@
+{
+ "track": "stories",
+ "units": [
+  {
+   "id": "x-st-jonah",
+   "title": "Jonah",
+   "subtitle": "The prophet who ran, and the city that turned",
+   "lessons": [
+    {
+     "id": "x-st-jon-01",
+     "title": "Jonah (1): Running away",
+     "status": "draft",
+     "related": [],
+     "check_note": "Mekhilta Pischa 1 (Silverstein), Nedarim 38a, Pirkei DeRabbi Eliezer 10 (Friedlander), Zohar Vayakhel 7:81-83 (Soncino) read on Sefaria 11/12. English: JPS Tanakh Gender-Sensitive. Overview lesson: x-st-hol-03.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "A prophet who says no",
+       "body": "God tells **Jonah** to go to **Nineveh**, that great city, and proclaim judgment upon it. Jonah gets up, and heads the other way: **down to the sea**.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 1:1-3"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "According to one Midrash, why did Jonah run?",
+       "choices": [
+        "He knew Nineveh would repent, and Israel would look worse by comparison",
+        "He was afraid the Assyrians would kill him",
+        "He did not believe God had really spoken",
+        "He wanted to see Tarshish"
+       ],
+       "answer": 0,
+       "why": "The Mekhilta says Jonah knew that \"the gentiles are close to repentance.\"",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 1:1-3"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Jonah 1:1-3",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 1:1-3"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "לִבְרֹחַ תַּרְשִׁישָׁה מִלִּפְנֵי יְיָ",
+       "tl": null,
+       "gloss": "\"started out to flee to Tarshish from GOD’s service\" (1:3). The Midrash asks whether anyone can flee from God at all, and answers with Psalm 139: wherever you go, God is there.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 1:3"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Why he ran",
+       "body": "The **Mekhilta** says Jonah meant to leave the Land of Israel, where, in its view, the Divine Presence reveals itself. His reason: \"the gentiles are close to repentance.\" If Nineveh turned at once, Israel, which had not turned, would look guilty by comparison. God's answer: **I have many messengers like you**, and God sends the wind.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Mekhilta DeRabbi Yishmael, Tractate Pischa 1"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "flee",
+       "type": "why",
+       "q": "In the Mekhilta, why did Jonah flee?",
+       "choices": [
+        "He was protecting Israel: Nineveh would repent quickly and make Israel look worse",
+        "He was afraid of the sailors",
+        "He wanted to be a merchant"
+       ],
+       "answer": 0,
+       "why": "Jonah ran **for Israel's sake**, not out of fear for himself.",
+       "wrong_why": [
+        null,
+        "The sailors come later, and the Midrash's reason is Israel.",
+        "Not in the Midrash."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Mekhilta DeRabbi Yishmael, Tractate Pischa 1"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Paid in full",
+       "body": "**Rabbi Yochanan**: \"He paid the cost of the entire ship.\" **Pirkei d'Rabbi Eliezer** adds that the ship was two days away, and God sent a storm to bring it back to Jaffa, **to test Jonah**. Jonah took it as a sign his escape would succeed, and in his joy he paid his fare in advance.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Nedarim 38a; Pirkei DeRabbi Eliezer 10"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Jonah 1:5-6",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 1:5-6"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וְיוֹנָה יָרַד אֶל־יַרְכְּתֵי הַסְּפִינָה וַיִּשְׁכַּב וַיֵּרָדַֽם׃",
+       "tl": null,
+       "gloss": "\"Jonah, meanwhile, had gone down into the hold of the vessel where he lay down and fell asleep\" (1:5). Down to Jaffa, down into the ship, down into the hold: the verb **went down**, יָרַד, keeps returning (1:3, 1:5).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 1:3-5"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Jonah 1:9",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 1:9"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "A soul on a ship",
+       "body": "The **Zohar** reads the story as \"the whole of a man’s career in this world.\" Jonah going down into the ship is **the soul coming down into a body**. The storm is the judgment that follows a person, and the captain who wakes Jonah is the good inner voice: it is no time to sleep, **return to your Master**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Zohar, Vayakhel 7:81-83"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "soul",
+       "type": "why",
+       "q": "In the Zohar's reading, what does Jonah going down into the ship stand for?",
+       "choices": [
+        "The soul coming down into a body in this world",
+        "Israel going into exile",
+        "A merchant's journey"
+       ],
+       "answer": 0,
+       "why": "The ship is life in this world, and Jonah is **the soul** in it.",
+       "wrong_why": [
+        null,
+        "Not the Zohar's reading here.",
+        "Not the Zohar's reading here."
+       ],
+       "look_again": 10,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Zohar, Vayakhel 7:81-83"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Jonah 1:12",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 1:12"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Ready to give his life",
+       "body": "**Rabbi Yochanan** (in the Mekhilta): Jonah boarded the ship **only to cast himself into the sea**. Moses offered his life for Israel (\"blot me out of Your book\"), and so did David. Jonah, too, gave his life for his people.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Mekhilta DeRabbi Yishmael, Tractate Pischa 1"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Jonah runs, sleeps through the storm, and then offers his own life for the sailors. Is there something you know is yours to do that you have been sailing away from?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Jonah flees **toward Tarshish** (1:3).",
+        "Mekhilta: he ran **for Israel's sake**, knowing Nineveh would repent.",
+        "**Down**, down, down: Jaffa, the ship, the hold.",
+        "Zohar: Jonah is **the soul** on the ship of this world.",
+        "\"**Heave me overboard**\": ready to give his life."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-jon-02",
+     "title": "Jonah (2): Inside the fish",
+     "status": "draft",
+     "related": [
+      "prayer:gvurot"
+     ],
+     "check_note": "Pirkei DeRabbi Eliezer 10 (Friedlander) and Zohar Vayakhel 7:88-92 (Soncino) read on Sefaria 11/12. G'vurot wording from data/prayers.json.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Three days down",
+       "body": "The sailors throw Jonah into the sea, and the storm stops. Jonah sinks, and is **swallowed**.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 1:15-2:1"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "The book of Jonah says Jonah was swallowed by a whale.",
+       "answer": false,
+       "why": "The text says **a huge fish**, דָּג גָּדוֹל. No species is named.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 1:15-2:1"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Jonah 2:1-2",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 2:1-2"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "דָּג גָּדוֹל",
+       "tl": null,
+       "gloss": "\"a huge fish\" (2:1). Notice who **provided** it: GOD.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 2:1"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Prepared from Creation",
+       "body": "**Rabbi Tarfon**: this fish was appointed **from the six days of Creation** to swallow Jonah. He entered its mouth as a person enters a great synagogue, and its two eyes were \"like windows of glass giving light to Jonah.\" **Rabbi Meir**: a pearl hung inside the fish, shining like the noon sun, and showed him **everything in the sea**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Pirkei DeRabbi Eliezer 10"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "fish",
+       "type": "pick",
+       "q": "In Pirkei d'Rabbi Eliezer, when was Jonah's fish appointed?",
+       "choices": [
+        "During the six days of Creation",
+        "On the morning of the storm",
+        "After Jonah prayed"
+       ],
+       "answer": 0,
+       "why": "The rescue was **prepared before the running began**.",
+       "wrong_why": [
+        null,
+        "Earlier: Rabbi Tarfon says from Creation.",
+        "Earlier: Rabbi Tarfon says from Creation."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Pirkei DeRabbi Eliezer 10"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Under the Temple",
+       "body": "In the same Midrash, the fish shows Jonah the path Israel took **through the Reed Sea**, the pillars of the earth, and at last the **Foundation Stone beneath the Temple**. There the sons of Korah stand praying. They tell him: you are standing beneath God's Temple; pray, and you will be answered. So Jonah asks the fish to stop, and **begins to pray**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Pirkei DeRabbi Eliezer 10"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וַיִּתְפַּלֵּל יוֹנָה אֶל־יְיָ אֱלֹהָיו מִמְּעֵי הַדָּגָֽה׃",
+       "tl": null,
+       "gloss": "\"Jonah prayed to the ETERNAL his God from the belly of the fish\" (2:2). On the ship, the sailors cried out and Jonah slept (1:5-6). Now **Jonah prays**.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 1:5-6; 2:2"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "temple",
+       "type": "why",
+       "q": "In Pirkei d'Rabbi Eliezer, why is Jonah told to pray where he is?",
+       "choices": [
+        "He is beneath the Temple, where prayer is answered",
+        "The fish is about to die",
+        "The sailors asked him to"
+       ],
+       "answer": 0,
+       "why": "Even at the bottom of the sea, Jonah is **beneath the Temple**.",
+       "wrong_why": [
+        null,
+        "Not the Midrash's reason.",
+        "The sailors are back on the ship."
+       ],
+       "look_again": 6,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Pirkei DeRabbi Eliezer 10"
+       }
+      },
+      {
+       "kind": "relevance",
+       "body": "In this Midrash Jonah prays to God as the One who kills and the One who makes alive. Every Amidah praises God in the same way in the **G'vurot**: מֶלֶךְ מֵמִית וּמְחַיֶּה.",
+       "links": [
+        "prayer:gvurot"
+       ]
+      },
+      {
+       "kind": "concept",
+       "title": "The fish is the grave",
+       "body": "The **Zohar** continues its reading: the fish that swallowed Jonah **is the grave**, and its belly is the belly of Sheol, the underworld (2:3). The three days and nights are a person's first days in the grave. When God speaks to the fish and it **spews Jonah out upon dry land**, the Zohar reads it as the day God will **awaken the dead**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Zohar, Vayakhel 7:88-92"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Jonah 2:11",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 2:11"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Jonah prays only after he has gone as far down as anyone can go. What has a low place taught you about prayer?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "God **provided a huge fish** (2:1).",
+        "Pirkei d'Rabbi Eliezer: prepared **from Creation**, lit by **a pearl**.",
+        "Beneath **the Temple**, Jonah prays.",
+        "G'vurot: God who **kills and gives life**.",
+        "Zohar: the fish is **the grave**, dry land is **life again**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-jon-03",
+     "title": "Jonah (3): What God saw",
+     "status": "draft",
+     "related": [],
+     "check_note": "Taanit 16a, Jerusalem Talmud Taanit 2:1 (Guggenheimer), Megillah 31a read on Sefaria 11/12. Reform Yom Kippur afternoon practice: see x-st-hol-03 note.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Sackcloth, and something more",
+       "body": "Jonah's five words reach the king. He leaves his throne, puts on **sackcloth**, and decrees a fast for every person and every animal in Nineveh.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 3:4-9"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "On a public fast day, what does the Talmud say an elder reminds the people about Nineveh?",
+       "choices": [
+        "God saw their deeds, not their sackcloth and fasting",
+        "Their fast lasted forty days",
+        "Only the king repented",
+        "Their prayers were in Hebrew"
+       ],
+       "answer": 0,
+       "why": "The verse says God saw **what they did** (3:10).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 3:4-9"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Jonah 3:8",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 3:8"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וּמִן־הֶחָמָס אֲשֶׁר בְּכַפֵּיהֶֽם׃",
+       "tl": null,
+       "gloss": "\"from the injustice of which they are guilty\" (3:8). The king names not only evil ways but the injustice in their own hands.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 3:8"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Tear down the building",
+       "body": "**Shmuel**: the king of Nineveh proclaimed that even someone who **stole a beam** and built it into a house must **tear down the whole building** and return the beam. The Talmud notes that the Sages require only money in such a case; Nineveh went further, to remove every trace of what was stolen.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Taanit 16a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "beam",
+       "type": "why",
+       "q": "In Taanit 16a, what did Nineveh's king require of someone who had built a stolen beam into a house?",
+       "choices": [
+        "Tear the building down and return the beam",
+        "Pay a fine to the king",
+        "Fast for forty days"
+       ],
+       "answer": 0,
+       "why": "Repair, not just regret: **give back what you took**.",
+       "wrong_why": [
+        null,
+        "Shmuel says they went further than money.",
+        "Not in Shmuel's teaching."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Taanit 16a"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Jonah 3:10",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 3:10"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Deeds, not sackcloth",
+       "body": "On a public fast, the Talmud has an elder say: \"it is not sackcloth and fasting that cause atonement for our sins.\" **Repentance and good deeds** do. The verse does not say God saw their sackcloth and their fasting; it says **God saw what they did**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Taanit 16a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "deeds",
+       "type": "pick",
+       "q": "According to Taanit 16a, what brings atonement?",
+       "choices": [
+        "Repentance and good deeds",
+        "Sackcloth and fasting",
+        "Ashes on the ark"
+       ],
+       "answer": 0,
+       "why": "God saw **their deeds** (3:10).",
+       "wrong_why": [
+        null,
+        "The elder says these are not what atones.",
+        "A sign of mourning, not what atones."
+       ],
+       "look_again": 7,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Taanit 16a"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Was it real?",
+       "body": "The two Talmuds read Nineveh differently. In the Babylonian Talmud, the people separate the animals from their young and plead: even if we are not worthy, **these animals have not sinned**. In the Jerusalem Talmud, **Resh Lakish** says \"the people of Nineveh repented in trickery\": the separated animals were crying so God would give in. **Rabbi Yochanan** adds that they returned what was in their hands, **but not what was locked in their chests**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Taanit 16a; Jerusalem Talmud Taanit 2:1"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q3",
+       "idea": "trickery",
+       "type": "why",
+       "q": "How does Resh Lakish judge Nineveh's repentance in the Jerusalem Talmud?",
+       "choices": [
+        "As partly a trick, to pressure God",
+        "As perfect",
+        "As something that never happened"
+       ],
+       "answer": 0,
+       "why": "Even a famous repentance can be **only partly honest**. The Babylonian Talmud reads the same scene as a sincere plea.",
+       "wrong_why": [
+        null,
+        "The Babylonian Talmud is kinder; Resh Lakish is not.",
+        "He agrees they did something; he doubts their motive."
+       ],
+       "look_again": 9,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Taanit 16a; Jerusalem Talmud Taanit 2:1"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Why on Yom Kippur",
+       "body": "The Talmud says Jonah is read on **Yom Kippur afternoon**, as the haftarah, the book \"which mentions the repentance of the people of Nineveh.\"",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 31a"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "The Talmud says God looked past the sackcloth to the deeds, and one rabbi still doubts what was hidden in the chests. What would a change in your deeds, not only your words, look like this year?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "**Turn back** from evil ways and **injustice** (3:8).",
+        "Shmuel: return even **a beam in the wall**.",
+        "Taanit 16a: **deeds**, not sackcloth, bring atonement.",
+        "Resh Lakish: Nineveh's repentance was **partly a trick**.",
+        "Jonah is read on **Yom Kippur afternoon** (Megillah 31a)."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-jon-04",
+     "title": "Jonah (4): The plant and the question",
+     "status": "draft",
+     "related": [],
+     "check_note": "Pirkei DeRabbi Eliezer 43 and Mekhilta Pischa 1 read on Sefaria 11/12. Word comparison Exodus 34:6 vs Jonah 4:2 checked by script on the Masorah text.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Angry enough to die",
+       "body": "Nineveh is spared. Jonah, who saved a ship of strangers with his own life, is **furious**, and asks God to take his life.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 4:1-3"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "When Jonah quotes God's attributes from Exodus 34, he quotes them word for word.",
+       "answer": false,
+       "why": "He drops **faithfulness** and adds **renouncing punishment**, the very thing he is angry about.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 4:1-3"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Jonah 4:2",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 4:2"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "אֵֽל־חַנּוּן וְרַחוּם אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד וְנִחָם עַל־הָרָעָֽה׃",
+       "tl": null,
+       "gloss": "\"a compassionate and gracious God, slow to anger, abounding in kindness, renouncing punishment\" (4:2).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 4:2"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Words from Sinai, changed",
+       "body": "At Sinai God proclaimed: \"a God compassionate and gracious, slow to anger, abounding in kindness and faithfulness\" (Exodus 34:6). In Hebrew, Jonah's list **stops before faithfulness**, וֶאֱמֶת, and ends instead with **renouncing punishment**. He even reverses the first pair: Exodus has רַחוּם וְחַנּוּן; Jonah has חַנּוּן וְרַחוּם.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Exodus 34:6; Jonah 4:2"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "emet",
+       "type": "pick",
+       "q": "Which attribute from Exodus 34:6 is missing from Jonah's list?",
+       "choices": [
+        "Faithfulness",
+        "Kindness",
+        "Slow to anger"
+       ],
+       "answer": 0,
+       "why": "Jonah keeps the mercy and leaves out **faithfulness**.",
+       "wrong_why": [
+        null,
+        "Kindness is there: וְרַב־חֶסֶד.",
+        "Slow to anger is there."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "tanakh",
+        "ref": "Exodus 34:6; Jonah 4:2"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Jonah 4:10-11",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 4:10-11"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וַֽאֲנִי לֹא אָחוּס עַל־נִינְוֵה הָעִיר הַגְּדוֹלָה",
+       "tl": null,
+       "gloss": "\"And should not I care about Nineveh, that great city\" (4:11). The book ends on God's question.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Jonah 4:11"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "The king was Pharaoh",
+       "body": "**Pirkei d'Rabbi Eliezer** opens with \"Know thou the power of repentance.\" Its example: **Pharaoh**, who defied God by asking who the Lord was, and at the Sea turned with the words of **Mi Chamocha**. God saved him, and he went on to **rule in Nineveh**. When Jonah came, he rose from his throne and put on sackcloth. Infants cried for their mothers, and by the merit of **4,123 children**, more than twelve hundred thousand people were saved (4:11).",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Pirkei DeRabbi Eliezer 43"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "pharaoh",
+       "type": "pick",
+       "q": "In Pirkei d'Rabbi Eliezer 43, who was the king of Nineveh?",
+       "choices": [
+        "Pharaoh, who had turned at the Sea",
+        "Jonah's father",
+        "Ahasuerus"
+       ],
+       "answer": 0,
+       "why": "The king who once defied God became the king who led a city in repentance.",
+       "wrong_why": [
+        null,
+        "Not in the Midrash.",
+        "Ahasuerus is the king of the Esther story."
+       ],
+       "look_again": 8,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Pirkei DeRabbi Eliezer 43"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "The son and the Father",
+       "body": "The **Mekhilta**: \"Jonah claimed the honor of the son, but not the honor of the Father.\" He defended Israel's honor, but not God's. So, it says, God spoke to Jonah a second time, **but not a third**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Mekhilta DeRabbi Yishmael, Tractate Pischa 1"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "A question, not a command",
+       "body": "God does not force Jonah. God teaches with **a plant, a worm and a question**, and the book stops before Jonah answers. This fits your rabbi's teaching of a people **growing up**: God present less as a hand that compels and more in the choices we make. The answer to God's question is left to the reader.",
+       "src": {
+        "type": "reform",
+        "ref": "Jonah 4:6-11; teaching from Jamie's rabbi (oral, as Jamie retold it)",
+        "note": "connection is mine; check with Jamie"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Jonah wanted justice for Nineveh; God asked him to care. Who is it hardest for you to wish well?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Jonah quotes Sinai, but **drops faithfulness** (4:2).",
+        "\"**Should not I care** about Nineveh?\" (4:11).",
+        "Pirkei d'Rabbi Eliezer: the king was **Pharaoh**, saved by **the children**.",
+        "Mekhilta: the honor of **the son**, not **the Father**.",
+        "A question, not a command: **the reader answers**."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
