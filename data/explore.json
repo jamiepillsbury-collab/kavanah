@@ -6941,7 +6941,7 @@
     {
      "id": "x-st-exodus",
      "title": "Exodus",
-     "subtitle": "Moses, from the river to Sinai",
+     "subtitle": "Moses, from the river to Mount Nebo",
      "lessons": [
       {
        "id": "x-st-exo-01",
@@ -8334,6 +8334,549 @@
           "God in **a tallit**, teaching an order of prayer (Rosh Hashanah 17b).",
           "The Thirteen Attributes **never return empty**.",
           "Justice first, then **kindness**."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-exo-09",
+       "title": "Moses (9): The shining face",
+       "status": "draft",
+       "related": [],
+       "parashah": [
+        "Ki Tisa"
+       ],
+       "check_note": "Shemot Rabbah 47:6 (Sefaria Midrash Rabbah 2022) read 11/12. English: Contemporary Torah.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Coming down again",
+         "body": "Moses comes down Mount Sinai a second time, carrying the new tablets. Something about him has changed, and **he is the only one who does not know it**.",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 34:29-30"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Which is one Midrash's answer to where Moses' radiance came from?",
+         "choices": [
+          "A bit of ink left on his quill, passed over his head",
+          "Sunlight on the mountaintop",
+          "Oil Aaron poured on him",
+          "The fire of the burning bush"
+         ],
+         "answer": 0,
+         "why": "Resh Lakish's answer, one of three in Shemot Rabbah 47:6.",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 34:29-30"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Exodus 34:29-30",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 34:29-30"
+         },
+         "ref": "Exodus 34:29-30",
+         "he": "וַיְהִי בְּרֶדֶת מֹשֶׁה מֵהַר סִינַי וּשְׁנֵי לֻחֹת הָֽעֵדֻת בְּיַד־מֹשֶׁה בְּרִדְתּוֹ מִן־הָהָר וּמֹשֶׁה לֹֽא־יָדַע כִּי קָרַן עוֹר פָּנָיו בְּדַבְּרוֹ אִתּֽוֹ׃\nוַיַּרְא אַהֲרֹן וְכׇל־בְּנֵי יִשְׂרָאֵל אֶת־מֹשֶׁה וְהִנֵּה קָרַן עוֹר פָּנָיו וַיִּֽירְאוּ מִגֶּשֶׁת אֵלָֽיו׃",
+         "en": "So Moses came down from Mount Sinai. And as Moses came down from the mountain bearing the two tablets of the Pact, Moses was not aware that the skin of his face was radiant, since he had spoken with God. Aaron and all the Israelites saw that the skin of Moses’ face was radiant; and they shrank from coming near him.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vay'hi b'redet Moshe meihar sinai ush'nei luchot ha-eidut b'yad Moshe b'ridto min hahar umosheh lo yada ki karan or panav b'dab'ro ito.\nVayar aharon v'chol b'nei Yisrael et Moshe v'hinei karan or panav vayir'u migeshet eilav."
+        },
+        {
+         "kind": "term",
+         "he": "וּמֹשֶׁה לֹֽא־יָדַע כִּי קָרַן עוֹר פָּנָיו",
+         "tl": "Umosheh lo yada ki karan or panav",
+         "gloss": "\"Moses was not aware that the skin of his face was radiant\" (34:29). The same letters, ק־ר־ן, spell **horn** in Hannah's song (1 Samuel 2:1).",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 34:29"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Where did the light come from?",
+         "body": "The Midrash gives three answers. **The Rabbis**: from the cleft of the rock, where God's glory passed by (33:22). **Rabbi Berekhya**: the tablets were six handbreadths long; Moses held two, the Divine Presence held two, and **from the space between** came the rays. **Resh Lakish**: a bit of ink was left on the quill after writing the Torah, and Moses passed it over his head.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Shemot Rabbah 47:6"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "rays",
+         "type": "why",
+         "q": "According to Rabbi Berekhya, where did the rays come from?",
+         "choices": [
+          "The space on the tablets between Moses' hands and the Divine Presence",
+          "The burning bush",
+          "The pillar of fire"
+         ],
+         "answer": 0,
+         "why": "Light from **the space between** the human hand and God's.",
+         "wrong_why": [
+          null,
+          "Not in this Midrash.",
+          "Not in this Midrash."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Shemot Rabbah 47:6"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Exodus 34:33-35",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 34:33-35"
+         },
+         "ref": "Exodus 34:33-35",
+         "he": "וַיְכַל מֹשֶׁה מִדַּבֵּר אִתָּם וַיִּתֵּן עַל־פָּנָיו מַסְוֶֽה׃\nוּבְבֹא מֹשֶׁה לִפְנֵי יְיָ לְדַבֵּר אִתּוֹ יָסִיר אֶת־הַמַּסְוֶה עַד־צֵאתוֹ וְיָצָא וְדִבֶּר אֶל־בְּנֵי יִשְׂרָאֵל אֵת אֲשֶׁר יְצֻוֶּֽה׃\nוְרָאוּ בְנֵֽי־יִשְׂרָאֵל אֶת־פְּנֵי מֹשֶׁה כִּי קָרַן עוֹר פְּנֵי מֹשֶׁה וְהֵשִׁיב מֹשֶׁה אֶת־הַמַּסְוֶה עַל־פָּנָיו עַד־בֹּאוֹ לְדַבֵּר אִתּֽוֹ׃",
+         "en": "And when Moses had finished speaking with them, he put a veil over his face. Whenever Moses went in before יהוה to converse, he would leave the veil off until he came out; and when he came out and told the Israelites what he had been commanded, the Israelites would see how radiant the skin of Moses’ face was. Moses would then put the veil back over his face until he went in to speak with God.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vay'chal Moshe midabeir itam vayitein al panav masveh.\nUv'vo Moshe lifnei Adonai l'dabeir ito yasir et hamasveh ad tzeito v'yatza v'diber el b'nei Yisrael eit asher y'tzuveh.\nV'ra-u v'nei Yisrael et p'nei Moshe ki karan or p'nei Moshe v'heishiv Moshe et hamasveh al panav ad bo-o l'dabeir ito."
+        },
+        {
+         "kind": "term",
+         "he": "וַיִּתֵּן עַל־פָּנָיו מַסְוֶֽה׃",
+         "tl": "Vayitein al panav masveh.",
+         "gloss": "\"he put a veil over his face\" (34:33).",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 34:33"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "veil",
+         "type": "pick",
+         "q": "When did Moses take the veil off?",
+         "choices": [
+          "When he spoke with God, and while he taught the people",
+          "Only at night",
+          "Never again"
+         ],
+         "answer": 0,
+         "why": "Face uncovered **before God**, and while passing God's words **to the people** (34:34-35).",
+         "wrong_why": [
+          null,
+          "Not in the text.",
+          "He took it off each time he went in before God."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 34:33-35"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Moses does not know his face is shining; everyone else sees it first. What have others seen in you that you could not see yourself?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Moses' face was **radiant**, and he **did not know** (34:29).",
+          "Shemot Rabbah 47:6: from the cleft, from **between** the hands, or from **the ink**.",
+          "A **veil**, lifted before God and while teaching."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-exo-10",
+       "title": "Moses (10): Bezalel the builder",
+       "status": "draft",
+       "related": [],
+       "parashah": [
+        "Ki Tisa",
+        "Vayakhel"
+       ],
+       "check_note": "Berakhot 55a read 11/12.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Called by name",
+         "body": "God has given Moses plans for **the Tabernacle**. Now God names the artist who will build it.",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 31:1-3"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "In the Talmud, Bezalel knew how to join the letters with which heaven and earth were created.",
+         "answer": 0,
+         "why": "Rav's teaching in Berakhot 55a.",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 31:1-3"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Exodus 31:1-3",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 31:1-3"
+         },
+         "ref": "Exodus 31:1-3",
+         "he": "וַיְדַבֵּר יְיָ אֶל־מֹשֶׁה לֵּאמֹֽר׃\nרְאֵה קָרָאתִֽי בְשֵׁם בְּצַלְאֵל בֶּן־אוּרִי בֶן־חוּר לְמַטֵּה יְהוּדָֽה׃\nוָאֲמַלֵּא אֹתוֹ רוּחַ אֱלֹהִים בְּחׇכְמָה וּבִתְבוּנָה וּבְדַעַת וּבְכׇל־מְלָאכָֽה׃",
+         "en": "יהוה spoke to Moses: See, I have singled out by name Bezalel son of Uri son of Hur, of the tribe of Judah. I have endowed him with a divine spirit of skill, ability, and knowledge in every kind of craft;",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vaydabeir Adonai el Moshe leimor.\nR'ei karati v'sheim b'tzal'eil ben uri ven chur l'matei Y'hudah.\nVa-amalei oto ruach Elohim b'chochmah uvitvunah uv'da-at uv'chol m'lachah."
+        },
+        {
+         "kind": "term",
+         "he": "בְּצַלְאֵל",
+         "tl": "B'tzal'eil",
+         "gloss": "Bezalel (31:2). The Talmud hears his name as בְּצֵל אֵל, **in God's shadow**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Exodus 31:2; Berakhot 55a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "In God's shadow",
+         "body": "**Rabbi Shmuel bar Nachmani**: God said tabernacle, then ark and vessels. Moses told Bezalel the reverse: ark, vessels, then tabernacle. Bezalel objected: people build the house first, then bring in the furniture; where would I put the vessels? Moses answered: \"Perhaps you were in God’s shadow,\" and knew exactly what God said.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 55a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "order",
+         "type": "why",
+         "q": "In Berakhot 55a, how did Bezalel know Moses had the order backward?",
+         "choices": [
+          "You build the house before you put the vessels in it",
+          "An angel told him",
+          "He read it on the tablets"
+         ],
+         "answer": 0,
+         "why": "Common sense, and a name: **in God's shadow**.",
+         "wrong_why": [
+          null,
+          "Not in the Talmud.",
+          "Not in the Talmud."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 55a"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "בְּחׇכְמָה וּבִתְבוּנָה וּבְדַעַת",
+         "tl": "B'chochmah uvitvunah uv'da-at",
+         "gloss": "\"skill, ability, and knowledge\" (31:3).",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 31:3"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "The letters of creation",
+         "body": "**Rav**: \"Bezalel knew how to join the letters with which heaven and earth were created.\" The proof: the same three words that describe Bezalel, **wisdom, understanding and knowledge**, describe how God founded the earth and the heavens (Proverbs 3:19-20).",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 55a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "letters",
+         "type": "why",
+         "q": "How does Rav show that Bezalel knew the letters of creation?",
+         "choices": [
+          "The same three gifts describe Bezalel and God's making of heaven and earth",
+          "Bezalel wrote the Torah",
+          "He was born on the first day"
+         ],
+         "answer": 0,
+         "why": "**Wisdom, understanding, knowledge**: the tools of creation, given to an artist.",
+         "wrong_why": [
+          null,
+          "Moses wrote the Torah.",
+          "Not in the Talmud."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 55a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Ask the people",
+         "body": "**Rabbi Yitzchak**: a leader may be appointed only **with the community's consent**. God asked Moses whether Bezalel was suitable, then told him: go ask Israel too. They answered: if he is right in God's eyes and yours, all the more so in ours.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 55a"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Exodus 36:5-7",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 36:5-7"
+         },
+         "ref": "Exodus 36:5-7",
+         "he": "וַיֹּאמְרוּ אֶל־מֹשֶׁה לֵּאמֹר מַרְבִּים הָעָם לְהָבִיא מִדֵּי הָֽעֲבֹדָה לַמְּלָאכָה אֲשֶׁר־צִוָּה יְיָ לַעֲשֹׂת אֹתָֽהּ׃\nוַיְצַו מֹשֶׁה וַיַּעֲבִירוּ קוֹל בַּֽמַּחֲנֶה לֵאמֹר אִישׁ וְאִשָּׁה אַל־יַעֲשׂוּ־עוֹד מְלָאכָה לִתְרוּמַת הַקֹּדֶשׁ וַיִּכָּלֵא הָעָם מֵהָבִֽיא׃\nוְהַמְּלָאכָה הָיְתָה דַיָּם לְכׇל־הַמְּלָאכָה לַעֲשׂוֹת אֹתָהּ וְהוֹתֵֽר׃",
+         "en": "and said to Moses, “The people are bringing more than is needed for the tasks entailed in the work that יהוה has commanded to be done.” Moses thereupon had this proclamation made throughout the camp: “Let no man or woman make further effort toward gifts for the sanctuary!” So the people stopped bringing: their efforts had been more than enough for all the tasks to be done.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomru el Moshe leimor marbim ha-am l'havi midei ha-avodah lam'lachah asher tzivah Adonai la-asot otah.\nVaytzav Moshe vaya-aviru kol bamachaneh leimor ish v'ishah al ya-asu od m'lachah litrumat hakodesh vayikalei ha-am meihavi.\nV'ham'lachah haytah dayam l'chol ham'lachah la-asot otah v'hoteir.",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "מַרְבִּים הָעָם לְהָבִיא",
+         "tl": "Marbim ha-am l'havi",
+         "gloss": "\"The people are bringing more than is needed\" (36:5). Moses has to tell them to **stop giving**.",
+         "src": {
+          "type": "torah",
+          "ref": "Exodus 36:5-7"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Bezalel understood the plan better than the instructions he was given. When has making something with your hands taught you what words could not?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Bezalel, **called by name** (31:2).",
+          "Berakhot 55a: **in God's shadow**, house before vessels.",
+          "Rav: he knew **the letters of creation**.",
+          "A leader needs **the people's consent**.",
+          "The people gave **more than enough** (36:5)."
+         ]
+        }
+       ],
+       "season": null
+      },
+      {
+       "id": "x-st-exo-11",
+       "title": "Moses (11): On Mount Nebo",
+       "status": "draft",
+       "related": [],
+       "parashah": [
+        "V'Zot HaBerachah"
+       ],
+       "check_note": "Bava Batra 15a, 17a and Sotah 14a read 11/12.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "The view from the mountain",
+         "body": "Moses climbs **Mount Nebo**. From the summit, God shows him the whole land, the land he will **not** enter.",
+         "src": {
+          "type": "torah",
+          "ref": "Deuteronomy 34:1-4"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "In one view in the Talmud, Moses himself wrote the verses about his own death.",
+         "answer": 0,
+         "why": "Rabbi Shimon: God dictated, and \"Moses wrote with tears.\"",
+         "src": {
+          "type": "torah",
+          "ref": "Deuteronomy 34:1-4"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "Deuteronomy 34:1",
+         "src": {
+          "type": "torah",
+          "ref": "Deuteronomy 34:1"
+         },
+         "ref": "Deuteronomy 34:1",
+         "he": "וַיַּעַל מֹשֶׁה מֵעַרְבֹת מוֹאָב אֶל־הַר נְבוֹ רֹאשׁ הַפִּסְגָּה אֲשֶׁר עַל־פְּנֵי יְרֵחוֹ וַיַּרְאֵהוּ יְיָ אֶת־כׇּל־הָאָרֶץ אֶת־הַגִּלְעָד עַד־דָּֽן׃",
+         "en": "Moses went up from the steppes of Moab to Mount Nebo, to the summit of Pisgah, opposite Jericho, and יהוה showed him the whole land: Gilead as far as Dan;",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vaya-al Moshe mei-arvot mo-av el har n'vo rosh hapisgah asher al p'nei y'reicho vayar'eihu Adonai et kol ha-aretz et hagil'ad ad dan."
+        },
+        {
+         "kind": "text",
+         "sefaria": "Deuteronomy 34:4-7",
+         "src": {
+          "type": "torah",
+          "ref": "Deuteronomy 34:4-7"
+         },
+         "ref": "Deuteronomy 34:4-7",
+         "he": "וַיֹּאמֶר יְיָ אֵלָיו זֹאת הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶנָּה הֶרְאִיתִיךָ בְעֵינֶיךָ וְשָׁמָּה לֹא תַעֲבֹֽר׃\nוַיָּמׇת שָׁם מֹשֶׁה עֶבֶד־יְיָ בְּאֶרֶץ מוֹאָב עַל־פִּי יְהֹוָֽה׃\nוַיִּקְבֹּר אֹתוֹ בַגַּי בְּאֶרֶץ מוֹאָב מוּל בֵּית פְּעוֹר וְלֹא־יָדַע אִישׁ אֶת־קְבֻרָתוֹ עַד הַיּוֹם הַזֶּֽה׃\nוּמֹשֶׁה בֶּן־מֵאָה וְעֶשְׂרִים שָׁנָה בְּמֹתוֹ לֹא־כָהֲתָה עֵינוֹ וְלֹא־נָס לֵחֹֽה׃",
+         "en": "And יהוה said to him, “This is the land of which I swore to Abraham, Isaac, and Jacob, ‘I will assign it to your offspring.’ I have let you see it with your own eyes, but you shall not cross there.” So Moses the servant of יהוה died there, in the land of Moab, at the command of יהוה. [God] buried him in the valley in the land of Moab, near Beth-peor; and no one knows his burial place to this day. Moses was a hundred and twenty years old when he died; his eyes were undimmed and his vigor unabated.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomer Adonai eilav zot ha-aretz asher nishbati l'avraham l'yitzchak ul'ya-akov leimor l'zar'acha et'nenah her'iticha v'einecha v'shamah lo ta-avor.\nVayamot sham Moshe eved Adonai b'eretz mo-av al pi Adonai.\nVayikbor oto vagai b'eretz mo-av mul beit p'or v'lo yada ish et k'vurato ad hayom hazeh.\nUmosheh ben mei-ah v'esrim shanah b'moto lo chahatah eino v'lo nas leicho."
+        },
+        {
+         "kind": "term",
+         "he": "עַל־פִּי יְהֹוָֽה׃",
+         "tl": "Al pi Adonai.",
+         "gloss": "\"at the command of יהוה\" (34:5). The Talmud reads the Hebrew literally: **by the mouth** of God.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Deuteronomy 34:5; Bava Batra 17a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A kiss",
+         "body": "Six people, the Sages teach, were beyond the Angel of Death's power: Abraham, Isaac, Jacob, **Moses, Aaron and Miriam**. Of Moses and Aaron the Torah says they died **by the mouth** of God, meaning **with a kiss**. Rabbi Elazar includes Miriam too.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Batra 17a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "kiss",
+         "type": "why",
+         "q": "How does Bava Batra 17a read \"by the mouth\" of God?",
+         "choices": [
+          "Moses died with a kiss, not by the Angel of Death",
+          "God spoke one last commandment",
+          "Moses died while speaking"
+         ],
+         "answer": 0,
+         "why": "The last touch was **God's kiss**.",
+         "wrong_why": [
+          null,
+          "Not the Talmud's reading.",
+          "Not the Talmud's reading."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Batra 17a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "God buried him",
+         "body": "Who buried Moses? **God**. So, says **Rabbi Chama son of Rabbi Chanina**, follow God's ways: God clothed the naked, visited the sick, comforted mourners, and **buried the dead**; so should you. **Rabbi Samlai**: the Torah begins with kindness (clothing Adam and Eve) and **ends with kindness** (burying Moses).",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 14a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "bury",
+         "type": "why",
+         "q": "What does Sotah 14a learn from God burying Moses?",
+         "choices": [
+          "We should bury the dead, as God did",
+          "Graves should be kept secret",
+          "Only prophets deserve burial"
+         ],
+         "answer": 0,
+         "why": "God's acts are **our pattern**: clothe, visit, comfort, bury.",
+         "wrong_why": [
+          null,
+          "The Talmud notes the secret grave, but the lesson is kindness.",
+          "Not in the Talmud."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 14a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Written with tears",
+         "body": "Who wrote \"Moses died there\"? **Rabbi Yehuda**: Joshua wrote the last eight verses. **Rabbi Shimon**: the Torah cannot be missing a letter. Until here God dictated and Moses wrote; from here, God dictated and \"Moses wrote with tears.\" So the last eight verses are read by **one person**, without a break.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Batra 15a"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Deuteronomy 34:10",
+         "src": {
+          "type": "torah",
+          "ref": "Deuteronomy 34:10"
+         },
+         "ref": "Deuteronomy 34:10",
+         "he": "וְלֹא־קָם נָבִיא עוֹד בְּיִשְׂרָאֵל כְּמֹשֶׁה אֲשֶׁר יְדָעוֹ יְיָ פָּנִים אֶל־פָּנִֽים׃",
+         "en": "Never again did there arise in Israel a prophet like Moses—whom יהוה singled out, face to face,",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "V'lo kam navi od b'Yisrael k'mosheh asher y'da-o Adonai panim el panim."
+        },
+        {
+         "kind": "term",
+         "he": "פָּנִים אֶל־פָּנִֽים׃",
+         "tl": "Panim el panim.",
+         "gloss": "\"face to face\" (34:10).",
+         "src": {
+          "type": "torah",
+          "ref": "Deuteronomy 34:10"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Moses sees the land but does not enter it, and others carry on. What work of yours might someone else finish after you?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "From Nebo, Moses **sees** the land he will not enter.",
+          "Bava Batra 17a: he died **with a kiss**.",
+          "Sotah 14a: **God buried him**; the Torah ends in kindness.",
+          "Bava Batra 15a: \"Moses wrote **with tears**.\"",
+          "**Face to face** (34:10)."
          ]
         }
        ],

@@ -1,0 +1,215 @@
+{
+ "fetched": "2026-11-12",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Exodus lessons 3). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Exodus 34:29-30",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי בְּרֶדֶת מֹשֶׁה מֵהַר סִינַי וּשְׁנֵי לֻחֹת הָֽעֵדֻת בְּיַד־מֹשֶׁה בְּרִדְתּוֹ מִן־הָהָר וּמֹשֶׁה לֹֽא־יָדַע כִּי קָרַן עוֹר פָּנָיו בְּדַבְּרוֹ אִתּֽוֹ׃",
+    "וַיַּרְא אַהֲרֹן וְכׇל־בְּנֵי יִשְׂרָאֵל אֶת־מֹשֶׁה וְהִנֵּה קָרַן עוֹר פָּנָיו וַיִּֽירְאוּ מִגֶּשֶׁת אֵלָֽיו׃"
+   ],
+   "sha": [
+    "7bf56a5930debcc79c0da5a3ab4cfc2735a34d4f243e31a9200d86368631c797",
+    "4b11fc3ddcfd94c5f2b7fcf10334f5c01fb873f7169a9dc269854fe0f48c19e5"
+   ]
+  },
+  {
+   "ref": "Exodus 34:29-30",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "So Moses came down from Mount Sinai. And as Moses came down from the mountain bearing the two tablets of the Pact, Moses was not aware that the skin of his face was radiant, since he had spoken with God.",
+    "Aaron and all the Israelites saw that the skin of Moses’ face was radiant; and they shrank from coming near him."
+   ],
+   "sha": [
+    "142092d7354caa3fc93823be7696b94e743855cd9ad4ad09a13043455dc96aa7",
+    "9d9d86644e68f79eba3ef6d51577dad11d6277322e9cb195d808c6846bb98b11"
+   ]
+  },
+  {
+   "ref": "Exodus 34:33-35",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְכַל מֹשֶׁה מִדַּבֵּר אִתָּם וַיִּתֵּן עַל־פָּנָיו מַסְוֶֽה׃",
+    "וּבְבֹא מֹשֶׁה לִפְנֵי יְהֹוָה לְדַבֵּר אִתּוֹ יָסִיר אֶת־הַמַּסְוֶה עַד־צֵאתוֹ וְיָצָא וְדִבֶּר אֶל־בְּנֵי יִשְׂרָאֵל אֵת אֲשֶׁר יְצֻוֶּֽה׃",
+    "וְרָאוּ בְנֵֽי־יִשְׂרָאֵל אֶת־פְּנֵי מֹשֶׁה כִּי קָרַן עוֹר פְּנֵי מֹשֶׁה וְהֵשִׁיב מֹשֶׁה אֶת־הַמַּסְוֶה עַל־פָּנָיו עַד־בֹּאוֹ לְדַבֵּר אִתּֽוֹ׃ {ס}"
+   ],
+   "sha": [
+    "b42f9055e842c40c912393243ea0c8d18424794440508610a0c4252139334ff7",
+    "2b8bd8c1c0c42dd92fc4b281ea221612f7df1856ab049df4db23b12a6089fbb8",
+    "a5bdfb90187d6df273b89570ca01829d40ee31281c254177129c6e9fbad169bf"
+   ]
+  },
+  {
+   "ref": "Exodus 34:33-35",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And when Moses had finished speaking with them, he put a veil over his face.",
+    "Whenever Moses went in before יהוה to converse, he would leave the veil off until he came out; and when he came out and told the Israelites what he had been commanded,",
+    "the Israelites would see how radiant the skin of Moses’ face was. Moses would then put the veil back over his face until he went in to speak with God."
+   ],
+   "sha": [
+    "b602e4402ea16963a34ebc23b7f1fe3aa8647ac66f7188101b0cbda9c7038fa5",
+    "f7d7eef5eb9d4f68b4e37dc337d8f8fead9ad8c9337074393e765c08367e286f",
+    "6e54a59595a482a7b01652795daa07bb407f1f827d27b26b8543fd0c324cb6a5"
+   ]
+  },
+  {
+   "ref": "Exodus 31:1-3",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְדַבֵּר יְהֹוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+    "רְאֵה קָרָאתִֽי בְשֵׁם בְּצַלְאֵל בֶּן־אוּרִי בֶן־חוּר לְמַטֵּה יְהוּדָֽה׃",
+    "וָאֲמַלֵּא אֹתוֹ רוּחַ אֱלֹהִים בְּחׇכְמָה וּבִתְבוּנָה וּבְדַעַת וּבְכׇל־מְלָאכָֽה׃"
+   ],
+   "sha": [
+    "4d2cb906b8e0b2f14d3b0dfe87e8adb0a356a3f12a1c85e13fec9ca1657f4f77",
+    "bb90f066be417949e57a7c43ca97beb36d25a952a449cb1565fd5a81c1d249e8",
+    "0972b797d5d90b9c55efcb406c0d0ba17c12ee7f32d0eec9d75629f43540cc93"
+   ]
+  },
+  {
+   "ref": "Exodus 31:1-3",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "יהוה spoke to Moses:",
+    "See, I have singled out by name Bezalel son of Uri son of Hur, of the tribe of Judah.",
+    "I have endowed him with a divine spirit of skill, ability, and knowledge in every kind of craft;"
+   ],
+   "sha": [
+    "1bb87a95b5d78efbf583e43fd4144c0c1da0a9fabda6444f4993048eb16aee48",
+    "138a56607da8178b00058f1bbd50dbceab7f2b7e792ce8afb712ff8ffb816893",
+    "1d0d48b631b2c7deebd7bfbb8ab638ca86a2e9e40fbd3194b16bd6248abbf37a"
+   ]
+  },
+  {
+   "ref": "Exodus 36:5-7",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמְרוּ אֶל־מֹשֶׁה לֵּאמֹר מַרְבִּים הָעָם לְהָבִיא מִדֵּי הָֽעֲבֹדָה לַמְּלָאכָה אֲשֶׁר־צִוָּה יְהֹוָה לַעֲשֹׂת אֹתָֽהּ׃",
+    "וַיְצַו מֹשֶׁה וַיַּעֲבִירוּ קוֹל בַּֽמַּחֲנֶה לֵאמֹר אִישׁ וְאִשָּׁה אַל־יַעֲשׂוּ־עוֹד מְלָאכָה לִתְרוּמַת הַקֹּדֶשׁ וַיִּכָּלֵא הָעָם מֵהָבִֽיא׃",
+    "וְהַמְּלָאכָה הָיְתָה דַיָּם לְכׇל־הַמְּלָאכָה לַעֲשׂוֹת אֹתָהּ וְהוֹתֵֽר׃ {ס}"
+   ],
+   "sha": [
+    "b9d69aed324d1f40ef78cc58fe29ccc827ff2b723ab69136cdf67a593a1a9209",
+    "80c9288322322456ee704cebf6e07cf1fcb348d930ba302b303cb9d18a0f1a9c",
+    "c169f8d57231839d3d846f4fd44f998834f272adde5f89aa1c5e9b5068b618bc"
+   ]
+  },
+  {
+   "ref": "Exodus 36:5-7",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "and said to Moses, “The people are bringing more than is needed for the tasks entailed in the work that יהוה has commanded to be done.”",
+    "Moses thereupon had this proclamation made throughout the camp: “Let no man or woman make further effort toward gifts for the sanctuary!” So the people stopped bringing:",
+    "their efforts had been more than enough for all the tasks to be done."
+   ],
+   "sha": [
+    "d8488cffc647fd7bccdcc3178eefe15cef9679c640709635a56e288c4af7c4d7",
+    "f0a40e7b1d4b5af04df363f14c1446415d9c2fc37fc8848ff13404e035496560",
+    "6714bc71f64c09cf1ef1fd7825cf8cabca76c8019b6ac99cc41c67497b9c8732"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 34:1",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּעַל מֹשֶׁה מֵעַרְבֹת מוֹאָב אֶל־הַר נְבוֹ רֹאשׁ הַפִּסְגָּה אֲשֶׁר עַל־פְּנֵי יְרֵחוֹ וַיַּרְאֵהוּ יְהֹוָה אֶת־כׇּל־הָאָרֶץ אֶת־הַגִּלְעָד עַד־דָּֽן׃"
+   ],
+   "sha": [
+    "ac06b357ce118d906ebc603c757fb19919a1f74c028d47cc459b22a31a4f57eb"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 34:1",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Moses went up from the steppes of Moab to Mount Nebo, to the summit of Pisgah, opposite Jericho, and יהוה showed him the whole land: Gilead as far as Dan;"
+   ],
+   "sha": [
+    "1ed48247bfdc8a895719b46a7acfcfb9fe076e1fbd909cf3dc56417ad0f4bea8"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 34:4-7",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יְהֹוָה אֵלָיו זֹאת הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶנָּה הֶרְאִיתִיךָ בְעֵינֶיךָ וְשָׁמָּה לֹא תַעֲבֹֽר׃",
+    "וַיָּמׇת שָׁם מֹשֶׁה עֶבֶד־יְהֹוָה בְּאֶרֶץ מוֹאָב עַל־פִּי יְהֹוָֽה׃",
+    "וַיִּקְבֹּר אֹתוֹ בַגַּי בְּאֶרֶץ מוֹאָב מוּל בֵּית פְּעוֹר וְלֹא־יָדַע אִישׁ אֶת־קְבֻרָתוֹ עַד הַיּוֹם הַזֶּֽה׃",
+    "וּמֹשֶׁה בֶּן־מֵאָה וְעֶשְׂרִים שָׁנָה בְּמֹתוֹ לֹא־כָהֲתָה עֵינוֹ וְלֹא־נָס לֵחֹֽה׃"
+   ],
+   "sha": [
+    "b2de197e6e83e1a5b1c6b96d945ec6f328d919dd5c26537e6de3ab15d71978a0",
+    "e56fc1329613214df5717fc419e95a02d8e393f2540f8453b66efc1eebfdb340",
+    "4203e7801970f37f16df00d72ece622b89d8fe41d0d97fff9d7b7b46c97d03f0",
+    "fde59504d8a821073078a4a95e77a86cb052cbfac353030b1960e8bc0bf69ac1"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 34:4-7",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And יהוה said to him, “This is the land of which I swore to Abraham, Isaac, and Jacob, ‘I will assign it to your offspring.’ I have let you see it with your own eyes, but you shall not cross there.”",
+    "So Moses the servant of יהוה died there, in the land of Moab, at the command of יהוה.",
+    "[God] buried him in the valley in the land of Moab, near Beth-peor; and no one knows his burial place to this day.",
+    "Moses was a hundred and twenty years old when he died; his eyes were undimmed and his vigor unabated."
+   ],
+   "sha": [
+    "4e2a792410c00f7d803117605fb9da7d6cceffd21a60c5bd085984a484de0d9f",
+    "6e3a7c7222894f29c863cbc2781626ea473770ac713c65dc87e00fc98c3451bb",
+    "2d0acc0e156fbf7f2345b74826606102b53ab922e2d9885b21745452016612c0",
+    "78574e9ce8f594031d881ee21d78948e2bab189995589faff0debc3862520094"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 34:10",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְלֹא־קָם נָבִיא עוֹד בְּיִשְׂרָאֵל כְּמֹשֶׁה אֲשֶׁר יְדָעוֹ יְהֹוָה פָּנִים אֶל־פָּנִֽים׃"
+   ],
+   "sha": [
+    "f2f8899c623750229653f6241c7b14687bd2c7d04b0b3de9984b459467c0c0ee"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 34:10",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Never again did there arise in Israel a prophet like Moses—whom יהוה singled out, face to face,"
+   ],
+   "sha": [
+    "0e12ca4dd921f480c36e1ff7d6208cd1db3dafef8d5636bed6b2992ccdb6e3ef"
+   ]
+  }
+ ]
+}

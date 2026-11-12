@@ -1,7 +1,7 @@
-"""Write data/src/x-stories_exodus.json: the Exodus unit (x-st-exodus). Lessons 01-08: birth, bush, hardened heart, the Sea, Sinai, V'shamru, broken tablets, Thirteen Attributes. Hebrew sliced by word index from sefaria-exodus.json."""
+"""Write data/src/x-stories_exodus.json: the Exodus unit (x-st-exodus). Lessons 01-11: birth, bush, hardened heart, the Sea, Sinai, V'shamru, broken tablets, Thirteen Attributes, shining face, Bezalel, Mount Nebo. Hebrew sliced by word index from sefaria-exodus.json."""
 import json, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = {(s["ref"], s["lang"]): s["text"] for f in ("sefaria-exodus.json", "sefaria-exodus2.json") for s in json.load(open(os.path.join(ROOT, "data/src", f), encoding="utf-8"))["sources"]}
+SRC = {(s["ref"], s["lang"]): s["text"] for f in ("sefaria-exodus.json", "sefaria-exodus2.json", "sefaria-exodus3.json") for s in json.load(open(os.path.join(ROOT, "data/src", f), encoding="utf-8"))["sources"]}
 def S(ref, a, b): return " ".join(" ".join(SRC[(ref, "he")]).split()[a:b]).replace("יְהֹוָה", "יְיָ")
 TN = lambda ref: {"type": "torah", "ref": ref}
 R = lambda ref, note=None: {"type": "rabbinic", "ref": ref, **({"note": note} if note else {})}
@@ -165,10 +165,70 @@ X8 = {"id": "x-st-exo-08", "title": "Moses (8): Thirteen attributes", "status": 
   {"kind": "reflect", "prompt": "In the Talmud, God gives Moses words to pray when the people have failed. When you have fallen short, what words help you begin again?"},
   {"kind": "recap", "points": ["God **passes before** Moses and proclaims (34:6-7).", "God in **a tallit**, teaching an order of prayer (Rosh Hashanah 17b).", "The Thirteen Attributes **never return empty**.", "Justice first, then **kindness**."]}]}
 
-LS = (X1, X2, X3, X4, X5, X6, X7, X8)
+X9 = {"id": "x-st-exo-09", "title": "Moses (9): The shining face", "status": "draft", "related": [], "parashah": ["Ki Tisa"],
+ "check_note": "Shemot Rabbah 47:6 (Sefaria Midrash Rabbah 2022) read 11/12. English: Contemporary Torah.",
+ "cards": [
+  {"kind": "hook", "title": "Coming down again", "body": "Moses comes down Mount Sinai a second time, carrying the new tablets. Something about him has changed, and **he is the only one who does not know it**.", "src": TN("Exodus 34:29-30")},
+  {"kind": "check", "id": "pre", "pretest": True, "type": "pick", "q": "Which is one Midrash's answer to where Moses' radiance came from?", "choices": ["A bit of ink left on his quill, passed over his head", "Sunlight on the mountaintop", "Oil Aaron poured on him", "The fire of the burning bush"], "answer": 0,
+   "why": "Resh Lakish's answer, one of three in Shemot Rabbah 47:6."},
+  text("Exodus 34:29-30"),
+  term(S("Exodus 34:29-30", 11, 17), "\"Moses was not aware that the skin of his face was radiant\" (34:29). The same letters, ק־ר־ן, spell **horn** in Hannah's song (1 Samuel 2:1).", TN("Exodus 34:29")),
+  concept("Where did the light come from?", "The Midrash gives three answers. **The Rabbis**: from the cleft of the rock, where God's glory passed by (33:22). **Rabbi Berekhya**: the tablets were six handbreadths long; Moses held two, the Divine Presence held two, and **from the space between** came the rays. **Resh Lakish**: a bit of ink was left on the quill after writing the Torah, and Moses passed it over his head.", R("Shemot Rabbah 47:6")),
+  chk("q1", "rays", "why", "According to Rabbi Berekhya, where did the rays come from?", ["The space on the tablets between Moses' hands and the Divine Presence", "The burning bush", "The pillar of fire"],
+      "Light from **the space between** the human hand and God's.", ["Not in this Midrash.", "Not in this Midrash."], look_again=4),
+  text("Exodus 34:33-35"),
+  term(S("Exodus 34:33-35", 4, 7), "\"he put a veil over his face\" (34:33).", TN("Exodus 34:33")),
+  chk("q2", "veil", "pick", "When did Moses take the veil off?", ["When he spoke with God, and while he taught the people", "Only at night", "Never again"],
+      "Face uncovered **before God**, and while passing God's words **to the people** (34:34-35).", ["Not in the text.", "He took it off each time he went in before God."], look_again=6),
+  {"kind": "reflect", "prompt": "Moses does not know his face is shining; everyone else sees it first. What have others seen in you that you could not see yourself?"},
+  {"kind": "recap", "points": ["Moses' face was **radiant**, and he **did not know** (34:29).", "Shemot Rabbah 47:6: from the cleft, from **between** the hands, or from **the ink**.", "A **veil**, lifted before God and while teaching."]}]}
+
+X10 = {"id": "x-st-exo-10", "title": "Moses (10): Bezalel the builder", "status": "draft", "related": [], "parashah": ["Ki Tisa", "Vayakhel"],
+ "check_note": "Berakhot 55a read 11/12.",
+ "cards": [
+  {"kind": "hook", "title": "Called by name", "body": "God has given Moses plans for **the Tabernacle**. Now God names the artist who will build it.", "src": TN("Exodus 31:1-3")},
+  {"kind": "check", "id": "pre", "pretest": True, "type": "tf", "q": "In the Talmud, Bezalel knew how to join the letters with which heaven and earth were created.", "answer": True,
+   "why": "Rav's teaching in Berakhot 55a."},
+  text("Exodus 31:1-3"),
+  term(S("Exodus 31:1-3", 7, 8), "Bezalel (31:2). The Talmud hears his name as בְּצֵל אֵל, **in God's shadow**.", R("Exodus 31:2; Berakhot 55a")),
+  concept("In God's shadow", "**Rabbi Shmuel bar Nachmani**: God said tabernacle, then ark and vessels. Moses told Bezalel the reverse: ark, vessels, then tabernacle. Bezalel objected: people build the house first, then bring in the furniture; where would I put the vessels? Moses answered: \"Perhaps you were in God’s shadow,\" and knew exactly what God said.", R("Berakhot 55a")),
+  chk("q1", "order", "why", "In Berakhot 55a, how did Bezalel know Moses had the order backward?", ["You build the house before you put the vessels in it", "An angel told him", "He read it on the tablets"],
+      "Common sense, and a name: **in God's shadow**.", ["Not in the Talmud.", "Not in the Talmud."], look_again=4),
+  term(S("Exodus 31:1-3", 16, 19), "\"skill, ability, and knowledge\" (31:3).", TN("Exodus 31:3")),
+  concept("The letters of creation", "**Rav**: \"Bezalel knew how to join the letters with which heaven and earth were created.\" The proof: the same three words that describe Bezalel, **wisdom, understanding and knowledge**, describe how God founded the earth and the heavens (Proverbs 3:19-20).", R("Berakhot 55a")),
+  chk("q2", "letters", "why", "How does Rav show that Bezalel knew the letters of creation?", ["The same three gifts describe Bezalel and God's making of heaven and earth", "Bezalel wrote the Torah", "He was born on the first day"],
+      "**Wisdom, understanding, knowledge**: the tools of creation, given to an artist.", ["Moses wrote the Torah.", "Not in the Talmud."], look_again=7),
+  concept("Ask the people", "**Rabbi Yitzchak**: a leader may be appointed only **with the community's consent**. God asked Moses whether Bezalel was suitable, then told him: go ask Israel too. They answered: if he is right in God's eyes and yours, all the more so in ours.", R("Berakhot 55a")),
+  text("Exodus 36:5-7"),
+  term(S("Exodus 36:5-7", 3, 6), "\"The people are bringing more than is needed\" (36:5). Moses has to tell them to **stop giving**.", TN("Exodus 36:5-7")),
+  {"kind": "reflect", "prompt": "Bezalel understood the plan better than the instructions he was given. When has making something with your hands taught you what words could not?"},
+  {"kind": "recap", "points": ["Bezalel, **called by name** (31:2).", "Berakhot 55a: **in God's shadow**, house before vessels.", "Rav: he knew **the letters of creation**.", "A leader needs **the people's consent**.", "The people gave **more than enough** (36:5)."]}]}
+
+X11 = {"id": "x-st-exo-11", "title": "Moses (11): On Mount Nebo", "status": "draft", "related": [], "parashah": ["V'Zot HaBerachah"],
+ "check_note": "Bava Batra 15a, 17a and Sotah 14a read 11/12.",
+ "cards": [
+  {"kind": "hook", "title": "The view from the mountain", "body": "Moses climbs **Mount Nebo**. From the summit, God shows him the whole land, the land he will **not** enter.", "src": TN("Deuteronomy 34:1-4")},
+  {"kind": "check", "id": "pre", "pretest": True, "type": "tf", "q": "In one view in the Talmud, Moses himself wrote the verses about his own death.", "answer": True,
+   "why": "Rabbi Shimon: God dictated, and \"Moses wrote with tears.\""},
+  text("Deuteronomy 34:1"),
+  text("Deuteronomy 34:4-7"),
+  term(S("Deuteronomy 34:4-7", 24, 26), "\"at the command of יהוה\" (34:5). The Talmud reads the Hebrew literally: **by the mouth** of God.", R("Deuteronomy 34:5; Bava Batra 17a")),
+  concept("A kiss", "Six people, the Sages teach, were beyond the Angel of Death's power: Abraham, Isaac, Jacob, **Moses, Aaron and Miriam**. Of Moses and Aaron the Torah says they died **by the mouth** of God, meaning **with a kiss**. Rabbi Elazar includes Miriam too.", R("Bava Batra 17a")),
+  chk("q1", "kiss", "why", "How does Bava Batra 17a read \"by the mouth\" of God?", ["Moses died with a kiss, not by the Angel of Death", "God spoke one last commandment", "Moses died while speaking"],
+      "The last touch was **God's kiss**.", ["Not the Talmud's reading.", "Not the Talmud's reading."], look_again=5),
+  concept("God buried him", "Who buried Moses? **God**. So, says **Rabbi Chama son of Rabbi Chanina**, follow God's ways: God clothed the naked, visited the sick, comforted mourners, and **buried the dead**; so should you. **Rabbi Samlai**: the Torah begins with kindness (clothing Adam and Eve) and **ends with kindness** (burying Moses).", R("Sotah 14a")),
+  chk("q2", "bury", "why", "What does Sotah 14a learn from God burying Moses?", ["We should bury the dead, as God did", "Graves should be kept secret", "Only prophets deserve burial"],
+      "God's acts are **our pattern**: clothe, visit, comfort, bury.", ["The Talmud notes the secret grave, but the lesson is kindness.", "Not in the Talmud."], look_again=7),
+  concept("Written with tears", "Who wrote \"Moses died there\"? **Rabbi Yehuda**: Joshua wrote the last eight verses. **Rabbi Shimon**: the Torah cannot be missing a letter. Until here God dictated and Moses wrote; from here, God dictated and \"Moses wrote with tears.\" So the last eight verses are read by **one person**, without a break.", R("Bava Batra 15a")),
+  text("Deuteronomy 34:10"),
+  term(S("Deuteronomy 34:10", 8, 10), "\"face to face\" (34:10).", TN("Deuteronomy 34:10")),
+  {"kind": "reflect", "prompt": "Moses sees the land but does not enter it, and others carry on. What work of yours might someone else finish after you?"},
+  {"kind": "recap", "points": ["From Nebo, Moses **sees** the land he will not enter.", "Bava Batra 17a: he died **with a kiss**.", "Sotah 14a: **God buried him**; the Torah ends in kindness.", "Bava Batra 15a: \"Moses wrote **with tears**.\"", "**Face to face** (34:10)."]}]}
+
+LS = (X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, X11)
 for L in LS:
     for c in L["cards"]:
         if c["kind"] == "check" and "src" not in c: c["src"] = L["cards"][c.get("look_again", 0)]["src"]
-out = {"track": "stories", "units": [{"id": "x-st-exodus", "title": "Exodus", "subtitle": "Moses, from the river to Sinai", "lessons": list(LS)}]}
+out = {"track": "stories", "units": [{"id": "x-st-exodus", "title": "Exodus", "subtitle": "Moses, from the river to Mount Nebo", "lessons": list(LS)}]}
 json.dump(out, open(os.path.join(ROOT, "data/src/x-stories_exodus.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print("ok", [len(L["cards"]) for L in LS])
