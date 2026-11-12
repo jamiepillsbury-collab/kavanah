@@ -1,0 +1,323 @@
+{
+ "fetched": "2026-11-12",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Elijah unit). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "I Kings 17:1",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר אֵלִיָּהוּ הַתִּשְׁבִּי מִתֹּשָׁבֵי גִלְעָד אֶל־אַחְאָב חַי־יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר עָמַדְתִּי לְפָנָיו אִם־יִֽהְיֶה הַשָּׁנִים הָאֵלֶּה טַל וּמָטָר כִּי אִם־לְפִי דְבָרִֽי׃ {ס}"
+   ],
+   "sha": [
+    "39f52044d600361efcc176f4f11ae61b9fe4a0f08e1c0ea637a8cd0944f2154b"
+   ]
+  },
+  {
+   "ref": "I Kings 17:1",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Elijah the Tishbite, an inhabitant of Gilead, said to Ahab, “As the ETERNAL lives, the God of Israel whom I serve, there will be no dew or rain except at my bidding.”"
+   ],
+   "sha": [
+    "9a838f8e05c1f7c8d9bf65e50f122b8f3a82b8185a99080208686c8f32ae150f"
+   ]
+  },
+  {
+   "ref": "I Kings 17:6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְהָעֹרְבִים מְבִאִים לוֹ לֶחֶם וּבָשָׂר בַּבֹּקֶר וְלֶחֶם וּבָשָׂר בָּעָרֶב וּמִן־הַנַּחַל יִשְׁתֶּֽה׃"
+   ],
+   "sha": [
+    "c20845447fdbef9141b6cdc251416b321d4c17f0ed779666a60a509500486143"
+   ]
+  },
+  {
+   "ref": "I Kings 17:6",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "The ravens brought him bread and meat every morning and every evening, and he drank from the wadi."
+   ],
+   "sha": [
+    "edfa464d87f1416d4bc22f7a452900fc5d16eccb59a9877b0d46db7ca83ca57e"
+   ]
+  },
+  {
+   "ref": "I Kings 17:14-16",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "כִּי כֹה אָמַר יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל כַּד הַקֶּמַח לֹא תִכְלָה וְצַפַּחַת הַשֶּׁמֶן לֹא תֶחְסָר עַד יוֹם (תתן) [תֵּת־]יְהֹוָה גֶּשֶׁם עַל־פְּנֵי הָאֲדָמָֽה׃",
+    "וַתֵּלֶךְ וַֽתַּעֲשֶׂה כִּדְבַר אֵלִיָּהוּ וַתֹּאכַל (הוא והיא) [הִֽיא־וָהוּא] וּבֵיתָהּ יָמִֽים׃",
+    "כַּד הַקֶּמַח לֹא כָלָתָה וְצַפַּחַת הַשֶּׁמֶן לֹא חָסֵר כִּדְבַר יְהֹוָה אֲשֶׁר דִּבֶּר בְּיַד אֵֽלִיָּֽהוּ׃ {פ}"
+   ],
+   "sha": [
+    "a4d392d801c8aa0425e581d1be68c80159e89dd21ed0422b67994aad81846112",
+    "4313d531c2f54858767fa3578ed72ee23c3df6220d5a06762088b3e5416eecff",
+    "b861e2f6e7799b775f65727450be917fd16cc5ff14a1836bf76a6c204f1fb0f6"
+   ]
+  },
+  {
+   "ref": "I Kings 17:14-16",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "For thus said the ETERNAL, the God of Israel: The jar of flour shall not give out and the jug of oil shall not fail until the day that GOD sends rain upon the ground.”",
+    "She went and did as Elijah had spoken, and she and he and her household had food for a long time.",
+    "The jar of flour did not give out, nor did the jug of oil fail, just as GOD had spoken through Elijah."
+   ],
+   "sha": [
+    "a5f0cbf3f89dcc358cea5ebea53083c002ddc8b09c8e63f63f792926e3e3a4af",
+    "c7262bb699b3874fd9576fc7a8a53c213fb825000741d3c4423dc7e86251c432",
+    "e06532af9ebf7e8db92a74299c8ba2e63da2976aab22235eec0c4cfc15d20f3d"
+   ]
+  },
+  {
+   "ref": "I Kings 17:24",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתֹּאמֶר הָֽאִשָּׁה אֶל־אֵלִיָּהוּ עַתָּה זֶה יָדַעְתִּי כִּי אִישׁ אֱלֹהִים אָתָּה וּדְבַר־יְהֹוָה בְּפִיךָ אֱמֶֽת׃ {פ}"
+   ],
+   "sha": [
+    "c701703d1fb4ec85c2a6661df258e0acdf04caf7ff3d024748f35f34a154bcc6"
+   ]
+  },
+  {
+   "ref": "I Kings 17:24",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "And the woman answered Elijah, “Now I know that you are an agent of God and that the word of GOD is truly in your mouth.”"
+   ],
+   "sha": [
+    "de416c1acbbfc14339a3c214efe6196fc61e76ca3ae6216972f71e482109d8ef"
+   ]
+  },
+  {
+   "ref": "I Kings 18:21",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּגַּשׁ אֵלִיָּהוּ אֶל־כׇּל־הָעָם וַיֹּאמֶר עַד־מָתַי אַתֶּם פֹּסְחִים עַל־שְׁתֵּי הַסְּעִפִּים אִם־יְהֹוָה הָאֱלֹהִים לְכוּ אַחֲרָיו וְאִם־הַבַּעַל לְכוּ אַחֲרָיו וְלֹא־עָנוּ הָעָם אֹתוֹ דָּבָֽר׃"
+   ],
+   "sha": [
+    "dbcf0b4d94f82e9866ce9ce9ec470dbd205d7971feac0f7898a18de0aee4ba6b"
+   ]
+  },
+  {
+   "ref": "I Kings 18:21",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Elijah approached all the people and said, “How long will you keep hopping between two opinions? If the ETERNAL is God, then follow [the ETERNAL]; and if Baal, follow [Baal]!” But the people answered him not a word."
+   ],
+   "sha": [
+    "d00b20af2b230ddceabda3cf169b0fd8b77fe5697d14e8d7bb00d2a4805b03d9"
+   ]
+  },
+  {
+   "ref": "I Kings 18:36-37",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי&thinsp;׀ בַּעֲלוֹת הַמִּנְחָה וַיִּגַּשׁ אֵלִיָּהוּ הַנָּבִיא וַיֹּאמַר יְהֹוָה אֱלֹהֵי אַבְרָהָם יִצְחָק וְיִשְׂרָאֵל הַיּוֹם יִוָּדַע כִּֽי־אַתָּה אֱלֹהִים בְּיִשְׂרָאֵל וַאֲנִי עַבְדֶּךָ (ובדבריך) [וּבִדְבָרְךָ] עָשִׂיתִי אֵת כׇּל־הַדְּבָרִים הָאֵֽלֶּה׃",
+    "עֲנֵנִי יְהֹוָה עֲנֵנִי וְיֵֽדְעוּ הָעָם הַזֶּה כִּֽי־אַתָּה יְהֹוָה הָאֱלֹהִים וְאַתָּה הֲסִבֹּתָ אֶת־לִבָּם אֲחֹרַנִּֽית׃"
+   ],
+   "sha": [
+    "fe5a0cd1d122cac127afa35a2750e25c6cfb72dc93aefc713199cafde1f6136c",
+    "80e7dbcb6ca8499e71352bee04d0dc8efa6becb72e25a19d87a8f52487435c89"
+   ]
+  },
+  {
+   "ref": "I Kings 18:36-37",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "When it was time to present the grain offering, the prophet Elijah came forward and said, “O ETERNAL One, God of Abraham, Isaac, and Israel! Let it be known today that You are God in Israel and that I am Your servant, and that I have done all these things at Your bidding.",
+    "Answer me, O ETERNAL One, answer me, that this people may know that You, O ETERNAL One, are God; for You have turned their hearts backward.”"
+   ],
+   "sha": [
+    "1457e70410d238c4ab62313a53a388bd631a5442b39b8897f3d2ed08ef0fc5dc",
+    "8530d31424739e7bf11796c239bc3c8dcc29f15ff8e4f28eb02f04c9139f5c4a"
+   ]
+  },
+  {
+   "ref": "I Kings 18:38-39",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתִּפֹּל אֵשׁ־יְהֹוָה וַתֹּאכַל אֶת־הָעֹלָה וְאֶת־הָֽעֵצִים וְאֶת־הָאֲבָנִים וְאֶת־הֶֽעָפָר וְאֶת־הַמַּיִם אֲשֶׁר־בַּתְּעָלָה לִחֵֽכָה׃",
+    "וַיַּרְא כׇּל־הָעָם וַֽיִּפְּלוּ עַל־פְּנֵיהֶם וַיֹּאמְרוּ יְהֹוָה הוּא הָאֱלֹהִים יְהֹוָה הוּא הָאֱלֹהִֽים׃"
+   ],
+   "sha": [
+    "d4dfdc0bed1795491ab08512aef64c6883cace5dd203124c7613c00377410e1c",
+    "a80148d3c1410aa50bd9ecd6a77f5fc739316d9ee15b19b122965a6213d1f2d2"
+   ]
+  },
+  {
+   "ref": "I Kings 18:38-39",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then fire from GOD descended and consumed the burnt offering, the wood, the stones, and the earth; and it licked up the water that was in the trench.",
+    "When they saw this, all the people flung themselves on their faces and cried out: “the ETERNAL One alone is God, the ETERNAL One alone is God!”"
+   ],
+   "sha": [
+    "aff37ffa422dcfb79a27a47202f68a5f702bca212899ede2cde8b488205e6dc9",
+    "4e85edeac94faf7a1738c737ba5f2e2ed8b875e96c24caf9dc90c7cc4552a171"
+   ]
+  },
+  {
+   "ref": "I Kings 19:4",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְהֽוּא־הָלַךְ בַּמִּדְבָּר דֶּרֶךְ יוֹם וַיָּבֹא וַיֵּשֶׁב תַּחַת רֹתֶם (אחת) [אֶחָד] וַיִּשְׁאַל אֶת־נַפְשׁוֹ לָמוּת וַיֹּאמֶר&thinsp;׀ רַב עַתָּה יְהֹוָה קַח נַפְשִׁי כִּֽי־לֹא־טוֹב אָנֹכִי מֵאֲבֹתָֽי׃"
+   ],
+   "sha": [
+    "7db395ad9daa5e1e7c7f36ad43667f8bcae9811ac941cc9ecbfa9f8207206986"
+   ]
+  },
+  {
+   "ref": "I Kings 19:4",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "he himself went a day’s journey into the wilderness. He came to a broom bush and sat down under it, and prayed that he might die. “Enough!” he cried. “Now, O ETERNAL One, take my life, for I am no better than my predecessors.”"
+   ],
+   "sha": [
+    "f058a66b9887c52bb8639569988c19f0a2f4bd37c62a913194e3c0dbf0f4a0a2"
+   ]
+  },
+  {
+   "ref": "I Kings 19:11-12",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר צֵא וְעָמַדְתָּ בָהָר לִפְנֵי יְהֹוָה וְהִנֵּה יְהֹוָה עֹבֵר וְרוּחַ גְּדוֹלָה וְחָזָק מְפָרֵק הָרִים וּמְשַׁבֵּר סְלָעִים לִפְנֵי יְהֹוָה לֹא בָרוּחַ יְהֹוָה וְאַחַר הָרוּחַ רַעַשׁ לֹא בָרַעַשׁ יְהֹוָֽה׃",
+    "וְאַחַר הָרַעַשׁ אֵשׁ לֹא בָאֵשׁ יְהֹוָה וְאַחַר הָאֵשׁ קוֹל דְּמָמָה דַקָּֽה׃"
+   ],
+   "sha": [
+    "050ba2fc613aa27f811e33e6a66a388a90af5eb78b1e593474b3c5bc843f7187",
+    "9b5701d668f7232c37ca0d4f8190d15ddb9860fb0580136ba509af5f4a6efd74"
+   ]
+  },
+  {
+   "ref": "I Kings 19:11-12",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "“Come out,” He called, “and stand on the mountain before GOD.”And lo, GOD passed by. There was a great and mighty wind, splitting mountains and shattering rocks by GOD’s power; but GOD was not in the wind. After the wind—an earthquake; but GOD was not in the earthquake.",
+    "After the earthquake—fire; but GOD was not in the fire. And after the fire—a soft murmuring sound."
+   ],
+   "sha": [
+    "77037c63b7c06b3e7d06d46b778e8e1d2f1ee575ecac2dfe2df4c517fa819907",
+    "b136594298b98205c1efea660ce54c96e858a250be21f1394b3c0d07eb143a98"
+   ]
+  },
+  {
+   "ref": "I Kings 19:13-14",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי&thinsp;׀ כִּשְׁמֹעַ אֵלִיָּהוּ וַיָּלֶט פָּנָיו בְּאַדַּרְתּוֹ וַיֵּצֵא וַֽיַּעֲמֹד פֶּתַח הַמְּעָרָה וְהִנֵּה אֵלָיו קוֹל וַיֹּאמֶר מַה־לְּךָ פֹה אֵלִיָּֽהוּ׃",
+    "וַיֹּאמֶר קַנֹּא קִנֵּאתִי לַיהֹוָה&thinsp;׀ אֱלֹהֵי צְבָאוֹת כִּֽי־עָזְבוּ בְרִֽיתְךָ בְּנֵי יִשְׂרָאֵל אֶת־מִזְבְּחֹתֶיךָ הָרָסוּ וְאֶת־נְבִיאֶיךָ הָרְגוּ בֶחָרֶב וָאִוָּתֵר אֲנִי לְבַדִּי וַיְבַקְשׁוּ אֶת־נַפְשִׁי לְקַחְתָּֽהּ׃ {ס}"
+   ],
+   "sha": [
+    "cdc4d81c2702a2c86bbd297a97ffc0e802e51dc7aacf6bcad47a1fe03aeaab25",
+    "cbafae75b5b5bd568c8d63477ae9c409b58c1cc807253ac8eda20b99931c77d8"
+   ]
+  },
+  {
+   "ref": "I Kings 19:13-14",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "When Elijah heard it, he wrapped his mantle about his face and went out and stood at the entrance of the cave. Then a voice addressed him: “Why are you here, Elijah?”",
+    "He answered, “I am moved by zeal for the ETERNAL, the God of Hosts; for the Israelites have forsaken Your covenant, torn down Your altars, and have put Your prophets to the sword. I alone am left, and they are out to take my life.”"
+   ],
+   "sha": [
+    "0641454469a5954d5fdfa8323697a20a9685547a7645ded5a5342eadc1d47005",
+    "874a8dc25cc1c66c17320b96506058653c62035a9eeae3729df2151657e19d2a"
+   ]
+  },
+  {
+   "ref": "II Kings 2:11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיְהִי הֵמָּה הֹלְכִים הָלוֹךְ וְדַבֵּר וְהִנֵּה רֶֽכֶב־אֵשׁ וְסוּסֵי אֵשׁ וַיַּפְרִדוּ בֵּין שְׁנֵיהֶם וַיַּעַל אֵלִיָּהוּ בַּֽסְעָרָה הַשָּׁמָֽיִם׃"
+   ],
+   "sha": [
+    "cc1d2bfa22ae10b3f9474a17cab587d7c9820cf4b871c9cf5790fbf8e6743bdd"
+   ]
+  },
+  {
+   "ref": "II Kings 2:11",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "As they kept on walking and talking, a fiery chariot with fiery horses suddenly appeared and separated one from the other; and Elijah went up to heaven in a whirlwind."
+   ],
+   "sha": [
+    "22785dc1e0c79cf25609699760ea089b7a2e695f6bb40142ead614d403917c7a"
+   ]
+  },
+  {
+   "ref": "Malachi 3:23-24",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "הִנֵּה אָנֹכִי שֹׁלֵחַ לָכֶם אֵת אֵלִיָּה הַנָּבִיא לִפְנֵי בּוֹא יוֹם יְהֹוָה הַגָּדוֹל וְהַנּוֹרָֽא׃",
+    "וְהֵשִׁיב לֵב־אָבוֹת עַל־בָּנִים וְלֵב בָּנִים עַל־אֲבוֹתָם פֶּן־אָבוֹא וְהִכֵּיתִי אֶת־הָאָרֶץ חֵֽרֶם׃"
+   ],
+   "sha": [
+    "59f8f52f29606f3696decd376013f9006ae83a681896fd576cfdfd26b2820709",
+    "fa25f1be6a765e6289f7aa8927ddf484ba20ac32c3b0d5481c8540796e126930"
+   ]
+  },
+  {
+   "ref": "Malachi 3:23-24",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Lo, I will send the prophet Elijah to you before the coming of the awesome, fearful day of GOD.",
+    "He shall reconcile parents with children and children with their parents, so that, when I come, I do not strike the whole land with utter destruction.Lo, I will send the prophet Elijah to you before the coming of the awesome, fearful day of GOD."
+   ],
+   "sha": [
+    "c8a0ef6c3572c5bde62925aba9ab060166579d1d495d0c8d3b7a3aa0718eecae",
+    "7c29c06edfb0b5936d78b623db10d0df1f69c82970fa4214404ebe9e68b6526f"
+   ]
+  }
+ ]
+}

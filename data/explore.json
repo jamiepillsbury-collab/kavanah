@@ -6382,6 +6382,781 @@
      ]
     },
     {
+     "id": "x-st-elijah",
+     "title": "Elijah",
+     "subtitle": "The prophet who did not die",
+     "lessons": [
+      {
+       "id": "x-st-eli-01",
+       "title": "Elijah (1): The key to the rain",
+       "status": "draft",
+       "related": [],
+       "check_note": "Sanhedrin 113a and Chullin 5a read on Sefaria 11/12. English: JPS Tanakh Gender-Sensitive.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "No dew, no rain",
+         "body": "**Elijah** appears with no introduction and makes King **Ahab** an oath: no rain until Elijah says so.",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 17:1"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "In the Talmud, which key did God take back from Elijah in exchange for another?",
+         "choices": [
+          "The key of rain, for the key of reviving the dead",
+          "The key of the Temple, for the key of heaven",
+          "The key of birth, for the key of rain",
+          "None; Elijah kept every key"
+         ],
+         "answer": 0,
+         "why": "Three keys are not handed to an agent; Elijah could hold only one at a time.",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 17:1"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Kings 17:1",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 17:1"
+         },
+         "ref": "I Kings 17:1",
+         "he": "וַיֹּאמֶר אֵלִיָּהוּ הַתִּשְׁבִּי מִתֹּשָׁבֵי גִלְעָד אֶל־אַחְאָב חַי־יְיָ אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר עָמַדְתִּי לְפָנָיו אִם־יִֽהְיֶה הַשָּׁנִים הָאֵלֶּה טַל וּמָטָר כִּי אִם־לְפִי דְבָרִֽי׃",
+         "en": "Elijah the Tishbite, an inhabitant of Gilead, said to Ahab, “As the ETERNAL lives, the God of Israel whom I serve, there will be no dew or rain except at my bidding.”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomer eiliyahu hatishbi mitoshavei gil'ad el ach'av chai Adonai Elohei Yisrael asher amadti l'fanav im yihyeh hashanim ha-eileh tal umatar ki im l'fi d'vari."
+        },
+        {
+         "kind": "term",
+         "he": "אִם־יִֽהְיֶה הַשָּׁנִים הָאֵלֶּה טַל וּמָטָר כִּי אִם־לְפִי דְבָרִֽי׃",
+         "tl": "Im yihyeh hashanim ha-eileh tal umatar ki im l'fi d'vari.",
+         "gloss": "\"there will be no dew or rain except at my bidding\" (17:1).",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 17:1"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Why Elijah swore",
+         "body": "The Talmud sets the scene in a house of mourning. **Ahab** mocks Elijah: Moses warned that if Israel served other gods, the heavens would close and there would be no rain. Yet Ahab has set up an idol on every furrow, and the rain is so plentiful he can hardly get out to worship them. **Immediately** Elijah swears, prays, and is given **the key to the rain**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sanhedrin 113a"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Kings 17:6",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 17:6"
+         },
+         "ref": "I Kings 17:6",
+         "he": "וְהָעֹרְבִים מְבִאִים לוֹ לֶחֶם וּבָשָׂר בַּבֹּקֶר וְלֶחֶם וּבָשָׂר בָּעָרֶב וּמִן־הַנַּחַל יִשְׁתֶּֽה׃",
+         "en": "The ravens brought him bread and meat every morning and every evening, and he drank from the wadi.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "V'ha-orvim m'vi-im lo lechem uvasar baboker v'lechem uvasar ba-arev umin hanachal yishteh.",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Ravens",
+         "body": "Where did the ravens get bread and meat? **Rav**: from **Ahab's own slaughterhouse**. Were they really ravens? **Ravina**: yes, actual ravens, not two men who happened to be named Oreb.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Chullin 5a; Sanhedrin 113a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "ravens",
+         "type": "pick",
+         "q": "According to Rav, where did the ravens bring Elijah's meat from?",
+         "choices": [
+          "Ahab's slaughterhouse",
+          "The Temple altar",
+          "The widow's kitchen"
+         ],
+         "answer": 0,
+         "why": "The king who hunted Elijah **fed him**, without knowing it.",
+         "wrong_why": [
+          null,
+          "Not in the Talmud.",
+          "He meets the widow later."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Chullin 5a; Sanhedrin 113a"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Kings 17:14-16",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 17:14-16"
+         },
+         "ref": "I Kings 17:14-16",
+         "he": "כִּי כֹה אָמַר יְיָ אֱלֹהֵי יִשְׂרָאֵל כַּד הַקֶּמַח לֹא תִכְלָה וְצַפַּחַת הַשֶּׁמֶן לֹא תֶחְסָר עַד יוֹם תֵּת־יְיָ גֶּשֶׁם עַל־פְּנֵי הָאֲדָמָֽה׃\nוַתֵּלֶךְ וַֽתַּעֲשֶׂה כִּדְבַר אֵלִיָּהוּ וַתֹּאכַל הִֽיא־וָהוּא וּבֵיתָהּ יָמִֽים׃\nכַּד הַקֶּמַח לֹא כָלָתָה וְצַפַּחַת הַשֶּׁמֶן לֹא חָסֵר כִּדְבַר יְיָ אֲשֶׁר דִּבֶּר בְּיַד אֵֽלִיָּֽהוּ׃",
+         "en": "For thus said the ETERNAL, the God of Israel: The jar of flour shall not give out and the jug of oil shall not fail until the day that GOD sends rain upon the ground.” She went and did as Elijah had spoken, and she and he and her household had food for a long time. The jar of flour did not give out, nor did the jug of oil fail, just as GOD had spoken through Elijah.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Ki cho amar Adonai Elohei Yisrael kad hakemach lo tichlah v'tzapachat hashemen lo techsar ad yom teit Adonai geshem al p'nei ha-adamah.\nVateilech vata-aseh kidvar eiliyahu vatochal hi vahu uveitah yamim.\nKad hakemach lo chalatah v'tzapachat hashemen lo chaseir kidvar Adonai asher diber b'yad eiliyahu."
+        },
+        {
+         "kind": "concept",
+         "title": "Three keys",
+         "body": "The stream dries up. The Talmud says God saw the world suffering while Elijah **was not moved by it**, so God sent him to a widow in Zarephath. When her son fell ill, Elijah asked for **the key to reviving the dead**. Heaven answered: three keys are not given to an agent, birth, rain and resurrection. People will say the student holds two keys and the Master one. **Give back the rain**, and take this key. A Galilean compared Elijah to a man who **slammed his door and lost his key**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sanhedrin 113a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "keys",
+         "type": "why",
+         "q": "Why, in Sanhedrin 113a, did Elijah have to give back the key to the rain?",
+         "choices": [
+          "To receive the key to reviving the widow's son",
+          "Ahab stole it",
+          "The drought had ended by itself"
+         ],
+         "answer": 0,
+         "why": "Compassion for one child **unlocks the rain** for everyone.",
+         "wrong_why": [
+          null,
+          "Not in the Talmud.",
+          "Elijah had to give the key back for rain to fall."
+         ],
+         "look_again": 9,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sanhedrin 113a"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Kings 17:24",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 17:24"
+         },
+         "ref": "I Kings 17:24",
+         "he": "וַתֹּאמֶר הָֽאִשָּׁה אֶל־אֵלִיָּהוּ עַתָּה זֶה יָדַעְתִּי כִּי אִישׁ אֱלֹהִים אָתָּה וּדְבַר־יְיָ בְּפִיךָ אֱמֶֽת׃",
+         "en": "And the woman answered Elijah, “Now I know that you are an agent of God and that the word of GOD is truly in your mouth.”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vatomer ha-ishah el eiliyahu atah zeh yadati ki ish Elohim atah ud'var Adonai b'ficha emet."
+        },
+        {
+         "kind": "reflect",
+         "prompt": "In the Talmud, Elijah held the key to the rain but was slow to feel the people's suffering. When has being right made it harder for you to be kind?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Elijah swears: **no dew or rain** (17:1).",
+          "Sanhedrin 113a: provoked by **Ahab's mockery**, he is given **the key**.",
+          "Rav: the ravens brought meat from **Ahab's** slaughterhouse.",
+          "**Three keys**: rain is given back for the widow's son."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-eli-02",
+       "title": "Elijah (2): Fire on Mount Carmel",
+       "status": "draft",
+       "related": [],
+       "check_note": "Berakhot 6b and 9b read on Sefaria 11/12. Neilah card: CHECK wording in Mishkan HaNefesh and CBB practice.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A contest",
+         "body": "Elijah gathers all the people, and the prophets of Baal, on **Mount Carmel**. Two altars, two bulls, and one question: who answers with fire?",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 18:19-24"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "Which daily prayer does the Talmud connect to Elijah's answer on Mount Carmel?",
+         "choices": [
+          "Minchah, the afternoon prayer",
+          "Shacharit, the morning prayer",
+          "Ma'ariv, the evening prayer",
+          "Musaf"
+         ],
+         "answer": 0,
+         "why": "He was answered at the time of **the minchah offering** (18:36).",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 18:19-24"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Kings 18:21",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 18:21"
+         },
+         "ref": "I Kings 18:21",
+         "he": "וַיִּגַּשׁ אֵלִיָּהוּ אֶל־כׇּל־הָעָם וַיֹּאמֶר עַד־מָתַי אַתֶּם פֹּסְחִים עַל־שְׁתֵּי הַסְּעִפִּים אִם־יְיָ הָאֱלֹהִים לְכוּ אַחֲרָיו וְאִם־הַבַּעַל לְכוּ אַחֲרָיו וְלֹא־עָנוּ הָעָם אֹתוֹ דָּבָֽר׃",
+         "en": "Elijah approached all the people and said, “How long will you keep hopping between two opinions? If the ETERNAL is God, then follow [the ETERNAL]; and if Baal, follow [Baal]!” But the people answered him not a word.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayigash eiliyahu el kol ha-am vayomer ad matai atem poschim al sh'tei has'ipim im Adonai ha-Elohim l'chu acharav v'im haba-al l'chu acharav v'lo anu ha-am oto davar.",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "עַד־מָתַי אַתֶּם פֹּסְחִים עַל־שְׁתֵּי הַסְּעִפִּים",
+         "tl": "Ad matai atem poschim al sh'tei has'ipim",
+         "gloss": "\"How long will you keep hopping between two opinions?\" (18:21). The verb shares its letters with **פֶּסַח**, Passover.",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 18:21"
+         },
+         "tlf": true
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Kings 18:36-37",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 18:36-37"
+         },
+         "ref": "I Kings 18:36-37",
+         "he": "וַיְהִי ׀ בַּעֲלוֹת הַמִּנְחָה וַיִּגַּשׁ אֵלִיָּהוּ הַנָּבִיא וַיֹּאמַר יְיָ אֱלֹהֵי אַבְרָהָם יִצְחָק וְיִשְׂרָאֵל הַיּוֹם יִוָּדַע כִּֽי־אַתָּה אֱלֹהִים בְּיִשְׂרָאֵל וַאֲנִי עַבְדֶּךָ וּבִדְבָרְךָ עָשִׂיתִי אֵת כׇּל־הַדְּבָרִים הָאֵֽלֶּה׃\nעֲנֵנִי יְיָ עֲנֵנִי וְיֵֽדְעוּ הָעָם הַזֶּה כִּֽי־אַתָּה יְיָ הָאֱלֹהִים וְאַתָּה הֲסִבֹּתָ אֶת־לִבָּם אֲחֹרַנִּֽית׃",
+         "en": "When it was time to present the grain offering, the prophet Elijah came forward and said, “O ETERNAL One, God of Abraham, Isaac, and Israel! Let it be known today that You are God in Israel and that I am Your servant, and that I have done all these things at Your bidding. Answer me, O ETERNAL One, answer me, that this people may know that You, O ETERNAL One, are God; for You have turned their hearts backward.”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vay'hi  ba-alot haminchah vayigash eiliyahu hanavi vayomar Adonai Elohei Avraham Yitzchak v'Yisrael hayom yivada ki atah Elohim b'Yisrael va-ani avdecha uvidvarcha asiti eit kol had'varim ha-eileh.\nAneini Adonai aneini v'yeid'u ha-am hazeh ki atah Adonai ha-Elohim v'atah hasibota et libam achoranit.",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Answered at Minchah",
+         "body": "**Rav Huna**: always be careful with **the afternoon prayer**, because Elijah was answered only at the afternoon prayer. The verse begins: when it was time to present the **minchah**, the grain offering.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 6b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "minchah",
+         "type": "why",
+         "q": "Why does Rav Huna say to be careful with the afternoon prayer?",
+         "choices": [
+          "Elijah was answered at the afternoon prayer",
+          "It is the longest prayer",
+          "Moses wrote it"
+         ],
+         "answer": 0,
+         "why": "At **Minchah**, fire came down.",
+         "wrong_why": [
+          null,
+          "It is the shortest of the three.",
+          "Not in the Talmud."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 6b"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "עֲנֵנִי יְיָ עֲנֵנִי",
+         "tl": "Aneini Adonai aneini",
+         "gloss": "\"Answer me, O ETERNAL One, answer me\" (18:37).",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 18:37"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Answer me, twice",
+         "body": "**Rabbi Abbahu**: why say \"answer me\" twice? The first: answer me with **fire** from heaven. The second: answer me so the people **will not say it was sorcery**. Elijah adds, \"You have turned their hearts backward\": the God who turned their hearts can **turn them back**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 9b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "twice",
+         "type": "why",
+         "q": "According to Rabbi Abbahu, what was Elijah's second \"answer me\" for?",
+         "choices": [
+          "That the people would not dismiss the fire as sorcery",
+          "That it would rain",
+          "That Ahab would die"
+         ],
+         "answer": 0,
+         "why": "A miracle is not enough; **hearts** have to turn too.",
+         "wrong_why": [
+          null,
+          "Rain comes later.",
+          "Not in the Talmud."
+         ],
+         "look_again": 8,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 9b"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Kings 18:38-39",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 18:38-39"
+         },
+         "ref": "I Kings 18:38-39",
+         "he": "וַתִּפֹּל אֵשׁ־יְיָ וַתֹּאכַל אֶת־הָעֹלָה וְאֶת־הָֽעֵצִים וְאֶת־הָאֲבָנִים וְאֶת־הֶֽעָפָר וְאֶת־הַמַּיִם אֲשֶׁר־בַּתְּעָלָה לִחֵֽכָה׃\nוַיַּרְא כׇּל־הָעָם וַֽיִּפְּלוּ עַל־פְּנֵיהֶם וַיֹּאמְרוּ יְיָ הוּא הָאֱלֹהִים יְיָ הוּא הָאֱלֹהִֽים׃",
+         "en": "Then fire from GOD descended and consumed the burnt offering, the wood, the stones, and the earth; and it licked up the water that was in the trench. When they saw this, all the people flung themselves on their faces and cried out: “the ETERNAL One alone is God, the ETERNAL One alone is God!”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vatipol eish Adonai vatochal et ha-olah v'et ha-eitzim v'et ha-avanim v'et he-afar v'et hamayim asher bat'alah licheichah.\nVayar kol ha-am vayip'lu al p'neihem vayomru Adonai hu ha-Elohim Adonai hu ha-Elohim.",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "יְיָ הוּא הָאֱלֹהִים יְיָ הוּא הָאֱלֹהִֽים׃",
+         "tl": "Adonai hu ha-Elohim Adonai hu ha-Elohim.",
+         "gloss": "\"the ETERNAL One alone is God, the ETERNAL One alone is God!\" (18:39).",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 18:39"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "At the close of Yom Kippur",
+         "body": "The people's cry from Carmel is called out again at the very end of **Yom Kippur**, as **Neilah** closes.",
+         "src": {
+          "type": "tradition",
+          "ref": "1 Kings 18:39 in the Neilah service",
+          "note": "CHECK: Mishkan HaNefesh wording and CBB practice"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Elijah asked the people how long they would keep hopping between two opinions. Where are you still hopping?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**Hopping between two opinions**\" (18:21).",
+          "Berakhot 6b: answered at **Minchah**.",
+          "Berakhot 9b: answer me twice: **fire**, and **hearts**.",
+          "\"**The ETERNAL One alone is God**\" (18:39), again at Neilah."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-eli-03",
+       "title": "Elijah (3): A soft murmuring sound",
+       "status": "draft",
+       "related": [],
+       "check_note": "Pirkei DeRabbi Eliezer 29 (Friedlander) read on Sefaria 11/12. Rabbi's-teaching card: the connection is mine; check with Jamie.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Enough",
+         "body": "After Carmel, Queen **Jezebel** seeks Elijah's life. The prophet who called down fire runs into the wilderness, sits under a bush, and **asks to die**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "I Kings 19:1-4; Pirkei DeRabbi Eliezer 29"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "According to the Midrash, Elijah attends every brit milah.",
+         "answer": 0,
+         "why": "Pirkei d'Rabbi Eliezer 29: so the Sages set a **seat of honor** for him.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "I Kings 19:1-4; Pirkei DeRabbi Eliezer 29"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Kings 19:4",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 19:4"
+         },
+         "ref": "I Kings 19:4",
+         "he": "וְהֽוּא־הָלַךְ בַּמִּדְבָּר דֶּרֶךְ יוֹם וַיָּבֹא וַיֵּשֶׁב תַּחַת רֹתֶם אֶחָד וַיִּשְׁאַל אֶת־נַפְשׁוֹ לָמוּת וַיֹּאמֶר ׀ רַב עַתָּה יְיָ קַח נַפְשִׁי כִּֽי־לֹא־טוֹב אָנֹכִי מֵאֲבֹתָֽי׃",
+         "en": "he himself went a day’s journey into the wilderness. He came to a broom bush and sat down under it, and prayed that he might die. “Enough!” he cried. “Now, O ETERNAL One, take my life, for I am no better than my predecessors.”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "V'hu halach bamidbar derech yom vayavo vayeishev tachat rotem echad vayish'al et nafsho lamut vayomer  rav atah Adonai kach nafshi ki lo tov anochi mei-avotai."
+        },
+        {
+         "kind": "term",
+         "he": "רַב עַתָּה יְיָ קַח נַפְשִׁי כִּֽי־לֹא־טוֹב אָנֹכִי מֵאֲבֹתָֽי׃",
+         "tl": "Rav atah Adonai kach nafshi ki lo tov anochi mei-avotai.",
+         "gloss": "\"take my life, for I am no better than my predecessors\" (19:4).",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 19:4"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Kings 19:11-12",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 19:11-12"
+         },
+         "ref": "I Kings 19:11-12",
+         "he": "וַיֹּאמֶר צֵא וְעָמַדְתָּ בָהָר לִפְנֵי יְיָ וְהִנֵּה יְיָ עֹבֵר וְרוּחַ גְּדוֹלָה וְחָזָק מְפָרֵק הָרִים וּמְשַׁבֵּר סְלָעִים לִפְנֵי יְיָ לֹא בָרוּחַ יְיָ וְאַחַר הָרוּחַ רַעַשׁ לֹא בָרַעַשׁ יְהֹוָֽה׃\nוְאַחַר הָרַעַשׁ אֵשׁ לֹא בָאֵשׁ יְיָ וְאַחַר הָאֵשׁ קוֹל דְּמָמָה דַקָּֽה׃",
+         "en": "“Come out,” He called, “and stand on the mountain before GOD.”And lo, GOD passed by. There was a great and mighty wind, splitting mountains and shattering rocks by GOD’s power; but GOD was not in the wind. After the wind—an earthquake; but GOD was not in the earthquake. After the earthquake—fire; but GOD was not in the fire. And after the fire—a soft murmuring sound.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomer tzei v'amadta vahar lifnei Adonai v'hinei Adonai oveir v'ruach g'dolah v'chazak m'fareik harim um'shabeir s'la-im lifnei Adonai lo varuach Adonai v'achar haruach ra-ash lo vara-ash Adonai.\nV'achar hara-ash eish lo va-eish Adonai v'achar ha-eish kol d'mamah dakah."
+        },
+        {
+         "kind": "term",
+         "he": "קוֹל דְּמָמָה דַקָּֽה׃",
+         "tl": "Kol d'mamah dakah.",
+         "gloss": "\"a soft murmuring sound\" (19:12). GOD was not in the wind, not in the earthquake, not in the fire.",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 19:11-12"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "voice",
+         "type": "pick",
+         "q": "After the wind, the earthquake and the fire, how does God come to Elijah?",
+         "choices": [
+          "In a soft murmuring sound",
+          "In the fire",
+          "In the earthquake"
+         ],
+         "answer": 0,
+         "why": "Not in the noise: in **a soft murmuring sound**.",
+         "wrong_why": [
+          null,
+          "God was not in the fire.",
+          "God was not in the earthquake."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 19:11-12"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Kings 19:13-14",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Kings 19:13-14"
+         },
+         "ref": "I Kings 19:13-14",
+         "he": "וַיְהִי ׀ כִּשְׁמֹעַ אֵלִיָּהוּ וַיָּלֶט פָּנָיו בְּאַדַּרְתּוֹ וַיֵּצֵא וַֽיַּעֲמֹד פֶּתַח הַמְּעָרָה וְהִנֵּה אֵלָיו קוֹל וַיֹּאמֶר מַה־לְּךָ פֹה אֵלִיָּֽהוּ׃\nוַיֹּאמֶר קַנֹּא קִנֵּאתִי לַיהֹוָה ׀ אֱלֹהֵי צְבָאוֹת כִּֽי־עָזְבוּ בְרִֽיתְךָ בְּנֵי יִשְׂרָאֵל אֶת־מִזְבְּחֹתֶיךָ הָרָסוּ וְאֶת־נְבִיאֶיךָ הָרְגוּ בֶחָרֶב וָאִוָּתֵר אֲנִי לְבַדִּי וַיְבַקְשׁוּ אֶת־נַפְשִׁי לְקַחְתָּֽהּ׃",
+         "en": "When Elijah heard it, he wrapped his mantle about his face and went out and stood at the entrance of the cave. Then a voice addressed him: “Why are you here, Elijah?” He answered, “I am moved by zeal for the ETERNAL, the God of Hosts; for the Israelites have forsaken Your covenant, torn down Your altars, and have put Your prophets to the sword. I alone am left, and they are out to take my life.”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vay'hi  kishmoa eiliyahu vayalet panav b'adarto vayeitzei vaya-amod petach ham'arah v'hinei eilav kol vayomer ma l'cha fo eiliyahu.\nVayomer kano kineiti laihovah  Elohei tz'va-ot ki azvu v'ritcha b'nei Yisrael et mizb'chotecha harasu v'et n'vi-echa hargu vecharev va-ivateir ani l'vadi vayvakshu et nafshi l'kachtah.",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Always zealous",
+         "body": "In **Pirkei d'Rabbi Eliezer**, Elijah's complaint is about the **covenant of circumcision**, which the northern kingdom had abandoned. God answers: \"Thou art always zealous!\" Then: by your life, Israel will not perform this covenant **until you see it with your own eyes**. So the Sages set **a seat of honor** at every brit for Elijah, called the Messenger of the Covenant (Malachi 3:1).",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Pirkei DeRabbi Eliezer 29"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "covenant",
+         "type": "why",
+         "q": "In Pirkei d'Rabbi Eliezer 29, why is Elijah present at every brit?",
+         "choices": [
+          "He said Israel had abandoned the covenant, so he must witness them keeping it",
+          "He was the first mohel",
+          "He asked to be invited"
+         ],
+         "answer": 0,
+         "why": "The accuser becomes **the witness** to Israel's faithfulness.",
+         "wrong_why": [
+          null,
+          "Not in the Midrash.",
+          "Not in the Midrash."
+         ],
+         "look_again": 8,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Pirkei DeRabbi Eliezer 29"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "God in the quiet",
+         "body": "Your rabbi reads the Torah as a people **growing up**: from a child's hero-God who fixes everything, toward God present in quieter ways. Elijah lives both stages in two chapters. On Carmel, God answers with **fire**. At Horeb, God is not in the wind, the earthquake or the fire, but in **a soft murmuring sound**.",
+         "src": {
+          "type": "reform",
+          "ref": "Teaching from Jamie's rabbi (oral, as Jamie retold it); I Kings 18-19",
+          "note": "connection to Elijah is mine; check with Jamie"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "God was not in the fire, but in a soft murmuring sound. Where do you hear that quiet voice?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**Enough!**\" Elijah asks to die (19:4).",
+          "Not in wind, earthquake or fire: **a soft murmuring sound** (19:12).",
+          "Pirkei d'Rabbi Eliezer 29: \"**always zealous**\", so Elijah witnesses every brit.",
+          "Your rabbi: from fire to **quiet**."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-eli-04",
+       "title": "Elijah (4): The one who comes back",
+       "status": "draft",
+       "related": [],
+       "check_note": "Bava Metzia 59b and Sanhedrin 98a read on Sefaria 11/12. Seder/Havdalah card: CHECK CBB and Mishkan T'filah practice.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A chariot of fire",
+         "body": "Elijah does not die. Walking and talking with his student **Elisha**, he is taken up to heaven in a whirlwind.",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Kings 2:11"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "In the Talmud, how did God react when the Sages overruled a voice from heaven?",
+         "choices": [
+          "God smiled: \"My children have triumphed over Me\"",
+          "God sent a flood",
+          "God took back the Torah",
+          "God was silent forever"
+         ],
+         "answer": 0,
+         "why": "Elijah reports it to Rabbi Natan in Bava Metzia 59b.",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Kings 2:11"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "II Kings 2:11",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Kings 2:11"
+         },
+         "ref": "II Kings 2:11",
+         "he": "וַיְהִי הֵמָּה הֹלְכִים הָלוֹךְ וְדַבֵּר וְהִנֵּה רֶֽכֶב־אֵשׁ וְסוּסֵי אֵשׁ וַיַּפְרִדוּ בֵּין שְׁנֵיהֶם וַיַּעַל אֵלִיָּהוּ בַּֽסְעָרָה הַשָּׁמָֽיִם׃",
+         "en": "As they kept on walking and talking, a fiery chariot with fiery horses suddenly appeared and separated one from the other; and Elijah went up to heaven in a whirlwind.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vay'hi heimah holchim haloch v'dabeir v'hinei rechev eish v'susei eish vayafridu bein sh'neihem vaya-al eiliyahu bas'arah hashamayim.",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "רֶֽכֶב־אֵשׁ וְסוּסֵי אֵשׁ",
+         "tl": "Rechev eish v'susei eish",
+         "gloss": "\"a fiery chariot with fiery horses\" (2:11).",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Kings 2:11"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Malachi 3:23-24",
+         "src": {
+          "type": "tanakh",
+          "ref": "Malachi 3:23-24"
+         },
+         "ref": "Malachi 3:23-24",
+         "he": "הִנֵּה אָנֹכִי שֹׁלֵחַ לָכֶם אֵת אֵלִיָּה הַנָּבִיא לִפְנֵי בּוֹא יוֹם יְיָ הַגָּדוֹל וְהַנּוֹרָֽא׃\nוְהֵשִׁיב לֵב־אָבוֹת עַל־בָּנִים וְלֵב בָּנִים עַל־אֲבוֹתָם פֶּן־אָבוֹא וְהִכֵּיתִי אֶת־הָאָרֶץ חֵֽרֶם׃",
+         "en": "Lo, I will send the prophet Elijah to you before the coming of the awesome, fearful day of GOD. He shall reconcile parents with children and children with their parents, so that, when I come, I do not strike the whole land with utter destruction. Lo, I will send the prophet Elijah to you before the coming of the awesome, fearful day of GOD.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Hinei anochi sholeiach lachem eit eiliyah hanavi lifnei bo yom Adonai hagadol v'hanora.\nV'heishiv leiv avot al banim v'leiv banim al avotam pen avo v'hikeiti et ha-aretz cheirem."
+        },
+        {
+         "kind": "term",
+         "he": "וְהֵשִׁיב לֵב־אָבוֹת עַל־בָּנִים וְלֵב בָּנִים עַל־אֲבוֹתָם",
+         "tl": "V'heishiv leiv avot al banim v'leiv banim al avotam",
+         "gloss": "\"He shall reconcile parents with children and children with their parents\" (3:24). The prophets' last words promise that **Elijah comes back**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "Malachi 3:24"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "My children have triumphed",
+         "body": "In a famous dispute, a heavenly voice sides with Rabbi Eliezer. **Rabbi Yehoshua** stands and says, \"It is not in heaven\": the Torah was given at Sinai, and now the majority decides. Years later, **Rabbi Natan** meets Elijah and asks what God did at that moment. Elijah: God **smiled** and said, \"My children have triumphed over Me.\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Metzia 59b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "smiled",
+         "type": "why",
+         "q": "In Bava Metzia 59b, how does God respond to being overruled?",
+         "choices": [
+          "With a smile and pride in the children",
+          "With anger",
+          "By changing the law"
+         ],
+         "answer": 0,
+         "why": "Like a parent whose children have **grown up**.",
+         "wrong_why": [
+          null,
+          "Elijah says God smiled.",
+          "The majority's ruling stands."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Metzia 59b"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Today, if you listen",
+         "body": "**Rabbi Yehoshua ben Levi** meets Elijah and asks when the Messiah will come. Go ask him, says Elijah: he sits at the gate of Rome **among the sick poor**, changing his bandages one at a time so he is always ready. The Messiah tells him, \"Today.\" When he does not come, Elijah explains: \"today, if you will listen to his voice\" (Psalms 95:7).",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sanhedrin 98a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "today",
+         "type": "why",
+         "q": "In Sanhedrin 98a, what did the Messiah's \"today\" mean?",
+         "choices": [
+          "Today, if you will listen to his voice",
+          "Exactly that day",
+          "Never"
+         ],
+         "answer": 0,
+         "why": "The coming depends on **us listening**.",
+         "wrong_why": [
+          null,
+          "He did not come that day.",
+          "Elijah reads it as a condition, not a refusal."
+         ],
+         "look_again": 8,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sanhedrin 98a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A cup and a song",
+         "body": "Elijah is still expected: a cup is poured for him and the door opened at the **Passover seder**, and as Shabbat ends, **Havdalah** sings of אֵלִיָּהוּ הַנָּבִיא.",
+         "src": {
+          "type": "tradition",
+          "ref": "Passover seder; Havdalah",
+          "note": "CHECK: CBB and Mishkan T'filah practice"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Elijah returns to turn parents' hearts toward children and children's toward parents. Whose heart would you like turned toward yours, or yours toward theirs?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "A **fiery chariot**: Elijah does not die (2:11).",
+          "Malachi: he will come back to **reconcile** parents and children.",
+          "Bava Metzia 59b: God smiles, \"**My children have triumphed over Me**.\"",
+          "Sanhedrin 98a: \"**today, if you will listen**.\"",
+          "A cup at the seder, a song at Havdalah."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      }
+     ]
+    },
+    {
      "id": "x-st-esther",
      "title": "Esther",
      "subtitle": "The hidden face of God, and a woman who stops hiding",
