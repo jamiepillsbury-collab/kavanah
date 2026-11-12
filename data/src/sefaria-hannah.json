@@ -1,0 +1,255 @@
+{
+ "fetched": "2026-11-12",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Hannah unit). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "I Samuel 1:2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְלוֹ שְׁתֵּי נָשִׁים שֵׁם אַחַת חַנָּה וְשֵׁם הַשֵּׁנִית פְּנִנָּה וַיְהִי לִפְנִנָּה יְלָדִים וּלְחַנָּה אֵין יְלָדִֽים׃"
+   ],
+   "sha": [
+    "72bad7329ef413598bd5aacdf7238c940b54bf2a3d816ecb4897214874d20631"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:2",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "He had two wives, one named Hannah and the other Peninnah; Peninnah had children, but Hannah was childless."
+   ],
+   "sha": [
+    "055c4a749c0a81d6fb03cbce3743dc343e1f84c9aafc928d15f8d05376cd8843"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:6-8",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְכִעֲסַתָּה צָרָתָהּ גַּם־כַּעַס בַּעֲבוּר הַרְּעִמָהּ כִּֽי־סָגַר יְהֹוָה בְּעַד רַחְמָֽהּ׃",
+    "וְכֵן יַעֲשֶׂה שָׁנָה בְשָׁנָה מִדֵּי עֲלֹתָהּ בְּבֵית יְהֹוָה כֵּן תַּכְעִסֶנָּה וַתִּבְכֶּה וְלֹא תֹאכַֽל׃",
+    "וַיֹּאמֶר לָהּ אֶלְקָנָה אִישָׁהּ חַנָּה לָמֶה תִבְכִּי וְלָמֶה לֹא תֹֽאכְלִי וְלָמֶה יֵרַע לְבָבֵךְ הֲלוֹא אָֽנֹכִי טוֹב לָךְ מֵעֲשָׂרָה בָּנִֽים׃"
+   ],
+   "sha": [
+    "652f2332ff8e07bce253c4017e443bf2b1344f02cf989c7cda8963902e3b9a22",
+    "ff4aab121842ed2d6179361968df66bddeea0d51a995a5cc247996e53efe243e",
+    "1175d381c1a40fc3121893d2042ce4cfd3f5fd59ded2d18f271c9beda535520a"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:6-8",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Moreover, her rival, to make her miserable, would taunt her that GOD had closed her womb.",
+    "This happened year after year: Every time she went up to the House of GOD, the other would taunt her, so that she wept and would not eat.",
+    "Her husband Elkanah said to her, “Hannah, why are you crying and why aren’t you eating? Why are you so sad? Am I not more devoted to you than ten sons?”"
+   ],
+   "sha": [
+    "b3ab319278dc46bc8835bedf7a43ceac61c248258658796747fa49c5db5a54b9",
+    "e723a2560296d439827e19ffb8687f5ed8b81ad1db25c48434d188b260e2400a",
+    "c3da4dac37881bb67174d33cdad489f89c2625a7fb814ff90026d7599567d9b7"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:10-11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְהִיא מָרַת נָפֶשׁ וַתִּתְפַּלֵּל עַל־יְהֹוָה וּבָכֹה תִבְכֶּֽה׃",
+    "וַתִּדֹּר נֶדֶר וַתֹּאמַר יְהֹוָה צְבָאוֹת אִם־רָאֹה תִרְאֶה&thinsp;׀ בׇּעֳנִי אֲמָתֶךָ וּזְכַרְתַּנִי וְלֹא־תִשְׁכַּח אֶת־אֲמָתֶךָ וְנָתַתָּה לַאֲמָתְךָ זֶרַע אֲנָשִׁים וּנְתַתִּיו לַֽיהֹוָה כׇּל־יְמֵי חַיָּיו וּמוֹרָה לֹא־יַעֲלֶה עַל־רֹאשֽׁוֹ׃"
+   ],
+   "sha": [
+    "a34183fa202693566b0ad7d998cf770d36e405a68f89e20272f1865459f6071b",
+    "39e271fdfa2153f5a3762fdb40e429cc17565c4e30454396eb7c05abdc900514"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:10-11",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "In her wretchedness, she prayed to GOD, weeping all the while.",
+    "And she made this vow: “O GOD of Hosts, if You will look upon the suffering of Your maidservant and will remember me and not forget Your maidservant, and if You will grant Your maidservant a child like the others have, I will dedicate it to GOD for all the days of its life; and no razor shall ever touch its head.”"
+   ],
+   "sha": [
+    "e681743ed95c1989e2681c463f1a1527289e0a328577b2f6299a8207e90fb92e",
+    "db1c43df1987bf92753dd1f455b497238bd86789b38931778f5064ad5f2e330c"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:12-13",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְהָיָה כִּי הִרְבְּתָה לְהִתְפַּלֵּל לִפְנֵי יְהֹוָה וְעֵלִי שֹׁמֵר אֶת־פִּֽיהָ׃",
+    "וְחַנָּה הִיא מְדַבֶּרֶת עַל־לִבָּהּ רַק שְׂפָתֶיהָ נָּעוֹת וְקוֹלָהּ לֹא יִשָּׁמֵעַ וַיַּחְשְׁבֶהָ עֵלִי לְשִׁכֹּרָֽה׃"
+   ],
+   "sha": [
+    "a0eeb3c254f635b8404673f7de74e4727ae0364d245e063dfbe1e6b17b8661e2",
+    "3f73543f701454bba70228c64d8348cb2a493909be4f844df4e39a8048c3262f"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:12-13",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "As she kept on praying before GOD, Eli watched her mouth.",
+    "Now Hannah was praying in her heart; only her lips moved, but her voice could not be heard. So Eli thought she was drunk."
+   ],
+   "sha": [
+    "a38752969d005906ad558918a9edb89e8c4a2e94c05c099b0950ba06f191ea84",
+    "9f28998ad36809a20cd7fe59ce1f225122d34b9647b0e0a85de6a412a98b14a2"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:15",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתַּעַן חַנָּה וַתֹּאמֶר לֹא אֲדֹנִי אִשָּׁה קְשַׁת־רוּחַ אָנֹכִי וְיַיִן וְשֵׁכָר לֹא שָׁתִיתִי וָאֶשְׁפֹּךְ אֶת־נַפְשִׁי לִפְנֵי יְהֹוָֽה׃"
+   ],
+   "sha": [
+    "e7e2da16a5fb370f4f6a7935b057febe13e74a5895006920fd48ae2ecb68144b"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:15",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "And Hannah replied, “Oh no, my lord! I am a very unhappy woman. I have drunk no wine or other strong drink, but I have been pouring out my heart to GOD."
+   ],
+   "sha": [
+    "850c9619eb8f765cb1cef575bfbd4b1dcbe691c04e4acd391f1ed6d7117954f2"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:17",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּעַן עֵלִי וַיֹּאמֶר לְכִי לְשָׁלוֹם וֵאלֹהֵי יִשְׂרָאֵל יִתֵּן אֶת־שֵׁלָתֵךְ אֲשֶׁר שָׁאַלְתְּ מֵעִמּֽוֹ׃"
+   ],
+   "sha": [
+    "812540975697d253020d291c2702331993efa1f879bebb15c42949e9afef74f7"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:17",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "“Then go in peace,” said Eli, “and may the God of Israel grant you what you have asked.”"
+   ],
+   "sha": [
+    "726748e7eff831808253427f37254c5998c4924b91dbd0bad545dbbc571c919b"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:27-28",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "אֶל־הַנַּעַר הַזֶּה הִתְפַּלָּלְתִּי וַיִּתֵּן יְהֹוָה לִי אֶת־שְׁאֵלָתִי אֲשֶׁר שָׁאַלְתִּי מֵעִמּֽוֹ׃",
+    "וְגַם אָנֹכִי הִשְׁאִלְתִּהוּ לַֽיהֹוָה כׇּל־הַיָּמִים אֲשֶׁר הָיָה הוּא שָׁאוּל לַיהֹוָה וַיִּשְׁתַּחוּ שָׁם לַֽיהֹוָֽה׃ {ס}"
+   ],
+   "sha": [
+    "4b067bf1bea62f11020a9fccea937b03a1cf8ce7ceccf36eb2c5882d15acd036",
+    "27364475e982ca1fdfd7412121dba9b54a3785685557e50a665b931b387cce7b"
+   ]
+  },
+  {
+   "ref": "I Samuel 1:27-28",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "It was this boy I prayed for; and GOD has granted me what I asked.",
+    "I, in turn, hereby lend him to GOD. For as long as he lives he is lent to GOD.” And they bowed low there before GOD."
+   ],
+   "sha": [
+    "f7e56bcebebed219c22f36155f7dc6976897ebd237a73e679c8dee827258f0a1",
+    "5cff52083f8faf17e0c203e8e7593010255a09894817082a6bbb42e3737e21d2"
+   ]
+  },
+  {
+   "ref": "I Samuel 2:1-2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתִּתְפַּלֵּל חַנָּה וַתֹּאמַר עָלַץ לִבִּי בַּֽיהֹוָה רָמָה קַרְנִי בַּֽיהֹוָה רָחַב פִּי עַל־אוֹיְבַי כִּי שָׂמַחְתִּי בִּישׁוּעָתֶֽךָ׃",
+    "אֵין־קָדוֹשׁ כַּיהֹוָה כִּי אֵין בִּלְתֶּךָ וְאֵין צוּר כֵּאלֹהֵֽינוּ׃"
+   ],
+   "sha": [
+    "ae83cbb3d8b3e1dc6b5f8a4183c0359b64f88d844146806fc1fc497e37c63ecb",
+    "4fd9b81552df83e825ecfdad5112a27eed75ebaf65bf5f110161228c74d0d4d7"
+   ]
+  },
+  {
+   "ref": "I Samuel 2:1-2",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "And Hannah prayed:My heart exults in GOD;I have triumphed through GOD.I gloat over my enemies;I rejoice in Your deliverance.",
+    "There is no holy one like GOD,Truly, there is none beside You;There is no rock like our God."
+   ],
+   "sha": [
+    "cea85b62a1d398e377e7f9a5bf67d160ffbd03623a877dd3d367cbb912b9303c",
+    "8afe44fa42c581b3a49f51f4d9324c61ebab4c038c9822a8b257bcd965d557ad"
+   ]
+  },
+  {
+   "ref": "I Samuel 2:6-8",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "יְהֹוָה מֵמִית וּמְחַיֶּה מוֹרִיד שְׁאוֹל וַיָּֽעַל׃",
+    "יְהֹוָה מוֹרִישׁ וּמַעֲשִׁיר מַשְׁפִּיל אַף־מְרוֹמֵֽם׃",
+    "מֵקִים מֵעָפָר דָּל מֵֽאַשְׁפֹּת יָרִים אֶבְיוֹן לְהוֹשִׁיב עִם־נְדִיבִים וְכִסֵּא כָבוֹד יַנְחִלֵם כִּי לַֽיהֹוָה מְצֻקֵי אֶרֶץ וַיָּשֶׁת עֲלֵיהֶם תֵּבֵֽל׃"
+   ],
+   "sha": [
+    "bdeef16bd6ad92625b2d1cb2d5cbd9c39f642d3d352df4b837ba5d77a4941d66",
+    "fa553c46f5201dea4289c78de0d9bfb4f9412cd7d523b3ea9268be07bc99422c",
+    "55ae414fd684f427c47142bf2b608a540c2585e317a89a35fa41e6b7fa99b5bf"
+   ]
+  },
+  {
+   "ref": "I Samuel 2:6-8",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "GOD deals death and gives life,Casts down into Sheol and raises up.",
+    "GOD makes poor and makes rich,Casts down, and also lifts high—",
+    "Raising the poor from the dust,Lifting up the needy from the dunghill,To set them with nobles,Granting them seats of honor.For the pillars of the earth belong to GOD,Who has set the world upon them."
+   ],
+   "sha": [
+    "6467aca2a03f6ab56397b86173871b01b83ed52c9dd685b71085f58c727df03c",
+    "a1c8dbca542a340fff34e42d06ca8d59b6d8323323926e324c66b211aba2aec0",
+    "317d10d9556211fcd040516edb06ef1500789b7b6402181f3ee5d485a93c0d76"
+   ]
+  }
+ ]
+}

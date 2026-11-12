@@ -3,7 +3,7 @@ Usage: python3 tools/check_quotes.py data/src/x-stories_jonah.json"""
 import glob, json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 norm = lambda s: re.sub(r"\s+", " ", s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')).strip().lower()
-EN = " ".join(norm(" ".join(s["text"])) for f in glob.glob(os.path.join(ROOT, "data/src/sefaria-*.json")) for s in json.load(open(f, encoding="utf-8"))["sources"] if s.get("lang") == "en" and "text" in s)
+EN = " ".join(norm(re.sub(r"([,;:!?])(?=[A-Za-z])|(\.)(?=[A-Z])", r"\1\2 ", " ".join(s["text"]))) for f in glob.glob(os.path.join(ROOT, "data/src/sefaria-*.json")) for s in json.load(open(f, encoding="utf-8"))["sources"] if s.get("lang") == "en" and "text" in s)
 def strings(o):
     if isinstance(o, str): yield o
     elif isinstance(o, dict):

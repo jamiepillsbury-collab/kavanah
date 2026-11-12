@@ -1,0 +1,721 @@
+{
+ "track": "stories",
+ "units": [
+  {
+   "id": "x-st-hannah",
+   "title": "Hannah",
+   "subtitle": "A woman's prayer, and the rules of prayer",
+   "lessons": [
+    {
+     "id": "x-st-han-01",
+     "title": "Hannah (1): A rival and a husband",
+     "status": "draft",
+     "related": [],
+     "check_note": "Bava Batra 16a, Rosh Hashanah 11a, Megillah 31a read on Sefaria 11/12. English: JPS Tanakh Gender-Sensitive. CHECK: Mishkan HaNefesh / CBB read Hannah as the Rosh Hashanah haftarah (and on which day).",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Year after year",
+       "body": "Every year Elkanah and his family go up to **the House of GOD**. His wife Peninnah has children. His wife **Hannah** has none, and every year it hurts again.",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:1-7"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "In one view in the Talmud, Peninnah taunted Hannah for the sake of Heaven.",
+       "answer": true,
+       "why": "Rabbi Levi: she upset Hannah \"in order to motivate her to pray.\"",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:1-7"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "I Samuel 1:2",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:2"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וּלְחַנָּה אֵין יְלָדִֽים׃",
+       "tl": null,
+       "gloss": "\"but Hannah was childless\" (1:2).",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:2"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "I Samuel 1:6-8",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:6-8"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וְכִעֲסַתָּה צָרָתָהּ גַּם־כַּעַס בַּעֲבוּר הַרְּעִמָהּ",
+       "tl": null,
+       "gloss": "\"her rival, to make her miserable, would taunt her\" (1:6).",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:6"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "For the sake of Heaven?",
+       "body": "**Rabbi Levi**: both Satan, who accused Job, and **Peninnah** acted for the sake of Heaven. Peninnah upset Hannah \"in order to motivate her to pray.\" The Talmud adds that when this was taught, Satan came and **kissed the teacher's feet** in gratitude.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Bava Batra 16a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "peninnah",
+       "type": "why",
+       "q": "According to Rabbi Levi, why did Peninnah taunt Hannah?",
+       "choices": [
+        "To move her to pray",
+        "To make Elkanah send her away",
+        "Out of plain jealousy"
+       ],
+       "answer": 0,
+       "why": "Rabbi Levi reads even the taunting as aimed at **prayer**.",
+       "wrong_why": [
+        null,
+        "Not in the Talmud.",
+        "Rabbi Levi reads her more generously."
+       ],
+       "look_again": 6,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Bava Batra 16a"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "הֲלוֹא אָֽנֹכִי טוֹב לָךְ מֵעֲשָׂרָה בָּנִֽים׃",
+       "tl": null,
+       "gloss": "\"Am I not more devoted to you than ten sons?\" (1:8). Elkanah answers her grief with **his love**.",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:8"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Remembered on Rosh Hashanah",
+       "body": "The Talmud teaches that on Rosh Hashanah, **Sarah, Rachel and Hannah** were remembered by God and conceived sons. **Rabbi Elazar** links the word **remembered** in Hannah's story (1:19) to the Rosh Hashanah verse \"memorial proclaimed with the blast of a shofar\" (Leviticus 23:24).",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rosh Hashanah 11a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "remembered",
+       "type": "pick",
+       "q": "Which women does the Talmud say were remembered on Rosh Hashanah?",
+       "choices": [
+        "Sarah, Rachel and Hannah",
+        "Miriam, Deborah and Hannah",
+        "Ruth, Esther and Hannah"
+       ],
+       "answer": 0,
+       "why": "Three women who waited for a child: **Sarah, Rachel and Hannah**.",
+       "wrong_why": [
+        null,
+        "Not this list.",
+        "Not this list."
+       ],
+       "look_again": 9,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rosh Hashanah 11a"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Read on Rosh Hashanah",
+       "body": "So the Talmud names Hannah's story, **1 Samuel 1:1 to 2:10**, as a haftarah for Rosh Hashanah, because she too was blessed with a child on that day.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 31a"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Peninnah's taunts and Elkanah's love both miss what Hannah needs. When have you felt unseen by people close to you?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Hannah has **no children**; Peninnah **taunts** her (1:2, 1:6).",
+        "Rabbi Levi: Peninnah meant to **move her to pray**.",
+        "\"**Am I not more devoted to you than ten sons?**\"",
+        "Remembered on **Rosh Hashanah**, read on Rosh Hashanah."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-han-02",
+     "title": "Hannah (2): Only her lips moved",
+     "status": "draft",
+     "related": [
+      "prayer:avot"
+     ],
+     "check_note": "Berakhot 31a-b and Zohar Vayigash 10:99 (Soncino) read on Sefaria 11/12.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "The priest is watching",
+       "body": "Hannah rises and prays before GOD. **Eli the priest** watches her mouth, and he gets it wrong.",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:9-13"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "Which rule for the Amidah does the Talmud learn from Hannah?",
+       "choices": [
+        "Say the words with your lips, but quietly",
+        "Pray only inside the Temple",
+        "Pray aloud so others can answer amen",
+        "Pray standing on one foot"
+       ],
+       "answer": 0,
+       "why": "Her lips moved, and **her voice could not be heard** (1:13).",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:9-13"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "I Samuel 1:12-13",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:12-13"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וְחַנָּה הִיא מְדַבֶּרֶת עַל־לִבָּהּ רַק שְׂפָתֶיהָ נָּעוֹת וְקוֹלָהּ לֹא יִשָּׁמֵעַ",
+       "tl": null,
+       "gloss": "\"Hannah was praying in her heart; only her lips moved, but her voice could not be heard\" (1:13).",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:13"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Laws from one verse",
+       "body": "**Rav Hamnuna** draws laws of prayer from this verse. **In her heart**: focus your heart on your prayer. **Only her lips moved**: say the words with your lips, not only in your mind. **Her voice could not be heard**: do not raise your voice in the Amidah. **Eli thought she was drunk**: a drunk person may not pray.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 31a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "lips",
+       "type": "why",
+       "q": "What does Rav Hamnuna learn from \"only her lips moved\"?",
+       "choices": [
+        "Say the words with your lips, not only in your heart",
+        "Pray as quickly as you can",
+        "Never pray when you are sad"
+       ],
+       "answer": 0,
+       "why": "Prayer is **spoken**, even when it is silent.",
+       "wrong_why": [
+        null,
+        "Not in the Talmud.",
+        "Hannah prays in great sorrow."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 31a"
+       }
+      },
+      {
+       "kind": "relevance",
+       "body": "These are the rules for the **Amidah**, the standing prayer, which begins with **Avot**: said quietly, with the lips, and with the heart.",
+       "links": [
+        "prayer:avot"
+       ]
+      },
+      {
+       "kind": "concept",
+       "title": "The voice that cannot be heard",
+       "body": "The **Zohar** says true prayer is \"another voice attached to the voice which is heard.\" So a person should pray with the voice no one else hears, **like Hannah**, whose voice could not be heard.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Zohar, Vayigash 10:99"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "I Samuel 1:15",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:15"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וָאֶשְׁפֹּךְ אֶת־נַפְשִׁי",
+       "tl": null,
+       "gloss": "\"I have been pouring out my heart to GOD\" (1:15).",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:15"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Not a master here",
+       "body": "On \"Oh no, my lord!\", one sage says Hannah was hinting: in this matter **you are not a master**, and the Divine Spirit is not on you, since you suspect me falsely. **Rabbi Elazar** learns two more rules: someone wrongly suspected should **say so** and clear her name, and someone who suspected wrongly must **make peace and bless**, as Eli does next.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 31b"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "I Samuel 1:17",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:17"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "eli",
+       "type": "why",
+       "q": "What does Rabbi Elazar learn from Eli's \"Then go in peace\"?",
+       "choices": [
+        "Whoever wrongly suspects someone must make peace and bless them",
+        "Priests are never wrong",
+        "Never pray in a public place"
+       ],
+       "answer": 0,
+       "why": "Eli was wrong, and he **blesses** her.",
+       "wrong_why": [
+        null,
+        "The Talmud says Eli was wrong here.",
+        "Not the Talmud's lesson."
+       ],
+       "look_again": 10,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 31b"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "To the priest, Hannah's prayer looked like drunkenness. What does your most honest prayer look like from the outside?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "\"**Only her lips moved**, but her voice could not be heard\" (1:13).",
+        "Rav Hamnuna: **heart, lips, quiet**, and never drunk.",
+        "Zohar: the **voice no one hears**.",
+        "Eli was wrong, so he **blesses** her (Berakhot 31b)."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-han-03",
+     "title": "Hannah (3): God of Hosts",
+     "status": "draft",
+     "related": [],
+     "check_note": "Berakhot 31b and Zohar Toldot 3:20 (Soncino) read on Sefaria 11/12. Rabbi's-teaching card: the connection is mine; check with Jamie.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "A vow",
+       "body": "Weeping, Hannah makes **a vow**: if God gives her a child, she will give the child back to God.",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:10-11"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "According to the Talmud, Hannah was the first person ever to call God \"Lord of Hosts.\"",
+       "answer": true,
+       "why": "Rabbi Elazar: no one, since Creation, until Hannah.",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:10-11"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "I Samuel 1:10-11",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:10-11"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "יְיָ צְבָאוֹת",
+       "tl": null,
+       "gloss": "\"O GOD of Hosts\" (1:11).",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:11"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "The first to say it",
+       "body": "**Rabbi Elazar**: from the day God created the world, no one called God **Lord of Hosts** until Hannah. Her argument: of all the hosts upon hosts You created, is it so hard for You to give me **one son**?",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 31b"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "tzevaot",
+       "type": "why",
+       "q": "In Berakhot 31b, why does Hannah call God \"Lord of Hosts\"?",
+       "choices": [
+        "Among all the hosts God made, one son should not be hard to give",
+        "It was the Temple's usual name for God",
+        "Eli taught it to her"
+       ],
+       "answer": 0,
+       "why": "**Hosts upon hosts**, and she asks for one child.",
+       "wrong_why": [
+        null,
+        "The Talmud says no one had used it before her.",
+        "Not in the Talmud."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 31b"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וַתִּתְפַּלֵּל עַל־יְיָ",
+       "tl": null,
+       "gloss": "\"she prayed to GOD\" (1:10). The Hebrew preposition here is unusual: **upon** or **onto** God, and the Talmud notices it.",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:10"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Speaking boldly upward",
+       "body": "**Rabbi Elazar**: \"Hannah spoke impertinently toward God on High,\" since the verse says she prayed **onto** God, not to God. He also reads her doubled \"if You will look\" as a dare: if You look now, good; if not, **You will see** anyway, and she tells God how she will hold God to the Torah's own promise.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 31b"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Above the stars",
+       "body": "The **Zohar** reads the same word another way: Hannah's prayer went **above** ordinary fate. Like Isaac's prayer for Rebekah, it rose \"above the planetary influences.\"",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Zohar, Toldot 3:20"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "al",
+       "type": "why",
+       "q": "How does Rabbi Elazar read Hannah praying \"onto\" God?",
+       "choices": [
+        "She spoke boldly, even impertinently, toward Heaven",
+        "She prayed on a rooftop",
+        "She prayed on someone else's behalf"
+       ],
+       "answer": 0,
+       "why": "Hannah does not only plead; she **argues**.",
+       "wrong_why": [
+        null,
+        "Not the Talmud's reading.",
+        "She prays for herself."
+       ],
+       "look_again": 7,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 31b"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "A people growing up",
+       "body": "Your rabbi reads the Torah as a people **growing up**: from a child's hero-God, through a strained and complicated relationship, toward God present in our own choices. Hannah is a grown-up's prayer: no priest needed, her own words, even **arguing with God**. On the same page of Talmud, Rabbi Akiva says, \"The Torah spoke in the language of men.\"",
+       "src": {
+        "type": "reform",
+        "ref": "Teaching from Jamie's rabbi (oral, as Jamie retold it); Berakhot 31b",
+        "note": "connection to Hannah is mine; check with Jamie"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "I Samuel 1:27-28",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:27-28"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וְגַם אָנֹכִי הִשְׁאִלְתִּהוּ לַֽיהֹוָה",
+       "tl": null,
+       "gloss": "\"I, in turn, hereby lend him to GOD\" (1:28). **Asked** (שָׁאַלְתִּי, 1:27) and **lent** (הִשְׁאִלְתִּהוּ) come from the same root.",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:27-28"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "For this boy I prayed",
+       "body": "The Talmud tells a story behind 1:25-27. Young **Samuel** ruled, correctly, that anyone may slaughter an offering, not only a priest. But he ruled **in front of his teacher**, Eli, who said that deserved death. Hannah cried out: \"I am the woman who stood here with you.\" Eli offered to pray for a greater son. She answered: for **this** boy I prayed, and I want no other.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 31b"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Hannah bargains, dares, and argues with God, and the Talmud learns its rules of prayer from her. Is there something you would only say to God boldly?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Hannah is the first to say **Lord of Hosts** (Berakhot 31b).",
+        "She prays **onto** God: boldly, even impertinently.",
+        "Zohar: her prayer rose **above fate**.",
+        "Asked, then **lent** to GOD (1:27-28).",
+        "For **this** boy she prayed (Berakhot 31b)."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-han-04",
+     "title": "Hannah (4): My heart exults",
+     "status": "draft",
+     "related": [
+      "prayer:gvurot"
+     ],
+     "check_note": "Megillah 14a and Berakhot 29a read on Sefaria 11/12. CHECK: how Mishkan HaNefesh treats the nine-blessing Musaf (Reform practice may differ).",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "A song",
+       "body": "Samuel is born, weaned, and brought to serve at the House of GOD. Then Hannah prays again, this time **a song**.",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:20-2:10"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "The Talmud links the nine blessings of the Rosh Hashanah Musaf Amidah to what?",
+       "choices": [
+        "The nine mentions of God's name in Hannah's prayer",
+        "Nine months of pregnancy",
+        "Nine shofar blasts",
+        "Nine years Hannah waited"
+       ],
+       "answer": 0,
+       "why": "Rabbi Yitzchak of Kartignin, in Berakhot 29a.",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 1:20-2:10"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "I Samuel 2:1-2",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 2:1-2"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "רָמָה קַרְנִי בַּֽיהֹוָה",
+       "tl": null,
+       "gloss": "\"I have triumphed through GOD\" (2:1). The Talmud reads the Hebrew image word by word: my **horn** is exalted.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "I Samuel 2:1; Megillah 14a"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "A prophetess",
+       "body": "The Talmud counts **seven prophetesses**: Sarah, Miriam, Deborah, Hannah, Abigail, Huldah and Esther. Hannah's proof is the **horn**: she said my horn, not my pitcher. David and Solomon were anointed from a horn and their kingship lasted; Saul and Jehu were anointed from a pitcher and theirs did not. Hannah **foresaw** it.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 14a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "horn",
+       "type": "why",
+       "q": "Why does Megillah 14a call Hannah a prophetess?",
+       "choices": [
+        "Her \"horn\" foresaw which anointed kings would last",
+        "She heard angels in Shiloh",
+        "Eli named her one"
+       ],
+       "answer": 0,
+       "why": "**Horn**, not pitcher: her song looks ahead to David.",
+       "wrong_why": [
+        null,
+        "Not in the Talmud.",
+        "Eli misjudged her."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 14a"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "No artist like our God",
+       "body": "On \"There is no rock like our God\" (2:2), the Talmud reads **rock** as **artist**. A person paints a form on a wall but cannot give it breath. God forms a child **inside its mother** and gives it breath and a soul. Fitting words from Hannah.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 14a"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "I Samuel 2:6-8",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 2:6-8"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "יְיָ מֵמִית וּמְחַיֶּה",
+       "tl": null,
+       "gloss": "\"GOD deals death and gives life\" (2:6).",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 2:6"
+       }
+      },
+      {
+       "kind": "relevance",
+       "body": "Every Amidah's **G'vurot** praises God in the same words: מֶלֶךְ מֵמִית וּמְחַיֶּה.",
+       "links": [
+        "prayer:gvurot"
+       ]
+      },
+      {
+       "kind": "concept",
+       "title": "Nine blessings",
+       "body": "**Rabbi Yitzchak of Kartignin**: the nine blessings of the Rosh Hashanah Musaf prayer correspond to the **nine mentions of God's name** in Hannah's prayer. The reason: on Rosh Hashanah, Sarah, Rachel and **Hannah** were remembered.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 29a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "nine",
+       "type": "pick",
+       "q": "According to Berakhot 29a, why does Hannah's prayer shape the Rosh Hashanah Musaf?",
+       "choices": [
+        "She was remembered on Rosh Hashanah",
+        "She wrote the Musaf prayer",
+        "She prayed in the Temple on Yom Kippur"
+       ],
+       "answer": 0,
+       "why": "Remembered on Rosh Hashanah, so her prayer gives the day its **nine blessings**.",
+       "wrong_why": [
+        null,
+        "Not in the Talmud.",
+        "Not in the Talmud."
+       ],
+       "look_again": 10,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Berakhot 29a"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "מֵקִים מֵעָפָר דָּל מֵֽאַשְׁפֹּת יָרִים אֶבְיוֹן",
+       "tl": null,
+       "gloss": "\"Raising the poor from the dust, Lifting up the needy from the dunghill\" (2:8). The song turns the world **upside down**, as Hannah's own life was turned.",
+       "src": {
+        "type": "tanakh",
+        "ref": "I Samuel 2:8"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Hannah's song is full of reversals: the poor raised, the mighty brought low. Where have you seen a reversal you once could not imagine?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "\"**My heart exults in GOD**\" (2:1).",
+        "Megillah 14a: Hannah, **a prophetess**: horn, not pitcher.",
+        "**No artist** like our God.",
+        "\"**GOD deals death and gives life**\": the G'vurot.",
+        "Berakhot 29a: **nine blessings** of Rosh Hashanah Musaf."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
