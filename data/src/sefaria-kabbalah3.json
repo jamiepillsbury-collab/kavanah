@@ -1,0 +1,79 @@
+{
+ "fetched": "2026-11-13",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Kabbalah unit 3). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python. Genesis 2:7 dropped (already clean in sefaria-creation.json).",
+ "sources": [
+  {
+   "ref": "Psalms 150:6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "כֹּל הַנְּשָׁמָה תְּהַלֵּל יָהּ הַֽלְלוּ־יָֽהּ׃"
+   ],
+   "sha": [
+    "cfdc148f683ac35636f06d553f53c89e33eac0c1704d969195f6052b9492731c"
+   ]
+  },
+  {
+   "ref": "Psalms 150:6",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Let all that breathes praise Yah. Hallelujah."
+   ],
+   "sha": [
+    "85cd2c9383d9d3ddb144b4a6ceb7a7531f9ea87dde4cc238abffdd0c658116d5"
+   ]
+  },
+  {
+   "ref": "Psalms 31:6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "בְּיָדְךָ אַפְקִיד רוּחִי פָּדִיתָ אוֹתִי יְהֹוָה אֵל אֱמֶֽת׃"
+   ],
+   "sha": [
+    "b8535e6d8f17a592a02693beb8a457f1a55acef4ec0ad61e8ec6dc95fe8bfaaa"
+   ]
+  },
+  {
+   "ref": "Psalms 31:6",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Into Your hand I entrust my spirit;You redeem me, O ETERNAL One, faithful God."
+   ],
+   "sha": [
+    "b5807589e7e2625fcaa5fc5c804bcb9e597d505d3f1745b6b9098edc83106844"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 4:4",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְאַתֶּם הַדְּבֵקִים בַּיהֹוָה אֱלֹהֵיכֶם חַיִּים כֻּלְּכֶם הַיּֽוֹם׃"
+   ],
+   "sha": [
+    "09817708a7eddf05a7063287ff9a8503dba19094bf8ccc3873db04c4eb7d5c71"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 4:4",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "while you, who held fast to your God יהוה, are all alive today."
+   ],
+   "sha": [
+    "7234efca109369a7977be129714a3344e398370d7c0e2ac33bc9a82869268900"
+   ]
+  }
+ ]
+}
