@@ -1,0 +1,617 @@
+{
+ "track": "stories",
+ "units": [
+  {
+   "id": "x-st-deborah",
+   "title": "Deborah",
+   "subtitle": "A prophet, a general, a tent pin, and a song",
+   "lessons": [
+    {
+     "id": "x-st-deb-01",
+     "title": "Deborah (1): Under the palm tree",
+     "status": "draft",
+     "related": [],
+     "check_note": "Megillah 14a-b, Esther Rabbah 5:4 and Zohar Vayikra 47:328 (Soncino) read on Sefaria 11/12. English: JPS Tanakh Gender-Sensitive.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "A prophet who leads",
+       "body": "Israel is oppressed by a Canaanite king. Its leader at that time is a woman: **Deborah**, prophet and judge.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:1-5"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "According to the Talmud, why is Deborah called \"wife of Lappidoth\"?",
+       "choices": [
+        "She made wicks for the Sanctuary",
+        "Her husband was a general",
+        "She lived by a lighthouse",
+        "She wove the Temple curtains"
+       ],
+       "answer": 0,
+       "why": "לַפִּידוֹת means **flames**: \"a woman of flames.\"",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:1-5"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Judges 4:4-5",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:4-5"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וּדְבוֹרָה אִשָּׁה נְבִיאָה אֵשֶׁת לַפִּידוֹת",
+       "tl": null,
+       "gloss": "\"Deborah, wife of Lappidoth, was a prophet\" (4:4).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:4"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "A woman of flames",
+       "body": "The Talmud counts **seven prophetesses**: Sarah, Miriam, **Deborah**, Hannah, Abigail, Huldah and Esther. Why \"wife of Lappidoth\"? Because she made **wicks for the Sanctuary**, and from the flames, לַפִּידוֹת, she was called a woman of flames.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 14a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "lappidot",
+       "type": "why",
+       "q": "Why does the Talmud call Deborah \"a woman of flames\"?",
+       "choices": [
+        "She made the Sanctuary's wicks",
+        "She fought with torches",
+        "She had red hair"
+       ],
+       "answer": 0,
+       "why": "Before she lit up Israel as a judge, she made **light for the Sanctuary**.",
+       "wrong_why": [
+        null,
+        "Not in the Talmud.",
+        "Not in the Talmud."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 14a"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וְהִיא יוֹשֶׁבֶת תַּחַת־תֹּמֶר",
+       "tl": null,
+       "gloss": "\"She used to sit under the Palm of Deborah\" (4:5).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:5"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Why under a palm tree?",
+       "body": "**Rabbi Shimon ben Avshalom**: she judged **out in the open**, visible to all, so she would never be alone behind closed doors with the men who came to her. Or: a palm tree has **one heart**, a single trunk, and so did Israel in her generation, one heart turned to their Father in Heaven.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 14a"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "palm",
+       "type": "why",
+       "q": "In Megillah 14a, what is one reason Deborah judged under a palm tree?",
+       "choices": [
+        "To judge in the open, visible to everyone",
+        "For the shade only",
+        "Because it was sacred to Baal"
+       ],
+       "answer": 0,
+       "why": "Justice **in plain sight**.",
+       "wrong_why": [
+        null,
+        "The Talmud gives a deeper reason.",
+        "Not in the Talmud."
+       ],
+       "look_again": 7,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 14a"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "How the rabbis saw her",
+       "body": "The Bible simply names Deborah prophet and judge. Later readers argued. **Esther Rabbah**: when Israel was crushed, who was fitting for the moment? **Deborah**. **Rav Nachman** calls her haughty, because she sent for Barak instead of going to him. The **Zohar** goes further: \"Woe to the generation which could only find a female to be its judge!\"",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Esther Rabbah 5:4; Megillah 14b; Zohar, Vayikra 47:328"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q3",
+       "idea": "views",
+       "type": "pick",
+       "q": "Which source says Deborah was the one \"fitting\" for her moment?",
+       "choices": [
+        "Esther Rabbah 5:4",
+        "Megillah 14b",
+        "The Zohar"
+       ],
+       "answer": 0,
+       "why": "Rabbinic voices **disagree** about her; Esther Rabbah praises her.",
+       "wrong_why": [
+        null,
+        "Rav Nachman calls her haughty.",
+        "The Zohar laments a woman judge."
+       ],
+       "look_again": 9,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Esther Rabbah 5:4; Megillah 14b; Zohar, Vayikra 47:328"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "The Bible calls Deborah a prophet and leader; later readers argued about her. When have you seen someone's leadership doubted for who they were rather than what they did?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Deborah: **prophet and judge** (4:4).",
+        "Megillah 14a: **a woman of flames**, wicks for the Sanctuary.",
+        "Judging **under the palm**, in the open; one heart.",
+        "Rabbinic views **differ**: fitting, haughty, or a sign of a weak generation."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-deb-02",
+     "title": "Deborah (2): Barak and Jael",
+     "status": "draft",
+     "related": [],
+     "check_note": "Nazir 23b read on Sefaria 11/12 (its sexual reading of 5:27 left out).",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "Not without you",
+       "body": "Deborah tells **Barak** to lead ten thousand men against **Sisera**, the Canaanite general. Barak has one condition.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:6-8"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "Barak would not go to battle unless Deborah came with him.",
+       "answer": true,
+       "why": "\"If you will go with me, I will go; if not, I will not go\" (4:8).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:6-8"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Judges 4:8-9",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:8-9"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "כִּי בְֽיַד־אִשָּׁה יִמְכֹּר יְיָ אֶת־סִֽיסְרָא",
+       "tl": null,
+       "gloss": "\"GOD will deliver Sisera into the hands of a woman\" (4:9). Which woman? Not Deborah, as it turns out.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:9"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "hand",
+       "type": "pick",
+       "q": "Into whose hands does Deborah say Sisera will fall?",
+       "choices": [
+        "A woman's",
+        "Barak's",
+        "The king's"
+       ],
+       "answer": 0,
+       "why": "**A woman's** hand, and the story will name her.",
+       "wrong_why": [
+        null,
+        "Barak gets no glory here (4:9).",
+        "Not in the text."
+       ],
+       "look_again": 3,
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:9"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Jael",
+       "body": "Sisera's army is routed and he flees on foot to the tent of **Jael**, wife of Heber the Kenite. She invites him in, gives him milk, and covers him. When he sleeps, she takes a tent pin and a mallet.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:17-22"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Judges 4:21",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 4:21"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Judges 5:24",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:24"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "For the sake of Heaven",
+       "body": "**Rav Nachman bar Yitzchak**: a transgression done **for the sake of Heaven** is equal to a mitzvah done not for its own sake. His proof is Jael: \"Most blessed of women in tents.\" Who are the women in the tent? **Sarah, Rebecca, Rachel and Leah**. Jael, who did what she had to do to stop Sisera, is ranked with the matriarchs.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Nazir 23b"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "jael",
+       "type": "why",
+       "q": "In Nazir 23b, who are the \"women in tents\" Jael is blessed above?",
+       "choices": [
+        "Sarah, Rebecca, Rachel and Leah",
+        "Deborah and Miriam",
+        "The women of Sisera's household"
+       ],
+       "answer": 0,
+       "why": "Jael is ranked with **the matriarchs**.",
+       "wrong_why": [
+        null,
+        "Not the Talmud's list.",
+        "Not the Talmud's list."
+       ],
+       "look_again": 8,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Nazir 23b"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Barak would not go alone, and the victory went to two women. Who do you need beside you to do something hard?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Barak: \"**If you will go with me, I will go**\" (4:8).",
+        "Sisera falls **into the hands of a woman** (4:9).",
+        "**Jael** and the tent pin (4:21).",
+        "Nazir 23b: blessed with **the matriarchs**."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-deb-03",
+     "title": "Deborah (3): Awake, sing",
+     "status": "draft",
+     "related": [
+      "prayer:lcha_dodi_2"
+     ],
+     "check_note": "Pesachim 66b read on Sefaria 11/12. L'cha Dodi line from data/prayers.json.",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "A victory song",
+       "body": "After the battle, **Deborah and Barak sing**.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:1"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "pick",
+       "q": "According to Pesachim 66b, why did Deborah's prophecy leave her for a time?",
+       "choices": [
+        "She praised herself",
+        "She went to war",
+        "She doubted God",
+        "Barak insulted her"
+       ],
+       "answer": 0,
+       "why": "Rav: **haughtiness** drives away prophecy.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:1"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Judges 5:1-3",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:1-3"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "אָנֹכִי לַֽיהֹוָה אָנֹכִי אָשִׁירָה אֲזַמֵּר לַֽיהֹוָה",
+       "tl": null,
+       "gloss": "\"I will sing, will sing to GOD\" (5:3).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:3"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "עַד שַׁקַּמְתִּי דְּבוֹרָה שַׁקַּמְתִּי אֵם בְּיִשְׂרָאֵֽל׃",
+       "tl": null,
+       "gloss": "\"Arose, O mother, in Israel!\" (5:7). The JPS reads the verb as said **to** Deborah. The Talmud reads it as Deborah speaking of herself: **until I arose**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Judges 5:7; Pesachim 66b"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "A mother in Israel",
+       "body": "**Rav Yehuda** in the name of **Rav**: whoever acts haughtily, if a sage, loses wisdom; if a prophet, **loses prophecy**. From Deborah: \"until I, Deborah, arose, I arose a mother in Israel.\" For praising herself, her prophecy left her, so later she had to be told, \"Awake, awake, Deborah.\"",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Pesachim 66b"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "haughty",
+       "type": "why",
+       "q": "How does Pesachim 66b explain \"Awake, awake, Deborah\"?",
+       "choices": [
+        "Her prophecy had left her after she praised herself",
+        "She had fallen asleep after the battle",
+        "Barak was calling her"
+       ],
+       "answer": 0,
+       "why": "Pride **dimmed** her prophecy; the song **wakes** it.",
+       "wrong_why": [
+        null,
+        "Not the Talmud's reading.",
+        "Not the Talmud's reading."
+       ],
+       "look_again": 5,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Pesachim 66b"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Judges 5:12",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:12"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "עוּרִי עוּרִי דְּבוֹרָה עוּרִי עוּרִי דַּבְּרִי־שִׁיר",
+       "tl": null,
+       "gloss": "\"Awake, awake, O Deborah! Awake, awake, strike up the chant!\" (5:12).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:12"
+       }
+      },
+      {
+       "kind": "relevance",
+       "body": "Every Friday night, **L'cha Dodi** borrows Deborah's words: עוּרִי עוּרִי שִׁיר דַּבֵּרִי.",
+       "links": [
+        "prayer:lcha_dodi_2"
+       ]
+      },
+      {
+       "kind": "reflect",
+       "prompt": "Deborah calls herself \"a mother in Israel,\" and the Talmud warns against self-praise. How do you tell healthy pride from too much?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "Deborah and Barak **sing** (5:1-3).",
+        "\"Arose, O mother, in Israel\": **you** arose, or **I** arose?",
+        "Pesachim 66b: self-praise, and **prophecy leaves**.",
+        "\"**Awake, awake**\": in L'cha Dodi every Shabbat."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-st-deb-04",
+     "title": "Deborah (4): Sisera's mother",
+     "status": "draft",
+     "related": [],
+     "check_note": "Rosh Hashanah 33b and Megillah 10b read on Sefaria (33b on 11/12).",
+     "cards": [
+      {
+       "kind": "hook",
+       "title": "At the window",
+       "body": "Deborah's song does not end with the victors. It ends in the enemy's house, with **Sisera's mother**, waiting at the window.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:28-30"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "pre",
+       "pretest": true,
+       "type": "tf",
+       "q": "The Talmud learns the sound of the shofar's teruah from the crying of Sisera's mother.",
+       "answer": true,
+       "why": "Rosh Hashanah 33b defines the sound by her **wailing**.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:28-30"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Judges 5:28",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:28"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "בְּעַד הַחַלּוֹן נִשְׁקְפָה וַתְּיַבֵּב אֵם סִֽיסְרָא",
+       "tl": null,
+       "gloss": "\"Through the window peered Sisera’s mother\" (5:28). Her crying is וַתְּיַבֵּב.",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:28"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "The sound of the shofar",
+       "body": "The Torah calls Rosh Hashanah **a day of teruah**, and the Aramaic translation calls it a day of **yevava**. What is yevava? The Talmud answers from this verse: Sisera's mother **wailed**, וַתְּיַבֵּב. One view hears **moaning sighs** (shevarim), another **whimpers** (teruot). The shofar's sounds are measured by **an enemy mother's cry**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rosh Hashanah 33b"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q1",
+       "idea": "shofar",
+       "type": "why",
+       "q": "In Rosh Hashanah 33b, how does the Talmud define the shofar's sound?",
+       "choices": [
+        "By the crying of Sisera's mother",
+        "By Deborah's song",
+        "By the trumpets of Barak's army"
+       ],
+       "answer": 0,
+       "why": "The shofar sounds like **a mother's crying**.",
+       "wrong_why": [
+        null,
+        "Not the Talmud's source.",
+        "Not the Talmud's source."
+       ],
+       "look_again": 4,
+       "src": {
+        "type": "rabbinic",
+        "ref": "Rosh Hashanah 33b"
+       }
+      },
+      {
+       "kind": "concept",
+       "title": "Not rejoicing",
+       "body": "Compare the Sea: when the Egyptians drowned, God stopped the angels from singing, because they too were **the work of My hands**.",
+       "src": {
+        "type": "rabbinic",
+        "ref": "Megillah 10b"
+       }
+      },
+      {
+       "kind": "text",
+       "sefaria": "Judges 5:31",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:31"
+       }
+      },
+      {
+       "kind": "term",
+       "he": "וַתִּשְׁקֹט הָאָרֶץ אַרְבָּעִים שָׁנָֽה׃",
+       "tl": null,
+       "gloss": "\"And the land was tranquil forty years\" (5:31).",
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:31"
+       }
+      },
+      {
+       "kind": "check",
+       "id": "q2",
+       "idea": "forty",
+       "type": "pick",
+       "q": "How does the story of Deborah end?",
+       "choices": [
+        "The land was tranquil forty years",
+        "Deborah becomes queen",
+        "Sisera escapes"
+       ],
+       "answer": 0,
+       "why": "**Forty years** of quiet (5:31).",
+       "wrong_why": [
+        null,
+        "Not in the text.",
+        "Jael ends Sisera's flight (4:21)."
+       ],
+       "look_again": 8,
+       "src": {
+        "type": "tanakh",
+        "ref": "Judges 5:31"
+       }
+      },
+      {
+       "kind": "reflect",
+       "prompt": "The song ends with a mother waiting for a son who will not come home, and the shofar still carries her cry. Can you hold victory and grief at the same time?"
+      },
+      {
+       "kind": "recap",
+       "points": [
+        "The song ends with **Sisera's mother** at the window (5:28).",
+        "Rosh Hashanah 33b: the shofar's sound is **her cry**.",
+        "Megillah 10b: God does not rejoice when enemies drown.",
+        "**Forty years** of quiet (5:31)."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,239 @@
+{
+ "fetched": "2026-11-12",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Deborah unit). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Judges 4:4-5",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וּדְבוֹרָה אִשָּׁה נְבִיאָה אֵשֶׁת לַפִּידוֹת הִיא שֹׁפְטָה אֶת־יִשְׂרָאֵל בָּעֵת הַהִֽיא׃",
+    "וְהִיא יוֹשֶׁבֶת תַּחַת־תֹּמֶר דְּבוֹרָה בֵּין הָרָמָה וּבֵין בֵּֽית־אֵל בְּהַר אֶפְרָיִם וַיַּעֲלוּ אֵלֶיהָ בְּנֵי יִשְׂרָאֵל לַמִּשְׁפָּֽט׃"
+   ],
+   "sha": [
+    "ab53a36c4da0c2ee6952dad8d5118bff8925d40af7ea70c20fc5169f0dabad85",
+    "9ca81bf884a266e00cd4bd474aa53ae5866dbbe1bc4fa1b79849fc998bacd704"
+   ]
+  },
+  {
+   "ref": "Judges 4:4-5",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Deborah, wife of Lappidoth, was a prophet; she led Israel at that time.",
+    "She used to sit under the Palm of Deborah, between Ramah and Bethel in the hill country of Ephraim, and the Israelites would come to her for decisions."
+   ],
+   "sha": [
+    "2dde9431b063028f1ae881d395c9b8ba3e0bf103035cadd6be0c8d79d4c233c4",
+    "a3e3e96f386241f06e36dc7e16d08b392c58a1afbc4390d8afdc6e95ace22de5"
+   ]
+  },
+  {
+   "ref": "Judges 4:8-9",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר אֵלֶיהָ בָּרָק אִם־תֵּלְכִי עִמִּי וְהָלָכְתִּי וְאִם־לֹא תֵֽלְכִי עִמִּי לֹא אֵלֵֽךְ׃",
+    "וַתֹּאמֶר הָלֹךְ אֵלֵךְ עִמָּךְ אֶפֶס כִּי לֹא תִֽהְיֶה תִּֽפְאַרְתְּךָ עַל־הַדֶּרֶךְ אֲשֶׁר אַתָּה הוֹלֵךְ כִּי בְֽיַד־אִשָּׁה יִמְכֹּר יְהֹוָה אֶת־סִֽיסְרָא וַתָּקׇם דְּבוֹרָה וַתֵּלֶךְ עִם־בָּרָק קֶֽדְשָׁה׃"
+   ],
+   "sha": [
+    "6c9cac39a5e8382e359427094f8534708552004ef7d2634e5ddfa54b00d866af",
+    "272975afb02f09bfd2b4bb278c5b46a6a6b34af419c845189f7a561e4d3ba17f"
+   ]
+  },
+  {
+   "ref": "Judges 4:8-9",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "But Barak said to her, “If you will go with me, I will go; if not, I will not go.”",
+    "“Very well, I will go with you,” she answered. “However, there will be no glory for you in the course you are taking, for then GOD will deliver Sisera into the hands of a woman.” So Deborah went with Barak to Kedesh."
+   ],
+   "sha": [
+    "458cf4a36da52dcc94bd39dc7ae7c4815d8d2529983973db8ab5415f06ade9ab",
+    "03307aa2857826d3a60321bec331bde3dd4d33394472fc123ec030a7db4f90df"
+   ]
+  },
+  {
+   "ref": "Judges 4:21",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתִּקַּח יָעֵל אֵֽשֶׁת־חֶבֶר אֶת־יְתַד הָאֹהֶל וַתָּשֶׂם אֶת־הַמַּקֶּבֶת בְּיָדָהּ וַתָּבוֹא אֵלָיו בַּלָּאט וַתִּתְקַע אֶת־הַיָּתֵד בְּרַקָּתוֹ וַתִּצְנַח בָּאָרֶץ וְהֽוּא־נִרְדָּם וַיָּעַף וַיָּמֹֽת׃"
+   ],
+   "sha": [
+    "61927cdb3b625b8b0c90ceae8fbbaa593f7f169e993b28e929548b89a1af3071"
+   ]
+  },
+  {
+   "ref": "Judges 4:21",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then Jael wife of Heber took a tent pin and grasped the mallet. When he was fast asleep from exhaustion, she approached him stealthily and drove the pin through his temple till it went down to the ground. Thus he died."
+   ],
+   "sha": [
+    "1d15549d959c7233af3549d548b91e3a404b0e159b473c3f4b752c83707b691b"
+   ]
+  },
+  {
+   "ref": "Judges 5:1-3",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַתָּשַׁר דְּבוֹרָה וּבָרָק בֶּן־אֲבִינֹעַם בַּיּוֹם הַהוּא לֵאמֹֽר׃",
+    "בִּפְרֹעַ פְּרָעוֹת בְּיִשְׂרָאֵל בְּהִתְנַדֵּב עָם בָּֽרְכוּ יְהֹוָֽה׃",
+    "שִׁמְעוּ מְלָכִים הַאֲזִינוּ רֹֽזְנִים אָנֹכִי לַֽיהֹוָה אָנֹכִי אָשִׁירָה אֲזַמֵּר לַֽיהֹוָה אֱלֹהֵי יִשְׂרָאֵֽל׃"
+   ],
+   "sha": [
+    "0d8e72a96810eaa70e3be81784168a4a7a34a62acaa339d29e8ff1aab0060dac",
+    "c6a1d8ecd6560e683d09a33c18d655f1cee66136e597cd37937838cacf42ce8a",
+    "1c3eb51ecdf21a8bc4e5391808662717517baaa4f467269080abd7eec4c39458"
+   ]
+  },
+  {
+   "ref": "Judges 5:1-3",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "On that day Deborah and Barak son of Abinoam sang:",
+    "When locks go untrimmed in Israel,When people dedicate themselves—Bless GOD!",
+    "Hear, O kings! Give ear, O potentates!I will sing, will sing to GOD,Will hymn the ETERNAL, the God of Israel."
+   ],
+   "sha": [
+    "8c13faf04bcb0b070046830b2fa4aff018e7136d26fb64339fba15fe40aa98eb",
+    "c76c2dc5bf1512c179182aef5bb7caa48742ab1afd1d2d2daac387a97e073157",
+    "dde60c812b1169cc03eba767aaa41bfecd1c4fbf99876e2288dce5999f818c8c"
+   ]
+  },
+  {
+   "ref": "Judges 5:7",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "חָדְלוּ פְרָזוֹן בְּיִשְׂרָאֵל חָדֵלּוּ עַד שַׁקַּמְתִּי דְּבוֹרָה שַׁקַּמְתִּי אֵם בְּיִשְׂרָאֵֽל׃"
+   ],
+   "sha": [
+    "3d1f20dcd5d0a77f586897fe4d0c2f3912ce7961ea3bd82155f13d52a1a01d6d"
+   ]
+  },
+  {
+   "ref": "Judges 5:7",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Deliverance ceased,Ceased in Israel,Till you, archaic second-person singular feminine. arose, O Deborah,Arose, O mother, in Israel!"
+   ],
+   "sha": [
+    "39fbbaa22abccf7da902211226985567808a171aa1132bc49f6d8f60652e656f"
+   ]
+  },
+  {
+   "ref": "Judges 5:12",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "עוּרִי עוּרִי דְּבוֹרָה עוּרִי עוּרִי דַּבְּרִי־שִׁיר קוּם בָּרָק וּֽשְׁבֵה שֶׁבְיְךָ בֶּן־אֲבִינֹֽעַם׃"
+   ],
+   "sha": [
+    "dd8d7b7cbc9fcade786dfc55fa822d4dbff853cd1c064c6ea495b95630e9e7c9"
+   ]
+  },
+  {
+   "ref": "Judges 5:12",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Awake, awake, O Deborah!Awake, awake, strike up the chant!Arise, O Barak;Take your captives, O son of Abinoam!"
+   ],
+   "sha": [
+    "b4d50e225f2c91ac3762041c4d265a9c34d923783feebd8d3b9a276ea639d3a8"
+   ]
+  },
+  {
+   "ref": "Judges 5:24",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "תְּבֹרַךְ מִנָּשִׁים יָעֵל אֵשֶׁת חֶבֶר הַקֵּינִי מִנָּשִׁים בָּאֹהֶל תְּבֹרָֽךְ׃"
+   ],
+   "sha": [
+    "e65801a8303be74d7796e79eba8b3ad005b35a0c41047c6aa536a5eefe5a71c7"
+   ]
+  },
+  {
+   "ref": "Judges 5:24",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Most blessed of women be Jael,Wife of Heber the Kenite,Most blessed of women in tents."
+   ],
+   "sha": [
+    "e7aa5116def5464641abd5be7481c1d6b40cb7ec5ec74ea583174f2692e761d6"
+   ]
+  },
+  {
+   "ref": "Judges 5:28",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "בְּעַד הַחַלּוֹן נִשְׁקְפָה וַתְּיַבֵּב אֵם סִֽיסְרָא בְּעַד הָאֶשְׁנָב מַדּוּעַ בֹּשֵׁשׁ רִכְבּוֹ לָבוֹא מַדּוּעַ אֶֽחֱרוּ פַּעֲמֵי מַרְכְּבוֹתָֽיו׃"
+   ],
+   "sha": [
+    "e0446763cafb69c304dee3c8caf7fd94c2492a2843df11e8d0270d565b2038bb"
+   ]
+  },
+  {
+   "ref": "Judges 5:28",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Through the window peered Sisera’s mother,Behind the lattice she whined: “Why is his chariot so long in coming?Why so late the clatter of his wheels?”"
+   ],
+   "sha": [
+    "40c9cb284d2e8a54f62334ebd495dc638c8ab2e5970ecd7f7c7097eed12dc5f0"
+   ]
+  },
+  {
+   "ref": "Judges 5:31",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "כֵּן יֹאבְדוּ כׇל־אוֹיְבֶיךָ יְהֹוָה וְאֹהֲבָיו כְּצֵאת הַשֶּׁמֶשׁ בִּגְבֻרָתוֹ וַתִּשְׁקֹט הָאָרֶץ אַרְבָּעִים שָׁנָֽה׃ {פ}"
+   ],
+   "sha": [
+    "b50bb342808690749398def746a8a7e6245467337783f2157f6260c7f11863e3"
+   ]
+  },
+  {
+   "ref": "Judges 5:31",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "So may all Your enemies perish, O GOD!But may Your friends be as the sun rising in might!And the land was tranquil forty years."
+   ],
+   "sha": [
+    "610ff1ca1b5e4bfd5a92029e4886c04fc581c4d0d5ea21173f241aad9db409fd"
+   ]
+  }
+ ]
+}
