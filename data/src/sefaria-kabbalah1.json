@@ -1,0 +1,55 @@
+{
+ "fetched": "2026-11-13",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Kabbalah unit 1). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "I Chronicles 29:11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "לְךָ יְהֹוָה הַגְּדֻלָּה וְהַגְּבוּרָה וְהַתִּפְאֶרֶת וְהַנֵּצַח וְהַהוֹד כִּי־כֹל בַּשָּׁמַיִם וּבָאָרֶץ לְךָ יְהֹוָה הַמַּמְלָכָה וְהַמִּתְנַשֵּׂא לְכֹל&thinsp;׀&thinsp;לְרֹֽאשׁ׃"
+   ],
+   "sha": [
+    "b87cf5990ba8bb977bb59a01c6d2e2e2bbc7863bb2134af304c30f6d82997590"
+   ]
+  },
+  {
+   "ref": "I Chronicles 29:11",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Yours, ETERNAL One, are greatness, might, splendor, triumph, and majesty—yes, all that is in heaven and on earth; to You, ETERNAL One, belong kingship and preeminence above all."
+   ],
+   "sha": [
+    "faf9ff61e4311f7556ed3e54c4f056ee2488b544d1576f363fea42caf653da04"
+   ]
+  },
+  {
+   "ref": "Isaiah 6:3",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְקָרָא זֶה אֶל־זֶה וְאָמַר קָדוֹשׁ&thinsp;׀&thinsp;קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת מְלֹא כׇל־הָאָרֶץ כְּבוֹדֽוֹ׃"
+   ],
+   "sha": [
+    "feae50147ba41818566eee4d941ca9d45392aa4ffc5ac7322396b5277c1430b3"
+   ]
+  },
+  {
+   "ref": "Isaiah 6:3",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "And one would call to the other,“Holy, holy, holy! GOD of Hosts—Whose presence fills all the earth!”"
+   ],
+   "sha": [
+    "dd949552259a203cb286b3d8c4ddb362fa1748f60f36bfe1ed8df23bb51aa89d"
+   ]
+  }
+ ]
+}

@@ -15087,7 +15087,658 @@
   {
    "id": "kabbalah",
    "title": "Kabbalah",
-   "units": []
+   "units": [
+    {
+     "id": "x-kb-foundations",
+     "title": "Foundations",
+     "subtitle": "Ein Sof, tzimtzum, the sefirot, and repair",
+     "lessons": [
+      {
+       "id": "x-kb-01",
+       "title": "Ein Sof: Without end",
+       "status": "draft",
+       "related": [],
+       "check_note": "Etz Chaim 1:1 (Community Translation) and Tikkunei Zohar 17a (Solomon 2024) read on Sefaria 11/13. Scholem card from memory: check.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Beyond every name",
+         "body": "**Kabbalah**, Jewish mysticism, starts with a God beyond anything we can picture or name. Kabbalists call this **Ein Sof**: without end.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:1 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "In Kabbalah, Ein Sof can be fully understood through careful thought.",
+         "answer": 1,
+         "why": "Etz Chaim: Ein Sof cannot be grasped \"neither by thought nor by reflection.\"",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:1 (Sefaria Community Translation)"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "concept",
+         "title": "Without end",
+         "body": "Isaac Luria's teaching, as written down in **Etz Chaim**, begins with the highest light, **Ein Sof**: \"it cannot be grasped in any way, neither by thought nor by reflection.\" It has **no beginning and no end**, and comes before everything that was ever created.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:1 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "One, but not in number",
+         "body": "A famous kabbalistic prayer opens with Elijah speaking: **Master of the Worlds**, You are One, but not one the way a number is one. You are high above all, hidden beyond all that is hidden: \"no thought apprehends You at all.\"",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "one",
+         "type": "pick",
+         "q": "In Tikkunei Zohar 17a, what can no thought do?",
+         "choices": [
+          "Grasp God",
+          "Count the stars",
+          "Reach the angels"
+         ],
+         "answer": 0,
+         "why": "God is **beyond thought**: One, but not a number among numbers.",
+         "wrong_why": [
+          null,
+          "Not the text's point.",
+          "Not the text's point."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "kabbalah",
+          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Isaiah 6:3",
+         "src": {
+          "type": "tanakh",
+          "ref": "Isaiah 6:3"
+         },
+         "ref": "Isaiah 6:3",
+         "he": "וְקָרָא זֶה אֶל־זֶה וְאָמַר קָדוֹשׁ ׀ קָדוֹשׁ קָדוֹשׁ יְיָ צְבָאוֹת מְלֹא כׇל־הָאָרֶץ כְּבוֹדֽוֹ׃",
+         "en": "And one would call to the other,“Holy, holy, holy! GOD of Hosts—Whose presence fills all the earth!”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "V'kara zeh el zeh v'amar kadosh  kadosh kadosh Adonai tz'va-ot m'lo chol ha-aretz k'vodo."
+        },
+        {
+         "kind": "term",
+         "he": "מְלֹא כׇל־הָאָרֶץ כְּבוֹדֽוֹ׃",
+         "tl": "M'lo chol ha-aretz k'vodo.",
+         "gloss": "\"Whose presence fills all the earth!\" (6:3). Etz Chaim says the same of the light of Ein Sof: before creation, it **filled all of existence**.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Isaiah 6:3; Etz Chaim 1:2"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Where Kabbalah comes from",
+         "body": "The **Zohar** presents itself as the teachings of **Rabbi Shimon bar Yochai** and his companions (2nd century). The scholar **Gershom Scholem** argued it was written in 13th-century **Spain**, largely by **Moses de León**. Three centuries later, **Isaac Luria** taught in Safed; his student **Chaim Vital** recorded his teaching in **Etz Chaim**.",
+         "src": {
+          "type": "scholarly",
+          "ref": "Gershom Scholem, Major Trends in Jewish Mysticism (1941)",
+          "note": "from memory, not on Sefaria; check"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "zohar",
+         "type": "pick",
+         "q": "Which scholar argued that the Zohar was written in 13th-century Spain?",
+         "choices": [
+          "Gershom Scholem",
+          "Rashi",
+          "Maimonides"
+         ],
+         "answer": 0,
+         "why": "**Scholem**, the founder of the modern study of Kabbalah.",
+         "wrong_why": [
+          null,
+          "Rashi lived before the Zohar appeared.",
+          "Maimonides died before the Zohar appeared."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "scholarly",
+          "ref": "Gershom Scholem, Major Trends in Jewish Mysticism (1941)",
+          "note": "from memory, not on Sefaria; check"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A God beyond pictures",
+         "body": "Your rabbi reads the Torah as a people **growing up**: from a child's picture of God as a hero, toward a God found in our choices. Kabbalah's **Ein Sof** pushes the same way: every picture of God is too small, so the old pictures have to be let go.",
+         "src": {
+          "type": "reform",
+          "ref": "Teaching from Jamie's rabbi (oral, as Jamie retold it); Etz Chaim 1:1",
+          "note": "connection to Kabbalah is mine; check with Jamie"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Ein Sof is beyond every name and picture. Which picture of God from childhood have you outgrown, and what, if anything, took its place?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "**Ein Sof**: without end, beyond thought (Etz Chaim).",
+          "One, **but not in number** (Tikkunei Zohar).",
+          "Ein Sof's light **filled all of existence**.",
+          "Zohar: attributed to Shimon bar Yochai; Scholem: **13th-century Spain**."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-kb-02",
+       "title": "Tzimtzum: Making room",
+       "status": "draft",
+       "related": [],
+       "check_note": "Etz Chaim 1:2 (Community Translation) read on Sefaria 11/13.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Where is there room?",
+         "body": "If God's light fills everything, where is there room for **a world**? Isaac Luria's answer is one of Kabbalah's boldest ideas.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "In Luria's teaching, what did Ein Sof do first to make room for the worlds?",
+         "choices": [
+          "Contracted itself, leaving an empty space",
+          "Spoke ten words",
+          "Built a palace of light",
+          "Split into two"
+         ],
+         "answer": 0,
+         "why": "**Tzimtzum**: contraction.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A light that filled everything",
+         "body": "Before anything was created, \"there was a simple supernal light that filled all of existence.\" There was **no empty space** at all: only one equal light without beginning or end, the light of Ein Sof.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Contraction",
+         "body": "When God willed to create, God **contracted** at the center point. The light withdrew to the sides, and an **empty space** was left, perfectly round, equal on every side. Kabbalists call this **tzimtzum**.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "tzimtzum",
+         "type": "pick",
+         "q": "What is tzimtzum?",
+         "choices": [
+          "God's contraction, leaving room for creation",
+          "A kind of prayer shawl",
+          "The breaking of the tablets"
+         ],
+         "answer": 0,
+         "why": "God **withdraws**, so something else can be.",
+         "wrong_why": [
+          null,
+          "Not this.",
+          "Not this."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A line of light",
+         "body": "Into the empty space, a single **straight line** of light reaches down from Ein Sof, \"like a thin tube.\" Through it, light reaches the worlds. It cannot pour in from every side: then everything would melt back into **the light of Ein Sof**, as it was at first.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "kav",
+         "type": "why",
+         "q": "In Etz Chaim, why does light enter the empty space by one thin line, not from every side?",
+         "choices": [
+          "Otherwise the worlds would dissolve back into Ein Sof",
+          "The space was too small",
+          "Light can only travel in lines"
+         ],
+         "answer": 0,
+         "why": "Too much light, and **there would be no world**.",
+         "wrong_why": [
+          null,
+          "Not the text's reason.",
+          "Not the text's reason."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Why create at all?",
+         "body": "Etz Chaim gives a reason: God wanted to be known as **merciful and gracious**. But if no one exists to receive mercy, \"how can He be called merciful?\" Creation makes room for **someone to receive kindness**.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "why",
+         "type": "pick",
+         "q": "According to Etz Chaim, why did God create the worlds?",
+         "choices": [
+          "So there would be someone to receive God's mercy",
+          "Because God was lonely",
+          "To defeat the angels"
+         ],
+         "answer": 0,
+         "why": "Mercy needs **someone to receive it**.",
+         "wrong_why": [
+          null,
+          "Not the text's reason.",
+          "Not the text's reason."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "kabbalah",
+          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Tzimtzum is God stepping back so that something else can exist. Where might you need to step back to make room for someone?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "First, light **filled all of existence**.",
+          "**Tzimtzum**: contraction, leaving an empty space.",
+          "A thin **line of light** reaches the worlds.",
+          "Why? So **mercy** has someone to receive it."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-kb-03",
+       "title": "The ten sefirot",
+       "status": "draft",
+       "related": [
+        "prayer:t_lcha"
+       ],
+       "check_note": "Sefer Yetzirah 1:4, Pardes Rimonim 1:1 (Community Translation), Tikkunei Zohar 17a, Etz Chaim 1:2 read on Sefaria 11/13. Full list of ten names from memory: check.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "How the hidden is known",
+         "body": "If Ein Sof is beyond all thought, how is God known at all? Kabbalah answers: through **ten sefirot**, ten ways God's light reaches the world.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "Sefer Yetzirah insists there are exactly ten sefirot.",
+         "answer": 0,
+         "why": "\"Ten and not nine, ten and not eleven.\"",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "concept",
+         "title": "Ten and not nine",
+         "body": "The ancient **Sefer Yetzirah**, the Book of Formation, says: \"Ten and not nine, ten and not eleven.\" Centuries later **Moses Cordovero** writes that all who study this wisdom agree the number is **ten**, and notes that Sefer Yetzirah is traditionally attributed to **Abraham**.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Sefer Yetzirah 1:4; Pardes Rimonim 1:1 (Sefaria Community Translation)"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Constructs to direct worlds",
+         "body": "In the prayer of Elijah: You produced ten constructs, which we call **the ten sefirot**, to guide hidden worlds and revealed ones. You **bind and unite** them, and because You are within them, whoever separates one from another is as though they separated **You**.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "unity",
+         "type": "why",
+         "q": "In Tikkunei Zohar 17a, why must the ten sefirot not be separated?",
+         "choices": [
+          "God is within them, so splitting them splits God's unity",
+          "They would fall from heaven",
+          "There would be only nine"
+         ],
+         "answer": 0,
+         "why": "Ten qualities, **one God**.",
+         "wrong_why": [
+          null,
+          "Not the text's reason.",
+          "Not the text's reason."
+         ],
+         "look_again": 3,
+         "src": {
+          "type": "kabbalah",
+          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Chronicles 29:11",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Chronicles 29:11"
+         },
+         "ref": "I Chronicles 29:11",
+         "he": "לְךָ יְיָ הַגְּדֻלָּה וְהַגְּבוּרָה וְהַתִּפְאֶרֶת וְהַנֵּצַח וְהַהוֹד כִּי־כֹל בַּשָּׁמַיִם וּבָאָרֶץ לְךָ יְיָ הַמַּמְלָכָה וְהַמִּתְנַשֵּׂא לְכֹל ׀ לְרֹֽאשׁ׃",
+         "en": "Yours, ETERNAL One, are greatness, might, splendor, triumph, and majesty—yes, all that is in heaven and on earth; to You, ETERNAL One, belong kingship and preeminence above all.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "L'cha Adonai hag'dulah v'hag'vurah v'hatif'eret v'haneitzach v'hahod ki chol bashamayim uva-aretz l'cha Adonai hamamlachah v'hamitnasei l'chol  l'rosh."
+        },
+        {
+         "kind": "term",
+         "he": "הַגְּדֻלָּה וְהַגְּבוּרָה וְהַתִּפְאֶרֶת וְהַנֵּצַח וְהַהוֹד",
+         "tl": "Hag'dulah v'hag'vurah v'hatif'eret v'haneitzach v'hahod",
+         "gloss": "\"greatness, might, splendor, triumph, and majesty\" (29:11). Kabbalists use these words as names of sefirot; Etz Chaim names **Gevurah, Tiferet, Netzach and Hod**.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "I Chronicles 29:11; Etz Chaim 1:2"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "These are the words of **L'cha Adonai**, sung as the Torah is carried back to the Ark.",
+         "links": [
+          "prayer:t_lcha"
+         ]
+        },
+        {
+         "kind": "concept",
+         "title": "The ten",
+         "body": "The usual list, from top to bottom: **Keter** (crown), **Chochmah** (wisdom), **Binah** (understanding), **Chesed** (kindness), **Gevurah** (strength), **Tiferet** (beauty), **Netzach** (endurance), **Hod** (splendor), **Yesod** (foundation), **Malchut** (kingship, also called **Shechinah**). Etz Chaim shows them in **three lines**, right, left and center.",
+         "src": {
+          "type": "scholarly",
+          "ref": "Standard kabbalistic list; Gershom Scholem, Kabbalah (1974); Etz Chaim 1:2 for the three lines",
+          "note": "from memory, not on Sefaria; check"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "lcha",
+         "type": "pick",
+         "q": "Which verse, sung at the Torah service, gives several sefirot their names?",
+         "choices": [
+          "1 Chronicles 29:11",
+          "Genesis 1:1",
+          "Psalm 23:1"
+         ],
+         "answer": 0,
+         "why": "**L'cha Adonai hag'dulah**: greatness, might, splendor...",
+         "wrong_why": [
+          null,
+          "Not this verse.",
+          "Not this verse."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "tanakh",
+          "ref": "I Chronicles 29:11"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Tikkunei Zohar warns against separating the sefirot, like kindness from strength. Which two of your own qualities do you find hardest to hold together?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**Ten and not nine**, ten and not eleven\" (Sefer Yetzirah).",
+          "Ten constructs, **bound in one** (Tikkunei Zohar).",
+          "Names from **1 Chronicles 29:11**: sung in L'cha Adonai.",
+          "Keter to Malchut, in **three lines**."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-kb-04",
+       "title": "Shechinah, broken vessels, and repair",
+       "status": "draft",
+       "related": [],
+       "check_note": "Megillah 29a, Mishnah Gittin 4:2 and Etz Chaim 9:2 read on Sefaria 11/13. Broken-vessels summary and modern use of tikkun olam from memory (Scholem): check. Aleinu wording: CHECK Mishkan T'filah.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "God in exile",
+         "body": "Kabbalah speaks of the **Shechinah**, God's presence dwelling in the world, as close to us, and sometimes in exile with us.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Megillah 29a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "In the Talmud, the Divine Presence went into exile with Israel.",
+         "answer": 0,
+         "why": "Rabbi Shimon bar Yochai, in Megillah 29a.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Megillah 29a"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "concept",
+         "title": "The Shechinah went with them",
+         "body": "**Rabbi Shimon bar Yochai**: see how beloved Israel is. Wherever they were exiled, **the Divine Presence went with them**: to Egypt, to Babylonia. And when they are redeemed, the Divine Presence will return **with them**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Megillah 29a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "exile",
+         "type": "why",
+         "q": "According to Megillah 29a, where was the Divine Presence when Israel was exiled?",
+         "choices": [
+          "In exile with them",
+          "Left behind in Jerusalem",
+          "Gone up to heaven"
+         ],
+         "answer": 0,
+         "why": "God **goes into exile** with the people.",
+         "wrong_why": [
+          null,
+          "The Talmud says the Presence went with them.",
+          "Not this teaching."
+         ],
+         "look_again": 2,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Megillah 29a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Broken vessels",
+         "body": "Luria taught that the first vessels made to hold God's light **could not hold it**, and broke. Etz Chaim describes \"seven kings\" who descended, and from what was left of them the **klipot**, husks, were formed, with **lights** still caught inside. As scholars summarize it, every good act **frees a spark** and helps repair what broke.",
+         "src": {
+          "type": "scholarly",
+          "ref": "Etz Chaim 9:2 (Sefaria Community Translation); Gershom Scholem, Major Trends in Jewish Mysticism (1941)",
+          "note": "from memory, not on Sefaria; check"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "sparks",
+         "type": "pick",
+         "q": "In Luria's picture, what is caught inside the husks (klipot)?",
+         "choices": [
+          "Light from the broken vessels",
+          "The tablets of Sinai",
+          "The souls of angels"
+         ],
+         "answer": 0,
+         "why": "**Sparks of light**, waiting to be raised.",
+         "wrong_why": [
+          null,
+          "Not in this teaching.",
+          "Not in this teaching."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "scholarly",
+          "ref": "Etz Chaim 9:2 (Sefaria Community Translation); Gershom Scholem, Major Trends in Jewish Mysticism (1941)",
+          "note": "from memory, not on Sefaria; check"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "For the betterment of the world",
+         "body": "The phrase **tikkun olam** is old. In the Mishnah, **Rabban Gamliel the Elder** makes rules about divorce documents \"for the betterment of the world\": legal fixes that keep society **fair and working**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishnah Gittin 4:2"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Tikkun olam today",
+         "body": "Many prayer books' **Aleinu** hopes to **repair the world** under God's sovereignty. Kabbalah gave the idea a cosmic meaning, and modern Reform Judaism made **tikkun olam** a call to **social justice**: repair, one act at a time.",
+         "src": {
+          "type": "reform",
+          "ref": "Aleinu (second paragraph); Reform usage of tikkun olam",
+          "note": "CHECK: Mishkan T'filah Aleinu wording; history from memory"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q3",
+         "idea": "tikkun",
+         "type": "pick",
+         "q": "In the Mishnah, what does \"for the betterment of the world\" refer to?",
+         "choices": [
+          "Practical rules that keep society fair",
+          "Raising mystical sparks",
+          "Building the Temple"
+         ],
+         "answer": 0,
+         "why": "Tikkun olam begins as **law** for a fair society.",
+         "wrong_why": [
+          null,
+          "That meaning comes later, from Kabbalah.",
+          "Not in this Mishnah."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishnah Gittin 4:2"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Luria pictures a broken world with light hidden in every piece. Where have you found light inside something broken?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Megillah 29a: **the Shechinah goes into exile** with Israel.",
+          "Luria: **vessels broke**; sparks are caught in husks.",
+          "Mishnah Gittin: tikkun olam as **fair law**.",
+          "Today: **repair**, one act at a time."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      }
+     ]
+    }
+   ]
   }
  ]
 }
