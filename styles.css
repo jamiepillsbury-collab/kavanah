@@ -185,7 +185,7 @@ button.small { padding: 6px 14px; font-size: .9rem; }
 .srcwrap { flex: 1; }
 .srcchip { border: 1px solid var(--line); background: none; color: var(--muted); border-radius: 999px; padding: 3px 10px; font-size: .8rem; text-align: left; }
 .srcchip.t-scholarly { border-color: #7a8fb3; } .srcchip.t-tradition, .srcchip.t-rabbinic { border-color: var(--hint); }
-.srcchip.t-reform { border-color: var(--good); } .srcchip.t-kabbalah { border-color: #9b7ab3; }
+.srcchip.t-reform { border-color: var(--good); } .srcchip.t-kabbalah { border-color: #9b7ab3; } .srcchip.t-mussar { border-color: #b3927a; }
 .src-more { font-size: .85rem; color: var(--muted); margin-top: 6px; }
 .src-more a { color: var(--accent); }
 .flagbtn { background: none; border: 0; color: var(--muted); font-size: .8rem; padding: 3px 0; white-space: nowrap; }

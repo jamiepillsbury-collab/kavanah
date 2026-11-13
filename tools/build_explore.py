@@ -9,8 +9,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from translit import tl
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TRACKS = [("stories", "Torah stories"), ("history", "Jewish history"), ("kabbalah", "Kabbalah")]
-SRC = {"torah", "tanakh", "rabbinic", "apocrypha", "liturgy", "kabbalah", "scholarly", "tradition", "reform"}
+TRACKS = [("stories", "Torah stories"), ("history", "Jewish history"), ("kabbalah", "Kabbalah"), ("mussar", "Mussar")]
+SRC = {"torah", "tanakh", "rabbinic", "apocrypha", "liturgy", "kabbalah", "mussar", "scholarly", "tradition", "reform"}
 KINDS = {"hook", "concept", "term", "text", "timeline", "diagram", "check", "relevance", "reflect", "recap"}
 NO_SRC = {"reflect", "recap", "relevance"}
 CHECKS = {"pick", "why", "tf", "order"}

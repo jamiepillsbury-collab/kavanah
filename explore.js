@@ -10,8 +10,8 @@ self.KavanahExplore = (api) => {
   let data = { tracks: [] }, track = "stories", xr = null, cal = null;
   const lessons = {}, ideaChecks = {}; // lesson id -> lesson; idea key -> [{l, c}]
   const SRC = { torah: "Torah", tanakh: "Tanakh", rabbinic: "Rabbinic", apocrypha: "Apocrypha", liturgy: "Liturgy",
-    kabbalah: "Kabbalah", scholarly: "Scholars", tradition: "Tradition", reform: "Reform" };
-  const SEFARIA = new Set(["torah", "tanakh", "rabbinic", "apocrypha", "liturgy", "kabbalah"]);
+    kabbalah: "Kabbalah", mussar: "Mussar", scholarly: "Scholars", tradition: "Tradition", reform: "Reform" };
+  const SEFARIA = new Set(["torah", "tanakh", "rabbinic", "apocrypha", "liturgy", "kabbalah", "mussar"]);
   const key = (lid, idea) => `x:${lid}:${idea}`;
   const ideasOf = (l) => [...new Set(l.cards.filter((c) => c.kind === "check" && !c.pretest).map((c) => c.idea))];
   const pct = (l) => { const ids = ideasOf(l); return ids.length ? ids.reduce((s, i) => s + Math.min(mastery(key(l.id, i)), 3) / 3, 0) / ids.length : 0; };
@@ -281,8 +281,8 @@ self.KavanahExplore = (api) => {
   function render() {
     const t = data.tracks.find((x) => x.id === track) || { units: [] };
     const reviewed = bag("reviewed"), seen = bag("xseen");
-    const seg = h("div", { class: "seg" }, data.tracks.map((x) => h("button", { class: x.id === track ? "on" : "", onclick: () => { track = x.id; render(); } }, ({ stories: "Stories", history: "History", kabbalah: "Kabbalah" })[x.id] || x.title)));
-    const empty = { stories: "Coming next: Genesis, starting with Creation.", history: "Not written yet. Planned after the Torah stories.", kabbalah: "Not written yet. Planned after Genesis and Exodus." }[track];
+    const seg = h("div", { class: "seg" }, data.tracks.map((x) => h("button", { class: x.id === track ? "on" : "", onclick: () => { track = x.id; render(); } }, ({ stories: "Stories", history: "History", kabbalah: "Kabbalah", mussar: "Mussar" })[x.id] || x.title)));
+    const empty = { stories: "Coming next: Genesis, starting with Creation.", history: "Not written yet. Planned after the Torah stories.", kabbalah: "Not written yet.", mussar: "Not written yet." }[track];
     view.replaceChildren(weekCard() || "", seg, reviewBlock() || "",
       ...(t.units.length ? t.units.map((u) => h("section", {}, h("h2", {}, u.title), u.subtitle ? h("p", { class: "sub" }, u.subtitle) : null,
         u.lessons.map((l, n) => {

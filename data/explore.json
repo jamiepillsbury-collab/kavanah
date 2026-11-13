@@ -15106,7 +15106,8 @@
          "body": "**Kabbalah**, Jewish mysticism, starts with a God beyond anything we can picture or name. Kabbalists call this **Ein Sof**: without end.",
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:1 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:1",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15119,7 +15120,8 @@
          "why": "Etz Chaim: Ein Sof cannot be grasped \"neither by thought nor by reflection.\"",
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:1 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:1",
+          "note": "Sefaria Community Translation"
          },
          "choices": [
           "True",
@@ -15132,7 +15134,8 @@
          "body": "Isaac Luria's teaching, as written down in **Etz Chaim**, begins with the highest light, **Ein Sof**: \"it cannot be grasped in any way, neither by thought nor by reflection.\" It has **no beginning and no end**, and comes before everything that was ever created.",
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:1 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:1",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15141,7 +15144,8 @@
          "body": "A famous kabbalistic prayer opens with Elijah speaking: **Master of the Worlds**, You are One, but not one the way a number is one. You are high above all, hidden beyond all that is hidden: \"no thought apprehends You at all.\"",
          "src": {
           "type": "kabbalah",
-          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+          "ref": "Tikkunei Zohar 17a",
+          "note": "trans. David Solomon, 2024"
          }
         },
         {
@@ -15165,7 +15169,8 @@
          "look_again": 3,
          "src": {
           "type": "kabbalah",
-          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+          "ref": "Tikkunei Zohar 17a",
+          "note": "trans. David Solomon, 2024"
          }
         },
         {
@@ -15268,7 +15273,8 @@
          "body": "If God's light fills everything, where is there room for **a world**? Isaac Luria's answer is one of Kabbalah's boldest ideas.",
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:2",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15287,7 +15293,8 @@
          "why": "**Tzimtzum**: contraction.",
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:2",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15296,7 +15303,8 @@
          "body": "Before anything was created, \"there was a simple supernal light that filled all of existence.\" There was **no empty space** at all: only one equal light without beginning or end, the light of Ein Sof.",
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:2",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15305,7 +15313,8 @@
          "body": "When God willed to create, God **contracted** at the center point. The light withdrew to the sides, and an **empty space** was left, perfectly round, equal on every side. Kabbalists call this **tzimtzum**.",
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:2",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15329,7 +15338,8 @@
          "look_again": 3,
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:2",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15338,7 +15348,8 @@
          "body": "Into the empty space, a single **straight line** of light reaches down from Ein Sof, \"like a thin tube.\" Through it, light reaches the worlds. It cannot pour in from every side: then everything would melt back into **the light of Ein Sof**, as it was at first.",
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:2",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15362,7 +15373,8 @@
          "look_again": 5,
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:2",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15371,7 +15383,8 @@
          "body": "Etz Chaim gives a reason: God wanted to be known as **merciful and gracious**. But if no one exists to receive mercy, \"how can He be called merciful?\" Creation makes room for **someone to receive kindness**.",
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:2",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15395,7 +15408,8 @@
          "look_again": 7,
          "src": {
           "type": "kabbalah",
-          "ref": "Etz Chaim 1:2 (Sefaria Community Translation)"
+          "ref": "Etz Chaim 1:2",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15430,7 +15444,8 @@
          "body": "If Ein Sof is beyond all thought, how is God known at all? Kabbalah answers: through **ten sefirot**, ten ways God's light reaches the world.",
          "src": {
           "type": "kabbalah",
-          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+          "ref": "Tikkunei Zohar 17a",
+          "note": "trans. David Solomon, 2024"
          }
         },
         {
@@ -15443,7 +15458,8 @@
          "why": "\"Ten and not nine, ten and not eleven.\"",
          "src": {
           "type": "kabbalah",
-          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+          "ref": "Tikkunei Zohar 17a",
+          "note": "trans. David Solomon, 2024"
          },
          "choices": [
           "True",
@@ -15456,7 +15472,8 @@
          "body": "The ancient **Sefer Yetzirah**, the Book of Formation, says: \"Ten and not nine, ten and not eleven.\" Centuries later **Moses Cordovero** writes that all who study this wisdom agree the number is **ten**, and notes that Sefer Yetzirah is traditionally attributed to **Abraham**.",
          "src": {
           "type": "kabbalah",
-          "ref": "Sefer Yetzirah 1:4; Pardes Rimonim 1:1 (Sefaria Community Translation)"
+          "ref": "Sefer Yetzirah 1:4; Pardes Rimonim 1:1",
+          "note": "Sefaria Community Translation"
          }
         },
         {
@@ -15465,7 +15482,8 @@
          "body": "In the prayer of Elijah: You produced ten constructs, which we call **the ten sefirot**, to guide hidden worlds and revealed ones. You **bind and unite** them, and because You are within them, whoever separates one from another is as though they separated **You**.",
          "src": {
           "type": "kabbalah",
-          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+          "ref": "Tikkunei Zohar 17a",
+          "note": "trans. David Solomon, 2024"
          }
         },
         {
@@ -15489,7 +15507,8 @@
          "look_again": 3,
          "src": {
           "type": "kabbalah",
-          "ref": "Tikkunei Zohar 17a (trans. David Solomon, 2024)"
+          "ref": "Tikkunei Zohar 17a",
+          "note": "trans. David Solomon, 2024"
          }
         },
         {
@@ -15730,6 +15749,890 @@
           "Luria: **vessels broke**; sparks are caught in husks.",
           "Mishnah Gittin: tikkun olam as **fair law**.",
           "Today: **repair**, one act at a time."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      }
+     ]
+    },
+    {
+     "id": "x-kb-practice",
+     "title": "In practice",
+     "subtitle": "Kabbalah you can live: Shabbat, the Omer",
+     "lessons": [
+      {
+       "id": "x-kb-05",
+       "title": "Welcoming the Shabbat bride",
+       "status": "draft",
+       "related": [
+        "prayer:lcha_dodi_1",
+        "prayer:lcha_dodi_2"
+       ],
+       "check_note": "Shabbat 119a read on Sefaria 11/13. Acrostic checked on Sefaria's Siddur Ashkenaz Lekha Dodi. Safed history from memory (Scholem): check. CBB practice from the CBB siddur note in data/prayers.json.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Friday at sunset",
+         "body": "Every Friday night, many congregations sing **L'cha Dodi**: a song welcoming **Shabbat as a bride**. The idea is ancient; the song comes from the Kabbalists.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Shabbat 119a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "The stanzas of L'cha Dodi spell out the name of its author.",
+         "answer": 0,
+         "why": "Their first letters spell **שְׁלֹמֹה הַלֵּוִי**, Shlomo HaLevi.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Shabbat 119a"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "concept",
+         "title": "Go out to greet the queen",
+         "body": "In the Talmud, **Rabbi Chanina** would wrap himself in his cloak at sunset on Friday and say: \"Come and we will go out to greet Shabbat the queen.\" **Rabbi Yannai** would dress and say: \"Enter, O bride. Enter, O bride.\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Shabbat 119a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "greet",
+         "type": "why",
+         "q": "How did Rabbi Chanina welcome Shabbat in Shabbat 119a?",
+         "choices": [
+          "He dressed up and went out to greet Shabbat the queen",
+          "He fasted all Friday",
+          "He read the whole Torah portion"
+         ],
+         "answer": 0,
+         "why": "Shabbat as **a royal guest**, met at the door.",
+         "wrong_why": [
+          null,
+          "Not in the Talmud.",
+          "Not in the Talmud."
+         ],
+         "look_again": 2,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Shabbat 119a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "In the fields of Safed",
+         "body": "In 16th-century **Safed**, Kabbalists around Isaac Luria went out to the fields on Friday afternoon, dressed in white, to **greet Shabbat**. One of them, **Shlomo HaLevi Alkabetz**, wrote L'cha Dodi. For Kabbalists, the Shabbat bride is also **the Shechinah**, God's presence, coming home.",
+         "src": {
+          "type": "scholarly",
+          "ref": "Gershom Scholem, On the Kabbalah and Its Symbolism (1965)",
+          "note": "from memory, not on Sefaria; check"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "לְכָה דוֹדִי לִקְרַאת כַּלָּה, פְּנֵי שַׁבָּת נְקַבְּלָה",
+         "tl": "L'chah dodi likrat kalah, p'nei Shabbat n'kab'lah",
+         "gloss": "\"Come my Beloved Friend to greet the bride, let us welcome the Sabbath.\" The refrain, sung after every stanza.",
+         "src": {
+          "type": "liturgy",
+          "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Lekha Dodi",
+          "note": "Metsudah siddur, 1981"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A name hidden in the song",
+         "body": "Read the **first letter** of each of the eight middle stanzas: ש ל מ ה ה ל ו י, **שְׁלֹמֹה הַלֵּוִי**, Shlomo HaLevi. The poet signed his name inside the song.",
+         "src": {
+          "type": "liturgy",
+          "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Lekha Dodi",
+          "note": "checked on Sefaria"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "acrostic",
+         "type": "pick",
+         "q": "What do the first letters of L'cha Dodi's stanzas spell?",
+         "choices": [
+          "Shlomo HaLevi, the poet's name",
+          "Shabbat Shalom",
+          "The name of God"
+         ],
+         "answer": 0,
+         "why": "An **acrostic**: the author's signature.",
+         "wrong_why": [
+          null,
+          "Not this.",
+          "Not this."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "liturgy",
+          "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Lekha Dodi",
+          "note": "checked on Sefaria"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "At CBB, everyone **rises and turns to greet the Shabbat bride** before the last stanza.",
+         "links": [
+          "prayer:lcha_dodi_1",
+          "prayer:lcha_dodi_2"
+         ]
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Rabbi Chanina dressed up and went out to meet Shabbat. What would going out to greet Shabbat look like for you this week?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Shabbat 119a: greet Shabbat **the queen**, \"**Enter, O bride**.\"",
+          "Safed: Kabbalists in the fields; **Alkabetz** writes L'cha Dodi.",
+          "The stanzas spell **שְׁלֹמֹה הַלֵּוִי**.",
+          "At CBB: **rise and turn** to greet the bride."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-kb-06",
+       "title": "Counting the Omer",
+       "status": "draft",
+       "related": [],
+       "check_note": "Menachot 66a, Yevamot 62b, Zohar Emor 34:162 (Soncino), Siddur Sefard Sefirat HaOmer (Metsudah note; Hebrew sefirot lines) read on Sefaria 11/13. CHECK: does CBB count the Omer, and with the sefirot?",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Forty-nine days",
+         "body": "From the second night of Passover to Shavuot, Jews **count** each night: day one, day two, up to forty-nine. Kabbalah turned the counting into a practice of **the inner life**.",
+         "src": {
+          "type": "torah",
+          "ref": "Leviticus 23:15-16"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "According to Abaye in the Talmud, what is the mitzvah of counting?",
+         "choices": [
+          "Count both the days and the weeks",
+          "Count only the days",
+          "Count only the weeks",
+          "Count only on Shabbat"
+         ],
+         "answer": 0,
+         "why": "\"It is a mitzva to count days, and it is also a mitzva to count weeks.\"",
+         "src": {
+          "type": "torah",
+          "ref": "Leviticus 23:15-16"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Leviticus 23:15-16",
+         "src": {
+          "type": "torah",
+          "ref": "Leviticus 23:15-16"
+         },
+         "ref": "Leviticus 23:15-16",
+         "he": "וּסְפַרְתֶּם לָכֶם מִמׇּחֳרַת הַשַּׁבָּת מִיּוֹם הֲבִיאֲכֶם אֶת־עֹמֶר הַתְּנוּפָה שֶׁבַע שַׁבָּתוֹת תְּמִימֹת תִּהְיֶֽינָה׃\nעַד מִֽמׇּחֳרַת הַשַּׁבָּת הַשְּׁבִיעִת תִּסְפְּרוּ חֲמִשִּׁים יוֹם וְהִקְרַבְתֶּם מִנְחָה חֲדָשָׁה לַיהֹוָֽה׃",
+         "en": "And from the day on which you bring the sheaf of elevation offering—the day after the sabbath—you shall count off seven weeks. They must be complete: you must count until the day after the seventh week—fifty days; then you shall bring an offering of new grain to יהוה.",
+         "en_src": "The Contemporary Torah, Jewish Publication Society, 2006",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Us'fartem lachem mimochorat haShabbat miyom havi-achem et omer hat'nufah sheva Shabbatot t'mimot tihyenah.\nAd mimochorat haShabbat hash'vi-it tisp'ru chamishim yom v'hikravtem minchah chadashah laihovah."
+        },
+        {
+         "kind": "term",
+         "he": "וּסְפַרְתֶּם לָכֶם",
+         "tl": "Us'fartem lachem",
+         "gloss": "\"you shall count off\" (23:15).",
+         "src": {
+          "type": "torah",
+          "ref": "Leviticus 23:15"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Days and weeks",
+         "body": "**Abaye**: \"It is a mitzva to count days, and it is also a mitzva to count weeks.\" So on day eight, for example, one counts eight days, which is one week and one day. **Ameimar** counted only days, since without the Temple's offering the count is a **remembrance**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Menachot 66a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "count",
+         "type": "why",
+         "q": "Why did Ameimar count only days, not weeks?",
+         "choices": [
+          "Without the Temple's offering, the count is only a remembrance",
+          "He forgot the weeks",
+          "Weeks were forbidden"
+         ],
+         "answer": 0,
+         "why": "Abaye counts both; Ameimar keeps it **simpler**.",
+         "wrong_why": [
+          null,
+          "Not the Talmud's reason.",
+          "Not the Talmud's reason."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Menachot 66a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Counting toward Sinai",
+         "body": "A note in the Metsudah siddur explains the counting: like someone awaiting **a dear friend** on a set day, who counts the days in eager anticipation, we count from **freedom** (Passover) to **receiving the Torah** (Shavuot). The **Zohar** adds: just as a woman counts seven days toward purity, Israel counts these days **for purity**.",
+         "src": {
+          "type": "liturgy",
+          "ref": "Siddur Sefard, Sefirat HaOmer 1 (Metsudah note); Zohar, Emor 34:162"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Seven weeks, seven qualities",
+         "body": "Kabbalists give each week one of the **seven lower sefirot**, from Chesed (kindness) to Malchut, and each day a sefirah **within** that week. So day one is חֶסֶד שֶׁבְּחֶסֶד, kindness within kindness, and day forty-nine is Malchut within Malchut. Each night becomes a small **check-up of the soul**.",
+         "src": {
+          "type": "kabbalah",
+          "ref": "Siddur Sefard, Weekday Maariv, Sefirat HaOmer",
+          "note": "Sefaria Hebrew; order of the sefirot from memory, check"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "sefirot",
+         "type": "pick",
+         "q": "In the kabbalistic count, what quality belongs to day one?",
+         "choices": [
+          "Kindness within kindness (Chesed within Chesed)",
+          "Kingship within kingship",
+          "Strength within strength"
+         ],
+         "answer": 0,
+         "why": "The count begins with **Chesed**, kindness.",
+         "wrong_why": [
+          null,
+          "That is day forty-nine.",
+          "That is day nine."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "kabbalah",
+          "ref": "Siddur Sefard, Weekday Maariv, Sefirat HaOmer",
+          "note": "Sefaria Hebrew; order of the sefirot from memory, check"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A season of mourning",
+         "body": "The Talmud says **Rabbi Akiva's** twelve thousand pairs of students all died between Passover and Shavuot, \"because they did not treat each other with respect.\" This is one reason parts of the Omer are kept as **a time of mourning**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Yevamot 62b"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "If each week of the Omer focused on one quality, starting with kindness and then strength, which week would you need most this year?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**You shall count off** seven weeks\" (Leviticus 23:15).",
+          "Menachot 66a: count **days and weeks**.",
+          "From freedom to **Sinai**, counting like waiting for a friend.",
+          "Kabbalah: each day a **sefirah**, starting with **kindness within kindness**.",
+          "Yevamot 62b: Akiva's students and **respect**."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mussar",
+   "title": "Mussar",
+   "units": [
+    {
+     "id": "x-mu-start",
+     "title": "Beginning a practice",
+     "subtitle": "Traits, balance, a daily accounting, and a ladder",
+     "lessons": [
+      {
+       "id": "x-mu-01",
+       "title": "What is Mussar?",
+       "status": "draft",
+       "related": [],
+       "check_note": "Pirkei Avot 4:1 (Kulp) and Mesillat Yesharim Intro + 1:1 (Sebag) read on Sefaria 11/13. Movement history from memory: check.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Working on yourself",
+         "body": "**Mussar** is the Jewish practice of working on your character, one trait at a time: patience, humility, generosity, honesty. The traits are called **middot**.",
+         "src": {
+          "type": "scholarly",
+          "ref": "Mussar movement: Rabbi Israel Salanter (19th c.); Alan Morinis, Everyday Holiness (2007)",
+          "note": "from memory, not on Sefaria; check"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "According to Ben Zoma, who is rich?",
+         "choices": [
+          "One who rejoices in their lot",
+          "One who owns the most land",
+          "One who never spends",
+          "One who has many children"
+         ],
+         "answer": 0,
+         "why": "Each of Ben Zoma's answers turns a measure of status into **a trait of character**.",
+         "src": {
+          "type": "scholarly",
+          "ref": "Mussar movement: Rabbi Israel Salanter (19th c.); Alan Morinis, Everyday Holiness (2007)",
+          "note": "from memory, not on Sefaria; check"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Four questions",
+         "body": "**Ben Zoma** asks: who is wise? One who **learns from every person**. Who is mighty? One who **masters their own impulses**. Who is rich? \"He who rejoices in his lot.\" Who is honored? One who **honors others**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Pirkei Avot 4:1",
+          "note": "trans. Joshua Kulp"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "benzoma",
+         "type": "why",
+         "q": "What do Ben Zoma's four answers have in common?",
+         "choices": [
+          "Each turns an outward status into an inner trait",
+          "Each is about money",
+          "Each is about Torah study only"
+         ],
+         "answer": 0,
+         "why": "Wisdom, strength, wealth and honor, **found inside**.",
+         "wrong_why": [
+          null,
+          "Only one is about money.",
+          "Not this."
+         ],
+         "look_again": 2,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Pirkei Avot 4:1",
+          "note": "trans. Joshua Kulp"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Nothing new",
+         "body": "Moshe Chaim Luzzatto opens his classic **Mesillat Yesharim**, The Path of the Just, by saying he wrote it not to teach new things but \"to remind them of what they already know.\" Mussar is less about learning and more about **practice**.",
+         "src": {
+          "type": "mussar",
+          "ref": "Mesillat Yesharim, Introduction 1",
+          "note": "trans. Yosef Sebag"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Your obligation in your world",
+         "body": "Luzzatto's first chapter: the root of a good life is to clarify, and truly take in, **what is your obligation in your world**, and to what you should direct your effort all your days.",
+         "src": {
+          "type": "mussar",
+          "ref": "Mesillat Yesharim 1:1",
+          "note": "trans. Yosef Sebag"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "remind",
+         "type": "pick",
+         "q": "Why did Luzzatto say he wrote Mesillat Yesharim?",
+         "choices": [
+          "To remind people of what they already know",
+          "To reveal new secrets",
+          "To replace the Talmud"
+         ],
+         "answer": 0,
+         "why": "Mussar **reminds**; the work is in living it.",
+         "wrong_why": [
+          null,
+          "He says the opposite.",
+          "Not his aim."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "mussar",
+          "ref": "Mesillat Yesharim, Introduction 1",
+          "note": "trans. Yosef Sebag"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A movement",
+         "body": "In 19th-century Lithuania, **Rabbi Israel Salanter** started the **Mussar movement**: daily study of texts like Mesillat Yesharim, often slowly and with feeling, and honest work on one's traits. In recent decades Mussar groups have spread across Jewish communities, including **Reform**.",
+         "src": {
+          "type": "scholarly",
+          "ref": "Immanuel Etkes, Rabbi Israel Salanter and the Mussar Movement (1993); Alan Morinis, Everyday Holiness (2007)",
+          "note": "from memory, not on Sefaria; check"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Luzzatto says Mussar reminds us of what we already know. What do you already know you should be doing, but are not yet doing?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "**Mussar**: working on your **middot**, your traits.",
+          "Ben Zoma: wisdom, strength, wealth, honor, **inside**.",
+          "Mesillat Yesharim: a **reminder**, not a secret.",
+          "Salanter's **movement**, now in many communities."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-mu-02",
+       "title": "The middle path",
+       "status": "draft",
+       "related": [],
+       "check_note": "Orchot Tzadikim Introduction (Cohen) and Mishneh Torah, Human Dispositions 1:4, 2:2 (Touger) read on Sefaria 11/13.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Not good or bad",
+         "body": "Mussar doesn't sort traits into good and bad. Most traits have **a right amount**, and the work is finding it.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishneh Torah, Human Dispositions 1:4",
+          "note": "trans. Eliyahu Touger"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "Maimonides says the cure for an extreme trait is to lean toward the opposite extreme for a while.",
+         "answer": 0,
+         "why": "Then you return to **the middle path**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishneh Torah, Human Dispositions 1:4",
+          "note": "trans. Eliyahu Touger"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "concept",
+         "title": "Sickness of the soul",
+         "body": "**Orchot Tzadikim**: bad traits are **a sickness of the soul**. Just as a sick person tastes the bitter as sweet, a sick soul loves what harms it. The remedy: go to \"the healers of souls,\" teachers who help restore the good path.",
+         "src": {
+          "type": "mussar",
+          "ref": "Orchot Tzadikim, Introduction",
+          "note": "trans. Seymour J. Cohen"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Husk and flour",
+         "body": "The same book explains each trait's **good and bad sides**, so that, since a person has choice, they \"may throw aside the husk and take the fine flour.\"",
+         "src": {
+          "type": "mussar",
+          "ref": "Orchot Tzadikim, Introduction",
+          "note": "trans. Seymour J. Cohen"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "sickness",
+         "type": "pick",
+         "q": "How does Orchot Tzadikim describe bad traits?",
+         "choices": [
+          "As a sickness of the soul",
+          "As a punishment",
+          "As something that cannot change"
+         ],
+         "answer": 0,
+         "why": "And sickness can be **healed**.",
+         "wrong_why": [
+          null,
+          "Not its image.",
+          "The book says traits can be healed."
+         ],
+         "look_again": 2,
+         "src": {
+          "type": "mussar",
+          "ref": "Orchot Tzadikim, Introduction",
+          "note": "trans. Seymour J. Cohen"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "The middle path",
+         "body": "**Maimonides**: for each trait, the straight path is **the midpoint**, equally distant from both extremes. Not stingy, not wasteful; not furious, not numb.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishneh Torah, Human Dispositions 1:4",
+          "note": "trans. Eliyahu Touger"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Leaning the other way",
+         "body": "How to heal an extreme? A very angry person trains himself, for a long time, not to react even when insulted, until the anger is uprooted. Anyone who has swayed to one extreme should \"move in the direction of the opposite extreme\" for a while, then come back to **the middle**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishneh Torah, Human Dispositions 2:2",
+          "note": "trans. Eliyahu Touger"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "lean",
+         "type": "why",
+         "q": "According to Maimonides, why lean toward the opposite extreme?",
+         "choices": [
+          "To pull a trait back to the middle",
+          "To stay there forever",
+          "To punish yourself"
+         ],
+         "answer": 0,
+         "why": "The opposite extreme is **a temporary correction**.",
+         "wrong_why": [
+          null,
+          "He says to return to the middle.",
+          "Not his reason."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Mishneh Torah, Human Dispositions 2:2",
+          "note": "trans. Eliyahu Touger"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Pick one trait where you lean too far one way, too much or too little. What would leaning the other way for a month look like?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Orchot Tzadikim: bad traits are **a sickness of the soul**.",
+          "**Husk and fine flour**: every trait has two sides.",
+          "Maimonides: the **middle path**.",
+          "Heal an extreme by **leaning the other way** for a while."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-mu-03",
+       "title": "The daily accounting",
+       "status": "draft",
+       "related": [],
+       "check_note": "Bava Batra 78b and Mesillat Yesharim 3 (Sebag) read on Sefaria 11/13. Cheshbon HaNefesh / Franklin card from memory: check (Lefin's text not on Sefaria in English).",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Keeping accounts",
+         "body": "Businesses keep accounts. Mussar asks you to keep **accounts of the soul**: cheshbon ha-nefesh.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Batra 78b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "In Bava Batra 78b, who are the moshlim of Numbers 21:27?",
+         "choices": [
+          "People who rule over their own impulses",
+          "Kings and judges",
+          "The rich",
+          "Priests"
+         ],
+         "answer": 0,
+         "why": "Rabbi Yochanan reads a verse about rulers as a verse about **self-mastery**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Batra 78b"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Come to Heshbon",
+         "body": "**Rabbi Yochanan** reads a verse (Numbers 21:27) as a pun. The moshlim, the verse's storytellers, become people who **rule over their impulses**, and \"Come to Heshbon\" means: come, let us make an **accounting**, cheshbon. What does a good deed cost, and what does it bring? What does a wrong bring, and what does it cost?",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Batra 78b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "heshbon",
+         "type": "why",
+         "q": "How does Rabbi Yochanan read \"Come to Heshbon\"?",
+         "choices": [
+          "Come, let us make an accounting of our deeds",
+          "Travel to the city of Heshbon",
+          "Count the stars"
+         ],
+         "answer": 0,
+         "why": "**Heshbon** sounds like **cheshbon**, an account.",
+         "wrong_why": [
+          null,
+          "He reads it as a pun.",
+          "Not this."
+         ],
+         "look_again": 2,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Bava Batra 78b"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Two investigations",
+         "body": "Luzzatto: \"He who wants to watch over himself must investigate two matters.\" First, what is **truly good** and truly harmful. Second, whether **his own actions** fall on the good side or the bad.",
+         "src": {
+          "type": "mussar",
+          "ref": "Mesillat Yesharim 3:1-3",
+          "note": "trans. Yosef Sebag"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Before and after",
+         "body": "**Before** acting: weigh the act first. **Afterward**: bring your deeds to mind, weigh them, keep and strengthen the good, and where you find something wrong, work out **a strategy** to turn away from it.",
+         "src": {
+          "type": "mussar",
+          "ref": "Mesillat Yesharim 3:5-6",
+          "note": "trans. Yosef Sebag"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "review",
+         "type": "pick",
+         "q": "According to Mesillat Yesharim, what should you do with deeds already done?",
+         "choices": [
+          "Review them, keep the good, plan how to change the bad",
+          "Forget them",
+          "Confess them publicly"
+         ],
+         "answer": 0,
+         "why": "A daily review with **a plan**, not just regret.",
+         "wrong_why": [
+          null,
+          "He says to review them.",
+          "Not in this chapter."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "mussar",
+          "ref": "Mesillat Yesharim 3:5-6",
+          "note": "trans. Yosef Sebag"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A chart and a week",
+         "body": "In 1812, **Menachem Mendel Lefin** published **Cheshbon HaNefesh**: thirteen traits, one in focus each week, checked off on a daily chart. He adapted the method from **Benjamin Franklin's** autobiography.",
+         "src": {
+          "type": "scholarly",
+          "ref": "Menachem Mendel Lefin, Cheshbon HaNefesh (1812)",
+          "note": "from memory, not on Sefaria; check"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Tonight before sleep, review the day: one moment you would keep, and one you would change. What are they today?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Bava Batra 78b: those who **rule themselves** make an **accounting**.",
+          "Mesillat Yesharim 3: know the good; **check your deeds**.",
+          "Weigh **before** acting; review and plan **after**.",
+          "Lefin: one trait a week, **a daily chart**."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-mu-04",
+       "title": "A ladder for the soul",
+       "status": "draft",
+       "related": [],
+       "check_note": "Avodah Zarah 20b and Mesillat Yesharim Introduction 40-42 (Sebag) read on Sefaria 11/13. Rabbi's-teaching card: the connection is mine; check with Jamie.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "One rung at a time",
+         "body": "The Talmud describes character as **a ladder**: each quality leads to the next. Mesillat Yesharim is built on it.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Avodah Zarah 20b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "Mesillat Yesharim is organized around a ladder taught by Rabbi Pinchas ben Yair.",
+         "answer": 0,
+         "why": "Luzzatto quotes it in his introduction and gives each rung its own chapters.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Avodah Zarah 20b"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "concept",
+         "title": "The ladder",
+         "body": "**Rabbi Pinchas ben Yair**: \"Torah study leads to care in the performance of mitzvot.\" Care leads to **diligence**; diligence to cleanliness of the soul; then abstention from evil, purity, **piety**, **humility**, fear of sin, **holiness**, the Divine Spirit, and at last the resurrection of the dead.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Avodah Zarah 20b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "ladder",
+         "type": "order",
+         "q": "Put these rungs of Rabbi Pinchas ben Yair's ladder in order.",
+         "items": [
+          "Torah study",
+          "Care",
+          "Diligence",
+          "Humility",
+          "Holiness"
+         ],
+         "why": "Study, then care, diligence, and up through humility to **holiness**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Avodah Zarah 20b"
+         },
+         "look_again": 2
+        },
+        {
+         "kind": "concept",
+         "title": "A path, not a leap",
+         "body": "Luzzatto builds **Mesillat Yesharim** on this teaching: \"Torah brings to watchfulness; Watchfulness brings to Zeal\", and so on, one rung per section. No one starts at holiness; you start with **watchfulness**, paying attention.",
+         "src": {
+          "type": "mussar",
+          "ref": "Mesillat Yesharim, Introduction 40-42",
+          "note": "trans. Yosef Sebag"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "first",
+         "type": "pick",
+         "q": "In Mesillat Yesharim, what is the first quality Torah study brings?",
+         "choices": [
+          "Watchfulness",
+          "Holiness",
+          "Humility"
+         ],
+         "answer": 0,
+         "why": "First, **pay attention**.",
+         "wrong_why": [
+          null,
+          "Holiness is near the top.",
+          "Humility comes later."
+         ],
+         "look_again": 4,
+         "src": {
+          "type": "mussar",
+          "ref": "Mesillat Yesharim, Introduction 40-42",
+          "note": "trans. Yosef Sebag"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Growing up",
+         "body": "Your rabbi reads the Torah as a people **growing up**, from a God who acts for us toward a God present in **our own choices**. Mussar is that adult work done one person at a time: no miracle, just **steady practice**, rung by rung.",
+         "src": {
+          "type": "reform",
+          "ref": "Teaching from Jamie's rabbi (oral, as Jamie retold it)",
+          "note": "connection to Mussar is mine; check with Jamie"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Which rung are you standing on right now, and what would one step up look like in your week?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Avodah Zarah 20b: a **ladder** from study to holiness.",
+          "Mesillat Yesharim: built on that ladder.",
+          "Start with **watchfulness**.",
+          "Mussar: steady practice, **rung by rung**."
          ]
         }
        ],

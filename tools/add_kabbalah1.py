@@ -5,7 +5,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = {(s["ref"], s["lang"]): s["text"] for s in json.load(open(os.path.join(ROOT, "data/src/sefaria-kabbalah1.json"), encoding="utf-8"))["sources"]}
 def S(ref, a, b): return " ".join(" ".join(SRC[(ref, "he")]).split()[a:b]).replace("יְהֹוָה", "יְיָ").replace("&thinsp;", " ")
 TN = lambda ref: {"type": "tanakh", "ref": ref}
-K = lambda ref, note=None: {"type": "kabbalah", "ref": ref, **({"note": note} if note else {})}
+def K(ref, note=None):  # "Ref (translator)" -> ref + note, so the Sefaria link works
+    import re
+    m = re.match(r"^(.*?) \((.*)\)$", ref)
+    if m and not note: ref, note = m.group(1), m.group(2)
+    return {"type": "kabbalah", "ref": ref, **({"note": note} if note else {})}
 R = lambda ref, note=None: {"type": "rabbinic", "ref": ref, **({"note": note} if note else {})}
 SCH = lambda ref: {"type": "scholarly", "ref": ref, "note": "from memory, not on Sefaria; check"}
 def text(ref): return {"kind": "text", "sefaria": ref, "src": TN(ref)}

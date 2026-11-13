@@ -1,0 +1,35 @@
+{
+ "fetched": "2026-11-13",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Kabbalah unit 2). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Leviticus 23:15-16",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וּסְפַרְתֶּם לָכֶם מִמׇּחֳרַת הַשַּׁבָּת מִיּוֹם הֲבִיאֲכֶם אֶת־עֹמֶר הַתְּנוּפָה שֶׁבַע שַׁבָּתוֹת תְּמִימֹת תִּהְיֶֽינָה׃",
+    "עַד מִֽמׇּחֳרַת הַשַּׁבָּת הַשְּׁבִיעִת תִּסְפְּרוּ חֲמִשִּׁים יוֹם וְהִקְרַבְתֶּם מִנְחָה חֲדָשָׁה לַיהֹוָֽה׃"
+   ],
+   "sha": [
+    "49cf4d9a89651e82dba8d2ebd66e7977b78f7443101563f71320cb3aeb5a2c20",
+    "4b3cb1f846e200d0fc8815a705ee8bf1da388ef32e118b47c766d54858635d70"
+   ]
+  },
+  {
+   "ref": "Leviticus 23:15-16",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "And from the day on which you bring the sheaf of elevation offering—the day after the sabbath—you shall count off seven weeks. They must be complete:",
+    "you must count until the day after the seventh week—fifty days; then you shall bring an offering of new grain to יהוה."
+   ],
+   "sha": [
+    "d9f7e883a08df48800102c3b355157aed592a4681272e2ecfd1692ef51f48045",
+    "6985569cea4323beb62c44a8cf71fb2e983a3c140efc11f054ad4902a41ec6df"
+   ]
+  }
+ ]
+}
