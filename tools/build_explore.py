@@ -25,7 +25,7 @@ def load_sefaria():
                 if isinstance(x, dict) and "ref" in x and "lang" in x and "text" in x: SEF[(x["ref"], x["lang"])] = x
 
 def clean_he(t):
-    t = re.sub(r"\s*\{[פס]\}", "", t).replace("&thinsp;", "\u2009").replace("יְהֹוָה", "יְיָ")  # paragraph marks; the Name as elsewhere in the app
+    t = re.sub(r"\s*\{[פס]\}", "", t).replace("&thinsp;", " ").replace("יְהֹוָה", "יְיָ")  # paragraph marks; the Name as elsewhere in the app
     t = re.sub(r"\(([^)]*)\)\s*\[([^\]]*)\]", r"\2", t)  # ketiv (x) [qere]: read the qere, as in build_prayers.py
     return nfc(t.strip())
 

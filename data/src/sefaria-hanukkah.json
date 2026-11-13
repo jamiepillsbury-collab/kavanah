@@ -1,0 +1,131 @@
+{
+ "fetched": "2026-11-12",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (Hanukkah unit). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 1:2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם׃"
+   ],
+   "sha": [
+    "adb78a721bcda5eaf033f9bfa186c2b7d11664f726e45bf0dba9248fb72afd0e"
+   ]
+  },
+  {
+   "ref": "Genesis 1:2",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "the earth being unformed and void, with darkness over the surface of the deep and a wind from God sweeping over the water—"
+   ],
+   "sha": [
+    "7ce8a3723d69a90d1afa2ca576678a144eca39755dcf3289aa6916f24656c917"
+   ]
+  },
+  {
+   "ref": "Numbers 8:2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "דַּבֵּר אֶֽל־אַהֲרֹן וְאָמַרְתָּ אֵלָיו בְּהַעֲלֹֽתְךָ אֶת־הַנֵּרֹת אֶל־מוּל פְּנֵי הַמְּנוֹרָה יָאִירוּ שִׁבְעַת הַנֵּרֽוֹת׃"
+   ],
+   "sha": [
+    "08fde74aa70a7107483b1acdb51c6dd9d1ecf2a72cb74e5c47b5ba7f4de2a1ce"
+   ]
+  },
+  {
+   "ref": "Numbers 8:2",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "Speak to Aaron and say to him, “When you mount the lamps, let the seven lamps give light at the front of the lampstand.”"
+   ],
+   "sha": [
+    "3253c9dcd02a0bac81c2af4bd55d50b5b9478a295b4ef8bd863b2387b0376913"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 17:11",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "עַל־פִּי הַתּוֹרָה אֲשֶׁר יוֹרוּךָ וְעַל־הַמִּשְׁפָּט אֲשֶׁר־יֹאמְרוּ לְךָ תַּעֲשֶׂה לֹא תָסוּר מִן־הַדָּבָר אֲשֶׁר־יַגִּידֽוּ לְךָ יָמִין וּשְׂמֹֽאל׃"
+   ],
+   "sha": [
+    "f79d73a7b6524204e06fc49fbc00d1dfe660d62f84d9454e0d3e218f3a50eeb2"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 17:11",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "You shall act in accordance with the instructions given you and the ruling handed down to you; you must not deviate from the verdict that they announce to you either to the right or to the left."
+   ],
+   "sha": [
+    "4a2317e4a1351f4d7ea23ef74e48d53fcf4e007dc657a53045a061e55df87c86"
+   ]
+  },
+  {
+   "ref": "Zechariah 2:14",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "רׇנִּי וְשִׂמְחִי בַּת־צִיּוֹן כִּי הִנְנִי־בָא וְשָׁכַנְתִּי בְתוֹכֵךְ נְאֻם־יְהֹוָֽה׃"
+   ],
+   "sha": [
+    "3baebff02d5cd55ae84494baa394206d70f408ca7b63752e795595604a9c997f"
+   ]
+  },
+  {
+   "ref": "Zechariah 2:14",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Shout for joy, Fair Zion! For lo, I come; and I will dwell in your midst—declares GOD."
+   ],
+   "sha": [
+    "a6e61e678f4acd4cc72a8039f905a505a58d7b361f5752ded400ece3ac69bfda"
+   ]
+  },
+  {
+   "ref": "Zechariah 4:2-3",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר אֵלַי מָה אַתָּה רֹאֶה (ויאמר) [וָאֹמַר] רָאִיתִי&thinsp;׀&thinsp;וְהִנֵּה מְנוֹרַת זָהָב כֻּלָּהּ וְגֻלָּהּ עַל־רֹאשָׁהּ וְשִׁבְעָה נֵרֹתֶיהָ עָלֶיהָ שִׁבְעָה וְשִׁבְעָה מֽוּצָקוֹת לַנֵּרוֹת אֲשֶׁר עַל־רֹאשָֽׁהּ׃",
+    "וּשְׁנַיִם זֵיתִים עָלֶיהָ אֶחָד מִימִין הַגֻּלָּה וְאֶחָד עַל־שְׂמֹאלָֽהּ׃"
+   ],
+   "sha": [
+    "06266af0bc76fcb240a8250dfaf1c600724992f7739236249a3a5795d85fb207",
+    "f8f25fd68e95faf14ca560fb3304c094f994d2c5986a50fe1805fa81c7a3a49d"
+   ]
+  },
+  {
+   "ref": "Zechariah 4:2-3",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "He said to me, “What do you see?” And I answered, “I see a lampstand all of gold, with a bowl above it. The lamps on it are seven in number, and the lamps above it have seven pipes;",
+    "and by it are two olive trees, one on the right of the bowl and one on its left.”"
+   ],
+   "sha": [
+    "699be87af25fd7169b4d407178ba87a46979817429bd00c758a58d030bb052dd",
+    "04cec7fa02a6bd095f583d97416947553425d8941527409564276b15639e1d64"
+   ]
+  }
+ ]
+}
