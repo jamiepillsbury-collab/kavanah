@@ -1,0 +1,283 @@
+{
+ "fetched": "2026-11-13",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (David unit). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "I Samuel 16:7",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יְהֹוָה אֶל־שְׁמוּאֵל אַל־תַּבֵּט אֶל־מַרְאֵהוּ וְאֶל־גְּבֹהַּ קוֹמָתוֹ כִּי מְאַסְתִּיהוּ כִּי&thinsp;׀ לֹא אֲשֶׁר יִרְאֶה הָאָדָם כִּי הָאָדָם יִרְאֶה לַעֵינַיִם וַיהֹוָה יִרְאֶה לַלֵּבָֽב׃"
+   ],
+   "sha": [
+    "f43aa644f1e061b67c507a499bd11b59d6d9055180afa8604d89d24bc03109a9"
+   ]
+  },
+  {
+   "ref": "I Samuel 16:7",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "But GOD said to Samuel, “Pay no attention to his appearance or his stature, for I have rejected him. For [GOD sees] not as humans see; humans see only what is visible, but GOD sees into the heart.”"
+   ],
+   "sha": [
+    "4e8f2487c00ee0778b64974fe17ca62244c170b33e73834d62ce1ee7910c2a04"
+   ]
+  },
+  {
+   "ref": "I Samuel 16:11-13",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר שְׁמוּאֵל אֶל־יִשַׁי הֲתַמּוּ הַנְּעָרִים וַיֹּאמֶר עוֹד שָׁאַר הַקָּטָן וְהִנֵּה רֹעֶה בַּצֹּאן וַיֹּאמֶר שְׁמוּאֵל אֶל־יִשַׁי שִׁלְחָה וְקָחֶנּוּ כִּי לֹֽא־נָסֹב עַד־בֹּאוֹ פֹֽה׃",
+    "וַיִּשְׁלַח וַיְבִיאֵהוּ וְהוּא אַדְמוֹנִי עִם־יְפֵה עֵינַיִם וְטוֹב רֹאִי {פ}וַיֹּאמֶר יְהֹוָה קוּם מְשָׁחֵהוּ כִּי־זֶה הֽוּא׃",
+    "וַיִּקַּח שְׁמוּאֵל אֶת־קֶרֶן הַשֶּׁמֶן וַיִּמְשַׁח אֹתוֹ בְּקֶרֶב אֶחָיו וַתִּצְלַח רֽוּחַ־יְהֹוָה אֶל־דָּוִד מֵהַיּוֹם הַהוּא וָמָעְלָה וַיָּקׇם שְׁמוּאֵל וַיֵּלֶךְ הָרָמָֽתָה׃"
+   ],
+   "sha": [
+    "262f731c0d35c8a521e864c09adbe6a1351e1b7a8b1b4cd462584def9bbdbc54",
+    "fd1a5c06c660e2983c986c9772c471531a5dd533316f11d1d9d7aae81d06f74a",
+    "93a0ef72a6b50605b93567781d27bf7fadb0043004e2baf5f18f001b98a7521f"
+   ]
+  },
+  {
+   "ref": "I Samuel 16:11-13",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then Samuel asked Jesse, “Are these all the boys you have?” He replied, “There is still the youngest; he is tending the flock.” And Samuel said to Jesse, “Send someone to bring him, for we will not sit down to eat until he gets here.”",
+    "So they sent and brought him. He was ruddy-cheeked, bright-eyed, and handsome. And GOD said, “Rise and anoint him, for this is the one.”",
+    "Samuel took the horn of oil and anointed him in the presence of his brothers; and the spirit of GOD gripped David from that day on. Samuel then set out for Ramah."
+   ],
+   "sha": [
+    "a55eb6bc6ae7409bbaa62ac484f8d1e45fe48ff6877837c989d78a0c99671397",
+    "1e21cf3eb6aa126cf96ab76b30407c2cb11d8920d74c4d91b8bc1d2dd56313d2",
+    "93a506f5f327321a855f80c10529d74dbf06d5aa392f3c227b556c97f519c67d"
+   ]
+  },
+  {
+   "ref": "I Samuel 17:45",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר דָּוִד אֶל־הַפְּלִשְׁתִּי אַתָּה בָּא אֵלַי בְּחֶרֶב וּבַחֲנִית וּבְכִידוֹן וְאָנֹכִי בָֽא־אֵלֶיךָ בְּשֵׁם יְהֹוָה צְבָאוֹת אֱלֹהֵי מַעַרְכוֹת יִשְׂרָאֵל אֲשֶׁר חֵרַֽפְתָּ׃"
+   ],
+   "sha": [
+    "8643570a9fd682ba70f4e6ada804d261e8162858236b82f3b190ee90264535e2"
+   ]
+  },
+  {
+   "ref": "I Samuel 17:45",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "David replied to the Philistine, “You come against me with sword and spear and javelin; but I come against you in the name of GOD of Hosts, the God of the ranks of Israel, whom you have defied."
+   ],
+   "sha": [
+    "21dc979260b50291396d20f41c334aad2e87fedd53740fa4a23961857197dde8"
+   ]
+  },
+  {
+   "ref": "II Samuel 12:7",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר נָתָן אֶל־דָּוִד אַתָּה הָאִישׁ {ס} כֹּה־אָמַר יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי מְשַׁחְתִּיךָֽ לְמֶלֶךְ עַל־יִשְׂרָאֵל וְאָנֹכִי הִצַּלְתִּיךָ מִיַּד שָׁאֽוּל׃"
+   ],
+   "sha": [
+    "e58b8d9273841522ae32f382a9a14256c6bcefe3910483ce1466aa71f406d9ef"
+   ]
+  },
+  {
+   "ref": "II Samuel 12:7",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "And Nathan said to David, “That man is you! Thus said the ETERNAL, the God of Israel: ‘It was I who anointed you king over Israel and it was I who rescued you from the hand of Saul."
+   ],
+   "sha": [
+    "c1b6e4254357b800917c872d26b6c33dbb0de845344f5eb55c0933ae9e40fa0a"
+   ]
+  },
+  {
+   "ref": "II Samuel 12:13",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַיהֹוָה {ס} וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהֹוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת׃"
+   ],
+   "sha": [
+    "e63351a276fb06cc6e220442b260d8b0144117ed6f0cd0647b54cb49d974e878"
+   ]
+  },
+  {
+   "ref": "II Samuel 12:13",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "David said to Nathan, “I stand guilty before GOD!” And Nathan replied to David, “GOD has remitted your sin; you shall not die."
+   ],
+   "sha": [
+    "a9bdb04db5292680aa66d1c024574c9d3f242f13dc55dc622a15208096e70b25"
+   ]
+  },
+  {
+   "ref": "Psalms 51:1-2",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "לַמְנַצֵּחַ מִזְמוֹר לְדָוִֽד׃",
+    "בְּֽבוֹא־אֵלָיו נָתָן הַנָּבִיא כַּאֲשֶׁר־בָּא אֶל־בַּת־שָֽׁבַע׃"
+   ],
+   "sha": [
+    "3cb4c22438a5bb7fef54dbe42e5224b38a8c2ac8a5b9e965264814322ebea2f3",
+    "bd7da4d03c0cda9398c92125d9a24006cea8b94e9158cb4e54048ef9606b05c9"
+   ]
+  },
+  {
+   "ref": "Psalms 51:1-2",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "For the leader. A psalm of David,",
+    "when Nathan the prophet came to him after he had come to Bathsheba."
+   ],
+   "sha": [
+    "8955da2a6634dfcba1bfa695c5132e562a5f793ba1c360243deb1376a8d9d75c",
+    "5033a245e767c9265606348df51fb80d62f438ba4cd91a5b3dca6d763e63b572"
+   ]
+  },
+  {
+   "ref": "Psalms 51:12",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "לֵב טָהוֹר בְּרָא־לִי אֱלֹהִים וְרוּחַ נָכוֹן חַדֵּשׁ בְּקִרְבִּֽי׃"
+   ],
+   "sha": [
+    "410e62a370928d4dac43ac43a3e352d3bb19c07ec853d86cf200e1adbc9ea266"
+   ]
+  },
+  {
+   "ref": "Psalms 51:12",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Fashion a pure heart for me, O God;create in me a steadfast spirit."
+   ],
+   "sha": [
+    "a612764c49a201a67d4af9582349c68e64903bd276e268a0ae96afb089d1bcc1"
+   ]
+  },
+  {
+   "ref": "Psalms 51:17",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "אֲדֹנָי שְׂפָתַי תִּפְתָּח וּפִי יַגִּיד תְּהִלָּתֶֽךָ׃"
+   ],
+   "sha": [
+    "4e6e4befe36c87133d74b746268085c900faf9c20641bdeed527d73f64ece67a"
+   ]
+  },
+  {
+   "ref": "Psalms 51:17",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "O my Sovereign, open my lips,and let my mouth declare Your praise."
+   ],
+   "sha": [
+    "ec8d94391d5d36dfb714e71fb58ab86fd07525ae61a42059ebdd3abbfdba4059"
+   ]
+  },
+  {
+   "ref": "II Samuel 23:1",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְאֵלֶּה דִּבְרֵי דָוִד הָאַחֲרֹנִים נְאֻם דָּוִד בֶּן־יִשַׁי וּנְאֻם הַגֶּבֶר הֻקַם עָל מְשִׁיחַ אֱלֹהֵי יַעֲקֹב וּנְעִים זְמִרוֹת יִשְׂרָאֵֽל׃"
+   ],
+   "sha": [
+    "3b0bcf7d71fb5f944ad74a12733a418354d4eb00bfded21abda0a121fa207200"
+   ]
+  },
+  {
+   "ref": "II Samuel 23:1",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "These are the last words of David: The utterance of David son of Jesse,The utterance of the man set on high, The anointed of the God of Jacob,The favorite of the songs of Israel:"
+   ],
+   "sha": [
+    "11f235191cdfb8b253fc1e585372df5af965c7caa090a2779826f7436dbcbfe8"
+   ]
+  },
+  {
+   "ref": "Psalms 103:1",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "לְדָוִד&thinsp;׀ בָּרְכִי נַפְשִׁי אֶת־יְהֹוָה וְכׇל־קְרָבַי אֶת־שֵׁם קׇדְשֽׁוֹ׃"
+   ],
+   "sha": [
+    "00d6027e927579a92e58b01d8ae91629d5a78592fc51bb6bb26f24d8e8f15d4d"
+   ]
+  },
+  {
+   "ref": "Psalms 103:1",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Of David.Bless GOD, O my soul,all my being, that holy name."
+   ],
+   "sha": [
+    "5ea68f9f420dc834e77f9ddf113179d7e9bc41c88830f7682cc0b8b06a24bba6"
+   ]
+  },
+  {
+   "ref": "Psalms 119:62",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "חֲצֽוֹת־לַיְלָה אָקוּם לְהוֹדוֹת לָךְ עַל מִשְׁפְּטֵי צִדְקֶֽךָ׃"
+   ],
+   "sha": [
+    "cddd41930b0cd37f29cf540de181aa65bf6c8950e07cc70132abb80cbad9d367"
+   ]
+  },
+  {
+   "ref": "Psalms 119:62",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "I arise at midnight to praise Youfor Your just rules."
+   ],
+   "sha": [
+    "964c377eadddebe359e4c66e5b40ab6815147ae27a70bb35fd02178dbc2d71b1"
+   ]
+  }
+ ]
+}

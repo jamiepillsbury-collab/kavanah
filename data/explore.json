@@ -6382,6 +6382,708 @@
      ]
     },
     {
+     "id": "x-st-david",
+     "title": "David",
+     "subtitle": "Shepherd, warrior, sinner, singer",
+     "lessons": [
+      {
+       "id": "x-st-dav-01",
+       "title": "David (1): The youngest son",
+       "status": "draft",
+       "related": [],
+       "check_note": "Shemot Rabbah 2:2 (Sefaria Midrash Rabbah 2022) and Megillah 14a read on Sefaria. English: JPS Tanakh Gender-Sensitive.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Not the tall one",
+         "body": "God sends **Samuel** to the house of **Jesse** in Bethlehem to anoint a new king. Samuel sees the eldest son and is sure: this must be the one.",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Samuel 16:1-6"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "In the Midrash, how did God test David before making him king?",
+         "choices": [
+          "By how he shepherded his sheep",
+          "By a battle",
+          "By a riddle",
+          "By a long fast"
+         ],
+         "answer": 0,
+         "why": "He fed each animal **according to its ability**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Samuel 16:1-6"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Samuel 16:7",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Samuel 16:7"
+         },
+         "ref": "I Samuel 16:7",
+         "he": "וַיֹּאמֶר יְיָ אֶל־שְׁמוּאֵל אַל־תַּבֵּט אֶל־מַרְאֵהוּ וְאֶל־גְּבֹהַּ קוֹמָתוֹ כִּי מְאַסְתִּיהוּ כִּי ׀ לֹא אֲשֶׁר יִרְאֶה הָאָדָם כִּי הָאָדָם יִרְאֶה לַעֵינַיִם וַיהֹוָה יִרְאֶה לַלֵּבָֽב׃",
+         "en": "But GOD said to Samuel, “Pay no attention to his appearance or his stature, for I have rejected him. For [GOD sees] not as humans see; humans see only what is visible, but GOD sees into the heart.”",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomer Adonai el sh'mu-eil al tabeit el mar'eihu v'el g'voah komato ki m'astihu ki  lo asher yir'eh ha-adam ki ha-adam yir'eh la-einayim vaihovah yir'eh laleivav."
+        },
+        {
+         "kind": "term",
+         "he": "וַיהֹוָה יִרְאֶה לַלֵּבָֽב׃",
+         "tl": "Vaihovah yir'eh laleivav.",
+         "gloss": "\"GOD sees into the heart\" (16:7).",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Samuel 16:7"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Samuel 16:11-13",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Samuel 16:11-13"
+         },
+         "ref": "I Samuel 16:11-13",
+         "he": "וַיֹּאמֶר שְׁמוּאֵל אֶל־יִשַׁי הֲתַמּוּ הַנְּעָרִים וַיֹּאמֶר עוֹד שָׁאַר הַקָּטָן וְהִנֵּה רֹעֶה בַּצֹּאן וַיֹּאמֶר שְׁמוּאֵל אֶל־יִשַׁי שִׁלְחָה וְקָחֶנּוּ כִּי לֹֽא־נָסֹב עַד־בֹּאוֹ פֹֽה׃\nוַיִּשְׁלַח וַיְבִיאֵהוּ וְהוּא אַדְמוֹנִי עִם־יְפֵה עֵינַיִם וְטוֹב רֹאִי וַיֹּאמֶר יְיָ קוּם מְשָׁחֵהוּ כִּי־זֶה הֽוּא׃\nוַיִּקַּח שְׁמוּאֵל אֶת־קֶרֶן הַשֶּׁמֶן וַיִּמְשַׁח אֹתוֹ בְּקֶרֶב אֶחָיו וַתִּצְלַח רֽוּחַ־יְיָ אֶל־דָּוִד מֵהַיּוֹם הַהוּא וָמָעְלָה וַיָּקׇם שְׁמוּאֵל וַיֵּלֶךְ הָרָמָֽתָה׃",
+         "en": "Then Samuel asked Jesse, “Are these all the boys you have?” He replied, “There is still the youngest; he is tending the flock.” And Samuel said to Jesse, “Send someone to bring him, for we will not sit down to eat until he gets here.” So they sent and brought him. He was ruddy-cheeked, bright-eyed, and handsome. And GOD said, “Rise and anoint him, for this is the one.” Samuel took the horn of oil and anointed him in the presence of his brothers; and the spirit of GOD gripped David from that day on. Samuel then set out for Ramah.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomer sh'mu-eil el yishai hatamu han'arim vayomer od sha-ar hakatan v'hinei ro-eh batzon vayomer sh'mu-eil el yishai shilchah v'kachenu ki lo nasov ad bo-o fo.\nVayishlach vayvi-eihu v'hu admoni im y'fei einayim v'tov ro-i vayomer Adonai kum m'shacheihu ki zeh hu.\nVayikach sh'mu-eil et keren hashemen vayimshach oto b'kerev echav vatitzlach ruach Adonai el david meihayom hahu vamalah vayakom sh'mu-eil vayeilech haramatah.",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "עוֹד שָׁאַר הַקָּטָן",
+         "tl": "Od sha-ar hakatan",
+         "gloss": "\"There is still the youngest\" (16:11). He is out **tending the flock**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Samuel 16:11"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "A shepherd for each",
+         "body": "God tested David **with sheep**. He let the small ones out first to graze the **soft grass**, then the old ones on the middling grass, then the strong ones on the tough grass. God said: \"One who knows how to herd the flocks, each according to its ability, will come and herd My people.\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Shemot Rabbah 2:2"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "shepherd",
+         "type": "why",
+         "q": "In Shemot Rabbah 2:2, what made David fit to lead Israel?",
+         "choices": [
+          "He cared for each sheep according to its needs",
+          "He was the strongest brother",
+          "He could play the harp"
+         ],
+         "answer": 0,
+         "why": "Leadership as **care for each one** by what they can bear.",
+         "wrong_why": [
+          null,
+          "The eldest looked strongest, and was passed over.",
+          "Not the Midrash's reason."
+         ],
+         "look_again": 6,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Shemot Rabbah 2:2"
+         }
+        },
+        {
+         "kind": "term",
+         "he": "אֶת־קֶרֶן הַשֶּׁמֶן",
+         "tl": "Et keren hashemen",
+         "gloss": "\"the horn of oil\" (16:13). The Talmud notes that kings anointed from **a horn**, like David, kept their kingship, as Hannah's song foresaw.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "I Samuel 16:13; Megillah 14a"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "Samuel looked at height; God looked at the heart. What do people miss when they look at you, and what might you be missing in others?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**GOD sees into the heart**\" (16:7).",
+          "**The youngest**, out with the flock (16:11).",
+          "Shemot Rabbah 2:2: tested by shepherding **each according to its ability**.",
+          "Anointed from **a horn** (16:13)."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-dav-02",
+       "title": "David (2): David and Goliath",
+       "status": "draft",
+       "related": [
+        "prayer:shma"
+       ],
+       "check_note": "Sotah 42b read on Sefaria 11/13 (its sexual readings of Goliath's mother omitted).",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Forty days",
+         "body": "The Philistine champion **Goliath** comes out every morning and evening, for forty days, and dares Israel to send a man to fight him.",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Samuel 17:1-16"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "In the Talmud, Goliath came out morning and evening to stop Israel from saying the Sh'ma.",
+         "answer": 0,
+         "why": "Rabbi Yochanan, in Sotah 42b.",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Samuel 17:1-16"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "concept",
+         "title": "Morning and evening",
+         "body": "**Rabbi Yochanan**: Goliath came out **morning and evening** to keep Israel from reciting the Sh'ma at its proper times. And his **forty days** match the forty days the Torah was given: he wanted to do away with it.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 42b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "shma",
+         "type": "why",
+         "q": "According to Rabbi Yochanan, why did Goliath taunt Israel morning and evening?",
+         "choices": [
+          "To stop them from saying the Sh'ma on time",
+          "Because the sun was in his eyes at noon",
+          "To change guards"
+         ],
+         "answer": 0,
+         "why": "The battle was also over **the Sh'ma**.",
+         "wrong_why": [
+          null,
+          "Not in the Talmud.",
+          "Not in the Talmud."
+         ],
+         "look_again": 2,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 42b"
+         }
+        },
+        {
+         "kind": "relevance",
+         "body": "The **Sh'ma**, said morning and evening, is what the Talmud says Goliath tried to stop.",
+         "links": [
+          "prayer:shma"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "I Samuel 17:45",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Samuel 17:45"
+         },
+         "ref": "I Samuel 17:45",
+         "he": "וַיֹּאמֶר דָּוִד אֶל־הַפְּלִשְׁתִּי אַתָּה בָּא אֵלַי בְּחֶרֶב וּבַחֲנִית וּבְכִידוֹן וְאָנֹכִי בָֽא־אֵלֶיךָ בְּשֵׁם יְיָ צְבָאוֹת אֱלֹהֵי מַעַרְכוֹת יִשְׂרָאֵל אֲשֶׁר חֵרַֽפְתָּ׃",
+         "en": "David replied to the Philistine, “You come against me with sword and spear and javelin; but I come against you in the name of GOD of Hosts, the God of the ranks of Israel, whom you have defied.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomer david el hap'lishti atah ba eilai b'cherev uvachanit uv'chidon v'anochi va eilecha b'sheim Adonai tz'va-ot Elohei ma-archot Yisrael asher cheirafta."
+        },
+        {
+         "kind": "term",
+         "he": "וְאָנֹכִי בָֽא־אֵלֶיךָ בְּשֵׁם יְיָ צְבָאוֹת",
+         "tl": "V'anochi va eilecha b'sheim Adonai tz'va-ot",
+         "gloss": "\"but I come against you in the name of GOD of Hosts\" (17:45).",
+         "src": {
+          "type": "tanakh",
+          "ref": "I Samuel 17:45"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "The one who kissed, the one who cleaved",
+         "body": "The Talmud identifies Goliath's mother with **Orpah**, Naomi's other daughter-in-law. **Rabbi Yitzchak**: God said, the children of the one who **kissed** Naomi goodbye will fall into the hands of the children of the one who **cleaved** to her. David descends from **Ruth**. **Rava**: for the four tears Orpah shed for her mother-in-law, she merited four mighty sons.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 42b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "orpah",
+         "type": "why",
+         "q": "In Sotah 42b, how are David and Goliath connected?",
+         "choices": [
+          "David descends from Ruth, Goliath from Orpah",
+          "They were cousins in Bethlehem",
+          "Goliath was David's teacher"
+         ],
+         "answer": 0,
+         "why": "Ruth **cleaved**; Orpah **kissed** and left (Ruth 1:14).",
+         "wrong_why": [
+          null,
+          "Not in the Talmud.",
+          "Not in the Talmud."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 42b"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "His own words",
+         "body": "**Rabbi Meir**: three times Goliath's own mouth foretold his fall. He said \"let him come down to me,\" placing himself below; he spoke of losing before he spoke of winning; and he asked, \"Am I a dog, that you come to me with staves?\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Sotah 42b"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "David faced Goliath with a sling and a Name. What giant are you facing with what you already have?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Sotah 42b: Goliath came morning and evening to stop **the Sh'ma**.",
+          "\"**I come against you in the name of GOD**\" (17:45).",
+          "Orpah **kissed**, Ruth **cleaved**: Goliath and David.",
+          "Goliath's **own words** foretold his fall."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-dav-03",
+       "title": "David (3): That man is you",
+       "status": "draft",
+       "related": [
+        "prayer:avot"
+       ],
+       "check_note": "Avodah Zarah 4b-5a and Shabbat 56a read on Sefaria 11/13.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "A king who takes",
+         "body": "David takes **Bathsheba**, wife of Uriah, and arranges for Uriah to die in battle. Then God sends the prophet **Nathan**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Samuel 11-12"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "pick",
+         "q": "According to the Talmud, what can any individual who has sinned learn from David?",
+         "choices": [
+          "That one can repent",
+          "That kings are above the law",
+          "That some sins stay hidden",
+          "That prophets are always believed"
+         ],
+         "answer": 0,
+         "why": "Avodah Zarah 5a: go to David, and learn **that one can repent**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Samuel 11-12"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "The poor man's lamb",
+         "body": "Nathan tells the king a story: a rich man with many flocks took a poor man's **only lamb**, which he had raised like a daughter, to feed a guest. David is furious: the rich man deserves to die.",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Samuel 12:1-6"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "II Samuel 12:7",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Samuel 12:7"
+         },
+         "ref": "II Samuel 12:7",
+         "he": "וַיֹּאמֶר נָתָן אֶל־דָּוִד אַתָּה הָאִישׁ כֹּה־אָמַר יְיָ אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי מְשַׁחְתִּיךָֽ לְמֶלֶךְ עַל־יִשְׂרָאֵל וְאָנֹכִי הִצַּלְתִּיךָ מִיַּד שָׁאֽוּל׃",
+         "en": "And Nathan said to David, “That man is you! Thus said the ETERNAL, the God of Israel: ‘It was I who anointed you king over Israel and it was I who rescued you from the hand of Saul.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomer natan el david atah ha-ish ko amar Adonai Elohei Yisrael anochi m'shachticha l'melech al Yisrael v'anochi hitzalticha miyad sha-ul."
+        },
+        {
+         "kind": "term",
+         "he": "אַתָּה הָאִישׁ",
+         "tl": "Atah ha-ish",
+         "gloss": "\"That man is you!\" (12:7).",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Samuel 12:7"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "II Samuel 12:13",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Samuel 12:13"
+         },
+         "ref": "II Samuel 12:13",
+         "he": "וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַיהֹוָה וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְיָ הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת׃",
+         "en": "David said to Nathan, “I stand guilty before GOD!” And Nathan replied to David, “GOD has remitted your sin; you shall not die.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Vayomer david el natan chatati laihovah vayomer natan el david gam Adonai he-evir chatatcha lo tamut.",
+         "tlf": true
+        },
+        {
+         "kind": "term",
+         "he": "חָטָאתִי לַיהֹוָה",
+         "tl": "Chatati laihovah",
+         "gloss": "\"I stand guilty before GOD!\" (12:13). In Hebrew, **two words**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Samuel 12:13"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "The teacher of repentance",
+         "body": "**Rabbi Yochanan** in the name of **Rabbi Shimon bar Yochai**: David was not the kind of person to do this, nor was Israel the kind of people to make the golden calf. It happened so that if **an individual** sins, he is told: go to David, and **learn that one can repent**; and if **a community** sins, go to the people of the calf. David's \"last words\" (II Samuel 23:1) are read as: David, who **raised up the yoke of repentance**.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Avodah Zarah 4b-5a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "teshuvah",
+         "type": "why",
+         "q": "In Avodah Zarah 5a, why is David's story held up to an individual who sinned?",
+         "choices": [
+          "To show that one can repent",
+          "To show that kings can do as they like",
+          "To warn against marriage"
+         ],
+         "answer": 0,
+         "why": "David as **the teacher of teshuvah**.",
+         "wrong_why": [
+          null,
+          "Nathan's rebuke says the opposite.",
+          "Not the Talmud's lesson."
+         ],
+         "look_again": 7,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Avodah Zarah 4b-5a"
+         }
+        },
+        {
+         "kind": "concept",
+         "title": "Did David sin?",
+         "body": "Not every rabbi agreed. **Rabbi Shmuel bar Nachmani** in **Rabbi Yonatan's** name: \"Anyone who says that David sinned with Bathsheba is nothing other than mistaken,\" reading that soldiers gave their wives a conditional divorce before battle. But **Rav** says David's one sin was **the matter of Uriah** (1 Kings 15:5), and Nathan's words in the text are plain.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Shabbat 56a"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Psalms 51:1-2",
+         "src": {
+          "type": "tanakh",
+          "ref": "Psalms 51:1-2"
+         },
+         "ref": "Psalms 51:1-2",
+         "he": "לַמְנַצֵּחַ מִזְמוֹר לְדָוִֽד׃\nבְּֽבוֹא־אֵלָיו נָתָן הַנָּבִיא כַּאֲשֶׁר־בָּא אֶל־בַּת־שָֽׁבַע׃",
+         "en": "For the leader. A psalm of David, when Nathan the prophet came to him after he had come to Bathsheba.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Lamnatzeiach mizmor l'david.\nB'vo eilav natan hanavi ka-asher ba el bat shava."
+        },
+        {
+         "kind": "text",
+         "sefaria": "Psalms 51:12",
+         "src": {
+          "type": "tanakh",
+          "ref": "Psalms 51:12"
+         },
+         "ref": "Psalms 51:12",
+         "he": "לֵב טָהוֹר בְּרָא־לִי אֱלֹהִים וְרוּחַ נָכוֹן חַדֵּשׁ בְּקִרְבִּֽי׃",
+         "en": "Fashion a pure heart for me, O God; create in me a steadfast spirit.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Leiv tahor b'ra li Elohim v'ruach nachon chadeish b'kirbi."
+        },
+        {
+         "kind": "relevance",
+         "body": "Every Amidah opens with a verse from this psalm: אֲדֹנָי שְׂפָתַי תִּפְתָּח (Psalm 51:17).",
+         "links": [
+          "prayer:avot"
+         ]
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "psalm51",
+         "type": "pick",
+         "q": "Which psalm's heading places it after Nathan confronted David?",
+         "choices": [
+          "Psalm 51",
+          "Psalm 23",
+          "Psalm 92"
+         ],
+         "answer": 0,
+         "why": "Psalm 51, whose 17th verse **opens the Amidah**.",
+         "wrong_why": [
+          null,
+          "Not by its heading.",
+          "Psalm 92 is for Shabbat."
+         ],
+         "look_again": 10,
+         "src": {
+          "type": "tanakh",
+          "ref": "Psalms 51:1-2"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "David's confession is two words. What makes them so hard to say?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "Nathan's parable: \"**That man is you!**\" (12:7).",
+          "\"**I stand guilty before GOD**\": two words (12:13).",
+          "Avodah Zarah 5a: David teaches **that one can repent**.",
+          "Shabbat 56a: some rabbis defend him; Rav does not.",
+          "Psalm 51: \"**Fashion a pure heart for me**\", and the Amidah's first words."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      },
+      {
+       "id": "x-st-dav-04",
+       "title": "David (4): The sweet singer",
+       "status": "draft",
+       "related": [],
+       "check_note": "Berakhot 3b and 10a read on Sefaria 11/13.",
+       "cards": [
+        {
+         "kind": "hook",
+         "title": "Songs of a king",
+         "body": "David is a shepherd, a soldier, a king, and above all remembered as **a singer**.",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Samuel 23:1"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "pre",
+         "pretest": true,
+         "type": "tf",
+         "q": "In the Talmud, a lyre over David's bed played by itself at midnight.",
+         "answer": 0,
+         "why": "The north wind came at midnight and played it (Berakhot 3b).",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Samuel 23:1"
+         },
+         "choices": [
+          "True",
+          "False"
+         ]
+        },
+        {
+         "kind": "text",
+         "sefaria": "II Samuel 23:1",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Samuel 23:1"
+         },
+         "ref": "II Samuel 23:1",
+         "he": "וְאֵלֶּה דִּבְרֵי דָוִד הָאַחֲרֹנִים נְאֻם דָּוִד בֶּן־יִשַׁי וּנְאֻם הַגֶּבֶר הֻקַם עָל מְשִׁיחַ אֱלֹהֵי יַעֲקֹב וּנְעִים זְמִרוֹת יִשְׂרָאֵֽל׃",
+         "en": "These are the last words of David: The utterance of David son of Jesse, The utterance of the man set on high, The anointed of the God of Jacob, The favorite of the songs of Israel:",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "V'eileh divrei david ha-acharonim n'um david ben yishai un'um hagever hukam al m'shiach Elohei Yaakov un'im z'mirot Yisrael."
+        },
+        {
+         "kind": "term",
+         "he": "וּנְעִים זְמִרוֹת יִשְׂרָאֵֽל׃",
+         "tl": "Un'im z'mirot Yisrael.",
+         "gloss": "\"The favorite of the songs of Israel\" (23:1).",
+         "src": {
+          "type": "tanakh",
+          "ref": "II Samuel 23:1"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Psalms 119:62",
+         "src": {
+          "type": "tanakh",
+          "ref": "Psalms 119:62"
+         },
+         "ref": "Psalms 119:62",
+         "he": "חֲצֽוֹת־לַיְלָה אָקוּם לְהוֹדוֹת לָךְ עַל מִשְׁפְּטֵי צִדְקֶֽךָ׃",
+         "en": "I arise at midnight to praise Youfor Your just rules.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "Chatzot laylah akum l'hodot lach al mishp'tei tzidkecha."
+        },
+        {
+         "kind": "concept",
+         "title": "The lyre at midnight",
+         "body": "A **lyre** hung over David's bed. At midnight the **north wind** blew and it played by itself, and David rose and **studied Torah until dawn**. At dawn the Sages came: the people need food. David answered, \"Go and sustain one another.\"",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 3b"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q1",
+         "idea": "lyre",
+         "type": "pick",
+         "q": "In Berakhot 3b, how did David know it was midnight?",
+         "choices": [
+          "The north wind played the lyre over his bed",
+          "A servant woke him",
+          "The stars told him"
+         ],
+         "answer": 0,
+         "why": "The wind **played the lyre**, and David rose.",
+         "wrong_why": [
+          null,
+          "Not in the Talmud.",
+          "Not in the Talmud."
+         ],
+         "look_again": 5,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 3b"
+         }
+        },
+        {
+         "kind": "text",
+         "sefaria": "Psalms 103:1",
+         "src": {
+          "type": "tanakh",
+          "ref": "Psalms 103:1"
+         },
+         "ref": "Psalms 103:1",
+         "he": "לְדָוִד ׀ בָּרְכִי נַפְשִׁי אֶת־יְיָ וְכׇל־קְרָבַי אֶת־שֵׁם קׇדְשֽׁוֹ׃",
+         "en": "Of David. Bless GOD, O my soul, all my being, that holy name.",
+         "en_src": "THE JPS TANAKH: Gender-Sensitive Edition",
+         "license": "CC-BY-NC",
+         "he_src": "Miqra according to the Masorah (CC-BY-SA)",
+         "tl": "L'david  barchi nafshi et Adonai v'chol k'ravai et sheim kodsho.",
+         "tlf": true
+        },
+        {
+         "kind": "concept",
+         "title": "Five times, O my soul",
+         "body": "David says \"Bless the Lord, O my soul\" **five times**. One answer: once for each world he lived in, from his mother's womb to his last day. Another: the soul is like God in five ways. As God **fills the world**, the soul fills the body; God **sees and is not seen**, and so does the soul; God sustains the world, the soul the body; God is **pure**, the soul is pure; God dwells in **an innermost chamber**, and so does the soul. So let the soul praise God.",
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 10a"
+         }
+        },
+        {
+         "kind": "check",
+         "id": "q2",
+         "idea": "soul",
+         "type": "why",
+         "q": "In Berakhot 10a, why should the soul be the one to praise God?",
+         "choices": [
+          "It shares five qualities with God",
+          "It is the oldest part of us",
+          "The body cannot speak"
+         ],
+         "answer": 0,
+         "why": "Like praising like: **the soul** to **its source**.",
+         "wrong_why": [
+          null,
+          "Not the Talmud's reason.",
+          "Not the Talmud's reason."
+         ],
+         "look_again": 8,
+         "src": {
+          "type": "rabbinic",
+          "ref": "Berakhot 10a"
+         }
+        },
+        {
+         "kind": "reflect",
+         "prompt": "The Talmud says David sang a song for each stage of his life. What would your soul bless God for at this stage of yours?"
+        },
+        {
+         "kind": "recap",
+         "points": [
+          "\"**The favorite of the songs of Israel**\" (23:1).",
+          "Berakhot 3b: **the lyre at midnight**; \"sustain one another.\"",
+          "\"**Bless GOD, O my soul**\" (Psalm 103:1).",
+          "Berakhot 10a: the soul is like God **in five ways**."
+         ]
+        }
+       ],
+       "parashah": [],
+       "season": null
+      }
+     ]
+    },
+    {
      "id": "x-st-deborah",
      "title": "Deborah",
      "subtitle": "A prophet, a general, a tent pin, and a song",
