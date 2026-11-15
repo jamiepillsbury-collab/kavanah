@@ -1,0 +1,103 @@
+{
+ "fetched": "2026-11-14",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (History unit 3). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "Genesis 9:27",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "May God enlarge Japheth, And let him dwell in the tents of Shem; And let Canaan be a slave to them.”"
+   ],
+   "sha": [
+    "7034e08f00f8b4c453c4294e7c3151552445f68b9eb01a6829e00f7a15f4caac"
+   ]
+  },
+  {
+   "ref": "Genesis 9:27",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "יַפְתְּ אֱלֹהִים לְיֶפֶת וְיִשְׁכֹּן בְּאׇֽהֳלֵי־שֵׁם וִיהִי כְנַעַן עֶבֶד לָֽמוֹ׃"
+   ],
+   "sha": [
+    "06ec6c83dd6df90481ce9bbd09f482608c0d76c15a24443c753d70f37dbe8d7b"
+   ]
+  },
+  {
+   "ref": "Hosea 6:6",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "For I desire goodness, not sacrifice; Devotion to God, rather than burnt offerings."
+   ],
+   "sha": [
+    "c1582ece4c3cbe6b94c49380fd5ad60bd3fe058989c78106be971d72378a6c32"
+   ]
+  },
+  {
+   "ref": "Hosea 6:6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "כִּי חֶסֶד חָפַצְתִּי וְלֹא־זָבַח וְדַעַת אֱלֹהִים מֵעֹלֽוֹת׃"
+   ],
+   "sha": [
+    "c97b892fa77e109dffc111d4b71a983df9fafa1d7bf445d5d04846cae2556151"
+   ]
+  },
+  {
+   "ref": "Leviticus 19:18",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "You shall not take vengeance or bear a grudge against members of your people. Love your fellow [Israelite] as yourself: I am יהוה."
+   ],
+   "sha": [
+    "d26e0d281ce5ef385b64d50d57adc5e937e83bb27dfa20a5e246e05c497e47cd"
+   ]
+  },
+  {
+   "ref": "Leviticus 19:18",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "לֹֽא־תִקֹּם וְלֹֽא־תִטֹּר אֶת־בְּנֵי עַמֶּךָ וְאָֽהַבְתָּ לְרֵעֲךָ כָּמוֹךָ אֲנִי יְהֹוָֽה׃"
+   ],
+   "sha": [
+    "dcf7f1d36edfdd59c09be4a0b8acac5316780b4716e8547a6d6cfd361057d96b"
+   ]
+  },
+  {
+   "ref": "Numbers 24:17",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "What I see for them is not yet, What I behold will not be soon: A star rises from Jacob, A scepter comes forth from Israel; It smashes the brow of Moab, The foundation of all children of Seth."
+   ],
+   "sha": [
+    "b0277a89fd850119e18f2e5b6e0d43e8c98632e15e0ab5be9f4062e760273dfa"
+   ]
+  },
+  {
+   "ref": "Numbers 24:17",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "אֶרְאֶנּוּ וְלֹא עַתָּה אֲשׁוּרֶנּוּ וְלֹא קָרוֹב דָּרַךְ כּוֹכָב מִֽיַּעֲקֹב וְקָם שֵׁבֶט מִיִּשְׂרָאֵל וּמָחַץ פַּאֲתֵי מוֹאָב וְקַרְקַר כׇּל־בְּנֵי־שֵֽׁת׃"
+   ],
+   "sha": [
+    "30ff780b513b0b4ab5e43c84b51c708546ae4b788da751544ae96e52367a1e7c"
+   ]
+  }
+ ]
+}
