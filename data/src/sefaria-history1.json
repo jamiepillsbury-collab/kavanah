@@ -1,0 +1,419 @@
+{
+ "fetched": "2026-11-14",
+ "api": "https://www.sefaria.org/api/v3/texts",
+ "note": "Raw Sefaria text for Explore (History units 1-2). Cantillation and footnotes stripped, NFC. Per-line SHA-256 verified browser vs Python.",
+ "sources": [
+  {
+   "ref": "1 Kings 12:16",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "When all Israel saw that the king had not listened to them, the people answered the king: “We have no portion in David, No share in Jesse’s son! To your tents, O Israel! Now look to your own House, O David.” So the Israelites returned to their homes."
+   ],
+   "sha": [
+    "a0ca2c36e959faf52a5d8fead3f0c4d8af554a0c18fc1ffb9654dd76e6ae4f39"
+   ]
+  },
+  {
+   "ref": "1 Kings 12:16",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיַּרְא כׇּל־יִשְׂרָאֵל כִּי לֹא־שָׁמַע הַמֶּלֶךְ אֲלֵהֶם וַיָּשִׁבוּ הָעָם אֶת־הַמֶּלֶךְ ׀ דָּבָר ׀ לֵאמֹר מַה־לָּנוּ חֵלֶק בְּדָוִד וְלֹא־נַחֲלָה בְּבֶן־יִשַׁי לְאֹהָלֶיךָ יִשְׂרָאֵל עַתָּה רְאֵה בֵיתְךָ דָּוִד וַיֵּלֶךְ יִשְׂרָאֵל לְאֹהָלָֽיו׃"
+   ],
+   "sha": [
+    "dac8b56f1522237c5f3bddd95014fd0df1c1603fbfadf71771d947c20edc323d"
+   ]
+  },
+  {
+   "ref": "1 Kings 12:28-29",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "So the king took counsel and made two golden calves. He said to the people, “You have been going up to Jerusalem long enough. This is your god, O Israel, who brought you up from the land of Egypt!”",
+    "He set up one in Bethel and placed the other in Dan."
+   ],
+   "sha": [
+    "883e79e304b3311cfc4cbcb7c592525e317f395a8bf16f9331ac5eb9a9624e98",
+    "0aefbfb9f0e3eb4b7fcd32aacd7d54abc50b680e66616c31257b942dfbd3ddcf"
+   ]
+  },
+  {
+   "ref": "1 Kings 12:28-29",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיִּוָּעַץ הַמֶּלֶךְ וַיַּעַשׂ שְׁנֵי עֶגְלֵי זָהָב וַיֹּאמֶר אֲלֵהֶם רַב־לָכֶם מֵעֲלוֹת יְרוּשָׁלַ͏ִם הִנֵּה אֱלֹהֶיךָ יִשְׂרָאֵל אֲשֶׁר הֶעֱלוּךָ מֵאֶרֶץ מִצְרָֽיִם׃",
+    "וַיָּשֶׂם אֶת־הָאֶחָד בְּבֵֽית־אֵל וְאֶת־הָאֶחָד נָתַן בְּדָֽן׃"
+   ],
+   "sha": [
+    "708c39e3760270afc3b85cc0a7dfb717ca1930cf5c248d18a422b569c50779a9",
+    "d949c2f629500a1df325da79137fa682d8c2c9459ae0451ade29d84534148eba"
+   ]
+  },
+  {
+   "ref": "2 Kings 17:6",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "In the ninth year of Hoshea, the king of Assyria captured Samaria. He deported the Israelites to Assyria and settled them in Halah, at the [River] Habor, at the River Gozan, and in the towns of Media."
+   ],
+   "sha": [
+    "57a88c9a5da201304f94d2e28596cedbc75d06b24fbb9dad18654fd23fb21a02"
+   ]
+  },
+  {
+   "ref": "2 Kings 17:6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "בִּשְׁנַת הַתְּשִׁעִית לְהוֹשֵׁעַ לָכַד מֶֽלֶךְ־אַשּׁוּר אֶת־שֹׁמְרוֹן וַיֶּגֶל אֶת־יִשְׂרָאֵל אַשּׁוּרָה וַיֹּשֶׁב אוֹתָם בַּחְלַח וּבְחָבוֹר נְהַר גּוֹזָן וְעָרֵי מָדָֽי׃ {פ}"
+   ],
+   "sha": [
+    "e3236783398a226967f624c55f6b1cfd311b207667a96dfc2bd5eb0c5e756229"
+   ]
+  },
+  {
+   "ref": "2 Samuel 7:16",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Your house and your kingship shall ever be secure before you; your throne shall be established forever.”"
+   ],
+   "sha": [
+    "ae789cc3ae7ea2fec35334fb9609799582fe2ad75e3970ff672d2d4cdb369bb0"
+   ]
+  },
+  {
+   "ref": "2 Samuel 7:16",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְנֶאְמַן בֵּיתְךָ וּמַֽמְלַכְתְּךָ עַד־עוֹלָם לְפָנֶיךָ כִּֽסְאֲךָ יִהְיֶה נָכוֹן עַד־עוֹלָֽם׃"
+   ],
+   "sha": [
+    "29e9147013405dc4e40307ebf98a452281b994f7a85ff08d45eeab99e5647be4"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 26:5",
+   "lang": "en",
+   "version": "The Contemporary Torah, Jewish Publication Society, 2006",
+   "license": "CC-BY-NC",
+   "text": [
+    "You shall then recite as follows before your God יהוה: “My father was a fugitive Aramean. He went down to Egypt with meager numbers and sojourned there; but there he became a great and very populous nation."
+   ],
+   "sha": [
+    "21599ffe6ed5b1860d8e0e96fe5ecbebaddeccf628ac311808753a4b99bfd732"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 26:5",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְעָנִיתָ וְאָמַרְתָּ לִפְנֵי ׀ יְהֹוָה אֱלֹהֶיךָ אֲרַמִּי אֹבֵד אָבִי וַיֵּרֶד מִצְרַיְמָה וַיָּגׇר שָׁם בִּמְתֵי מְעָט וַֽיְהִי־שָׁם לְגוֹי גָּדוֹל עָצוּם וָרָֽב׃"
+   ],
+   "sha": [
+    "a95031038dc008d5b967c6632d3de3776e18818d8fa18f14b924e0eb55ff0a8f"
+   ]
+  },
+  {
+   "ref": "Ezra 1:2-3",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "“Thus said King Cyrus of Persia: The ETERNAL God of Heaven has given me all the kingdoms of the earth and has charged me with building a house [of God] in Jerusalem, which is in Judah.",
+    "May your God be with those of you among this people who wish to go up to Jerusalem that is in Judah and build the House of the ETERNAL God of Israel, the God that is in Jerusalem;"
+   ],
+   "sha": [
+    "4ea125e4aaf124ec5be0d6ea8c9d59e7c6b24e7889297da8153b5a6f75369b87",
+    "df2ca16031d9ae6e0b2215cf5c27157634fe40988731a53288e22d7ee4b0ad52"
+   ]
+  },
+  {
+   "ref": "Ezra 1:2-3",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "כֹּה אָמַר כֹּרֶשׁ מֶלֶךְ פָּרַס כֹּל מַמְלְכוֹת הָאָרֶץ נָתַן לִי יְהֹוָה אֱלֹהֵי הַשָּׁמָיִם וְהֽוּא־פָקַד עָלַי לִבְנֽוֹת־לוֹ בַיִת בִּירוּשָׁלַ͏ִם אֲשֶׁר בִּֽיהוּדָֽה׃",
+    "מִֽי־בָכֶם מִכׇּל־עַמּוֹ יְהִי אֱלֹהָיו עִמּוֹ וְיַעַל לִירוּשָׁלַ͏ִם אֲשֶׁר בִּיהוּדָה וְיִבֶן אֶת־בֵּית יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל הוּא הָאֱלֹהִים אֲשֶׁר בִּירוּשָׁלָֽ͏ִם׃"
+   ],
+   "sha": [
+    "4155d2bfcf4337693087c95bff9093e9cec767487bf78efe8be8c79b093f60c4",
+    "3d21b246d55e74b9540b95f376d80cf49cd522f72039d91d7ebb125dbb9f072a"
+   ]
+  },
+  {
+   "ref": "Isaiah 11:12",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "[God] will hold up a signal to the nations And assemble the banished of Israel, And gather the dispersed of Judah From the four corners of the earth."
+   ],
+   "sha": [
+    "ce6382c2b10971ac88580c8fb9a019c879c82a54ebe03c6072c094578d08ea82"
+   ]
+  },
+  {
+   "ref": "Isaiah 11:12",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְנָשָׂא נֵס לַגּוֹיִם וְאָסַף נִדְחֵי יִשְׂרָאֵל וּנְפֻצוֹת יְהוּדָה יְקַבֵּץ מֵאַרְבַּע כַּנְפוֹת הָאָֽרֶץ׃"
+   ],
+   "sha": [
+    "eba8c772b22e82505d88726f34427a06d0da0d1885d210a91436f2de75da85ea"
+   ]
+  },
+  {
+   "ref": "Jeremiah 29:5-7",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Build houses and live in them, plant gardens and eat their fruit.",
+    "You should take wives and beget sons and daughters; and you should take wives for your sons, and give your daughters to husbands, that they may bear sons and daughters. Multiply there, do not decrease.",
+    "And seek the welfare of the city to which I have exiled you and pray to GOD in its behalf; for in its prosperity you shall prosper."
+   ],
+   "sha": [
+    "55ecbb9a5a81dbe4ccaec835197e6d9ccc0be1a0e89fb8f935906801459c4f0a",
+    "61d83e28c22bc142c5d82753e3c94e32f72951a6e8064ac9019e95fc98ef391d",
+    "11e6d5e551455f9c4ec82603a86d80e476931972c80e891a7a56e5ddb9df7cc8"
+   ]
+  },
+  {
+   "ref": "Jeremiah 29:5-7",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "בְּנוּ בָתִּים וְשֵׁבוּ וְנִטְעוּ גַנּוֹת וְאִכְלוּ אֶת־פִּרְיָֽן׃",
+    "קְחוּ נָשִׁים וְהוֹלִידוּ בָּנִים וּבָנוֹת וּקְחוּ לִבְנֵיכֶם נָשִׁים וְאֶת־בְּנֽוֹתֵיכֶם תְּנוּ לַאֲנָשִׁים וְתֵלַדְנָה בָּנִים וּבָנוֹת וּרְבוּ־שָׁם וְאַל־תִּמְעָֽטוּ׃",
+    "וְדִרְשׁוּ אֶת־שְׁלוֹם הָעִיר אֲשֶׁר הִגְלֵיתִי אֶתְכֶם שָׁמָּה וְהִתְפַּֽלְלוּ בַעֲדָהּ אֶל־יְהֹוָה כִּי בִשְׁלוֹמָהּ יִהְיֶה לָכֶם שָׁלֽוֹם׃"
+   ],
+   "sha": [
+    "2e22ace3a3cb50a49448637e8179c04a6b9931f973dbb3e303761fb48a3c4047",
+    "86211e16b60658418ffb687f9f67b38a94f75a73ccf037b49a4813e39a5671f5",
+    "d762554d9afb11b07183b29a05e5b57d52e3f44756fe30ed93f39acadd6203ae"
+   ]
+  },
+  {
+   "ref": "Joshua 24:15",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Or, if you are loath to serve GOD, choose this day which ones you are going to serve—the gods that your ancestors served beyond the Euphrates, or those of the Amorites in whose land you are settled; but I and my household will serve GOD.”"
+   ],
+   "sha": [
+    "f3f494259133ae2422b6f8924ac71806d7e1a3cb5453b7f27a5e05ca79121a59"
+   ]
+  },
+  {
+   "ref": "Joshua 24:15",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וְאִם רַע בְּֽעֵינֵיכֶם לַעֲבֹד אֶת־יְהֹוָה בַּחֲרוּ לָכֶם הַיּוֹם אֶת־מִי תַעֲבֹדוּן אִם אֶת־אֱלֹהִים אֲשֶׁר־עָבְדוּ אֲבוֹתֵיכֶם אֲשֶׁר (בעבר) [מֵעֵבֶר] הַנָּהָר וְאִם אֶת־אֱלֹהֵי הָאֱמֹרִי אֲשֶׁר אַתֶּם יֹשְׁבִים בְּאַרְצָם וְאָנֹכִי וּבֵיתִי נַעֲבֹד אֶת־יְהֹוָֽה׃ {פ}"
+   ],
+   "sha": [
+    "35e6fb44bb3c70f5c0d52a174d328a3dd78947e41786e13e326b68d183aa15d4"
+   ]
+  },
+  {
+   "ref": "Joshua 24:2-3",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "Then Joshua said to all the people, “Thus said the ETERNAL, the God of Israel: In olden times, your ancestors—Terah, father of Abraham and father of Nahor—lived beyond the Euphrates and worshiped other gods.",
+    "But I took your ancestor Abraham from beyond the Euphrates and led him through the whole land of Canaan and multiplied his offspring. I gave him Isaac,"
+   ],
+   "sha": [
+    "3a0a85821aa08b0aa62b88be716106fecd7772de7506de3bdeb56673aeef0950",
+    "06de505a9089b464f044e3e4f33cd3aa62a4d4d8acc0beeac7bc9774ae15c717"
+   ]
+  },
+  {
+   "ref": "Joshua 24:2-3",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־כׇּל־הָעָם כֹּה־אָמַר יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל בְּעֵבֶר הַנָּהָר יָשְׁבוּ אֲבֽוֹתֵיכֶם מֵֽעוֹלָם תֶּרַח אֲבִי אַבְרָהָם וַאֲבִי נָחוֹר וַיַּעַבְדוּ אֱלֹהִים אֲחֵרִֽים׃",
+    "וָאֶקַּח אֶת־אֲבִיכֶם אֶת־אַבְרָהָם מֵעֵבֶר הַנָּהָר וָֽאוֹלֵךְ אֹתוֹ בְּכׇל־אֶרֶץ כְּנָעַן (וארב) [וָֽאַרְבֶּה] אֶת־זַרְעוֹ וָאֶתֶּן־לוֹ אֶת־יִצְחָֽק׃"
+   ],
+   "sha": [
+    "6cea5724f0ebed45df8306ebe46bb6f6bf8f48bd866ab68b28c016e0c7853d54",
+    "1fdfe8bfc8188ea80c519d06357bfa937ac4dc3f225433ec15b4704736e30c3d"
+   ]
+  },
+  {
+   "ref": "Judges 21:25",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "In those days there was no king in Israel; everyone did as they pleased."
+   ],
+   "sha": [
+    "dc0fc21bff856d5b1828dba98fdc29c1fd6da4bd129e19668d755e9ec94e4610"
+   ]
+  },
+  {
+   "ref": "Judges 21:25",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "בַּיָּמִים הָהֵם אֵין מֶלֶךְ בְּיִשְׂרָאֵל אִישׁ הַיָּשָׁר בְּעֵינָיו יַעֲשֶֽׂה׃"
+   ],
+   "sha": [
+    "e6ecd36f3974a683f83eec9e29e8247a8daaf07f7efddb5e27776324049d8327"
+   ]
+  },
+  {
+   "ref": "Lamentations 1:1",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "א Alas! Lonely sits the city Once great with people! She that was great among nations Is become like a widow; The princess among states Is become a thrall."
+   ],
+   "sha": [
+    "bef764e562da28f535ef54473b6fa54c4a9aaab44ea9eecd8e24e87597214694"
+   ]
+  },
+  {
+   "ref": "Lamentations 1:1",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "אֵיכָה ׀ יָשְׁבָה בָדָד הָעִיר רַבָּתִי עָם הָיְתָה כְּאַלְמָנָה רַבָּתִי בַגּוֹיִם שָׂרָתִי בַּמְּדִינוֹת הָיְתָה לָמַֽס׃ {ס}"
+   ],
+   "sha": [
+    "aa09f9fb4e29ff3bb97d273071965bc6977b4e503ab3e1a834fe7553adda0144"
+   ]
+  },
+  {
+   "ref": "Nehemiah 8:2-3",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "On the first day of the seventh month, Ezra the priest brought the Teaching before the congregation, men and women and all who could listen with understanding.",
+    "He read from it, facing the square before the Water Gate, from the first light until midday, to the men and the women and those who could understand; the ears of all the people were given to the scroll of the Teaching."
+   ],
+   "sha": [
+    "4fb25bd3274473ca97afd2f1e89fffeab5f689d8a72a7049abd5121704539e3e",
+    "e2d12dae8f63487b1c5db14b23fd6a1cdd54da8e01bf5880065ed1177a3a7ce6"
+   ]
+  },
+  {
+   "ref": "Nehemiah 8:2-3",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַיָּבִיא עֶזְרָא הַכֹּהֵן אֶֽת־הַתּוֹרָה לִפְנֵי הַקָּהָל מֵאִישׁ וְעַד־אִשָּׁה וְכֹל מֵבִין לִשְׁמֹעַ בְּיוֹם אֶחָד לַחֹדֶשׁ הַשְּׁבִיעִֽי׃",
+    "וַיִּקְרָא־בוֹ לִפְנֵי הָרְחוֹב אֲשֶׁר ׀ לִפְנֵי שַֽׁעַר־הַמַּיִם מִן־הָאוֹר עַד־מַחֲצִית הַיּוֹם נֶגֶד הָאֲנָשִׁים וְהַנָּשִׁים וְהַמְּבִינִים וְאׇזְנֵי כׇל־הָעָם אֶל־סֵפֶר הַתּוֹרָֽה׃"
+   ],
+   "sha": [
+    "1f5e6b52bf41152fa920d6980fe1c399f8d28fe05eb62590ebd284e29440b894",
+    "e9c76433d48e25a1aa2a79050e9c1802756e8cb9932ac7ba7726b268089d2088"
+   ]
+  },
+  {
+   "ref": "Nehemiah 8:8",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "They read from the scroll of the Teaching of God, translating it and giving the sense; so they understood the reading."
+   ],
+   "sha": [
+    "790225a752209db3eeab5ad710decb24523d9aae1fb56d4f8ab0134cc2084fee"
+   ]
+  },
+  {
+   "ref": "Nehemiah 8:8",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "וַֽיִּקְרְאוּ בַסֵּפֶר בְּתוֹרַת הָאֱלֹהִים מְפֹרָשׁ וְשׂוֹם שֶׂכֶל וַיָּבִינוּ בַּמִּקְרָֽא׃ {פ}"
+   ],
+   "sha": [
+    "cf5e41f6248476ce22f94ba42309fd6af463aba291bd0db7188cc416db70bcd2"
+   ]
+  },
+  {
+   "ref": "Psalms 137:1",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "By the rivers of Babylon, there we sat, sat and wept, as we thought of Zion."
+   ],
+   "sha": [
+    "fc7cfa32e53099472c52b8d104120959d6149bc88313109f7ba270d7aa15d783"
+   ]
+  },
+  {
+   "ref": "Psalms 137:1",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "עַל־נַהֲרוֹת ׀ בָּבֶל שָׁם יָשַׁבְנוּ גַּם־בָּכִינוּ בְּזׇכְרֵנוּ אֶת־צִיּֽוֹן׃"
+   ],
+   "sha": [
+    "5a26377bde37f6d8c374c08174d3022c206ee095b91ac95268cfe5ab70de6afb"
+   ]
+  },
+  {
+   "ref": "Psalms 137:5-6",
+   "lang": "en",
+   "version": "THE JPS TANAKH: Gender-Sensitive Edition",
+   "license": "CC-BY-NC",
+   "text": [
+    "If I forget you, O Jerusalem, let my right hand wither;",
+    "let my tongue stick to my palate if I cease to think of you, if I do not keep Jerusalem in memory even at my happiest hour."
+   ],
+   "sha": [
+    "57cfd8bcc923c68d5f26a72020a3655e8d8993b7b75649801f43612bdb920d6d",
+    "cf6f0f734c0149fd32656b2ef2271882c065f55dc12eced0b2b9bc2ce0265131"
+   ]
+  },
+  {
+   "ref": "Psalms 137:5-6",
+   "lang": "he",
+   "version": "Miqra according to the Masorah",
+   "license": "CC-BY-SA",
+   "text": [
+    "אִֽם־אֶשְׁכָּחֵךְ יְֽרוּשָׁלָ͏ִם תִּשְׁכַּח יְמִינִֽי׃",
+    "תִּדְבַּֽק־לְשׁוֹנִי ׀ לְחִכִּי אִם־לֹא אֶזְכְּרֵכִי אִם־לֹא אַעֲלֶה אֶת־יְרוּשָׁלַ͏ִם עַל רֹאשׁ שִׂמְחָתִֽי׃"
+   ],
+   "sha": [
+    "8b950c4c58fc0ac7ac2df7f3bb22d4048b4b46e774d24806c61b81aa6ae2de6b",
+    "c8be305623054cffae070688d2d986653820ba3889a08aec98ee7857dcca4e59"
+   ]
+  }
+ ]
+}

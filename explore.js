@@ -65,7 +65,7 @@ self.KavanahExplore = (api) => {
           c.tlf ? h("div", { class: "flag" }, "Transliteration has a spot to check (often a kamatz katan or sh'va).") : null];
       case "timeline": {
         const pts = l.cards.filter((x) => x.kind === "timeline");
-        return [h("ol", { class: "tl-strip" }, pts.map((x) => h("li", { class: x === c ? "on" : "" }, h("b", {}, x.when), h("span", {}, x === c ? rich(x.body) : x.body))))];
+        return [h("ol", { class: "tl-strip" }, pts.map((x) => h("li", { class: x === c ? "on" : "" }, h("b", {}, x.when), h("span", {}, x === c ? rich(x.body) : x.body.replace(/\*\*/g, "")))))];
       }
       case "diagram": { const d = h("div", { class: "diagram", html: c.svg }); return [c.title ? h("div", { class: "name" }, c.title) : null, d, c.body ? h("p", { class: "xbody" }, rich(c.body)) : null]; }
       case "relevance":
